@@ -4,7 +4,7 @@
 
 ![绘本](https://img.shields.io/badge/绘本-672本-e8723c?style=flat-square)
 ![系列](https://img.shields.io/badge/系列-37个-f0a05c?style=flat-square)
-![音频](https://img.shields.io/badge/音频-100%支持-27ae60?style=flat-square)
+![音频](https://img.shields.io/badge/音频-100_25支持-27ae60?style=flat-square)
 ![技术](https://img.shields.io/badge/技术-Vanilla_JS-blue?style=flat-square)
 
 ---
