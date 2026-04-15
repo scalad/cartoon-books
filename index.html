@@ -554,6 +554,109 @@ body {
     50% { box-shadow: 0 4px 36px rgba(232,114,60,0.6); }
 }
 
+/* Reading History Panel */
+.history-panel-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 1200;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+.history-panel-overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+.history-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: min(440px, 100vw);
+    height: 100%;
+    background: var(--bg-card);
+    box-shadow: -8px 0 30px rgba(0,0,0,0.2);
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+.history-panel-overlay.show .history-panel { transform: translateX(0); }
+.history-panel-header {
+    height: 58px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px 0 16px;
+}
+.history-panel-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.history-panel-close {
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.history-panel-close:hover { background: var(--tag-bg); }
+.history-list {
+    padding: 10px 12px 12px;
+    overflow: auto;
+    flex: 1;
+}
+.history-item {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 11px 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.history-item:hover {
+    border-color: rgba(232,114,60,0.35);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+}
+.history-item-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.45;
+    margin-bottom: 4px;
+}
+.history-item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+.history-item-meta span {
+    background: var(--tag-bg);
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+.history-empty {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    gap: 8px;
+    text-align: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .navbar { padding: 0 14px; height: 52px; }
@@ -581,6 +684,7 @@ body {
     .ctrl-btn.play-btn { width: 46px; height: 46px; font-size: 20px; }
     .player-controls { padding: 10px 14px 14px; }
     .stage-nav-left, .stage-nav-right { width: 36px; height: 36px; font-size: 14px; }
+    .history-panel-header { height: 52px; }
 }
 
 @media (max-width: 600px) {
@@ -594,6 +698,7 @@ body {
     .card-info { padding: 8px 10px 10px; }
     .card-title { font-size: 12px; }
     .nav-center { padding: 0 6px; }
+    .history-panel { width: 100vw; }
 }
 </style>
 </head>
@@ -617,6 +722,7 @@ body {
     <div class="nav-actions">
         <button class="nav-btn" id="favNavBtn" onclick="toggleFavFilter()" title="我的收藏">❤️<span class="badge-count" id="favBadgeCount" style="display:none">0</span></button>
         <button class="nav-btn" id="recentNavBtn" onclick="toggleRecentFilter()" title="最近阅读">🕐</button>
+        <button class="nav-btn" id="historyNavBtn" onclick="toggleHistoryPanel()" title="历史阅读">📚<span class="badge-count" id="historyBadgeCount" style="display:none">0</span></button>
         <button class="nav-btn theme-switcher" onclick="toggleThemeMenu()" title="切换主题">🌙</button>
         <div class="theme-dropdown" id="themeDropdown">
             <button class="theme-option active" data-theme="light" onclick="setTheme('light')"><span class="theme-dot light"></span>亮色模式</button>
@@ -645,6 +751,10 @@ body {
                     <span class="stat-inline"><strong id="totalSeriesCount">0</strong> 个系列</span>
                     <span class="stat-divider"></span>
                     <span class="stat-inline"><strong id="audioBooksCount">0</strong> 带音频</span>
+                    <span class="stat-divider"></span>
+                    <span class="stat-inline"><strong id="readBooksCount">0</strong> 已读绘本</span>
+                    <span class="stat-divider"></span>
+                    <span class="stat-inline"><strong id="totalReadCount">0</strong> 阅读次数</span>
                 </div>
                 <span class="filter-label">📂 系列：</span>
                 <div class="series-dropdown-wrapper">
@@ -667,6 +777,17 @@ body {
         <div class="books-grid" id="booksGrid"></div>
     </div>
 </main>
+
+<!-- History Panel -->
+<div class="history-panel-overlay" id="historyPanelOverlay" onclick="onHistoryOverlayClick(event)">
+    <aside class="history-panel">
+        <div class="history-panel-header">
+            <div class="history-panel-title">历史阅读</div>
+            <button class="history-panel-close" onclick="closeHistoryPanel()">✕</button>
+        </div>
+        <div class="history-list" id="historyList"></div>
+    </aside>
+</div>
 
 <!-- Player -->
 <div class="player-view" id="playerView">
@@ -734,6 +855,7 @@ const state = {
     favorites: JSON.parse(localStorage.getItem('pb_favorites') || '[]'),
     recentRead: JSON.parse(localStorage.getItem('pb_recent') || '[]'),
     readingProgress: JSON.parse(localStorage.getItem('pb_progress') || '{}'),
+    readStats: JSON.parse(localStorage.getItem('pb_read_stats') || '{}'),
     theme: localStorage.getItem('pb_theme') || 'light',
 };
 
@@ -743,6 +865,93 @@ function formatTime(s) { if (!s || isNaN(s)) return '0:00'; const m = Math.floor
 function escapeHtml(str) { const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
 function encodePath(fp) { return fp ? fp.split('/').map(s => encodeURIComponent(s)).join('/') : ''; }
 function debounce(fn, d = 250) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), d); }; }
+function formatDateTime(ts) {
+    if (!ts) return '未知时间';
+    const d = new Date(ts);
+    if (isNaN(d.getTime())) return '未知时间';
+    const p = n => String(n).padStart(2, '0');
+    return d.getFullYear() + '-' + p(d.getMonth()+1) + '-' + p(d.getDate()) + ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+}
+function getSavedPage(folder) {
+    const progress = state.readingProgress[folder];
+    if (!progress) return 0;
+    return typeof progress.page === 'number' ? progress.page : 0;
+}
+function getDisplayProgress(folder, pageCount) {
+    const page = Math.max(0, getSavedPage(folder));
+    const pageNumber = Math.min(page + 1, Math.max(1, pageCount || 1));
+    return pageNumber + '/' + (pageCount || 0);
+}
+function getReadCount(folder) {
+    const stat = state.readStats[folder];
+    return stat && Number.isFinite(stat.readCount) ? stat.readCount : 0;
+}
+function getReadBookCount() {
+    return Object.values(state.readStats).filter(v => (v?.readCount || 0) > 0).length;
+}
+function getTotalReadCount() {
+    return Object.values(state.readStats).reduce((sum, v) => sum + (v?.readCount || 0), 0);
+}
+function persistReadStats() {
+    localStorage.setItem('pb_read_stats', JSON.stringify(state.readStats));
+}
+function migrateReadStatsFromProgress() {
+    let changed = false;
+    Object.entries(state.readingProgress).forEach(([folder, progress]) => {
+        if (!state.readStats[folder]) {
+            state.readStats[folder] = {
+                readCount: 1,
+                lastReadAt: progress?.time || Date.now(),
+                lastPage: typeof progress?.page === 'number' ? progress.page : 0,
+            };
+            changed = true;
+        }
+    });
+    if (changed) persistReadStats();
+}
+function updateReadingStatsUI() {
+    const readBooksCount = getReadBookCount();
+    const totalReadCount = getTotalReadCount();
+    $('#readBooksCount').textContent = String(readBooksCount);
+    $('#totalReadCount').textContent = String(totalReadCount);
+    const historyBadge = $('#historyBadgeCount');
+    if (readBooksCount > 0) {
+        historyBadge.textContent = String(readBooksCount);
+        historyBadge.style.display = '';
+    } else {
+        historyBadge.style.display = 'none';
+    }
+}
+function touchReadStat(folder, pageIndex) {
+    if (!folder) return;
+    const old = state.readStats[folder] || { readCount: 0, lastReadAt: 0, lastPage: 0 };
+    state.readStats[folder] = {
+        readCount: old.readCount,
+        lastReadAt: Date.now(),
+        lastPage: Math.max(0, Number.isFinite(pageIndex) ? pageIndex : old.lastPage || 0),
+    };
+    persistReadStats();
+    updateReadingStatsUI();
+    renderHistoryPanel();
+}
+function trackBookOpened(book) {
+    if (!book) return;
+    const old = state.readStats[book.folder] || { readCount: 0, lastReadAt: 0, lastPage: 0 };
+    state.readStats[book.folder] = {
+        readCount: (old.readCount || 0) + 1,
+        lastReadAt: Date.now(),
+        lastPage: Math.max(0, state.currentPageIndex || 0),
+    };
+    persistReadStats();
+    updateReadingStatsUI();
+    renderHistoryPanel();
+}
+function getHistoryItems() {
+    return state.books
+        .map(book => ({ book, stat: state.readStats[book.folder] }))
+        .filter(item => item.stat && (item.stat.readCount || 0) > 0)
+        .sort((a, b) => (b.stat.lastReadAt || 0) - (a.stat.lastReadAt || 0));
+}
 
 // Data Loading
 async function loadBooksData() {
@@ -755,6 +964,9 @@ async function loadBooksData() {
         $('#totalBooksCount').textContent = state.books.length;
         $('#totalSeriesCount').textContent = state.seriesList.length;
         $('#audioBooksCount').textContent = state.books.filter(b => b.hasAudio).length;
+        migrateReadStatsFromProgress();
+        updateReadingStatsUI();
+        renderHistoryPanel();
         applyFilters(); renderFilters(); updateFavBadge(); hideLoading();
     } catch(e) {
         console.error('Load failed:', e);
@@ -819,6 +1031,8 @@ function renderBooksGrid(books) {
     grid.innerHTML = books.map((book, idx) => {
         const isFav = state.favorites.includes(book.folder);
         const progress = state.readingProgress[book.folder];
+        const readCount = getReadCount(book.folder);
+        const progressText = progress ? getDisplayProgress(book.folder, book.pageCount) : '';
         const coverUrl = CONFIG.BASE_URL + encodePath(book.cover);
         return `
         <div class="book-card" style="animation-delay:${Math.min(idx*0.03,0.5)}s" onclick="openBook('${book.folder}')">
@@ -833,7 +1047,8 @@ function renderBooksGrid(books) {
                 <div class="card-meta">
                     <span class="card-pages">📄 ${book.pageCount} 页</span>
                     ${book.hasAudio ? '<span class="card-audio-icon">🔊</span>' : ''}
-                    ${progress ? `<span style="margin-left:auto;color:var(--accent);font-size:10px">已读 ${(progress.page||0)}/${book.pageCount}</span>` : ''}
+                    ${progress ? `<span style="margin-left:auto;color:var(--accent);font-size:10px">进度 ${progressText}</span>` : ''}
+                    ${readCount > 0 ? `<span style="color:var(--text-secondary);font-size:10px">读了 ${readCount} 次</span>` : ''}
                 </div>
             </div>
         </div>`;
@@ -892,6 +1107,7 @@ function openBook(folder) {
     localStorage.setItem('pb_recent', JSON.stringify(state.recentRead));
     const saved = state.readingProgress[folder];
     if (saved && saved.page > 0) state.currentPageIndex = Math.min(saved.page, book.images.length - 1);
+    trackBookOpened(book);
 
     $('#playerBookTitle').textContent = book.title;
     $('#playerSeriesName').textContent = book.series;
@@ -1085,6 +1301,43 @@ function updatePlayerFavBtn(){
 function toggleFavFilter(){state.showFavoritesOnly=!state.showFavoritesOnly;state.showRecentOnly=false;$('#favNavBtn').classList.toggle('active',state.showFavoritesOnly);$('#recentNavBtn').classList.toggle('active',false);applyFilters();}
 function toggleRecentFilter(){state.showRecentOnly=!state.showRecentOnly;state.showFavoritesOnly=false;$('#recentNavBtn').classList.toggle('active',state.showRecentOnly);$('#favNavBtn').classList.toggle('active',false);applyFilters();}
 
+// Reading History
+function renderHistoryPanel() {
+    const container = $('#historyList');
+    if (!container || !state.books.length) return;
+    const items = getHistoryItems();
+    if (!items.length) {
+        container.innerHTML = '<div class="history-empty"><div style="font-size:36px">📚</div><div>还没有历史阅读记录</div><small>打开一本绘本后会自动记录进度和阅读次数</small></div>';
+        return;
+    }
+    container.innerHTML = items.map(({ book, stat }) => `
+        <button class="history-item" onclick="openFromHistory('${book.folder}')">
+            <div class="history-item-title">${escapeHtml(book.title)}</div>
+            <div class="history-item-meta">
+                <span>${escapeHtml(book.series)}</span>
+                <span>进度 ${getDisplayProgress(book.folder, book.pageCount)}</span>
+                <span>阅读 ${stat.readCount || 0} 次</span>
+                <span>最近 ${formatDateTime(stat.lastReadAt)}</span>
+            </div>
+        </button>
+    `).join('');
+}
+function openFromHistory(folder) { closeHistoryPanel(); openBook(folder); }
+function toggleHistoryPanel() {
+    const overlay = $('#historyPanelOverlay');
+    const willShow = !overlay.classList.contains('show');
+    overlay.classList.toggle('show', willShow);
+    $('#historyNavBtn').classList.toggle('active', willShow);
+    if (willShow) renderHistoryPanel();
+}
+function closeHistoryPanel() {
+    $('#historyPanelOverlay').classList.remove('show');
+    $('#historyNavBtn').classList.remove('active');
+}
+function onHistoryOverlayClick(e) {
+    if (e.target.id === 'historyPanelOverlay') closeHistoryPanel();
+}
+
 // Series
 function filterBySeries(series){state.activeSeriesFilter=series;$$('.series-option').forEach(o=>o.classList.toggle('active',(o.dataset.series||'all')===series));updateSeriesInputText();applyFilters();}
 
@@ -1106,7 +1359,8 @@ function toggleImmersive() {
 }
 
 function enterImmersive() {
-    $('#playerView').classList.add('immersive');
+    const pv = $('#playerView');
+    pv.classList.add('immersive');
     clearTimeout(immersiveTimer);
     // 隐藏关闭和全屏按钮，只留翻页
     $$('.stage-close-btn, .stage-fs-btn').forEach(btn => btn.style.opacity = '0');
@@ -1135,10 +1389,15 @@ function startImmersiveTimer() {
 }
 
 // Progress Persistence
-function saveReadingProgress(){if(!state.currentBook)return;state.readingProgress[state.currentBook.folder]={page:state.currentPageIndex,time:Date.now()};localStorage.setItem('pb_progress',JSON.stringify(state.readingProgress));}
+function saveReadingProgress(){
+    if(!state.currentBook)return;
+    state.readingProgress[state.currentBook.folder]={page:state.currentPageIndex,time:Date.now()};
+    localStorage.setItem('pb_progress',JSON.stringify(state.readingProgress));
+    touchReadStat(state.currentBook.folder, state.currentPageIndex);
+}
 
 // Navigation
-function goHome(){state.activeSeriesFilter='all';state.sortBy='default';$$('.sort-btn').forEach(b=>b.classList.toggle('active',b.dataset.sort==='default'));state.showFavoritesOnly=false;state.showRecentOnly=false;state.searchQuery='';$('#searchInput').value='';$('#favNavBtn').classList.remove('active');$('#recentNavBtn').classList.remove('active');updateSeriesInputText();applyFilters();renderFilters();window.scrollTo({top:0,behavior:'smooth'});}
+function goHome(){state.activeSeriesFilter='all';state.sortBy='default';$$('.sort-btn').forEach(b=>b.classList.toggle('active',b.dataset.sort==='default'));state.showFavoritesOnly=false;state.showRecentOnly=false;state.searchQuery='';$('#searchInput').value='';$('#favNavBtn').classList.remove('active');$('#recentNavBtn').classList.remove('active');closeHistoryPanel();updateSeriesInputText();applyFilters();renderFilters();window.scrollTo({top:0,behavior:'smooth'});}
 
 $('#searchInput')?.addEventListener?.('input', e=>debouncedSearch(e.target.value));
 
