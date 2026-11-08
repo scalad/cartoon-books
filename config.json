@@ -1,0 +1,6 @@
+{
+  "booksDir": "D:\\绘本",
+  "videosDir": "d:\\视频",
+  "port": 3001,
+  "_comment": "⚙️ 统一配置：booksDir = 绘本目录，videosDir = 视频目录（若在 booksDir 内会自动跳过）"
+}
