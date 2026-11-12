@@ -39,6 +39,7 @@ const MIME_TYPES = {
     '.webp': 'image/webp',
     '.svg': 'image/svg+xml',
     '.mp3': 'audio/mpeg',
+    '.m4a': 'audio/mp4',
     '.mp4': 'video/mp4',
     '.webm': 'video/webm',
     '.mov': 'video/quicktime',
@@ -122,7 +123,7 @@ function serveStream(req, res, filePath) {
 
 function serveFile(req, res, filePath, statusCode = 200) {
     const ext = path.extname(filePath).toLowerCase();
-    const streamExt = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.mp3', '.mp4', '.webm', '.mov', '.m4v', '.wav', '.ogg'];
+    const streamExt = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.mp3', '.m4a', '.mp4', '.webm', '.mov', '.m4v', '.wav', '.ogg'];
     if (streamExt.includes(ext)) {
         return serveStream(req, res, filePath);
     }

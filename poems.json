@@ -1,0 +1,364 @@
+[
+  {
+    "id": "jing-ye-si",
+    "title": "静夜思",
+    "titlePinyin": "jìng yè sī",
+    "author": "李白",
+    "authorPinyin": "lǐ bái",
+    "dynasty": "唐",
+    "theme": "月夜",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "床前明月光，", "pinyin": "chuáng qián míng yuè guāng", "words": ["床前", "明月", "光", "，"], "keyword": "月光", "meaning": "明亮的月光洒在床前。", "image": "moon"},
+      {"text": "疑是地上霜。", "pinyin": "yí shì dì shàng shuāng", "words": ["疑是", "地上", "霜", "。"], "keyword": "白霜", "meaning": "看起来像地上铺了一层白霜。", "image": "moon"},
+      {"text": "举头望明月，", "pinyin": "jǔ tóu wàng míng yuè", "words": ["举头", "望", "明月", "，"], "keyword": "抬头", "meaning": "我抬起头望着明亮的月亮。", "image": "moon"},
+      {"text": "低头思故乡。", "pinyin": "dī tóu sī gù xiāng", "words": ["低头", "思", "故乡", "。"], "keyword": "家乡", "meaning": "低下头时，又想起了自己的家乡。", "image": "family"}
+    ],
+    "notes": ["疑：怀疑，这里是觉得像。", "举头：抬起头。", "故乡：自己原来生活的家乡。"],
+    "scene": "安静的夜里，一个人坐在床边。月光铺在地上，他望望月亮，又想起远方的家。"
+  },
+  {
+    "id": "chun-xiao",
+    "title": "春晓",
+    "titlePinyin": "chūn xiǎo",
+    "author": "孟浩然",
+    "authorPinyin": "mèng hào rán",
+    "dynasty": "唐",
+    "theme": "春天",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "春眠不觉晓，", "pinyin": "chūn mián bù jué xiǎo", "words": ["春眠", "不觉", "晓", "，"], "keyword": "春眠", "meaning": "春天睡得香，不知不觉天就亮了。", "image": "spring"},
+      {"text": "处处闻啼鸟。", "pinyin": "chù chù wén tí niǎo", "words": ["处处", "闻", "啼鸟", "。"], "keyword": "鸟鸣", "meaning": "到处都能听见小鸟的叫声。", "image": "spring"},
+      {"text": "夜来风雨声，", "pinyin": "yè lái fēng yǔ shēng", "words": ["夜来", "风雨声", "，"], "keyword": "风雨", "meaning": "想起昨夜听到了风声和雨声。", "image": "spring"},
+      {"text": "花落知多少。", "pinyin": "huā luò zhī duō shǎo", "words": ["花落", "知", "多少", "。"], "keyword": "落花", "meaning": "不知道有多少花被风雨打落了。", "image": "spring"}
+    ],
+    "notes": ["晓：天刚亮的时候。", "闻：听见。", "啼鸟：鸣叫的小鸟。", "夜来：昨夜。"],
+    "scene": "春天的清晨，窗外小鸟叫个不停。刚睡醒的人想起昨夜的风雨，好奇院子里落了多少花。"
+  },
+  {
+    "id": "yong-e",
+    "title": "咏鹅",
+    "titlePinyin": "yǒng é",
+    "author": "骆宾王",
+    "authorPinyin": "luò bīn wáng",
+    "dynasty": "唐",
+    "theme": "田园",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "鹅，鹅，鹅，", "pinyin": "é é é", "words": ["鹅", "，", "鹅", "，", "鹅", "，"], "keyword": "白鹅", "meaning": "看呀，几只可爱的鹅！", "image": "river"},
+      {"text": "曲项向天歌。", "pinyin": "qū xiàng xiàng tiān gē", "words": ["曲项", "向天", "歌", "。"], "keyword": "弯颈", "meaning": "它们弯着脖子，朝着天空叫。", "image": "river"},
+      {"text": "白毛浮绿水，", "pinyin": "bái máo fú lǜ shuǐ", "words": ["白毛", "浮", "绿水", "，"], "keyword": "白毛", "meaning": "雪白的身体浮在碧绿的水面上。", "image": "river"},
+      {"text": "红掌拨清波。", "pinyin": "hóng zhǎng bō qīng bō", "words": ["红掌", "拨", "清波", "。"], "keyword": "红掌", "meaning": "红色的脚掌划动着清清的水波。", "image": "river"}
+    ],
+    "notes": ["咏：用诗来描写、赞美。", "曲项：弯着脖子。", "掌：这里指鹅的脚掌。", "拨：划动。"],
+    "scene": "村边的池塘里，白鹅伸着弯弯的脖子叫。红脚掌轻轻划水，身后留下了一圈圈水纹。"
+  },
+  {
+    "id": "deng-guan-que-lou",
+    "title": "登鹳雀楼",
+    "titlePinyin": "dēng guàn què lóu",
+    "author": "王之涣",
+    "authorPinyin": "wáng zhī huàn",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "白日依山尽，", "pinyin": "bái rì yī shān jìn", "words": ["白日", "依山", "尽", "，"], "keyword": "落日", "meaning": "太阳挨着远山慢慢落下。", "image": "mountain"},
+      {"text": "黄河入海流。", "pinyin": "huáng hé rù hǎi liú", "words": ["黄河", "入海", "流", "。"], "keyword": "黄河", "meaning": "黄河奔流着，向大海流去。", "image": "river"},
+      {"text": "欲穷千里目，", "pinyin": "yù qióng qiān lǐ mù", "words": ["欲", "穷", "千里目", "，"], "keyword": "远望", "meaning": "如果想把很远的景色都看清，", "image": "mountain"},
+      {"text": "更上一层楼。", "pinyin": "gèng shàng yī céng lóu", "words": ["更", "上", "一层楼", "。"], "keyword": "登楼", "meaning": "就要再登上一层楼。", "image": "mountain"}
+    ],
+    "notes": ["依：靠着、挨着。", "欲：想要。", "穷：尽，这里指看到尽头。", "千里目：能望到很远处的视野。"],
+    "scene": "傍晚，楼上的人看见太阳落到山后，黄河向远方奔流。他再上一层楼，眼前的天地更开阔了。"
+  },
+  {
+    "id": "min-nong-qi-er",
+    "title": "悯农（其二）",
+    "titlePinyin": "mǐn nóng qí èr",
+    "author": "李绅",
+    "authorPinyin": "lǐ shēn",
+    "dynasty": "唐",
+    "theme": "田园",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "锄禾日当午，", "pinyin": "chú hé rì dāng wǔ", "words": ["锄禾", "日当午", "，"], "keyword": "锄禾", "meaning": "正午的太阳下，农民还在给庄稼锄草。", "image": "field"},
+      {"text": "汗滴禾下土。", "pinyin": "hàn dī hé xià tǔ", "words": ["汗", "滴", "禾下土", "。"], "keyword": "汗滴", "meaning": "汗水一滴滴落进庄稼下面的泥土。", "image": "field"},
+      {"text": "谁知盘中餐，", "pinyin": "shéi zhī pán zhōng cān", "words": ["谁", "知", "盘中餐", "，"], "keyword": "饭菜", "meaning": "有谁知道盘子里的饭食，", "image": "field"},
+      {"text": "粒粒皆辛苦。", "pinyin": "lì lì jiē xīn kǔ", "words": ["粒粒", "皆", "辛苦", "。"], "keyword": "米粒", "meaning": "每一粒都来自农民辛苦的劳动。", "image": "field"}
+    ],
+    "notes": ["悯：同情。", "锄禾：给庄稼松土、除草。", "日当午：太阳正高，是中午。", "皆：都。"],
+    "scene": "烈日照着田地，农民弯腰锄草，汗水滴进泥土。想到碗里的一粒粒米，我们就会更加珍惜粮食。"
+  },
+  {
+    "id": "min-nong-qi-yi",
+    "title": "悯农（其一）",
+    "titlePinyin": "mǐn nóng qí yī",
+    "author": "李绅",
+    "authorPinyin": "lǐ shēn",
+    "dynasty": "唐",
+    "theme": "田园",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "春种一粒粟，", "pinyin": "chūn zhòng yī lì sù", "words": ["春", "种", "一粒粟", "，"], "keyword": "播种", "meaning": "春天种下一粒谷子，", "image": "field"},
+      {"text": "秋收万颗子。", "pinyin": "qiū shōu wàn kē zǐ", "words": ["秋", "收", "万颗子", "。"], "keyword": "秋收", "meaning": "秋天就能收获许多谷粒。", "image": "field"},
+      {"text": "四海无闲田，", "pinyin": "sì hǎi wú xián tián", "words": ["四海", "无", "闲田", "，"], "keyword": "田地", "meaning": "各地的田都种上了庄稼，没有闲着的田。", "image": "field"},
+      {"text": "农夫犹饿死。", "pinyin": "nóng fū yóu è sǐ", "words": ["农夫", "犹", "饿死", "。"], "keyword": "农夫", "meaning": "可是种田的农民仍然有人饿死。", "image": "field"}
+    ],
+    "notes": ["粟：谷子，也泛指粮食。", "万颗：形容收获的谷粒很多。", "四海：这里指全国各地。", "犹：仍然。"],
+    "scene": "春天，农民把种子埋进土里；秋天，田野结满谷穗。粮食丰收了，辛苦种田的人却还可能吃不饱，令人难过。"
+  },
+  {
+    "id": "wang-lu-shan-pu-bu",
+    "title": "望庐山瀑布",
+    "titlePinyin": "wàng lú shān pù bù",
+    "author": "李白",
+    "authorPinyin": "lǐ bái",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "日照香炉生紫烟，", "pinyin": "rì zhào xiāng lú shēng zǐ yān", "words": ["日照", "香炉", "生", "紫烟", "，"], "keyword": "紫烟", "meaning": "阳光照在香炉峰上，升起紫色的云雾。", "image": "mountain"},
+      {"text": "遥看瀑布挂前川。", "pinyin": "yáo kàn pù bù guà qián chuān", "words": ["遥看", "瀑布", "挂", "前川", "。"], "keyword": "瀑布", "meaning": "远远望去，瀑布像挂在山前的一条大河。", "image": "river"},
+      {"text": "飞流直下三千尺，", "pinyin": "fēi liú zhí xià sān qiān chǐ", "words": ["飞流", "直下", "三千尺", "，"], "keyword": "飞流", "meaning": "水流从极高的地方直冲下来。", "image": "river"},
+      {"text": "疑是银河落九天。", "pinyin": "yí shì yín hé luò jiǔ tiān", "words": ["疑是", "银河", "落", "九天", "。"], "keyword": "银河", "meaning": "真像天上的银河从高空落到了人间。", "image": "river"}
+    ],
+    "notes": ["香炉：这里指庐山的香炉峰。", "遥看：从远处看。", "三千尺：夸张地形容瀑布很高。", "九天：极高的天空。"],
+    "scene": "阳光照亮山峰，云雾带着淡淡的紫色。巨大的瀑布从山间飞落，像一条闪亮的银河垂在眼前。"
+  },
+  {
+    "id": "jue-ju-du-fu",
+    "title": "绝句",
+    "titlePinyin": "jué jù",
+    "author": "杜甫",
+    "authorPinyin": "dù fǔ",
+    "dynasty": "唐",
+    "theme": "春天",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "两个黄鹂鸣翠柳，", "pinyin": "liǎng gè huáng lí míng cuì liǔ", "words": ["两个", "黄鹂", "鸣", "翠柳", "，"], "keyword": "黄鹂", "meaning": "两只黄鹂在翠绿的柳树间鸣叫。", "image": "spring"},
+      {"text": "一行白鹭上青天。", "pinyin": "yī háng bái lù shàng qīng tiān", "words": ["一行", "白鹭", "上", "青天", "。"], "keyword": "白鹭", "meaning": "一排白鹭飞向蓝蓝的天空。", "image": "spring"},
+      {"text": "窗含西岭千秋雪，", "pinyin": "chuāng hán xī lǐng qiān qiū xuě", "words": ["窗", "含", "西岭", "千秋雪", "，"], "keyword": "雪山", "meaning": "从窗口望去，西岭长年不化的积雪像嵌在窗框里。", "image": "mountain"},
+      {"text": "门泊东吴万里船。", "pinyin": "mén bó dōng wú wàn lǐ chuán", "words": ["门", "泊", "东吴", "万里船", "。"], "keyword": "泊船", "meaning": "门外停着要远航到东吴的船。", "image": "river"}
+    ],
+    "notes": ["黄鹂：羽毛多为黄色、叫声清脆的鸟。", "一行：一排，行读 háng。", "千秋雪：山上长年不化的积雪。", "泊：停船，读 bó。", "东吴：这里指长江下游一带。"],
+    "scene": "春日的小屋外，黄鹂在柳枝间歌唱，白鹭排队飞上天空。窗框里映着远山白雪，门前河边停着远行的船。"
+  },
+  {
+    "id": "jiang-xue",
+    "title": "江雪",
+    "titlePinyin": "jiāng xuě",
+    "author": "柳宗元",
+    "authorPinyin": "liǔ zōng yuán",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "千山鸟飞绝，", "pinyin": "qiān shān niǎo fēi jué", "words": ["千山", "鸟飞", "绝", "，"], "keyword": "群山", "meaning": "许多山上都看不到飞鸟。", "image": "mountain"},
+      {"text": "万径人踪灭。", "pinyin": "wàn jìng rén zōng miè", "words": ["万径", "人踪", "灭", "。"], "keyword": "小路", "meaning": "一条条小路上也看不到人的踪迹。", "image": "mountain"},
+      {"text": "孤舟蓑笠翁，", "pinyin": "gū zhōu suō lì wēng", "words": ["孤舟", "蓑笠翁", "，"], "keyword": "孤舟", "meaning": "一只孤单的小船上，坐着穿蓑衣、戴斗笠的老人。", "image": "river"},
+      {"text": "独钓寒江雪。", "pinyin": "dú diào hán jiāng xuě", "words": ["独钓", "寒江", "雪", "。"], "keyword": "独钓", "meaning": "他独自在下着雪的寒冷江面上钓鱼。", "image": "river"}
+    ],
+    "notes": ["绝：没有了。", "径：小路。", "踪：留下的痕迹。", "蓑笠：挡雨雪的草编衣服和帽子。", "翁：老人。"],
+    "scene": "白雪覆盖群山和小路，四周静悄悄的。江面上只有一只小船，一位老人披着蓑衣，安静地垂钓。"
+  },
+  {
+    "id": "lu-zhai",
+    "title": "鹿柴",
+    "titlePinyin": "lù zhài",
+    "author": "王维",
+    "authorPinyin": "wáng wéi",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "空山不见人，", "pinyin": "kōng shān bù jiàn rén", "words": ["空山", "不见", "人", "，"], "keyword": "空山", "meaning": "幽静的山里看不见人。", "image": "mountain"},
+      {"text": "但闻人语响。", "pinyin": "dàn wén rén yǔ xiǎng", "words": ["但", "闻", "人语", "响", "。"], "keyword": "人声", "meaning": "却能听见有人说话的声音在回响。", "image": "mountain"},
+      {"text": "返景入深林，", "pinyin": "fǎn yǐng rù shēn lín", "words": ["返景", "入", "深林", "，"], "keyword": "夕光", "meaning": "夕阳的光照进了深深的树林。", "image": "mountain"},
+      {"text": "复照青苔上。", "pinyin": "fù zhào qīng tái shàng", "words": ["复", "照", "青苔", "上", "。"], "keyword": "青苔", "meaning": "又照在了青绿色的苔藓上。", "image": "mountain"}
+    ],
+    "notes": ["鹿柴：地名，柴在这里读 zhài，指围栏。", "但：只。", "返景：夕阳返照的光，景在这里读 yǐng。", "复：又。", "不见人：看不见人，见读 jiàn。"],
+    "scene": "傍晚的山林很安静，看不到说话的人，只听见远处传来的声音。一束夕阳穿过树枝，照亮了地上的青苔。"
+  },
+  {
+    "id": "zhu-li-guan",
+    "title": "竹里馆",
+    "titlePinyin": "zhú lǐ guǎn",
+    "author": "王维",
+    "authorPinyin": "wáng wéi",
+    "dynasty": "唐",
+    "theme": "月夜",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "独坐幽篁里，", "pinyin": "dú zuò yōu huáng lǐ", "words": ["独坐", "幽篁", "里", "，"], "keyword": "竹林", "meaning": "我独自坐在幽静的竹林里。", "image": "moon"},
+      {"text": "弹琴复长啸。", "pinyin": "tán qín fù cháng xiào", "words": ["弹琴", "复", "长啸", "。"], "keyword": "弹琴", "meaning": "弹一会儿琴，又放开声音长长地吟啸。", "image": "moon"},
+      {"text": "深林人不知，", "pinyin": "shēn lín rén bù zhī", "words": ["深林", "人", "不知", "，"], "keyword": "深林", "meaning": "我在深深的竹林里，别人并不知道。", "image": "moon"},
+      {"text": "明月来相照。", "pinyin": "míng yuè lái xiāng zhào", "words": ["明月", "来", "相照", "。"], "keyword": "明月", "meaning": "只有明亮的月亮来照着我。", "image": "moon"}
+    ],
+    "notes": ["幽篁：幽静的竹林。", "复：又。", "长啸：放开声音，发出长长的吟啸声。", "相照：这里指照着我。"],
+    "scene": "月光落进竹林，一个人坐着弹琴。琴声停下，他舒展地吟啸，明月像安静的朋友陪在身边。"
+  },
+  {
+    "id": "xiang-si",
+    "title": "相思",
+    "titlePinyin": "xiāng sī",
+    "author": "王维",
+    "authorPinyin": "wáng wéi",
+    "dynasty": "唐",
+    "theme": "友情",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "红豆生南国，", "pinyin": "hóng dòu shēng nán guó", "words": ["红豆", "生", "南国", "，"], "keyword": "红豆", "meaning": "红豆生长在温暖的南方。", "image": "spring"},
+      {"text": "春来发几枝。", "pinyin": "chūn lái fā jǐ zhī", "words": ["春来", "发", "几枝", "。"], "keyword": "新枝", "meaning": "春天到了，它又长出了多少新枝呢？", "image": "spring"},
+      {"text": "愿君多采撷，", "pinyin": "yuàn jūn duō cǎi xié", "words": ["愿", "君", "多", "采撷", "，"], "keyword": "采豆", "meaning": "希望你多采一些红豆。", "image": "spring"},
+      {"text": "此物最相思。", "pinyin": "cǐ wù zuì xiāng sī", "words": ["此物", "最", "相思", "。"], "keyword": "思念", "meaning": "它最能寄托对朋友的思念。", "image": "family"}
+    ],
+    "notes": ["南国：南方地区。", "君：对对方的称呼，相当于你。", "采撷：采摘。", "相思：思念对方。"],
+    "scene": "南方的春天，红豆树长出新枝。远方的人想把红豆送给朋友，让小小的红豆带去自己的思念。"
+  },
+  {
+    "id": "jiu-yue-jiu-ri-yi-shan-dong-xiong-di",
+    "title": "九月九日忆山东兄弟",
+    "titlePinyin": "jiǔ yuè jiǔ rì yì shān dōng xiōng dì",
+    "author": "王维",
+    "authorPinyin": "wáng wéi",
+    "dynasty": "唐",
+    "theme": "亲情",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "独在异乡为异客，", "pinyin": "dú zài yì xiāng wéi yì kè", "words": ["独", "在", "异乡", "为", "异客", "，"], "keyword": "异乡", "meaning": "我独自在外地，做着离家的客人。", "image": "family"},
+      {"text": "每逢佳节倍思亲。", "pinyin": "měi féng jiā jié bèi sī qīn", "words": ["每逢", "佳节", "倍", "思亲", "。"], "keyword": "思亲", "meaning": "每到美好的节日，我就更加想念亲人。", "image": "family"},
+      {"text": "遥知兄弟登高处，", "pinyin": "yáo zhī xiōng dì dēng gāo chù", "words": ["遥知", "兄弟", "登高处", "，"], "keyword": "登高", "meaning": "我在远方想着，兄弟们正在登高。", "image": "mountain"},
+      {"text": "遍插茱萸少一人。", "pinyin": "biàn chā zhū yú shǎo yī rén", "words": ["遍插", "茱萸", "少", "一人", "。"], "keyword": "缺席", "meaning": "大家都插上茱萸，却发现少了我一个人。", "image": "family"}
+    ],
+    "notes": ["九月九日：农历九月初九，重阳节。", "山东：这里指华山以东，不是今天的山东省。", "异乡：不是自己家乡的地方。", "倍：更加。", "茱萸：有香气的植物，古人在重阳节佩戴它。"],
+    "scene": "重阳节，远在外地的人想起家里的兄弟。他仿佛看见大家一起登山、佩戴茱萸，队伍里却缺了自己的身影。"
+  },
+  {
+    "id": "zao-fa-bai-di-cheng",
+    "title": "早发白帝城",
+    "titlePinyin": "zǎo fā bái dì chéng",
+    "author": "李白",
+    "authorPinyin": "lǐ bái",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "朝辞白帝彩云间，", "pinyin": "zhāo cí bái dì cǎi yún jiān", "words": ["朝", "辞", "白帝", "彩云间", "，"], "keyword": "彩云", "meaning": "清晨，我告别彩云围绕的白帝城。", "image": "mountain"},
+      {"text": "千里江陵一日还。", "pinyin": "qiān lǐ jiāng líng yī rì huán", "words": ["千里", "江陵", "一日", "还", "。"], "keyword": "归舟", "meaning": "千里之外的江陵，一天就能乘船回到。", "image": "river"},
+      {"text": "两岸猿声啼不住，", "pinyin": "liǎng àn yuán shēng tí bù zhù", "words": ["两岸", "猿声", "啼不住", "，"], "keyword": "猿声", "meaning": "两岸猿猴的叫声接连不断。", "image": "mountain"},
+      {"text": "轻舟已过万重山。", "pinyin": "qīng zhōu yǐ guò wàn chóng shān", "words": ["轻舟", "已过", "万重山", "。"], "keyword": "轻舟", "meaning": "轻快的小船已经驶过一层层山岭。", "image": "river"}
+    ],
+    "notes": ["朝：早晨，读 zhāo。", "辞：告别。", "还：返回，读 huán。", "啼不住：不停地叫。", "重：层，读 chóng。"],
+    "scene": "清晨，彩云围着山上的城。小船顺江飞快前进，两岸猿声还在耳边回荡，一座座山已经退到了身后。"
+  },
+  {
+    "id": "zeng-wang-lun",
+    "title": "赠汪伦",
+    "titlePinyin": "zèng wāng lún",
+    "author": "李白",
+    "authorPinyin": "lǐ bái",
+    "dynasty": "唐",
+    "theme": "友情",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "李白乘舟将欲行，", "pinyin": "lǐ bái chéng zhōu jiāng yù xíng", "words": ["李白", "乘舟", "将欲", "行", "，"], "keyword": "乘舟", "meaning": "我李白坐上小船，正准备出发。", "image": "river"},
+      {"text": "忽闻岸上踏歌声。", "pinyin": "hū wén àn shàng tà gē shēng", "words": ["忽闻", "岸上", "踏歌声", "。"], "keyword": "踏歌", "meaning": "忽然听见岸上传来踩着节拍的歌声。", "image": "river"},
+      {"text": "桃花潭水深千尺，", "pinyin": "táo huā tán shuǐ shēn qiān chǐ", "words": ["桃花潭", "水", "深", "千尺", "，"], "keyword": "深潭", "meaning": "桃花潭的水即使有千尺那么深，", "image": "river"},
+      {"text": "不及汪伦送我情。", "pinyin": "bù jí wāng lún sòng wǒ qíng", "words": ["不及", "汪伦", "送我情", "。"], "keyword": "友情", "meaning": "也比不上汪伦为我送行的情意深。", "image": "family"}
+    ],
+    "notes": ["赠：送给。", "将欲行：正准备离开，行读 xíng。", "踏歌：一边用脚踏出节拍，一边唱歌。", "千尺：夸张地形容水深。", "不及：比不上。"],
+    "scene": "小船就要离岸，岸边忽然响起朋友的歌声。李白回头望去，觉得朋友的情意比眼前的潭水还深。"
+  },
+  {
+    "id": "shan-xing",
+    "title": "山行",
+    "titlePinyin": "shān xíng",
+    "author": "杜牧",
+    "authorPinyin": "dù mù",
+    "dynasty": "唐",
+    "theme": "山水",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "远上寒山石径斜，", "pinyin": "yuǎn shàng hán shān shí jìng xié", "words": ["远上", "寒山", "石径", "斜", "，"], "keyword": "石径", "meaning": "一条石头小路弯弯斜斜，伸向深秋的远山。", "image": "mountain"},
+      {"text": "白云生处有人家。", "pinyin": "bái yún shēng chù yǒu rén jiā", "words": ["白云", "生处", "有", "人家", "。"], "keyword": "人家", "meaning": "在白云升起的地方，住着几户人家。", "image": "mountain"},
+      {"text": "停车坐爱枫林晚，", "pinyin": "tíng chē zuò ài fēng lín wǎn", "words": ["停车", "坐", "爱", "枫林晚", "，"], "keyword": "枫林", "meaning": "我停下车，因为喜爱傍晚的枫林。", "image": "mountain"},
+      {"text": "霜叶红于二月花。", "pinyin": "shuāng yè hóng yú èr yuè huā", "words": ["霜叶", "红于", "二月花", "。"], "keyword": "红叶", "meaning": "经霜的枫叶，比早春二月的花还红。", "image": "mountain"}
+    ],
+    "notes": ["寒山：深秋时节的山。", "径：小路。", "坐：这里是因为，不是坐下。", "霜叶：经过秋霜的树叶。", "红于：比……更红。"],
+    "scene": "深秋的山路通向白云间的村舍。傍晚，旅人停下车，看着一片火红的枫林，舍不得马上离开。"
+  },
+  {
+    "id": "qing-ming",
+    "title": "清明",
+    "titlePinyin": "qīng míng",
+    "author": "杜牧",
+    "authorPinyin": "dù mù",
+    "dynasty": "唐",
+    "theme": "春天",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "清明时节雨纷纷，", "pinyin": "qīng míng shí jié yǔ fēn fēn", "words": ["清明", "时节", "雨", "纷纷", "，"], "keyword": "春雨", "meaning": "清明时节，细雨不停地下着。", "image": "spring"},
+      {"text": "路上行人欲断魂。", "pinyin": "lù shàng xíng rén yù duàn hún", "words": ["路上", "行人", "欲", "断魂", "。"], "keyword": "行人", "meaning": "路上的行人心里十分忧伤。", "image": "spring"},
+      {"text": "借问酒家何处有，", "pinyin": "jiè wèn jiǔ jiā hé chù yǒu", "words": ["借问", "酒家", "何处", "有", "，"], "keyword": "问路", "meaning": "请问哪里有可以歇脚的酒家？", "image": "spring"},
+      {"text": "牧童遥指杏花村。", "pinyin": "mù tóng yáo zhǐ xìng huā cūn", "words": ["牧童", "遥指", "杏花村", "。"], "keyword": "牧童", "meaning": "放牛的孩子指向远处的杏花村。", "image": "field"}
+    ],
+    "notes": ["纷纷：形容雨接连不断。", "欲断魂：形容非常忧伤，不是真的魂魄断开。", "借问：礼貌地请问。", "酒家：卖酒、供人吃饭歇脚的店。", "牧童：放牧的孩子。"],
+    "scene": "春天的细雨打湿了乡间小路，赶路的人心情低落。他向放牛的孩子问路，孩子抬手指向远处开着杏花的村子。"
+  },
+  {
+    "id": "xiao-chi",
+    "title": "小池",
+    "titlePinyin": "xiǎo chí",
+    "author": "杨万里",
+    "authorPinyin": "yáng wàn lǐ",
+    "dynasty": "宋",
+    "theme": "田园",
+    "difficulty": "入门",
+    "lines": [
+      {"text": "泉眼无声惜细流，", "pinyin": "quán yǎn wú shēng xī xì liú", "words": ["泉眼", "无声", "惜", "细流", "，"], "keyword": "泉眼", "meaning": "泉眼悄悄流出细细的水，像舍不得让水多流一点。", "image": "river"},
+      {"text": "树阴照水爱晴柔。", "pinyin": "shù yīn zhào shuǐ ài qíng róu", "words": ["树阴", "照水", "爱", "晴柔", "。"], "keyword": "树阴", "meaning": "树阴映在水面上，像喜欢这晴天里柔和的景色。", "image": "river"},
+      {"text": "小荷才露尖尖角，", "pinyin": "xiǎo hé cái lù jiān jiān jiǎo", "words": ["小荷", "才", "露", "尖尖角", "，"], "keyword": "荷尖", "meaning": "幼小的荷叶才刚露出尖尖的角。", "image": "river"},
+      {"text": "早有蜻蜓立上头。", "pinyin": "zǎo yǒu qīng tíng lì shàng tóu", "words": ["早有", "蜻蜓", "立", "上头", "。"], "keyword": "蜻蜓", "meaning": "已经有一只蜻蜓停在它的尖上。", "image": "river"}
+    ],
+    "notes": ["泉眼：泉水涌出的地方。", "惜：爱惜、舍不得。", "晴柔：晴天里柔和的风光。", "小荷：刚长出水面的幼小荷叶。", "露：显露，读 lù。"],
+    "scene": "初夏的小池边，泉水轻轻流入池塘，树影倒映在水中。一片嫩荷刚探出尖角，蜻蜓就落在了上面。"
+  },
+  {
+    "id": "xiao-chu-jing-ci-si-song-lin-zi-fang",
+    "title": "晓出净慈寺送林子方",
+    "titlePinyin": "xiǎo chū jìng cí sì sòng lín zǐ fāng",
+    "author": "杨万里",
+    "authorPinyin": "yáng wàn lǐ",
+    "dynasty": "宋",
+    "theme": "友情",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "毕竟西湖六月中，", "pinyin": "bì jìng xī hú liù yuè zhōng", "words": ["毕竟", "西湖", "六月中", "，"], "keyword": "西湖", "meaning": "到底是六月里的西湖，", "image": "river"},
+      {"text": "风光不与四时同。", "pinyin": "fēng guāng bù yǔ sì shí tóng", "words": ["风光", "不与", "四时", "同", "。"], "keyword": "风光", "meaning": "景色与其他时节很不一样。", "image": "river"},
+      {"text": "接天莲叶无穷碧，", "pinyin": "jiē tiān lián yè wú qióng bì", "words": ["接天", "莲叶", "无穷", "碧", "，"], "keyword": "莲叶", "meaning": "荷叶铺向天边，满眼都是望不到尽头的碧绿。", "image": "river"},
+      {"text": "映日荷花别样红。", "pinyin": "yìng rì hé huā bié yàng hóng", "words": ["映日", "荷花", "别样", "红", "。"], "keyword": "荷花", "meaning": "阳光映照下的荷花，红得格外鲜艳。", "image": "river"}
+    ],
+    "notes": ["晓出：清晨出门。", "林子方：诗人送别的朋友。", "毕竟：到底、终究。", "四时：四季，这里指其他时节。", "接天：望去仿佛与天空相接。", "别样：格外、不同寻常。"],
+    "scene": "夏日清晨，诗人与朋友走到西湖边。大片荷叶连向天边，荷花在阳光下鲜红明亮，这片美景陪伴着他们告别。"
+  },
+  {
+    "id": "you-zi-yin",
+    "title": "游子吟",
+    "titlePinyin": "yóu zǐ yín",
+    "author": "孟郊",
+    "authorPinyin": "mèng jiāo",
+    "dynasty": "唐",
+    "theme": "亲情",
+    "difficulty": "进阶",
+    "lines": [
+      {"text": "慈母手中线，", "pinyin": "cí mǔ shǒu zhōng xiàn", "words": ["慈母", "手中", "线", "，"], "keyword": "针线", "meaning": "慈爱的母亲手里拿着针线，", "image": "family"},
+      {"text": "游子身上衣。", "pinyin": "yóu zǐ shēn shàng yī", "words": ["游子", "身上", "衣", "。"], "keyword": "衣裳", "meaning": "为将要远行的孩子缝制衣裳。", "image": "family"},
+      {"text": "临行密密缝，", "pinyin": "lín xíng mì mì féng", "words": ["临行", "密密", "缝", "，"], "keyword": "密缝", "meaning": "孩子临出发时，她把针脚缝得密密的，", "image": "family"},
+      {"text": "意恐迟迟归。", "pinyin": "yì kǒng chí chí guī", "words": ["意恐", "迟迟", "归", "。"], "keyword": "盼归", "meaning": "心里担心孩子很久以后才能回来。", "image": "family"},
+      {"text": "谁言寸草心，", "pinyin": "shéi yán cùn cǎo xīn", "words": ["谁", "言", "寸草心", "，"], "keyword": "小草", "meaning": "谁说小草般的孩子那一点心意，", "image": "spring"},
+      {"text": "报得三春晖。", "pinyin": "bào dé sān chūn huī", "words": ["报得", "三春晖", "。"], "keyword": "春晖", "meaning": "能够报答像春日阳光一样温暖的母爱呢？", "image": "family"}
+    ],
+    "notes": ["游子：离开家乡到外地生活的人。", "临行：快要出发的时候，行读 xíng。", "缝：用针线连起布料，读 féng。", "意恐：心里担心。", "寸草心：以小草比喻孩子微小的报恩之心。", "三春晖：春天的阳光，这里比喻母爱。"],
+    "scene": "孩子要出远门，母亲低头一针一针地缝衣服，盼他平安早归。孩子想起母亲的爱，觉得自己像小草，母亲像照暖小草的春日阳光。"
+  }
+]

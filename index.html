@@ -162,6 +162,13 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
 
 /* ======================== 主内容 ======================== */
 .main-content { padding-top: 70px; min-height: 100vh; }
+.poetry-frame { display: none; position: fixed; top: 58px; left: 0; width: 100%; height: calc(100% - 58px); border: 0; background: var(--bg-primary); }
+body.poetry-view { overflow: hidden; }
+body.poetry-view .poetry-frame { display: block; }
+body.poetry-view .main-content, body.poetry-view #favNavBtn, body.poetry-view #recentNavBtn, body.poetry-view #historyNavBtn { display: none; }
+body.poetry-view .nav-search { visibility: hidden; }
+#poetryFullscreenBtn { display: none; }
+body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
 .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 
 .hero-section { padding: 18px 0 14px; text-align: center; }
@@ -462,6 +469,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
     .nav-brand h1 { font-size: 15px; }
     .nav-center { padding: 0 8px; }
     .main-content { padding-top: 64px; }
+    .poetry-frame { top: 54px; height: calc(100% - 54px); }
     .hero-title { font-size: 18px; }
     .hero-subtitle { font-size: 12px; }
     .videos-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
@@ -498,6 +506,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
     <div class="mode-tabs" id="modeTabs">
         <button class="mode-tab active" data-mode="books" onclick="switchMode('books')">📖 绘本</button>
         <button class="mode-tab" data-mode="videos" onclick="switchMode('videos')">🎬 视频</button>
+        <button class="mode-tab" data-mode="poetry" onclick="setPoetryView(true)">📜 古诗</button>
     </div>
     <div class="nav-center">
         <div class="nav-search">
@@ -506,6 +515,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
         </div>
     </div>
     <div class="nav-actions">
+        <button class="nav-btn" id="poetryFullscreenBtn" onclick="togglePoetryFullscreen()" title="全屏 (F)" aria-label="全屏 (F)">⛶</button>
         <button class="nav-btn" id="favNavBtn" onclick="toggleFavFilter()" title="我的收藏">❤️<span class="badge-count" id="favBadgeCount" style="display:none">0</span></button>
         <button class="nav-btn" id="recentNavBtn" onclick="toggleRecentFilter()" title="最近观看">🕐</button>
         <button class="nav-btn" id="historyNavBtn" onclick="toggleHistoryPanel()" title="历史记录">📚<span class="badge-count" id="historyBadgeCount" style="display:none">0</span></button>
@@ -551,6 +561,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
         <div id="gridSentinel" style="height:1px"></div>
     </div>
 </main>
+<iframe class="poetry-frame" id="poetryFrame" title="古诗背诵"></iframe>
 
 <!-- 历史面板 -->
 <div class="history-panel-overlay" id="historyPanelOverlay" onclick="onHistoryOverlayClick(event)">
@@ -753,7 +764,21 @@ function hideLoading() {
 // ============================================
 // 模式切换
 // ============================================
+function setPoetryView(on) {
+    document.body.classList.toggle('poetry-view', on);
+    localStorage.setItem('pb_view', on ? 'poetry' : '');
+    $$('.mode-tab').forEach(t => t.classList.toggle('active', t.dataset.mode === (on ? 'poetry' : state.mode)));
+    const frame = $('#poetryFrame');
+    if (on) {
+        closeHistoryPanel();
+        if (!frame.getAttribute('src')) frame.src = 'poetry.html';
+    } else {
+        frame.contentWindow?.stopAudio?.();
+    }
+}
+
 function switchMode(mode) {
+    if (document.body.classList.contains('poetry-view')) setPoetryView(false);
     if (mode === state.mode) return;
     state.mode = mode;
     localStorage.setItem('pb_mode', mode);
@@ -1635,10 +1660,24 @@ function toggleBookFullscreen() {
         fallback();
     }
 }
+function togglePoetryFullscreen() {
+    if (isInFullscreen()) return exitAnyFullscreen();
+    const el = document.documentElement;
+    const request = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
+    const failed = () => showToast('浏览器未允许全屏，请使用浏览器菜单的全屏功能');
+    if (!request) return failed();
+    try {
+        const result = request.call(el, { navigationUI: 'hide' });
+        if (result && result.catch) result.catch(failed);
+    } catch (error) {
+        failed();
+    }
+}
 function updateFullscreenBtn() {
     const title = isInFullscreen() ? '退出全屏 (F / Esc)' : '全屏 (F)';
-    $$('#playerView button[onclick="toggleBookFullscreen()"], #vpFullscreenBtn').forEach(btn => {
+    $$('#playerView button[onclick="toggleBookFullscreen()"], #vpFullscreenBtn, #poetryFullscreenBtn').forEach(btn => {
         btn.title = title;
+        btn.setAttribute('aria-label', title);
     });
 }
 ['fullscreenchange', 'webkitfullscreenchange', 'msfullscreenchange'].forEach(ev => {
@@ -1771,6 +1810,12 @@ function setTheme(theme) {
     localStorage.setItem('pb_theme', theme);
     $$('.theme-option').forEach(o => o.classList.toggle('active', o.dataset.theme === theme));
     $('.theme-switcher').textContent = theme === 'dark' ? '☀️' : theme === 'sepia' ? '🌅' : '🌙';
+    const poetryDoc = $('#poetryFrame')?.contentDocument;
+    if (poetryDoc?.body) {
+        poetryDoc.body.dataset.theme = theme;
+        const select = poetryDoc.getElementById('theme');
+        if (select) select.value = theme;
+    }
     closeThemeMenu();
 }
 function toggleThemeMenu() { $('#themeDropdown').classList.toggle('show'); }
@@ -1782,6 +1827,11 @@ document.addEventListener('click', e => { if (!e.target.closest('.theme-switcher
 // ============================================
 function setSort(sortBy) { state.sortBy = sortBy; renderSortOptions(); applyFilters(); }
 function goHome() {
+    if (document.body.classList.contains('poetry-view')) {
+        const win = $('#poetryFrame').contentWindow;
+        if (win) { win.location.hash = ''; win.scrollTo(0, 0); }
+        return;
+    }
     state.activeSeriesFilter = 'all';
     state.sortBy = 'default';
     state.showFavoritesOnly = false;
@@ -1809,6 +1859,13 @@ $('#searchInput')?.addEventListener('input', e => debouncedSearch(e.target.value
 
 // 键盘快捷键
 document.addEventListener('keydown', e => {
+    if (document.body.classList.contains('poetry-view')) {
+        if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && !e.target.matches('input, textarea, select') && !e.target.isContentEditable && (e.key === 'f' || e.key === 'F')) {
+            e.preventDefault();
+            togglePoetryFullscreen();
+        }
+        return;
+    }
     if ($('#playerView').classList.contains('active')) {
         switch (e.key) {
             case 'Escape': closePlayer(); break;
@@ -1860,6 +1917,7 @@ document.addEventListener('keydown', e => {
     $('#randomUnitLabel').textContent = state.mode === 'books' ? '本' : '个';
     updateHeroText();
     updateSearchPlaceholder();
+    if (localStorage.getItem('pb_view') === 'poetry') setPoetryView(true);
     loadAllData();
 })();
 </script>

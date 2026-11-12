@@ -1,0 +1,13 @@
+{
+  "name": "cartoon-books",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test poetry.test.js",
+    "generate:poetry": "node generate-poetry-audio.js"
+  },
+  "devDependencies": {
+    "node-edge-tts": "1.2.12"
+  }
+}
