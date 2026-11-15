@@ -9,8 +9,8 @@ const labels = {new: '未学习', learning: '学习中', recited: '能背', mast
 let poems = [], current = null, pool = [], selectedLine = 0, hiddenCount = 0, revealing = false;
 let progress = {}, noticeTimer, audioTimer, audioGeneration = 0, playing = false, singleLine = false, sequenceStart = 0;
 const audio = $('narration');
-const nextScene = new Image();
-nextScene.decoding = 'async';
+let sceneFront = $('scene-image'), nextScene = $('scene-next');
+let sceneGeneration = 0, sceneTimer, sceneTarget = null, sceneTransitioning = false;
 try { progress = JSON.parse(localStorage.getItem('pb_poetry_progress') || '{}'); } catch { progress = {}; }
 if (!progress || typeof progress !== 'object' || Array.isArray(progress)) progress = {};
 function notify(message) {
@@ -51,19 +51,72 @@ function renderLibrary() {
 function lineSceneSource(poem, index) {
     return `poetry-images/lines/${poem.id}-${index}-v3.jpg`;
 }
+function resetScene() {
+    sceneGeneration++;
+    clearTimeout(sceneTimer);
+    sceneTransitioning = false;
+    sceneTarget = null;
+    [sceneFront, nextScene].forEach(image => {
+        image.onload = null;
+        image.onerror = null;
+        image.removeAttribute('src');
+    });
+    sceneFront.className = 'scene-layer scene-current';
+    nextScene.className = 'scene-layer scene-incoming';
+}
+function updateScene(source, nextSource) {
+    sceneTarget = {source, nextSource};
+    if (sceneTransitioning) return;
+    const generation = ++sceneGeneration;
+    nextScene.onload = null;
+    nextScene.onerror = null;
+    if (sceneFront.getAttribute('src') === source) {
+        if (!nextSource) nextScene.removeAttribute('src');
+        else if (nextScene.getAttribute('src') !== nextSource) nextScene.src = nextSource;
+        return;
+    }
+    const incoming = nextScene;
+    let decoding = false;
+    const ready = async () => {
+        if (generation !== sceneGeneration || decoding) return;
+        decoding = true;
+        incoming.onload = null;
+        if (incoming.decode) {
+            try { await incoming.decode(); } catch { return; }
+        }
+        if (generation !== sceneGeneration) return;
+        const finish = () => {
+            if (generation !== sceneGeneration) return;
+            nextScene = sceneFront;
+            sceneFront = incoming;
+            sceneFront.className = 'scene-layer scene-current';
+            nextScene.className = 'scene-layer scene-incoming';
+            sceneTransitioning = false;
+            updateScene(sceneTarget.source, sceneTarget.nextSource);
+        };
+        if (!sceneFront.getAttribute('src') || (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+            finish();
+            return;
+        }
+        sceneTransitioning = true;
+        void incoming.offsetWidth;
+        incoming.classList.add('visible');
+        sceneTimer = setTimeout(finish, 250);
+    };
+    incoming.onload = ready;
+    incoming.onerror = () => {
+        if (generation === sceneGeneration) incoming.removeAttribute('src');
+    };
+    if (incoming.getAttribute('src') !== source) incoming.src = source;
+    if (incoming.complete && incoming.naturalWidth) ready();
+}
 function highlightLine() {
     const line = current.lines[selectedLine];
     $('line-keyword').textContent = `第 ${selectedLine + 1} / ${current.lines.length} 句 · ${line.keyword}`;
     $('line-meaning').textContent = line.meaning;
     $('scene-art').setAttribute('aria-label', line.meaning);
-    const source = lineSceneSource(current, selectedLine);
-    if ($('scene-image').getAttribute('src') !== source) $('scene-image').src = source;
     const nextIndex = selectedLine + 1 < current.lines.length ? selectedLine + 1 : $('loop').checked ? 0 : null;
-    if (nextIndex === null) nextScene.removeAttribute('src');
-    else {
-        const nextSource = lineSceneSource(current, nextIndex);
-        if (nextScene.getAttribute('src') !== nextSource) nextScene.src = nextSource;
-    }
+    updateScene(lineSceneSource(current, selectedLine), nextIndex === null ? null : lineSceneSource(current, nextIndex));
 }
 function renderLines() {
     const mode = $('hint').value;
@@ -126,6 +179,7 @@ function renderGrade() {
 }
 function openPoem(poem) {
     stopAudio();
+    if (current !== poem) resetScene();
     current = poem;
     selectedLine = 0;
     hiddenCount = 0;
@@ -165,8 +219,7 @@ function route() {
         if (poem !== current) openPoem(poem);
     } else {
         stopAudio(); current = null;
-        $('scene-image').removeAttribute('src');
-        nextScene.removeAttribute('src');
+        resetScene();
         $('study').hidden = true;
         $('library').hidden = false;
         document.title = '古诗背诵 · 阅读世界';

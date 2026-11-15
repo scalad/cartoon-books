@@ -16,23 +16,22 @@
 </header>
 <main>
 <section id="library" aria-labelledby="library-title">
-  <div class="hero"><div><p class="eyebrow">听一首诗，看一幅画，记一段时光</p><h1 id="library-title">把诗里的世界，<br>轻轻记在心里。</h1><p class="intro">20 首儿童常用唐宋诗 · 本地朗读 · 场景记忆</p><button id="start-review" class="primary">开始今日复习</button></div><div id="hero-art" class="hero-art" aria-hidden="true"></div></div>
+  <div class="hero"><div><p class="eyebrow">听一首诗，看一幅画，记一段时光</p><h1 id="library-title">把诗里的世界，<br>轻轻记在心里。</h1><p class="intro">100 首儿童常用古诗 · 本地朗读 · 场景记忆</p><button id="start-review" class="primary">开始今日复习</button></div><div id="hero-art" class="hero-art" aria-hidden="true"></div></div>
   <div class="stats" id="stats" aria-live="polite"></div>
   <div class="filterbar"><label class="search"><span>找一首诗</span><input id="search" type="search" placeholder="诗名、作者或诗句" autocomplete="off"></label><label>主题<select id="topic"><option value="">全部主题</option></select></label><label>难度<select id="difficulty"><option value="">全部难度</option><option>入门</option><option>进阶</option></select></label><label>学习状态<select id="status"><option value="">全部状态</option><option value="new">未学习</option><option value="learning">学习中</option><option value="recited">能背</option><option value="mastered">熟练</option><option value="due">今日待复习</option></select></label></div>
   <p id="result-count" class="muted" aria-live="polite"></p>
   <div id="poem-grid" class="poem-grid"></div>
   <div id="empty" class="empty" hidden><h2>暂时没有符合条件的诗</h2><p>试试其他关键词，或清除筛选。</p><button id="clear-filters">清除筛选</button></div>
   <p id="load-error" role="alert" hidden>诗库加载失败，请刷新重试，并通过本地服务打开页面。</p>
-  <footer>首版精选 20 首，包含唐诗与宋诗，并非《唐诗三百首》全集。原文采用常见版本；释义、助记场景为学习辅助，配图为 AI 生成的半写实卡通场景插画。朗读采用神经语音合成，音频保存在本地，并非专业教师录音。</footer>
+  <footer>精选 100 首，包含唐、宋、元、明、清各代古诗，并非《唐诗三百首》全集。原文采用常见版本；释义、助记场景为学习辅助，配图为 AI 生成的半写实卡通场景插画。朗读采用神经语音合成，音频保存在本地，并非专业教师录音。</footer>
 </section>
 <section id="study" hidden aria-labelledby="poem-title">
   <div class="study-nav"><button id="back">返回诗库</button><span id="study-position" class="muted"></span><div><button id="previous">上一首</button><button id="next">下一首</button></div></div>
-  <div class="study-heading"><h1 id="poem-title" tabindex="-1"></h1><p id="poem-meta" class="eyebrow"></p></div>
-  <div class="study-grid"><div class="scene-panel"><div id="scene-art" class="scene-art" role="img"><img id="scene-image" alt="" width="768" height="512" decoding="async"></div><div class="scene-caption"><span class="eyebrow">诗中画境 · AI 场景插画</span><p id="scene-description"></p><div class="line-caption"><strong id="line-keyword"></strong><p id="line-meaning" aria-live="polite"></p></div><p class="muted">点击右侧诗句，用画境与关键词联想记忆。</p></div></div>
-  <div class="reading-panel"><div class="reading-tools"><label><input type="checkbox" id="pinyin"> 显示拼音</label><label>背诵提示<select id="hint"><option value="full">全文</option><option value="keywords">关键词</option><option value="progressive">逐句隐藏</option><option value="hidden">完全隐藏</option></select></label></div>
+  <div class="study-grid"><div class="scene-panel"><div id="scene-art" class="scene-art" role="img"><img id="scene-image" class="scene-layer scene-current" alt="" width="768" height="512" decoding="async"><img id="scene-next" class="scene-layer scene-incoming" alt="" width="768" height="512" decoding="async"></div><div class="scene-caption"><span class="eyebrow">诗中画境 · AI 场景插画</span><p id="scene-description"></p><div class="line-caption"><strong id="line-keyword"></strong><p id="line-meaning" aria-live="polite"></p></div></div></div>
+  <div class="reading-panel"><div class="reading-tools"><div class="study-heading"><h1 id="poem-title" tabindex="-1"></h1><p id="poem-meta" class="eyebrow"></p></div><span class="hint-control"><select id="hint" aria-label="背诵提示" aria-describedby="hint-tooltip"><option value="full">全文</option><option value="keywords">关键词</option><option value="progressive">逐句隐藏</option><option value="hidden">完全隐藏</option></select><span id="hint-tooltip" class="hint-tooltip" role="tooltip">背诵提示</span></span></div>
     <div id="lines" class="lines"></div>
     <div class="reveal-tools"><button id="hide-next" hidden>再藏一句</button><button id="reveal" hidden>查看原文</button></div>
-    <div class="audio-tools"><button id="play" class="primary">朗读全诗</button><button id="play-line">朗读此句</button><button id="stop">停止</button><label>速度<select id="speed"><option value="0.8" selected>慢速</option><option value="1">正常</option><option value="1.2">稍快</option></select></label><label><input id="loop" type="checkbox"> 循环</label></div>
+    <div class="audio-tools"><button id="play" class="primary">朗读全诗</button><button id="play-line">朗读此句</button><button id="stop">停止</button><label>速度<select id="speed"><option value="0.8" selected>慢速</option><option value="1">正常</option><option value="1.2">稍快</option></select></label><label><input id="loop" type="checkbox"> 循环</label><label><input type="checkbox" id="pinyin"> 显示拼音</label></div>
     <p id="audio-status" class="muted" role="status">选择一句，再点「朗读此句」跟读。</p><audio id="narration" preload="none"></audio>
     <div class="assessment" role="group" aria-label="掌握程度"><div><button data-grade="learning">还需练习</button><button data-grade="recited">我能背了</button><button data-grade="mastered">已经熟练</button></div></div>
   </div></div>

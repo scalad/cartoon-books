@@ -5,10 +5,10 @@ const path = require('node:path');
 const vm = require('node:vm');
 const poems = require('./poems.json');
 
-test('20 unique poems contain aligned Chinese text and pinyin', () => {
-    assert.equal(poems.length, 20);
-    assert.equal(new Set(poems.map(p => p.id)).size, 20);
-    assert.equal(poems.reduce((total, p) => total + p.lines.length, 0), 82);
+test('100 unique poems contain aligned Chinese text and pinyin', () => {
+    assert.equal(poems.length, 100);
+    assert.equal(new Set(poems.map(p => p.id)).size, 100);
+    assert.equal(poems.reduce((total, p) => total + p.lines.length, 0), 402);
     for (const poem of poems) {
         assert.match(poem.id, /^[a-z-]+$/);
         assert.ok(poem.title && poem.author && poem.scene && poem.notes.length);
@@ -20,7 +20,7 @@ test('20 unique poems contain aligned Chinese text and pinyin', () => {
             const characters = [...line.text].filter(c => /[\u3400-\u9fff]/.test(c));
             assert.equal(characters.length, line.pinyin.split(' ').length, `${poem.title}: ${line.text}`);
             assert.equal(line.words.join(''), line.text);
-            assert.ok(line.words.every(word => /^[\u3400-\u9fff]+$|^[，。]$/.test(word)));
+            assert.ok(line.words.every(word => /^[\u3400-\u9fff]+$|^[，。？！]$/.test(word)));
             assert.ok(line.meaning && line.keyword && line.image);
         }
     }
@@ -48,6 +48,26 @@ test('narration uses poetic metre without changing source text', () => {
     assert.equal(narrationText({text: '一行白鹭上青天。'}), '一航白鹭，上青天。');
     assert.equal(narrationText({text: '返景入深林，'}), '返影，入深林，');
     assert.equal(narrationText({text: '临行密密缝，'}), '临行，密密逢，');
+});
+
+test('new poems preserve difficult pinyin and narration pronunciation mappings', () => {
+    const { narrationText } = require('./generate-poetry-audio');
+    assert.equal(poems.find(poem => poem.author === '查慎行').authorPinyin, 'zhā shèn xíng');
+    const lines = poems.flatMap(poem => poem.lines);
+    for (const [text, pinyin, narration] of [
+        ['草长莺飞二月天，', 'cǎo zhǎng yīng fēi èr yuè tiān', '草掌莺飞，二月天，'],
+        ['寒梅著花未。', 'hán méi zhuó huā wèi', '寒梅，灼花未。'],
+        ['怕得鱼惊不应人。', 'pà dé yú jīng bù yìng rén', '怕得鱼惊，不映人。'],
+        ['为有暗香来。', 'wèi yǒu àn xiāng lái', '位有，暗香来。'],
+        ['单于夜遁逃。', 'chán yú yè dùn táo', '蝉于，夜遁逃。'],
+        ['不论平地与山尖，', 'bú lùn píng dì yǔ shān jiān', '不论平地，与山尖，']
+    ]) {
+        const line = lines.find(line => line.text === text);
+        assert.ok(line, text);
+        assert.equal(line.pinyin, pinyin, text);
+        assert.equal(narrationText(line), narration, text);
+        assert.equal(line.text, text);
+    }
 });
 
 test('playback includes introductions, repeats the correct stage and cancels stale callbacks', () => {
@@ -99,7 +119,7 @@ test('opening and switching poems starts full narration once and returning stops
         poems, pool: poems, current: null, progress: {}, selectedLine: 0, hiddenCount: 0, revealing: false,
         location, document: {}, window: {scrollTo() {}}, nextScene: {removeAttribute() {}},
         stopAudio() {stops++;}, startAudio(single) {starts.push({single, id: context.current.id});},
-        save() {}, sceneImage: () => '', renderLines() {}, highlightLine() {}, renderGrade() {}, renderLibrary() {}, notify() {}
+        save() {}, resetScene() {}, sceneImage: () => '', renderLines() {}, highlightLine() {}, renderGrade() {}, renderLibrary() {}, notify() {}
     });
     vm.runInContext(source.slice(source.indexOf('function openPoem('), source.indexOf('function stopAudio()')), context);
     context.goToPoem(poems[0]);
@@ -154,7 +174,7 @@ test('library rendering works without replaceChildren and replaces previous resu
     });
     vm.runInContext(source.slice(source.indexOf('function renderLibrary()'), source.indexOf('function highlightLine()')), context);
     context.renderLibrary();
-    assert.equal(grid.children.length, 20);
+    assert.equal(grid.children.length, 100);
     elements.search.value = '春晓';
     context.renderLibrary();
     assert.equal(grid.children.length, 1);
@@ -193,7 +213,7 @@ test('every poem has distinct optimized scene and thumbnail JPEGs', () => {
             if (!suffix.includes('thumb')) hashes.add(createHash('sha256').update(bytes).digest('hex'));
         }
     }
-    assert.equal(hashes.size, 20);
+    assert.equal(hashes.size, 100);
 });
 
 test('cover markup uses lazy thumbnails and full-size hero images instead of SVGs', () => {
@@ -207,7 +227,7 @@ test('cover markup uses lazy thumbnails and full-size hero images instead of SVG
     assert.doesNotMatch(source, /sceneSvg|<svg|data-image/);
 });
 
-test('all 82 verses have distinct compact JPEG artwork', () => {
+test('all 402 verses have distinct compact JPEG artwork', () => {
     const {createHash} = require('node:crypto');
     const hashes = new Set();
     let totalBytes = 0;
@@ -222,10 +242,11 @@ test('all 82 verses have distinct compact JPEG artwork', () => {
             hashes.add(createHash('sha256').update(bytes).digest('hex'));
         }
     }
-    assert.equal(hashes.size, 82);
-    assert.ok(totalBytes < 6000000);
+    assert.equal(hashes.size, 402);
+    assert.ok(totalBytes < 30000000);
     const html = fs.readFileSync(path.join(__dirname, 'poetry.html'), 'utf8');
-    assert.match(html, /<img id="scene-image" alt="" width="768" height="512" decoding="async">/);
+    assert.match(html, /<img id="scene-image" class="scene-layer scene-current" alt="" width="768" height="512" decoding="async">/);
+    assert.equal((html.match(/class="scene-layer /g) || []).length, 2);
 });
 
 test('verse art follows narration, replay and loops with only one next-image preload', () => {
@@ -247,9 +268,15 @@ test('verse art follows narration, replay and loops with only one next-image pre
     const context = vm.createContext({
         $: id => elements[id], nextScene, audio, current: poems[0], selectedLine: 0,
         audioGeneration: 0, audioTimer: null, playing: false, singleLine: false, sequenceStart: 0,
-        renderLines() {}, setTimeout(fn) {pending = fn; return 1;}, clearTimeout() {pending = null;}
+        renderLines() {}, setTimeout(fn) {pending = fn; return 1;}, clearTimeout() {pending = null;},
+        updateScene(source, nextSource) {
+            if (elements['scene-image'].getAttribute('src') !== source) elements['scene-image'].src = source;
+            if (!nextSource) nextScene.removeAttribute('src');
+            else if (nextScene.getAttribute('src') !== nextSource) nextScene.src = nextSource;
+        }
     });
-    vm.runInContext(source.slice(source.indexOf('function lineSceneSource('), source.indexOf('function renderLines()')), context);
+    vm.runInContext(source.slice(source.indexOf('function lineSceneSource('), source.indexOf('function resetScene()')), context);
+    vm.runInContext(source.slice(source.indexOf('function highlightLine()'), source.indexOf('function renderLines()')), context);
     vm.runInContext(source.slice(source.indexOf('function stopAudio()'), source.indexOf("$('play').onclick")), context);
     const currentSource = () => elements['scene-image'].getAttribute('src');
     const preloadedSource = () => nextScene.getAttribute('src');
@@ -296,6 +323,77 @@ test('verse art follows narration, replay and loops with only one next-image pre
     assert.equal(context.playing, false);
 });
 
+test('scene transitions wait for decoding, keep the old picture and discard stale requests', async () => {
+    const source = fs.readFileSync(path.join(__dirname, 'poetry.js'), 'utf8');
+    const image = () => ({
+        attributes: {}, className: '', complete: false, naturalWidth: 0,
+        set src(value) {this.attributes.src = value; this.complete = false; this.naturalWidth = 0;},
+        getAttribute(name) {return this.attributes[name] || null;},
+        removeAttribute(name) {delete this.attributes[name];},
+        decode: () => Promise.resolve()
+    });
+    const front = image(), back = image();
+    for (const img of [front, back]) img.classList = {add(name) {img.className += ' ' + name;}};
+    let pending, reduced = false;
+    const context = vm.createContext({
+        sceneFront: front, nextScene: back, sceneGeneration: 0, sceneTimer: null,
+        sceneTarget: null, sceneTransitioning: false,
+        window: {matchMedia: () => ({matches: reduced})},
+        setTimeout(fn, delay) {assert.equal(delay, 250); pending = fn; return 1;},
+        clearTimeout() {pending = null;}
+    });
+    vm.runInContext(source.slice(source.indexOf('function resetScene()'), source.indexOf('function highlightLine()')), context);
+    const load = async () => {
+        const img = context.nextScene;
+        img.complete = true; img.naturalWidth = 768;
+        await img.onload();
+    };
+    const currentSource = () => context.sceneFront.getAttribute('src');
+    context.updateScene('0.jpg', '1.jpg');
+    assert.equal(currentSource(), null);
+    await load();
+    assert.equal(currentSource(), '0.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), '1.jpg');
+    context.updateScene('1.jpg', '2.jpg');
+    assert.equal(currentSource(), '0.jpg');
+    await load();
+    assert.equal(currentSource(), '0.jpg');
+    assert.match(context.nextScene.className, /visible/);
+    context.updateScene('2.jpg', '3.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), '1.jpg');
+    pending();
+    assert.equal(currentSource(), '1.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), '2.jpg');
+    await load(); pending();
+    assert.equal(currentSource(), '2.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), '3.jpg');
+    context.updateScene('3.jpg', null);
+    context.nextScene.onerror();
+    assert.equal(currentSource(), '2.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), null);
+    let decoded;
+    context.updateScene('0.jpg', '1.jpg');
+    context.nextScene.decode = () => new Promise(resolve => {decoded = resolve;});
+    const oldRequest = load();
+    context.updateScene('1.jpg', '2.jpg');
+    context.nextScene.decode = () => Promise.resolve();
+    await load();
+    decoded(); await oldRequest;
+    assert.equal(context.nextScene.getAttribute('src'), '1.jpg');
+    const oldTransition = pending;
+    context.resetScene();
+    oldTransition();
+    assert.equal(currentSource(), null);
+    assert.equal(context.nextScene.getAttribute('src'), null);
+    assert.equal(context.sceneTransitioning, false);
+    reduced = true;
+    context.updateScene('0.jpg', '1.jpg'); await load();
+    context.updateScene('1.jpg', null); await load();
+    assert.equal(currentSource(), '1.jpg');
+    assert.equal(context.nextScene.getAttribute('src'), null);
+    assert.equal(pending, null);
+});
+
 test('poetry detail defaults to no pinyin, slow narration and a compact assessment', () => {
     const html = fs.readFileSync(path.join(__dirname, 'poetry.html'), 'utf8');
     const source = fs.readFileSync(path.join(__dirname, 'poetry.js'), 'utf8');
@@ -305,6 +403,17 @@ test('poetry detail defaults to no pinyin, slow narration and a compact assessme
     assert.doesNotMatch(source, /\$\('study-status'\)|\$\('review-date'\)|\$\('notes'\)/);
     assert.match(source, /\$\('poem-meta'\)\.textContent = `\$\{poem.dynasty\} · \$\{poem.author\}`/);
     assert.equal((html.match(/data-grade=/g) || []).length, 3);
+    assert.match(html, /class="reading-tools"><div class="study-heading"><h1 id="poem-title"/);
+    assert.match(html, /id="loop" type="checkbox"> 循环<\/label><label><input type="checkbox" id="pinyin"> 显示拼音<\/label>/);
+    assert.equal((html.match(/id="poem-title"/g) || []).length, 1);
+    assert.equal((html.match(/id="pinyin"/g) || []).length, 1);
+    assert.match(html, /id="hint" aria-label="背诵提示" aria-describedby="hint-tooltip"/);
+    assert.match(html, /id="hint-tooltip" class="hint-tooltip" role="tooltip">背诵提示/);
+    assert.doesNotMatch(html, /<label>背诵提示/);
+    const css = fs.readFileSync(path.join(__dirname, 'poetry.css'), 'utf8');
+    assert.match(css, /\.study-heading\{display:flex;[^}]*white-space:nowrap/);
+    assert.match(css, /\.hint-tooltip\{[^}]*visibility:hidden/);
+    assert.match(css, /\.hint-control:hover \.hint-tooltip/);
 });
 
 test('poetry fullscreen enters, exits and reports unsupported or rejected requests', async () => {
