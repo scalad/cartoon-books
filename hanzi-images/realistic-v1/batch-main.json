@@ -1,0 +1,12 @@
+[
+  {
+    "id": "water",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-water-realistic-v1_1795246426032_86bfd4ef.png",
+    "cuts": [
+      590,
+      1195
+    ],
+    "reviewNotes": "Inspected all three rows: flowing fountain water, glass of water, bowl of water. Realistic refraction, surfaces and materials, no text.",
+    "prompt": "Create ONE photographic triptych source asset for a Chinese preschool vocabulary app. It will be split into THREE individual landscape photos. EXACT layout: 1024 px wide by 1792 px tall, three edge-to-edge horizontal rows of equal height, one distinct photograph per row, straight boundaries exactly at one-third and two-thirds of the height. No gutters, margins, frames, captions, characters, letters, numbers, logos, or watermark. Do not blend the scenes across rows.\nTOP ROW: close-up of real clear flowing water spilling from a small drinking fountain spout into a stone basin outdoors. Water is the unmistakable focal subject; visible natural streams, droplets and ripples, physically accurate transparent reflections. No people.\nMIDDLE ROW: one plain transparent drinking glass filled with real clear water on a neutral pale kitchen tabletop; the water surface, meniscus, refraction and condensation are clearly visible. Glass fully in frame.\nBOTTOM ROW: a plain ceramic bowl filled with clear water on a neutral tabletop, viewed from a slightly elevated angle so the surface of the WATER is unmistakable, subtle natural ripples; full bowl visible.\nStyle: highly photorealistic documentary/product photography, true-to-life scale, natural lighting and realistic materials. Not illustration, not vector, not CGI, not plastic toys or symbols. Each row has one clear central subject occupying about 60–75% of its landscape frame, gentle uncluttered background, enough space around edges to prevent cropping. Preserve natural imperfections, optically believable water, texture and soft shadows. These are meaning-recognition teaching photos, not posters; absolutely no text anywhere."
+  }
+]

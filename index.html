@@ -169,6 +169,12 @@ body.poetry-view .main-content, body.poetry-view #favNavBtn, body.poetry-view #r
 body.poetry-view .nav-search { visibility: hidden; }
 #poetryFullscreenBtn { display: none; }
 body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
+.hanzi-frame { display: none; position: fixed; top: 58px; left: 0; width: 100%; height: calc(100% - 58px); border: 0; background: var(--bg-primary); }
+body.hanzi-view { overflow: hidden; }
+body.hanzi-view .hanzi-frame { display: block; }
+body.hanzi-view .main-content, body.hanzi-view #favNavBtn, body.hanzi-view #recentNavBtn, body.hanzi-view #historyNavBtn { display: none; }
+body.hanzi-view .nav-search { visibility: hidden; }
+body.hanzi-view #poetryFullscreenBtn { display: inline-flex; }
 .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 
 .hero-section { padding: 18px 0 14px; text-align: center; }
@@ -469,7 +475,7 @@ body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
     .nav-brand h1 { font-size: 15px; }
     .nav-center { padding: 0 8px; }
     .main-content { padding-top: 64px; }
-    .poetry-frame { top: 54px; height: calc(100% - 54px); }
+    .poetry-frame, .hanzi-frame { top: 54px; height: calc(100% - 54px); }
     .hero-title { font-size: 18px; }
     .hero-subtitle { font-size: 12px; }
     .videos-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
@@ -479,13 +485,30 @@ body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
     .container { padding: 0 14px; }
 }
 @media (max-width: 600px) {
+    .navbar { flex-wrap: wrap; height: auto; min-height: 54px; padding: 7px 10px; gap: 6px; }
+    .nav-brand h1, .nav-brand .logo-icon { display: none; }
+    .nav-brand { display: none; }
+    .mode-tabs { flex-shrink: 0; }
+    .mode-tab { white-space: nowrap; }
+    .nav-actions { margin-left: auto; }
+    .nav-center { flex-basis: 100%; order: 3; padding: 0; }
+    .nav-search { max-width: none; }
+    .main-content { padding-top: 105px; }
+    body.poetry-view .nav-center, body.hanzi-view .nav-center { display: none; }
+    body.poetry-view .navbar, body.hanzi-view .navbar { height: 54px; }
     .filter-bar { flex-direction: column; align-items: stretch; }
     .filter-left { justify-content: flex-start; }
     .sort-options { justify-content: flex-start; }
-    .mode-tab { padding: 5px 10px; font-size: 12px; }
+    .mode-tab { padding: 5px 7px; font-size: 12px; }
     .stat-inline { font-size: 11px; }
     .nav-actions { gap: 2px; }
-    .nav-btn { width: 34px; height: 34px; }
+    .nav-btn { width: 30px; height: 34px; }
+    #recentNavBtn { display: none; }
+}
+@media (max-width: 360px) {
+    .mode-tab { padding: 5px; }
+    .navbar { padding-left: 6px; padding-right: 6px; }
+    .nav-btn { width: 27px; }
 }
 </style>
 </head>
@@ -507,6 +530,7 @@ body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
         <button class="mode-tab active" data-mode="books" onclick="switchMode('books')">📖 绘本</button>
         <button class="mode-tab" data-mode="videos" onclick="switchMode('videos')">🎬 视频</button>
         <button class="mode-tab" data-mode="poetry" onclick="setPoetryView(true)">📜 古诗</button>
+        <button class="mode-tab" data-mode="hanzi" onclick="setHanziView(true)">汉字</button>
     </div>
     <div class="nav-center">
         <div class="nav-search">
@@ -562,6 +586,7 @@ body.poetry-view #poetryFullscreenBtn { display: inline-flex; }
     </div>
 </main>
 <iframe class="poetry-frame" id="poetryFrame" title="古诗背诵"></iframe>
+<iframe class="hanzi-frame" id="hanziFrame" title="汉字奇遇岛"></iframe>
 
 <!-- 历史面板 -->
 <div class="history-panel-overlay" id="historyPanelOverlay" onclick="onHistoryOverlayClick(event)">
@@ -765,6 +790,7 @@ function hideLoading() {
 // 模式切换
 // ============================================
 function setPoetryView(on) {
+    if (on && document.body.classList.contains('hanzi-view')) setHanziView(false);
     document.body.classList.toggle('poetry-view', on);
     localStorage.setItem('pb_view', on ? 'poetry' : '');
     $$('.mode-tab').forEach(t => t.classList.toggle('active', t.dataset.mode === (on ? 'poetry' : state.mode)));
@@ -777,7 +803,24 @@ function setPoetryView(on) {
     }
 }
 
+function setHanziView(on) {
+    if (on && document.body.classList.contains('poetry-view')) setPoetryView(false);
+    document.body.classList.toggle('hanzi-view', on);
+    localStorage.setItem('pb_view', on ? 'hanzi' : '');
+    $$('.mode-tab').forEach(t => t.classList.toggle('active', t.dataset.mode === (on ? 'hanzi' : state.mode)));
+    const frame = $('#hanziFrame');
+    if (on) {
+        closeHistoryPanel();
+        if ($('#playerView').classList.contains('active')) closePlayer();
+        if ($('#videoPlayerView').classList.contains('active')) closeVideoPlayer();
+        if (!frame.getAttribute('src')) frame.src = 'hanzi.html';
+    } else {
+        frame.contentWindow?.HanziApp?.leave();
+    }
+}
+
 function switchMode(mode) {
+    if (document.body.classList.contains('hanzi-view')) setHanziView(false);
     if (document.body.classList.contains('poetry-view')) setPoetryView(false);
     if (mode === state.mode) return;
     state.mode = mode;
@@ -1816,6 +1859,8 @@ function setTheme(theme) {
         const select = poetryDoc.getElementById('theme');
         if (select) select.value = theme;
     }
+    const hanziDoc = $('#hanziFrame')?.contentDocument;
+    if (hanziDoc?.body) hanziDoc.body.dataset.theme = theme;
     closeThemeMenu();
 }
 function toggleThemeMenu() { $('#themeDropdown').classList.toggle('show'); }
@@ -1827,6 +1872,10 @@ document.addEventListener('click', e => { if (!e.target.closest('.theme-switcher
 // ============================================
 function setSort(sortBy) { state.sortBy = sortBy; renderSortOptions(); applyFilters(); }
 function goHome() {
+    if (document.body.classList.contains('hanzi-view')) {
+        $('#hanziFrame').contentWindow?.HanziApp?.home();
+        return;
+    }
     if (document.body.classList.contains('poetry-view')) {
         const win = $('#poetryFrame').contentWindow;
         if (win) { win.location.hash = ''; win.scrollTo(0, 0); }
@@ -1859,7 +1908,7 @@ $('#searchInput')?.addEventListener('input', e => debouncedSearch(e.target.value
 
 // 键盘快捷键
 document.addEventListener('keydown', e => {
-    if (document.body.classList.contains('poetry-view')) {
+    if (document.body.classList.contains('poetry-view') || document.body.classList.contains('hanzi-view')) {
         if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && !e.target.matches('input, textarea, select') && !e.target.isContentEditable && (e.key === 'f' || e.key === 'F')) {
             e.preventDefault();
             togglePoetryFullscreen();
@@ -1918,6 +1967,7 @@ document.addEventListener('keydown', e => {
     updateHeroText();
     updateSearchPlaceholder();
     if (localStorage.getItem('pb_view') === 'poetry') setPoetryView(true);
+    if (localStorage.getItem('pb_view') === 'hanzi') setHanziView(true);
     loadAllData();
 })();
 </script>

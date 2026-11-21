@@ -1,0 +1,9 @@
+[
+  {
+    "id": "shirt",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-shirt-realistic-v1_1795246856926_d4074cc9.png",
+    "prompt": null,
+    "cuts": [594, 1165],
+    "reviewNotes": "Recovered and visually inspected existing 1024x1792 source; original generation prompt unavailable, so prompt is null (not reconstructed). Row order 0/1/2: white short-sleeve T-shirt, navy jacket, olive hooded raincoat. Photorealistic fabric folds, stitching, fasteners and grounded shadows; no visible text, logos or gutters. Cuts are observed horizontal photo transitions in source pixels, not assumed equal thirds. Caveats: unequal row heights; raincoat hood nearly touches the upper boundary and hem has little bottom padding. Source preserved unchanged."
+  }
+]

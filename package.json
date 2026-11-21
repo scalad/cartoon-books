@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "test": "node --test poetry.test.js",
+    "test": "node --test poetry.test.js hanzi.test.js",
     "generate:poetry": "node generate-poetry-audio.js"
   },
   "devDependencies": {

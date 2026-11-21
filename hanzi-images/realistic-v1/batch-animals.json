@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bird",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-bird-realistic-v1_1795246817065_e60676b6.png",
+    "prompt": null,
+    "cuts": [554, 1171],
+    "reviewNotes": "Recovery: reused the exact existing source; original prompt unavailable, so prompt is null. Read and visually inspected at 1024x1792. Rows: perched great tit / flying swallow / standing sparrow. Photorealistic feathers and natural poses; whole birds, wings, feet and tails retained. No text or gutters. Actual panel boundaries measured from pixel transitions; rows are not exact thirds. Cuts are zero-based y coordinates where the next row begins; crop [0,554), [554,1171), [1171,1792)."
+  },
+  {
+    "id": "insect",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-insect-realistic-v1_1795246888814_9cb66081.png",
+    "prompt": null,
+    "cuts": [550, 1195],
+    "reviewNotes": "Recovery: reused the exact existing source; original prompt unavailable, so prompt is null. Read and visually inspected at 1024x1792. Rows: ladybug on leaf / butterfly with fully open wings / ant on soil. Photorealistic macro textures; complete visible wing tips, antennae and legs within frame. No text or gutters. Actual panel boundaries measured from pixel transitions; rows are not exact thirds. Cuts are zero-based y coordinates where the next row begins; crop [0,550), [550,1195), [1195,1792)."
+  },
+  {
+    "id": "fish",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-fish-realistic-v1_1795247010566_5a55757b.png",
+    "prompt": null,
+    "cuts": [596, 1143],
+    "inset": 2,
+    "reviewNotes": "Recovery: reused the exact existing source; original prompt unavailable, so prompt is null. Read and visually inspected at 1024x1792. Rows: pond goldfish / silver river fish / aquarium angelfish. Photorealistic scales, water and natural fish proportions; no text or gutters. Minor framing caveat: aquarium angelfish dorsal tip has very little top clearance, so do not tighten that crop. Actual panel boundaries measured from pixel transitions; rows are not exact thirds. Cuts are zero-based y coordinates where the next row begins; crop [0,596), [596,1143), [1143,1792)."
+  },
+  {
+    "id": "rabbit",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-rabbit-realistic-v1_1795247165657_83c1be53.png",
+    "prompt": null,
+    "cuts": [598, 1195],
+    "reviewNotes": "Recovery: reused the exact existing source; original prompt unavailable, so prompt is null. Read and visually inspected at 1024x1792. Exact first-image label: 警觉坐起的兔子（胡萝卜在地上）. The rabbit is naturally upright on its hindquarters with forepaws lifted, not crouching, not holding or eating the carrot, and not walking on two legs. Natural rabbit anatomy rather than a human-like standing posture. Middle: rabbit sitting at burrow entrance. Bottom: rabbit resting low in grass. Ears and visible extremities remain in frame; top ear headroom is modest. Minor defect: thin pale horizontal seams at approximately y=597 and y=1194; remove seam pixels during main cropping. Measured next-photo starts are zero-based y=598 and y=1195; rows are approximately thirds."
+  },
+  {
+    "id": "cow",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-cow-realistic-v1_1795254979860_5c4e2fe1.png",
+    "prompt": "Use case: highly photorealistic real-world animal photographs for a children's Hanzi lesson; one vertical triptych source to be cropped into three landscape photos.\nCanvas and layout: exactly 1024x1792 pixels. Three independent edge-to-edge horizontal landscape photographs stacked vertically in equal thirds. Top photo occupies y=0 through 596, middle y=597 through 1194, bottom y=1195 through 1791. Hard scene changes only at y=597 and y=1195. No gutters, separator lines, borders, inset frames, gradients between panels, text, labels or watermarks.\nTop photograph: one real black-and-white spotted cow standing naturally in a simple green pasture, three-quarter side view. Show its entire body and all visible legs and hooves, both ears and its whole tail, with generous space around it.\nMiddle photograph: one real horned brown cow standing naturally in an uncluttered pasture, three-quarter view clearly showing both horns and ears. Full body, anatomically correct legs, hooves and tail completely inside the row with generous clearance.\nBottom photograph: one real cow eating a small pile of hay at ground level beside an open, daylight-lit farm shelter. A natural quadrupedal feeding posture with neck and head lowered; its entire body, ears, legs, hooves and tail are inside the photograph. Hay and shelter remain secondary.\nStyle and light: genuine documentary livestock photography, soft natural daylight, realistic short fur and individual hairs, natural eyes, textured wet nose, accurate bovine proportions and anatomy, subtle real-world imperfections, believable grass and hay. Each animal is clear and prominent but occupies no more than about 75 percent of its panel width and height; ample breathing room around extremities.\nConstraints: exactly one cow in each row. No humans, anthropomorphism, clothing, cartoons, illustrations, CGI, 3D renders, toys, plastic surfaces, oversized eyes, extra or fused limbs, duplicated heads, cropped ears, horns, feet or tails. All three panels must look like real photographs.",
+    "cuts": [596, 1196],
+    "reviewNotes": "New generation; read and visually inspected at 1024x1792. Rows match: black-and-white spotted cow / horned brown cow / cow eating ground-level hay. Natural quadrupedal anatomy, real fur and daylight; ears, horns, hooves and tails fit inside the frames. No people or text. Actual measured transitions are approximately thirds, not pixel-exact requested boundaries. Minor defect: fine pale seam pixels around y=595-596 and y=1195; trim those during main cropping. Cuts give zero-based next-photo starts."
+  }
+]

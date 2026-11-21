@@ -1,0 +1,102 @@
+[
+  {
+    "id": "stone",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-stone-realistic-v1_1795246808452_f94485bd.png",
+    "prompt": null,
+    "cuts": [
+      592,
+      1201
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "field",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-field-realistic-v1_1795246919385_931a7ada.png",
+    "prompt": null,
+    "cuts": [
+      599,
+      1193
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "earth",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-earth-realistic-v1_1795246996497_89c8e395.png",
+    "prompt": null,
+    "cuts": [
+      587,
+      1189
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "rice",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-rice-realistic-v1_1795247069419_0d2b8a8c.png",
+    "prompt": null,
+    "cuts": [
+      580,
+      1190
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "hat",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-hat-realistic-v1_1795246932550_cf4176c1.png",
+    "prompt": null,
+    "cuts": [
+      595,
+      1193
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "bag",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-bag-realistic-v1_1795246997046_4678fd55.png",
+    "prompt": null,
+    "cuts": [
+      594,
+      1193
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "umbrella",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-umbrella-realistic-v1_1795247071978_050537ad.png",
+    "prompt": null,
+    "cuts": [
+      593,
+      1154
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "net",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-net-realistic-v1_1795249455044_8b05d464.png",
+    "prompt": null,
+    "cuts": [
+      584,
+      1177
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "sand",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-sand-realistic-v1_1795250495943_4da9ad5b.png",
+    "prompt": null,
+    "cuts": [
+      591,
+      1186
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  },
+  {
+    "id": "rain",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-rain-realistic-v1_1795250958294_f686e45b.png",
+    "prompt": null,
+    "cuts": [
+      597,
+      1192
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected source previews and cropped contact sheet: correct subjects, realistic materials and complete objects. Sand boundary corrected visually; rain has visible falling drops and splashes."
+  }
+]

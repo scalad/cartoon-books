@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>汉字奇遇岛 · 阅读世界</title>
+    <link rel="stylesheet" href="hanzi.css">
+    <script defer src="hanzi-data.js"></script>
+    <script defer src="hanzi-core.js"></script>
+    <script defer src="hanzi-art.js"></script>
+    <script defer src="hanzi.js"></script>
+</head>
+<body>
+    <header class="island-header">
+        <a class="island-brand" href="#map" aria-label="汉字奇遇岛首页"><span class="brand-seal" aria-hidden="true">字</span><span>汉字奇遇岛<small>一个汉字，一段奇遇</small></span></a>
+        <nav class="island-nav" aria-label="汉字学习导航">
+            <button data-nav="map" class="selected">奇遇地图</button>
+            <button data-nav="collection">故事口袋</button>
+        </nav>
+        <div class="header-actions">
+            <button id="sound-toggle" class="icon-button" aria-label="关闭朗读" aria-pressed="true"></button>
+            <button id="parent-button" class="parent-button">家长区 <span aria-hidden="true">↗</span></button>
+        </div>
+    </header>
+    <div id="storage-warning" class="storage-warning" role="status" hidden></div>
+    <main id="app" tabindex="-1"></main>
+    <footer class="island-footer"><span class="footer-leaf" aria-hidden="true">◇</span> 不赶路，一起发现汉字的美好 <span aria-hidden="true">◇</span></footer>
+    <div id="notice" class="notice" role="status" hidden></div>
+    <dialog id="parent-dialog" aria-labelledby="dialog-title"></dialog>
+    <noscript>请启用 JavaScript，开启汉字故事。学习记录仅保存在当前浏览器。</noscript>
+</body>
+</html>

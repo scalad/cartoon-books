@@ -1,0 +1,42 @@
+[
+  {
+    "id": "vehicle",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-vehicle-realistic-v1_1795246872351_f5397722.png",
+    "prompt": null,
+    "cuts": [
+      578,
+      1159
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three photographic scenes for correct subjects, complete objects and believable construction. No text or drawn elements."
+  },
+  {
+    "id": "bridge",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-bridge-realistic-v1_1795247077807_841b58b6.png",
+    "prompt": null,
+    "cuts": [
+      594,
+      1199
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three photographic scenes for correct subjects, complete objects and believable construction. No text or drawn elements."
+  },
+  {
+    "id": "road",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-road-realistic-v1_1795247200140_33d1df2f.png",
+    "prompt": null,
+    "cuts": [
+      598,
+      1195
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three photographic scenes for correct subjects, complete objects and believable construction. No text or drawn elements."
+  },
+  {
+    "id": "shop",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-shop-realistic-v1_1795247383974_a73c0202.png",
+    "prompt": null,
+    "cuts": [
+      566,
+      1167
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three photographic scenes for correct subjects, complete objects and believable construction. No text or drawn elements."
+  }
+]

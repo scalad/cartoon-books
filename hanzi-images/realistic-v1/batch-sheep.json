@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sheep",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-sheep-realistic-v1_1795256104471_8e652014.png",
+    "prompt": null,
+    "cuts": [
+      592,
+      1184
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected cropped woolly sheep, bearded goat and side-view sheep; correct animal anatomy, whole bodies, realistic fur and daylight."
+  }
+]

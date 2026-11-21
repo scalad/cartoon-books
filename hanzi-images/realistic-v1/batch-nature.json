@@ -1,0 +1,52 @@
+[
+  {
+    "id": "wood",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-wood-realistic-v1_1795246671641_0c1c221f.png",
+    "prompt": null,
+    "cuts": [
+      599,
+      1195
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three scenes for correct subjects, natural physical forms and photographic materials. Sun and moon have no cartoon rays or faces; fire and moon boundaries corrected visually."
+  },
+  {
+    "id": "mountain",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-mountain-realistic-v1_1795246830689_1f7b34cf.png",
+    "prompt": null,
+    "cuts": [
+      591,
+      1197
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three scenes for correct subjects, natural physical forms and photographic materials. Sun and moon have no cartoon rays or faces; fire and moon boundaries corrected visually."
+  },
+  {
+    "id": "fire",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-fire-realistic-v1_1795246950450_cccf0fd0.png",
+    "prompt": null,
+    "cuts": [
+      597,
+      1195
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three scenes for correct subjects, natural physical forms and photographic materials. Sun and moon have no cartoon rays or faces; fire and moon boundaries corrected visually."
+  },
+  {
+    "id": "sun",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-sun-realistic-v1_1795247057957_2d821f42.png",
+    "prompt": null,
+    "cuts": [
+      597,
+      1195
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three scenes for correct subjects, natural physical forms and photographic materials. Sun and moon have no cartoon rays or faces; fire and moon boundaries corrected visually."
+  },
+  {
+    "id": "moon",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-moon-realistic-v1_1795247886630_8a9caf72.png",
+    "prompt": null,
+    "cuts": [
+      597,
+      1195
+    ],
+    "reviewNotes": "Recovered source; original exact prompt unavailable. Inspected all three scenes for correct subjects, natural physical forms and photographic materials. Sun and moon have no cartoon rays or faces; fire and moon boundaries corrected visually."
+  }
+]
