@@ -159,7 +159,14 @@ test('home page lists every theme and gives each story its own photo', () => {
   assert.match(map, /chapters\.map\(/);
   assert.match(map, /art\.icon\(lesson\.id\)/);
   assert.doesNotMatch(source, /chapter-select|selectChapter|art\.island|scrollIntoView/);
-  assert.ok(map.indexOf('class="today-card"') < map.indexOf('class="story-atlas"'));
+  assert.doesNotMatch(map, /today-card|today-illustration/);
+  assert.match(map, /data-action="\$\{paused \? 'resume' : 'start'\}"/);
+  assert.ok(map.indexOf('class="story-atlas"') < map.indexOf('class="review-strip"'));
+  const css = fs.readFileSync(path.join(__dirname,'hanzi.css'),'utf8');
+  const gridRules = [...css.matchAll(/\.tale-grid\{([^}]+)\}/g)].map(match => match[1]);
+  assert.ok(gridRules.some(rule => /grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/.test(rule)));
+  assert.ok(gridRules.every(rule => !rule.includes('grid-template-columns:') || rule.includes('grid-template-columns:repeat(2,minmax(0,1fr))')));
+  assert.doesNotMatch(css, /today-card|today-illustration|today-body/);
 });
 
 test('photographic review choices avoid ambiguous natural backgrounds', () => {
