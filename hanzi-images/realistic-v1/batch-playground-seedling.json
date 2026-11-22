@@ -1,0 +1,14 @@
+[
+  {
+    "id": "seedling",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-seedling-realistic-v3_1795321842282_b0662aba.png",
+    "cuts": [587, 1192],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese seedling lesson (苗), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape camera photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Main young plants centered, clearly recognizable with generous crop-safe margins.\nTOP — 育苗盘里的菜苗: a real nursery propagation tray with several small individual cells of dark moist soil, each holding a tiny young vegetable plant with cotyledons and a few fresh true green leaves; a few central seedlings in sharp focus, tray visibly identifiable, ordinary greenhouse background softly blurred, no mature vegetables.\nMIDDLE — 花盆里的花苗: one small young flowering-plant seedling, not yet blooming, with a short delicate stem and a few small healthy broad green leaves, growing in soil in a plain terracotta flowerpot on an outdoor garden bench. Show the whole small pot and plant, no mature flowers, no large shrub.\nBOTTOM — 田里成行的稻苗: newly planted bright green rice seedlings in orderly rows in a shallow flooded paddy field, young narrow upright blades only a short distance above the water, visible water and mud between rows, low camera perspective so a few central rows are clear; no mature tall rice, no grain heads.\nStyle: photorealistic AI-generated gardening and farming photography, natural soft daylight, true soil particles, leaf veins, terracotta texture and realistic water reflections, coherent scale and plant anatomy. Three separate settings, not a continuous picture. No people, no text, no labels, no letters, no Chinese characters, no brands, no watermark, no cartoon, no illustration, no glossy CGI.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows small leafy vegetable seedlings in individual nursery tray cells, middle shows a small non-blooming plant in a terracotta flowerpot on a bench, bottom shows short green rice seedlings in orderly rows in a flooded paddy. The middle plant cannot be identified to species from this small preview but matches the young potted-plant presentation. No visible text or watermark at preview scale. Raw RGB rows measured white seam spans 584–590 and 1189–1195, centers 587 and 1192. Photorealistic AI-generated scenes.",
+    "contexts": [
+      {"id": "seedling-vegetable", "label": "育苗盘里的菜苗"},
+      {"id": "seedling-flower", "label": "花盆里的花苗"},
+      {"id": "seedling-rice", "label": "田里成行的稻苗"}
+    ]
+  }
+]

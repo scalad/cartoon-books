@@ -1,0 +1,14 @@
+[
+  {
+    "id": "towel",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-towel-realistic-v3_1795321464530_45e8a6be.png",
+    "cuts": [618, 1164],
+    "prompt": "Use case: realistic photographic context assets for the Chinese character 巾, meaning towel or wiping cloth, in a children's Hanzi learning project.\nPrimary request: one 1024x1792 vertical triptych consisting of exactly three independent horizontal landscape photographs stacked top to bottom, with two thin straight pure-white horizontal seams. Each panel should occupy roughly one third of the height. No text.\nTop photograph — exact context 挂着的毛巾: one plain pale blue terry-cloth towel hanging neatly folded over a simple horizontal bathroom towel rail against a neutral tile wall. Show the whole hanging towel, its bottom hem, both sides and the visible rail, comfortably within the frame. No person.\nMiddle photograph — exact context 折好的手巾: one small plain cream cotton hand towel folded into a compact neat rectangle and resting alone on a light wood surface. Show all edges, layered folds, hem stitching and tactile absorbent cloth weave, with abundant empty surface around it.\nBottom photograph — exact context 展开的浴巾: one large plain soft sage-green rectangular bath towel fully spread flat and unfolded on a clean pale wooden floor, photographed from above. Its entire rectangular outline and four corners must fit comfortably inside this horizontal panel with space on all sides. Clearly show the broad absorbent terry fabric and stitched border, not a rug or blanket.\nStyle and light: photorealistic camera photographs with natural soft indoor daylight, realistic cloth fibers, tiny fabric irregularities, subtle creases and contact shadows; no glossy synthetic rendering. Each photograph is a separate scene.\nComposition: center each complete towel in its own panel and preserve safe margins above, below and at both sides. No object crosses a seam; no clipped bath-towel corners or bottom hems. No people, text, captions, labels, Chinese characters, logos, watermark, cartoon, illustration, diagram or decorative border.",
+    "reviewNotes": "Inspected only a 300x525 JPEG preview. Blue towel hangs on a complete visible rail with its bottom hem contained; cream hand towel is folded on wood; green bath towel is fully unfolded with all four corners visible. Photographic terry texture, seams and natural shadows are visible. No people or lettering. Hanging towel and unfolded bath towel have modest but intact upper clearance. Measured original Sharp raw RGB white seam bands are 614–622 and 1160–1168, with centers 618 and 1164; panel heights vary slightly.",
+    "contexts": [
+      {"id": "towel-hanging", "label": "挂着的毛巾"},
+      {"id": "towel-folded", "label": "折好的手巾"},
+      {"id": "towel-bath", "label": "展开的浴巾"}
+    ]
+  }
+]

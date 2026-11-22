@@ -1,0 +1,14 @@
+[
+  {
+    "id": "clock",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-clock-realistic-v3_1795321974045_e23441a6.png",
+    "cuts": [542, 1055],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 钟 (time-displaying clocks), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 墙上的时钟: one complete round analog wall clock mounted on a pale real interior wall, simple wood frame, plain light face with two hands and twelve simple unnumbered tick marks only, whole clock surrounded by clear wall space.\nMiddle photo — 桌上的时钟: one complete small freestanding analog tabletop clock resting on a wooden desk, stable base and a round face clearly visible, plain light dial with two hands and simple unnumbered tick marks only, real wood and metal construction.\nBottom photo — 落地的立式钟: one complete tall floor-standing wooden longcase clock standing directly on a room floor, visible base contacting the floor, entire cabinet from top to feet inside the landscape photo, analog face with two hands and simple unnumbered tick marks only, visible brass pendulum behind plain glass, authentic wood grain. Frame this panel from sufficiently far away to include the whole tall clock and generous space above and below it; do not crop its top or base.\nStyle and lighting: genuine documentary-quality photography, authentic wood, metal and glass textures, natural window daylight and grounded shadows, quiet uncluttered real interiors, not CGI or illustration.\nComposition: all three clocks centered and wholly inside their respective landscape panels with generous clearance from every panel edge and white seam, no oversized close-up; the standing clock must fit fully within the bottom horizontal panel, crop-safe subjects.\nConstraints: no numerals of any kind, Roman numerals, words, letters, dates, readable writing, captions, logos, brands, watermarks, cartoon, decorative graphics, people or hands. Dials use only simple unnumbered marks. Only the requested wall, desk and floor-standing clocks, in the exact stated top-to-bottom order.",
+    "reviewNotes": "300x525 JPEG reviewed: whole round wall clock, round tabletop clock on small feet, complete floor-standing wood pendulum clock, correctly ordered; dials have simple unnumbered marks, no visible writing/logos. Bottom panel is taller than the others but remains landscape and preserves the standing clock. Preview located shifted seams; Sharp RGB confirmed full-width white rows 540–543 and 1054–1056, cuts 542/1055.",
+    "contexts": [
+      {"id": "clock-wall", "label": "墙上的时钟"},
+      {"id": "clock-desk", "label": "桌上的时钟"},
+      {"id": "clock-standing", "label": "落地的立式钟"}
+    ]
+  }
+]

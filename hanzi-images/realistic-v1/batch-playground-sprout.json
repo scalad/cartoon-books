@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sprout",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-sprout-realistic-v3_1795321645796_934e50ce.png",
+    "cuts": [577, 1168],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese bud/sprout lesson (芽), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape close-up camera photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195; no outer border. Each tiny bud or sprout is centered, enlarged enough to recognize, and surrounded by generous crop-safe margins.\nTOP — 豆种子刚冒出的芽: macro photograph of a single bean seed just beginning to germinate on a moist plain unmarked tray surface; split brown bean seed coat and pale cotyledons still clearly recognizable, a short tender pale-green embryonic shoot emerging from the bean, not a mature leafy plant. Natural small scale, moist seed texture.\nMIDDLE — 枝条上鼓起的芽: macro photograph of a real woody tree twig with a prominently swollen closed leaf bud attached at a node, overlapping reddish-brown bud scales and a tiny hint of fresh green at its tip; soft out-of-focus garden background, no flowers, no fully unfolded mature leaf at the main bud.\nBOTTOM — 刚钻出土面的芽: ground-level macro photograph of one tiny fresh pale-green sprout just breaking through dark moist granular soil, a short curved shoot carrying two still-folded cotyledons only just above the surface, soil crumbs around it, not an established seedling with many leaves.\nStyle: photorealistic AI-generated botanical macro photography, natural daylight and restrained colors, real seed coats, bud scales, woody grain and soil particles; coherent plant anatomy, modest depth of field with each main bud sharp. Three independent scenes, no diagram. No text, no letters, no Chinese characters, no labels, no arrows, no logos, no watermark, no cartoon, no illustration, no glossy CGI.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows a split brown bean with a short emerging green shoot on a wet tray surface; middle shows a swollen reddish scaled bud attached to a woody twig; bottom shows a curved green shoot and folded cotyledons emerging from dark soil. Subjects are centered and separate; no visible text or watermark at preview scale. Raw RGB rows measured white seam spans at 570–583 and 1161–1174, rounded centers 577 and 1168. Photorealistic AI-generated macro scenes.",
+    "contexts": [
+      {"id": "sprout-bean", "label": "豆种子刚冒出的芽"},
+      {"id": "sprout-branch", "label": "枝条上鼓起的芽"},
+      {"id": "sprout-soil", "label": "刚钻出土面的芽"}
+    ]
+  }
+]

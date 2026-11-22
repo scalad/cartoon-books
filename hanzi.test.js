@@ -53,12 +53,12 @@ function record(state, overrides = {}) {
   return value;
 }
 
-test('48 ordered lessons provide complete draft metadata and three contexts', () => {
-  assert.equal(lessons.length, 48);
-  assert.equal(lessons.map(lesson => lesson.char).join(''), '水木山火日月云雨石田土米花草叶竹鸟虫鱼兔牛羊马狗口目耳手门窗灯床衣帽包伞瓜果豆面车桥路店贝沙网舟');
-  assert.equal(new Set(lessons.map(lesson => lesson.id)).size, 48);
-  assert.equal(new Set(lessons.map(lesson => lesson.char)).size, 48);
-  assert.equal(new Set(lessons.flatMap(lesson => lesson.contexts.map(context => context.id))).size, 144);
+test('100 freely selectable stories preserve the original 48 characters and supply three contexts', () => {
+  assert.equal(lessons.length, 100);
+  assert.equal(lessons.slice(0,48).map(lesson => lesson.char).join(''), '水木山火日月云雨石田土米花草叶竹鸟虫鱼兔牛羊马狗口目耳手门窗灯床衣帽包伞瓜果豆面车桥路店贝沙网舟');
+  assert.equal(new Set(lessons.map(lesson => lesson.id)).size, 100);
+  assert.equal(new Set(lessons.map(lesson => lesson.char)).size, 100);
+  assert.equal(new Set(lessons.flatMap(lesson => lesson.contexts.map(context => context.id))).size, 300);
   for (const lesson of lessons) {
     for (const field of ['pinyin','title','region','partner','item','mission','meaning','actionLabel','actionResult','application','ending','cloze','homeTip']) {
       assert.equal(typeof lesson[field], 'string');
@@ -70,19 +70,20 @@ test('48 ordered lessons provide complete draft metadata and three contexts', ()
     assert.equal(lesson.contexts.length, 3);
     assert.equal(new Set(lesson.contexts.map(context => context.id)).size, 3);
     assert.ok(lesson.contexts.every(context => typeof context.label === 'string' && context.label.length));
-    assert.equal(lesson.contentVersion, '2026-11-21');
+    assert.equal(lesson.contentVersion, lessons.indexOf(lesson) < 48 ? '2026-11-21' : '2026-11-22');
     assert.equal(lesson.reviewStatus, 'draft');
   }
 });
 
 test('12 ordered four-lesson regions cover nature, people and everyday life', () => {
-  const regions = Array.from(new Set(lessons.map(lesson => lesson.region)));
+  const original = lessons.slice(0,48);
+  const regions = Array.from(new Set(original.map(lesson => lesson.region)));
   assert.deepEqual(regions, ['溪流营地','天空邮局','田野小屋','花园小径','森林邻居','农场朋友','身体发现','家中小屋','生活小帮手','丰收厨房','快乐出行','海边寻宝']);
   regions.forEach((region,index) => {
-    assert.equal(lessons.filter(lesson => lesson.region === region).length,4);
+    assert.equal(original.filter(lesson => lesson.region === region).length,4);
     assert.ok(lessons.slice(index*4,index*4+4).every(lesson => lesson.region === region));
   });
-  assert.equal(lessons.slice(12).map(lesson => lesson.pinyin).join(' '), 'huā cǎo yè zhú niǎo chóng yú tù niú yáng mǎ gǒu kǒu mù ěr shǒu mén chuāng dēng chuáng yī mào bāo sǎn guā guǒ dòu miàn chē qiáo lù diàn bèi shā wǎng zhōu');
+  assert.equal(original.slice(12).map(lesson => lesson.pinyin).join(' '), 'huā cǎo yè zhú niǎo chóng yú tù niú yáng mǎ gǒu kǒu mù ěr shǒu mén chuāng dēng chuáng yī mào bāo sǎn guā guǒ dòu miàn chē qiáo lù diàn bèi shā wǎng zhōu');
 });
 
 test('original progress and unfinished lessons survive the expanded catalog', () => {
@@ -103,7 +104,7 @@ test('original progress and unfinished lessons survive the expanded catalog', ()
 });
 
 test('all module scripts parse and every lesson has three distinct local photographic scenes', () => {
-  for (const file of ['hanzi-data.js','hanzi-core.js','hanzi-art.js','hanzi.js']) {
+  for (const file of ['hanzi-data.js','hanzi-core.js','hanzi-art.js','hanzi-play.js','hanzi.js']) {
     assert.doesNotThrow(() => new vm.Script(fs.readFileSync(path.join(__dirname,file),'utf8')));
   }
   const context = {window:{}};
@@ -146,17 +147,21 @@ test('all module scripts parse and every lesson has three distinct local photogr
     }
   }
   assert.equal(context.window.HanziArt.island,undefined);
-  assert.equal(assets.size,144,'Every teaching photo must be distinct');
+  assert.equal(assets.size,300,'Every teaching photo must be distinct');
   const index = fs.readFileSync(path.join(__dirname,'index.html'),'utf8');
   assert.match(index, /data-mode="hanzi" onclick="setHanziView\(true\)"/);
   assert.match(index, /frame.src = 'hanzi.html'/);
   assert.match(index, /HanziApp\?\.leave\(\)/);
 });
 
-test('home page lists every theme and gives each story its own photo', () => {
+test('home page lays out all stories in three columns without locks or a separate hero', () => {
   const source = fs.readFileSync(path.join(__dirname,'hanzi.js'),'utf8');
   const map = source.slice(source.indexOf('function renderMap('),source.indexOf('function openGate('));
-  assert.match(map, /chapters\.map\(/);
+  assert.match(map, /lessons\.filter\(/);
+  assert.match(map, /visible\.map\(/);
+  assert.match(map, /sceneCategory|game\.type/);
+  assert.match(map, /aria-pressed/);
+  assert.doesNotMatch(map, /chapter-section|chapter-head|isNext|disabled|待开启|完成前面的故事后开启/);
   assert.match(map, /art\.icon\(lesson\.id\)/);
   assert.doesNotMatch(source, /chapter-select|selectChapter|art\.island|scrollIntoView/);
   assert.doesNotMatch(map, /today-card|today-illustration/);
@@ -164,9 +169,208 @@ test('home page lists every theme and gives each story its own photo', () => {
   assert.ok(map.indexOf('class="story-atlas"') < map.indexOf('class="review-strip"'));
   const css = fs.readFileSync(path.join(__dirname,'hanzi.css'),'utf8');
   const gridRules = [...css.matchAll(/\.tale-grid\{([^}]+)\}/g)].map(match => match[1]);
-  assert.ok(gridRules.some(rule => /grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/.test(rule)));
-  assert.ok(gridRules.every(rule => !rule.includes('grid-template-columns:') || rule.includes('grid-template-columns:repeat(2,minmax(0,1fr))')));
+  assert.ok(gridRules.some(rule => /grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/.test(rule)));
+  assert.ok(gridRules.every(rule => !rule.includes('grid-template-columns:') || rule.includes('grid-template-columns:repeat(3,minmax(0,1fr))')));
   assert.doesNotMatch(css, /today-card|today-illustration|today-body/);
+});
+
+test('scene, gameplay and search filters intersect without moving or hiding available stories', () => {
+  const source = fs.readFileSync(path.join(__dirname,'hanzi.js'),'utf8');
+  const nodes = { 'story-grid':{}, 'filter-summary':{}, 'filter-empty':{} };
+  const pressed = [];
+  const context = {
+    lessons, data:stateWithConsent(), sceneFilter:'all', gameFilter:'all', search:'',
+    play:require('./hanzi-play.js'),
+    $:id => nodes[id], esc:value => String(value),
+    art:{icon:id => `<img src="${id}">`},
+    document:{querySelectorAll:() => [{dataset:{value:'all'},setAttribute:(_,value) => pressed.push(value)}]}
+  };
+  vm.createContext(context);
+  vm.runInContext(source.slice(source.indexOf('function renderTales('),source.indexOf('function openGate(')),context);
+  const count = () => (nodes['story-grid'].innerHTML.match(/class="tale-card /g) || []).length;
+  context.renderTales();
+  assert.equal(count(),100);
+  context.sceneFilter = lessons.at(-1).sceneCategory;
+  context.renderTales();
+  assert.equal(count(),lessons.filter(lesson => lesson.sceneCategory === context.sceneFilter).length);
+  context.gameFilter = lessons.at(-1).game.type;
+  context.renderTales();
+  assert.equal(count(),lessons.filter(lesson => lesson.sceneCategory === context.sceneFilter && lesson.game.type === context.gameFilter).length);
+  context.sceneFilter = 'all'; context.gameFilter = 'all'; context.search = lessons.at(-1).char;
+  context.renderTales();
+  assert.ok(nodes['story-grid'].innerHTML.includes(`data-id="${lessons.at(-1).id}"`));
+  context.search = '不存在的故事内容'; context.renderTales();
+  assert.equal(count(),0); assert.equal(nodes['filter-empty'].hidden,false);
+  context.search = ''; context.renderTales();
+  assert.equal(count(),100); assert.equal(nodes['filter-empty'].hidden,true);
+  assert.doesNotMatch(nodes['story-grid'].innerHTML,/disabled/);
+});
+
+test('every story can start out of order and switching an unfinished story requires confirmation', () => {
+  const source = fs.readFileSync(path.join(__dirname,'hanzi.js'),'utf8');
+  let confirmed = false, confirmations = 0, saves = 0;
+  const routes = [];
+  const context = {
+    data: stateWithConsent(), lessons, C: core, play: require('./hanzi-play.js'),
+    byId: id => lessons.find(lesson => lesson.id === id),
+    ensureConsent: action => action(), syncStorage: () => true,
+    save: () => { saves++; return true; }, navigate: page => routes.push(page),
+    window: { confirm: () => { confirmations++; return confirmed; } }
+  };
+  vm.createContext(context);
+  vm.runInContext(source.slice(source.indexOf('function start('),source.indexOf('function evidence(')),context);
+  for (const lesson of [...lessons].reverse()) {
+    context.data = stateWithConsent();
+    context.start(lesson.id);
+    assert.equal(context.data.draft.lessonId,lesson.id);
+    assert.equal(core.parseState(JSON.stringify(context.data),lessons).draft.lessonId,lesson.id);
+  }
+  assert.equal(saves,lessons.length);
+  assert.equal(confirmations,0);
+  context.data = stateWithConsent();
+  core.completeLesson(context.data,target.id,day);
+  core.recordAttempt(context.data,attempt());
+  context.data.draft = draft();
+  const original = JSON.stringify(context.data);
+  context.start(target.id);
+  assert.equal(confirmations,0);
+  assert.equal(JSON.stringify(context.data),original);
+  const routeCount = routes.length;
+  context.start(lessons.at(-1).id);
+  assert.equal(confirmations,1);
+  assert.equal(routes.length,routeCount);
+  assert.equal(JSON.stringify(context.data),original);
+  confirmed = true;
+  const completedBefore = JSON.stringify(context.data.completed), attemptsBefore = JSON.stringify(context.data.attempts);
+  context.start(lessons.at(-1).id);
+  assert.equal(confirmations,2);
+  assert.equal(context.data.draft.lessonId,lessons.at(-1).id);
+  assert.equal(context.data.draft.step,0);
+  assert.equal(JSON.stringify(context.data.completed),completedBefore);
+  assert.equal(JSON.stringify(context.data.attempts),attemptsBefore);
+  assert.equal(routes.at(-1),'story');
+});
+
+test('all stories have a concrete game and exactly one of ten scene categories', () => {
+  const playground = require('./hanzi-play.js');
+  const categories = ['自然探索','花园种植','动物朋友','身体感官','温暖的家','美味厨房','出行交通','海边发现','创作工坊','社区游玩'];
+  assert.deepEqual([...new Set(lessons.map(lesson => lesson.sceneCategory))].sort(),categories.sort());
+  assert.deepEqual([...new Set(lessons.map(lesson => lesson.game.type))].sort(),Object.keys(playground.labels).sort());
+  for (const lesson of lessons) {
+    const game = lesson.game;
+    for (const field of ['title','instruction','success']) assert.ok(typeof game[field] === 'string' && game[field].length > 3,`${lesson.id}.${field}`);
+    if (['fill','route'].includes(game.type)) {
+      assert.equal(game.steps.length,3);
+      assert.ok(game.steps.every(step => step.label && step.result));
+    } else if (game.type === 'reveal') {
+      assert.equal(game.spots.length,6);
+    } else {
+      assert.ok(game.pieces.length >= 3 && game.pieces.length <= 5);
+      assert.equal(game.matches.length,game.pieces.length);
+      assert.ok(game.pieces.every(piece => piece.label && Number.isInteger(piece.variant) && piece.variant >= 0 && piece.variant <= 2));
+      assert.ok(game.matches.every(index => Number.isInteger(index) && index >= 0 && index < game.targets.length));
+      if (game.type === 'sort') assert.ok(new Set(game.matches).size >= 2);
+    }
+    if (game.targets) assert.ok(game.targets.every(target => target.label && target.x >= 10 && target.x <= 90 && target.y >= 10 && target.y <= 90));
+  }
+});
+
+test('all seven games require actual operations and reject invalid or repeated moves', () => {
+  const playground = require('./hanzi-play.js');
+  for (const lesson of lessons) {
+    const game = lesson.game;
+    let state = playground.createState();
+    const fresh = JSON.stringify(state);
+    assert.equal(playground.isComplete(game,state),false);
+    for (const action of ['pick','drop','step','reveal']) {
+      const result = playground.reduce(game,state,action,999,999);
+      assert.equal(result.changed,false,`${lesson.id} invalid ${action}`);
+      assert.equal(JSON.stringify(state),fresh,'reducer must not mutate input');
+    }
+    if (['fill','route'].includes(game.type)) {
+      assert.equal(playground.reduce(game,state,'step',2).changed,false,'cannot skip directly to the last step');
+      for (let index = 0; index < 3; index++) {
+        state = playground.reduce(game,state,'step',index).state;
+        assert.equal(playground.reduce(game,state,'step',index).changed,false);
+      }
+    } else if (game.type === 'reveal') {
+      for (const index of [5,0,4,1,3,2]) {
+        state = playground.reduce(game,state,'reveal',index).state;
+        assert.equal(playground.reduce(game,state,'reveal',index).changed,false);
+      }
+    } else {
+      const order = game.pieces.map((_,index) => index);
+      if (game.type !== 'sequence') order.reverse();
+      for (const index of order) {
+        state = playground.reduce(game,state,'pick',index).state;
+        if (game.targets.length > 1) {
+          const wrong = (game.matches[index] + 1) % game.targets.length;
+          const result = playground.reduce(game,state,'drop',index,wrong);
+          assert.equal(result.changed,false);
+          assert.equal(result.state.done.length,state.done.length);
+        }
+        state = playground.reduce(game,state,'drop',index,game.matches[index]).state;
+        assert.equal(playground.reduce(game,state,'pick',index).changed,false);
+      }
+    }
+    assert.equal(playground.isComplete(game,state),true,lesson.id);
+    const reset = playground.reduce(game,state,'reset').state;
+    assert.equal(playground.isComplete(game,reset),false);
+  }
+});
+
+test('picture sorting uses matching scene variants and other props are not mislabeled lesson photographs', () => {
+  const playground = require('./hanzi-play.js');
+  const expected = {cloud:[0,1,2,2],leaf:[0,0,1,2],bird:[0,2,1,1],sheep:[0,2,1,1],hand:[0,2,1,1],shirt:[0,0,1,2],bean:[1,1,2,2],pig:[0,1,2,2],bread:[0,1,2,2],plate:[0,2,1,1],pen:[0,0,1,2]};
+  for (const [id,variants] of Object.entries(expected)) {
+    const lesson = lessons.find(lesson => lesson.id === id);
+    assert.deepEqual(lesson.game.pieces.map(piece => piece.variant),variants,id);
+    assert.ok(lesson.game.pieces.every(piece => piece.photo === true),id);
+  }
+  for (const id of ['cow','dog','bag','snow','wheel']) {
+    const html = playground.render(lessons.find(lesson => lesson.id === id),playground.createState());
+    assert.doesNotMatch(html,/class="play-thumbnail"/);
+    assert.match(html,/class="play-prop"/);
+  }
+});
+
+test('reveal games show all three distinct scenes with two freely ordered tiles each', () => {
+  const playground = require('./hanzi-play.js');
+  for (const lesson of lessons.filter(lesson => lesson.game.type === 'reveal')) {
+    const html = playground.render(lesson,playground.createState());
+    assert.equal((html.match(/class="play-board play-reveal-board"/g) || []).length,3,lesson.id);
+    assert.equal((html.match(/data-action="play-reveal"/g) || []).length,6,lesson.id);
+    lesson.contexts.forEach((context,index) => {
+      assert.ok(html.includes(`${lesson.id}-${index}.jpg`),`${lesson.id} scene ${index}`);
+      assert.ok(lesson.game.spots[index * 2].includes(context.label));
+    });
+  }
+});
+
+test('game progress survives reload without changing old records or assessment evidence', () => {
+  const value = draft({step:1,play:{stage:2,done:[0,2],selected:1}});
+  const state = core.parseState(stored({draft:value,completed:{water:completed()},attempts:[attempt()]}),lessons);
+  assert.deepEqual(state.draft.play,value.play);
+  assert.equal(state.draft.audioReady,false);
+  const restored = core.parseState(JSON.stringify(state),lessons);
+  assert.deepEqual(restored,state);
+  for (const invalid of [null,{stage:4,done:[],selected:-1},{stage:0,done:[0,0],selected:-1},
+    {stage:0,done:[6],selected:-1},{stage:0,done:[],selected:99}]) {
+    const parsed = core.parseState(stored({draft:draft({step:1,play:invalid})}),lessons);
+    assert.equal(parsed.draft.lessonId,target.id);
+    assert.deepEqual(parsed.draft.play,{stage:0,done:[],selected:-1});
+  }
+  assert.equal(core.parseState(stored({draft:draft()}),lessons).draft.play,undefined,'old draft schema remains intact');
+});
+
+test('playground cannot manufacture recognition attempts or overwrite completion souvenirs', () => {
+  const source = fs.readFileSync(path.join(__dirname,'hanzi.js'),'utf8');
+  const handler = source.slice(source.indexOf('function handlePlay('),source.indexOf('function playQuestion('));
+  assert.doesNotMatch(handler,/recordAttempt|evidence\(|completeLesson|completeReview|data\.completed\s*=/);
+  const engine = fs.readFileSync(path.join(__dirname,'hanzi-play.js'),'utf8');
+  assert.doesNotMatch(engine,/localStorage|recordAttempt|fetch\(|XMLHttpRequest|setInterval|https?:/);
+  const coreSource = fs.readFileSync(path.join(__dirname,'hanzi-core.js'),'utf8');
+  assert.match(coreSource,/pb_hanzi_v1/);
 });
 
 test('photographic review choices avoid ambiguous natural backgrounds', () => {

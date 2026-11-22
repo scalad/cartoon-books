@@ -1201,5 +1201,788 @@ const HanziLessons = [
   }
 ];
 
+HanziLessons.push(...[
+  {
+    id: 'wind', char: '风', pinyin: 'fēng', meaningDistractors: ['mouth', 'eye'],
+    title: '追回风里的野餐垫', region: '天空邮局', partner: '林阿姨', item: '风中整理照片',
+    mission: '“风把垫角吹起来了，一起在屏幕上压好吧！”',
+    meaning: '这是“风”。风是流动的空气，通常看不见。被吹动的柳枝、扬起的窗帘和飘起的蓝色旗帜，让我们看到风吹过的样子。',
+    actionLabel: '压好三个垫角', actionResult: '你把三个软压袋移到野餐垫的翘角上，垫子不再翻起。林阿姨带大家留在平坦的休息区。',
+    application: '给风中整理照片配上“风”字牌，记录吹动垫角的是什么。',
+    ending: '风还在吹，大家的点心却稳稳放好了。你收好照片，听着布棚轻响，和家人坐下来休息。',
+    cloze: '流动的空气吹动了柳枝，这就是——',
+    homeTip: '散步自然遇到微风时，留意孩子自己的感受和描述，不先指柳枝或读字，不追问；大风时留在室内。',
+    contexts: [{ id: 'wind-ribbons', label: '被风吹动的柳枝' }, { id: 'wind-grasses', label: '被风吹起的窗帘' }, { id: 'wind-curtain', label: '被风吹起的蓝色旗帜' }]
+  },
+  {
+    id: 'snow', char: '雪', pinyin: 'xuě', meaningDistractors: ['mouth', 'eye'],
+    title: '给小雪人添上围巾', region: '冬日观察站', partner: '爸爸', item: '雪人合影',
+    mission: '“在屏幕上把雪团叠稳，给雪人围上软围巾吧！”',
+    meaning: '这是“雪”。雪由冰晶形成，从云里落下来后可以积在物体表面。草地上的积雪、屋顶上的积雪和松枝上的积雪，都是雪。',
+    actionLabel: '叠好雪人', actionResult: '你把大雪团、小雪团和围巾移到各自的位置，一个圆圆的雪人站好了。',
+    application: '在雪人合影旁放一块“雪”字牌，留下今天的天气记录。',
+    ending: '爸爸拍下雪人和你们的脚印。大家穿着暖衣回屋，雪人留在院子里，合影带进了故事册。',
+    cloze: '草地、屋顶和松枝上积着的白白的冰晶，是——',
+    homeTip: '自然看到雪景时，听孩子怎样描述，不先给名称或要求摸雪；户外由成人陪伴保暖，雪不放入口中。',
+    contexts: [{ id: 'snow-lawn', label: '草地上积着的雪' }, { id: 'snow-branch', label: '屋顶上积着的雪' }, { id: 'snow-falling', label: '松枝上积着的雪' }]
+  },
+  {
+    id: 'star', char: '星', pinyin: 'xīng', meaningDistractors: ['mouth', 'eye'],
+    title: '揭开夜空的小亮点', region: '天空邮局', partner: '天文馆姐姐', item: '夜空观察页',
+    mission: '“轻轻揭开夜空照片，看看远处的星吧！”',
+    meaning: '这是“星”。这一课说夜空中遥远的星星，照片里像小亮点，不是五角形的装饰。白天也有星，只是通常看不见。',
+    actionLabel: '揭开夜空照片', actionResult: '你打开六块遮片，山、湖和乡野上方的星空照片露出来，姐姐陪你慢慢看。',
+    application: '把“星”字牌放到夜空观察页旁，记录这些小亮点。',
+    ending: '不用数完，也不用找出哪颗最亮。你选了喜欢的一片夜空收进故事册，和家人一起回家。',
+    cloze: '夜空中遥远的、看起来像小亮点的是——',
+    homeTip: '翻看夜空照片时，留意孩子主动关注的地方，不提示星的位置或要求计数；夜间观察须成人陪伴。',
+    contexts: [{ id: 'star-mountain', label: '山上方夜空里的星' }, { id: 'star-lake', label: '湖上方夜空里的星' }, { id: 'star-rooftop', label: '乡野上方夜空里的星' }]
+  },
+  {
+    id: 'ice', char: '冰', pinyin: 'bīng', meaningDistractors: ['mouth', 'eye'],
+    title: '给冰块照片找位置', region: '冬日观察站', partner: '科学馆老师', item: '冰的观察折页',
+    mission: '“把冰块、水洼冰和池塘冰的照片各放进一个观察格吧！”',
+    meaning: '这是“冰”。水冷到一定程度会结成冰，冰是固态的水。玻璃碗里的冰块、地面水洼里结成的冰和池塘水面上结成的冰，样子不同，都是冰。',
+    actionLabel: '摆好冰的照片', actionResult: '你把冰块、水洼冰和池塘冰照片移到对应的照片格，老师展开了完整的观察折页。',
+    application: '在折页的封面配上“冰”字牌，标明这组照片的主题。',
+    ending: '折页里留下了三种冰的样子。你在室内看看就好，和家人把观察折页夹进故事册。',
+    cloze: '水冷到一定程度，结成硬硬的——',
+    homeTip: '自然见到制冰盒或冰景照片时，记录孩子自发的描述，不要求触摸或尝冰；不踩结冰的水洼，不踏池塘冰面。',
+    contexts: [{ id: 'ice-cubes', label: '玻璃碗里的冰块' }, { id: 'ice-surface', label: '地面水洼里结成的冰' }, { id: 'ice-icicles', label: '池塘水面上结成的冰' }]
+  },
+  {
+    id: 'river', char: '河', pinyin: 'hé', meaningDistractors: ['mouth', 'eye'],
+    title: '沿着河岸去休息亭', region: '溪流营地', partner: '步道阿姨', item: '河岸散步图',
+    mission: '“在屏幕地图上，沿护栏步道带大家去休息亭吧！”',
+    meaning: '这是“河”。河是地面上沿河道流动的水流。山林间的河、石拱桥下的河和田野里的河，都有河道和河岸。',
+    actionLabel: '走完河岸路线', actionResult: '你依次选中步道入口、护栏转弯处和休息亭，地图上的脚印一直留在岸边步道上。',
+    application: '把“河”字牌放到散步图的河道旁，标出沿途看到的水流。',
+    ending: '家人陪大家在亭里歇脚，河水继续往前流。你把河岸散步图收好，路线没有走到水里。',
+    cloze: '沿着河道向前流、两边有河岸的水流，是——',
+    homeTip: '沿开放的有护栏步道散步时，留意孩子自然描述，不提示字；成人全程陪伴，不让孩子独自到水边。',
+    contexts: [{ id: 'river-valley', label: '山林间流动的河' }, { id: 'river-city', label: '石拱桥下流动的河' }, { id: 'river-fields', label: '田野间流动的河' }]
+  },
+  {
+    id: 'pond', char: '池', pinyin: 'chí', meaningDistractors: ['mouth', 'eye'],
+    title: '展开小池的倒影', region: '花园小径', partner: '公园叔叔', item: '小池观察照片',
+    mission: '“揭开遮片，在岸上看看小池里的倒影吧！”',
+    meaning: '这是“池”。这一课说池塘，是地面上蓄着水、范围较小的一片地方。花园小池、荷花池和院里的水池都可以蓄水。',
+    actionLabel: '揭开池边照片', actionResult: '你揭开六块遮片，平静水面、池边和倒影渐渐露出来，叔叔陪你看照片中的小池。',
+    application: '给小池观察照片放上“池”字牌，记录这一处蓄水的地方。',
+    ending: '一阵微风让倒影轻轻晃动。你留下照片，和家人沿步道离开，小池的花与动物都留在原处。',
+    cloze: '花园里范围不大、蓄着水的地方，可以叫小——',
+    homeTip: '自然翻看池塘照片时，听孩子自己的描述，不要求找字；户外在护栏外由成人陪伴，不探身或喂鱼。',
+    contexts: [{ id: 'pond-garden', label: '花园里的小池' }, { id: 'pond-lotus', label: '长着荷花的池' }, { id: 'pond-courtyard', label: '院子里蓄水的池' }]
+  },
+  {
+    id: 'tree', char: '树', pinyin: 'shù', meaningDistractors: ['mouth', 'eye'],
+    title: '把大树的影子拼完整', region: '花园小径', partner: '园丁阿姨', item: '树影拼图照片',
+    mission: '“把树干和两边树冠拼到观察板上吧！”',
+    meaning: '这是“树”。树是有木质茎的植物，许多树有明显的树干和树冠。枝叶繁茂的树、针叶树和落叶后的树，都是树。',
+    actionLabel: '拼好树的观察板', actionResult: '你把树干、左树冠和右树冠的拼图片放到各自位置，一棵完整的大树出现在观察板上。',
+    application: '在树影拼图照片旁配上“树”字牌，记录今天观察的植物。',
+    ending: '阿姨带大家坐在树荫旁的长椅上，你发现真树的枝叶比拼图丰富。树影拼图照片留在故事册里。',
+    cloze: '公园里长着木质树干、枝条伸向天空的植物，是——',
+    homeTip: '散步时让孩子自由观察树，不先指树干或要求辨认；不攀爬、不折枝，成人陪伴走开放步道。',
+    contexts: [{ id: 'tree-broadleaf', label: '枝叶繁茂的阔叶树' }, { id: 'tree-conifer', label: '长着针叶的树' }, { id: 'tree-bare', label: '冬天落叶后的树' }]
+  },
+  {
+    id: 'root', char: '根', pinyin: 'gēn', meaningDistractors: ['mouth', 'eye'],
+    title: '打开根的地下窗口', region: '田野小屋', partner: '植物馆老师', item: '根部观察卡',
+    mission: '“揭开观察窗，看看植物下面的根吧！”',
+    meaning: '这是“根”。根是植物的一个部分，许多根长在土里，帮助固定植物、吸收水和养分。土里的细根、露出的树根和水中的根，都是根。',
+    actionLabel: '打开根的观察窗', actionResult: '你揭开六块遮片，透明观察盒里的分枝细根露出来，老师指着照片讲它怎样在土里伸展。',
+    application: '在根部观察卡上放好“根”字牌，标出植物下面这一部分。',
+    ending: '观察盒仍好好放在展台上，没有拔出植物。你把根部观察卡收好，知道土下面也有值得看的部分。',
+    cloze: '植物下面伸进土里、吸收水和养分的部分，是——',
+    homeTip: '自然遇到已有的根部照片时，听孩子自己的发现，不先指根或问答案；不为观察拔植物或挖树根。',
+    contexts: [{ id: 'root-soil', label: '透明观察盒中土里的根' }, { id: 'root-tree', label: '树干旁露出的根' }, { id: 'root-water', label: '水培植物水中的根' }]
+  },
+  {
+    id: 'sprout', char: '芽', pinyin: 'yá', meaningDistractors: ['mouth', 'eye'],
+    title: '小芽慢慢打开了', region: '田野小屋', partner: '种植老师', item: '发芽时间页',
+    mission: '“把同一颗豆子几天里的变化照片按顺序放好吧！”',
+    meaning: '这是“芽”。芽是植物新生、还很幼小的部分，可以慢慢展开成枝叶。种子冒出的芽、枝条上的芽和土上刚钻出的芽，都是芽。',
+    actionLabel: '排好发芽照片', actionResult: '你依次放好豆子裂开、露出小芽和芽尖展开的照片，这些变化来自几天的观察，不是一下子发生的。',
+    application: '给发芽时间页配上“芽”字牌，记录新长出的部分。',
+    ending: '老师把日期记在照片旁，大家约好以后再看变化。你收下时间页，让小芽照自己的速度长。',
+    cloze: '种子刚冒出、还很幼小的新生部分，是——',
+    homeTip: '日常照料盆栽时留意孩子是否自发发现新芽，不提示、不要求每天复述；不掐芽、不把种子放入口中。',
+    contexts: [{ id: 'sprout-bean', label: '豆种子刚冒出的芽' }, { id: 'sprout-branch', label: '枝条上鼓起的芽' }, { id: 'sprout-soil', label: '刚钻出土面的芽' }]
+  },
+  {
+    id: 'seed', char: '种', pinyin: 'zhǒng', meaningDistractors: ['mouth', 'eye'],
+    title: '给种子袋安个家', region: '田野小屋', partner: '园艺阿姨', item: '种子收纳图',
+    mission: '“把封好的豆子、向日葵和南瓜种子袋送到各自抽屉吧！”',
+    meaning: '这是“种”，读zhǒng。这一课说种子。豆子的种子、向日葵的种子和南瓜的种子，样子不同，都可能在适合的条件下长出新植物。',
+    actionLabel: '放好三袋种子', actionResult: '你把三种密封种子袋分别移进有相同图案的抽屉，阿姨合好了种子柜。',
+    application: '在种子收纳图上放一块“种”字牌，说明柜里保存的是种子。',
+    ending: '今天只收纳，播种另选合适的日子。你带走收纳图，种子袋留给阿姨保管，不当零食。',
+    cloze: '在适合的条件下可能长成新植物的是种子，这里的字读zhǒng，写作——',
+    homeTip: '自然翻到种子图片时记录孩子的描述，不先说名称或要求配字；种子由成人保管，不玩散粒。',
+    contexts: [{ id: 'seed-bean', label: '托盘里的豆种子' }, { id: 'seed-sunflower', label: '托盘里的向日葵种子' }, { id: 'seed-pumpkin', label: '托盘里的南瓜种子' }]
+  },
+  {
+    id: 'seedling', char: '苗', pinyin: 'miáo', meaningDistractors: ['mouth', 'eye'],
+    title: '幼苗搬进阳光角', region: '田野小屋', partner: '园丁叔叔', item: '幼苗安放照片',
+    mission: '“在屏幕上把三盆小苗移到低矮苗架的空位吧！”',
+    meaning: '这是“苗”。苗是刚开始生长、还很幼小的植物。育苗盘里的菜苗、盆里的花苗和田里的稻苗，都是苗。',
+    actionLabel: '摆好三盆小苗', actionResult: '你把三盆幼苗移到苗架的三个空位，盆底没有叠在一起，嫩叶有了舒展的空间。',
+    application: '给幼苗安放照片配上“苗”字牌，标出这些幼小的植物。',
+    ending: '叔叔检查好苗架后，大家退到步道上看小苗。安放照片留下今天的样子，长大还需要时间。',
+    cloze: '育苗盘里刚长起、还很幼小的植物，叫作——',
+    homeTip: '陪孩子日常看盆栽时，记录主动出现的描述，不比较谁认得快；真实搬盆由成人处理，孩子不碰肥料。',
+    contexts: [{ id: 'seedling-vegetable', label: '育苗盘里的菜苗' }, { id: 'seedling-flower', label: '花盆里的花苗' }, { id: 'seedling-rice', label: '田里成行的稻苗' }]
+  }
+].map(lesson => ({ ...lesson, contentVersion: '2026-11-22', reviewStatus: 'draft' })));
+
+HanziLessons.push(...[
+  {
+    id: 'cat', char: '猫', pinyin: 'māo', meaningDistractors: ['rice', 'stone'],
+    title: '收好猫朋友的软垫', region: '森林邻居', partner: '宠物照护姐姐', item: '猫窝整理照片',
+    mission: '“把小毯、软垫和布球放回猫朋友的休息角吧！”',
+    meaning: '这是“猫”。猫是动物，有胡须、爪子和尾巴。坐着的猫、蜷睡的猫和伸懒腰的猫，都是猫。',
+    actionLabel: '整理猫的休息角', actionResult: '你把小毯放进睡篮、软垫放到休息位、布球放进玩具盒，姐姐让猫自己选择何时过来。',
+    application: '在猫窝整理照片旁放好“猫”字牌，记录休息角的主人。',
+    ending: '猫安静地走到软垫上卧下。你留下整理照片，大家轻轻离开，不叫醒它，也不抱起陌生猫。',
+    cloze: '照片里有胡须、正在伸懒腰的动物，是——',
+    homeTip: '看猫的照片时听孩子自然描述，不先提示名称；接触熟悉宠物须成人陪伴，不追逐、不强抱。',
+    contexts: [{ id: 'cat-sitting', label: '安静坐着的猫' }, { id: 'cat-sleeping', label: '蜷起来睡觉的猫' }, { id: 'cat-stretching', label: '伸懒腰的猫' }]
+  },
+  {
+    id: 'duck', char: '鸭', pinyin: 'yā', meaningDistractors: ['rice', 'stone'],
+    title: '鸭的照片游进相册', region: '农场朋友', partner: '农场摄影师', item: '鸭相册小页',
+    mission: '“把游泳、走路和休息的鸭照片放到三个相册格吧！”',
+    meaning: '这是“鸭”。鸭是鸟，嘴常常较扁，脚趾间有蹼。游泳的鸭、岸上走的鸭和休息的鸭，都是鸭。',
+    actionLabel: '放好鸭的照片', actionResult: '你把三张鸭照片分别移进游泳、走路和休息图格，摄影师合好了相册。',
+    application: '给鸭相册小页放上“鸭”字牌，记录这一组动物照片。',
+    ending: '相册带进室内，鸭还在自己的活动区。你留下小页，不用追鸭或用食物把它叫来。',
+    cloze: '图里扁嘴、脚趾间有蹼的这种鸟，是——',
+    homeTip: '自然看到鸭的图画时，留意孩子自己的发现，不先强调扁嘴或要求辨认；真实观察由成人陪伴，不投食。',
+    contexts: [{ id: 'duck-swimming', label: '清水里游泳的鸭' }, { id: 'duck-walking', label: '草地上走路的鸭' }, { id: 'duck-resting', label: '草地上休息的鸭' }]
+  },
+  {
+    id: 'chicken', char: '鸡', pinyin: 'jī', meaningDistractors: ['rice', 'stone'],
+    title: '鸡舍图册开窗啦', region: '农场朋友', partner: '农场阿姨', item: '鸡舍观察页',
+    mission: '“揭开图册的小窗，看看棕母鸡、公鸡和白母鸡吧！”',
+    meaning: '这是“鸡”。公鸡和母鸡都是鸡，属于鸟，身上有羽毛。草地上的棕母鸡、农舍旁的公鸡和低头觅食的白母鸡，模样和姿势不同，都是鸡。',
+    actionLabel: '揭开鸡的照片', actionResult: '你揭开六块遮片，棕母鸡、公鸡和白母鸡的自然照片露出来，阿姨陪你比较它们的模样。',
+    application: '在鸡舍观察页上放好“鸡”字牌，标明这组照片。',
+    ending: '鸡在围栏内安静活动，你把观察页夹好。今天不用摸它们，照片里也能留下丰富的发现。',
+    cloze: '棕母鸡、公鸡和白母鸡，共同的名字是——',
+    homeTip: '看农场相册时，听孩子怎样描述，不先给分类答案；成人陪伴在栏外观察，不追赶或伸手抓鸡。',
+    contexts: [{ id: 'chicken-rooster', label: '草地上站着的棕母鸡' }, { id: 'chicken-hen', label: '农舍旁的公鸡' }, { id: 'chicken-chick', label: '低头觅食的白母鸡' }]
+  },
+  {
+    id: 'goose', char: '鹅', pinyin: 'é', meaningDistractors: ['rice', 'stone'],
+    title: '把鹅的长颈照片挂好', region: '农场朋友', partner: '自然馆叔叔', item: '鹅展板留念卡',
+    mission: '“把草地上站着、水里游泳和院子里站着的白鹅照片挂到展板空位吧！”',
+    meaning: '这是“鹅”。鹅是鸟，脖子较长，脚趾间有蹼。草地上站着的白鹅、水里游泳的白鹅和院子里站着的白鹅，都是鹅；姿势和所在地方不同，名字不变。',
+    actionLabel: '挂好鹅的照片', actionResult: '你把三张鹅照片拖到展板的三个夹框，照片不再重叠，参观者可以慢慢看。',
+    application: '给鹅展板留念卡配上“鹅”字牌，记下展板上的动物。',
+    ending: '展板在馆里挂好了，你带走留念卡。鹅的长脖子留在照片中，大家无需靠近会护群的鹅。',
+    cloze: '照片里脖子较长、有蹼的这种鸟，是——',
+    homeTip: '自然看鹅的照片时记录孩子原话，不用叫声提示字；真实观察保持距离，由成人陪伴，不喂鹅。',
+    contexts: [{ id: 'goose-white', label: '草地上站着的白鹅' }, { id: 'goose-grey', label: '水里游泳的白鹅' }, { id: 'goose-swimming', label: '院子里站着的白鹅' }]
+  },
+  {
+    id: 'pig', char: '猪', pinyin: 'zhū', meaningDistractors: ['rice', 'stone'],
+    title: '猪的相册分两页', region: '农场朋友', partner: '饲养员叔叔', item: '猪相册折页',
+    mission: '“把站着和躺着的猪照片分到两张相册页吧！”',
+    meaning: '这是“猪”。猪的鼻端有鼻盘，身体较结实。站着的粉色猪、站着的黑白花猪和卧着的粉色猪，都是猪。',
+    actionLabel: '整理猪的姿势照片', actionResult: '你把站姿照片送到站着页，把卧姿照片送到休息页，同一种动物的不同姿势分开了。',
+    application: '在猪相册折页的封面放好“猪”字牌。',
+    ending: '叔叔把折页摆到参观桌，猪仍在自己的栏内休息。你留下一份折页，不把围栏当游乐设施。',
+    cloze: '图里鼻端有鼻盘、身体结实的动物，是——',
+    homeTip: '翻看猪的照片时，接纳孩子自然的描述，不先提示毛色；农场观察须成人陪伴，不进栏或投食。',
+    contexts: [{ id: 'pig-pink', label: '站着的粉色猪' }, { id: 'pig-black', label: '站着的黑白花猪' }, { id: 'pig-resting', label: '卧着的粉色猪' }]
+  },
+  {
+    id: 'deer', char: '鹿', pinyin: 'lù', meaningDistractors: ['rice', 'stone'],
+    title: '翻开鹿的安静时刻', region: '森林邻居', partner: '自然摄影师', item: '鹿观察小册',
+    mission: '“揭开远处拍的照片，让鹿的安静时刻露出来吧！”',
+    meaning: '这是“鹿”。鹿是动物，腿较细长，蹄分成两瓣。有的鹿有角，有的没有角；林间站着的有角鹿、草地上站着的无角鹿和林间行走的鹿，都是鹿。',
+    actionLabel: '揭开鹿的照片', actionResult: '你揭开六块遮片，摄影师从远处拍下的鹿照片露出来，鹿没有被叫来或追赶。',
+    application: '给鹿观察小册配上“鹿”字牌，记录这组远距离照片。',
+    ending: '你把小册轻轻合上，鹿留在自己的栖息地。故事册收藏的是照片，不带走动物的食物或栖息地。',
+    cloze: '图里腿细长、蹄分两瓣的动物，是——',
+    homeTip: '自然看鹿的相册时记录孩子的发现，不先指角或要求答题；不靠近野生鹿，不喂食。',
+    contexts: [{ id: 'deer-standing', label: '林间站着的有角鹿' }, { id: 'deer-grazing', label: '草地上站着的无角鹿' }, { id: 'deer-resting', label: '林间行走的鹿' }]
+  },
+  {
+    id: 'bear', char: '熊', pinyin: 'xióng', meaningDistractors: ['rice', 'stone'],
+    title: '熊的自然照片拼成展墙', region: '森林邻居', partner: '动物馆姐姐', item: '熊展墙小卡',
+    mission: '“把行走、坐着和休息的熊照片摆到展墙框里吧！”',
+    meaning: '这是“熊”。熊是身体粗壮、有毛的动物，耳朵较小而圆，四肢有爪。走着、坐着和休息的熊，都是熊，不是玩具熊。',
+    actionLabel: '摆好熊的展墙', actionResult: '你把三张写实AI熊图卡各移进一个展框，姐姐把展墙的角垫固定好。',
+    application: '给熊展墙小卡配上“熊”字牌，标明展墙记录的动物。',
+    ending: '参观者在馆内看展墙，你收下小卡。真熊只在安全的照片中观察，大家不会到野外寻找或接近它。',
+    cloze: '照片里身体粗壮、耳朵圆小的动物，是——',
+    homeTip: '自然翻到熊的照片时留意孩子自己的描述，不用玩具外形代替真实概念；不安排接近熊的活动。',
+    contexts: [{ id: 'bear-walking', label: '草地上行走的棕熊' }, { id: 'bear-sitting', label: '草地上坐着的棕熊' }, { id: 'bear-resting', label: '草地上休息的棕熊' }]
+  },
+  {
+    id: 'bee', char: '蜂', pinyin: 'fēng', meaningDistractors: ['rice', 'stone'],
+    title: '把蜂的近照送进观察框', region: '花园小径', partner: '昆虫馆老师', item: '蜂观察页',
+    mission: '“把三张蜂的近照送到停留、飞行和侧身观察框吧！”',
+    meaning: '这是“蜂”。这一课用蜜蜂来观察蜂。蜜蜂是昆虫，有六条腿和翅膀；停在花上、飞着和侧身的蜜蜂，都是蜂。',
+    actionLabel: '放好蜂的照片', actionResult: '你把三张蜜蜂照片移到相应的观察框，老师用照片讲它们的身体，不需要捉一只来看。',
+    application: '在蜂观察页旁放上“蜂”字牌，记录照片里的昆虫。',
+    ending: '照片收进展册，蜜蜂继续在花间活动。你带回观察页，记得远看、不拍打、不碰蜂巢。',
+    cloze: '照片里在花间活动的蜜蜂，可以用这个字表示——',
+    homeTip: '自然见到蜂的图片时听孩子原话，不先模仿声音提示；真实遇蜂保持距离，不捕捉或拍打。',
+    contexts: [{ id: 'bee-flower', label: '停在花上的蜜蜂' }, { id: 'bee-flying', label: '空中飞行的蜜蜂' }, { id: 'bee-side', label: '侧身停在叶上的蜜蜂' }]
+  },
+  {
+    id: 'butterfly', char: '蝶', pinyin: 'dié', meaningDistractors: ['rice', 'stone'],
+    title: '蝶翼照片打开了', region: '花园小径', partner: '摄影阿姨', item: '蝴蝶观察折页',
+    mission: '“揭开遮片，看看蝴蝶展开和合拢翅膀的样子吧！”',
+    meaning: '这是“蝶”，是蝴蝶的蝶。蝴蝶是昆虫，有六条腿、触角和两对翅膀。展开翅膀、合拢翅膀和飞着的蝴蝶，都是蝶。',
+    actionLabel: '揭开蝶翼照片', actionResult: '你揭开六块遮片，看到了蝴蝶的不同姿势，阿姨的镜头没有碰到它们的翅膀。',
+    application: '给蝴蝶观察折页放上“蝶”字牌，记录这些昆虫。',
+    ending: '折页打开像小小展板，真蝴蝶自由飞走了。你收好折页，不把翅膀当可以摘下的装饰。',
+    cloze: '蝴蝶的名字里，后面的这个字是——',
+    homeTip: '散步自然看到蝴蝶时留意孩子自发描述，不先说字音或要求追着看；不捉蝶、不触碰翅膀。',
+    contexts: [{ id: 'butterfly-open', label: '展开翅膀的蝴蝶' }, { id: 'butterfly-closed', label: '合拢翅膀的蝴蝶' }, { id: 'butterfly-flying', label: '飞行中的蝴蝶' }]
+  },
+  {
+    id: 'foot', char: '足', pinyin: 'zú', meaningDistractors: ['rice', 'stone'],
+    title: '小足印走回软垫', region: '身体发现', partner: '体能老师', item: '足印路线卡',
+    mission: '“在屏幕上沿足印走过三块地垫吧！”',
+    meaning: '这是“足”。这一课的足指脚，是身体的一部分。脚背、脚底和脚的侧面，都在展示足。',
+    actionLabel: '走过足印地垫', actionResult: '你依次点到出发垫、转弯垫和休息垫，屏幕上的足印沿平坦路线排好了。',
+    application: '在足印路线卡旁放上“足”字牌，说明足印来自脚。',
+    ending: '路线结束在柔软的休息垫上。你和老师坐下来，足印路线卡收进故事册，脚也可以好好休息。',
+    cloze: '身体上用来站立和行走的脚，这一课也叫——',
+    homeTip: '孩子自然穿袜子或看脚印时记录自发的话，不要求脱鞋展示或反复走路线；活动区保持防滑。',
+    contexts: [{ id: 'foot-top', label: '人的脚背' }, { id: 'foot-sole', label: '人的脚底' }, { id: 'foot-side', label: '人的脚侧面' }]
+  },
+  {
+    id: 'head', char: '头', pinyin: 'tóu', meaningDistractors: ['rice', 'stone'],
+    title: '给头部画像拼个轮廓', region: '身体发现', partner: '美术老师', item: '头部轮廓小画',
+    mission: '“把头顶、左边和右边的画像片拼到轮廓板吧！”',
+    meaning: '这是“头”。头是身体的一部分，脸、耳朵和头顶都在头上。正面的头、侧面的头和后面的头，展示的是同一个身体部位。',
+    actionLabel: '拼好头部轮廓', actionResult: '你把头顶和左右两片画像放到对应位置，轮廓连成完整的头部画像。',
+    application: '给头部轮廓小画配上“头”字牌，标明画的是身体哪一部分。',
+    ending: '老师把画像立在小画架上，大家各自看看就好。你带回小画，不用让别人的头转来转去配合观察。',
+    cloze: '脸、耳朵和头顶所在的身体部位，是——',
+    homeTip: '自然画人物时听孩子如何描述头部，不指出缺少什么、不要求转头或辨认；尊重孩子不想展示身体的意愿。',
+    contexts: [{ id: 'head-front', label: '人的头部正面' }, { id: 'head-profile', label: '人的头部侧面' }, { id: 'head-back', label: '人的头部后面' }]
+  },
+  {
+    id: 'tooth', char: '牙', pinyin: 'yá', meaningDistractors: ['rice', 'stone'],
+    title: '牙齿模型的观察窗', region: '身体发现', partner: '牙医阿姨', item: '牙齿观察卡',
+    mission: '“揭开遮片，看看模型上前面和后面的牙吧！”',
+    meaning: '这是“牙”。牙是牙齿，长在嘴里，帮助咬和嚼食物。牙齿模型上的前牙、后牙和整排牙，都是牙。',
+    actionLabel: '打开牙齿观察窗', actionResult: '你揭开六块遮片，模型的前牙和后牙露出来，阿姨用模型讲解，不碰你的嘴。',
+    application: '给牙齿观察卡放上“牙”字牌，标明模型展示的部位。',
+    ending: '模型放回展柜，你带走观察卡。刷牙仍按家里的习惯由大人协助，不用张嘴给别人检查来完成游戏。',
+    cloze: '嘴里帮助咬和嚼食物的，是——',
+    homeTip: '日常刷牙时记录孩子主动的话，不先要求认字；幼儿刷牙由成人协助，不强迫张嘴展示。',
+    contexts: [{ id: 'tooth-front', label: '牙齿模型上的前牙' }, { id: 'tooth-molar', label: '牙齿模型上的后牙' }, { id: 'tooth-row', label: '牙齿模型上的整排牙' }]
+  },
+  {
+    id: 'heart', char: '心', pinyin: 'xīn', meaningDistractors: ['rice', 'stone'],
+    title: '心脏模型转到眼前', region: '身体发现', partner: '健康馆老师', item: '心脏模型观察页',
+    mission: '“揭开模型照片，从三个方向看看心脏吧！”',
+    meaning: '这是“心”。这一课说身体里的心脏，是胸腔里推动血液流动的器官。照片展示人体心脏的教学模型，不是爱心图标，也不是真实手术照片。',
+    actionLabel: '揭开心脏模型照片', actionResult: '你揭开六块遮片，看到了人体心脏教学模型的正面、斜侧面和背面。老师说明真实心脏在身体里面。',
+    application: '在心脏模型观察页旁放上“心”字牌，标明模型代表的器官。',
+    ending: '老师把模型放回展台，你收好观察页。身体里面的心脏一直在工作，游戏不需要跑快或按压胸口来验证。',
+    cloze: '身体里推动血液流动的器官叫心脏，前面的字是——',
+    homeTip: '自然翻看健康图册时听孩子的表达，不用爱心图标代替心脏，不要求摸胸口、听心跳或跑步证明理解。',
+    contexts: [{ id: 'heart-front', label: '人体心脏教学模型的正面' }, { id: 'heart-side', label: '人体心脏教学模型的斜侧面' }, { id: 'heart-back', label: '人体心脏教学模型的背面' }]
+  },
+  {
+    id: 'face', char: '脸', pinyin: 'liǎn', meaningDistractors: ['rice', 'stone'],
+    title: '脸的图卡有了展示格', region: '身体发现', partner: '摄影老师', item: '脸部观察小页',
+    mission: '“把正脸、侧脸和微笑的脸图卡放到各自展示格吧！”',
+    meaning: '这是“脸”。脸是头的前面部分，眼睛、鼻子和嘴在脸上。正着、侧着和微笑时看到的，都是脸。这一课用写实AI人像图卡观察脸。',
+    actionLabel: '摆好脸部图卡', actionResult: '你把三张写实AI人像图卡移到对应图格，老师没有要求任何人做指定表情。',
+    application: '给脸部观察小页配上“脸”字牌，记录图卡展示的部分。',
+    ending: '小页上的人像和笑容来自写实AI人像图卡，不是真人拍摄的照片。你把它收好，今天不想照镜子或拍照的朋友也能一起看展。',
+    cloze: '头的前面、有眼睛鼻子和嘴的部分，是——',
+    homeTip: '日常照镜子时留意孩子主动关注什么，不提示答案、不要求表情；尊重孩子不想拍照或展示脸的选择。',
+    contexts: [{ id: 'face-front', label: '人的脸部正面' }, { id: 'face-profile', label: '人的脸部侧面' }, { id: 'face-smile', label: '自然微笑的脸' }]
+  }
+].map(lesson => ({ ...lesson, contentVersion: '2026-11-22', reviewStatus: 'draft' })));
+
+HanziLessons.push(...[
+  {
+    id: 'table', char: '桌', pinyin: 'zhuō', meaningDistractors: ['mouth', 'eye'],
+    title: '把阅读桌搭稳', region: '家中小屋', partner: '木工阿姨', item: '阅读桌模型照片',
+    mission: '“在屏幕上把桌面和两组桌腿装到模型的位置吧！”',
+    meaning: '这是“桌”。桌子有桌面，可以放东西。餐桌、书桌和矮桌，用处和高度不同，都是桌。',
+    actionLabel: '拼好阅读桌模型', actionResult: '你把桌面、左腿架和右腿架移到模型槽位，一张平稳的小桌模型拼好了。',
+    application: '给阅读桌模型照片放上“桌”字牌，记录搭好的家具。',
+    ending: '阿姨检查真实阅读桌的牢固程度，大家才放上绘本。你留好模型照片，拼装游戏不用任何真工具。',
+    cloze: '有平平的桌面、可以放绘本的家具，是——',
+    homeTip: '日常摆放物品时听孩子主动说到的家具，不先读字；不让幼儿攀桌，修理和工具操作交给成人。',
+    contexts: [{ id: 'table-dining', label: '空着的餐桌' }, { id: 'table-desk', label: '空着的书桌' }, { id: 'table-low', label: '空着的矮桌' }]
+  },
+  {
+    id: 'chair', char: '椅', pinyin: 'yǐ', meaningDistractors: ['mouth', 'eye'],
+    title: '小椅子排进故事圈', region: '家中小屋', partner: '故事老师', item: '故事圈布置图',
+    mission: '“把三把小椅子移到故事圈的空位，留出中间通道吧！”',
+    meaning: '这是“椅”。椅子是供人坐的家具，通常有靠背。家中的木椅、教室里的木椅和户外的木折叠椅，都是椅。',
+    actionLabel: '排好故事圈小椅', actionResult: '你把三把小椅子移到半圈的三个座位，中央的通道没有被挡住。',
+    application: '在故事圈布置图旁放上“椅”字牌，记下安排好的座位。',
+    ending: '老师检查椅子稳定，朋友们各自选座听故事。你留下布置图，不用抢到哪张椅子才算完成。',
+    cloze: '有座面和靠背、供人坐的家具，是——',
+    homeTip: '平常坐下休息时记录孩子自然提到的物品，不设置抢椅活动；幼儿不站椅、不搬重椅。',
+    contexts: [{ id: 'chair-wood', label: '家中的木椅' }, { id: 'chair-padded', label: '教室里的木椅' }, { id: 'chair-child', label: '户外的木折叠椅' }]
+  },
+  {
+    id: 'cup', char: '杯', pinyin: 'bēi', meaningDistractors: ['mouth', 'eye'],
+    title: '给小杯接好饮用水', region: '丰收厨房', partner: '爸爸', item: '饮水准备照片',
+    mission: '“在屏幕上把杯放稳，再接水、收好出水口吧！”',
+    meaning: '这是“杯”。杯是杯子，可以装水等饮品。玻璃杯、带柄的陶瓷杯和带柄的搪瓷杯，都是杯，材料可以不同。',
+    actionLabel: '给杯接好水', actionResult: '你先放稳杯子，再按下饮用水壶的出水键，最后松开出水键，水留在杯里，没有继续流。',
+    application: '给饮水准备照片配上“杯”字牌，记录装水的容器。',
+    ending: '爸爸确认是适温的饮用水，把真杯放到桌上。你收好照片，想喝时可以喝，不用读出字才能喝水。',
+    cloze: '桌上用来装饮用水的这个容器，是——',
+    homeTip: '日常喝水时观察孩子自发的指认，不先读字、不以认字换饮水；成人处理水温和易碎容器。',
+    contexts: [{ id: 'cup-glass', label: '一只透明玻璃杯' }, { id: 'cup-handled', label: '一只带柄的陶瓷杯' }, { id: 'cup-steel', label: '一只带柄的搪瓷杯' }]
+  },
+  {
+    id: 'bowl', char: '碗', pinyin: 'wǎn', meaningDistractors: ['mouth', 'eye'],
+    title: '小碗回到低层架', region: '丰收厨房', partner: '厨房阿姨', item: '碗架整理卡',
+    mission: '“把三只干净小碗各放到低层架的软垫位吧！”',
+    meaning: '这是“碗”。碗口较宽，里面凹下去，可以盛食物。瓷碗、木碗和玻璃碗，都是碗。',
+    actionLabel: '放好三只小碗', actionResult: '你把三只小碗分别移到三个软垫位，碗口朝上，没有把它们堆得很高。',
+    application: '给碗架整理卡放上“碗”字牌，记录整理的餐具。',
+    ending: '阿姨收好真实餐具，低层架看起来整整齐齐。你带走整理卡，下次吃饭仍由大人安排合适餐具。',
+    cloze: '口较宽、内部凹下去、能盛食物的餐具，是——',
+    homeTip: '自然准备餐具时听孩子自己的话，不问目标字；玻璃瓷器和高处收纳交给成人。',
+    contexts: [{ id: 'bowl-ceramic', label: '一只空瓷碗' }, { id: 'bowl-wood', label: '一只空木碗' }, { id: 'bowl-metal', label: '一只空玻璃碗' }]
+  },
+  {
+    id: 'plate', char: '盘', pinyin: 'pán', meaningDistractors: ['mouth', 'eye'],
+    title: '圆盘长盘各有家', region: '丰收厨房', partner: '餐厅叔叔', item: '盘架整理照片',
+    mission: '“把圆盘送到圆格，把长方盘送到长格吧！”',
+    meaning: '这是“盘”。盘是盘子，通常比碗浅，可以盛食物。圆瓷盘、长方盘和金属盘，都是盘。',
+    actionLabel: '分好圆盘和长盘', actionResult: '你把两个圆盘移到圆形收纳格，把两个长方盘移到长形收纳格，盘子按外形分好了。',
+    application: '在盘架整理照片旁配上“盘”字牌，记录这些浅浅的餐具。',
+    ending: '叔叔确认架格稳当，盘子留在厨房。你收藏整理照片，不用搬动真瓷盘来证明认识它们。',
+    cloze: '比较浅、可以平放食物的这种餐具，是——',
+    homeTip: '日常用餐时记录孩子自然提到的餐具，不先摆一组让孩子作答；易碎和较重餐具由成人搬放。',
+    contexts: [{ id: 'plate-round', label: '一只空圆瓷盘' }, { id: 'plate-rectangle', label: '一只空长方盘' }, { id: 'plate-metal', label: '一只空金属盘' }]
+  },
+  {
+    id: 'spoon', char: '勺', pinyin: 'sháo', meaningDistractors: ['mouth', 'eye'],
+    title: '把小勺送回餐垫', region: '丰收厨房', partner: '妈妈', item: '小勺摆放卡',
+    mission: '“把三把小勺送到三张餐垫的勺位吧！”',
+    meaning: '这是“勺”。勺有凹下去的头和手柄，可以舀东西。金属勺、木勺和瓷勺，都是勺。',
+    actionLabel: '摆好小勺', actionResult: '你把三把小勺分别移到餐垫上的三个勺位，勺柄都朝向取用的一侧。',
+    application: '给小勺摆放卡放上“勺”字牌，记录这次安排的餐具。',
+    ending: '妈妈检查餐垫旁没有热汤，再请大家入座。你收好摆放卡，餐具准备并不是开饭前的认字考试。',
+    cloze: '有凹下去的头和手柄、可以舀东西的餐具，是——',
+    homeTip: '自然用勺吃饭时观察孩子主动的描述，不要求读字才给餐具；热食由成人确认温度。',
+    contexts: [{ id: 'spoon-metal', label: '一把金属勺' }, { id: 'spoon-wood', label: '一把木勺' }, { id: 'spoon-ceramic', label: '一把瓷勺' }]
+  },
+  {
+    id: 'pot', char: '锅', pinyin: 'guō', meaningDistractors: ['mouth', 'eye'],
+    title: '凉锅照片排进厨具册', region: '丰收厨房', partner: '厨师阿姨', item: '锅的图册页',
+    mission: '“把汤锅、平底锅和蒸锅照片放进各自图格吧！”',
+    meaning: '这是“锅”。锅是烹调食物的器具。汤锅、平底锅和蒸锅，都是锅。照片里的锅已冷却，真锅加热后会烫。',
+    actionLabel: '摆好锅的照片', actionResult: '你把三种冷锅的照片移进对应图格，没有点火、加热或碰真实灶台。',
+    application: '给锅的图册页配上“锅”字牌，记录这些厨具。',
+    ending: '阿姨合上厨具册，再独自去厨房准备餐点。你留好图册页，认识锅不需要拿起真锅。',
+    cloze: '厨房里用来烹调食物的这种器具，是——',
+    homeTip: '自然看到厨具图片时记录孩子的描述，不带孩子靠近灶台；加热、搬锅和开盖全由成人处理。',
+    contexts: [{ id: 'pot-soup', label: '台面上冷却的汤锅' }, { id: 'pot-pan', label: '台面上冷却的平底锅' }, { id: 'pot-steamer', label: '台面上冷却的蒸锅' }]
+  },
+  {
+    id: 'ball', char: '球', pinyin: 'qiú', meaningDistractors: ['mouth', 'eye'],
+    title: '软球回到游戏篮', region: '社区活动场', partner: '体能老师', item: '收球小照片',
+    mission: '“把散在屏幕软垫上的三只软球收进大篮子吧！”',
+    meaning: '这是“球”。这一课说圆球形的玩具和运动用球。足球、篮球和软布球，都是球。',
+    actionLabel: '收好三只软球', actionResult: '你把三只软球逐一移进大篮子，软垫上的通道空出来了。',
+    application: '给收球小照片放上“球”字牌，记下收好的玩具。',
+    ending: '老师把篮子放稳，朋友们慢慢走回休息区。你收藏照片，球没有滚到马路上，大家也没有追跑抢球。',
+    cloze: '足球、篮球和软布球，都可以叫作——',
+    homeTip: '自然玩球时记录孩子主动的话，不设置速度或命中考查；成人陪伴在远离道路的平坦区域活动。',
+    contexts: [{ id: 'ball-football', label: '一只足球' }, { id: 'ball-basketball', label: '一只篮球' }, { id: 'ball-cloth', label: '一只软布球' }]
+  },
+  {
+    id: 'book', char: '书', pinyin: 'shū', meaningDistractors: ['mouth', 'eye'],
+    title: '绘本归还小推车', region: '社区活动场', partner: '图书馆阿姨', item: '还书整理卡',
+    mission: '“把三本合好的绘本送到还书车的空位吧！”',
+    meaning: '这是“书”。书有书页，可以读文字、看图画。合着的绘本、打开的书和书架上的书，都是书。',
+    actionLabel: '把绘本放回还书车', actionResult: '你把三本合好的绘本分别移到还书车三个位置，书角没有伸到车轮旁。',
+    application: '在还书整理卡旁放上“书”字牌，记录归还的物品。',
+    ending: '阿姨接过还书车，朋友们可以继续借书。你留好整理卡，不必读出字才能选喜欢的绘本。',
+    cloze: '有书页、可以读文字和看图画的物品，是——',
+    homeTip: '孩子自由选书时听自然表达，不替孩子指定目标页或追问字音；不以认字表现限制借阅。',
+    contexts: [{ id: 'book-closed', label: '一本合着的绘本' }, { id: 'book-open', label: '一本打开的书' }, { id: 'book-shelf', label: '书架上排着的书' }]
+  },
+  {
+    id: 'pen', char: '笔', pinyin: 'bǐ', meaningDistractors: ['mouth', 'eye'],
+    title: '画笔和铅笔分格住', region: '创作小屋', partner: '美术老师', item: '笔盒整理页',
+    mission: '“把铅笔放到细笔格，把粗画笔放到画笔格吧！”',
+    meaning: '这是“笔”。笔可以写字或画画。铅笔、水彩笔和毛笔，都是笔，不只有一种样子。',
+    actionLabel: '分好画画用的笔', actionResult: '你把两支铅笔移进细笔格，把两支粗画笔移进画笔格，笔盒整理好了。',
+    application: '给笔盒整理页配上“笔”字牌，记录这些创作工具。',
+    ending: '老师收好笔盒，桌面可以铺开新画纸。你留下一页整理记录，画什么由自己决定，不必写目标字。',
+    cloze: '用来写字或画画的工具，是——',
+    homeTip: '孩子自由画画时记录自发的描述，不要求描字；成人陪伴使用适龄画具，不含笔、不碰削笔刀。',
+    contexts: [{ id: 'pen-pencil', label: '一支铅笔' }, { id: 'pen-marker', label: '一支水彩笔' }, { id: 'pen-brush', label: '一支毛笔' }]
+  },
+  {
+    id: 'paper', char: '纸', pinyin: 'zhǐ', meaningDistractors: ['mouth', 'eye'],
+    title: '折出小小纸扇', region: '创作小屋', partner: '手工老师', item: '纸扇作品照片',
+    mission: '“依次把折痕图片放上工作台，看一张纸折成小扇吧！”',
+    meaning: '这是“纸”。纸是可以写、画或折叠的薄片材料。白纸、彩纸和牛皮纸，都是纸。',
+    actionLabel: '排好折扇图片', actionResult: '你依次放好纸张铺平、来回折叠和收拢扇柄的图片，屏幕上的小纸扇成形了。',
+    application: '给纸扇作品照片放上“纸”字牌，记录作品用的材料。',
+    ending: '老师用预先准备的软纸扇给大家轻轻扇风。你留好作品照片，活动不用剪刀，也不用读字换作品。',
+    cloze: '可以写画、能折成小扇的薄片材料，是——',
+    homeTip: '日常自由折纸时留意孩子自己的描述，不指定字形或考步骤；用适龄软纸，不碰裁纸工具。',
+    contexts: [{ id: 'paper-white', label: '平铺的白纸' }, { id: 'paper-colour', label: '平铺的彩纸' }, { id: 'paper-kraft', label: '平铺的牛皮纸' }]
+  },
+  {
+    id: 'clock', char: '钟', pinyin: 'zhōng', meaningDistractors: ['mouth', 'eye'],
+    title: '钟的观察板装好啦', region: '家中小屋', partner: '科学馆姐姐', item: '钟模型照片',
+    mission: '“把外框、钟面和透明面罩放到模型槽位吧！”',
+    meaning: '这是“钟”。这一课说显示时间的时钟。墙上的钟、桌上的钟和立式钟，都可以帮助我们看时间。',
+    actionLabel: '拼好钟的模型', actionResult: '你把外框、带指针的钟面和透明面罩移到模型位置，一只展示钟拼好了。',
+    application: '给钟模型照片放上“钟”字牌，说明这是看时间的物品。',
+    ending: '姐姐把模型放在低展台上，你留下照片。不用报出几点，认识钟也可以从看它的样子开始。',
+    cloze: '墙上帮助我们看时间的物品，是——',
+    homeTip: '自然遇到时钟时听孩子自己的发现，不要求认数字或报时；幼儿不拆钟、不碰电池。',
+    contexts: [{ id: 'clock-wall', label: '墙上的时钟' }, { id: 'clock-desk', label: '桌上的时钟' }, { id: 'clock-standing', label: '落地的立式钟' }]
+  }
+].map(lesson => ({ ...lesson, contentVersion: '2026-11-22', reviewStatus: 'draft' })));
+
+HanziLessons.push(...[
+  {
+    id: 'ship', char: '船', pinyin: 'chuán', meaningDistractors: ['mouth', 'eye'],
+    title: '客船开进泊位图', region: '快乐出行', partner: '港口讲解员', item: '客船泊位路线卡',
+    mission: '“在屏幕港口图上，让客船经过航道口、转向区，再到泊位吧！”',
+    meaning: '这是“船”。船是水上交通工具。客船、货船和渡船，都是船。“舟”也是表示船的一种说法，可以在另一个故事里认识它。',
+    actionLabel: '把客船引到泊位', actionResult: '你依次点到航道口、转向区和客船泊位，屏幕上的客船沿港口航线停好了。',
+    application: '给客船泊位路线卡配上“船”字牌，标明这次移动的交通工具。',
+    ending: '讲解员把路线卡放进港口展册，你和家人在岸上看真船。屏幕泊船不代替真实驾驶或安全检查。',
+    cloze: '客船、货船和渡船都是水上交通工具，都叫——',
+    homeTip: '自然翻看船的照片时记录孩子自己的说法，不纠正“舟”和“船”的自然表达；真实乘船须成人陪伴和合身救生衣。',
+    contexts: [{ id: 'ship-passenger', label: '水上的客船' }, { id: 'ship-cargo', label: '水上的货船' }, { id: 'ship-ferry', label: '水上的渡船' }]
+  },
+  {
+    id: 'wheel', char: '轮', pinyin: 'lún', meaningDistractors: ['mouth', 'eye'],
+    title: '模型小车装上轮', region: '快乐出行', partner: '模型老师', item: '车轮模型照片',
+    mission: '“把四只模型车轮各放到一个轮轴位吧！”',
+    meaning: '这是“轮”。这一课说车轮，是能绕着轴转动的圆形部件。自行车轮、汽车轮和手推车轮，都是轮。',
+    actionLabel: '放好四只模型轮', actionResult: '你把四只模型轮分别移到小车的四个轮轴位，模型车的轮位都补齐了。',
+    application: '在车轮模型照片旁放上“轮”字牌，标出能转动的圆形部件。',
+    ending: '老师推了一下大号安全模型，车轮慢慢转起来。你留好照片，不拆真车，也不用手伸进转动的轮里。',
+    cloze: '车上绕着轴转动的圆形部件，是——',
+    homeTip: '自然看车轮时听孩子怎样描述，不要求触摸或转轮；远离道路和转动部件，真实维修交给成人。',
+    contexts: [{ id: 'wheel-bicycle', label: '自行车的轮' }, { id: 'wheel-car', label: '汽车的轮' }, { id: 'wheel-cart', label: '手推车的轮' }]
+  },
+  {
+    id: 'house', char: '房', pinyin: 'fáng', meaningDistractors: ['mouth', 'eye'],
+    title: '搭起模型小房', region: '家中小屋', partner: '建筑馆老师', item: '小房模型留念卡',
+    mission: '“把左墙、右墙和屋顶放到小房模型的位置吧！”',
+    meaning: '这是“房”。这一课说房屋，是供人居住或活动的建筑。石墙小房、两层砖房和木墙小房，都是房屋，墙的材料和层数可以不同。',
+    actionLabel: '搭好小房模型', actionResult: '你把左右墙片和屋顶移到模型槽位，围出一个有遮盖的小房模型。',
+    application: '给小房模型留念卡放上“房”字牌，记录拼好的建筑模型。',
+    ending: '老师把模型稳稳放进展示柜，你带走留念卡。真房屋由专业人员建造，屏幕里不需要钉子或锤子。',
+    cloze: '供人居住或活动、有墙和屋顶的建筑，可以叫作——',
+    homeTip: '自然看街景或玩大块模型时记录孩子自己的话，不要求照指定样式搭房；不攀工地围栏或使用真工具。',
+    contexts: [{ id: 'house-detached', label: '一座石墙小房' }, { id: 'house-row', label: '一座两层砖房' }, { id: 'house-apartment', label: '一座木墙小房' }]
+  },
+  {
+    id: 'school', char: '校', pinyin: 'xiào', meaningDistractors: ['mouth', 'eye'],
+    title: '校园参观慢慢走', region: '社区活动场', partner: '老师和妈妈', item: '校园参观路线页',
+    mission: '“在屏幕参观图上，跟老师从校门走到教学楼，再到教室吧！”',
+    meaning: '这是“校”，是学校的校。学校是学习和开展活动的地方。照片里的校门、教学楼和教室，是学校的一部分，不是所有建筑都叫学校。',
+    actionLabel: '走完校园参观路线', actionResult: '你依次点到校门集合处、教学楼前和教室，图上的队伍一直跟老师同行。',
+    application: '给校园参观路线页配上“校”字牌，说明这是一所学校里的路线。',
+    ending: '参观在老师陪伴下结束，妈妈牵着你回家。你把路线页留下，不必认出字才能进入学校或参加活动。',
+    cloze: '校门、教学楼和教室都属于学校，学校后面的字是——',
+    homeTip: '自然经过学校时听孩子自己的描述，不把任意大楼都称为学校；不安排独自进校园或寻找路线。',
+    contexts: [{ id: 'school-gate', label: '学校的校门' }, { id: 'school-classroom', label: '学校的教学楼' }, { id: 'school-playground', label: '学校的教室' }]
+  },
+  {
+    id: 'garden', char: '园', pinyin: 'yuán', meaningDistractors: ['mouth', 'eye'],
+    title: '花园散步回到休息点', region: '花园小径', partner: '园丁和爸爸', item: '园中漫步卡',
+    mission: '“在屏幕花园图上，从园门走过步道，再到休息点吧！”',
+    meaning: '这是“园”。这一课说种植植物、供人照料或散步的园子。花园和菜园都是园子，种的植物和用途可以不同；图中的步道也在园子里。',
+    actionLabel: '走完园中步道', actionResult: '你依次点到园门、花木旁的步道和休息点，路线没有穿过种植区。',
+    application: '给园中漫步卡放上“园”字牌，记录这次散步的地方。',
+    ending: '大家在休息点喝自己带的饮用水，花木留在园里生长。你收藏漫步卡，没有摘花或独自离队。',
+    cloze: '花园和菜园的名字里，共同的字是——',
+    homeTip: '在公园散步时记录孩子自然的发现，不要求找共同字；成人全程陪伴，不采摘或离开开放步道。',
+    contexts: [{ id: 'garden-flower', label: '种着花木的花园' }, { id: 'garden-orchard', label: '种着蔬菜的菜园' }, { id: 'garden-park', label: '园子里的步道' }]
+  },
+  {
+    id: 'kite', char: '筝', pinyin: 'zhēng', meaningDistractors: ['mouth', 'eye'],
+    title: '风筝模型穿好彩尾', region: '创作小屋', partner: '手工阿姨', item: '风筝模型照片',
+    mission: '“把筝面、左尾带和右尾带装到屏幕模型上吧！”',
+    meaning: '这是“筝”，这一课说风筝的筝。风筝有筝面，用线牵着，可以借风升起。菱形、燕形和三角形的风筝，都是风筝。',
+    actionLabel: '装好风筝模型', actionResult: '你把筝面和两条彩尾带移到对应位置，屏幕上的风筝模型有了完整外形。',
+    application: '在风筝模型照片旁放上“筝”字牌，说明是风筝的筝。',
+    ending: '阿姨把真实风筝收在袋里，改天才由大人陪着到合适空地放。你今天带走的是模型照片。',
+    cloze: '风筝的名字里，后面的字是——',
+    homeTip: '自然见到风筝照片时听孩子自己的话，不要求放飞来证明认识；真实放飞由成人陪伴，远离道路、电线和雷雨。',
+    contexts: [{ id: 'kite-diamond', label: '空中飞着的菱形风筝' }, { id: 'kite-swallow', label: '空中飞着的燕形风筝' }, { id: 'kite-triangle', label: '空中飞着的三角形风筝' }]
+  },
+  {
+    id: 'drum', char: '鼓', pinyin: 'gǔ', meaningDistractors: ['mouth', 'eye'],
+    title: '小鼓排好轻拍图', region: '创作小屋', partner: '音乐老师', item: '小鼓游戏卡',
+    mission: '“依次摆好扶稳鼓、轻拍鼓面、停下休息三张动作图吧！”',
+    meaning: '这是“鼓”。鼓是一种乐器，鼓面受到拍打时会发声。桌上带铃片的手鼓、音乐教室里的康加鼓和支架上的大鼓，都是鼓。',
+    actionLabel: '排好小鼓动作图', actionResult: '你依次把扶稳鼓、轻拍鼓面和双手离鼓的动作图放进流程格，轻拍游戏的顺序排好了。',
+    application: '给小鼓游戏卡配上“鼓”字牌，标明活动里的乐器。',
+    ending: '老师用很轻的声音示范，也欢迎只看不听的朋友。你收好游戏卡，不需要敲得响才算会玩。',
+    cloze: '拍打鼓面时会发声的这种乐器，是——',
+    homeTip: '自然看乐器图画时听孩子描述，不突然敲响作提示；音量保持轻柔，尊重孩子不想听的选择。',
+    contexts: [{ id: 'drum-frame', label: '桌上带铃片的手鼓' }, { id: 'drum-small', label: '音乐教室里的康加鼓' }, { id: 'drum-large', label: '支架上的大鼓' }]
+  },
+  {
+    id: 'bell', char: '铃', pinyin: 'líng', meaningDistractors: ['mouth', 'eye'],
+    title: '小铃轻摇后归位', region: '创作小屋', partner: '音乐阿姨', item: '小铃收纳卡',
+    mission: '“依次放好拿稳小铃、轻轻摇铃、放回软垫的动作图吧！”',
+    meaning: '这是“铃”。铃摇动或受到碰击可以发声。手铃、悬挂的金属铃和架上带拉绳的铃，都是铃。',
+    actionLabel: '排好小铃动作图', actionResult: '你依次摆好拿稳、轻摇和归位的动作图，小铃最后停在软垫上。',
+    application: '在小铃收纳卡旁放上“铃”字牌，记下归位的乐器。',
+    ending: '阿姨轻轻示范后把铃收好，你留下收纳卡。活动不播放突然的大铃声，也不要求每个朋友都摇一次。',
+    cloze: '摇动或受到碰击可以发声的这种器具，是——',
+    homeTip: '自然遇到铃的图画时记录孩子自己的话，不制造突然声响；真实小铃由成人选择安全大号款，不拆零件。',
+    contexts: [{ id: 'bell-hand', label: '一只手铃' }, { id: 'bell-hanging', label: '三只悬挂的金属铃' }, { id: 'bell-desk', label: '架上带拉绳的铃' }]
+  },
+  {
+    id: 'rope', char: '绳', pinyin: 'shéng', meaningDistractors: ['mouth', 'eye'],
+    title: '长绳短绳进软盒', region: '创作小屋', partner: '活动老师', item: '绳盒整理照片',
+    mission: '“在屏幕上，把短绳照片送到短绳格，长绳照片送到长绳格吧！”',
+    meaning: '这是“绳”。绳由纤维等材料拧成或编成，细长而柔软。棉绳、编织绳和跳绳，都是绳。',
+    actionLabel: '分好长短绳照片', actionResult: '你把两张短绳照片移到短绳格，把两张长绳照片移到长绳格，整理图完成了。',
+    application: '给绳盒整理照片配上“绳”字牌，记录这种细长柔软的材料。',
+    ending: '老师把真实绳子收进成人保管的柜子，你只带走照片。游戏不把绳套在人身上，也不在地上绊住同伴。',
+    cloze: '由纤维拧成或编成、细长柔软的材料，是——',
+    homeTip: '自然看绳的图片时听孩子描述，不安排缠绕或打结考查；绳由成人保管，不绕颈、不绑人。',
+    contexts: [{ id: 'rope-cotton', label: '盘好的棉绳' }, { id: 'rope-braided', label: '盘好的编织绳' }, { id: 'rope-jump', label: '平放的跳绳' }]
+  },
+  {
+    id: 'towel', char: '巾', pinyin: 'jīn', meaningDistractors: ['mouth', 'eye'],
+    title: '小毛巾各回自己的格', region: '生活小帮手', partner: '保育老师', item: '巾格整理图',
+    mission: '“把三条小毛巾送到带相同图案的个人格吧！”',
+    meaning: '这是“巾”。这一课说毛巾和手巾，是擦拭用的布。挂着的毛巾、折好的手巾和展开的浴巾，都有巾这个字。',
+    actionLabel: '放好个人小毛巾', actionResult: '你把太阳图案、花朵图案和小船图案的毛巾分别移进相同图案的个人格，没有混用。',
+    application: '在巾格整理图旁放上“巾”字牌，记录整理的擦拭布。',
+    ending: '老师确认真实个人用品各有位置，你收好整理图。洗手后用自己的干净毛巾，认字不是获得用品的条件。',
+    cloze: '毛巾、手巾和浴巾的名字里，共同的字是——',
+    homeTip: '日常擦手时记录孩子自发的表达，不先读字；使用自己的干净用品，不为游戏交换毛巾。',
+    contexts: [{ id: 'towel-hanging', label: '挂着的毛巾' }, { id: 'towel-folded', label: '折好的手巾' }, { id: 'towel-bath', label: '展开的浴巾' }]
+  },
+  {
+    id: 'soap', char: '皂', pinyin: 'zào', meaningDistractors: ['mouth', 'eye'],
+    title: '香皂回到干净盒', region: '生活小帮手', partner: '妈妈', item: '香皂归位小卡',
+    mission: '“把方皂、圆皂和椭圆皂送到各自带排水孔的皂盒吧！”',
+    meaning: '这是“皂”。这一课说香皂，用来清洁，不能吃。方形、圆形和椭圆形的香皂，都是皂。',
+    actionLabel: '放好三块香皂', actionResult: '你把三块香皂移进相同外形的皂盒，水可以从盒底的小孔排出。',
+    application: '给香皂归位小卡配上“皂”字牌，记录清洁用品。',
+    ending: '妈妈收好真实香皂，台面不再湿滑。你留下归位小卡，洗手可以按日常习惯进行，不用答字题。',
+    cloze: '用来清洁、不能吃的香皂，后面的字是——',
+    homeTip: '日常洗手时听孩子主动提到什么，不先给字音；成人陪伴，不让香皂入口或接触眼睛。',
+    contexts: [{ id: 'soap-square', label: '一块方形香皂' }, { id: 'soap-round', label: '一块圆形香皂' }, { id: 'soap-oval', label: '一块椭圆形香皂' }]
+  },
+  {
+    id: 'milk', char: '奶', pinyin: 'nǎi', meaningDistractors: ['mouth', 'eye'],
+    title: '牛奶收进冷藏格', region: '丰收厨房', partner: '爸爸', item: '牛奶收纳记录卡',
+    mission: '“把三瓶需要冷藏的牛奶移到屏幕冷藏架的空位吧！”',
+    meaning: '这是“奶”。这一课用牛奶来观察奶。杯里、玻璃瓶里和小壶里的牛奶，容器不同，里面都是牛奶，不是所有白色液体都是奶。',
+    actionLabel: '放好三瓶牛奶', actionResult: '你把三瓶需要冷藏的密封牛奶移到三个架位，爸爸检查真实牛奶的保存说明和日期。',
+    application: '给牛奶收纳记录卡放上“奶”字牌，记录瓶里装的东西。',
+    ending: '爸爸关好冰箱，你收下记录卡。喝不喝奶由身体需要、过敏情况和家庭安排决定，不是识字奖励。',
+    cloze: '这一课杯子里装的是牛奶，牛奶后面的字是——',
+    homeTip: '自然备餐时记录孩子自己的说法，不用颜色替代概念；成人检查保存条件和过敏情况，不强迫饮用。',
+    contexts: [{ id: 'milk-glass', label: '玻璃杯里的牛奶' }, { id: 'milk-bottle', label: '透明玻璃瓶里的牛奶' }, { id: 'milk-jug', label: '敞口小壶里的牛奶' }]
+  },
+  {
+    id: 'egg', char: '蛋', pinyin: 'dàn', meaningDistractors: ['mouth', 'eye'],
+    title: '鸡蛋照片排成备餐页', region: '丰收厨房', partner: '厨房阿姨', item: '鸡蛋备餐图',
+    mission: '“按顺序放好整蛋、煮熟和剥壳的照片，看看备餐过程吧！”',
+    meaning: '这是“蛋”。这一课说鸡蛋。白壳鸡蛋、褐壳鸡蛋和剥壳的熟鸡蛋，都是蛋，不是只有白色蛋壳才叫蛋。',
+    actionLabel: '排好鸡蛋备餐照片', actionResult: '你依次放好完整鸡蛋、成人煮熟后冷却的鸡蛋和剥壳熟蛋照片，备餐页排好了。',
+    application: '在鸡蛋备餐图旁放上“蛋”字牌，记录照片里的食物。',
+    ending: '煮蛋的事留给阿姨，适合的熟食按家庭安排分享。你收藏备餐图，不接触生蛋或热锅，也不用尝蛋证明理解。',
+    cloze: '白壳鸡蛋和褐壳鸡蛋的名字里，都有——',
+    homeTip: '自然备餐时听孩子描述，不要求拿生蛋或吃蛋；成人处理生熟卫生、温度和过敏情况。',
+    contexts: [{ id: 'egg-white', label: '白壳鸡蛋' }, { id: 'egg-brown', label: '褐壳鸡蛋' }, { id: 'egg-cooked', label: '剥壳的熟鸡蛋' }]
+  },
+  {
+    id: 'bread', char: '饼', pinyin: 'bǐng', meaningDistractors: ['mouth', 'eye'],
+    title: '圆饼方饼分进点心格', region: '丰收厨房', partner: '点心师傅', item: '饼的点心展卡',
+    mission: '“把圆烙饼和圆煎饼照片送到圆格，把方饼干照片送到方格吧！”',
+    meaning: '这是“饼”。饼常用面粉等做成，形状比较扁。烙饼、煎饼和饼干，都有饼这个字；这里不是把西式面包都叫作饼。',
+    actionLabel: '分好饼的照片', actionResult: '你把圆烙饼和圆煎饼照片移到圆格，把两张方饼干照片移到方格，点心展卡排好了。',
+    application: '给饼的点心展卡放上“饼”字牌，记录这组比较扁的食品。',
+    ending: '师傅把真点心留在厨房，展卡放进故事册。加热、分切和是否适合吃都由大人判断，游戏不用试吃。',
+    cloze: '烙饼、煎饼和饼干的名字里，共同的字是——',
+    homeTip: '自然看点心图片时听孩子自己的说法，不把面包一概叫饼；成人处理热食、分切和过敏，不以吃完作考查。',
+    contexts: [{ id: 'bread-flatcake', label: '一张烙饼' }, { id: 'bread-pancake', label: '一张煎饼' }, { id: 'bread-biscuit', label: '几块方形饼干' }]
+  },
+  {
+    id: 'tea', char: '茶', pinyin: 'chá', meaningDistractors: ['mouth', 'eye'],
+    title: '给大人的茶角摆好图', region: '丰收厨房', partner: '奶奶', item: '茶角观察页',
+    mission: '“把茶叶、透明壶和茶汤的照片放到茶角观察板吧！”',
+    meaning: '这是“茶”。茶可以说茶叶，也可以说用茶叶泡出的茶汤。干茶叶、壶里展开的茶叶和杯里的茶汤，都是观察茶的场景，不是所有有颜色的水都是茶。',
+    actionLabel: '摆好茶角观察图', actionResult: '你把干茶叶、壶中茶叶和杯中茶汤三张照片放进对应观察框，没有倒热水或喝茶。',
+    application: '在茶角观察页旁放上“茶”字牌，记录大人茶角里的物品。',
+    ending: '奶奶独自处理热水和茶具，你在安全位置留下观察页。小朋友照常喝适合自己的饮用水，认识茶不需要饮茶。',
+    cloze: '大人用茶叶泡出的饮品叫茶，这个字是——',
+    homeTip: '自然遇到茶叶包装或图片时记录孩子原话，不要求品尝；成人处理热液和茶具，不鼓励幼儿喝含咖啡因的茶。',
+    contexts: [{ id: 'tea-dry', label: '浅碟里的干茶叶' }, { id: 'tea-pot', label: '透明壶里泡开的茶叶' }, { id: 'tea-liquid', label: '透明杯里的茶汤' }]
+  }
+].map(lesson => ({ ...lesson, contentVersion: '2026-11-22', reviewStatus: 'draft' })));
+
+(() => {
+  const move = (type, title, instruction, success, labels, locations, matches, safety) => ({
+    type, title, instruction, success,
+    pieces: labels.map((label, index) => ({ label, variant: index % 3 })),
+    targets: locations.map(([label, x, y]) => ({ label, x, y })), matches,
+    ...(safety ? { safety } : {})
+  });
+  const reveal = (title, instruction, success, spots, safety) => ({
+    type: 'reveal', title, instruction, success, spots, ...(safety ? { safety } : {})
+  });
+  const phased = (type, title, instruction, success, stages, locations, safety) => ({
+    type, title, instruction, success,
+    steps: stages.map(([label, result]) => ({ label, result })),
+    ...(locations ? { targets: locations.map(([label, x, y]) => ({ label, x, y })) } : {}),
+    ...(safety ? { safety } : {})
+  });
+  const playground = {
+    water: ['自然探索', phased('fill', '装满小水桶', '先放好桶，再打开龙头接水，最后关好龙头。这是屏幕中的用水模拟。', '水桶放稳、接好水，龙头也关好了；饮用水由大人另行准备。', [['放好水桶', '小桶稳稳放在出水口下面。'], ['打开龙头', '水流进入小桶，桶里的水渐渐升高。'], ['关好龙头', '龙头关闭，水不再继续流。']], null, '只做屏幕模拟；不喝喷泉水，不操作真实龙头，喝水使用成人提供的饮用水。')],
+    wood: ['创作工坊', move('build', '修好小木桥', '把桥面木板和左右护栏移到桥的三个空位。', '桥面木板和两侧护栏补齐了，河狸师傅还要检查桥是否安全。', ['桥面木板', '左侧木护栏', '右侧木护栏'], [['桥面空位', 50, 65], ['左护栏位', 25, 40], ['右护栏位', 75, 40]], [0, 1, 2], '仅拼屏幕部件；真工具和修桥交给成人，成人检查后才通行。')],
+    mountain: ['自然探索', phased('route', '在小山图上放好路标', '沿图上的出发点、岔路口和小山入口依次点选，留下同行路线。', '出发、转弯和到达的位置都标好了，小山路线图连成一条路。', [['标好出发点', '家人的集合位置记在图上。'], ['标好岔路口', '小山方向的路口有了标记。'], ['标好小山入口', '路线连接到开放的小山入口。']], [['出发点', 20, 75], ['岔路口', 50, 55], ['小山入口', 75, 25]], '只操作地图；真实出行跟随成人，不独自登山。')],
+    fire: ['自然探索', reveal('在线外打开营火观察画', '点开六块遮片，看看由大人看护的火苗与周围安全区域。', '六块遮片打开，营火观察画完整露出了；没有点火或靠近火源。', ['上扬的火苗', '火苗的亮边', '较暗的火苗底部', '燃烧的木柴', '线外的观察区', '看护营火的大人'], '只看已有图画；不点火、不碰火、不靠近火源，由成人看护。')],
+    sun: ['自然探索', move('sequence', '太阳明信片寄出啦', '按顺序把明信片、邮封和邮袋图片放到寄送台。', '明信片装入邮封，再放进邮袋，寄送准备排好了。', ['画好太阳的明信片', '装卡的邮封', '寄送邮袋'], [['寄送台', 50, 55]], [0, 0, 0], '只看太阳图片，不直视太阳；寄信由成人陪伴。')],
+    moon: ['自然探索', move('collect', '月亮图卡装邮袋', '把树梢、湖上和屋顶上方的月亮图卡逐张装进邮袋。', '三张月亮图卡都收进邮袋，边角没有落在外面。', ['树梢月亮图卡', '湖上月亮图卡', '屋顶月亮图卡'], [['月亮邮袋', 50, 60]], [0, 0, 0], '夜间活动由成人陪伴，图卡游戏不需要外出。')],
+    cloud: ['自然探索', move('sort', '云朵图卡分成两页', '把山上和屋上云的图卡放到陆地页，把海上云的图卡放到海上页。', '陆地上和海上的云各有一页，云朵图卡整理好了。', ['山上云图卡', '屋上云图卡', '海上云图卡', '另一张海上云图卡'], [['陆地页', 30, 55], ['海上页', 70, 55]], [0, 0, 1, 1])],
+    rain: ['自然探索', move('sequence', '来信躲进防雨盒', '按顺序放好来信、盒盖和收纳垫的图片，完成屋内收信。', '来信入盒，盒盖合上，信盒放到干燥收纳垫，信不会淋湿。', ['收入盒中的来信', '合上的盒盖', '屋内干燥收纳垫'], [['收信台', 50, 55]], [0, 0, 0], '屏幕模拟；雷雨时留在安全室内，不为收信出门。')],
+    stone: ['花园种植', move('build', '拼出花园石头路', '把三块准备好的平石拼到小路的三个空格。', '三块铺路石各就各位，小路的缺口补齐了，等待乌龟爸爸检查。', ['入口平石', '中间平石', '门前平石'], [['入口石位', 25, 70], ['中间石位', 50, 55], ['门前石位', 75, 40]], [0, 1, 2], '只拼屏幕材料；重石铺设由成人处理，检查稳定后再走。')],
+    field: ['花园种植', move('collect', '把农田照片放进地图', '将稻田、菜田和麦田照片放到各自地图框。', '三种农田照片各有位置，田边送菜的小地图补好了。', ['稻田照片', '菜田照片', '麦田照片'], [['稻田图框', 25, 55], ['菜田图框', 50, 65], ['麦田图框', 75, 45]], [0, 1, 2], '看地图不进田，真实出行成人陪伴，不踩庄稼。')],
+    earth: ['花园种植', move('sequence', '给种子铺好土床', '依次把底层土、种子图片和覆盖土图片放进花盆示意格。', '底层土铺好、种子放入、表面轻盖土，播种示意排好了。', ['花盆底层土', '放入的种子图片', '薄薄覆盖土'], [['花盆示意格', 50, 60]], [0, 0, 0], '屏幕示意；实际园艺由成人陪伴，不碰肥料，不把土和种子放入口中，之后洗手。')],
+    rice: ['美味厨房', move('sequence', '干米收进米盒', '按顺序摆上装米碗、米盒和盒盖，完成装米图。', '干米从碗中收进米盒，最后盖好盒盖，装米记录完整了。', ['装着干米的碗', '接住干米的米盒', '米盒盖'], [['装米记录格', 50, 55]], [0, 0, 0], '只操作图片；干米不入口，不玩散米，煮饭由成人处理。')],
+    flower: ['花园种植', move('collect', '三张花画上展板', '把花盆、花瓶和花园的花画分别移到展板图框。', '三张花画摆在不同图框，赏花角的展板布置好了。', ['花盆花画', '花瓶花画', '花园花画'], [['花盆图框', 25, 50], ['花瓶图框', 50, 60], ['花园图框', 75, 50]], [0, 1, 2], '只搬图片，不采花，不碰蜂。')],
+    grass: ['花园种植', reveal('打开草地观察页', '揭开六块遮片，看看草坪、河边和盆里草的样子。', '遮片都打开，草地观察页露出了细长叶片和不同生长位置。', ['细长的叶片', '叶片尖端', '成片的草', '弯曲的草叶', '河边的草丛', '盆边伸出的草'], '只看照片；户外由成人陪伴，沿开放步道走，不采摘。')],
+    leaf: ['花园种植', move('sort', '叶子画分进三个画袋', '把绿叶画、红枫叶画和黄银杏叶画放到相同图案的画袋。', '三种叶子画各自收好，画角没有折在袋口。', ['椭圆绿叶画', '另一张椭圆绿叶画', '红枫叶画', '黄银杏叶画'], [['绿叶画袋', 25, 55], ['枫叶画袋', 50, 65], ['银杏叶画袋', 75, 55]], [0, 0, 1, 2], '只整理图画，不要求采摘或拾取落叶。')],
+    bamboo: ['花园种植', phased('route', '沿导览图到竹林休息站', '依次点到园门、竹林旁步道和休息站，让导览路线连起来。', '园门到竹林旁休息站的路线标好了，脚印没有进种植区。', [['从园门出发', '集合点标在园门内。'], ['沿竹林旁步道走', '路线留在步道上。'], ['到休息站歇脚', '路线终点落在休息站。']], [['园门', 20, 75], ['竹林旁步道', 50, 50], ['休息站', 80, 30]], '跟随成人走开放步道，不折竹枝，不进入竹林深处。')],
+    bird: ['动物朋友', move('sort', '观鸟相册按动作分两页', '把停着的鸟照片放到停留页，飞行的鸟照片放到飞行页。', '停留和飞行照片分开了，相册能看见鸟的不同动作。', ['枝头小鸟照片', '站着小鸟照片', '飞行燕子照片', '另一张飞行燕子照片'], [['停留页', 30, 55], ['飞行页', 70, 55]], [0, 0, 1, 1], '只整理照片，不追赶、不投食，不靠近鸟巢。')],
+    insect: ['动物朋友', move('build', '小虫图画挂上展墙', '把瓢虫、蝴蝶和蚂蚁画挂到展墙的三个画框。', '三张小虫画挂好了，邀请卡可以摆到展墙前。', ['瓢虫画', '蝴蝶画', '蚂蚁画'], [['瓢虫画框', 25, 45], ['蝴蝶画框', 50, 55], ['蚂蚁画框', 75, 45]], [0, 1, 2], '布置屏幕展墙，不捉虫，不触碰虫巢。')],
+    fish: ['动物朋友', move('sequence', '鱼照片册包好寄出', '按顺序摆好照片册、保护纸套和邮包图片。', '鱼照片册合好、纸套包好、邮包收好，寄送准备完成了。', ['合好的鱼照片册', '保护照片册的纸套', '寄送邮包'], [['包装台', 50, 55]], [0, 0, 0], '只整理照片，真实水边观察由成人陪伴，不喂鱼。')],
+    rabbit: ['动物朋友', move('sequence', '兔故事页夹好书签', '按顺序放上故事书、兔故事页和页签图片。', '故事书打开到兔故事页，页签夹好，下次可以直接翻到这一页。', ['摊开的故事书', '兔故事页', '夹在页边的页签'], [['讲故事桌', 50, 55]], [0, 0, 0], '整理绘本即可，不需要接触真实兔。')],
+    cow: ['动物朋友', move('collect', '干草装进送草小车', '把三个干草捆收进小车，送草的事由农场叔叔接手。', '三个干草捆都装进小车，没有留在通道上。', ['左侧干草捆', '垫边干草捆', '架旁干草捆'], [['送草小车', 50, 60]], [0, 0, 0], '只做装车模拟；真实送料由饲养员处理，孩子留在栏外，不自行喂动物。')],
+    sheep: ['动物朋友', move('sort', '羊舍折页分两栏', '把绵羊照片放进绵羊栏，把山羊照片放进山羊栏。', '两种羊各有一栏，参观折页能同时展示它们的不同模样。', ['蓬毛绵羊照片', '侧身绵羊照片', '胡须山羊照片', '侧身山羊照片'], [['绵羊栏', 30, 55], ['山羊栏', 70, 55]], [0, 0, 1, 1], '用照片整理，不进动物栏，不喂羊。')],
+    horse: ['动物朋友', move('collect', '马场照片放进介绍板', '把站立、慢跑和拉空车的马照片移到对应介绍框。', '三张马场照片各有位置，介绍板排好了。', ['站立马照片', '慢跑马照片', '拉空车马照片'], [['站立介绍框', 25, 50], ['慢跑介绍框', 50, 60], ['拉车介绍框', 75, 50]], [0, 1, 2], '真实参观在成人陪伴下留在栏外，不骑马、不接近或喂马。')],
+    dog: ['动物朋友', move('collect', '狗朋友的球回玩具篮', '把垫边、桌边和门边的三只狗玩具球收进它的玩具篮。', '三只球都送回狗朋友的篮子，玩具不再滚在通道上。', ['垫边布球', '桌边软球', '门边橡胶球'], [['狗的玩具篮', 50, 60]], [0, 0, 0], '屏幕归还玩具；不靠近陌生狗，不用玩具或食物引狗。')],
+    mouth: ['身体感官', move('collect', '口形图片排一排', '把微笑、唱歌和吹气图片放进各自图框。', '三张口形图排好了，卡套能装下这组图片。', ['微笑图片', '唱歌图片', '吹气图片'], [['微笑图框', 25, 50], ['唱歌图框', 50, 60], ['吹气图框', 75, 50]], [0, 1, 2], '只移动已有图片，不要求孩子做口形或张嘴展示。')],
+    eye: ['身体感官', reveal('展开眼睛观察小画', '揭开六块遮片，看朵朵画的眼睛和它们周围的线条。', '眼睛观察画完整露出了，可以自由看看，不需要指出答案。', ['上眼皮的线条', '下眼皮的线条', '圆圆的瞳孔', '瞳孔周围的颜色', '眼角的位置', '两眼之间的空隙'], '看图片即可，不碰眼睛，不直视强光。')],
+    ear: ['身体感官', move('sequence', '声音角布置好再轻摇', '按顺序摆好耳朵图牌、沙铃垫和休息卡图片。', '入口图牌摆好，沙铃有软垫，轻声活动和休息都准备好了。', ['声音角耳朵图牌', '沙铃软垫', '安静休息卡'], [['声音角准备格', 50, 55]], [0, 0, 0], '声音轻柔，不突然播放音效；不想听的孩子可以只看。')],
+    hand: ['身体感官', move('sort', '小手动作册分两页', '张开或挥动的手照片放到空手页，握铅笔的照片放到握物页。', '空手动作和握物动作分成两页，小手动作册整理好了。', ['张开手掌照片', '挥手照片', '握铅笔照片', '另一张握铅笔照片'], [['空手动作页', 30, 55], ['握物动作页', 70, 55]], [0, 0, 1, 1], '整理照片，不要求模仿动作，不拿尖锐物。')],
+    door: ['温暖的家', phased('route', '迎客路线连到门口', '在路线卡上依次点选院口、迎宾垫和小屋门口。', '院口到小屋门口的迎客路线连好了，客人有了到达的位置。', [['标好院口', '客人的起点标在院口。'], ['经过迎宾垫', '路线接到铺平的迎宾垫。'], ['到小屋门口', '路线终点落在入口。']], [['院口', 20, 75], ['迎宾垫', 50, 55], ['小屋门口', 75, 30]], '只点地图；真实开关门由成人协助，手指不放门缝。')],
+    window: ['温暖的家', move('build', '在布置图上挂好窗帘', '把左窗帘、右窗帘和下沿样片放到布置图的对应位置。', '窗帘样片在图上拼好了，燕子妈妈能看清要布置的位置。', ['左窗帘样片', '右窗帘样片', '下沿花样片'], [['左窗帘位', 30, 45], ['右窗帘位', 70, 45], ['下沿样片位', 50, 70]], [0, 1, 2], '只拼布置图；安装窗帘由成人处理，孩子站地面，不爬窗台。')],
+    lamp: ['温暖的家', move('sequence', '给阅读灯留好位置', '依次摆上收好的绘本、桌面空位和台灯清单图片。', '绘本收齐、台灯空位留好、清单备好，阅读角等待爸爸安装灯。', ['收好的绘本', '桌面台灯空位图', '台灯准备清单'], [['阅读角准备格', 50, 55]], [0, 0, 0], '不操作插头、开关或线路，真实安装和接电由成人完成。')],
+    bed: ['温暖的家', move('sequence', '小毯子叠好放上床', '按顺序摆好摊平、对折和安放毯子的图片。', '小毯子摊平、对折，再安放到床上，午休布置排好了。', ['摊平的小毯子', '对折的小毯子', '床上的小毯子'], [['午休布置格', 50, 55]], [0, 0, 0], '不攀爬上下铺，不在床上跳跃；真实整理由成人陪伴。')],
+    shirt: ['温暖的家', move('sort', '演出衣服分格收好', '把短袖演出服送到上衣格，把夹克和雨衣送到外衣格。', '演出衣服分进两格，箱子里的衣物更容易找到。', ['短袖上衣图卡', '另一张短袖上衣图卡', '夹克图卡', '雨衣图卡'], [['上衣格', 30, 55], ['外衣格', 70, 55]], [0, 0, 1, 1])],
+    hat: ['温暖的家', move('collect', '帽子各回帽柜格', '把遮阳帽、毛线帽和棒球帽各放回有同样图案的帽格。', '三顶帽子各回自己的格，遮阳帽的位置留在整理图上。', ['宽檐遮阳帽', '毛线帽', '棒球帽'], [['遮阳帽格', 25, 55], ['毛线帽格', 50, 65], ['棒球帽格', 75, 55]], [0, 1, 2], '真实取高处用品由成人处理，不攀收纳柜。')],
+    bag: ['温暖的家', move('collect', '绘本装进归还手提包', '把三本合好的绘本逐本移到手提包里。', '三本绘本收进手提包，书角不再露在包口外。', ['蓝封绘本', '黄封绘本', '绿封绘本'], [['归还手提包', 50, 60]], [0, 0, 0], '真实还书由成人陪伴，包不装得过重。')],
+    umbrella: ['温暖的家', move('sequence', '晾干的伞回架上', '依次放好接水托盘、合拢的伞和收纳架图片。', '托盘先摆好，干伞合拢，再放回伞架，门口通道空出来了。', ['接水托盘', '晾干合拢的伞', '伞架归位图'], [['归位记录格', 50, 55]], [0, 0, 0], '屏幕模拟；真实开合雨伞由成人协助，伞尖远离人。')],
+    melon: ['美味厨房', move('build', '瓜摊图卡摆好啦', '把完整西瓜、西瓜片和南瓜图卡放到摊位三个展示槽。', '三张瓜图卡各有展示位，瓜摊招牌前的图画布置好了。', ['完整西瓜图卡', '西瓜片图卡', '南瓜图卡'], [['完整西瓜槽', 25, 55], ['西瓜片槽', 50, 65], ['南瓜槽', 75, 55]], [0, 1, 2], '只移动图卡，切瓜和处理食物由成人完成，不用刀具。')],
+    fruit: ['美味厨房', move('sequence', '水果分享桌准备好', '依次摆上桌垫、洗好水果的图盘和桌卡图片。', '桌垫铺好、水果图盘放好、桌卡摆好，分享桌准备顺序完整了。', ['平整桌垫', '洗好水果的图盘', '水果分享桌卡'], [['分享桌准备格', 50, 55]], [0, 0, 0], '真实食物清洗、分切、温度和过敏由成人处理，不以吃水果作为答题奖励。')],
+    bean: ['美味厨房', move('sort', '豆子照片分进两盒', '黄豆照片送到黄豆盒，红豆照片送到红豆盒。', '两种豆子照片各自装盒，豆子收纳图分清了位置。', ['一张黄豆照片', '另一张黄豆照片', '一张红豆照片', '另一张红豆照片'], [['黄豆图片盒', 30, 55], ['红豆图片盒', 70, 55]], [0, 0, 1, 1], '只移动照片；不玩散豆、不吃生豆，做熟交给成人。')],
+    noodles: ['美味厨房', move('collect', '餐桌碗筷摆到位', '把空碗、筷套和餐垫送到桌上的碗位、筷位和垫位。', '碗筷和餐垫摆到位，点单后等待厨师端来适温面条。', ['空面碗', '装好筷子的筷套', '用餐垫'], [['碗位', 50, 40], ['筷位', 75, 55], ['餐垫位', 50, 75]], [0, 1, 2], '远离灶台；热锅、端面和确认入口温度由成人处理。')],
+    vehicle: ['出行交通', move('collect', '出行模型各就各位', '把汽车、公交车和自行车模型放到盒内对应凹槽。', '三个车模型各进一个凹槽，透明盒能合好了。', ['汽车模型', '公交车模型', '自行车模型'], [['汽车槽', 25, 50], ['公交车槽', 50, 60], ['自行车槽', 75, 50]], [0, 1, 2], '只用屏幕模型，真实出行看路并由成人陪伴。')],
+    bridge: ['出行交通', reveal('展开两岸过桥图', '揭开六块遮片，看看桥怎样连接两岸和开放步道。', '两岸和桥的路线图露出来了，可以看清过河通道。', ['这一侧桥头', '对岸桥头', '连接两岸的桥面', '桥的栏杆', '桥下的河道', '桥头开放步道'], '只看地图；真实过桥跟随成人，不停在危险边缘。')],
+    road: ['出行交通', phased('route', '沿公园路到野餐点', '依次点到公园入口、步道转弯和野餐点，连出步行路线。', '入口到野餐点的路线留在公园步道上，没有穿过草地。', [['从公园入口出发', '同行起点标好了。'], ['沿步道转弯', '路线顺着开放步道转向。'], ['到野餐点', '脚印连接到指定休息区。']], [['公园入口', 20, 75], ['步道转弯', 50, 50], ['野餐点', 80, 30]], '真实行走成人陪伴，不独自带路或过马路。')],
+    shop: ['社区游玩', move('collect', '三封来信送到小店', '把杂货店、花店和面包店的来信拖到各自收信格。', '三封信各进正确的店铺收信格，送信记录补齐了。', ['杂货店来信', '花店来信', '面包店来信'], [['杂货店收信格', 25, 55], ['花店收信格', 50, 65], ['面包店收信格', 75, 55]], [0, 1, 2], '屏幕送信；真实街道出行由成人陪伴，不独自去店铺。')],
+    shell: ['海边发现', move('collect', '海贝展盒摆到位', '把扇贝壳、海螺壳和蛤蜊壳的封闭展盒送到对应展位。', '三个展盒各就各位，海贝展台排整齐了，盖子保持关闭。', ['扇贝壳展盒', '海螺壳展盒', '蛤蜊壳展盒'], [['扇贝展位', 25, 50], ['海螺展位', 50, 60], ['蛤蜊展位', 75, 50]], [0, 1, 2], '使用馆内图片，不采集活物，不打开展盒或把小壳入口。')],
+    sand: ['海边发现', move('build', '补齐小沙堡缺角', '把沙堡底座、缺角沙块和小塔沙块放到城堡空位。', '底座和缺角补齐，小塔立好，小沙堡的外形完整了。', ['沙堡底座块', '缺角沙块', '小塔沙块'], [['底座位', 50, 75], ['缺角位', 30, 55], ['小塔位', 65, 35]], [0, 1, 2], '屏幕堆沙；真实玩沙成人陪伴，不扬沙、不入口，结束后洗手。')],
+    net: ['海边发现', move('sequence', '球门网修补单送出', '按顺序摆上收球图、破网照片和修补单图片。', '球先收好、破损记录清楚、修补单备好，等待维修叔叔处理。', ['球筐里的球', '球门网破损照片', '待交的修补单'], [['球场暂停记录格', 50, 55]], [0, 0, 0], '不钻网、不拉网、不做真实修补；成人修好并检查后才开放球场。')],
+    boat: ['海边发现', phased('route', '让小舟靠岸', '先让图里的小舟沿水上路线前进，再到码头，最后在图上收好船绳。', '小舟沿水上路线到了码头，系泊图里的船绳也收好了。', [['沿水上路线前进', '小舟到达图上的平静水域节点。'], ['靠到码头', '小舟停在码头旁的泊位。'], ['收好船绳', '系泊图中的船绳放回固定位置。']], [['水上路线', 20, 70], ['码头泊位', 55, 45], ['船绳固定位', 80, 35]], '仅操作屏幕；真实操舟、靠岸和系绳由成人处理，乘船须成人陪伴和合身救生衣。')]
+  };
+  Object.assign(playground, {
+    wind: ['自然探索', move('collect', '压好风里的野餐垫', '把三个软压袋各放到一个翘起的垫角。', '三个垫角各压好一个软袋，野餐垫不再翻起来。', ['蓝软压袋', '黄软压袋', '绿软压袋'], [['左下垫角', 25, 70], ['上方垫角', 50, 30], ['右下垫角', 75, 70]], [0, 1, 2], '只在屏幕上整理；真实大风时由成人带回室内，不追逐飞走的物品。')],
+    snow: ['自然探索', move('build', '给小雪人添上围巾', '把大雪团放底座，小雪团放上方，软围巾放颈部。', '两个雪团叠齐，围巾也放好了，雪人模型完整了。', ['大雪团', '小雪团', '软围巾'], [['雪人底座', 50, 70], ['雪人上部', 50, 30], ['围巾位', 50, 50]], [0, 1, 2], '屏幕堆雪；真实户外由成人陪伴保暖，不吃雪、不抛硬雪球。')],
+    star: ['自然探索', reveal('揭开夜空的小亮点', '点开遮片，自由看看照片里的夜空，不用数星或找最亮的一颗。', '夜空照片完整露出了，可以慢慢看远处的亮点。', ['深蓝的夜空', '较亮的星点', '较淡的星点', '相邻的星点', '星点间的暗处', '靠近地平线的星点'], '只看照片；真实夜间活动由成人陪伴，不照强光、不直视太阳。')],
+    ice: ['自然探索', move('collect', '给冰的照片找位置', '冰块、水洼冰和池塘冰面的照片各送到对应观察格。', '三张冰的照片各有观察位置，冰的折页排完整了。', ['冰块照片', '水洼冰照片', '池塘冰面照片'], [['冰块观察格', 25, 50], ['水洼观察格', 50, 65], ['池塘观察格', 75, 50]], [0, 1, 2], '只移动照片，不踏结冰水面、不尝冰。')],
+    river: ['自然探索', phased('route', '沿着河岸去休息亭', '依次点到步道入口、护栏转弯处和休息亭，路线一直留在岸边步道。', '河岸步道的三个节点连起来了，脚印停在休息亭。', [['进入河岸步道', '起点留在有护栏的步道入口。'], ['沿护栏转弯', '脚印沿步道转向，没有进入河道。'], ['到休息亭', '路线结束在岸上休息亭。']], [['步道入口', 20, 75], ['护栏转弯处', 50, 50], ['休息亭', 80, 30]], '屏幕路线；真实水边成人全程陪伴，在护栏外活动，不下水。')],
+    pond: ['自然探索', reveal('展开小池的倒影', '打开遮片，看小池的水面、边界和倒影。', '池边照片完整露出，水面和倒影可以慢慢观察。', ['平静的水面', '水面的微小波纹', '池岸的边界', '花叶的倒影', '水里的明暗', '池边的植物'], '只看照片；真实水边成人陪伴，在护栏外，不探身、不喂鱼。')],
+    tree: ['花园种植', move('build', '把大树的影子拼完整', '把树干和左右树冠拼图片送到观察板对应空位。', '树干连上左右树冠，大树观察拼图完整了。', ['树干拼图片', '左树冠拼图片', '右树冠拼图片'], [['树干位置', 50, 70], ['左树冠位置', 30, 35], ['右树冠位置', 70, 35]], [0, 1, 2], '只拼图片，成人陪伴沿步道观察真树，不攀爬、不折枝。')],
+    root: ['花园种植', reveal('打开根的地下窗口', '揭开观察窗，看看照片里土下、水中和树旁的根。', '观察窗打开，根的分枝和生长位置露出来，植物没有被拔起。', ['细根的分枝', '较粗的根段', '根的尖端', '根旁的土粒', '水中伸展的根', '树干旁露出的根'], '只看已有观察盒照片，不挖根、不拔植物，不碰肥料。')],
+    sprout: ['花园种植', move('sequence', '小芽慢慢打开了', '依次放好豆子裂开、露芽和芽尖展开的照片，排出几天的变化。', '发芽照片按观察顺序排好了，新芽的变化来自几天而非瞬间。', ['豆子裂开照片', '露出小芽照片', '芽尖展开照片'], [['发芽时间格', 50, 55]], [0, 0, 0], '只整理照片，不吃种子、不掐芽，真实照料由成人陪伴。')],
+    seed: ['花园种植', move('collect', '给种子袋安个家', '把三袋密封种子送到有相同植物图案的抽屉。', '豆子、向日葵和南瓜种子袋各回自己的抽屉，种子柜整理好了。', ['豆子种子袋', '向日葵种子袋', '南瓜种子袋'], [['豆子抽屉', 25, 55], ['向日葵抽屉', 50, 65], ['南瓜抽屉', 75, 55]], [0, 1, 2], '屏幕密封袋，不玩散种子、不入口；真实种子由成人保管。')],
+    seedling: ['花园种植', move('collect', '幼苗搬进阳光角', '把三盆小苗各移到低矮苗架的一处空位，不叠盆。', '三盆幼苗各占一个架位，嫩叶有了舒展空间。', ['蓝盆幼苗', '黄盆幼苗', '绿盆幼苗'], [['左架位', 25, 55], ['中架位', 50, 55], ['右架位', 75, 55]], [0, 1, 2], '只搬屏幕花盆；真实盆栽、苗架检查和肥料由成人处理。')],
+    cat: ['动物朋友', move('collect', '收好猫朋友的软垫', '小毯送到睡篮，软垫送到休息位，布球送进玩具盒。', '三件用品回到各自位置，猫的休息角整理好了。', ['小毯', '软垫', '布球'], [['睡篮', 25, 55], ['休息位', 50, 65], ['玩具盒', 75, 55]], [0, 1, 2], '只整理屏幕用品；成人陪伴接触熟悉宠物，不追、不强抱、不叫醒猫。')],
+    duck: ['动物朋友', move('collect', '鸭的照片游进相册', '把游泳、走路和休息的鸭照片放到对应相册格。', '三张鸭照片各有图格，鸭相册小页完整了。', ['游泳鸭照片', '走路鸭照片', '休息鸭照片'], [['游泳图格', 25, 50], ['走路图格', 50, 65], ['休息图格', 75, 50]], [0, 1, 2], '只整理照片；成人陪伴在安全区域观察，不追鸭、不投食。')],
+    chicken: ['动物朋友', reveal('鸡舍图册开窗啦', '打开图册遮片，自由看看站立和觅食的母鸡、公鸡图卡。', '鸡的图卡完整露出了，不需要接触动物或数羽毛。', ['母鸡的羽毛', '母鸡站立的双脚', '公鸡的鸡冠', '公鸡的尾羽', '白母鸡的羽毛', '白母鸡觅食的姿势'], '只看图卡，真实观察留在栏外由成人陪伴，不抓鸡、不投食。')],
+    goose: ['动物朋友', move('collect', '把鹅的长颈照片挂好', '把草地上、湖水里和院子里的鹅图卡各送到对应夹框。', '三张鹅图卡分别挂好了，展板上没有重叠。', ['草地白鹅图卡', '游泳白鹅图卡', '院中白鹅图卡'], [['草地夹框', 25, 50], ['游泳夹框', 50, 65], ['院中夹框', 75, 50]], [0, 1, 2], '只挂图卡；真实观察保持距离，成人陪伴，不靠近或喂鹅。')],
+    pig: ['动物朋友', move('sort', '猪的相册分两页', '站着的猪照片送到站姿页，躺着的猪照片送到休息页。', '站姿和卧姿分成两页，猪的相册折页整理好了。', ['粉色猪站姿图卡', '黑白花猪站姿图卡', '粉色猪卧姿图卡', '另一张粉色猪卧姿图卡'], [['站着页', 30, 55], ['休息页', 70, 55]], [0, 0, 1, 1], '只整理相册；真实农场由成人陪伴留在栏外，不进栏、不喂猪。')],
+    deer: ['动物朋友', reveal('翻开鹿的安静时刻', '揭开鹿的写实AI图卡，看看它们站立和行走的样子。', '鹿的图卡露出来了，观察不需要把鹿叫近。', ['林间的鹿', '鹿的角', '草地上的鹿', '细长的腿', '行走的鹿', '鹿的姿势'], '只看远拍照片，不靠近野生鹿、不投食、不追逐。')],
+    bear: ['动物朋友', move('collect', '熊的自然照片拼成展墙', '把行走、坐着和休息的熊照片送到相同姿势的展框。', '三张熊照片各自入框，展墙整理完整了。', ['行走熊照片', '坐着熊照片', '休息熊照片'], [['行走展框', 25, 50], ['坐姿展框', 50, 65], ['休息展框', 75, 50]], [0, 1, 2], '只在馆内看照片，不寻找、接近或喂真实熊。')],
+    bee: ['动物朋友', move('collect', '蜂的近照送进观察框', '把花上、飞行和侧身的蜜蜂照片放到对应观察框。', '三张蜜蜂照片各就各位，蜂观察页排好了。', ['花上蜜蜂照片', '飞行蜜蜂照片', '侧身蜜蜂照片'], [['停留观察框', 25, 50], ['飞行观察框', 50, 65], ['侧身观察框', 75, 50]], [0, 1, 2], '只整理近照，不捉蜂、不拍打、不碰蜂巢；真实遇蜂保持距离。')],
+    butterfly: ['动物朋友', reveal('蝶翼照片打开了', '揭开遮片，看看蝴蝶展开、合拢翅膀和飞行的自然姿势。', '蝴蝶照片露出来了，翅膀没有被触碰或摘取。', ['展开的翅膀', '合拢的翅膀', '翅上的花纹', '细长的触角', '停留时的腿', '飞行中的姿势'], '只看照片；真实观察由成人陪伴，不捉蝶、不触碰翅膀。')],
+    foot: ['身体感官', phased('route', '小足印走回软垫', '依次点到出发垫、转弯垫和休息垫，让屏幕足印沿平坦地垫前进。', '三个地垫节点连起来了，足印最后停在休息垫。', [['踏上出发垫', '足印落在平坦的出发垫上。'], ['沿转弯垫转向', '足印顺着地垫转弯。'], ['回到休息垫', '足印路线停在柔软休息区。']], [['出发垫', 20, 75], ['转弯垫', 50, 50], ['休息垫', 80, 30]], '屏幕足印路线；真实活动由成人陪伴防滑，不要求脱鞋或模仿动作。')],
+    head: ['身体感官', move('build', '给头部画像拼个轮廓', '把头顶、左轮廓和右轮廓画像片拼到观察板。', '三块画像连成完整头部轮廓，没有要求任何人转头展示。', ['头顶画像片', '左轮廓画像片', '右轮廓画像片'], [['头顶位置', 50, 30], ['左轮廓位置', 30, 60], ['右轮廓位置', 70, 60]], [0, 1, 2], '只用已有画像，尊重孩子不想展示身体或拍照的选择。')],
+    tooth: ['身体感官', reveal('牙齿模型的观察窗', '打开模型照片遮片，看看前牙、后牙和牙列，不用张嘴展示。', '牙齿模型照片露出，前后牙的形状可以自由观察。', ['前牙的平边', '后牙的宽面', '后牙上的起伏', '相邻牙的位置', '整排牙左侧的弧线', '整排牙右侧的弧线'], '只观察模型，不触碰他人嘴部，不强迫张嘴，不把模型放入口中。')],
+    heart: ['身体感官', reveal('心脏模型转到眼前', '揭开人体心脏教学模型的三方向图卡，不用爱心图案代替器官。', '模型正面、斜侧面和背面露出，观察对象是代表人体心脏的教学模型。', ['模型上方的血管', '模型较宽的上部', '模型下方的心尖', '模型表面的血管纹路', '模型侧面的弧度', '模型背面的结构'], '只看教学模型照片，不按压胸口，不要求跑步或听心跳。')],
+    face: ['身体感官', move('collect', '脸的照片有了展示格', '把正脸、侧脸和自然微笑照片送到对应图格。', '三张写实AI人像图卡各入一格，脸部观察小页完成了。', ['正脸照片', '侧脸照片', '自然微笑照片'], [['正脸图格', 25, 50], ['侧脸图格', 50, 65], ['微笑图格', 75, 50]], [0, 1, 2], '只用已有的写实AI人像图卡，不要求孩子摆表情、照镜子或拍照。')],
+    table: ['温暖的家', move('build', '把阅读桌搭稳', '桌面放上部槽，左右桌腿架放下方对应槽。', '桌面和两组桌腿架拼齐，阅读桌模型完整了。', ['桌面', '左桌腿架', '右桌腿架'], [['桌面槽', 50, 30], ['左腿架槽', 30, 65], ['右腿架槽', 70, 65]], [0, 1, 2], '只拼屏幕模型，不用真工具；真实家具由成人组装并检查，不攀桌。')],
+    chair: ['温暖的家', move('collect', '小椅子排进故事圈', '把三把小椅子各送到半圈里的一个空座位，留出中间通道。', '小椅子各占一个座位，中央通道仍然空着。', ['家中木椅图卡', '教室木椅图卡', '户外折叠椅图卡'], [['左座位', 25, 55], ['中座位', 50, 30], ['右座位', 75, 55]], [0, 1, 2], '只移动屏幕椅子；真实搬放和稳定检查由成人处理，不站椅、不抢椅。')],
+    cup: ['美味厨房', phased('fill', '给小杯接好饮用水', '先放稳杯，再按下饮用水壶出水键，接好后松开。', '杯子放稳、适量水接好、出水停止，饮水准备完成了。', [['放稳杯子', '杯子放在出水口下方的平稳台面。'], ['按下出水键', '饮用水在屏幕中流入杯子。'], ['松开出水键', '出水停止，杯中留好适量的水。']], null, '仅模拟适温饮用水，不加热；真实水温和容器由成人确认，不操作真实设备。')],
+    bowl: ['美味厨房', move('collect', '小碗回到低层架', '把三只干净碗各放到低层架的一个软垫位，碗口朝上。', '三只碗分别归位，没有叠成高摞。', ['瓷碗图卡', '木碗图卡', '玻璃碗图卡'], [['左软垫位', 25, 55], ['中软垫位', 50, 55], ['右软垫位', 75, 55]], [0, 1, 2], '只移屏幕餐具；真实易碎餐具和高处收纳由成人处理。')],
+    plate: ['美味厨房', move('sort', '圆盘长盘各有家', '圆盘送到圆形收纳格，长方盘送到长形收纳格。', '两个圆盘和两个长方盘按外形分进两格，盘架整理好了。', ['瓷圆盘图卡', '金属圆盘图卡', '长方瓷盘图卡', '另一张长方瓷盘图卡'], [['圆形收纳格', 30, 55], ['长形收纳格', 70, 55]], [0, 0, 1, 1], '只整理屏幕盘子，真瓷器和重盘由成人搬放。')],
+    spoon: ['美味厨房', move('collect', '把小勺送回餐垫', '把三把小勺各移到一张餐垫的勺位，勺柄朝取用侧。', '三张餐垫的勺位都放好小勺，餐具准备完整了。', ['金属勺图卡', '木勺图卡', '瓷勺图卡'], [['左餐垫勺位', 25, 55], ['中餐垫勺位', 50, 65], ['右餐垫勺位', 75, 55]], [0, 1, 2], '屏幕摆餐具，不舀热汤；真实热食由成人确认温度。')],
+    pot: ['美味厨房', move('collect', '凉锅照片排进厨具册', '汤锅、平底锅和蒸锅照片送到相同图案的图格。', '三种冷却锅具的照片归位，厨具册这一页排好了。', ['汤锅照片', '平底锅照片', '蒸锅照片'], [['汤锅图格', 25, 50], ['平底锅图格', 50, 65], ['蒸锅图格', 75, 50]], [0, 1, 2], '只搬照片，不点火、不加热；真实锅具、开盖和灶台由成人处理。')],
+    ball: ['社区游玩', move('collect', '软球回到游戏篮', '把屏幕软垫上的三只软球逐一收进大篮子。', '三只软球都进篮，软垫上的通道空出来了。', ['蓝软球', '黄软球', '绿软球'], [['游戏大篮子', 50, 60]], [0, 0, 0], '只收屏幕球；真实玩球成人陪伴，远离道路，不追球抢球。')],
+    book: ['社区游玩', move('collect', '绘本归还小推车', '把三本合好的绘本各送到还书车一个空位。', '三本绘本放在还书车里，书角没有伸到轮边。', ['蓝封绘本', '黄封绘本', '绿封绘本'], [['左还书位', 25, 55], ['中还书位', 50, 55], ['右还书位', 75, 55]], [0, 1, 2], '只移屏幕绘本，真实推车由成人处理；不以认字限制借书。')],
+    pen: ['创作工坊', move('sort', '画笔和铅笔分格住', '铅笔图卡送到铅笔格，彩笔和毛笔图卡送到画笔格。', '铅笔和彩笔、毛笔的图卡分好了，创作桌有了空位。', ['铅笔图卡', '另一张铅笔图卡', '彩笔图卡', '毛笔图卡'], [['细笔格', 30, 55], ['画笔格', 70, 55]], [0, 0, 1, 1], '屏幕整理；真实适龄画具成人陪伴，不含笔、不碰削笔刀。')],
+    paper: ['创作工坊', move('sequence', '折出小小纸扇', '依次放上铺平纸张、来回折叠和收拢扇柄的步骤图片。', '三张折扇图片按顺序摆好，屏幕小纸扇的外形成形了。', ['铺平纸张图', '来回折叠图', '收拢扇柄图'], [['折扇工作台', 50, 55]], [0, 0, 0], '只放步骤图片；实际手工成人陪伴，用软纸，不用剪刀或裁纸工具。')],
+    clock: ['温暖的家', move('build', '钟的观察板装好啦', '把外框、带指针钟面和透明面罩装到模型对应槽位。', '外框、钟面和面罩拼齐，一只展示钟模型完整了。', ['钟的外框', '带指针钟面', '透明面罩'], [['外框槽', 50, 70], ['钟面槽', 50, 45], ['面罩槽', 50, 20]], [0, 1, 2], '只拼屏幕模型，不拆真实时钟、不碰电池，不要求报时。')],
+    ship: ['出行交通', phased('route', '客船开进泊位图', '依次点选航道口、转向区和客船泊位，连出港口进泊路线。', '客船经过航道口和转向区，最后停在图上的客船泊位。', [['驶入航道口', '客船图标进入港口航道。'], ['经过转向区', '客船图标沿航线转向。'], ['进入客船泊位', '图标停在指定泊位，路线结束。']], [['航道口', 20, 75], ['转向区', 50, 50], ['客船泊位', 80, 30]], '仅屏幕模拟；真实驾驶和泊船由专业成人处理，乘船成人陪伴并穿合身救生衣。')],
+    wheel: ['出行交通', move('build', '模型小车装上轮', '四只模型车轮各装到小车对应的轮轴位。', '四个轮轴位各有一个轮，小车模型部件补齐了。', ['左前模型轮', '右前模型轮', '左后模型轮', '右后模型轮'], [['左前轮轴位', 30, 35], ['右前轮轴位', 70, 35], ['左后轮轴位', 30, 70], ['右后轮轴位', 70, 70]], [0, 1, 2, 3], '只拼屏幕模型；不拆真车，不伸手进转动的轮，维修由成人处理。')],
+    house: ['温暖的家', move('build', '搭起模型小房', '把左墙、右墙和屋顶移到小房模型的三个对应位置。', '左右墙和屋顶都拼好，小房模型有了完整外形。', ['左墙片', '右墙片', '屋顶片'], [['左墙位置', 30, 65], ['右墙位置', 70, 65], ['屋顶位置', 50, 30]], [0, 1, 2], '屏幕模型，不用钉子锤子；真实建筑由专业人员完成，远离工地。')],
+    school: ['社区游玩', phased('route', '校园参观慢慢走', '依次点到校门集合处、教学楼前和教室，在图上跟老师同行。', '校园参观路线连接了三处学校里的地点，队伍没有离开校园路线。', [['在校门集合', '队伍和老师在校门处集合。'], ['走到教学楼前', '队伍沿校园步道到教学楼前。'], ['到教室', '参观路线结束在老师带领的教室。']], [['校门集合处', 20, 75], ['教学楼前', 50, 50], ['教室', 80, 30]], '只点地图；真实参观须获许可并由老师和家长陪伴，不独自进校园。')],
+    garden: ['花园种植', phased('route', '花园散步回到休息点', '依次点到园门、花木旁步道和休息点，沿开放步道走。', '园门到休息点的路线连好了，种植区没有被当成路。', [['从园门出发', '同行起点落在园门。'], ['沿花木旁步道走', '路线留在开放步道上。'], ['到休息点', '同行路线停在休息区。']], [['园门', 20, 75], ['花木旁步道', 50, 50], ['休息点', 80, 30]], '屏幕漫步；真实园中活动成人陪伴，不采摘、不离队。')],
+    kite: ['创作工坊', move('build', '风筝模型穿好彩尾', '把筝面和左右彩尾带各放到风筝模型对应空位。', '筝面接上两条彩尾，风筝模型的外形拼完整了。', ['风筝筝面', '左彩尾带', '右彩尾带'], [['筝面位置', 50, 30], ['左彩尾位', 30, 70], ['右彩尾位', 70, 70]], [0, 1, 2], '只拼模型；真实放飞由成人陪伴，远离电线和道路，雷雨不放风筝，不缠绕筝线。')],
+    drum: ['创作工坊', move('sequence', '小鼓排好轻拍图', '先放扶稳鼓图，再放轻拍鼓面图，最后放停下休息图。', '扶稳、轻拍、休息的图片按顺序排好，小鼓游戏有了安静结束。', ['扶稳小鼓图', '轻拍鼓面图', '双手离鼓休息图'], [['轻拍流程格', 50, 55]], [0, 0, 0], '只排动作图片，不播放突然响声；真实活动音量轻柔，允许只看或不参与。')],
+    bell: ['创作工坊', move('sequence', '小铃轻摇后归位', '依次放拿稳小铃图、轻摇图和放回软垫图。', '小铃动作图按顺序摆好了，最后的小铃停在软垫上。', ['拿稳小铃图', '轻轻摇铃图', '放回软垫图'], [['小铃流程格', 50, 55]], [0, 0, 0], '只排图片，不突然播放铃声；真实小铃由成人选择安全大号款，不拆零件。')],
+    rope: ['创作工坊', move('sort', '长绳短绳进软盒', '短绳照片送到短绳格，长绳照片送到长绳格。', '长短绳照片分进两格，绳盒整理图完成了。', ['蓝短绳照片', '黄短绳照片', '蓝长绳照片', '黄长绳照片'], [['短绳图片格', 30, 55], ['长绳图片格', 70, 55]], [0, 0, 1, 1], '只整理图片；真实绳子成人保管，不绕颈、不绑人、不横放绊人。')],
+    towel: ['温暖的家', move('collect', '小毛巾各回自己的格', '三条毛巾分别送到有相同太阳、花朵或小船图案的个人格。', '每条毛巾都回到对应个人格，没有混用。', ['太阳图案毛巾', '花朵图案毛巾', '小船图案毛巾'], [['太阳个人格', 25, 55], ['花朵个人格', 50, 65], ['小船个人格', 75, 55]], [0, 1, 2], '屏幕收纳；真实用品保持个人专用和清洁，不交换毛巾作游戏。')],
+    soap: ['温暖的家', move('collect', '香皂回到干净盒', '把方皂、圆皂和椭圆皂各送到同形状的带排水孔皂盒。', '三块香皂各入自己的皂盒，台面的归位图整理好了。', ['方形香皂', '圆形香皂', '椭圆形香皂'], [['方形皂盒', 25, 55], ['圆形皂盒', 50, 65], ['椭圆形皂盒', 75, 55]], [0, 1, 2], '只移屏幕香皂；真实洗手成人陪伴，香皂不入口、不碰眼睛，地面防滑。')],
+    milk: ['美味厨房', move('collect', '牛奶收进冷藏格', '把三瓶需要冷藏的密封牛奶各移到一个冷藏架空位。', '三瓶牛奶各有冷藏架位置，保存图整理好了。', ['蓝盖密封牛奶瓶', '黄盖密封牛奶瓶', '绿盖密封牛奶瓶'], [['左冷藏位', 25, 55], ['中冷藏位', 50, 55], ['右冷藏位', 75, 55]], [0, 1, 2], '屏幕收纳；实际保存说明、日期和过敏由成人检查，不强迫饮用或以喝奶作奖励。')],
+    egg: ['美味厨房', move('sequence', '鸡蛋照片排成备餐页', '依次放完整鸡蛋、成人煮熟并冷却的鸡蛋、剥壳熟蛋照片。', '整蛋、煮熟冷却和剥壳熟蛋的照片按顺序排好，备餐页完成了。', ['完整鸡蛋照片', '煮熟冷却鸡蛋照片', '剥壳熟蛋照片'], [['鸡蛋备餐格', 50, 55]], [0, 0, 0], '只排照片；生蛋卫生、煮蛋、热锅和过敏由成人处理，不接触生蛋、不以吃蛋考查。')],
+    bread: ['美味厨房', move('sort', '圆饼方饼分进点心格', '圆烙饼和圆煎饼照片送到圆格，方饼干照片送到方格。', '两张圆饼照片和两张方饼干照片按外形分好了，点心展卡完整了。', ['圆烙饼照片', '圆煎饼照片', '一张方饼干照片', '另一张方饼干照片'], [['圆饼图片格', 30, 55], ['方饼图片格', 70, 55]], [0, 0, 1, 1], '只看食品照片；加热、分切和过敏由成人处理，不试吃作考查；饼不等于西式面包。')],
+    tea: ['美味厨房', move('collect', '给大人的茶角摆好图', '把干茶叶、壶中茶叶和杯中茶汤照片移到对应观察框。', '三张茶角照片各入观察框，茶角观察页排好了，没有倒热水或喝茶。', ['干茶叶照片', '壶中茶叶照片', '杯中茶汤照片'], [['茶叶观察框', 25, 50], ['壶中观察框', 50, 65], ['茶汤观察框', 75, 50]], [0, 1, 2], '只搬照片；热液和茶具全由成人处理，不鼓励幼儿饮含咖啡因的茶，小朋友喝适合自己的饮用水。')]
+  });
+  const photoVariants = {
+    moon: [0, 1, 2], cloud: [0, 1, 2, 2], field: [0, 1, 2], flower: [0, 1, 2],
+    leaf: [0, 0, 1, 2], bird: [0, 2, 1, 1], insect: [0, 1, 2], sheep: [0, 2, 1, 1],
+    horse: [0, 1, 2], mouth: [0, 1, 2], hand: [0, 2, 1, 1], shirt: [0, 0, 1, 2],
+    hat: [0, 1, 2], melon: [0, 1, 2], bean: [1, 1, 2, 2], vehicle: [0, 1, 2],
+    shell: [0, 1, 2], ice: [0, 1, 2], duck: [0, 1, 2], goose: [0, 1, 2],
+    pig: [0, 1, 2, 2], bear: [0, 1, 2], bee: [0, 1, 2], face: [0, 1, 2],
+    chair: [0, 1, 2], bowl: [0, 1, 2], spoon: [0, 1, 2], pot: [0, 1, 2],
+    plate: [0, 2, 1, 1], pen: [0, 0, 1, 2],
+    bread: [0, 1, 2, 2], tea: [0, 1, 2], soap: [0, 1, 2]
+  };
+  for (const lesson of HanziLessons) {
+    const entry = playground[lesson.id];
+    if (entry) [lesson.sceneCategory, lesson.game] = entry;
+    const variants = photoVariants[lesson.id];
+    if (variants) lesson.game.pieces.forEach((piece, index) => {
+      piece.variant = variants[index];
+      piece.photo = true;
+    });
+    if (lesson.game.type === 'reveal') {
+      lesson.game.spots = lesson.contexts.flatMap(context => [
+        `${context.label}的图卡揭开了一半。`, `${context.label}的图卡完整露出了，可以自由观察。`
+      ]);
+    }
+  }
+})();
+
 if (typeof module !== 'undefined' && module.exports) module.exports = HanziLessons;
 else window.HanziLessons = HanziLessons;

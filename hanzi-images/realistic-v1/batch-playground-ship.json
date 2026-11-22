@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ship",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-ship-realistic-v3_1795322087370_92910e37.png",
+    "cuts": [597, 1193],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 船 (water transport vessels), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 水上的客船: one real medium-sized passenger ship floating on calm coastal water, white hull and several rows of cabin windows with passenger decks, clearly for carrying people, viewed broadside at a gentle three-quarter angle from a distant shore, entire vessel from bow to stern and mast visible, no visible names or logos.\nMiddle photo — 水上的货船: one real cargo ship floating on calm harbor water, long sturdy hull carrying plain unbranded freight containers, compact bridge at the rear, authentic steel and container surfaces, whole ship from bow to stern visible in broadside view, all containers blank with no lettering or numbers.\nBottom photo — 水上的渡船: one real small commuter ferry floating on calm river water, short practical hull, enclosed passenger cabin and open boarding area, recognizable everyday river ferry rather than a cruise ship, entire ferry from bow to stern and roof visible, gentle broadside view, no visible names or logos.\nStyle and lighting: genuine maritime documentary photography, authentic painted steel, windows, water ripples and reflections, clear natural daylight, quiet distant shore backgrounds, not CGI or illustration.\nComposition: exactly one principal vessel per landscape panel, fully centered with ample water around it and generous margins beyond bow, stern and highest structure, no part touching panel edges or seams, crop-safe complete ships, calm horizons.\nConstraints: no readable writing, letters, numbers, captions, logos, brands, flags with symbols, watermark, cartoon or decorative graphics anywhere, including ship hulls and cargo containers. No close-up people, extra prominent ships, steering wheels or toy boats. Preserve the three requested passenger, cargo and ferry contexts in the exact stated top-to-bottom order.",
+    "reviewNotes": "300x525 JPEG reviewed: complete white multi-deck passenger ship, complete container cargo ship, smaller green/white river ferry, correctly ordered on water; centered hulls and masts within panels, daylight ripples and distant shores, no readable hull/container markings or logos visible. Sharp RGB found full-width white seam rows 597 and 1193; recorded measured cuts.",
+    "contexts": [
+      {"id": "ship-passenger", "label": "水上的客船"},
+      {"id": "ship-cargo", "label": "水上的货船"},
+      {"id": "ship-ferry", "label": "水上的渡船"}
+    ]
+  }
+]

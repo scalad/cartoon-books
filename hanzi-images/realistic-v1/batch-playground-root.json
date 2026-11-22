@@ -1,0 +1,14 @@
+[
+  {
+    "id": "root",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-root-realistic-v3_1795321532103_6dc43fab.png",
+    "cuts": [583, 1162],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese root lesson (根), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Roots are the central subject in every panel, with generous crop-safe margins and a clear readable shape.\nTOP — 透明观察盒中土里的根: a real thin transparent acrylic root-observation box standing on a plain wooden surface, filled with dark granular soil, a small green plant growing above the soil; through the front transparent wall clearly see fine pale branching roots growing downward against the soil. Photograph a physical observation box, not an infographic or a floating cutaway. Include the box and plant comfortably in frame; clear acrylic without lettering.\nMIDDLE — 树干旁露出的根: outdoor close photograph of the base of a real mature tree, thick naturally branching woody surface roots extending from beside the trunk across earth, textured bark, small stones and fallen leaves; show connected trunk base and exposed roots, not detached wood.\nBOTTOM — 水培植物水中的根: a small living green houseplant in a plain transparent glass jar of clear water on a wooden table, a tangle of fine cream-colored roots visibly submerged in the water beneath the stem; the jar, waterline and underwater roots fully visible, leaves above water, no soil in this panel.\nStyle: photorealistic AI-generated botanical photography, real bark, granular soil, glass reflections and fine root texture, natural daylight, coherent plant structure and physics. Each panel is a separate scene. No people, no arrows, no diagram, no text, no letters, no Chinese characters, no logos, no watermark, no cartoon, no illustration, no glossy CGI.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows branching pale roots against soil inside a clear observation box with a plant above; middle shows exposed woody roots connected to a tree trunk base; bottom shows cream roots submerged in a clear water-filled glass jar beneath green foliage. Root subjects are readable in separate photorealistic scenes; no visible text or watermark at preview scale. Raw RGB rows measured white seam spans 578–587 and 1157–1166, rounded centers 583 and 1162, rather than assuming equal thirds. AI-generated imagery.",
+    "contexts": [
+      {"id": "root-soil", "label": "透明观察盒中土里的根"},
+      {"id": "root-tree", "label": "树干旁露出的根"},
+      {"id": "root-water", "label": "水培植物水中的根"}
+    ]
+  }
+]

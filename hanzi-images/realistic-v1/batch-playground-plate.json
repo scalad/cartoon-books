@@ -1,0 +1,14 @@
+[
+  {
+    "id": "plate",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-plate-realistic-v3_1795321279323_68b6e37e.png",
+    "cuts": [587, 1165],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 盘 (plate), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels, separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border and no text or labels in the image.\nTop photo — 一只空圆瓷盘: one empty round white porcelain plate on a natural wooden dining table, viewed from a gentle elevated angle so its shallow basin and complete circular rim are unmistakable. Real ceramic glaze and subtle reflections.\nMiddle photo — 一只空长方盘: one empty rectangular ceramic serving plate on a daylight kitchen table, its complete rectangular shallow shape visible, lightly rounded corners, authentic glazed ceramic texture.\nBottom photo — 一只空金属盘: one empty shallow round stainless-steel plate on a neutral kitchen countertop, complete circular rim visible, realistic brushed metal and soft daylight reflections, clearly a plate rather than a bowl.\nStyle and lighting: genuine documentary-quality photography, authentic materials and natural daylight, grounded shadows, uncluttered everyday environments, not CGI or glossy illustration.\nComposition: each plate is wholly inside its own panel, centered with generous clearance from all panel edges and seams, all subjects crop-safe; landscape framing in every panel, simple surroundings, no additional plates.\nConstraints: no food, readable writing, letters, numbers, captions, logos, brands, watermarks, cartoon, illustration, decorative graphics, people or hands. Only the three requested plate contexts, in the exact stated order.",
+    "reviewNotes": "300x525 JPEG reviewed: empty round white porcelain plate, empty rectangular white ceramic plate, empty round metal plate in correct order; complete centered rims, natural daylight and material reflections; no visible text or logos. Raw RGB full-width white seam rows 585–588 and 1163–1166; cuts use seam centers.",
+    "contexts": [
+      {"id": "plate-round", "label": "一只空圆瓷盘"},
+      {"id": "plate-rectangle", "label": "一只空长方盘"},
+      {"id": "plate-metal", "label": "一只空金属盘"}
+    ]
+  }
+]

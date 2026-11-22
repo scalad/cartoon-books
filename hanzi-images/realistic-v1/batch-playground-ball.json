@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ball",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-ball-realistic-v3_1795321491313_124a637c.png",
+    "cuts": [591, 1173],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 球 (ball), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 一只足球: one ordinary spherical black-and-white soccer ball resting on short outdoor grass, authentic stitched pentagonal and hexagonal leather panels, complete round silhouette.\nMiddle photo — 一只篮球: one ordinary spherical orange basketball resting on an outdoor sports-court surface, real pebbled rubber texture and dark curved channel lines, complete round silhouette, no printed markings.\nBottom photo — 一只软布球: one round soft cloth toy ball resting on a neutral wooden playroom floor, sewn plain muted-color fabric segments with visible stitching and fine textile fibers, gently soft stuffed shape, no printed decorations.\nStyle and lighting: genuine documentary-quality photography with natural daylight, authentic material textures, grounded shadows, simple realistic environments, not CGI or illustration.\nComposition: exactly one ball per panel, centered whole sphere with generous space around it and clearance from all panel edges and seams, camera at a low gentle angle, landscape framing, all subjects crop-safe.\nConstraints: no readable writing, letters, numbers, captions, logos, brands, watermarks, cartoons or decorative graphics; no people, hands or extra balls. Preserve the three stated contexts and their exact top-to-bottom order.",
+    "reviewNotes": "300x525 JPEG reviewed: complete soccer ball on grass, orange basketball on outdoor court, and stitched pastel cloth ball on wood floor, correctly ordered and centered; believable leather/rubber/fabric detail and daylight, no visible logos or text. Sharp RGB found full-width white rows 589–592 and 1171–1175; cuts at centers.",
+    "contexts": [
+      {"id": "ball-football", "label": "一只足球"},
+      {"id": "ball-basketball", "label": "一只篮球"},
+      {"id": "ball-cloth", "label": "一只软布球"}
+    ]
+  }
+]

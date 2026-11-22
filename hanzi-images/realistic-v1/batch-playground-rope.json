@@ -1,0 +1,14 @@
+[
+  {
+    "id": "rope",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-rope-realistic-v3_1795321368631_b470e839.png",
+    "cuts": [593, 1139],
+    "prompt": "Use case: realistic photographic context assets for the Chinese character 绳, meaning rope, in a children's Hanzi learning project.\nPrimary request: one 1024x1792 vertical triptych with exactly three independent horizontal landscape photographs stacked in equal-height panels, divided by two thin straight pure-white horizontal seams. No text.\nTop photograph — exact context 盘好的棉绳: a single neatly coiled natural off-white cotton rope lying flat on a light wooden tabletop. Show the complete round coil and its two loose ends, soft twisted cotton fibers and slight natural fuzz, photographed from above at a gentle angle.\nMiddle photograph — exact context 盘好的编织绳: a single neatly coiled braided rope lying flat on a neutral stone tabletop. Its interwoven braid pattern is distinctly visible and different from the twisted cotton rope above; show the complete coil and loose ends. Use a subdued blue woven rope with realistic matte fibers, not a hose or cable.\nBottom photograph — exact context 平放的跳绳: one complete skipping rope laid flat in a broad open U shape on a clean light wooden floor, with both plain wooden handles fully visible side by side and the entire flexible rope arc visible. No person using it, no movement, no rope dangling or crossing another panel.\nStyle and light: photorealistic camera photographs, natural soft window daylight and realistic contact shadows, tactile cotton twists, detailed woven fibers and real wooden grain. Each panel is an independent object photograph with its own surface.\nComposition and safety: the full object in every panel is centered and surrounded by generous safe margins, including every rope end and both skipping-rope handles. Ropes lie on surfaces only. No people, animals, tied bodies, bindings, restraints, neck loops, dangerous knots or hanging ropes. No text, captions, labels, Chinese characters, logos, watermark, cartoon, illustration, diagram or decorative border.",
+    "reviewNotes": "Inspected a 300x525 JPEG preview only. Complete off-white twisted cotton coil with loose ends appears above a complete blue braided coil with loose ends; bottom is a flat skipping rope with two wooden handles and a complete arch. Textures and surfaces are photographic. No people, restraints or visible lettering. All objects remain within their panels; braided coil and skipping-rope arch have modest upper clearance. Panel heights are not precisely equal. Actual white seam bands measured from Sharp raw RGB rows are 591–594 and 1138–1140, yielding centers 593 and 1139.",
+    "contexts": [
+      {"id": "rope-cotton", "label": "盘好的棉绳"},
+      {"id": "rope-braided", "label": "盘好的编织绳"},
+      {"id": "rope-jump", "label": "平放的跳绳"}
+    ]
+  }
+]

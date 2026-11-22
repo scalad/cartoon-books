@@ -1,0 +1,14 @@
+[
+  {
+    "id": "soap",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-soap-realistic-v3_1795321559933_4a0f9e3d.png",
+    "cuts": [596, 1193],
+    "prompt": "Use case: realistic photographic context assets for the Chinese character 皂, meaning cleansing bar soap, in a children's Hanzi learning project.\nPrimary request: one 1024x1792 vertical triptych of exactly three independent horizontal landscape photographs stacked in approximately equal-height panels, separated by two thin straight pure-white horizontal seams. No text anywhere.\nTop photograph — exact context 一块方形香皂: a single square bar of plain ivory cleansing soap resting on a simple shallow ceramic soap dish on a clean bathroom counter. Show its clearly square top outline, softly rounded corner edges and solid thickness in a gentle three-quarter view. Entire bar and dish inside the frame.\nMiddle photograph — exact context 一块圆形香皂: a single round pale blue cleansing soap bar on a simple shallow soap dish against a neutral bathroom countertop. Show an unmistakable circular disk-shaped outline and gently rounded edge, with subtle wet sheen and realistic soap texture. Entire round bar visible, not a sphere.\nBottom photograph — exact context 一块椭圆形香皂: a single oval pale sage cleansing soap bar on a plain shallow ceramic soap dish on a clean bathroom surface. Its top outline is clearly elongated elliptical, distinct from the round bar above; show its complete length and thickness.\nStyle and light: photorealistic camera photographs, realistic matte soap surfaces with subtle manufacturing irregularities, a few water droplets on the ceramic dishes, soft natural bathroom daylight and gentle contact shadows. Three separate scenes; no shared objects across panels.\nComposition and safety: every soap bar is complete, centered and surrounded by generous safe margins. Clearly bathroom cleaning objects, not food: no food props, plates of food, sweets, ingestion, hands near mouths, people or children. No embossed letters or marks on the soap, no packaging, typography, labels, captions, Chinese characters, logos, watermark, cartoon, illustration, diagram or decorative border.",
+    "reviewNotes": "Inspected only a 300x525 JPEG preview. Top ivory square bar, middle blue round disk bar and bottom green elongated oval bar are clearly distinct and fully visible in individual ceramic soap dishes. Bathroom surfaces, water droplets and soft realistic shadows are visible. Some incidental background towel and fixture edges are cropped, but the principal soaps and dishes have intact margins. No people, ingestion, food presentation, embossed lettering or visible logos. Sharp raw RGB measurements locate white seam bands at 592–600 and 1189–1196, centers 596 and 1193.",
+    "contexts": [
+      {"id": "soap-square", "label": "一块方形香皂"},
+      {"id": "soap-round", "label": "一块圆形香皂"},
+      {"id": "soap-oval", "label": "一块椭圆形香皂"}
+    ]
+  }
+]

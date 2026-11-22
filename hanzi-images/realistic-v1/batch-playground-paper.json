@@ -1,0 +1,14 @@
+[
+  {
+    "id": "paper",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-paper-realistic-v3_1795321862964_f6dd1197.png",
+    "cuts": [594, 1192],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 纸 (paper), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 平铺的白纸: one completely blank rectangular sheet of white paper laid flat on a natural wooden table, all four corners and thin edges visible, subtle real paper fibers and a delicate edge shadow, gentle elevated viewpoint.\nMiddle photo — 平铺的彩纸: a small slightly offset fan of plain blank colored craft-paper sheets laid flat on a natural wooden table, muted red, yellow, green and blue sheets with visible individual thin edges, all sheets wholly within the panel, realistic matte paper, not fabric or plastic.\nBottom photo — 平铺的牛皮纸: one completely blank rectangular sheet of brown kraft paper laid flat on a natural wooden table, all four corners visible, genuine warm brown fibrous texture and fine edge shadow, no folds or wrapping.\nStyle and lighting: genuine documentary-quality close-up photography, authentic thin paper texture and wood grain, soft natural window daylight and realistic shadows, uncluttered tabletop backgrounds, not CGI or illustration.\nComposition: each paper arrangement centered and wholly contained within its own landscape panel, generous margin beyond all corners and clearance from the white seams, camera at an elevated gentle angle, all subjects crop-safe.\nConstraints: every paper surface blank, no readable writing, letters, numbers, captions, logos, brands, watermarks, cartoon, printed designs, decorative graphics, scissors, pens, people or hands. Paper must be flat, not crumpled or folded. Preserve the exact requested top-to-bottom context order.",
+    "reviewNotes": "300x525 JPEG reviewed: flat blank white sheet, offset red/yellow/green/blue paper sheets, flat brown kraft sheet, correctly ordered; visible whole outlines and thin edge shadows on wood, no folds, writing or logos. Sharp RGB measured full-width white seam rows 592–596 and 1190–1194; cuts at centers.",
+    "contexts": [
+      {"id": "paper-white", "label": "平铺的白纸"},
+      {"id": "paper-colour", "label": "平铺的彩纸"},
+      {"id": "paper-kraft", "label": "平铺的牛皮纸"}
+    ]
+  }
+]

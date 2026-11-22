@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tree",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-tree-realistic-v3_1795321425228_2ee3bc6c.png",
+    "cuts": [596, 1199],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese tree lesson (树), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych of three independent horizontal landscape camera photographs stacked vertically, separated by two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Center the main tree in each panel and keep the whole tree silhouette, crown and trunk inside generous crop-safe margins.\nTOP — 枝叶繁茂的阔叶树: a single mature broadleaf tree in a grassy clearing, clearly visible woody trunk, spreading branches and a lush full crown of green broad leaves, summer daylight.\nMIDDLE — 长着针叶的树: a single evergreen conifer in an open grassy clearing, upright woody trunk and branches covered with visibly fine green needles, characteristic conical crown; natural daylight and realistic tree proportions.\nBOTTOM — 冬天落叶后的树: a single deciduous tree after losing its leaves in winter, bare branching crown and woody trunk fully visible above quiet winter grass, soft winter daylight; no leaves and no blossoms on this tree.\nStyle: photorealistic AI-generated outdoor photography with true bark grain, grass and leaf textures, natural colors and coherent botanical structure. Three separate scenes, not a continuous landscape. No people, no text, no labels, no letters, no Chinese characters, no brands, no watermark, no cartoon, no illustration, no plastic or CGI appearance.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows a full green broadleaf tree, middle a centered conical evergreen conifer, bottom a bare deciduous tree on snowy winter ground. Main silhouettes and trunks are visible inside each independent panel. No visible text or watermark at preview scale. Raw RGB rows measured white seam spans at 592–600 and 1195–1203, centers 596 and 1199. These are photorealistic AI-generated scenes.",
+    "contexts": [
+      {"id": "tree-broadleaf", "label": "枝叶繁茂的阔叶树"},
+      {"id": "tree-conifer", "label": "长着针叶的树"},
+      {"id": "tree-bare", "label": "冬天落叶后的树"}
+    ]
+  }
+]

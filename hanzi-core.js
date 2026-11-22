@@ -95,6 +95,15 @@
     };
   }
 
+  function playValue(value) {
+    if (!object(value) || !integer(value.stage, 0, 3) || !integer(value.selected, -1, 5) ||
+        !Array.isArray(value.done) || value.done.length > 6 ||
+        new Set(value.done).size !== value.done.length || !value.done.every(index => integer(index, 0, 5))) {
+      return { stage: 0, done: [], selected: -1 };
+    }
+    return { stage: value.stage, done: value.done.slice(), selected: value.selected };
+  }
+
   function draftValue(value, ids, completed) {
     if (!object(value) || !ids.has(value.lessonId) || !['lesson', 'review'].includes(value.mode) ||
         (value.mode === 'review' && !own(completed, value.lessonId)) ||
@@ -113,7 +122,8 @@
       lessonId: value.lessonId, mode: value.mode, step: value.step, contextIndex: value.contextIndex,
       choices: value.choices.slice(), hintLevel: value.hintLevel, wrongCount: value.wrongCount,
       firstRecorded: value.firstRecorded, answered: value.answered, feedback, audioReady: false,
-      assisted: value.assisted || value.hintLevel > 0 || value.wrongCount > 0
+      assisted: value.assisted || value.hintLevel > 0 || value.wrongCount > 0,
+      ...(value.play !== undefined ? { play: playValue(value.play) } : {})
     };
   }
 

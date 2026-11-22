@@ -1,0 +1,14 @@
+[
+  {
+    "id": "seed",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-seed-realistic-v3_1795321753642_9087b237.png",
+    "cuts": [595, 1193],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese seed lesson (种, meaning seeds), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape still-life camera photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Each panel shows a plain shallow unmarked tray on a simple wooden table, seeds centered with generous crop-safe margins. Slightly overhead camera angle makes the seeds and tray clearly visible.\nTOP — 托盘里的豆种子: a small loose cluster of intact dry bean seeds in a shallow neutral tray, recognizable plump oval kidney-bean shapes, naturally smooth brown and cream seed coats with visible small hila. Ungerminated seeds only, no shoots, no pods, no leaves.\nMIDDLE — 托盘里的向日葵种子: a small loose cluster of intact dry sunflower seeds in a shallow neutral tray, elongated tapered black-gray shells with characteristic pale longitudinal stripes, crisp natural shell texture; no hulled kernels, no flowers, no sprouts.\nBOTTOM — 托盘里的南瓜种子: a small loose cluster of intact dry pumpkin seeds in a shallow neutral tray, flat oval ivory-colored shells with slightly raised rims, clearly broader and flatter than sunflower seeds; no pumpkin fruit, no sprouts.\nStyle: photorealistic AI-generated tabletop photography, natural soft window daylight, true seed-coat textures and wood grain, accurate relative shapes, calm uncluttered backgrounds. All three trays must be physically plausible separate scenes, not diagrammatic cutouts. No people, no text, no letters, no Chinese characters, no labels, no numbers, no brands, no watermark, no cartoon, no illustration, no glossy CGI.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows plump mixed brown/cream bean seeds, middle shows elongated striped sunflower shells, bottom shows flat ivory pumpkin seeds, each on a separate shallow neutral ceramic tray on wood. Seed clusters are centered and visibly ungerminated. No visible text or watermark at preview scale. Raw RGB rows measured white seam spans 589–600 and 1188–1198, rounded centers 595 and 1193. Photorealistic AI-generated still-life scenes.",
+    "contexts": [
+      {"id": "seed-bean", "label": "托盘里的豆种子"},
+      {"id": "seed-sunflower", "label": "托盘里的向日葵种子"},
+      {"id": "seed-pumpkin", "label": "托盘里的南瓜种子"}
+    ]
+  }
+]

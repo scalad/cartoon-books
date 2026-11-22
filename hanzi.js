@@ -1,7 +1,8 @@
 'use strict';
 (() => {
-    const C = window.HanziCore, lessons = window.HanziLessons, art = window.HanziArt;
-    const chapters = Array.from(new Set(lessons.map(lesson => lesson.region)), name => ({name, lessons:lessons.filter(lesson => lesson.region === name)}));
+    const C = window.HanziCore, lessons = window.HanziLessons, art = window.HanziArt, play = window.HanziPlay;
+    const categories = ['自然探索','花园种植','动物朋友','身体感官','温暖的家','美味厨房','出行交通','海边发现','创作工坊','社区游玩'];
+    let sceneFilter = 'all', gameFilter = 'all', search = '';
     const $ = id => document.getElementById(id);
     const esc = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     const speaker = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4ZM17 8q5 4 0 8m3-11q8 7 0 14" stroke-linejoin="round" stroke-linecap="round"/></svg>';
@@ -103,15 +104,27 @@
         else { page = 'map'; renderMap(); }
     }
     function renderMap() {
-        const next = C.nextLesson(data, lessons), draft = data.draft, due = draft ? [] : C.dueReviews(data, lessons);
+        const due = data.draft ? [] : C.dueReviews(data, lessons);
         const total = Object.keys(data.completed).length;
-        const atlas = chapters.map((item,index) => `<section class="chapter-section" aria-labelledby="chapter-${index}"><header class="chapter-head"><span class="eyebrow">Chapter ${String(index+1).padStart(2,'0')}</span><h3 id="chapter-${index}">${esc(item.name)}</h3><span class="chapter-progress">${item.lessons.filter(lesson => data.completed[lesson.id]).length} / ${item.lessons.length}</span></header><div class="tale-grid">${item.lessons.map(lesson => {
-            const completed = !!data.completed[lesson.id], paused = draft?.lessonId === lesson.id, isNext = next?.id === lesson.id, status = paused ? '继续上次的故事' : completed ? '重温故事' : isNext ? '可以出发' : '完成前面的故事后开启';
-            return `<button class="tale-card ${isNext || paused ? 'current' : ''} ${completed ? 'done' : ''}" data-action="${paused ? 'resume' : 'start'}" data-id="${lesson.id}" ${completed || isNext || paused ? '' : 'disabled'} aria-label="${esc(lesson.title)}，${status}"><span class="tale-photo">${art.icon(lesson.id)}<span class="tale-char" aria-hidden="true">${lesson.char}</span></span><span class="tale-info"><span class="tale-number">${String(lessons.indexOf(lesson)+1).padStart(2,'0')}</span><span class="tale-title">${esc(lesson.title)}</span><span class="tale-status">${paused ? '继续上次 →' : completed ? '✓ 重温' : isNext ? '可以出发 →' : '待开启'}</span></span></button>`;
-        }).join('')}</div></section>`).join('');
-        $('app').innerHTML = `<section class="welcome"><div><div class="eyebrow">Little words, wonderful adventures</div><h1>在故事里，遇见汉字</h1><p>和森林伙伴一起出发，让每一个字都有自己的故事。</p></div><div class="welcome-note"><span class="note-icon" aria-hidden="true">木</span><span>今天也不着急<br>一次认识一个新朋友</span></div></section>
-            <section class="story-atlas" aria-labelledby="atlas-title"><div class="atlas-heading"><div><h2 id="atlas-title">小岛的故事地图</h2><p>${chapters.length} 个主题 · ${lessons.length} 段奇遇，每段故事都有自己的风景</p></div><span class="atlas-progress">${total} / ${lessons.length} 段故事已收入口袋</span></div>${atlas}</section>
+        $('app').innerHTML = `<section class="welcome"><div><div class="eyebrow">A little playground for words</div><h1>动手玩，让汉字有用起来</h1><p>接一桶水、搭一座桥、把小舟送到岸边。喜欢哪件事，就从哪件事开始。</p></div><button class="scrapbook-link" data-action="collection"><span class="note-icon" aria-hidden="true">册</span><span>场景纪念册<br>${total} 段故事的回忆 →</span></button></section>
+            <section class="story-atlas" aria-labelledby="atlas-title"><div class="atlas-heading"><div><h2 id="atlas-title">今天想怎么玩？</h2><p>${categories.length} 类生活场景 · ${Object.keys(play.labels).length} 种玩法 · ${lessons.length} 段故事，不用按顺序</p></div><span class="atlas-progress">写实AI配图 · 无倒计时</span></div>
+            <div class="playground-filters"><div class="filter-label" id="scene-label">按生活场景</div><div class="scene-filters" role="group" aria-labelledby="scene-label">${[['all','全部场景'],...categories.map(name => [name,name])].map(([value,label]) => `<button class="scene-filter" data-action="filter-scene" data-value="${value}" aria-pressed="${sceneFilter === value}">${label}<span>${value === 'all' ? lessons.length : lessons.filter(lesson => lesson.sceneCategory === value).length}</span></button>`).join('')}</div><div class="filter-toolbar"><label for="game-filter">想玩什么<select id="game-filter"><option value="all">全部玩法</option>${Object.entries(play.labels).map(([value,label]) => `<option value="${value}" ${gameFilter === value ? 'selected' : ''}>${label}</option>`).join('')}</select></label><label class="story-search" for="story-search">找汉字或故事<input id="story-search" type="search" placeholder="如：水、木桥、猫" value="${esc(search)}" autocomplete="off"></label><button class="filter-reset" data-action="filter-reset">看全部故事</button></div><p id="filter-summary" class="filter-summary" role="status" aria-live="polite"></p></div>
+            <div id="story-grid" class="tale-grid"></div><div id="filter-empty" class="filter-empty" hidden><h3>这里暂时没有这类故事</h3><p>换一种玩法，或看看全部场景吧。</p><button class="soft-button" data-action="filter-reset">显示全部故事</button></div></section>
             ${due.length ? `<section class="review-strip"><span class="review-count">${due.length}</span><div><strong>老朋友寄来了一张新图卡</strong><p>今天只安排一小组复习，落下的不用一次补完。</p></div><button class="soft-button" data-action="review" data-id="${due[0].id}">打开图卡 →</button></section>` : ''}`;
+        renderTales();
+    }
+    function renderTales() {
+        const visible = lessons.filter(lesson => (sceneFilter === 'all' || lesson.sceneCategory === sceneFilter) &&
+            (gameFilter === 'all' || lesson.game.type === gameFilter) &&
+            (!search.trim() || `${lesson.char} ${lesson.title} ${lesson.game.title} ${lesson.sceneCategory}`.includes(search.trim())));
+        $('story-grid').innerHTML = visible.map(lesson => {
+            const completed = !!data.completed[lesson.id], paused = data.draft?.lessonId === lesson.id;
+            const status = paused ? '继续上次的故事' : completed ? '再玩一次' : '开始玩';
+            return `<button class="tale-card ${paused ? 'current' : ''} ${completed ? 'done' : ''}" data-action="${paused ? 'resume' : 'start'}" data-id="${lesson.id}" aria-label="${esc(lesson.title)}，${status}"><span class="tale-photo">${art.icon(lesson.id)}<span class="tale-char" aria-hidden="true">${lesson.char}</span><span class="tale-play-tag">${play.labels[lesson.game.type]}</span></span><span class="tale-info"><span class="tale-title">${esc(lesson.title)}</span><span class="tale-region">${esc(lesson.sceneCategory)}</span><span class="tale-status">${paused ? '继续上次 →' : completed ? '已留纪念 · 再玩 →' : '动手玩 →'}</span></span></button>`;
+        }).join('');
+        $('filter-summary').textContent = `正在看 ${visible.length} / ${lessons.length} 段故事${sceneFilter === 'all' ? ' · 全部场景' : ' · ' + sceneFilter}${gameFilter === 'all' ? '' : ' · ' + play.labels[gameFilter]}`;
+        $('filter-empty').hidden = visible.length > 0;
+        document.querySelectorAll('.scene-filter').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.value === sceneFilter)));
     }
     function openGate(action, consent = false) {
         if (!syncStorage()) return;
@@ -139,17 +152,17 @@
     function start(lessonId, mode = 'lesson') {
         const lesson = byId(lessonId);
         if (!lesson) return;
-        if (mode === 'lesson' && !data.completed[lessonId] && C.nextLesson(data, lessons)?.id !== lessonId) return;
         if (mode === 'review' && !C.dueReviews(data,lessons).some(item => item.id === lessonId)) return;
         ensureConsent(() => {
-            if (data.draft) {
+            if (data.draft?.lessonId === lessonId && data.draft.mode === mode) {
                 navigate('story');
-                if (data.draft.lessonId !== lessonId || data.draft.mode !== mode) notify('先继续上次的故事。完成后再打开其他图卡。');
                 return;
             }
+            if (data.draft && !window.confirm('还有一段未完成的故事。切换后，它需要从头开始；已完成的故事和答题记录会保留。要切换吗？')) return;
+            if (!syncStorage()) return;
             const lastMeaning = data.attempts.filter(a => a.lessonId === lessonId && a.dimension === 'meaning').at(-1);
             const contextIndex = mode === 'review' ? (lastMeaning?.context === lesson.contexts[1].id ? 2 : 1) : 0;
-            data.draft = {lessonId,mode,step:0,contextIndex,choices:C.shuffledChoices(lessonId, mode === 'review' ? lessons.filter(item => item.id === lessonId || lesson.meaningDistractors.includes(item.id)) : lessons),hintLevel:0,wrongCount:0,firstRecorded:false,answered:false,feedback:'',audioReady:false,assisted:false};
+            data.draft = {lessonId,mode,step:0,contextIndex,choices:C.shuffledChoices(lessonId, mode === 'review' ? lessons.filter(item => item.id === lessonId || lesson.meaningDistractors.includes(item.id)) : lessons),hintLevel:0,wrongCount:0,firstRecorded:false,answered:false,feedback:'',audioReady:false,assisted:false,...(mode === 'lesson' ? {play:play.createState()} : {})};
             save();
             navigate('story');
         });
@@ -171,7 +184,7 @@
         if (!data.draft) { page = 'map'; renderMap(); return; }
         const d = data.draft, lesson = byId(d.lessonId), review = d.mode === 'review';
         const count = review ? 3 : 7;
-        const headings = review ? ['换张图，还认得吗','听一听，找一找','老朋友，下次再见'] : ['小伙伴需要你的帮助','先来发现它','它有一个汉字名字','用字牌帮一个忙','故事圆满啦','听一听，找一找','把这段奇遇装进口袋'];
+        const headings = review ? ['换张图，还认得吗','听一听，找一找','老朋友，下次再见'] : [lesson.title,'动手试一试','给新朋友一张汉字牌','用字牌完成委托','留住这次小发现','收起图片，听音找字','一枚场景纪念贴纸'];
         let body = '', controls = '', narration = '';
         const listen = '<button class="listen-button" data-action="narrate">' + speaker + ' 听一听</button>';
         const assessment = review ? d.step < 2 : d.step === 5;
@@ -192,9 +205,16 @@
             narration = `${lesson.partner}说：${lesson.mission}`;
             controls = '<button class="primary" data-action="next">好呀，我们一起去 →</button>';
         } else if (!review && d.step === 1) {
-            body = `<div class="story-scene">${art.scene(lesson.id, d.answered ? 1 : 0)}</div><p class="story-copy small">${esc(d.answered ? lesson.actionResult : lesson.meaning)}</p>${listen}`;
-            narration = d.answered ? lesson.actionResult : lesson.meaning;
-            controls = `<button class="primary" data-action="${d.answered ? 'next' : 'interact'}">${d.answered ? '认识它的名字 →' : esc(lesson.actionLabel)}</button>`;
+            if (!d.play) {
+                d.play = play.createState();
+                if (d.answered) {
+                    d.play.stage = ['fill','route'].includes(lesson.game.type) ? 3 : 0;
+                    d.play.done = Array.from({length:lesson.game.type === 'reveal' ? 6 : lesson.game.pieces?.length || 0},(_,i) => i);
+                }
+            }
+            body = play.render(lesson,d.play) + listen + '<p class="evidence-note">动手体验不算独立识字；没有计时，也不需要抢快。</p>';
+            narration = d.answered ? lesson.game.success : lesson.game.instruction;
+            controls = d.answered ? '<button class="primary" data-action="next">带上它的汉字牌 →</button>' : '';
         } else if (!review && d.step === 2) {
             body = `<div class="teaching-pair"><div class="teaching-object">${art.icon(lesson.id)}</div><span class="teaching-arrow" aria-hidden="true">→</span><div><div class="character-tile">${lesson.char}</div><div class="pinyin">${lesson.pinyin}</div></div></div><p class="story-copy">这个字读“${lesson.char}”。</p><p class="story-copy small">${esc(lesson.meaning)}</p>${listen}<p class="evidence-note">图片帮助理解，方框里才是规范汉字。不要求描写。</p>`;
             narration = `这个字读${lesson.char}。${lesson.meaning}`;
@@ -208,11 +228,26 @@
             narration = `${lesson.ending} ${lesson.cloze}`;
             controls = '<button class="primary" data-action="next">把图画收起，试一试 →</button>';
         } else {
-            body = `<div class="reward">${art.icon(lesson.id)}</div><h2>${review ? '见到老朋友，真开心' : esc(lesson.item)}</h2><p class="story-copy small">${review ? '这次见面已经记下。需要提示也没关系，下次换个地方再看看。' : '故事收好了，谢谢你的帮助！今天就到这里，也很棒。'}</p><p class="evidence-note">${review ? '跨日、换场景的独立尝试会单独记录。' : '完成故事不等于学会；隔天会带来一张新图卡。'}</p>`;
-            controls = '<button class="primary" data-action="finish">回到小岛</button><button class="secondary" data-action="finish-collection">看看故事口袋</button>';
+            body = `<div class="reward sticker-photo">${art.icon(lesson.id)}<span class="sticker-character">${lesson.char}</span></div><h2>${review ? '见到老朋友，真开心' : esc(lesson.item)}</h2><p class="story-copy small">${review ? '这次见面已经记下。需要提示也没关系，下次换个地方再看看。' : '故事收好了，谢谢你的帮助！今天就到这里，也很棒。'}</p><p class="evidence-note">${review ? '跨日、换场景的独立尝试会单独记录。' : '完成故事不等于学会；隔天会带来一张新图卡。'}</p>`;
+            controls = '<button class="primary" data-action="finish">回到游乐场</button><button class="secondary" data-action="finish-collection">打开场景纪念册</button>';
         }
-        $('app').innerHTML = `<div class="story-top"><button class="back-button" data-action="pause">← 稍后继续</button><div class="story-steps" aria-label="第 ${d.step+1} 步，共 ${count} 步">${Array.from({length:count},(_,i)=>`<span class="${i <= d.step ? 'done' : ''}"></span>`).join('')}</div><span class="step-count">${d.step+1} / ${count}</span></div><section class="story-card"><div class="eyebrow">${review ? '老朋友的新图卡' : assessment ? '不着急，试试看' : esc(lesson.region) + ' · 小小奇遇'}</div><h1>${headings[d.step]}</h1>${body}<div class="feedback" role="status" aria-live="polite">${esc(d.feedback)}</div><div class="story-controls">${controls}</div>${assessment ? '<p class="evidence-note">这是一次尝试，不是考试。需要帮助就说出来。</p>' : ''}</section>`;
+        $('app').innerHTML = `<div class="story-top"><button class="back-button" data-action="pause">← 稍后继续</button><div class="story-steps" aria-label="第 ${d.step+1} 步，共 ${count} 步">${Array.from({length:count},(_,i)=>`<span class="${i <= d.step ? 'done' : ''}"></span>`).join('')}</div><span class="step-count">${d.step+1} / ${count}</span></div><section class="story-card"><div class="eyebrow">${review ? '老朋友的新图卡' : assessment ? '不着急，试试看' : esc(lesson.sceneCategory) + ' · ' + play.labels[lesson.game.type]}</div><h1>${headings[d.step]}</h1>${body}<div class="feedback" role="status" aria-live="polite">${esc(d.feedback)}</div><div class="story-controls">${controls}</div>${assessment ? '<p class="evidence-note">这是一次尝试，不是考试。需要帮助就说出来。</p>' : ''}</section>`;
         $('app').dataset.narration = narration;
+    }
+    function handlePlay(action, index, target) {
+        const d = data.draft;
+        if (!d || d.mode !== 'lesson' || d.step !== 1 || !syncStorage()) return;
+        const lesson = byId(d.lessonId);
+        const result = play.reduce(lesson.game,d.play || play.createState(),action,index,target);
+        if (!result.changed && !result.feedback) return;
+        d.play = result.state;
+        d.answered = play.isComplete(lesson.game,d.play);
+        d.feedback = result.feedback;
+        if (!save()) return;
+        renderStory();
+        const next = action === 'pick' ? document.querySelector('[data-play-target]') :
+            d.answered ? document.querySelector('[data-action="next"]') : document.querySelector('.playground-game button:not(:disabled)');
+        next?.focus({preventScroll:true});
     }
     function playQuestion() {
         const d = data.draft;
@@ -292,7 +327,7 @@
     }
     function renderCollection() {
         const completed = lessons.filter(lesson => data.completed[lesson.id]);
-        $('app').innerHTML = `<section class="welcome"><div><div class="eyebrow">A pocket full of stories</div><h1>我的故事口袋</h1><p>收藏的是和小伙伴一起做过的事，想念时，就再听一遍。</p></div><div class="welcome-note">${completed.length} 段小小奇遇</div></section>${completed.length ? `<div class="collection-grid">${completed.map(lesson => `<article class="collection-item"><div class="collect-art">${art.icon(lesson.id)}</div><h3>${esc(lesson.item)}</h3><p>${esc(lesson.title)} · ${data.completed[lesson.id].firstDate}</p><button class="soft-button" data-action="start" data-id="${lesson.id}">再听这个故事</button></article>`).join('')}</div>` : '<div class="empty-state"><h2>第一段故事，等你来装进口袋</h2><p>小鹿的水杯还是空的，一起去帮帮它吧。</p><button class="primary" data-action="map">回到奇遇地图 →</button></div>'}`;
+        $('app').innerHTML = `<section class="welcome"><div><div class="eyebrow">Memories, not a scoreboard</div><h1>我的场景纪念册</h1><p>留住一起做过的事。以前收好的故事也都在这里，不用重玩。</p></div><button class="secondary" data-action="map">回去挑一件事 →</button></section><p class="scrapbook-note">${completed.length} 枚故事纪念贴纸 · 不是识字量，也不等于已经掌握。</p>${completed.length ? categories.filter(category => completed.some(lesson => lesson.sceneCategory === category)).map(category => `<section class="scrapbook-category"><h2>${category}<span>${completed.filter(lesson => lesson.sceneCategory === category).length} 枚纪念</span></h2><div class="collection-grid">${completed.filter(lesson => lesson.sceneCategory === category).map(lesson => `<article class="collection-item"><div class="collect-art sticker-photo">${art.icon(lesson.id)}<span class="sticker-character">${lesson.char}</span></div><h3>${esc(lesson.item)}</h3><p>${esc(lesson.title)} · ${data.completed[lesson.id].firstDate}</p><button class="soft-button" data-action="start" data-id="${lesson.id}">再玩这个故事</button></article>`).join('')}</div></section>`).join('') : '<div class="empty-state"><h2>第一枚纪念贴纸，等你来发现</h2><p>挑一件喜欢的小任务，完成后把回忆留在这里。</p><button class="primary" data-action="map">去互动游乐场 →</button></div>'}`;
     }
     function renderParents() {
         const seen = lessons.filter(l => data.completed[l.id] || data.attempts.some(a => a.lessonId === l.id));
@@ -305,7 +340,7 @@
                 const item = C.evidenceFor(data,lesson.id,key), last = item.last;
                 return `<div class="dimension"><strong>${label}</strong><span class="status-label ${item.status}">${item.label}</span><p>${last ? `${last.date} · ${last.source === 'parent' ? '家长观察' : '互动记录'}<br>${last.hintLevel ? '有提示 / 有帮助' : '无提示'} · ${last.correct ? '首答正确' : '尚未独立完成'}` : '暂无证据，不作推断'}${item.independentCount ? `<br>${item.dates.length} 个日期 / ${item.contexts.length} 种情境独立成功` : ''}</p></div>`;
             }).join('')}</div><p class="home-tip">家庭共读建议：${esc(lesson.homeTip)}</p><form class="parent-observation" data-lesson="${lesson.id}"><span>无声音、无图片时读“${lesson.char}”</span><select name="context" aria-label="${lesson.char}的观察情境"><option value="parent-card">家中的纯字卡</option><option value="parent-print">其他无配图文字材料</option></select><button class="soft-button" type="submit" name="result" value="yes">独立读出</button><button class="secondary" type="submit" name="result" value="no">需要帮助</button></form><details class="evidence-log"><summary>查看 ${attempts.length} 条具体记录</summary><ul>${attempts.slice(-12).reverse().map(a=>`<li>${a.date} · ${dims.find(([key])=>key===a.dimension)?.[1] || ''} · ${esc(contextLabel(lesson,a.context))} · ${a.firstAnswer ? '首答' : '后续尝试'} · ${a.hintLevel ? `提示等级 ${a.hintLevel}` : '无提示'} · ${a.correct ? '完成' : '未独立完成'} · ${a.source === 'parent' ? '成人观察' : '页面互动'}</li>`).join('')}</ul>${attempts.length > 12 ? '<p>页面显示最近 12 条，导出包含全部记录。</p>' : ''}</details></article>`;
-        }).join('') : '<div class="empty-state"><h2>还没有学习证据</h2><p>体验故事后，这里会分维度展示过程，不会自动宣称“已掌握”。</p></div>'}<div class="data-actions"><button class="secondary" data-action="export">导出本机学习记录</button><button class="danger-button" data-action="delete">删除汉字学习数据</button></div><p class="parent-disclaimer">仅存本机浏览器，不跨设备同步。默认不录音、不采集身份信息、不发送学习记录；仅使用本机离线朗读。删除会同时撤回本机保存同意，不影响绘本和古诗数据。<br>内容版本 2026-11-21 · ${lessons.length} 课均为待教育者审阅的体验稿；复习节奏为次日、第 3 日、第 7 日的初始设计，不是学习效果承诺。</p>`;
+        }).join('') : '<div class="empty-state"><h2>还没有学习证据</h2><p>体验故事后，这里会分维度展示过程，不会自动宣称“已掌握”。</p></div>'}<div class="data-actions"><button class="secondary" data-action="export">导出本机学习记录</button><button class="danger-button" data-action="delete">删除汉字学习数据</button></div><p class="parent-disclaimer">仅存本机浏览器，不跨设备同步。默认不录音、不采集身份信息、不发送学习记录；仅使用本机离线朗读。删除会同时撤回本机保存同意，不影响绘本和古诗数据。<br>内容版本 2026-11-21 / 2026-11-22 · ${lessons.length} 段均为待教育者审阅的体验稿；复习节奏为次日、第 3 日、第 7 日的初始设计，不是学习效果承诺。</p>`;
     }
     function observe(form, result) {
         if (!syncStorage() || !parentAccess || !data.consent) return;
@@ -343,7 +378,9 @@
         else if (action === 'resume') ensureConsent(()=>navigate('story'));
         else if (action === 'pause') navigate('map');
         else if (action === 'next') nextStep();
-        else if (action === 'interact' && data.draft) { data.draft.answered = true; data.draft.feedback = '谢谢你，小伙伴收到你的帮助啦。'; if (!save()) return; renderStory(); speak(byId(data.draft.lessonId).actionResult); }
+        else if (action.startsWith('play-')) handlePlay(action.slice(5),button.dataset.index === undefined ? undefined : Number(button.dataset.index),button.dataset.target === undefined ? undefined : Number(button.dataset.target));
+        else if (action === 'filter-scene' && ['all',...categories].includes(button.dataset.value)) { sceneFilter = button.dataset.value; renderTales(); }
+        else if (action === 'filter-reset') { sceneFilter = 'all'; gameFilter = 'all'; search = ''; renderMap(); document.querySelector('.scene-filter')?.focus({preventScroll:true}); }
         else if (action === 'answer') answer(id);
         else if (action === 'question') playQuestion();
         else if (action === 'help') help();
@@ -356,6 +393,61 @@
         }
         else if (action === 'export') exportData();
         else if (action === 'delete') deleteDialog();
+    });
+    $('app').addEventListener('input',event => {
+        if (event.target.id !== 'story-search') return;
+        search = event.target.value;
+        renderTales();
+    });
+    $('app').addEventListener('change',event => {
+        if (event.target.id !== 'game-filter') return;
+        gameFilter = event.target.value;
+        renderTales();
+    });
+    let dragIndex = null, touchDrag = null;
+    $('app').addEventListener('dragstart',event => {
+        const piece = event.target.closest('[data-play-piece]');
+        if (!piece || piece.disabled) return;
+        dragIndex = Number(piece.dataset.playPiece);
+        event.dataTransfer.setData('text/plain',String(dragIndex));
+        event.dataTransfer.effectAllowed = 'move';
+    });
+    $('app').addEventListener('dragover',event => {
+        if (dragIndex !== null && event.target.closest('[data-play-target]')) event.preventDefault();
+    });
+    $('app').addEventListener('drop',event => {
+        const target = event.target.closest('[data-play-target]');
+        if (dragIndex === null || !target) return;
+        event.preventDefault();
+        const index = dragIndex;
+        dragIndex = null;
+        handlePlay('pick',index);
+        handlePlay('drop',index,Number(target.dataset.playTarget));
+    });
+    $('app').addEventListener('dragend',() => { dragIndex = null; });
+    $('app').addEventListener('pointerdown',event => {
+        if (event.pointerType === 'mouse') return;
+        const piece = event.target.closest('[data-play-piece]');
+        if (!piece || piece.disabled) return;
+        touchDrag = {index:Number(piece.dataset.playPiece),x:event.clientX,y:event.clientY,pointerId:event.pointerId};
+        piece.setPointerCapture(event.pointerId);
+        piece.classList.add('play-touch-held');
+    });
+    $('app').addEventListener('pointerup',event => {
+        if (!touchDrag || touchDrag.pointerId !== event.pointerId) return;
+        const gesture = touchDrag;
+        touchDrag = null;
+        document.querySelector('.play-touch-held')?.classList.remove('play-touch-held');
+        if (Math.hypot(event.clientX - gesture.x,event.clientY - gesture.y) < 10) return;
+        const target = document.elementFromPoint(event.clientX,event.clientY)?.closest('[data-play-target]');
+        if (!target) return;
+        event.preventDefault();
+        handlePlay('pick',gesture.index);
+        handlePlay('drop',gesture.index,Number(target.dataset.playTarget));
+    });
+    $('app').addEventListener('pointercancel',() => {
+        touchDrag = null;
+        document.querySelector('.play-touch-held')?.classList.remove('play-touch-held');
     });
     $('app').addEventListener('submit',event=>{
         if (!event.target.matches('.parent-observation')) return;

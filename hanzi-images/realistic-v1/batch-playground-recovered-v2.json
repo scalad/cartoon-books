@@ -1,0 +1,377 @@
+[
+  {
+    "id": "snow",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-snow-realistic-v2_1795313054192_c661aad6.png",
+    "cuts": [
+      596,
+      1190
+    ],
+    "prompt": "Use case: realistic photographs for a Chinese Hanzi learning playground, concept snow.\nPrimary request: create ONE 1024x1792 source triptych comprising THREE independent horizontal landscape photographs stacked vertically, each approximately 1024x597, separated only by two narrow straight white horizontal gutters around 8 pixels wide. No outer frame.\nTOP photograph: a quiet park lawn covered with fresh natural white snow, low grass tips peeking through, gently rounded snowy ground, leafless shrubs far behind, overcast winter daylight.\nMIDDLE photograph: natural snow accumulated on the sloping tiled roof of a modest countryside house, full readable roof centered with space around it, cold morning light; the roof and its snow are the subject, not the house interior.\nBOTTOM photograph: a real evergreen pine with soft snow resting on its green branches in a winter woodland, recognizable pine needles and branch structure, soft diffused daylight.\nStyle: strictly photorealistic documentary camera photographs, believable scale, real snow crystals and roof and needle textures, natural shadows and colors. Three distinct physical places and camera compositions, no reused background.\nFraming: each panel is its own wide landscape photo; center the subject with generous crop-safe margins, no key object touching a gutter or outside edge. Keep all three scenes separate; never merge them into one tall scene.\nConstraints: no text, letters, numbers, labels, watermark, logo, cartoon, illustration, CGI look, surreal objects, people or anthropomorphic animals.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Snow covering a lawn, a tiled house roof, and a pine branch; no actively falling snow is visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 596, 1190; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "snow-scene0",
+        "label": "草地上积着的雪"
+      },
+      {
+        "id": "snow-scene1",
+        "label": "屋顶上积着的雪"
+      },
+      {
+        "id": "snow-scene2",
+        "label": "松枝上积着的雪"
+      }
+    ]
+  },
+  {
+    "id": "star",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-star-realistic-v2_1795313128949_e011a495.png",
+    "cuts": [
+      597,
+      1194
+    ],
+    "prompt": "Use case: realistic photographs for a Chinese Hanzi learning playground, concept stars.\nPrimary request: create ONE 1024x1792 source triptych comprising THREE independent horizontal landscape photographs stacked vertically, each approximately 1024x597, separated only by two narrow straight white horizontal gutters around 8 pixels wide. No outer frame.\nTOP photograph: clear dark night sky filled with many tiny naturally sized pinpoint stars over a distant rugged mountain ridge, mountains silhouetted below the sky; restrained realistic astrophotography, no oversized star shapes.\nMIDDLE photograph: a starry night sky over a calm lake with dark distant shoreline and very subtle reflections, a different real landscape and viewpoint, tiny natural points of starlight in a dark blue sky.\nBOTTOM photograph: naturally star-filled sky over quiet countryside fields and a low distant farmhouse silhouette, rural horizon in the lower portion, sparse trees, realistic exposure.\nStyle: strictly photorealistic camera astrophotographs, believable celestial scale, restrained brightness and natural dark colors. Three distinct physical places and compositions, no reused background.\nFraming: each panel is its own wide landscape photo with the sky as the central subject and generous crop-safe margins; horizon and foreground remain visible in each. Keep all three scenes separate; never merge into one tall scene.\nConstraints: no surreal oversized stars, no five-point star symbols, no sparkling decorative overlays, no giant moon, no planets, no nebula fantasy, no star trails, no text, letters, numbers, labels, watermark, logo, cartoon, illustration, CGI look, people or anthropomorphic animals.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Star-filled night sky over mountains, a lake, and countryside with trees and a small distant house. Stars are natural-looking light points, not five-point symbols. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 597, 1194; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "star-scene0",
+        "label": "山上方夜空里的星"
+      },
+      {
+        "id": "star-scene1",
+        "label": "湖上方夜空里的星"
+      },
+      {
+        "id": "star-scene2",
+        "label": "乡野上方夜空里的星"
+      }
+    ]
+  },
+  {
+    "id": "ice",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-ice-realistic-v2_1795313215657_9856dfb5.png",
+    "cuts": [
+      580,
+      1171
+    ],
+    "prompt": "Use case: realistic photographs for a Chinese Hanzi learning playground, concept ice.\nPrimary request: create ONE 1024x1792 source triptych comprising THREE independent horizontal landscape photographs stacked vertically, each approximately 1024x597, separated only by two narrow straight white horizontal gutters around 8 pixels wide. No outer frame.\nTOP photograph: several transparent ice cubes in a simple clear glass bowl centered on a plain kitchen table, realistic bubbles, wet surfaces and refraction, the whole bowl visible with space around it, soft window daylight.\nMIDDLE photograph: a shallow outdoor puddle frozen into a thin translucent sheet of ice on an earthy woodland path, faint cracks and trapped leaves, centered puddle and visible surrounding ground, cold winter daylight.\nBOTTOM photograph: a small park pond covered by natural opaque pale ice with subtle darker translucent patches and reeds along its distant bank, wider landscape viewpoint, quiet winter morning. Clearly a frozen pond, no people standing on the ice.\nStyle: strictly photorealistic documentary camera photographs, believable scale and ice textures, natural colors and shadows. Three distinct physical places and compositions, no reused background.\nFraming: each panel is its own wide landscape photo; center the main subject with generous crop-safe margins, no key object touching a gutter or outside edge. Keep all three scenes separate; never merge into one tall scene.\nConstraints: no text, letters, numbers, labels, watermark, logo, cartoon, illustration, CGI look, surreal objects, people or anthropomorphic animals.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Ice cubes in a clear glass bowl, a frozen ground puddle, and a frozen pond. There are no icicles. These are observation scenes, not safe places for walking. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 580, 1171; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "ice-scene0",
+        "label": "玻璃碗里的冰块"
+      },
+      {
+        "id": "ice-scene1",
+        "label": "地面水洼结成的冰"
+      },
+      {
+        "id": "ice-scene2",
+        "label": "池塘水面结成的冰"
+      }
+    ]
+  },
+  {
+    "id": "river",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-river-realistic-v2_1795315301633_6101b2b5.png",
+    "cuts": [
+      597,
+      1194
+    ],
+    "prompt": "Use case: photorealistic picture assets for a children's Hanzi learning project, concept 河 (river), without written language.\nPrimary request: one portrait 1024x1792 PNG containing exactly three independent horizontal landscape photographs stacked vertically, in the exact top-to-bottom order below. Each photograph fills the full width and approximately one third of the height. Separate the photographs with exactly two straight narrow pure-white horizontal seams, about 8 pixels tall, near y=597 and y=1195. No outer white border, no other panels. These are three separate camera views, not one continuous scene.\nTop photograph: a clear gently flowing forest river centered in the frame, winding into the distance between naturally wooded banks, visible rounded river stones beneath shallow water and dense green trees along both sides. The river is the unmistakable main subject.\nMiddle photograph: a flowing river passing beneath a modest old gray stone arch bridge, with the complete stone arch centered across the middle of the image, realistic weathered masonry, water reflections and vegetated riverbanks. Keep a generous band of visible river in the foreground and all important bridge details away from the top and bottom edges.\nBottom photograph: a peaceful countryside river centered as it curves through green farmland, grassy banks and distant low rural hills, broad open water clearly recognizable as a river rather than a path, with natural reflections.\nStyle/medium: genuine-looking landscape photography, photorealistic water, stone, grass, bark and foliage textures, realistic scale and perspective, no painting, illustration, CGI or cartoon.\nComposition/framing: each panel is a self-contained wide landscape photograph viewed from a riverbank with natural perspective. Center the important river and bridge subjects, with crop-safe margins on all four sides of each panel; keep essential subject details inside the central 80 percent of each panel. The three panels must remain visually independent and in the requested order.\nLighting/mood: believable soft daylight, natural greens and water colors, gentle realistic shadows, welcoming and calm, no artificial glow or oversaturated fantasy colors.\nConstraints: exactly three photographs and exactly two narrow white horizontal seams. No people, no text, no characters or captions, no logos, no watermark, no frame, no diagram, no cartoon.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). A flowing forest river, a river beneath a stone arch bridge, and a river between fields. No city skyline or marked safe walking route is shown. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 597, 1194; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "river-scene0",
+        "label": "山林里流动的河"
+      },
+      {
+        "id": "river-scene1",
+        "label": "石拱桥下流动的河"
+      },
+      {
+        "id": "river-scene2",
+        "label": "田野间流动的河"
+      }
+    ]
+  },
+  {
+    "id": "chicken",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-chicken-realistic-v2_1795313057443_5bb2c975.png",
+    "cuts": [
+      565,
+      1154
+    ],
+    "prompt": "Use case: realistic photographs for a children's Hanzi learning playground.\nCreate one photorealistic 1024x1792 vertical triptych: exactly THREE separate horizontal photographs stacked top to bottom, each about 1024x597, separated only by narrow plain white horizontal gutters. No outer decorative border. Each photo is an independent scene, not one continuous image.\nTop photo: a real hen standing on farm grass.\nMiddle photo: a real rooster standing in a farmyard.\nBottom photo: a real chicken eating grain on the ground.\nComposition: center the main bird in each panel, show its complete body including feet and tail, leave generous margins on every side for independent cropping. Natural farm daylight, authentic feather detail, realistic proportions and grounded shadows. Animals are real, not anthropomorphic.\nConstraints: no text, letters, labels, numerals, watermark, logo, cartoon, illustration, collage within a panel, human clothing on animals, or bizarre anatomy. Only these three requested scenes.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). A brown adult hen standing on grass, a colorful adult rooster standing beside a farm shed, and a white adult hen feeding on scattered grain. No chick appears; beak and feet of the feeding hen remain visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 565, 1154; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "chicken-scene0",
+        "label": "草地上站着的母鸡"
+      },
+      {
+        "id": "chicken-scene1",
+        "label": "农舍旁站着的公鸡"
+      },
+      {
+        "id": "chicken-scene2",
+        "label": "低头觅食的白母鸡"
+      }
+    ]
+  },
+  {
+    "id": "goose",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-goose-realistic-v2_1795313132317_8866f4e1.png",
+    "cuts": [
+      575,
+      1166
+    ],
+    "prompt": "Use case: realistic photographs for a children's Hanzi learning playground.\nCreate one photorealistic 1024x1792 vertical triptych: exactly THREE separate horizontal photographs stacked top to bottom, each about 1024x597, separated only by narrow plain white horizontal gutters. No outer decorative border. Each photo is an independent scene, not one continuous image.\nTop photo: a real white goose standing on grass.\nMiddle photo: a real goose swimming on a lake.\nBottom photo: a real goose standing in a farmyard.\nComposition: center the main goose in each panel, show its complete body and visible feet where standing, leave generous margins on every side for independent cropping. Natural daylight, authentic feather detail, realistic proportions, water reflections and grounded shadows. Animals are real, not anthropomorphic.\nConstraints: no text, letters, labels, numerals, watermark, logo, cartoon, illustration, collage within a panel, human clothing on animals, or bizarre anatomy. Only these three requested scenes.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). White goose standing on grass, white goose swimming in a lake, and white goose standing in a farmyard. No grey goose appears. Whole bodies, necks and feet or waterline are visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 575, 1166; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "goose-scene0",
+        "label": "草地上站着的白鹅"
+      },
+      {
+        "id": "goose-scene1",
+        "label": "湖水里游泳的白鹅"
+      },
+      {
+        "id": "goose-scene2",
+        "label": "院子里站着的白鹅"
+      }
+    ]
+  },
+  {
+    "id": "pig",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-pig-realistic-v2_1795313203764_1b775ad9.png",
+    "cuts": [
+      587,
+      1196
+    ],
+    "prompt": "Use case: realistic photographs for a children's Hanzi learning playground.\nCreate one photorealistic 1024x1792 vertical triptych: exactly THREE separate horizontal photographs stacked top to bottom, each about 1024x597, separated only by narrow plain white horizontal gutters. No outer decorative border. Each photo is an independent scene, not one continuous image.\nTop photo: a real pink pig on safe clean farm bedding.\nMiddle photo: a real spotted pig at a farm.\nBottom photo: a real pig resting comfortably in straw.\nComposition: center the main pig in each panel, show the complete body with realistic legs and snout, leave generous margins on every side for independent cropping. Natural farm daylight, authentic skin and bristle textures, realistic proportions and grounded shadows. Animals are real, not anthropomorphic. Calm clean humane farm environments.\nConstraints: no text, letters, labels, numerals, watermark, logo, cartoon, illustration, collage within a panel, human clothing on animals, injury, or bizarre anatomy. Only these three requested scenes.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Pink pig standing on bedding in a barn, black-and-white spotted pig standing in a farmyard, and pink pig resting on straw. No solid-black pig or resting black pig appears. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 587, 1196; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "pig-scene0",
+        "label": "站着的粉色猪"
+      },
+      {
+        "id": "pig-scene1",
+        "label": "站着的黑白花猪"
+      },
+      {
+        "id": "pig-scene2",
+        "label": "垫草上休息的粉色猪"
+      }
+    ]
+  },
+  {
+    "id": "deer",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-deer-realistic-v2_1795315363863_aa173e42.png",
+    "cuts": [
+      594,
+      1173
+    ],
+    "prompt": "Use case: photorealistic wildlife photo assets for children's Hanzi stories, delivered as one vertical triptych to be cropped into three separate landscape photographs.\nPrimary request: a 1024 x 1792 PNG containing exactly three horizontal landscape photos stacked vertically, in the specified top-to-bottom order. Separate adjacent photos only with two straight, narrow, pure-white horizontal seams approximately 8 pixels high, extending across the whole width. No outer frame, no collage overlap, no extra panels.\nTop photo: one deer standing naturally in a peaceful woodland clearing, trees behind it and ordinary ground vegetation around its hooves.\nMiddle photo: one deer standing naturally on a green meadow, with open grass around it and a distant tree line.\nBottom photo: one deer walking naturally along a woodland trail, all of its body and hooves visible within the scene.\nSubject: a recognizable real deer in each photograph, with natural brown fur texture, anatomically correct slender legs, hooves, ears and head; any antlers must be plausible deer antlers. Calm, ordinary wild-animal behavior; no human interaction.\nStyle/medium: photorealistic wildlife photography, detailed natural fur and foliage, believable daylight, realistic shadows, depth and proportions, not illustration or CGI.\nComposition/framing: each panel is a separate wide landscape photograph. Center the complete deer within its panel, moderate viewing distance, subject occupies no more than about half the panel width and two-thirds of its height. Keep generous safe margins around the entire subject, including ears, antlers if present, legs, hooves and tail. Do not crop any body part at any photo edge or seam.\nConstraints: realistic physical support on the ground and natural animal anatomy. No hunting, weapons, traps, captivity, fences, feeding, touching, approaching, humans or anthropomorphism. No other prominent animals. No text, letters, captions, logos, cartoon styling or watermark.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Antlered deer standing in woodland, an antlerless deer standing in a meadow, and an antlerless deer walking on a woodland path. No grazing or lying deer appears; bodies and hooves are visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 594, 1173; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "deer-scene0",
+        "label": "林间站着的有角鹿"
+      },
+      {
+        "id": "deer-scene1",
+        "label": "草地上站着的无角鹿"
+      },
+      {
+        "id": "deer-scene2",
+        "label": "林间行走的鹿"
+      }
+    ]
+  },
+  {
+    "id": "chair",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-chair-realistic-v2_1795313048798_f0f48386.png",
+    "cuts": [
+      593,
+      1190
+    ],
+    "prompt": "Use case: photorealistic object photographs for a children's Hanzi playground.\nPrimary request: one 1024x1792 vertical triptych containing exactly THREE independent horizontal landscape photos stacked top to bottom, separated only by two narrow 8-pixel pure-white horizontal gutters centered at y=597 and y=1195. Each photo spans the full width and is approximately 1024x597; no outer border, captions, or inset frames.\nTop photo: a single wooden chair standing naturally in a quiet home room, visible wood grain, simple light wall and wood floor.\nMiddle photo: one small wooden classroom chair standing on the floor in a small classroom, quiet classroom background without writing.\nBottom photo: one wooden park chair standing on a paved park path, soft greenery in the background; an individual chair, not a bench.\nStyle: real camera photographs, natural daylight, realistic wood textures, believable perspective, contact shadows and coherent physics.\nComposition: each entire chair centered in its own landscape photo with generous clear crop margin above, below and on both sides; all legs visible, subject occupies no more than 65% of panel height. Three separate scenes, not one tall continuous scene.\nConstraints: NO text, letters, numbers, logos, labels, watermarks, cartoon, illustration or CGI. No people. No objects crossing either white gutter.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Wooden household chair on a home floor, wooden chair in an empty classroom, and wooden folding chair outdoors. No padded chair or brightly colored child chair appears. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 593, 1190; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "chair-scene0",
+        "label": "家中的木椅"
+      },
+      {
+        "id": "chair-scene1",
+        "label": "教室里的木椅"
+      },
+      {
+        "id": "chair-scene2",
+        "label": "户外的木折叠椅"
+      }
+    ]
+  },
+  {
+    "id": "cup",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-cup-realistic-v2_1795313102345_7e651bcf.png",
+    "cuts": [
+      589,
+      1167
+    ],
+    "prompt": "Use case: photorealistic object photographs for a children's Hanzi playground.\nPrimary request: one 1024x1792 vertical triptych containing exactly THREE independent horizontal landscape photos stacked top to bottom, separated only by two narrow 8-pixel pure-white horizontal gutters centered at y=597 and y=1195. Each photo spans the full width and is approximately 1024x597; no outer border, captions, or inset frames.\nTop photo: one empty transparent drinking glass standing on a dining table in a quiet home, clear glass rim and believable refraction.\nMiddle photo: one empty ceramic cup with a handle standing on a desk, its empty interior clearly visible.\nBottom photo: one empty enamel camping cup with a handle standing on an outdoor wooden table, softly blurred camping greenery behind.\nStyle: real camera photographs, natural light, realistic glass, ceramic, enamel and wood textures, believable perspective, contact shadows and coherent physics.\nComposition: each complete cup centered in its own landscape photo, three-quarter slightly elevated viewpoint, generous clear crop margin on every side; entire rim, handle and base visible, subject occupies no more than 65% of panel height. Three separate scenes, not one tall continuous scene.\nConstraints: NO text, letters, numbers, logos, labels, watermarks, cartoon, illustration or CGI. No people, food or liquids. No objects crossing either white gutter.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Empty transparent drinking glass, empty ceramic handled mug, and white enamel camping mug with dark rim. Third cup is enamel, not bare stainless steel. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 589, 1167; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "cup-scene0",
+        "label": "透明玻璃杯"
+      },
+      {
+        "id": "cup-scene1",
+        "label": "有柄的陶瓷杯"
+      },
+      {
+        "id": "cup-scene2",
+        "label": "有柄的搪瓷杯"
+      }
+    ]
+  },
+  {
+    "id": "bowl",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-bowl-realistic-v2_1795313150195_e00633a4.png",
+    "cuts": [
+      584,
+      1193
+    ],
+    "prompt": "Use case: photorealistic object photographs for a children's Hanzi playground.\nPrimary request: one 1024x1792 vertical triptych containing exactly THREE independent horizontal landscape photos stacked top to bottom, separated only by two narrow 8-pixel pure-white horizontal gutters centered at y=597 and y=1195. Each photo spans the full width and is approximately 1024x597; no outer border, captions, or inset frames.\nTop photo: one completely EMPTY ceramic rice bowl standing on a dining table, its clean empty interior visible; a bowl used for rice, but no rice inside.\nMiddle photo: one completely EMPTY wooden bowl standing on a wood table, visible natural grain and empty interior.\nBottom photo: one completely EMPTY clear glass bowl standing on a table, transparent walls, empty interior and believable refraction.\nStyle: real camera photographs, natural daylight, realistic ceramic, wood and glass textures, believable perspective, contact shadows and coherent physics.\nComposition: each complete bowl centered in its own landscape photo, three-quarter elevated viewpoint showing the interior and depth, generous clear crop margin on every side; entire rim and base visible, subject occupies no more than 65% of panel height. Three separate scenes, not one tall continuous scene.\nConstraints: NO text, letters, numbers, logos, labels, watermarks, cartoon, illustration or CGI. No people. All three bowls completely empty, no food or liquid. No objects crossing either white gutter.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Empty blue-and-white ceramic bowl, empty wooden bowl, and empty clear glass bowl. Third bowl is glass, not metal. Complete rims and bowl bodies remain visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 584, 1193; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "bowl-scene0",
+        "label": "一只空瓷碗"
+      },
+      {
+        "id": "bowl-scene1",
+        "label": "一只空木碗"
+      },
+      {
+        "id": "bowl-scene2",
+        "label": "一只空玻璃碗"
+      }
+    ]
+  },
+  {
+    "id": "spoon",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-spoon-realistic-v2_1795315551779_0484d68e.png",
+    "cuts": [
+      594,
+      1196
+    ],
+    "prompt": "Use case: realistic photographic picture cards for a children's Hanzi playground.\nPrimary request: one 1024x1792 vertical triptych containing exactly three separate horizontal landscape photographs, stacked top to bottom in equal-height panels. Two thin straight white horizontal seams separate the panels, near y=597 and y=1195. No outer border.\nTop scene: one stainless-steel spoon resting on plain woven cloth; realistic metal reflections and cloth texture.\nMiddle scene: one wooden spoon resting on a plain table; clearly visible natural wood grain.\nBottom scene: one ceramic soup spoon resting on a plain napkin; recognizable deep ceramic bowl and short curved handle.\nComposition/framing: each spoon is centered in its own landscape scene, viewed from above at a gentle angle, with the complete bowl and handle fully visible. Orient each spoon approximately horizontally and leave generous crop margins on every side. Exactly one spoon per panel, with only the specified cloth, table or napkin beneath it. No additional utensils, food, dishes or people.\nStyle/lighting: photorealistic real-life materials and textures, soft natural daylight, believable shadows, restrained ordinary household photography, not illustration or CGI.\nConstraints: preserve the exact top/middle/bottom order. No writing, letters, numbers, labels, logos, watermarks, cartoon, flames, hot liquids or child cooking.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Complete metal spoon on cloth, wooden spoon on wood, and white ceramic spoon on cloth; concave bowls and handles are visible. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 594, 1196; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "spoon-scene0",
+        "label": "一把金属勺"
+      },
+      {
+        "id": "spoon-scene1",
+        "label": "一把木勺"
+      },
+      {
+        "id": "spoon-scene2",
+        "label": "一把瓷勺"
+      }
+    ]
+  },
+  {
+    "id": "house",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-house-realistic-v2_1795313066224_5b203825.png",
+    "cuts": [
+      592,
+      1203
+    ],
+    "prompt": "Use case: realistic photographs for Hanzi learning stories, subject house.\nPrimary request: one portrait 1024x1792 source triptych with exactly three INDEPENDENT horizontal landscape photographs stacked vertically, each about 1024x597 pixels, separated by two narrow straight white gutters. No shared panorama, no overlapping panels.\nTop photograph: a whole small countryside house, modest tiled roof and natural plaster walls, standing beside a rural path in daylight.\nMiddle photograph: a whole city residential house, realistic brick and concrete exterior, ordinary urban residential setting in daylight.\nBottom photograph: a whole garden house with a small pitched roof, surrounded by garden plants in daylight.\nStyle: photorealistic documentary photography, natural material textures, authentic roof tiles, masonry, wood and foliage, believable proportions and natural light.\nComposition: each complete house is centered within its own landscape panel, with generous space around all rooflines, walls and foundations for cropping. Eye-level exterior views; keep the whole structure visible.\nConstraints: no text, no signs with writing, no logos, no watermark, no cartoon, no fantasy, no illustration, no people. Exactly three distinct photographs with narrow white gutters.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Detached stone cottage, two-story brick detached house, and small green wooden house. No row house or apartment block appears. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 592, 1203; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "house-scene0",
+        "label": "石墙小房"
+      },
+      {
+        "id": "house-scene1",
+        "label": "两层砖房"
+      },
+      {
+        "id": "house-scene2",
+        "label": "木墙小房"
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-school-realistic-v2_1795313140922_444cca80.png",
+    "cuts": [
+      593,
+      1192
+    ],
+    "prompt": "Use case: realistic photographs for Hanzi learning stories, subject school.\nPrimary request: one portrait 1024x1792 source triptych with exactly three INDEPENDENT horizontal landscape photographs stacked vertically, each about 1024x597 pixels, separated by two narrow straight white gutters. No shared panorama, no overlapping panels.\nTop photograph: a welcoming kindergarten entrance with a small building and open low entrance gate, absolutely no sign text or lettering.\nMiddle photograph: a primary school building, complete facade visible with windows and a quiet courtyard, no logo or readable signage.\nBottom photograph: a real school classroom interior with small wooden desks, chairs, windows and a completely blank board; no books or posters with readable text.\nStyle: photorealistic documentary photography, natural plaster, brick, wood, glass and classroom material textures, believable architectural proportions, soft natural daylight.\nComposition: center each school scene in its separate landscape panel, generous crop margins around the entrance, building facade and classroom furniture. Eye-level wide views.\nConstraints: no text or lettering anywhere, no logos, no watermark, no cartoon, no fantasy, no illustration, no people. Exactly three distinct photographs with narrow white gutters.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Open school entrance gate, front of a school teaching building with paved forecourt, and an empty classroom with desks and a blank chalkboard. No playing field appears. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 593, 1192; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "school-scene0",
+        "label": "学校的校门"
+      },
+      {
+        "id": "school-scene1",
+        "label": "学校的教学楼"
+      },
+      {
+        "id": "school-scene2",
+        "label": "学校里的教室"
+      }
+    ]
+  },
+  {
+    "id": "garden",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-garden-realistic-v2_1795313215175_75b1b165.png",
+    "cuts": [
+      588,
+      1196
+    ],
+    "prompt": "Use case: realistic photographs for Hanzi learning stories, subject garden.\nPrimary request: one portrait 1024x1792 source triptych with exactly three INDEPENDENT horizontal landscape photographs stacked vertically, each about 1024x597 pixels, separated by two narrow straight white gutters. No shared panorama, no overlapping panels.\nTop photograph: a public flower garden with colorful flowering beds and a simple walking path, in natural daylight.\nMiddle photograph: a home vegetable garden with small orderly beds of leafy vegetables, visible dark soil and modest wooden edging.\nBottom photograph: a park formal flower garden with symmetrical flower beds and tidy low green hedges around a path.\nStyle: photorealistic documentary photography, natural botanical detail, real petals, leaves, soil and wood textures, believable garden layouts, soft daylight.\nComposition: a centered wide garden view within each separate landscape panel; generous crop margins around the principal beds and pathways, the garden rather than isolated flowers is the subject.\nConstraints: no text, no signs with writing, no logos, no watermark, no cartoon, no fantasy, no illustration, no people. Exactly three distinct photographs with narrow white gutters.",
+    "reviewNotes": "Main reviewer inspected the actual source via a 300-pixel-wide Sharp preview (and full source earlier for snow, star, ice, chair, cup and bowl). Flower garden with walking path, vegetable garden with raised planting beds, and formal landscaped garden with paths and fountain. Middle scene is not an orchard. Photorealistic AI imagery, not verified camera photographs; no readable labels, brands or watermarks visible in the inspected preview. Pixel-measured white seam centers: 588, 1196; crop inset 14 pixels removes the measured gutters, including the wider goose gutters. Individual panels have unequal heights; small preview inspection cannot certify fine-detail anatomy or microscopic text.",
+    "inset": 14,
+    "contexts": [
+      {
+        "id": "garden-scene0",
+        "label": "有花木和步道的花园"
+      },
+      {
+        "id": "garden-scene1",
+        "label": "分畦种菜的菜园"
+      },
+      {
+        "id": "garden-scene2",
+        "label": "有绿地和步道的园子"
+      }
+    ]
+  }
+]

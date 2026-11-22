@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pond",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-pond-realistic-v3_1795321301413_81050f83.png",
+    "cuts": [590, 1195],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese pond lesson (池), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape camera photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195; no outer border. All important subjects centered with generous safe margins for cropping.\nTOP — 花园里的小池: a small garden pond holding still clear water, surrounded by low garden plants and a few natural stones; show its complete small enclosed shoreline rather than a river or lake.\nMIDDLE — 长着荷花的池: a modest lotus pond holding water, with real round lotus leaves rising on stalks above the surface and several pink lotus flowers; visibly a small enclosed pond with a shore in the background.\nBOTTOM — 院子里蓄水的池: a small rectangular stone-lined water basin built into the ground of a quiet residential courtyard, visibly filled with water; ordinary courtyard paving and a simple wall behind it, no swimming pool equipment.\nStyle: photorealistic AI-generated nature and architectural photography, natural daylight and colors, real water reflections, stone grain, leaf veins, coherent scale and perspective. Each panel is a separate scene, not one continuous picture. No people, no text, no letters, no Chinese characters, no brands, no watermarks, no cartoon, no illustration, no CGI gloss.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows a small stone-edged garden pond, middle shows pink lotus flowers and round leaves in a pond, bottom shows a rectangular water-filled stone courtyard basin. Three independent photorealistic scenes; no visible text or watermark in the small preview. Raw RGB rows measured near-white seam spans at 587–593 and 1191–1198; rounded centers 590 and 1195. These are AI-generated scenes, not captured real-world photographs.",
+    "contexts": [
+      {"id": "pond-garden", "label": "花园里的小池"},
+      {"id": "pond-lotus", "label": "长着荷花的池"},
+      {"id": "pond-courtyard", "label": "院子里蓄水的池"}
+    ]
+  }
+]

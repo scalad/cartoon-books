@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cat",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-cat-realistic-v3_1795321958230_716adf6c.png",
+    "cuts": [596, 1193],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese cat lesson (猫), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape camera photographs stacked vertically with two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Each panel contains one ordinary domestic short-haired tabby cat, centered with generous safe margins; keep its whole pose, ears, paws and tail inside the panel.\nTOP — 安静坐着的猫: a calm tabby cat sitting upright on an ordinary indoor floor, both front paws planted together, hindquarters resting, head gently alert, visible whiskers and tail curled naturally beside its body; uncluttered home background, soft window daylight.\nMIDDLE — 蜷起来睡觉的猫: a tabby cat curled into a compact rounded sleeping pose on a simple fabric cushion, eyes closed, head tucked toward its body and tail curved around it; visibly relaxed sleeping posture, real fur and woven cloth texture, soft home daylight.\nBOTTOM — 伸懒腰的猫: a tabby cat doing a natural waking stretch on a home floor, front legs extended forward with paws on the floor, chest lowered, hindquarters raised, long back stretching, tail in a natural position; show the entire cat from side three-quarter view, clearly different from sitting and curled sleeping.\nStyle: photorealistic AI-generated domestic animal photography, natural fur strands, whiskers, coherent feline anatomy with four legs and one tail, true floor and cushion texture, natural colors and gentle daylight. Three separate moments photographed independently, not a continuous panorama. No collars with writing, no costumes, no people, no text, no letters, no Chinese characters, no brands, no watermark, no cartoon, no illustration, no CGI gloss.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows an upright sitting tabby with front paws together and tail beside it; middle shows a curled sleeping tabby with closed eyes on a fabric cushion; bottom shows a full-body stretch with forelegs forward, chest lowered and hindquarters raised. The poses are distinct and safely framed; no visible text or watermark at preview scale. Raw RGB rows measured white seam spans 589–602 and 1186–1200, rounded centers 596 and 1193. Photorealistic AI-generated animal scenes.",
+    "contexts": [
+      {"id": "cat-sitting", "label": "安静坐着的猫"},
+      {"id": "cat-sleeping", "label": "蜷起来睡觉的猫"},
+      {"id": "cat-stretching", "label": "伸懒腰的猫"}
+    ]
+  }
+]

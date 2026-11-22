@@ -1,0 +1,9 @@
+[
+  {
+    "id": "wind",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-wind-realistic-v2_1795312759109_8b1aa7e1.png",
+    "cuts": [592, 1186],
+    "prompt": "Use case: three photographic scene cards for a preschool Chinese word 'wind' (风). Create one photorealistic triptych with THREE equally tall horizontal photographs stacked vertically, separated by clean narrow white horizontal gutters, no other borders. Scene TOP: a willow at the edge of a park with its flexible leafy branches visibly blown gently sideways by wind, safe empty footpath, natural daylight. Scene MIDDLE: a light cotton curtain billowing gently into a room through an open window, no people, no climbing, real woven cloth texture. Scene BOTTOM: a plain unmarked fabric pennant on a park pole stretched sideways in a gentle breeze, green park background, no letters or branding. Each panel is an independent camera photograph with natural colors, real material details, coherent physics and mild breeze (not destructive storm). Landscape framing inside each of the three 1024-wide panels, subject centered with generous crop-safe margins. Wind itself is invisible; show its observable effects. No cartoons, no fantasy creatures, no collage overlay objects, no labels, no Chinese characters, no numbers, no watermark. Make the three separating horizontal boundaries near y=597 and y=1195 pixels.",
+    "reviewNotes": "Source visually inspected: wind-blown willow, billowing cotton curtain and plain blue flag; clean independent scenes, no text, no unsafe storm. Boundaries measured at 592 and 1186. These are photorealistic AI-generated scenes, not photographs captured in the real world."
+  }
+]

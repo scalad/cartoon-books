@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pen",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-pen-realistic-v3_1795321699648_46a1ce7d.png",
+    "cuts": [591, 1168],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 笔 (writing and drawing tools), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 一支铅笔: one sharpened wooden graphite pencil lying gently diagonally on a neutral wooden desk, complete pencil from rear end to sharp graphite point, visible natural hexagonal wood barrel and exposed wood at the tip, completely unbranded and unprinted.\nMiddle photo — 一支水彩笔: one water-based felt-tip coloring marker lying gently diagonally on a clean neutral desk, plain solid-color plastic barrel, cap attached to the back end and its colored felt nib exposed so its identity is clear, exactly one complete marker, no printed markings.\nBottom photo — 一支毛笔: one traditional Chinese calligraphy brush lying gently diagonally on a clean neutral desk, whole slender bamboo handle and tapered natural dark bristle tuft visible, fine realistic bristle fibers, plain unmarked handle, no ink writing or extra brushes.\nStyle and lighting: genuine close-up documentary photography, authentic wood grain, plastic and natural hair textures, soft natural window daylight, grounded shadows, restrained everyday desk backgrounds, not CGI or illustration.\nComposition: each single tool centered with its entire length and both ends well inside its own landscape panel, generous space from panel edges and white seams, gentle elevated camera angle, crop-safe subjects.\nConstraints: no readable writing, letters, numbers, captions, logos, brands, watermarks, cartoon, decorative graphics, people or hands. No drawn or written marks anywhere. Only the three requested tool contexts, in the exact stated top-to-bottom order.",
+    "reviewNotes": "300x525 JPEG reviewed: complete sharpened wood pencil, blue felt-tip marker with cap on rear and exposed nib, and bamboo-handled pointed calligraphy brush, correctly ordered; whole tools lie diagonally on wood with safe margins, no visible text/logos. Full-width white seam rows 589–593 and 1166–1170 measured via Sharp RGB; center cuts recorded.",
+    "contexts": [
+      {"id": "pen-pencil", "label": "一支铅笔"},
+      {"id": "pen-marker", "label": "一支水彩笔"},
+      {"id": "pen-brush", "label": "一支毛笔"}
+    ]
+  }
+]

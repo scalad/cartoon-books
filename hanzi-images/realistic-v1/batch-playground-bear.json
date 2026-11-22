@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bear",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-bear-realistic-v3_1795321305313_39ea5006.png",
+    "cuts": [593, 1188],
+    "prompt": "Use case: photorealistic visual learning asset for the Hanzi 熊; subject ID bear only.\nPrimary request: one vertical 1024x1792 photographic triptych containing exactly three independent horizontal landscape photographs stacked top to bottom, separated by two narrow straight white horizontal seams approximately 8 pixels thick near y=597 and y=1195. No outer border.\nTop photograph: a complete adult brown bear walking naturally across grassy ground in its natural habitat, three-quarter side view, showing thick brown fur, small rounded ears, four sturdy limbs and paws. All of the bear fits comfortably in the frame.\nMiddle photograph: a complete adult brown bear sitting naturally on grassy ground, calm neutral posture, visible small round ears and forepaws, photographed from a safe remote viewpoint.\nBottom photograph: a complete adult brown bear resting naturally on grassy ground, lying comfortably with its head and body clearly visible, not asleep in a human setting.\nComposition/framing: three standalone wide landscape photos in this exact order, each with its bear centered and at least 10 percent safe space on all sides; all paws, ears and body remain inside the panel. Grass and soft distant woodland provide uncluttered natural backgrounds. Each independently cropped panel must clearly show a real brown bear, not a toy.\nStyle/medium: authentic photorealistic wildlife photography, natural individual fur strands, believable animal anatomy and grass texture, gentle natural daylight, true-to-life colors and soft shadows.\nConstraints: natural safe wildlife views from a distant camera; no people, approaching, feeding, handling, bait, captivity props or anthropomorphism. No clothing on animals. Exactly three panels and two white seams. No writing, captions, labels, letters, numbers, logos, cartoon, illustration, watermark or decorative graphics.",
+    "reviewNotes": "Inspected only the 300x525 JPEG preview, never the full original PNG. Top shows a brown bear walking on grass; middle shows a seated brown bear; bottom shows a reclining brown bear resting on grass. Complete visible silhouettes have crop-safe margins, with natural fur, woodland and daylight. No visible people, feeding, anthropomorphism, writing or watermark at preview resolution; fine details are not verified. Sharp raw-pixel measurement of the 1024x1792 source found white seam rows 589–597 and 1184–1191; rounded centers are 593 and 1188. Panels differ slightly in height.",
+    "contexts": [
+      { "id": "bear-walking", "label": "草地上行走的棕熊" },
+      { "id": "bear-sitting", "label": "草地上坐着的棕熊" },
+      { "id": "bear-resting", "label": "草地上休息的棕熊" }
+    ]
+  }
+]

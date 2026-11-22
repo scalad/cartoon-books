@@ -1,0 +1,14 @@
+[
+  {
+    "id": "duck",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-duck-realistic-v3_1795322067858_5b189186.png",
+    "cuts": [588, 1166],
+    "prompt": "Use case: three photorealistic scene cards for the Chinese duck lesson (鸭), matching its existing contexts in exact top-to-bottom order.\nLayout: one 1024x1792 triptych, three independent horizontal landscape camera photographs stacked vertically, separated by two narrow pure-white horizontal seams near y=597 and y=1195, no outer border. Each panel contains one ordinary white domestic duck with a broad flat orange bill and orange webbed feet where visible. Center the whole duck with generous crop-safe margins.\nTOP — 清水里游泳的鸭: a white domestic duck swimming on calm clear pond water, full body and head visible above water, natural small ripples around its floating body and a gentle wake, daylight reflections, pond bank softly blurred in background. Legs naturally below the water, no standing pose.\nMIDDLE — 草地上走路的鸭: a white domestic duck walking across short green grass beside a pond, full body in side three-quarter view, broad flat bill clear, one orange webbed foot planted and the other moving forward in a plausible walking step; both feet visible, no extra legs.\nBOTTOM — 草地上休息的鸭: a white domestic duck resting quietly with its body settled down on short green grass beside a pond, feet tucked underneath its body, relaxed head and broad flat bill still visible; clearly a resting low posture rather than walking or floating.\nStyle: photorealistic AI-generated animal photography, real layered white feather texture, orange bill and webbing texture, natural daylight, coherent duck anatomy and scale, ordinary green grass and true water reflections. Three independent photographs, not a continuous panorama. No other animals, no people, no text, no labels, no letters, no Chinese characters, no brands, no watermark, no cartoon, no illustration, no glossy CGI.",
+    "reviewNotes": "Inspected only the Sharp-resized 300x525 JPEG preview: top shows a white duck afloat in pond water with ripples, middle shows a white duck stepping on grass with two orange feet visible, bottom shows a white duck resting low on grass with feet tucked beneath it. Flat orange bills and the three distinct postures are readable, with complete ducks framed. No visible text or watermark at preview scale. Raw RGB rows measured white seam spans 583–593 and 1161–1171, centers 588 and 1166. Photorealistic AI-generated animal scenes.",
+    "contexts": [
+      {"id": "duck-swimming", "label": "清水里游泳的鸭"},
+      {"id": "duck-walking", "label": "草地上走路的鸭"},
+      {"id": "duck-resting", "label": "草地上休息的鸭"}
+    ]
+  }
+]

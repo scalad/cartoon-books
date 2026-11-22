@@ -1,0 +1,14 @@
+[
+  {
+    "id": "egg",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-egg-realistic-v3_1795321809015_8fd714f4.png",
+    "cuts": [594, 1190],
+    "prompt": "Use case: realistic photographic context assets for the Chinese character 蛋, meaning chicken egg, in a children's Hanzi learning project.\nPrimary request: one 1024x1792 vertical triptych containing exactly three independent horizontal landscape photographs stacked in approximately equal-height panels, separated by two thin straight pure-white horizontal seams. No text anywhere.\nTop photograph — exact context 白壳鸡蛋: one whole white-shelled chicken egg resting horizontally on a plain shallow ceramic dish on a light wooden kitchen table. Its shell is intact, with realistic subtle pores and a clearly recognizable oval egg shape. Show the entire egg and dish, with room around them.\nMiddle photograph — exact context 褐壳鸡蛋: one whole brown-shelled chicken egg resting horizontally on a plain shallow ceramic dish on a neutral kitchen surface. Show its intact warm brown eggshell with natural fine speckles and pores, full oval shape, and realistic soft contact shadow. No painted shell or decorative egg.\nBottom photograph — exact context 剥壳的熟鸡蛋: one whole peeled hard-boiled chicken egg resting on a plain shallow ceramic dish on a light kitchen table. The shell has been completely removed; the opaque white cooked egg has a slightly moist smooth surface and a few subtle peeling irregularities so it looks recognizably different from the dry white shell in the top scene. Keep the cooked egg whole, not sliced, cracked, fried or raw.\nStyle and light: photorealistic camera photographs, natural soft window daylight, realistic eggshell pores, cooked egg-white texture, ceramic finish, wood grain and believable contact shadows. Separate object photographs, not an illustration or a shared scene.\nComposition and safety: keep every complete egg and dish centered inside its own panel with generous safe margins. No people, hands, eating, cooking, burners, knives or raw broken eggs. No text, labels, captions, Chinese characters, logos, watermark, cartoon, diagram or decorative border.",
+    "reviewNotes": "Inspected only a 300x525 JPEG preview. Top shows an intact matte white-shelled egg; middle shows an intact finely speckled brown-shelled egg; bottom shows a whole peeled cooked egg with moist sheen and small peeling irregularities. Eggs and shallow ceramic dishes are fully contained with clear margins. Some peripheral kitchen props are present. No eating, cooking, knives, broken raw eggs, people or visible lettering. Original Sharp raw RGB measurements found white seam bands 592–595 and 1188–1192, centers 594 and 1190.",
+    "contexts": [
+      {"id": "egg-white", "label": "白壳鸡蛋"},
+      {"id": "egg-brown", "label": "褐壳鸡蛋"},
+      {"id": "egg-cooked", "label": "剥壳的熟鸡蛋"}
+    ]
+  }
+]

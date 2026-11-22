@@ -1,0 +1,14 @@
+[
+  {
+    "id": "book",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-book-realistic-v3_1795321597639_03243b47.png",
+    "cuts": [593, 1165],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 书 (book), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border, text or image labels.\nTop photo — 一本合着的绘本: one closed wide hardcover picture-book-format book resting on a natural wooden table, plain solid-color completely blank cover and spine, thick real paper page edges visible, whole rectangular book shown at an elevated three-quarter angle.\nMiddle photo — 一本打开的书: one open real book lying on a wooden reading table, two completely blank cream paper pages spread around a clearly visible central binding, subtle page curvature and layered page edges, no writing or pictures, entire book visible.\nBottom photo — 书架上排着的书: a neat upright row of real books on a wooden bookshelf, all covers and spines completely blank solid muted colors with no printed marks; clear individual bindings, believable page blocks and shelf depth, the complete central row of books inside the frame.\nStyle and lighting: genuine documentary-quality photography, authentic paper fibers, cloth-bound or matte hardcover texture and wood grain, soft natural window daylight, grounded shadows, not CGI or illustration.\nComposition: subjects centered wholly inside their respective landscape panels, generous clearance around the closed and open books and around the central shelf row, crop-safe edges, calm uncluttered real reading environment.\nConstraints: every visible book cover, spine and page blank; no readable writing, letters, numbers, captions, logos, brands, watermarks, cartoon, illustration, decorative cover art, people or hands. Only the requested book contexts in the exact stated top-to-bottom order.",
+    "reviewNotes": "300x525 JPEG reviewed: closed wide sage-green hardcover with blank cover/spine, open book with blank cream pages, upright shelf row with blank colored spines, in order. Complete centered books, real paper and wood texture, daylight; no visible writing or logos. Sharp RGB measured full-width white rows 591–595 and 1164–1165; center cuts recorded.",
+    "contexts": [
+      {"id": "book-closed", "label": "一本合着的绘本"},
+      {"id": "book-open", "label": "一本打开的书"},
+      {"id": "book-shelf", "label": "书架上排着的书"}
+    ]
+  }
+]

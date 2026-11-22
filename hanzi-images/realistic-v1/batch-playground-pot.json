@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pot",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-pot-realistic-v3_1795321396358_e6ff9c8e.png",
+    "cuts": [590, 1158],
+    "prompt": "Use case: photorealistic Hanzi learning photographs for 锅 (cooking pot), three exact existing contexts in order.\nPrimary request: one 1024x1792 vertical triptych made of three independent horizontal landscape photographs stacked top to bottom, equal-height panels separated only by two thin straight white horizontal seams near y=597 and y=1195. No outer border and no text or labels in the image.\nTop photo — 台面上冷却的汤锅: one cooled stainless-steel soup pot resting on a clean kitchen countertop, round deep vessel with two short side handles, open empty interior clearly visible, no heat or steam.\nMiddle photo — 台面上冷却的平底锅: one cooled frying pan resting on a clean kitchen countertop, shallow round flat-bottomed pan with its single long handle entirely visible, authentic matte cooking surface and metal rim, empty and unheated.\nBottom photo — 台面上冷却的蒸锅: one cooled two-tier stainless-steel steamer resting on a clean kitchen countertop, stacked vessel and perforated steaming insert clearly recognizable, open top with the lid resting beside it, complete side handles visible, empty and unheated.\nStyle and lighting: genuine documentary-quality photography, authentic brushed stainless steel and cookware textures, natural window daylight and grounded soft shadows, uncluttered everyday kitchen environments, not CGI or illustration.\nComposition: each complete vessel including every handle and any lid is centered and wholly inside its own panel with generous clearance from panel edges and seams; landscape framing, subjects crop-safe.\nConstraints: all pots cold on countertops, no stove, burners, flames, steam, hot food, cooking actions, children, people or hands. No readable writing, letters, numbers, labels, logos, brands, watermark, cartoon or decorative graphics. Only the three requested cookware contexts, in the exact stated order.",
+    "reviewNotes": "300x525 JPEG reviewed: open soup pot, empty frying pan with long handle, and stacked steamer with perforated insert and separate lid, correctly ordered; complete cookware on daylight countertops, no stove, flame, steam, people or visible writing. Full-width white seam rows 588–591 and 1156–1159 measured with Sharp RGB; cuts at centers.",
+    "contexts": [
+      {"id": "pot-soup", "label": "台面上冷却的汤锅"},
+      {"id": "pot-pan", "label": "台面上冷却的平底锅"},
+      {"id": "pot-steamer", "label": "台面上冷却的蒸锅"}
+    ]
+  }
+]
