@@ -1,0 +1,938 @@
+[
+  {
+    "id": "kitchen-rice-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-01_1795400736485_bde7e803.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear glass storage jar filled with uncooked dry white rice on a clean kitchen pantry counter, its fitted lid closed and the separate individual grains visible through the glass. Wide photographic framing shows the entire jar with generous margins, natural daylight and authentic glass reflections, no cooked rice, people, labels or text.\nPanel 2 (top-to-bottom): A whole small orange pumpkin with a natural short stem resting on a clean flat bamboo mat on a cool kitchen worktop. Its ribbed skin and complete outline are centered in a landscape photograph with soft window light and realistic vegetable texture, no cut pumpkin, knives, people or text.\nPanel 3 (top-to-bottom): Three whole red apples with a few water droplets resting in a clean white perforated colander on a dry kitchen counter, with the sink softly out of focus behind. All apples and the complete colander are clearly visible in a natural daylight landscape photograph, no running water, people, tools or text.\nPanel 4 (top-to-bottom): Two fresh green pea pods gently opened by an adult beforehand and resting on a clean white saucer, with peas still sitting inside the pods. The entire saucer and pods fit within a wide photorealistic kitchen tabletop frame, crisp natural textures and soft daylight, no hands, loose play pieces, sharp tools or text.",
+    "reviewNotes": "Observed top-to-bottom: closed glass jar of individual dry white rice grains; whole ribbed orange pumpkin with stem on bamboo mat; three wet red apples in a white perforated handled colander beside a blurred sink; two opened green pea pods with peas retained on a white saucer. No people, sharp tools, text or steam visible. Final JPEG/contact review confirms the topmost rice-jar lid knob is slightly clipped by the upper crop edge; the rice-filled body and closed lid remain clear. Bamboo mat extends toward the panel edge. Kitchen-rice-01 sceneDescription corrected only for that factual crop caveat; label and game unchanged. Measured crop heights423,428,423,438 at width1008; no upscaling.",
+    "cuts": [
+      443,
+      891,
+      1334
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "kitchen-rice-01-scene0",
+        "label": "密封玻璃罐里的干大米",
+        "image": "hanzi-images/realistic-v1/kitchen-rice-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rice"
+  },
+  {
+    "id": "kitchen-melon-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-01_1795400736485_bde7e803.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear glass storage jar filled with uncooked dry white rice on a clean kitchen pantry counter, its fitted lid closed and the separate individual grains visible through the glass. Wide photographic framing shows the entire jar with generous margins, natural daylight and authentic glass reflections, no cooked rice, people, labels or text.\nPanel 2 (top-to-bottom): A whole small orange pumpkin with a natural short stem resting on a clean flat bamboo mat on a cool kitchen worktop. Its ribbed skin and complete outline are centered in a landscape photograph with soft window light and realistic vegetable texture, no cut pumpkin, knives, people or text.\nPanel 3 (top-to-bottom): Three whole red apples with a few water droplets resting in a clean white perforated colander on a dry kitchen counter, with the sink softly out of focus behind. All apples and the complete colander are clearly visible in a natural daylight landscape photograph, no running water, people, tools or text.\nPanel 4 (top-to-bottom): Two fresh green pea pods gently opened by an adult beforehand and resting on a clean white saucer, with peas still sitting inside the pods. The entire saucer and pods fit within a wide photorealistic kitchen tabletop frame, crisp natural textures and soft daylight, no hands, loose play pieces, sharp tools or text.",
+    "reviewNotes": "Observed top-to-bottom: closed glass jar of individual dry white rice grains; whole ribbed orange pumpkin with stem on bamboo mat; three wet red apples in a white perforated handled colander beside a blurred sink; two opened green pea pods with peas retained on a white saucer. No people, sharp tools, text or steam visible. Final JPEG/contact review confirms the topmost rice-jar lid knob is slightly clipped by the upper crop edge; the rice-filled body and closed lid remain clear. Bamboo mat extends toward the panel edge. Kitchen-rice-01 sceneDescription corrected only for that factual crop caveat; label and game unchanged. Measured crop heights423,428,423,438 at width1008; no upscaling.",
+    "cuts": [
+      443,
+      891,
+      1334
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "kitchen-melon-01-scene0",
+        "label": "厨房竹垫上完整的橙色南瓜",
+        "image": "hanzi-images/realistic-v1/kitchen-melon-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "melon"
+  },
+  {
+    "id": "kitchen-fruit-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-01_1795400736485_bde7e803.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear glass storage jar filled with uncooked dry white rice on a clean kitchen pantry counter, its fitted lid closed and the separate individual grains visible through the glass. Wide photographic framing shows the entire jar with generous margins, natural daylight and authentic glass reflections, no cooked rice, people, labels or text.\nPanel 2 (top-to-bottom): A whole small orange pumpkin with a natural short stem resting on a clean flat bamboo mat on a cool kitchen worktop. Its ribbed skin and complete outline are centered in a landscape photograph with soft window light and realistic vegetable texture, no cut pumpkin, knives, people or text.\nPanel 3 (top-to-bottom): Three whole red apples with a few water droplets resting in a clean white perforated colander on a dry kitchen counter, with the sink softly out of focus behind. All apples and the complete colander are clearly visible in a natural daylight landscape photograph, no running water, people, tools or text.\nPanel 4 (top-to-bottom): Two fresh green pea pods gently opened by an adult beforehand and resting on a clean white saucer, with peas still sitting inside the pods. The entire saucer and pods fit within a wide photorealistic kitchen tabletop frame, crisp natural textures and soft daylight, no hands, loose play pieces, sharp tools or text.",
+    "reviewNotes": "Observed top-to-bottom: closed glass jar of individual dry white rice grains; whole ribbed orange pumpkin with stem on bamboo mat; three wet red apples in a white perforated handled colander beside a blurred sink; two opened green pea pods with peas retained on a white saucer. No people, sharp tools, text or steam visible. Final JPEG/contact review confirms the topmost rice-jar lid knob is slightly clipped by the upper crop edge; the rice-filled body and closed lid remain clear. Bamboo mat extends toward the panel edge. Kitchen-rice-01 sceneDescription corrected only for that factual crop caveat; label and game unchanged. Measured crop heights423,428,423,438 at width1008; no upscaling.",
+    "cuts": [
+      443,
+      891,
+      1334
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 901,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "kitchen-fruit-01-scene0",
+        "label": "洁净沥水篮里的红苹果",
+        "image": "hanzi-images/realistic-v1/kitchen-fruit-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fruit"
+  },
+  {
+    "id": "kitchen-bean-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-01_1795400736485_bde7e803.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear glass storage jar filled with uncooked dry white rice on a clean kitchen pantry counter, its fitted lid closed and the separate individual grains visible through the glass. Wide photographic framing shows the entire jar with generous margins, natural daylight and authentic glass reflections, no cooked rice, people, labels or text.\nPanel 2 (top-to-bottom): A whole small orange pumpkin with a natural short stem resting on a clean flat bamboo mat on a cool kitchen worktop. Its ribbed skin and complete outline are centered in a landscape photograph with soft window light and realistic vegetable texture, no cut pumpkin, knives, people or text.\nPanel 3 (top-to-bottom): Three whole red apples with a few water droplets resting in a clean white perforated colander on a dry kitchen counter, with the sink softly out of focus behind. All apples and the complete colander are clearly visible in a natural daylight landscape photograph, no running water, people, tools or text.\nPanel 4 (top-to-bottom): Two fresh green pea pods gently opened by an adult beforehand and resting on a clean white saucer, with peas still sitting inside the pods. The entire saucer and pods fit within a wide photorealistic kitchen tabletop frame, crisp natural textures and soft daylight, no hands, loose play pieces, sharp tools or text.",
+    "reviewNotes": "Observed top-to-bottom: closed glass jar of individual dry white rice grains; whole ribbed orange pumpkin with stem on bamboo mat; three wet red apples in a white perforated handled colander beside a blurred sink; two opened green pea pods with peas retained on a white saucer. No people, sharp tools, text or steam visible. Final JPEG/contact review confirms the topmost rice-jar lid knob is slightly clipped by the upper crop edge; the rice-filled body and closed lid remain clear. Bamboo mat extends toward the panel edge. Kitchen-rice-01 sceneDescription corrected only for that factual crop caveat; label and game unchanged. Measured crop heights423,428,423,438 at width1008; no upscaling.",
+    "cuts": [
+      443,
+      891,
+      1334
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1344,
+      "width": 1008,
+      "height": 438
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bean-01-scene0",
+        "label": "白碟上打开豆荚里的豌豆",
+        "image": "hanzi-images/realistic-v1/kitchen-bean-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bean"
+  },
+  {
+    "id": "kitchen-noodles-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-02_1795400815106_f3f28b0d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A blue ceramic bowl holding plain cooked wheat noodles that have cooled completely on a clean linen-covered kitchen table. Distinct long noodle strands and the entire bowl rim and base are visible in a close landscape photograph with natural window light, no steam, broth splashes, people, cooking equipment or text.\nPanel 2 (top-to-bottom): A complete empty brushed stainless steel drinking cup without a handle standing upright on a clean blue checked placemat at a kitchen breakfast table. Its open rim, interior and stable base are visible with ample crop-safe margins, realistic metal reflections, no people, liquid, logos or text.\nPanel 3 (top-to-bottom): A single empty white porcelain bowl with a narrow blue rim sitting flat on a clean plain cotton placemat on a kitchen table. The wide opening, curved deep interior and complete foot are visible in a three-quarter landscape photograph, realistic glazed ceramic and soft daylight, no people, food, stacked dishes or text.\nPanel 4 (top-to-bottom): A complete empty oval white porcelain serving plate lying on a beige tablecloth at a tidy kitchen dining table. Its visibly elongated oval rim and shallow interior are clearly shown from a high three-quarter angle, wide photographic framing with natural light, no food, people, utensils or text.",
+    "reviewNotes": "Observed top-to-bottom: long plain noodles in a blue glazed bowl on linen cloth; empty handleless brushed metal drinking cup on blue checked cloth; empty white bowl with a thin blue rim on plain blue cotton; empty elongated oval white plate on beige cloth. All four main vessels are fully visible; the noodle bowl foot has a relatively tight lower margin. No visible people, text, cooking tools or steam. Temperature and wheat composition are source-designated, not visually measurable. Crop heights421,428,430,433 at width1008; no upscaling.",
+    "cuts": [
+      441,
+      889,
+      1339
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "kitchen-noodles-01-scene0",
+        "label": "蓝色瓷碗里已放凉的熟面条",
+        "image": "hanzi-images/realistic-v1/kitchen-noodles-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "noodles"
+  },
+  {
+    "id": "kitchen-cup-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-02_1795400815106_f3f28b0d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A blue ceramic bowl holding plain cooked wheat noodles that have cooled completely on a clean linen-covered kitchen table. Distinct long noodle strands and the entire bowl rim and base are visible in a close landscape photograph with natural window light, no steam, broth splashes, people, cooking equipment or text.\nPanel 2 (top-to-bottom): A complete empty brushed stainless steel drinking cup without a handle standing upright on a clean blue checked placemat at a kitchen breakfast table. Its open rim, interior and stable base are visible with ample crop-safe margins, realistic metal reflections, no people, liquid, logos or text.\nPanel 3 (top-to-bottom): A single empty white porcelain bowl with a narrow blue rim sitting flat on a clean plain cotton placemat on a kitchen table. The wide opening, curved deep interior and complete foot are visible in a three-quarter landscape photograph, realistic glazed ceramic and soft daylight, no people, food, stacked dishes or text.\nPanel 4 (top-to-bottom): A complete empty oval white porcelain serving plate lying on a beige tablecloth at a tidy kitchen dining table. Its visibly elongated oval rim and shallow interior are clearly shown from a high three-quarter angle, wide photographic framing with natural light, no food, people, utensils or text.",
+    "reviewNotes": "Observed top-to-bottom: long plain noodles in a blue glazed bowl on linen cloth; empty handleless brushed metal drinking cup on blue checked cloth; empty white bowl with a thin blue rim on plain blue cotton; empty elongated oval white plate on beige cloth. All four main vessels are fully visible; the noodle bowl foot has a relatively tight lower margin. No visible people, text, cooking tools or steam. Temperature and wheat composition are source-designated, not visually measurable. Crop heights421,428,430,433 at width1008; no upscaling.",
+    "cuts": [
+      441,
+      889,
+      1339
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 451,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "kitchen-cup-01-scene0",
+        "label": "格子餐垫上的空不锈钢杯",
+        "image": "hanzi-images/realistic-v1/kitchen-cup-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cup"
+  },
+  {
+    "id": "kitchen-bowl-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-02_1795400815106_f3f28b0d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A blue ceramic bowl holding plain cooked wheat noodles that have cooled completely on a clean linen-covered kitchen table. Distinct long noodle strands and the entire bowl rim and base are visible in a close landscape photograph with natural window light, no steam, broth splashes, people, cooking equipment or text.\nPanel 2 (top-to-bottom): A complete empty brushed stainless steel drinking cup without a handle standing upright on a clean blue checked placemat at a kitchen breakfast table. Its open rim, interior and stable base are visible with ample crop-safe margins, realistic metal reflections, no people, liquid, logos or text.\nPanel 3 (top-to-bottom): A single empty white porcelain bowl with a narrow blue rim sitting flat on a clean plain cotton placemat on a kitchen table. The wide opening, curved deep interior and complete foot are visible in a three-quarter landscape photograph, realistic glazed ceramic and soft daylight, no people, food, stacked dishes or text.\nPanel 4 (top-to-bottom): A complete empty oval white porcelain serving plate lying on a beige tablecloth at a tidy kitchen dining table. Its visibly elongated oval rim and shallow interior are clearly shown from a high three-quarter angle, wide photographic framing with natural light, no food, people, utensils or text.",
+    "reviewNotes": "Observed top-to-bottom: long plain noodles in a blue glazed bowl on linen cloth; empty handleless brushed metal drinking cup on blue checked cloth; empty white bowl with a thin blue rim on plain blue cotton; empty elongated oval white plate on beige cloth. All four main vessels are fully visible; the noodle bowl foot has a relatively tight lower margin. No visible people, text, cooking tools or steam. Temperature and wheat composition are source-designated, not visually measurable. Crop heights421,428,430,433 at width1008; no upscaling.",
+    "cuts": [
+      441,
+      889,
+      1339
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 899,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bowl-01-scene0",
+        "label": "干净餐垫上的空蓝边瓷碗",
+        "image": "hanzi-images/realistic-v1/kitchen-bowl-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bowl"
+  },
+  {
+    "id": "kitchen-plate-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-02_1795400815106_f3f28b0d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A blue ceramic bowl holding plain cooked wheat noodles that have cooled completely on a clean linen-covered kitchen table. Distinct long noodle strands and the entire bowl rim and base are visible in a close landscape photograph with natural window light, no steam, broth splashes, people, cooking equipment or text.\nPanel 2 (top-to-bottom): A complete empty brushed stainless steel drinking cup without a handle standing upright on a clean blue checked placemat at a kitchen breakfast table. Its open rim, interior and stable base are visible with ample crop-safe margins, realistic metal reflections, no people, liquid, logos or text.\nPanel 3 (top-to-bottom): A single empty white porcelain bowl with a narrow blue rim sitting flat on a clean plain cotton placemat on a kitchen table. The wide opening, curved deep interior and complete foot are visible in a three-quarter landscape photograph, realistic glazed ceramic and soft daylight, no people, food, stacked dishes or text.\nPanel 4 (top-to-bottom): A complete empty oval white porcelain serving plate lying on a beige tablecloth at a tidy kitchen dining table. Its visibly elongated oval rim and shallow interior are clearly shown from a high three-quarter angle, wide photographic framing with natural light, no food, people, utensils or text.",
+    "reviewNotes": "Observed top-to-bottom: long plain noodles in a blue glazed bowl on linen cloth; empty handleless brushed metal drinking cup on blue checked cloth; empty white bowl with a thin blue rim on plain blue cotton; empty elongated oval white plate on beige cloth. All four main vessels are fully visible; the noodle bowl foot has a relatively tight lower margin. No visible people, text, cooking tools or steam. Temperature and wheat composition are source-designated, not visually measurable. Crop heights421,428,430,433 at width1008; no upscaling.",
+    "cuts": [
+      441,
+      889,
+      1339
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1349,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "kitchen-plate-01-scene0",
+        "label": "米色餐布上的空椭圆瓷盘",
+        "image": "hanzi-images/realistic-v1/kitchen-plate-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "plate"
+  },
+  {
+    "id": "kitchen-spoon-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-03_1795400899625_4d330df2.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete round-headed stainless steel eating spoon lying flat on a clean green cotton placemat on a kitchen table. The concave spoon bowl and full smooth handle are clearly visible, natural metal texture and soft side light in landscape framing, no food, people, sharp utensils or text.\nPanel 2 (top-to-bottom): A complete empty stainless steel stockpot with two short side handles resting on a dry kitchen storage worktop, fully cooled and away from any stove. Its open rim, interior, handles and base are clearly visible in a wide photorealistic frame, no lid in motion, steam, fire, people or text.\nPanel 3 (top-to-bottom): A small clear glass cup containing milk, identified here as cow milk, on a clean wooden breakfast tray in a bright kitchen. The entire cup and white liquid surface are visible with soft daylight and realistic reflections, no steam, other white liquids, people, packaging or text.\nPanel 4 (top-to-bottom): One whole peeled hard-boiled chicken egg, fully cooled, resting on a clean blue-rimmed saucer on a kitchen dining table. The smooth white egg and complete saucer are shown with ample margins in a daylight landscape photograph, no broken shell, raw egg, steam, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: full metal eating spoon with a rounded concave head and long handle lying on green cotton; empty open metal stockpot with two short side handles on a countertop with no stove visible; clear handled glass cup of white liquid on a wooden tray; one smooth peeled white egg on a blue-rimmed saucer. Main objects are complete and clear. Milk identity, hard-boiled state and cooled temperature are source-designated rather than provable from pixels. Tray foreground approaches panel edge; spoon head is rounded oval, not a perfect circle. No people, text or steam visible. Crop heights416,426,429,441 at width1008; no upscaling.",
+    "cuts": [
+      436,
+      882,
+      1331
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 416
+    },
+    "contexts": [
+      {
+        "id": "kitchen-spoon-01-scene0",
+        "label": "绿色餐垫上平放的圆头金属勺",
+        "image": "hanzi-images/realistic-v1/kitchen-spoon-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "spoon"
+  },
+  {
+    "id": "kitchen-pot-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-03_1795400899625_4d330df2.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete round-headed stainless steel eating spoon lying flat on a clean green cotton placemat on a kitchen table. The concave spoon bowl and full smooth handle are clearly visible, natural metal texture and soft side light in landscape framing, no food, people, sharp utensils or text.\nPanel 2 (top-to-bottom): A complete empty stainless steel stockpot with two short side handles resting on a dry kitchen storage worktop, fully cooled and away from any stove. Its open rim, interior, handles and base are clearly visible in a wide photorealistic frame, no lid in motion, steam, fire, people or text.\nPanel 3 (top-to-bottom): A small clear glass cup containing milk, identified here as cow milk, on a clean wooden breakfast tray in a bright kitchen. The entire cup and white liquid surface are visible with soft daylight and realistic reflections, no steam, other white liquids, people, packaging or text.\nPanel 4 (top-to-bottom): One whole peeled hard-boiled chicken egg, fully cooled, resting on a clean blue-rimmed saucer on a kitchen dining table. The smooth white egg and complete saucer are shown with ample margins in a daylight landscape photograph, no broken shell, raw egg, steam, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: full metal eating spoon with a rounded concave head and long handle lying on green cotton; empty open metal stockpot with two short side handles on a countertop with no stove visible; clear handled glass cup of white liquid on a wooden tray; one smooth peeled white egg on a blue-rimmed saucer. Main objects are complete and clear. Milk identity, hard-boiled state and cooled temperature are source-designated rather than provable from pixels. Tray foreground approaches panel edge; spoon head is rounded oval, not a perfect circle. No people, text or steam visible. Crop heights416,426,429,441 at width1008; no upscaling.",
+    "cuts": [
+      436,
+      882,
+      1331
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 446,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "kitchen-pot-01-scene0",
+        "label": "收纳台上已冷却的双耳汤锅",
+        "image": "hanzi-images/realistic-v1/kitchen-pot-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pot"
+  },
+  {
+    "id": "kitchen-milk-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-03_1795400899625_4d330df2.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete round-headed stainless steel eating spoon lying flat on a clean green cotton placemat on a kitchen table. The concave spoon bowl and full smooth handle are clearly visible, natural metal texture and soft side light in landscape framing, no food, people, sharp utensils or text.\nPanel 2 (top-to-bottom): A complete empty stainless steel stockpot with two short side handles resting on a dry kitchen storage worktop, fully cooled and away from any stove. Its open rim, interior, handles and base are clearly visible in a wide photorealistic frame, no lid in motion, steam, fire, people or text.\nPanel 3 (top-to-bottom): A small clear glass cup containing milk, identified here as cow milk, on a clean wooden breakfast tray in a bright kitchen. The entire cup and white liquid surface are visible with soft daylight and realistic reflections, no steam, other white liquids, people, packaging or text.\nPanel 4 (top-to-bottom): One whole peeled hard-boiled chicken egg, fully cooled, resting on a clean blue-rimmed saucer on a kitchen dining table. The smooth white egg and complete saucer are shown with ample margins in a daylight landscape photograph, no broken shell, raw egg, steam, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: full metal eating spoon with a rounded concave head and long handle lying on green cotton; empty open metal stockpot with two short side handles on a countertop with no stove visible; clear handled glass cup of white liquid on a wooden tray; one smooth peeled white egg on a blue-rimmed saucer. Main objects are complete and clear. Milk identity, hard-boiled state and cooled temperature are source-designated rather than provable from pixels. Tray foreground approaches panel edge; spoon head is rounded oval, not a perfect circle. No people, text or steam visible. Crop heights416,426,429,441 at width1008; no upscaling.",
+    "cuts": [
+      436,
+      882,
+      1331
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 892,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "kitchen-milk-01-scene0",
+        "label": "早餐托盘上透明小杯里的牛奶",
+        "image": "hanzi-images/realistic-v1/kitchen-milk-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "milk"
+  },
+  {
+    "id": "kitchen-egg-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-03_1795400899625_4d330df2.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete round-headed stainless steel eating spoon lying flat on a clean green cotton placemat on a kitchen table. The concave spoon bowl and full smooth handle are clearly visible, natural metal texture and soft side light in landscape framing, no food, people, sharp utensils or text.\nPanel 2 (top-to-bottom): A complete empty stainless steel stockpot with two short side handles resting on a dry kitchen storage worktop, fully cooled and away from any stove. Its open rim, interior, handles and base are clearly visible in a wide photorealistic frame, no lid in motion, steam, fire, people or text.\nPanel 3 (top-to-bottom): A small clear glass cup containing milk, identified here as cow milk, on a clean wooden breakfast tray in a bright kitchen. The entire cup and white liquid surface are visible with soft daylight and realistic reflections, no steam, other white liquids, people, packaging or text.\nPanel 4 (top-to-bottom): One whole peeled hard-boiled chicken egg, fully cooled, resting on a clean blue-rimmed saucer on a kitchen dining table. The smooth white egg and complete saucer are shown with ample margins in a daylight landscape photograph, no broken shell, raw egg, steam, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: full metal eating spoon with a rounded concave head and long handle lying on green cotton; empty open metal stockpot with two short side handles on a countertop with no stove visible; clear handled glass cup of white liquid on a wooden tray; one smooth peeled white egg on a blue-rimmed saucer. Main objects are complete and clear. Milk identity, hard-boiled state and cooled temperature are source-designated rather than provable from pixels. Tray foreground approaches panel edge; spoon head is rounded oval, not a perfect circle. No people, text or steam visible. Crop heights416,426,429,441 at width1008; no upscaling.",
+    "cuts": [
+      436,
+      882,
+      1331
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1341,
+      "width": 1008,
+      "height": 441
+    },
+    "contexts": [
+      {
+        "id": "kitchen-egg-01-scene0",
+        "label": "蓝边小碟上剥壳的凉熟鸡蛋",
+        "image": "hanzi-images/realistic-v1/kitchen-egg-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "egg"
+  },
+  {
+    "id": "kitchen-bread-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-04_1795400984824_5a39f2ad.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A single thin round Chinese griddle flatcake, fully cooked and cooled, lying on a plain white plate beside a folded clean napkin on a kitchen table. Its flat profile and natural toasted spots are visible with the entire plate inside a landscape photographic frame, no loaf, buns, steam, cooking tools, people or text.\nPanel 2 (top-to-bottom): A small shallow porcelain dish of loose dry green tea leaves on a clean adult tea storage counter, with a closed unmarked tea canister behind it. The actual curled dry leaves and complete dish are clear in a close landscape photograph, soft daylight, no hot water, people, cup being offered, labels or text.\nPanel 3 (top-to-bottom): A thin layer of uncooked dry white rice in a shallow clean wooden kitchen tray photographed from a high three-quarter angle. Individual firm grains and the full raised tray rim are visible with natural wood texture and daylight, centered crop-safe landscape framing, no cooked rice, hands, scooping tools or text.\nPanel 4 (top-to-bottom): A whole round striped watermelon resting securely in a low wide woven basket on a dry kitchen floor storage mat. The complete green rind and basket fit comfortably within a landscape photograph, natural kitchen daylight and authentic fruit texture, no cut fruit, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: one thin round browned flatcake on a white plate beside folded cloth; curled dry green leaves in a shallow floral porcelain dish with closed plain green canister behind; individual dry white rice grains in a shallow rectangular wooden tray; whole green-striped watermelon in a low woven basket on a kitchen floor mat. Main targets and containers fit the panels. Cake includes small green flecks; leaf dish has a blue floral decoration, neither conflicts with the source labels. Third seam is at1307 rather than1344, yielding crop heights422,422,403,465 at width1008. No people, text, sharp tools or steam visible; no upscaling.",
+    "cuts": [
+      442,
+      884,
+      1307
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bread-01-scene0",
+        "label": "餐巾旁瓷盘里的凉薄烙饼",
+        "image": "hanzi-images/realistic-v1/kitchen-bread-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bread"
+  },
+  {
+    "id": "kitchen-tea-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-04_1795400984824_5a39f2ad.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A single thin round Chinese griddle flatcake, fully cooked and cooled, lying on a plain white plate beside a folded clean napkin on a kitchen table. Its flat profile and natural toasted spots are visible with the entire plate inside a landscape photographic frame, no loaf, buns, steam, cooking tools, people or text.\nPanel 2 (top-to-bottom): A small shallow porcelain dish of loose dry green tea leaves on a clean adult tea storage counter, with a closed unmarked tea canister behind it. The actual curled dry leaves and complete dish are clear in a close landscape photograph, soft daylight, no hot water, people, cup being offered, labels or text.\nPanel 3 (top-to-bottom): A thin layer of uncooked dry white rice in a shallow clean wooden kitchen tray photographed from a high three-quarter angle. Individual firm grains and the full raised tray rim are visible with natural wood texture and daylight, centered crop-safe landscape framing, no cooked rice, hands, scooping tools or text.\nPanel 4 (top-to-bottom): A whole round striped watermelon resting securely in a low wide woven basket on a dry kitchen floor storage mat. The complete green rind and basket fit comfortably within a landscape photograph, natural kitchen daylight and authentic fruit texture, no cut fruit, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: one thin round browned flatcake on a white plate beside folded cloth; curled dry green leaves in a shallow floral porcelain dish with closed plain green canister behind; individual dry white rice grains in a shallow rectangular wooden tray; whole green-striped watermelon in a low woven basket on a kitchen floor mat. Main targets and containers fit the panels. Cake includes small green flecks; leaf dish has a blue floral decoration, neither conflicts with the source labels. Third seam is at1307 rather than1344, yielding crop heights422,422,403,465 at width1008. No people, text, sharp tools or steam visible; no upscaling.",
+    "cuts": [
+      442,
+      884,
+      1307
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 452,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "kitchen-tea-01-scene0",
+        "label": "大人茶柜前浅盘里的干茶叶",
+        "image": "hanzi-images/realistic-v1/kitchen-tea-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tea"
+  },
+  {
+    "id": "kitchen-rice-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-04_1795400984824_5a39f2ad.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A single thin round Chinese griddle flatcake, fully cooked and cooled, lying on a plain white plate beside a folded clean napkin on a kitchen table. Its flat profile and natural toasted spots are visible with the entire plate inside a landscape photographic frame, no loaf, buns, steam, cooking tools, people or text.\nPanel 2 (top-to-bottom): A small shallow porcelain dish of loose dry green tea leaves on a clean adult tea storage counter, with a closed unmarked tea canister behind it. The actual curled dry leaves and complete dish are clear in a close landscape photograph, soft daylight, no hot water, people, cup being offered, labels or text.\nPanel 3 (top-to-bottom): A thin layer of uncooked dry white rice in a shallow clean wooden kitchen tray photographed from a high three-quarter angle. Individual firm grains and the full raised tray rim are visible with natural wood texture and daylight, centered crop-safe landscape framing, no cooked rice, hands, scooping tools or text.\nPanel 4 (top-to-bottom): A whole round striped watermelon resting securely in a low wide woven basket on a dry kitchen floor storage mat. The complete green rind and basket fit comfortably within a landscape photograph, natural kitchen daylight and authentic fruit texture, no cut fruit, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: one thin round browned flatcake on a white plate beside folded cloth; curled dry green leaves in a shallow floral porcelain dish with closed plain green canister behind; individual dry white rice grains in a shallow rectangular wooden tray; whole green-striped watermelon in a low woven basket on a kitchen floor mat. Main targets and containers fit the panels. Cake includes small green flecks; leaf dish has a blue floral decoration, neither conflicts with the source labels. Third seam is at1307 rather than1344, yielding crop heights422,422,403,465 at width1008. No people, text, sharp tools or steam visible; no upscaling.",
+    "cuts": [
+      442,
+      884,
+      1307
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 894,
+      "width": 1008,
+      "height": 403
+    },
+    "contexts": [
+      {
+        "id": "kitchen-rice-02-scene0",
+        "label": "浅木托盘里铺着的干大米",
+        "image": "hanzi-images/realistic-v1/kitchen-rice-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rice"
+  },
+  {
+    "id": "kitchen-melon-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-04_1795400984824_5a39f2ad.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A single thin round Chinese griddle flatcake, fully cooked and cooled, lying on a plain white plate beside a folded clean napkin on a kitchen table. Its flat profile and natural toasted spots are visible with the entire plate inside a landscape photographic frame, no loaf, buns, steam, cooking tools, people or text.\nPanel 2 (top-to-bottom): A small shallow porcelain dish of loose dry green tea leaves on a clean adult tea storage counter, with a closed unmarked tea canister behind it. The actual curled dry leaves and complete dish are clear in a close landscape photograph, soft daylight, no hot water, people, cup being offered, labels or text.\nPanel 3 (top-to-bottom): A thin layer of uncooked dry white rice in a shallow clean wooden kitchen tray photographed from a high three-quarter angle. Individual firm grains and the full raised tray rim are visible with natural wood texture and daylight, centered crop-safe landscape framing, no cooked rice, hands, scooping tools or text.\nPanel 4 (top-to-bottom): A whole round striped watermelon resting securely in a low wide woven basket on a dry kitchen floor storage mat. The complete green rind and basket fit comfortably within a landscape photograph, natural kitchen daylight and authentic fruit texture, no cut fruit, knives, people or text.",
+    "reviewNotes": "Observed top-to-bottom: one thin round browned flatcake on a white plate beside folded cloth; curled dry green leaves in a shallow floral porcelain dish with closed plain green canister behind; individual dry white rice grains in a shallow rectangular wooden tray; whole green-striped watermelon in a low woven basket on a kitchen floor mat. Main targets and containers fit the panels. Cake includes small green flecks; leaf dish has a blue floral decoration, neither conflicts with the source labels. Third seam is at1307 rather than1344, yielding crop heights422,422,403,465 at width1008. No people, text, sharp tools or steam visible; no upscaling.",
+    "cuts": [
+      442,
+      884,
+      1307
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1317,
+      "width": 1008,
+      "height": 465
+    },
+    "contexts": [
+      {
+        "id": "kitchen-melon-02-scene0",
+        "label": "厨房矮篮里的完整西瓜",
+        "image": "hanzi-images/realistic-v1/kitchen-melon-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "melon"
+  },
+  {
+    "id": "kitchen-fruit-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-05_1795401071091_c278872b.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): Two whole yellow-green pears with their natural stems resting in a shallow clean fabric-lined basket on a kitchen side counter. Complete pear outlines and the basket are visible with realistic speckled skin and gentle window light, landscape framing with ample margins, no cut fruit, people, knives or text.\nPanel 2 (top-to-bottom): A closed clear food-storage box containing dry red adzuki beans on a clean kitchen pantry shelf. Individual dark red beans and the complete fitted lid are clearly visible through the transparent sides, centered landscape photograph with realistic textures and daylight, no open scattered beans, people or text.\nPanel 3 (top-to-bottom): A neat loose nest of plain cooked noodles, fully cooled, on a white ceramic plate resting on a flat bamboo placemat at a kitchen table. The long individual strands and complete plate are visible from a high three-quarter angle in natural daylight, no steam, hot equipment, chopsticks in motion, people or text.\nPanel 4 (top-to-bottom): A complete empty yellow ceramic mug with one curved handle standing on a dry kitchen counter beside a plain wooden cup rack. Its open rim, handle and stable base are fully visible, warm daylight and realistic glazed surface in a wide photograph, no liquid, people, high-shelf access or text.",
+    "reviewNotes": "Observed top-to-bottom: two whole yellow-green stemmed pears in a cloth-lined woven basket; closed clear rectangular storage box filled with dark red beans on a pantry shelf; loose long pale noodles on a white plate over bamboo mat; empty yellow handled ceramic mug beside a wooden cup rack. Main targets are complete and visible. Basket lower edge is close to the first seam; the rack continues above the fourth panel but the mug is fully enclosed. No people, text, sharp tools or steam visible. Cooled state is not visually measurable. Crop heights425,429,429,429 at width1008; no upscaling.",
+    "cuts": [
+      445,
+      894,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "kitchen-fruit-02-scene0",
+        "label": "厨房布篮里的两只完整梨",
+        "image": "hanzi-images/realistic-v1/kitchen-fruit-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fruit"
+  },
+  {
+    "id": "kitchen-bean-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-05_1795401071091_c278872b.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): Two whole yellow-green pears with their natural stems resting in a shallow clean fabric-lined basket on a kitchen side counter. Complete pear outlines and the basket are visible with realistic speckled skin and gentle window light, landscape framing with ample margins, no cut fruit, people, knives or text.\nPanel 2 (top-to-bottom): A closed clear food-storage box containing dry red adzuki beans on a clean kitchen pantry shelf. Individual dark red beans and the complete fitted lid are clearly visible through the transparent sides, centered landscape photograph with realistic textures and daylight, no open scattered beans, people or text.\nPanel 3 (top-to-bottom): A neat loose nest of plain cooked noodles, fully cooled, on a white ceramic plate resting on a flat bamboo placemat at a kitchen table. The long individual strands and complete plate are visible from a high three-quarter angle in natural daylight, no steam, hot equipment, chopsticks in motion, people or text.\nPanel 4 (top-to-bottom): A complete empty yellow ceramic mug with one curved handle standing on a dry kitchen counter beside a plain wooden cup rack. Its open rim, handle and stable base are fully visible, warm daylight and realistic glazed surface in a wide photograph, no liquid, people, high-shelf access or text.",
+    "reviewNotes": "Observed top-to-bottom: two whole yellow-green stemmed pears in a cloth-lined woven basket; closed clear rectangular storage box filled with dark red beans on a pantry shelf; loose long pale noodles on a white plate over bamboo mat; empty yellow handled ceramic mug beside a wooden cup rack. Main targets are complete and visible. Basket lower edge is close to the first seam; the rack continues above the fourth panel but the mug is fully enclosed. No people, text, sharp tools or steam visible. Cooled state is not visually measurable. Crop heights425,429,429,429 at width1008; no upscaling.",
+    "cuts": [
+      445,
+      894,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bean-02-scene0",
+        "label": "有盖透明储物盒里的干红豆",
+        "image": "hanzi-images/realistic-v1/kitchen-bean-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bean"
+  },
+  {
+    "id": "kitchen-noodles-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-05_1795401071091_c278872b.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): Two whole yellow-green pears with their natural stems resting in a shallow clean fabric-lined basket on a kitchen side counter. Complete pear outlines and the basket are visible with realistic speckled skin and gentle window light, landscape framing with ample margins, no cut fruit, people, knives or text.\nPanel 2 (top-to-bottom): A closed clear food-storage box containing dry red adzuki beans on a clean kitchen pantry shelf. Individual dark red beans and the complete fitted lid are clearly visible through the transparent sides, centered landscape photograph with realistic textures and daylight, no open scattered beans, people or text.\nPanel 3 (top-to-bottom): A neat loose nest of plain cooked noodles, fully cooled, on a white ceramic plate resting on a flat bamboo placemat at a kitchen table. The long individual strands and complete plate are visible from a high three-quarter angle in natural daylight, no steam, hot equipment, chopsticks in motion, people or text.\nPanel 4 (top-to-bottom): A complete empty yellow ceramic mug with one curved handle standing on a dry kitchen counter beside a plain wooden cup rack. Its open rim, handle and stable base are fully visible, warm daylight and realistic glazed surface in a wide photograph, no liquid, people, high-shelf access or text.",
+    "reviewNotes": "Observed top-to-bottom: two whole yellow-green stemmed pears in a cloth-lined woven basket; closed clear rectangular storage box filled with dark red beans on a pantry shelf; loose long pale noodles on a white plate over bamboo mat; empty yellow handled ceramic mug beside a wooden cup rack. Main targets are complete and visible. Basket lower edge is close to the first seam; the rack continues above the fourth panel but the mug is fully enclosed. No people, text, sharp tools or steam visible. Cooled state is not visually measurable. Crop heights425,429,429,429 at width1008; no upscaling.",
+    "cuts": [
+      445,
+      894,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "kitchen-noodles-02-scene0",
+        "label": "竹垫上白盘里的凉熟面条",
+        "image": "hanzi-images/realistic-v1/kitchen-noodles-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "noodles"
+  },
+  {
+    "id": "kitchen-cup-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-05_1795401071091_c278872b.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): Two whole yellow-green pears with their natural stems resting in a shallow clean fabric-lined basket on a kitchen side counter. Complete pear outlines and the basket are visible with realistic speckled skin and gentle window light, landscape framing with ample margins, no cut fruit, people, knives or text.\nPanel 2 (top-to-bottom): A closed clear food-storage box containing dry red adzuki beans on a clean kitchen pantry shelf. Individual dark red beans and the complete fitted lid are clearly visible through the transparent sides, centered landscape photograph with realistic textures and daylight, no open scattered beans, people or text.\nPanel 3 (top-to-bottom): A neat loose nest of plain cooked noodles, fully cooled, on a white ceramic plate resting on a flat bamboo placemat at a kitchen table. The long individual strands and complete plate are visible from a high three-quarter angle in natural daylight, no steam, hot equipment, chopsticks in motion, people or text.\nPanel 4 (top-to-bottom): A complete empty yellow ceramic mug with one curved handle standing on a dry kitchen counter beside a plain wooden cup rack. Its open rim, handle and stable base are fully visible, warm daylight and realistic glazed surface in a wide photograph, no liquid, people, high-shelf access or text.",
+    "reviewNotes": "Observed top-to-bottom: two whole yellow-green stemmed pears in a cloth-lined woven basket; closed clear rectangular storage box filled with dark red beans on a pantry shelf; loose long pale noodles on a white plate over bamboo mat; empty yellow handled ceramic mug beside a wooden cup rack. Main targets are complete and visible. Basket lower edge is close to the first seam; the rack continues above the fourth panel but the mug is fully enclosed. No people, text, sharp tools or steam visible. Cooled state is not visually measurable. Crop heights425,429,429,429 at width1008; no upscaling.",
+    "cuts": [
+      445,
+      894,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "kitchen-cup-02-scene0",
+        "label": "杯架旁台面上的空黄瓷杯",
+        "image": "hanzi-images/realistic-v1/kitchen-cup-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cup"
+  },
+  {
+    "id": "kitchen-bowl-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-06_1795401161035_3d0e3c73.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete empty transparent glass bowl resting upright on a clean pale kitchen countertop. Its wide round opening, deep curved sides and flat supporting foot are clearly visible through natural glass reflections, crop-safe landscape photography with soft daylight, no food, people, chips or text.\nPanel 2 (top-to-bottom): A complete empty rectangular white ceramic platter with softly rounded corners on a dry clean kitchen worktop. The long shallow interior and raised rim are fully visible in a high-angle landscape photograph, realistic glaze and gentle daylight, no food, people, washing action or text.\nPanel 3 (top-to-bottom): A complete short-handled wooden eating spoon lying alone in a clean shallow utensil tray on a kitchen counter. The concave rounded head and natural wood-grain handle are visible with ample margins in a landscape photograph, soft daylight, no food, knives, hands or text.\nPanel 4 (top-to-bottom): A complete empty frying pan, fully cooled, resting on a clean thick storage mat on a kitchen utility counter far from any stove. Its shallow round cooking surface and full long handle are visible in a high three-quarter landscape photograph, realistic metal texture, no steam, oil, fire, people or text.",
+    "reviewNotes": "Observed top-to-bottom: complete empty transparent glass bowl with rounded sides and flat foot; empty white rectangular platter with softly rounded corners; one small wooden eating spoon with a rounded concave head and full wood-grain handle in a shallow ceramic utensil tray; empty dark frying pan with full metal handle on a thick round woven mat. No stove, people, text, oil or steam visible. The spoon handle is longer than its bowl but compact compared with a cooking utensil. Frying-pan temperature remains a source safety designation, not a pixel measurement. Seam positions435,877,1313 yield crop heights415,422,416,459 at width1008; no upscaling.",
+    "cuts": [
+      435,
+      877,
+      1313
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 415
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bowl-02-scene0",
+        "label": "洁净台面上的空透明玻璃碗",
+        "image": "hanzi-images/realistic-v1/kitchen-bowl-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bowl"
+  },
+  {
+    "id": "kitchen-plate-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-06_1795401161035_3d0e3c73.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete empty transparent glass bowl resting upright on a clean pale kitchen countertop. Its wide round opening, deep curved sides and flat supporting foot are clearly visible through natural glass reflections, crop-safe landscape photography with soft daylight, no food, people, chips or text.\nPanel 2 (top-to-bottom): A complete empty rectangular white ceramic platter with softly rounded corners on a dry clean kitchen worktop. The long shallow interior and raised rim are fully visible in a high-angle landscape photograph, realistic glaze and gentle daylight, no food, people, washing action or text.\nPanel 3 (top-to-bottom): A complete short-handled wooden eating spoon lying alone in a clean shallow utensil tray on a kitchen counter. The concave rounded head and natural wood-grain handle are visible with ample margins in a landscape photograph, soft daylight, no food, knives, hands or text.\nPanel 4 (top-to-bottom): A complete empty frying pan, fully cooled, resting on a clean thick storage mat on a kitchen utility counter far from any stove. Its shallow round cooking surface and full long handle are visible in a high three-quarter landscape photograph, realistic metal texture, no steam, oil, fire, people or text.",
+    "reviewNotes": "Observed top-to-bottom: complete empty transparent glass bowl with rounded sides and flat foot; empty white rectangular platter with softly rounded corners; one small wooden eating spoon with a rounded concave head and full wood-grain handle in a shallow ceramic utensil tray; empty dark frying pan with full metal handle on a thick round woven mat. No stove, people, text, oil or steam visible. The spoon handle is longer than its bowl but compact compared with a cooking utensil. Frying-pan temperature remains a source safety designation, not a pixel measurement. Seam positions435,877,1313 yield crop heights415,422,416,459 at width1008; no upscaling.",
+    "cuts": [
+      435,
+      877,
+      1313
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 445,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "kitchen-plate-02-scene0",
+        "label": "干净台面上的空白色长方盘",
+        "image": "hanzi-images/realistic-v1/kitchen-plate-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "plate"
+  },
+  {
+    "id": "kitchen-spoon-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-06_1795401161035_3d0e3c73.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete empty transparent glass bowl resting upright on a clean pale kitchen countertop. Its wide round opening, deep curved sides and flat supporting foot are clearly visible through natural glass reflections, crop-safe landscape photography with soft daylight, no food, people, chips or text.\nPanel 2 (top-to-bottom): A complete empty rectangular white ceramic platter with softly rounded corners on a dry clean kitchen worktop. The long shallow interior and raised rim are fully visible in a high-angle landscape photograph, realistic glaze and gentle daylight, no food, people, washing action or text.\nPanel 3 (top-to-bottom): A complete short-handled wooden eating spoon lying alone in a clean shallow utensil tray on a kitchen counter. The concave rounded head and natural wood-grain handle are visible with ample margins in a landscape photograph, soft daylight, no food, knives, hands or text.\nPanel 4 (top-to-bottom): A complete empty frying pan, fully cooled, resting on a clean thick storage mat on a kitchen utility counter far from any stove. Its shallow round cooking surface and full long handle are visible in a high three-quarter landscape photograph, realistic metal texture, no steam, oil, fire, people or text.",
+    "reviewNotes": "Observed top-to-bottom: complete empty transparent glass bowl with rounded sides and flat foot; empty white rectangular platter with softly rounded corners; one small wooden eating spoon with a rounded concave head and full wood-grain handle in a shallow ceramic utensil tray; empty dark frying pan with full metal handle on a thick round woven mat. No stove, people, text, oil or steam visible. The spoon handle is longer than its bowl but compact compared with a cooking utensil. Frying-pan temperature remains a source safety designation, not a pixel measurement. Seam positions435,877,1313 yield crop heights415,422,416,459 at width1008; no upscaling.",
+    "cuts": [
+      435,
+      877,
+      1313
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 887,
+      "width": 1008,
+      "height": 416
+    },
+    "contexts": [
+      {
+        "id": "kitchen-spoon-02-scene0",
+        "label": "洁净餐具托盘里的短柄木勺",
+        "image": "hanzi-images/realistic-v1/kitchen-spoon-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "spoon"
+  },
+  {
+    "id": "kitchen-pot-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-06_1795401161035_3d0e3c73.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A complete empty transparent glass bowl resting upright on a clean pale kitchen countertop. Its wide round opening, deep curved sides and flat supporting foot are clearly visible through natural glass reflections, crop-safe landscape photography with soft daylight, no food, people, chips or text.\nPanel 2 (top-to-bottom): A complete empty rectangular white ceramic platter with softly rounded corners on a dry clean kitchen worktop. The long shallow interior and raised rim are fully visible in a high-angle landscape photograph, realistic glaze and gentle daylight, no food, people, washing action or text.\nPanel 3 (top-to-bottom): A complete short-handled wooden eating spoon lying alone in a clean shallow utensil tray on a kitchen counter. The concave rounded head and natural wood-grain handle are visible with ample margins in a landscape photograph, soft daylight, no food, knives, hands or text.\nPanel 4 (top-to-bottom): A complete empty frying pan, fully cooled, resting on a clean thick storage mat on a kitchen utility counter far from any stove. Its shallow round cooking surface and full long handle are visible in a high three-quarter landscape photograph, realistic metal texture, no steam, oil, fire, people or text.",
+    "reviewNotes": "Observed top-to-bottom: complete empty transparent glass bowl with rounded sides and flat foot; empty white rectangular platter with softly rounded corners; one small wooden eating spoon with a rounded concave head and full wood-grain handle in a shallow ceramic utensil tray; empty dark frying pan with full metal handle on a thick round woven mat. No stove, people, text, oil or steam visible. The spoon handle is longer than its bowl but compact compared with a cooking utensil. Frying-pan temperature remains a source safety designation, not a pixel measurement. Seam positions435,877,1313 yield crop heights415,422,416,459 at width1008; no upscaling.",
+    "cuts": [
+      435,
+      877,
+      1313
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1323,
+      "width": 1008,
+      "height": 459
+    },
+    "contexts": [
+      {
+        "id": "kitchen-pot-02-scene0",
+        "label": "收纳垫上已冷却的空平底锅",
+        "image": "hanzi-images/realistic-v1/kitchen-pot-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pot"
+  },
+  {
+    "id": "kitchen-milk-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-07_1795401243564_e555637a.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A small open white ceramic pouring jug containing cow milk on a clean kitchen breakfast counter. The visible milk surface, short spout, curved handle and complete jug body are shown from a high three-quarter angle with natural daylight, no steam, pouring action, people, labels or text.\nPanel 2 (top-to-bottom): Three intact brown-shelled chicken eggs seated securely in a clean molded paper egg tray on a kitchen prep counter. The eggs and complete tray compartments are visible with realistic shell texture and soft window light in landscape framing, no cracked eggs, raw liquid, hands, cooking tools or text.\nPanel 3 (top-to-bottom): Four flat square crackers with small regular baking holes resting on a clean shallow ceramic saucer at a kitchen table. Each complete square biscuit and the entire saucer are visible with realistic baked texture, natural daylight and crop-safe landscape framing, no loaf, buns, packaging, people or text.\nPanel 4 (top-to-bottom): A clear glass cup containing fully cooled amber tea brewed from tea leaves on a clean adult tea counter, with a closed plain tea canister softly visible behind it. The complete cup and tea surface are centered with realistic reflections and gentle daylight, no steam, people, offered drink, labels or text.",
+    "reviewNotes": "Observed top-to-bottom: open white ceramic jug containing visible white liquid, with spout and handle complete; three intact brown eggs in a molded paper tray; four square perforated crackers partly overlapping on a complete shallow saucer; clear handled glass cup of amber liquid with a closed plain canister behind. No people, text or steam visible. Source-designated milk and tea composition and cooled state cannot be verified from appearance alone. Crackers partly obscure one another, so kitchen-bread-02 sceneDescription was corrected only to state partial overlap rather than visibility of every entire biscuit; label and learning/game meaning unchanged. Crops426,428,428,430 high at width1008; no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "kitchen-milk-02-scene0",
+        "label": "白色敞口小瓷壶里的牛奶",
+        "image": "hanzi-images/realistic-v1/kitchen-milk-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "milk"
+  },
+  {
+    "id": "kitchen-egg-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-07_1795401243564_e555637a.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A small open white ceramic pouring jug containing cow milk on a clean kitchen breakfast counter. The visible milk surface, short spout, curved handle and complete jug body are shown from a high three-quarter angle with natural daylight, no steam, pouring action, people, labels or text.\nPanel 2 (top-to-bottom): Three intact brown-shelled chicken eggs seated securely in a clean molded paper egg tray on a kitchen prep counter. The eggs and complete tray compartments are visible with realistic shell texture and soft window light in landscape framing, no cracked eggs, raw liquid, hands, cooking tools or text.\nPanel 3 (top-to-bottom): Four flat square crackers with small regular baking holes resting on a clean shallow ceramic saucer at a kitchen table. Each complete square biscuit and the entire saucer are visible with realistic baked texture, natural daylight and crop-safe landscape framing, no loaf, buns, packaging, people or text.\nPanel 4 (top-to-bottom): A clear glass cup containing fully cooled amber tea brewed from tea leaves on a clean adult tea counter, with a closed plain tea canister softly visible behind it. The complete cup and tea surface are centered with realistic reflections and gentle daylight, no steam, people, offered drink, labels or text.",
+    "reviewNotes": "Observed top-to-bottom: open white ceramic jug containing visible white liquid, with spout and handle complete; three intact brown eggs in a molded paper tray; four square perforated crackers partly overlapping on a complete shallow saucer; clear handled glass cup of amber liquid with a closed plain canister behind. No people, text or steam visible. Source-designated milk and tea composition and cooled state cannot be verified from appearance alone. Crackers partly obscure one another, so kitchen-bread-02 sceneDescription was corrected only to state partial overlap rather than visibility of every entire biscuit; label and learning/game meaning unchanged. Crops426,428,428,430 high at width1008; no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "kitchen-egg-02-scene0",
+        "label": "洁净纸托里的三只褐壳鸡蛋",
+        "image": "hanzi-images/realistic-v1/kitchen-egg-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "egg"
+  },
+  {
+    "id": "kitchen-bread-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-07_1795401243564_e555637a.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A small open white ceramic pouring jug containing cow milk on a clean kitchen breakfast counter. The visible milk surface, short spout, curved handle and complete jug body are shown from a high three-quarter angle with natural daylight, no steam, pouring action, people, labels or text.\nPanel 2 (top-to-bottom): Three intact brown-shelled chicken eggs seated securely in a clean molded paper egg tray on a kitchen prep counter. The eggs and complete tray compartments are visible with realistic shell texture and soft window light in landscape framing, no cracked eggs, raw liquid, hands, cooking tools or text.\nPanel 3 (top-to-bottom): Four flat square crackers with small regular baking holes resting on a clean shallow ceramic saucer at a kitchen table. Each complete square biscuit and the entire saucer are visible with realistic baked texture, natural daylight and crop-safe landscape framing, no loaf, buns, packaging, people or text.\nPanel 4 (top-to-bottom): A clear glass cup containing fully cooled amber tea brewed from tea leaves on a clean adult tea counter, with a closed plain tea canister softly visible behind it. The complete cup and tea surface are centered with realistic reflections and gentle daylight, no steam, people, offered drink, labels or text.",
+    "reviewNotes": "Observed top-to-bottom: open white ceramic jug containing visible white liquid, with spout and handle complete; three intact brown eggs in a molded paper tray; four square perforated crackers partly overlapping on a complete shallow saucer; clear handled glass cup of amber liquid with a closed plain canister behind. No people, text or steam visible. Source-designated milk and tea composition and cooled state cannot be verified from appearance alone. Crackers partly obscure one another, so kitchen-bread-02 sceneDescription was corrected only to state partial overlap rather than visibility of every entire biscuit; label and learning/game meaning unchanged. Crops426,428,428,430 high at width1008; no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bread-02-scene0",
+        "label": "洁净小碟上的四块方形饼干",
+        "image": "hanzi-images/realistic-v1/kitchen-bread-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bread"
+  },
+  {
+    "id": "kitchen-tea-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-07_1795401243564_e555637a.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A small open white ceramic pouring jug containing cow milk on a clean kitchen breakfast counter. The visible milk surface, short spout, curved handle and complete jug body are shown from a high three-quarter angle with natural daylight, no steam, pouring action, people, labels or text.\nPanel 2 (top-to-bottom): Three intact brown-shelled chicken eggs seated securely in a clean molded paper egg tray on a kitchen prep counter. The eggs and complete tray compartments are visible with realistic shell texture and soft window light in landscape framing, no cracked eggs, raw liquid, hands, cooking tools or text.\nPanel 3 (top-to-bottom): Four flat square crackers with small regular baking holes resting on a clean shallow ceramic saucer at a kitchen table. Each complete square biscuit and the entire saucer are visible with realistic baked texture, natural daylight and crop-safe landscape framing, no loaf, buns, packaging, people or text.\nPanel 4 (top-to-bottom): A clear glass cup containing fully cooled amber tea brewed from tea leaves on a clean adult tea counter, with a closed plain tea canister softly visible behind it. The complete cup and tea surface are centered with realistic reflections and gentle daylight, no steam, people, offered drink, labels or text.",
+    "reviewNotes": "Observed top-to-bottom: open white ceramic jug containing visible white liquid, with spout and handle complete; three intact brown eggs in a molded paper tray; four square perforated crackers partly overlapping on a complete shallow saucer; clear handled glass cup of amber liquid with a closed plain canister behind. No people, text or steam visible. Source-designated milk and tea composition and cooled state cannot be verified from appearance alone. Crackers partly obscure one another, so kitchen-bread-02 sceneDescription was corrected only to state partial overlap rather than visibility of every entire biscuit; label and learning/game meaning unchanged. Crops426,428,428,430 high at width1008; no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "kitchen-tea-02-scene0",
+        "label": "成人茶角透明杯里已放凉的茶汤",
+        "image": "hanzi-images/realistic-v1/kitchen-tea-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tea"
+  },
+  {
+    "id": "kitchen-rice-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-08_1795401358156_863f665d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear plastic measuring scoop filled with uncooked dry white rice resting flat on a clean kitchen counter, its handle fully visible and no loose grains outside. Individual dry grains, the scoop bowl and full handle fit within crop-safe landscape framing, realistic daylight, no cooked rice, hands, measurement numbers or text.\nPanel 2 (top-to-bottom): A single triangular watermelon slice prepared by an adult beforehand on a clean white saucer at a kitchen table. Red flesh, pale inner rind and striped green outer rind are all visible with the entire slice and saucer inside a wide natural daylight photograph, no knife, cutting action, people or text.\nPanel 3 (top-to-bottom): Two whole ripe oranges resting on a clean shallow wooden tray on a kitchen breakfast counter. Their complete round outlines and natural dimpled orange peel are clearly visible with the entire tray in crop-safe landscape framing, soft natural light, no cut citrus, knives, people, stickers or text.\nPanel 4 (top-to-bottom): A complete closed clear storage jar containing dry yellow soybeans on a clean kitchen pantry counter. The round individual beans, fitted lid and full glass base are visible in natural window light with realistic texture and reflections, no scattered beans, soaking water, hands, cooking equipment or text.",
+    "reviewNotes": "Observed top-to-bottom: clear unnumbered measuring scoop with full handle holding dry white rice and no scattered grains; one triangular red watermelon slice with pale inner rind and green outer rind on a white saucer; two whole dimpled oranges on a shallow wooden tray; closed clear jar of round yellow beans with wood lid and metal clasp on a pantry counter. All main objects and containers fit. Watermelon rind stripe detail is subtle; no text, people or sharp tools visible. Third seam is1287, so kitchen-fruit-03 is1008x392, honestly below400 but above300; other crop heights417,418,485. No upscaling.",
+    "cuts": [
+      437,
+      875,
+      1287
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 417
+    },
+    "contexts": [
+      {
+        "id": "kitchen-rice-03-scene0",
+        "label": "洁净台面上透明量勺里的干大米",
+        "image": "hanzi-images/realistic-v1/kitchen-rice-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rice"
+  },
+  {
+    "id": "kitchen-melon-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-08_1795401358156_863f665d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear plastic measuring scoop filled with uncooked dry white rice resting flat on a clean kitchen counter, its handle fully visible and no loose grains outside. Individual dry grains, the scoop bowl and full handle fit within crop-safe landscape framing, realistic daylight, no cooked rice, hands, measurement numbers or text.\nPanel 2 (top-to-bottom): A single triangular watermelon slice prepared by an adult beforehand on a clean white saucer at a kitchen table. Red flesh, pale inner rind and striped green outer rind are all visible with the entire slice and saucer inside a wide natural daylight photograph, no knife, cutting action, people or text.\nPanel 3 (top-to-bottom): Two whole ripe oranges resting on a clean shallow wooden tray on a kitchen breakfast counter. Their complete round outlines and natural dimpled orange peel are clearly visible with the entire tray in crop-safe landscape framing, soft natural light, no cut citrus, knives, people, stickers or text.\nPanel 4 (top-to-bottom): A complete closed clear storage jar containing dry yellow soybeans on a clean kitchen pantry counter. The round individual beans, fitted lid and full glass base are visible in natural window light with realistic texture and reflections, no scattered beans, soaking water, hands, cooking equipment or text.",
+    "reviewNotes": "Observed top-to-bottom: clear unnumbered measuring scoop with full handle holding dry white rice and no scattered grains; one triangular red watermelon slice with pale inner rind and green outer rind on a white saucer; two whole dimpled oranges on a shallow wooden tray; closed clear jar of round yellow beans with wood lid and metal clasp on a pantry counter. All main objects and containers fit. Watermelon rind stripe detail is subtle; no text, people or sharp tools visible. Third seam is1287, so kitchen-fruit-03 is1008x392, honestly below400 but above300; other crop heights417,418,485. No upscaling.",
+    "cuts": [
+      437,
+      875,
+      1287
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 447,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "kitchen-melon-03-scene0",
+        "label": "白色小碟里切好的一片西瓜",
+        "image": "hanzi-images/realistic-v1/kitchen-melon-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "melon"
+  },
+  {
+    "id": "kitchen-fruit-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-08_1795401358156_863f665d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear plastic measuring scoop filled with uncooked dry white rice resting flat on a clean kitchen counter, its handle fully visible and no loose grains outside. Individual dry grains, the scoop bowl and full handle fit within crop-safe landscape framing, realistic daylight, no cooked rice, hands, measurement numbers or text.\nPanel 2 (top-to-bottom): A single triangular watermelon slice prepared by an adult beforehand on a clean white saucer at a kitchen table. Red flesh, pale inner rind and striped green outer rind are all visible with the entire slice and saucer inside a wide natural daylight photograph, no knife, cutting action, people or text.\nPanel 3 (top-to-bottom): Two whole ripe oranges resting on a clean shallow wooden tray on a kitchen breakfast counter. Their complete round outlines and natural dimpled orange peel are clearly visible with the entire tray in crop-safe landscape framing, soft natural light, no cut citrus, knives, people, stickers or text.\nPanel 4 (top-to-bottom): A complete closed clear storage jar containing dry yellow soybeans on a clean kitchen pantry counter. The round individual beans, fitted lid and full glass base are visible in natural window light with realistic texture and reflections, no scattered beans, soaking water, hands, cooking equipment or text.",
+    "reviewNotes": "Observed top-to-bottom: clear unnumbered measuring scoop with full handle holding dry white rice and no scattered grains; one triangular red watermelon slice with pale inner rind and green outer rind on a white saucer; two whole dimpled oranges on a shallow wooden tray; closed clear jar of round yellow beans with wood lid and metal clasp on a pantry counter. All main objects and containers fit. Watermelon rind stripe detail is subtle; no text, people or sharp tools visible. Third seam is1287, so kitchen-fruit-03 is1008x392, honestly below400 but above300; other crop heights417,418,485. No upscaling.",
+    "cuts": [
+      437,
+      875,
+      1287
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 885,
+      "width": 1008,
+      "height": 392
+    },
+    "contexts": [
+      {
+        "id": "kitchen-fruit-03-scene0",
+        "label": "厨房木托盘里的两只完整橙子",
+        "image": "hanzi-images/realistic-v1/kitchen-fruit-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fruit"
+  },
+  {
+    "id": "kitchen-bean-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-08_1795401358156_863f665d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): A clear plastic measuring scoop filled with uncooked dry white rice resting flat on a clean kitchen counter, its handle fully visible and no loose grains outside. Individual dry grains, the scoop bowl and full handle fit within crop-safe landscape framing, realistic daylight, no cooked rice, hands, measurement numbers or text.\nPanel 2 (top-to-bottom): A single triangular watermelon slice prepared by an adult beforehand on a clean white saucer at a kitchen table. Red flesh, pale inner rind and striped green outer rind are all visible with the entire slice and saucer inside a wide natural daylight photograph, no knife, cutting action, people or text.\nPanel 3 (top-to-bottom): Two whole ripe oranges resting on a clean shallow wooden tray on a kitchen breakfast counter. Their complete round outlines and natural dimpled orange peel are clearly visible with the entire tray in crop-safe landscape framing, soft natural light, no cut citrus, knives, people, stickers or text.\nPanel 4 (top-to-bottom): A complete closed clear storage jar containing dry yellow soybeans on a clean kitchen pantry counter. The round individual beans, fitted lid and full glass base are visible in natural window light with realistic texture and reflections, no scattered beans, soaking water, hands, cooking equipment or text.",
+    "reviewNotes": "Observed top-to-bottom: clear unnumbered measuring scoop with full handle holding dry white rice and no scattered grains; one triangular red watermelon slice with pale inner rind and green outer rind on a white saucer; two whole dimpled oranges on a shallow wooden tray; closed clear jar of round yellow beans with wood lid and metal clasp on a pantry counter. All main objects and containers fit. Watermelon rind stripe detail is subtle; no text, people or sharp tools visible. Third seam is1287, so kitchen-fruit-03 is1008x392, honestly below400 but above300; other crop heights417,418,485. No upscaling.",
+    "cuts": [
+      437,
+      875,
+      1287
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1297,
+      "width": 1008,
+      "height": 485
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bean-03-scene0",
+        "label": "厨房储物台上密封罐里的干黄豆",
+        "image": "hanzi-images/realistic-v1/kitchen-bean-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bean"
+  },
+  {
+    "id": "kitchen-noodles-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-09_1795401439134_b75efd3f.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): An open clear rectangular food container holding plain cooked noodles that have cooled completely on a clean kitchen lunch-preparation table. Distinct long strands and the entire container are visible, the matching lid lies flat beside it within a wide daylight photograph, no steam, hot pot, people, labels or text.\nPanel 2 (top-to-bottom): A complete empty white enamel-coated metal mug with a blue rim and one handle standing on a clean kitchen breakfast counter. The intact enamel surface, open rim, full handle and stable base are visible in natural daylight landscape photography, no chips, liquid, people, logos or text.\nPanel 3 (top-to-bottom): A complete empty pale wooden food bowl on a clean striped cotton tablecloth at a kitchen dining table. Its wide opening, deep rounded interior, natural wood grain and full base are visible with generous margins in a soft daylight landscape photograph, no food, people, carving tools or text.\nPanel 4 (top-to-bottom): A complete empty round stainless steel serving plate resting flat on a clean kitchen dining table. Its shallow interior, slightly raised circular rim and brushed metal surface are visible in high three-quarter landscape framing with realistic daylight reflections, no food, people, heavy stacked dishes or text.",
+    "reviewNotes": "Observed top-to-bottom: open clear rectangular container with long pale noodles and a separate flat matching lid beside it; empty white enamel-style metal mug with blue rim and one handle; empty pale wood-grain bowl on blue-striped cotton; empty round brushed metal serving plate on a dining table. All main targets and the separate lid are complete within their panels. Noodle temperature is source-designated, not measurable from appearance. No people, text, sharp tools or steam visible. Crop heights419,426,426,441 at width1008; no upscaling.",
+    "cuts": [
+      439,
+      885,
+      1331
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "kitchen-noodles-03-scene0",
+        "label": "透明餐盒里已放凉的熟面条",
+        "image": "hanzi-images/realistic-v1/kitchen-noodles-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "noodles"
+  },
+  {
+    "id": "kitchen-cup-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-09_1795401439134_b75efd3f.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): An open clear rectangular food container holding plain cooked noodles that have cooled completely on a clean kitchen lunch-preparation table. Distinct long strands and the entire container are visible, the matching lid lies flat beside it within a wide daylight photograph, no steam, hot pot, people, labels or text.\nPanel 2 (top-to-bottom): A complete empty white enamel-coated metal mug with a blue rim and one handle standing on a clean kitchen breakfast counter. The intact enamel surface, open rim, full handle and stable base are visible in natural daylight landscape photography, no chips, liquid, people, logos or text.\nPanel 3 (top-to-bottom): A complete empty pale wooden food bowl on a clean striped cotton tablecloth at a kitchen dining table. Its wide opening, deep rounded interior, natural wood grain and full base are visible with generous margins in a soft daylight landscape photograph, no food, people, carving tools or text.\nPanel 4 (top-to-bottom): A complete empty round stainless steel serving plate resting flat on a clean kitchen dining table. Its shallow interior, slightly raised circular rim and brushed metal surface are visible in high three-quarter landscape framing with realistic daylight reflections, no food, people, heavy stacked dishes or text.",
+    "reviewNotes": "Observed top-to-bottom: open clear rectangular container with long pale noodles and a separate flat matching lid beside it; empty white enamel-style metal mug with blue rim and one handle; empty pale wood-grain bowl on blue-striped cotton; empty round brushed metal serving plate on a dining table. All main targets and the separate lid are complete within their panels. Noodle temperature is source-designated, not measurable from appearance. No people, text, sharp tools or steam visible. Crop heights419,426,426,441 at width1008; no upscaling.",
+    "cuts": [
+      439,
+      885,
+      1331
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 449,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "kitchen-cup-03-scene0",
+        "label": "早餐台上空蓝边带柄搪瓷杯",
+        "image": "hanzi-images/realistic-v1/kitchen-cup-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cup"
+  },
+  {
+    "id": "kitchen-bowl-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-09_1795401439134_b75efd3f.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): An open clear rectangular food container holding plain cooked noodles that have cooled completely on a clean kitchen lunch-preparation table. Distinct long strands and the entire container are visible, the matching lid lies flat beside it within a wide daylight photograph, no steam, hot pot, people, labels or text.\nPanel 2 (top-to-bottom): A complete empty white enamel-coated metal mug with a blue rim and one handle standing on a clean kitchen breakfast counter. The intact enamel surface, open rim, full handle and stable base are visible in natural daylight landscape photography, no chips, liquid, people, logos or text.\nPanel 3 (top-to-bottom): A complete empty pale wooden food bowl on a clean striped cotton tablecloth at a kitchen dining table. Its wide opening, deep rounded interior, natural wood grain and full base are visible with generous margins in a soft daylight landscape photograph, no food, people, carving tools or text.\nPanel 4 (top-to-bottom): A complete empty round stainless steel serving plate resting flat on a clean kitchen dining table. Its shallow interior, slightly raised circular rim and brushed metal surface are visible in high three-quarter landscape framing with realistic daylight reflections, no food, people, heavy stacked dishes or text.",
+    "reviewNotes": "Observed top-to-bottom: open clear rectangular container with long pale noodles and a separate flat matching lid beside it; empty white enamel-style metal mug with blue rim and one handle; empty pale wood-grain bowl on blue-striped cotton; empty round brushed metal serving plate on a dining table. All main targets and the separate lid are complete within their panels. Noodle temperature is source-designated, not measurable from appearance. No people, text, sharp tools or steam visible. Crop heights419,426,426,441 at width1008; no upscaling.",
+    "cuts": [
+      439,
+      885,
+      1331
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 895,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "kitchen-bowl-03-scene0",
+        "label": "条纹餐布上的空浅色木碗",
+        "image": "hanzi-images/realistic-v1/kitchen-bowl-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bowl"
+  },
+  {
+    "id": "kitchen-plate-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-kitchen-v3-09_1795401439134_b75efd3f.png",
+    "prompt": "Use case: AI-generated photorealistic covers for four independent kitchen learning stories.\nLayout: one 1024x1792 sheet containing exactly four independent full-width landscape photographs stacked top to bottom, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448,896,1344. No outer border or vertical dividers.\nStyle and safety: photorealistic natural kitchen daylight, credible materials, real grain, glaze, glass and food textures, not illustration or CGI. No people, hands, children, identity, sharp tools, hot tools, flames or steam. No text, numbers, captions, labels, logos or watermarks anywhere. These are generated images, not camera or archival records.\nFraming: each panel is a separate scene, never blended with another. Keep every main object and its entire container fully inside its panel, centered with generous crop-safe margins of at least 8 percent on all sides. High three-quarter viewpoints where needed to show contents clearly.\nPanel 1 (top-to-bottom): An open clear rectangular food container holding plain cooked noodles that have cooled completely on a clean kitchen lunch-preparation table. Distinct long strands and the entire container are visible, the matching lid lies flat beside it within a wide daylight photograph, no steam, hot pot, people, labels or text.\nPanel 2 (top-to-bottom): A complete empty white enamel-coated metal mug with a blue rim and one handle standing on a clean kitchen breakfast counter. The intact enamel surface, open rim, full handle and stable base are visible in natural daylight landscape photography, no chips, liquid, people, logos or text.\nPanel 3 (top-to-bottom): A complete empty pale wooden food bowl on a clean striped cotton tablecloth at a kitchen dining table. Its wide opening, deep rounded interior, natural wood grain and full base are visible with generous margins in a soft daylight landscape photograph, no food, people, carving tools or text.\nPanel 4 (top-to-bottom): A complete empty round stainless steel serving plate resting flat on a clean kitchen dining table. Its shallow interior, slightly raised circular rim and brushed metal surface are visible in high three-quarter landscape framing with realistic daylight reflections, no food, people, heavy stacked dishes or text.",
+    "reviewNotes": "Observed top-to-bottom: open clear rectangular container with long pale noodles and a separate flat matching lid beside it; empty white enamel-style metal mug with blue rim and one handle; empty pale wood-grain bowl on blue-striped cotton; empty round brushed metal serving plate on a dining table. All main targets and the separate lid are complete within their panels. Noodle temperature is source-designated, not measurable from appearance. No people, text, sharp tools or steam visible. Crop heights419,426,426,441 at width1008; no upscaling.",
+    "cuts": [
+      439,
+      885,
+      1331
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1341,
+      "width": 1008,
+      "height": 441
+    },
+    "contexts": [
+      {
+        "id": "kitchen-plate-03-scene0",
+        "label": "厨房餐桌上空圆形不锈钢盘",
+        "image": "hanzi-images/realistic-v1/kitchen-plate-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "plate"
+  }
+]

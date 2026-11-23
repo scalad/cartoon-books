@@ -1,0 +1,938 @@
+[
+  {
+    "id": "home-door-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-01_1795398166025_af8bf4b6.png",
+    "prompt": "Use case: four distinct photographic covers for a children's Hanzi home-story catalog. Create a 1024x1792 sheet containing exactly FOUR standalone full-width landscape photographs stacked vertically in the order below, each equally tall, approximately 448px. Put exactly three straight white 4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer border. Each photograph must show its complete main subject centered with at least 8% crop-safe margin on all sides, wholly inside its own panel; zoom out as needed for tall furniture. Natural photorealistic home interiors, credible construction, tactile fabric, wood grain, glass reflections, soft real daylight; not illustration, cartoon or CGI. No people, children, captions, letters, numbers, labels, logos or watermarks. Four scenes, top to bottom:\nPanel 1: A complete closed pale blue interior room door with its frame and handle in a bright home hallway, a plain fabric guest slipper basket on the floor beside it. Straight-on photorealistic framing, the entire door centered with crop-safe margins, no people, door numbers or text.\nPanel 2: A complete wide rectangular closed two-pane window with a white frame above an empty low reading bench, beige curtains drawn aside and soft morning light through the glass. The whole window fits inside a photorealistic landscape frame, no people, open windows, climbing equipment or text.\nPanel 3: A complete small amber-shaded bedside table lamp softly illuminated on a wooden nightstand next to a closed plain book. Realistic shade, stem and stable base all fully visible within crop-safe margins, quiet bedroom photography, no people, visible plugs, exposed wiring or text.\nPanel 4: A complete low single bed made with a pale green quilt and one cream pillow in a quiet bedroom. The bed frame and mattress are fully visible, spare folded bedding on a low shelf, soft daylight and real fabric texture. No bunk bed in this new cover, people or text.\nKeep the four scenes independent with no objects crossing the white seams. The door, two-pane window, amber lamp and green-quilt single bed must each be unmistakable, complete, and visibly different subjects.",
+    "reviewNotes": "Actual JPEG reviewed: closed pale-blue door with wicker slipper basket; closed two-pane white window above empty low cushioned bench and beige curtains; glowing amber table lamp with complete base beside closed book; complete low single bed with pale-green quilt, cream pillow and folded linens on low shelf. All four referents present, no people or text; crop heights 423/431/430/428px. Door sceneDescription corrected from fabric basket to wicker, matching actual photograph.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "home-door-01-scene0",
+        "label": "拖鞋篮旁关着的蓝色房间门",
+        "image": "hanzi-images/realistic-v1/home-door-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "home-window-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-01_1795398166025_af8bf4b6.png",
+    "prompt": "Use case: four distinct photographic covers for a children's Hanzi home-story catalog. Create a 1024x1792 sheet containing exactly FOUR standalone full-width landscape photographs stacked vertically in the order below, each equally tall, approximately 448px. Put exactly three straight white 4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer border. Each photograph must show its complete main subject centered with at least 8% crop-safe margin on all sides, wholly inside its own panel; zoom out as needed for tall furniture. Natural photorealistic home interiors, credible construction, tactile fabric, wood grain, glass reflections, soft real daylight; not illustration, cartoon or CGI. No people, children, captions, letters, numbers, labels, logos or watermarks. Four scenes, top to bottom:\nPanel 1: A complete closed pale blue interior room door with its frame and handle in a bright home hallway, a plain fabric guest slipper basket on the floor beside it. Straight-on photorealistic framing, the entire door centered with crop-safe margins, no people, door numbers or text.\nPanel 2: A complete wide rectangular closed two-pane window with a white frame above an empty low reading bench, beige curtains drawn aside and soft morning light through the glass. The whole window fits inside a photorealistic landscape frame, no people, open windows, climbing equipment or text.\nPanel 3: A complete small amber-shaded bedside table lamp softly illuminated on a wooden nightstand next to a closed plain book. Realistic shade, stem and stable base all fully visible within crop-safe margins, quiet bedroom photography, no people, visible plugs, exposed wiring or text.\nPanel 4: A complete low single bed made with a pale green quilt and one cream pillow in a quiet bedroom. The bed frame and mattress are fully visible, spare folded bedding on a low shelf, soft daylight and real fabric texture. No bunk bed in this new cover, people or text.\nKeep the four scenes independent with no objects crossing the white seams. The door, two-pane window, amber lamp and green-quilt single bed must each be unmistakable, complete, and visibly different subjects.",
+    "reviewNotes": "Actual JPEG reviewed: closed pale-blue door with wicker slipper basket; closed two-pane white window above empty low cushioned bench and beige curtains; glowing amber table lamp with complete base beside closed book; complete low single bed with pale-green quilt, cream pillow and folded linens on low shelf. All four referents present, no people or text; crop heights 423/431/430/428px. Door sceneDescription corrected from fabric basket to wicker, matching actual photograph.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "home-window-01-scene0",
+        "label": "矮凳上方关着的两格长方窗",
+        "image": "hanzi-images/realistic-v1/home-window-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "window"
+  },
+  {
+    "id": "home-lamp-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-01_1795398166025_af8bf4b6.png",
+    "prompt": "Use case: four distinct photographic covers for a children's Hanzi home-story catalog. Create a 1024x1792 sheet containing exactly FOUR standalone full-width landscape photographs stacked vertically in the order below, each equally tall, approximately 448px. Put exactly three straight white 4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer border. Each photograph must show its complete main subject centered with at least 8% crop-safe margin on all sides, wholly inside its own panel; zoom out as needed for tall furniture. Natural photorealistic home interiors, credible construction, tactile fabric, wood grain, glass reflections, soft real daylight; not illustration, cartoon or CGI. No people, children, captions, letters, numbers, labels, logos or watermarks. Four scenes, top to bottom:\nPanel 1: A complete closed pale blue interior room door with its frame and handle in a bright home hallway, a plain fabric guest slipper basket on the floor beside it. Straight-on photorealistic framing, the entire door centered with crop-safe margins, no people, door numbers or text.\nPanel 2: A complete wide rectangular closed two-pane window with a white frame above an empty low reading bench, beige curtains drawn aside and soft morning light through the glass. The whole window fits inside a photorealistic landscape frame, no people, open windows, climbing equipment or text.\nPanel 3: A complete small amber-shaded bedside table lamp softly illuminated on a wooden nightstand next to a closed plain book. Realistic shade, stem and stable base all fully visible within crop-safe margins, quiet bedroom photography, no people, visible plugs, exposed wiring or text.\nPanel 4: A complete low single bed made with a pale green quilt and one cream pillow in a quiet bedroom. The bed frame and mattress are fully visible, spare folded bedding on a low shelf, soft daylight and real fabric texture. No bunk bed in this new cover, people or text.\nKeep the four scenes independent with no objects crossing the white seams. The door, two-pane window, amber lamp and green-quilt single bed must each be unmistakable, complete, and visibly different subjects.",
+    "reviewNotes": "Actual JPEG reviewed: closed pale-blue door with wicker slipper basket; closed two-pane white window above empty low cushioned bench and beige curtains; glowing amber table lamp with complete base beside closed book; complete low single bed with pale-green quilt, cream pillow and folded linens on low shelf. All four referents present, no people or text; crop heights 423/431/430/428px. Door sceneDescription corrected from fabric basket to wicker, matching actual photograph.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "home-lamp-01-scene0",
+        "label": "床头柜上亮着的琥珀色台灯",
+        "image": "hanzi-images/realistic-v1/home-lamp-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "lamp"
+  },
+  {
+    "id": "home-bed-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-01_1795398166025_af8bf4b6.png",
+    "prompt": "Use case: four distinct photographic covers for a children's Hanzi home-story catalog. Create a 1024x1792 sheet containing exactly FOUR standalone full-width landscape photographs stacked vertically in the order below, each equally tall, approximately 448px. Put exactly three straight white 4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer border. Each photograph must show its complete main subject centered with at least 8% crop-safe margin on all sides, wholly inside its own panel; zoom out as needed for tall furniture. Natural photorealistic home interiors, credible construction, tactile fabric, wood grain, glass reflections, soft real daylight; not illustration, cartoon or CGI. No people, children, captions, letters, numbers, labels, logos or watermarks. Four scenes, top to bottom:\nPanel 1: A complete closed pale blue interior room door with its frame and handle in a bright home hallway, a plain fabric guest slipper basket on the floor beside it. Straight-on photorealistic framing, the entire door centered with crop-safe margins, no people, door numbers or text.\nPanel 2: A complete wide rectangular closed two-pane window with a white frame above an empty low reading bench, beige curtains drawn aside and soft morning light through the glass. The whole window fits inside a photorealistic landscape frame, no people, open windows, climbing equipment or text.\nPanel 3: A complete small amber-shaded bedside table lamp softly illuminated on a wooden nightstand next to a closed plain book. Realistic shade, stem and stable base all fully visible within crop-safe margins, quiet bedroom photography, no people, visible plugs, exposed wiring or text.\nPanel 4: A complete low single bed made with a pale green quilt and one cream pillow in a quiet bedroom. The bed frame and mattress are fully visible, spare folded bedding on a low shelf, soft daylight and real fabric texture. No bunk bed in this new cover, people or text.\nKeep the four scenes independent with no objects crossing the white seams. The door, two-pane window, amber lamp and green-quilt single bed must each be unmistakable, complete, and visibly different subjects.",
+    "reviewNotes": "Actual JPEG reviewed: closed pale-blue door with wicker slipper basket; closed two-pane white window above empty low cushioned bench and beige curtains; glowing amber table lamp with complete base beside closed book; complete low single bed with pale-green quilt, cream pillow and folded linens on low shelf. All four referents present, no people or text; crop heights 423/431/430/428px. Door sceneDescription corrected from fabric basket to wicker, matching actual photograph.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "home-bed-01-scene0",
+        "label": "铺着浅绿被子的低单人床",
+        "image": "hanzi-images/realistic-v1/home-bed-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bed"
+  },
+  {
+    "id": "home-shirt-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-02_1795398320915_ef3d1003.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a 1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked top to bottom, equally tall at approximately 448px. Exactly three straight 4-6px white horizontal separators near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic domestic interiors, real knit and cotton textures, wood grain, credible materials and construction, soft daylight. Frame every complete target centrally with at least 8% safe margin, no object cut off or crossing a seam. No people, children, captions, words, numbers, labels, logos, watermarks, illustration or CGI. Top-to-bottom scenes:\nPanel 1: A cream knitted sweater neatly folded with its neckline and sleeves visible in a shallow fabric storage basket on a low bedroom shelf. Centered full garment presentation with tactile knit texture, calm daylight, no people, labels or text.\nPanel 2: A complete soft blue wide-brim fabric sunhat lying in a plain shallow wooden tray on a low entryway console. The crown and entire brim are visible with generous margins, natural home light and authentic cotton stitching, no people, logos or text.\nPanel 3: A complete olive green soft travel duffel bag open on a low wooden bedroom bench, with a folded plain sweater and a soft fabric pouch beside it. The handles, zipper opening and full bag body are visible, no luggage tag, people or text.\nPanel 4: A complete closed dark blue straight-handled umbrella leaning securely in a wide sturdy entryway umbrella stand beside a textured drip mat. Canopy folds and handle clearly visible, a few water droplets on fabric, photorealistic indoor light, no people or text.\nKeep each garment or accessory unmistakable, realistically shaped and wholly visible. The folded cream sweater, blue wide-brim sunhat, open olive duffel and closed dark-blue straight-handled umbrella are four different photographs, not one shared room. Zoom out enough to retain complete handle and tip of the tall umbrella in its landscape panel.",
+    "reviewNotes": "Actual JPEG reviewed: folded cream cable-knit sweater with collar and sleeves in fabric basket; complete blue broad-brim cloth sunhat in wooden tray; open olive duffel on low bench with folded sweater inside and fabric pouch beside; closed dark-blue umbrella with straight wooden handle in stable ceramic stand next to drip mat. All referents clear, no people or readable text; small blank-looking collar tag present. Crop heights 426/429/430/427px. Duffel sceneDescription corrected to sweater inside rather than beside.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "home-shirt-01-scene0",
+        "label": "软篮里折好的米色毛衣",
+        "image": "hanzi-images/realistic-v1/home-shirt-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shirt"
+  },
+  {
+    "id": "home-hat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-02_1795398320915_ef3d1003.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a 1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked top to bottom, equally tall at approximately 448px. Exactly three straight 4-6px white horizontal separators near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic domestic interiors, real knit and cotton textures, wood grain, credible materials and construction, soft daylight. Frame every complete target centrally with at least 8% safe margin, no object cut off or crossing a seam. No people, children, captions, words, numbers, labels, logos, watermarks, illustration or CGI. Top-to-bottom scenes:\nPanel 1: A cream knitted sweater neatly folded with its neckline and sleeves visible in a shallow fabric storage basket on a low bedroom shelf. Centered full garment presentation with tactile knit texture, calm daylight, no people, labels or text.\nPanel 2: A complete soft blue wide-brim fabric sunhat lying in a plain shallow wooden tray on a low entryway console. The crown and entire brim are visible with generous margins, natural home light and authentic cotton stitching, no people, logos or text.\nPanel 3: A complete olive green soft travel duffel bag open on a low wooden bedroom bench, with a folded plain sweater and a soft fabric pouch beside it. The handles, zipper opening and full bag body are visible, no luggage tag, people or text.\nPanel 4: A complete closed dark blue straight-handled umbrella leaning securely in a wide sturdy entryway umbrella stand beside a textured drip mat. Canopy folds and handle clearly visible, a few water droplets on fabric, photorealistic indoor light, no people or text.\nKeep each garment or accessory unmistakable, realistically shaped and wholly visible. The folded cream sweater, blue wide-brim sunhat, open olive duffel and closed dark-blue straight-handled umbrella are four different photographs, not one shared room. Zoom out enough to retain complete handle and tip of the tall umbrella in its landscape panel.",
+    "reviewNotes": "Actual JPEG reviewed: folded cream cable-knit sweater with collar and sleeves in fabric basket; complete blue broad-brim cloth sunhat in wooden tray; open olive duffel on low bench with folded sweater inside and fabric pouch beside; closed dark-blue umbrella with straight wooden handle in stable ceramic stand next to drip mat. All referents clear, no people or readable text; small blank-looking collar tag present. Crop heights 426/429/430/427px. Duffel sceneDescription corrected to sweater inside rather than beside.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "home-hat-01-scene0",
+        "label": "玄关木托盘里的蓝色宽檐布帽",
+        "image": "hanzi-images/realistic-v1/home-hat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "home-bag-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-02_1795398320915_ef3d1003.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a 1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked top to bottom, equally tall at approximately 448px. Exactly three straight 4-6px white horizontal separators near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic domestic interiors, real knit and cotton textures, wood grain, credible materials and construction, soft daylight. Frame every complete target centrally with at least 8% safe margin, no object cut off or crossing a seam. No people, children, captions, words, numbers, labels, logos, watermarks, illustration or CGI. Top-to-bottom scenes:\nPanel 1: A cream knitted sweater neatly folded with its neckline and sleeves visible in a shallow fabric storage basket on a low bedroom shelf. Centered full garment presentation with tactile knit texture, calm daylight, no people, labels or text.\nPanel 2: A complete soft blue wide-brim fabric sunhat lying in a plain shallow wooden tray on a low entryway console. The crown and entire brim are visible with generous margins, natural home light and authentic cotton stitching, no people, logos or text.\nPanel 3: A complete olive green soft travel duffel bag open on a low wooden bedroom bench, with a folded plain sweater and a soft fabric pouch beside it. The handles, zipper opening and full bag body are visible, no luggage tag, people or text.\nPanel 4: A complete closed dark blue straight-handled umbrella leaning securely in a wide sturdy entryway umbrella stand beside a textured drip mat. Canopy folds and handle clearly visible, a few water droplets on fabric, photorealistic indoor light, no people or text.\nKeep each garment or accessory unmistakable, realistically shaped and wholly visible. The folded cream sweater, blue wide-brim sunhat, open olive duffel and closed dark-blue straight-handled umbrella are four different photographs, not one shared room. Zoom out enough to retain complete handle and tip of the tall umbrella in its landscape panel.",
+    "reviewNotes": "Actual JPEG reviewed: folded cream cable-knit sweater with collar and sleeves in fabric basket; complete blue broad-brim cloth sunhat in wooden tray; open olive duffel on low bench with folded sweater inside and fabric pouch beside; closed dark-blue umbrella with straight wooden handle in stable ceramic stand next to drip mat. All referents clear, no people or readable text; small blank-looking collar tag present. Crop heights 426/429/430/427px. Duffel sceneDescription corrected to sweater inside rather than beside.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "home-bag-01-scene0",
+        "label": "卧室长凳上打开的绿色旅行包",
+        "image": "hanzi-images/realistic-v1/home-bag-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "home-umbrella-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-02_1795398320915_ef3d1003.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a 1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked top to bottom, equally tall at approximately 448px. Exactly three straight 4-6px white horizontal separators near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic domestic interiors, real knit and cotton textures, wood grain, credible materials and construction, soft daylight. Frame every complete target centrally with at least 8% safe margin, no object cut off or crossing a seam. No people, children, captions, words, numbers, labels, logos, watermarks, illustration or CGI. Top-to-bottom scenes:\nPanel 1: A cream knitted sweater neatly folded with its neckline and sleeves visible in a shallow fabric storage basket on a low bedroom shelf. Centered full garment presentation with tactile knit texture, calm daylight, no people, labels or text.\nPanel 2: A complete soft blue wide-brim fabric sunhat lying in a plain shallow wooden tray on a low entryway console. The crown and entire brim are visible with generous margins, natural home light and authentic cotton stitching, no people, logos or text.\nPanel 3: A complete olive green soft travel duffel bag open on a low wooden bedroom bench, with a folded plain sweater and a soft fabric pouch beside it. The handles, zipper opening and full bag body are visible, no luggage tag, people or text.\nPanel 4: A complete closed dark blue straight-handled umbrella leaning securely in a wide sturdy entryway umbrella stand beside a textured drip mat. Canopy folds and handle clearly visible, a few water droplets on fabric, photorealistic indoor light, no people or text.\nKeep each garment or accessory unmistakable, realistically shaped and wholly visible. The folded cream sweater, blue wide-brim sunhat, open olive duffel and closed dark-blue straight-handled umbrella are four different photographs, not one shared room. Zoom out enough to retain complete handle and tip of the tall umbrella in its landscape panel.",
+    "reviewNotes": "Actual JPEG reviewed: folded cream cable-knit sweater with collar and sleeves in fabric basket; complete blue broad-brim cloth sunhat in wooden tray; open olive duffel on low bench with folded sweater inside and fabric pouch beside; closed dark-blue umbrella with straight wooden handle in stable ceramic stand next to drip mat. All referents clear, no people or readable text; small blank-looking collar tag present. Crop heights 426/429/430/427px. Duffel sceneDescription corrected to sweater inside rather than beside.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "home-umbrella-01-scene0",
+        "label": "玄关滴水垫旁合拢的深蓝雨伞",
+        "image": "hanzi-images/realistic-v1/home-umbrella-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "home-table-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-03_1795398463334_d0e2fe1f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR full-width independent landscape photographs stacked top-to-bottom on one 1024x1792 sheet. Four equally tall panels around448px each, with exactly three straight white 4-6px horizontal separators at approximately y=448,896,1344; no vertical divisions, borders or captions. Authentic natural photorealism: wood grain, soft fabric, glass and plaster textures, credible ordinary household construction, gentle daylight. Center each complete main subject within its own landscape panel with at least8% crop-safe margin; use a wide shot for the building and furniture. No people, children, writing, letters, numerals, labels, logos, watermarks, CGI or cartoons. Top-to-bottom scenes:\nPanel 1: A complete round wooden table in a tidy living room with a single closed unmarked cardboard jigsaw box at the center. Its circular tabletop and stable legs are fully visible, natural wood grain and soft daylight, no people, loose tiny pieces or text.\nPanel 2: A complete sturdy wooden chair with a mustard yellow seat cushion beside a low bookcase in a home storytelling corner. Clearly visible backrest, seat and four legs, realistic wood and fabric, no people, wheels or text.\nPanel 3: A complete round wall clock with a light wooden rim and two distinct hands, using simple tick marks instead of numerals, hanging above a low breakfast sideboard. Soft morning light, credible clock construction, no people, digits, words or text.\nPanel 4: A complete real single-storey white plaster house behind a low picket fence, with a terracotta pitched roof, a clearly built front door and windows. The entire building and roof fit inside a wide landscape frame, natural daylight, no people, house numbers, signs or text.\nAll four subjects are separate photographic scenes. The clock has only tick marks and two hands, never numerals. The house is a real building with its whole roof and walls visible, not a toy or model. Keep the white fence low enough not to obscure the door and windows.",
+    "reviewNotes": "Actual JPEG reviewed: whole round wooden table with closed blank cardboard box; complete four-legged wooden chair with mustard cushion beside bookcase; whole round wood-rimmed wall clock with tick marks and two black hands above breakfast sideboard; complete single-storey white-plaster house with terracotta pitched roof, door and windows behind low picket fence. All target objects present, no people or readable text. Crop heights 422/433/431/426px. No source edits needed for this sheet.",
+    "cuts": [
+      442,
+      895,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "home-table-01-scene0",
+        "label": "客厅里摆着拼图盒的圆木桌",
+        "image": "hanzi-images/realistic-v1/home-table-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "home-chair-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-03_1795398463334_d0e2fe1f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR full-width independent landscape photographs stacked top-to-bottom on one 1024x1792 sheet. Four equally tall panels around448px each, with exactly three straight white 4-6px horizontal separators at approximately y=448,896,1344; no vertical divisions, borders or captions. Authentic natural photorealism: wood grain, soft fabric, glass and plaster textures, credible ordinary household construction, gentle daylight. Center each complete main subject within its own landscape panel with at least8% crop-safe margin; use a wide shot for the building and furniture. No people, children, writing, letters, numerals, labels, logos, watermarks, CGI or cartoons. Top-to-bottom scenes:\nPanel 1: A complete round wooden table in a tidy living room with a single closed unmarked cardboard jigsaw box at the center. Its circular tabletop and stable legs are fully visible, natural wood grain and soft daylight, no people, loose tiny pieces or text.\nPanel 2: A complete sturdy wooden chair with a mustard yellow seat cushion beside a low bookcase in a home storytelling corner. Clearly visible backrest, seat and four legs, realistic wood and fabric, no people, wheels or text.\nPanel 3: A complete round wall clock with a light wooden rim and two distinct hands, using simple tick marks instead of numerals, hanging above a low breakfast sideboard. Soft morning light, credible clock construction, no people, digits, words or text.\nPanel 4: A complete real single-storey white plaster house behind a low picket fence, with a terracotta pitched roof, a clearly built front door and windows. The entire building and roof fit inside a wide landscape frame, natural daylight, no people, house numbers, signs or text.\nAll four subjects are separate photographic scenes. The clock has only tick marks and two hands, never numerals. The house is a real building with its whole roof and walls visible, not a toy or model. Keep the white fence low enough not to obscure the door and windows.",
+    "reviewNotes": "Actual JPEG reviewed: whole round wooden table with closed blank cardboard box; complete four-legged wooden chair with mustard cushion beside bookcase; whole round wood-rimmed wall clock with tick marks and two black hands above breakfast sideboard; complete single-storey white-plaster house with terracotta pitched roof, door and windows behind low picket fence. All target objects present, no people or readable text. Crop heights 422/433/431/426px. No source edits needed for this sheet.",
+    "cuts": [
+      442,
+      895,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 452,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "home-chair-01-scene0",
+        "label": "书柜旁放着黄软垫的木椅",
+        "image": "hanzi-images/realistic-v1/home-chair-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chair"
+  },
+  {
+    "id": "home-clock-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-03_1795398463334_d0e2fe1f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR full-width independent landscape photographs stacked top-to-bottom on one 1024x1792 sheet. Four equally tall panels around448px each, with exactly three straight white 4-6px horizontal separators at approximately y=448,896,1344; no vertical divisions, borders or captions. Authentic natural photorealism: wood grain, soft fabric, glass and plaster textures, credible ordinary household construction, gentle daylight. Center each complete main subject within its own landscape panel with at least8% crop-safe margin; use a wide shot for the building and furniture. No people, children, writing, letters, numerals, labels, logos, watermarks, CGI or cartoons. Top-to-bottom scenes:\nPanel 1: A complete round wooden table in a tidy living room with a single closed unmarked cardboard jigsaw box at the center. Its circular tabletop and stable legs are fully visible, natural wood grain and soft daylight, no people, loose tiny pieces or text.\nPanel 2: A complete sturdy wooden chair with a mustard yellow seat cushion beside a low bookcase in a home storytelling corner. Clearly visible backrest, seat and four legs, realistic wood and fabric, no people, wheels or text.\nPanel 3: A complete round wall clock with a light wooden rim and two distinct hands, using simple tick marks instead of numerals, hanging above a low breakfast sideboard. Soft morning light, credible clock construction, no people, digits, words or text.\nPanel 4: A complete real single-storey white plaster house behind a low picket fence, with a terracotta pitched roof, a clearly built front door and windows. The entire building and roof fit inside a wide landscape frame, natural daylight, no people, house numbers, signs or text.\nAll four subjects are separate photographic scenes. The clock has only tick marks and two hands, never numerals. The house is a real building with its whole roof and walls visible, not a toy or model. Keep the white fence low enough not to obscure the door and windows.",
+    "reviewNotes": "Actual JPEG reviewed: whole round wooden table with closed blank cardboard box; complete four-legged wooden chair with mustard cushion beside bookcase; whole round wood-rimmed wall clock with tick marks and two black hands above breakfast sideboard; complete single-storey white-plaster house with terracotta pitched roof, door and windows behind low picket fence. All target objects present, no people or readable text. Crop heights 422/433/431/426px. No source edits needed for this sheet.",
+    "cuts": [
+      442,
+      895,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "home-clock-01-scene0",
+        "label": "早餐角墙上带刻线的圆时钟",
+        "image": "hanzi-images/realistic-v1/home-clock-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "clock"
+  },
+  {
+    "id": "home-house-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-03_1795398463334_d0e2fe1f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR full-width independent landscape photographs stacked top-to-bottom on one 1024x1792 sheet. Four equally tall panels around448px each, with exactly three straight white 4-6px horizontal separators at approximately y=448,896,1344; no vertical divisions, borders or captions. Authentic natural photorealism: wood grain, soft fabric, glass and plaster textures, credible ordinary household construction, gentle daylight. Center each complete main subject within its own landscape panel with at least8% crop-safe margin; use a wide shot for the building and furniture. No people, children, writing, letters, numerals, labels, logos, watermarks, CGI or cartoons. Top-to-bottom scenes:\nPanel 1: A complete round wooden table in a tidy living room with a single closed unmarked cardboard jigsaw box at the center. Its circular tabletop and stable legs are fully visible, natural wood grain and soft daylight, no people, loose tiny pieces or text.\nPanel 2: A complete sturdy wooden chair with a mustard yellow seat cushion beside a low bookcase in a home storytelling corner. Clearly visible backrest, seat and four legs, realistic wood and fabric, no people, wheels or text.\nPanel 3: A complete round wall clock with a light wooden rim and two distinct hands, using simple tick marks instead of numerals, hanging above a low breakfast sideboard. Soft morning light, credible clock construction, no people, digits, words or text.\nPanel 4: A complete real single-storey white plaster house behind a low picket fence, with a terracotta pitched roof, a clearly built front door and windows. The entire building and roof fit inside a wide landscape frame, natural daylight, no people, house numbers, signs or text.\nAll four subjects are separate photographic scenes. The clock has only tick marks and two hands, never numerals. The house is a real building with its whole roof and walls visible, not a toy or model. Keep the white fence low enough not to obscure the door and windows.",
+    "reviewNotes": "Actual JPEG reviewed: whole round wooden table with closed blank cardboard box; complete four-legged wooden chair with mustard cushion beside bookcase; whole round wood-rimmed wall clock with tick marks and two black hands above breakfast sideboard; complete single-storey white-plaster house with terracotta pitched roof, door and windows behind low picket fence. All target objects present, no people or readable text. Crop heights 422/433/431/426px. No source edits needed for this sheet.",
+    "cuts": [
+      442,
+      895,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "home-house-01-scene0",
+        "label": "矮篱笆后的一层白墙房屋",
+        "image": "hanzi-images/realistic-v1/home-house-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "house"
+  },
+  {
+    "id": "home-towel-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-04_1795398564931_79ecb655.png",
+    "prompt": "Use case: four distinct natural photographic covers for children's Hanzi home stories. One 1024x1792 sheet, exactly FOUR equally tall full-width landscape photographs stacked vertically, each around448px high. Exactly three straight white 4-6px horizontal seams near y=448,896,1344, no vertical divisions or outer border. Authentic household photography, real cotton and terry texture, matte soap, oak wood grain and wet glass, credible construction and natural soft light. Show every main target wholly inside its independent panel, centered with at least8% crop-safe margins. No people, children, text, numbers, labels, logos, captions, watermarks, cartoons or CGI. Top-to-bottom scenes:\nPanel 1: A complete blue-and-white striped cotton hand towel draped neatly over a low simple towel rail beside a home washbasin. Soft dry terry texture and the entire towel visible, bright indoor photography, no people, personal labels or text.\nPanel 2: A single pale yellow square bar of soap centered in a simple white slotted draining soap dish on a clean home washbasin ledge. The entire bar and dish are visible, real slightly matte soap texture, no food, people, embossed marks or text.\nPanel 3: A complete closed warm oak bedroom door with its frame and handle, a small blank rectangular cloth hanging on a separate wall peg beside the door. Calm hallway photography, no writing on the cloth, no people, fingers or door operation, entire door inside margins.\nPanel 4: A complete closed rectangular white-framed home window seen safely from indoors with rain droplets on the glass and softly blurred outdoor greenery. Pale curtains at the sides, whole window centered, realistic wet glass, no people, open sash or text.\nFour independent scenes with no target crossing a seam. The yellow soap must clearly have a square outline in a white draining dish, not look like food. Blank hanging cloth is beside the wooden door, not on it. The window remains visibly closed and raindrops are clear on its glass; retain all four sides of the frame.",
+    "reviewNotes": "Actual JPEG reviewed: whole blue-white striped hand towel on rail beside basin; single square pale-yellow soap in white slotted draining dish; closed oak door with blank draped cloth on separate adjacent peg; closed white-framed rectangular double-pane window with visible raindrops and blurred greenery. All four target referents present, no people or readable text. Seams are unequal at432/837/1337; resulting heights412/385/480/435px, soap crop385px below400 but above300 minimum. Window upper trim is close to panel edge; glass, handles and rectangular frame remain identifiable. No story edits needed.",
+    "cuts": [
+      432,
+      837,
+      1337
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "home-towel-01-scene0",
+        "label": "洗手角低横杆上搭着的蓝白条纹手巾",
+        "image": "hanzi-images/realistic-v1/home-towel-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "towel"
+  },
+  {
+    "id": "home-soap-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-04_1795398564931_79ecb655.png",
+    "prompt": "Use case: four distinct natural photographic covers for children's Hanzi home stories. One 1024x1792 sheet, exactly FOUR equally tall full-width landscape photographs stacked vertically, each around448px high. Exactly three straight white 4-6px horizontal seams near y=448,896,1344, no vertical divisions or outer border. Authentic household photography, real cotton and terry texture, matte soap, oak wood grain and wet glass, credible construction and natural soft light. Show every main target wholly inside its independent panel, centered with at least8% crop-safe margins. No people, children, text, numbers, labels, logos, captions, watermarks, cartoons or CGI. Top-to-bottom scenes:\nPanel 1: A complete blue-and-white striped cotton hand towel draped neatly over a low simple towel rail beside a home washbasin. Soft dry terry texture and the entire towel visible, bright indoor photography, no people, personal labels or text.\nPanel 2: A single pale yellow square bar of soap centered in a simple white slotted draining soap dish on a clean home washbasin ledge. The entire bar and dish are visible, real slightly matte soap texture, no food, people, embossed marks or text.\nPanel 3: A complete closed warm oak bedroom door with its frame and handle, a small blank rectangular cloth hanging on a separate wall peg beside the door. Calm hallway photography, no writing on the cloth, no people, fingers or door operation, entire door inside margins.\nPanel 4: A complete closed rectangular white-framed home window seen safely from indoors with rain droplets on the glass and softly blurred outdoor greenery. Pale curtains at the sides, whole window centered, realistic wet glass, no people, open sash or text.\nFour independent scenes with no target crossing a seam. The yellow soap must clearly have a square outline in a white draining dish, not look like food. Blank hanging cloth is beside the wooden door, not on it. The window remains visibly closed and raindrops are clear on its glass; retain all four sides of the frame.",
+    "reviewNotes": "Actual JPEG reviewed: whole blue-white striped hand towel on rail beside basin; single square pale-yellow soap in white slotted draining dish; closed oak door with blank draped cloth on separate adjacent peg; closed white-framed rectangular double-pane window with visible raindrops and blurred greenery. All four target referents present, no people or readable text. Seams are unequal at432/837/1337; resulting heights412/385/480/435px, soap crop385px below400 but above300 minimum. Window upper trim is close to panel edge; glass, handles and rectangular frame remain identifiable. No story edits needed.",
+    "cuts": [
+      432,
+      837,
+      1337
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 442,
+      "width": 1008,
+      "height": 385
+    },
+    "contexts": [
+      {
+        "id": "home-soap-01-scene0",
+        "label": "沥水皂盒里的一块浅黄方形香皂",
+        "image": "hanzi-images/realistic-v1/home-soap-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "soap"
+  },
+  {
+    "id": "home-door-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-04_1795398564931_79ecb655.png",
+    "prompt": "Use case: four distinct natural photographic covers for children's Hanzi home stories. One 1024x1792 sheet, exactly FOUR equally tall full-width landscape photographs stacked vertically, each around448px high. Exactly three straight white 4-6px horizontal seams near y=448,896,1344, no vertical divisions or outer border. Authentic household photography, real cotton and terry texture, matte soap, oak wood grain and wet glass, credible construction and natural soft light. Show every main target wholly inside its independent panel, centered with at least8% crop-safe margins. No people, children, text, numbers, labels, logos, captions, watermarks, cartoons or CGI. Top-to-bottom scenes:\nPanel 1: A complete blue-and-white striped cotton hand towel draped neatly over a low simple towel rail beside a home washbasin. Soft dry terry texture and the entire towel visible, bright indoor photography, no people, personal labels or text.\nPanel 2: A single pale yellow square bar of soap centered in a simple white slotted draining soap dish on a clean home washbasin ledge. The entire bar and dish are visible, real slightly matte soap texture, no food, people, embossed marks or text.\nPanel 3: A complete closed warm oak bedroom door with its frame and handle, a small blank rectangular cloth hanging on a separate wall peg beside the door. Calm hallway photography, no writing on the cloth, no people, fingers or door operation, entire door inside margins.\nPanel 4: A complete closed rectangular white-framed home window seen safely from indoors with rain droplets on the glass and softly blurred outdoor greenery. Pale curtains at the sides, whole window centered, realistic wet glass, no people, open sash or text.\nFour independent scenes with no target crossing a seam. The yellow soap must clearly have a square outline in a white draining dish, not look like food. Blank hanging cloth is beside the wooden door, not on it. The window remains visibly closed and raindrops are clear on its glass; retain all four sides of the frame.",
+    "reviewNotes": "Actual JPEG reviewed: whole blue-white striped hand towel on rail beside basin; single square pale-yellow soap in white slotted draining dish; closed oak door with blank draped cloth on separate adjacent peg; closed white-framed rectangular double-pane window with visible raindrops and blurred greenery. All four target referents present, no people or readable text. Seams are unequal at432/837/1337; resulting heights412/385/480/435px, soap crop385px below400 but above300 minimum. Window upper trim is close to panel edge; glass, handles and rectangular frame remain identifiable. No story edits needed.",
+    "cuts": [
+      432,
+      837,
+      1337
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 847,
+      "width": 1008,
+      "height": 480
+    },
+    "contexts": [
+      {
+        "id": "home-door-02-scene0",
+        "label": "卧室门旁挂着空白布牌的木门",
+        "image": "hanzi-images/realistic-v1/home-door-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "home-window-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-04_1795398564931_79ecb655.png",
+    "prompt": "Use case: four distinct natural photographic covers for children's Hanzi home stories. One 1024x1792 sheet, exactly FOUR equally tall full-width landscape photographs stacked vertically, each around448px high. Exactly three straight white 4-6px horizontal seams near y=448,896,1344, no vertical divisions or outer border. Authentic household photography, real cotton and terry texture, matte soap, oak wood grain and wet glass, credible construction and natural soft light. Show every main target wholly inside its independent panel, centered with at least8% crop-safe margins. No people, children, text, numbers, labels, logos, captions, watermarks, cartoons or CGI. Top-to-bottom scenes:\nPanel 1: A complete blue-and-white striped cotton hand towel draped neatly over a low simple towel rail beside a home washbasin. Soft dry terry texture and the entire towel visible, bright indoor photography, no people, personal labels or text.\nPanel 2: A single pale yellow square bar of soap centered in a simple white slotted draining soap dish on a clean home washbasin ledge. The entire bar and dish are visible, real slightly matte soap texture, no food, people, embossed marks or text.\nPanel 3: A complete closed warm oak bedroom door with its frame and handle, a small blank rectangular cloth hanging on a separate wall peg beside the door. Calm hallway photography, no writing on the cloth, no people, fingers or door operation, entire door inside margins.\nPanel 4: A complete closed rectangular white-framed home window seen safely from indoors with rain droplets on the glass and softly blurred outdoor greenery. Pale curtains at the sides, whole window centered, realistic wet glass, no people, open sash or text.\nFour independent scenes with no target crossing a seam. The yellow soap must clearly have a square outline in a white draining dish, not look like food. Blank hanging cloth is beside the wooden door, not on it. The window remains visibly closed and raindrops are clear on its glass; retain all four sides of the frame.",
+    "reviewNotes": "Actual JPEG reviewed: whole blue-white striped hand towel on rail beside basin; single square pale-yellow soap in white slotted draining dish; closed oak door with blank draped cloth on separate adjacent peg; closed white-framed rectangular double-pane window with visible raindrops and blurred greenery. All four target referents present, no people or readable text. Seams are unequal at432/837/1337; resulting heights412/385/480/435px, soap crop385px below400 but above300 minimum. Window upper trim is close to panel edge; glass, handles and rectangular frame remain identifiable. No story edits needed.",
+    "cuts": [
+      432,
+      837,
+      1337
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1347,
+      "width": 1008,
+      "height": 435
+    },
+    "contexts": [
+      {
+        "id": "home-window-02-scene0",
+        "label": "玻璃上带雨滴的关着的长方窗",
+        "image": "hanzi-images/realistic-v1/home-window-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "window"
+  },
+  {
+    "id": "home-lamp-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-05_1795398678357_ab96a34d.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Generate a 1024x1792 sheet of exactly FOUR independent full-width landscape photos stacked vertically. Make each panel equally tall, approximately448px, and place exactly three straight white4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer borders. Realistic home photography with linen, cotton, metal and wood texture, credible household construction, natural gentle light; never cartoon or CGI. Center each complete target with at least8% safe margin on ALL sides; zoom out for tall floor lamp and clothing rail. No people, children, text, letters, numbers, brand markings, labels, logos or watermarks. Scenes in top-to-bottom order:\nPanel 1: A complete slim floor lamp with a cream linen shade and broad stable circular base standing beside a home sofa. Shade, stem and base fully contained in the landscape frame, soft warm illumination, real fabric and metal texture, no people, visible plugs, exposed wires or text.\nPanel 2: A complete guest-room single bed with a plain cream bedspread, one pillow at the head and a neatly folded blue quilt at the foot. The full low bed frame and mattress are visible, soft afternoon light, credible fabric folds, no people or text.\nPanel 3: A complete light blue long-sleeved pajama top on a simple wooden hanger on a low freestanding clothes rail in a bedroom. Collar, body and both sleeves fully visible, clean soft cotton fabric, no people, printed patterns, logos or text.\nPanel 4: A complete rust red rib-knitted beanie laid flat in a shallow open wooden drawer with a cream fabric liner. Cuffed edge and rounded crown clearly visible, authentic wool knit texture, no pompom, people, labels or text.\nFour different main subjects must be clearly recognizable: cream-shade floor lamp with its entire base; guest single bed with folded BLUE quilt at foot; light-BLUE pajama shirt including both sleeves; RED knitted cuffed hat in a lined drawer. All objects remain within their own panels and no important part is cut off by a separator.",
+    "reviewNotes": "Actual JPEG reviewed: slim complete cream-shade floor lamp with circular base beside sofa; full guest single bed with cream spread, one pillow and folded blue quilt at foot; complete light-blue long-sleeved pajama shirt on wooden hanger and low rail; red rib-knit cuffed beanie flat in cream-lined open drawer. All target referents visible, no people or readable text. Floor-lamp shade has tight top clearance, otherwise full furniture and garments fit. Crop heights423/431/426/432px. No source edits needed.",
+    "cuts": [
+      443,
+      894,
+      1340
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "home-lamp-02-scene0",
+        "label": "沙发旁带米白布罩的落地灯",
+        "image": "hanzi-images/realistic-v1/home-lamp-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "lamp"
+  },
+  {
+    "id": "home-bed-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-05_1795398678357_ab96a34d.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Generate a 1024x1792 sheet of exactly FOUR independent full-width landscape photos stacked vertically. Make each panel equally tall, approximately448px, and place exactly three straight white4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer borders. Realistic home photography with linen, cotton, metal and wood texture, credible household construction, natural gentle light; never cartoon or CGI. Center each complete target with at least8% safe margin on ALL sides; zoom out for tall floor lamp and clothing rail. No people, children, text, letters, numbers, brand markings, labels, logos or watermarks. Scenes in top-to-bottom order:\nPanel 1: A complete slim floor lamp with a cream linen shade and broad stable circular base standing beside a home sofa. Shade, stem and base fully contained in the landscape frame, soft warm illumination, real fabric and metal texture, no people, visible plugs, exposed wires or text.\nPanel 2: A complete guest-room single bed with a plain cream bedspread, one pillow at the head and a neatly folded blue quilt at the foot. The full low bed frame and mattress are visible, soft afternoon light, credible fabric folds, no people or text.\nPanel 3: A complete light blue long-sleeved pajama top on a simple wooden hanger on a low freestanding clothes rail in a bedroom. Collar, body and both sleeves fully visible, clean soft cotton fabric, no people, printed patterns, logos or text.\nPanel 4: A complete rust red rib-knitted beanie laid flat in a shallow open wooden drawer with a cream fabric liner. Cuffed edge and rounded crown clearly visible, authentic wool knit texture, no pompom, people, labels or text.\nFour different main subjects must be clearly recognizable: cream-shade floor lamp with its entire base; guest single bed with folded BLUE quilt at foot; light-BLUE pajama shirt including both sleeves; RED knitted cuffed hat in a lined drawer. All objects remain within their own panels and no important part is cut off by a separator.",
+    "reviewNotes": "Actual JPEG reviewed: slim complete cream-shade floor lamp with circular base beside sofa; full guest single bed with cream spread, one pillow and folded blue quilt at foot; complete light-blue long-sleeved pajama shirt on wooden hanger and low rail; red rib-knit cuffed beanie flat in cream-lined open drawer. All target referents visible, no people or readable text. Floor-lamp shade has tight top clearance, otherwise full furniture and garments fit. Crop heights423/431/426/432px. No source edits needed.",
+    "cuts": [
+      443,
+      894,
+      1340
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "home-bed-02-scene0",
+        "label": "床尾放着折叠蓝被子的客房床",
+        "image": "hanzi-images/realistic-v1/home-bed-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bed"
+  },
+  {
+    "id": "home-shirt-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-05_1795398678357_ab96a34d.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Generate a 1024x1792 sheet of exactly FOUR independent full-width landscape photos stacked vertically. Make each panel equally tall, approximately448px, and place exactly three straight white4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer borders. Realistic home photography with linen, cotton, metal and wood texture, credible household construction, natural gentle light; never cartoon or CGI. Center each complete target with at least8% safe margin on ALL sides; zoom out for tall floor lamp and clothing rail. No people, children, text, letters, numbers, brand markings, labels, logos or watermarks. Scenes in top-to-bottom order:\nPanel 1: A complete slim floor lamp with a cream linen shade and broad stable circular base standing beside a home sofa. Shade, stem and base fully contained in the landscape frame, soft warm illumination, real fabric and metal texture, no people, visible plugs, exposed wires or text.\nPanel 2: A complete guest-room single bed with a plain cream bedspread, one pillow at the head and a neatly folded blue quilt at the foot. The full low bed frame and mattress are visible, soft afternoon light, credible fabric folds, no people or text.\nPanel 3: A complete light blue long-sleeved pajama top on a simple wooden hanger on a low freestanding clothes rail in a bedroom. Collar, body and both sleeves fully visible, clean soft cotton fabric, no people, printed patterns, logos or text.\nPanel 4: A complete rust red rib-knitted beanie laid flat in a shallow open wooden drawer with a cream fabric liner. Cuffed edge and rounded crown clearly visible, authentic wool knit texture, no pompom, people, labels or text.\nFour different main subjects must be clearly recognizable: cream-shade floor lamp with its entire base; guest single bed with folded BLUE quilt at foot; light-BLUE pajama shirt including both sleeves; RED knitted cuffed hat in a lined drawer. All objects remain within their own panels and no important part is cut off by a separator.",
+    "reviewNotes": "Actual JPEG reviewed: slim complete cream-shade floor lamp with circular base beside sofa; full guest single bed with cream spread, one pillow and folded blue quilt at foot; complete light-blue long-sleeved pajama shirt on wooden hanger and low rail; red rib-knit cuffed beanie flat in cream-lined open drawer. All target referents visible, no people or readable text. Floor-lamp shade has tight top clearance, otherwise full furniture and garments fit. Crop heights423/431/426/432px. No source edits needed.",
+    "cuts": [
+      443,
+      894,
+      1340
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "home-shirt-02-scene0",
+        "label": "低衣杆上挂着的浅蓝长袖睡衣上衣",
+        "image": "hanzi-images/realistic-v1/home-shirt-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shirt"
+  },
+  {
+    "id": "home-hat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-05_1795398678357_ab96a34d.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Generate a 1024x1792 sheet of exactly FOUR independent full-width landscape photos stacked vertically. Make each panel equally tall, approximately448px, and place exactly three straight white4-6px horizontal separators near y=448,896,1344. No vertical divisions or outer borders. Realistic home photography with linen, cotton, metal and wood texture, credible household construction, natural gentle light; never cartoon or CGI. Center each complete target with at least8% safe margin on ALL sides; zoom out for tall floor lamp and clothing rail. No people, children, text, letters, numbers, brand markings, labels, logos or watermarks. Scenes in top-to-bottom order:\nPanel 1: A complete slim floor lamp with a cream linen shade and broad stable circular base standing beside a home sofa. Shade, stem and base fully contained in the landscape frame, soft warm illumination, real fabric and metal texture, no people, visible plugs, exposed wires or text.\nPanel 2: A complete guest-room single bed with a plain cream bedspread, one pillow at the head and a neatly folded blue quilt at the foot. The full low bed frame and mattress are visible, soft afternoon light, credible fabric folds, no people or text.\nPanel 3: A complete light blue long-sleeved pajama top on a simple wooden hanger on a low freestanding clothes rail in a bedroom. Collar, body and both sleeves fully visible, clean soft cotton fabric, no people, printed patterns, logos or text.\nPanel 4: A complete rust red rib-knitted beanie laid flat in a shallow open wooden drawer with a cream fabric liner. Cuffed edge and rounded crown clearly visible, authentic wool knit texture, no pompom, people, labels or text.\nFour different main subjects must be clearly recognizable: cream-shade floor lamp with its entire base; guest single bed with folded BLUE quilt at foot; light-BLUE pajama shirt including both sleeves; RED knitted cuffed hat in a lined drawer. All objects remain within their own panels and no important part is cut off by a separator.",
+    "reviewNotes": "Actual JPEG reviewed: slim complete cream-shade floor lamp with circular base beside sofa; full guest single bed with cream spread, one pillow and folded blue quilt at foot; complete light-blue long-sleeved pajama shirt on wooden hanger and low rail; red rib-knit cuffed beanie flat in cream-lined open drawer. All target referents visible, no people or readable text. Floor-lamp shade has tight top clearance, otherwise full furniture and garments fit. Crop heights423/431/426/432px. No source edits needed.",
+    "cuts": [
+      443,
+      894,
+      1340
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1350,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "home-hat-02-scene0",
+        "label": "浅抽屉里平放的红色毛线帽",
+        "image": "hanzi-images/realistic-v1/home-hat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "home-bag-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-06_1795398805509_ac2b7d74.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi domestic stories. Produce one 1024x1792 sheet of exactly FOUR full-width landscape photos stacked in four equal-height panels, about448px each. Exactly three straight4-6px WHITE horizontal separator seams near y=448,896,1344; no vertical divisions or outer border. Real ordinary home photography, soft daylight, authentic fabric stitching, wood grain and paper texture, credible object shapes; no CGI or illustration. Center each entire target with at least8% crop-safe margins and keep everything inside its own panel, no cropping of bag handles, umbrella tips, furniture feet or chair back. No people, children, writing, letters, numerals, labels, logos, watermarks or captions. Top-to-bottom scenes:\nPanel 1: A complete plain beige fabric tote bag with two handles sitting on a low home storage shelf, its open top showing the broad edges of large cardboard puzzle boards. The full bag is centered and all handles fit in frame, no tiny loose objects, people or text.\nPanel 2: A complete dry closed green compact umbrella lying horizontally on a wide wooden entryway tray, its fabric sleeve pulled halfway over the lower canopy so the folded green canopy and handle remain clearly visible. Full object within margins, realistic fabric, no people, logos or text.\nPanel 3: A complete low rectangular wooden table in a home activity corner, with a soft plain table mat and three large sheets of colored paper laid flat. Tabletop and stable legs fully visible, natural daylight, no scissors, tools, people, markings or text.\nPanel 4: A complete sturdy muted blue wooden chair with a clearly visible backrest, seat and four legs standing beside a plain shoe mat in a bright home entryway. Centered full furniture framing, realistic painted wood, no people, shoes with logos or text.\nFour independent scenes. Bag contents are broad puzzle-board edges, not tiny loose puzzle pieces. Green umbrella is closed and half-covered with a sleeve, never opened. Colored paper is three large flat unmarked sheets, with no scissors. Chair has a blue wooden backrest and stable feet. Retain the horizontal composition and equal panels with three crisp white seams.",
+    "reviewNotes": "Actual JPEG reviewed: complete beige tote on low shelf with front fabric handle and large illustrated puzzle-board edges visible; closed green compact umbrella laid in wide wood tray, sleeve covers most of lower folded canopy and handle remains visible; full low rectangular wood table with plain mat and three large yellow/pink/blue paper sheets; complete muted-blue wood chair beside shoe mat. All referents clear, no people or readable text; printed puzzle imagery belongs to the physical board, not a stylized cover. Crop heights424/432/427/429px. Sleeve coverage is slightly more than halfway but folded green canopy is unambiguous.",
+    "cuts": [
+      444,
+      896,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "home-bag-02-scene0",
+        "label": "低收纳架上装着大块拼图板的布手提包",
+        "image": "hanzi-images/realistic-v1/home-bag-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "home-umbrella-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-06_1795398805509_ac2b7d74.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi domestic stories. Produce one 1024x1792 sheet of exactly FOUR full-width landscape photos stacked in four equal-height panels, about448px each. Exactly three straight4-6px WHITE horizontal separator seams near y=448,896,1344; no vertical divisions or outer border. Real ordinary home photography, soft daylight, authentic fabric stitching, wood grain and paper texture, credible object shapes; no CGI or illustration. Center each entire target with at least8% crop-safe margins and keep everything inside its own panel, no cropping of bag handles, umbrella tips, furniture feet or chair back. No people, children, writing, letters, numerals, labels, logos, watermarks or captions. Top-to-bottom scenes:\nPanel 1: A complete plain beige fabric tote bag with two handles sitting on a low home storage shelf, its open top showing the broad edges of large cardboard puzzle boards. The full bag is centered and all handles fit in frame, no tiny loose objects, people or text.\nPanel 2: A complete dry closed green compact umbrella lying horizontally on a wide wooden entryway tray, its fabric sleeve pulled halfway over the lower canopy so the folded green canopy and handle remain clearly visible. Full object within margins, realistic fabric, no people, logos or text.\nPanel 3: A complete low rectangular wooden table in a home activity corner, with a soft plain table mat and three large sheets of colored paper laid flat. Tabletop and stable legs fully visible, natural daylight, no scissors, tools, people, markings or text.\nPanel 4: A complete sturdy muted blue wooden chair with a clearly visible backrest, seat and four legs standing beside a plain shoe mat in a bright home entryway. Centered full furniture framing, realistic painted wood, no people, shoes with logos or text.\nFour independent scenes. Bag contents are broad puzzle-board edges, not tiny loose puzzle pieces. Green umbrella is closed and half-covered with a sleeve, never opened. Colored paper is three large flat unmarked sheets, with no scissors. Chair has a blue wooden backrest and stable feet. Retain the horizontal composition and equal panels with three crisp white seams.",
+    "reviewNotes": "Actual JPEG reviewed: complete beige tote on low shelf with front fabric handle and large illustrated puzzle-board edges visible; closed green compact umbrella laid in wide wood tray, sleeve covers most of lower folded canopy and handle remains visible; full low rectangular wood table with plain mat and three large yellow/pink/blue paper sheets; complete muted-blue wood chair beside shoe mat. All referents clear, no people or readable text; printed puzzle imagery belongs to the physical board, not a stylized cover. Crop heights424/432/427/429px. Sleeve coverage is slightly more than halfway but folded green canopy is unambiguous.",
+    "cuts": [
+      444,
+      896,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "home-umbrella-02-scene0",
+        "label": "玄关托盘上半套着布伞套的合拢绿伞",
+        "image": "hanzi-images/realistic-v1/home-umbrella-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "home-table-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-06_1795398805509_ac2b7d74.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi domestic stories. Produce one 1024x1792 sheet of exactly FOUR full-width landscape photos stacked in four equal-height panels, about448px each. Exactly three straight4-6px WHITE horizontal separator seams near y=448,896,1344; no vertical divisions or outer border. Real ordinary home photography, soft daylight, authentic fabric stitching, wood grain and paper texture, credible object shapes; no CGI or illustration. Center each entire target with at least8% crop-safe margins and keep everything inside its own panel, no cropping of bag handles, umbrella tips, furniture feet or chair back. No people, children, writing, letters, numerals, labels, logos, watermarks or captions. Top-to-bottom scenes:\nPanel 1: A complete plain beige fabric tote bag with two handles sitting on a low home storage shelf, its open top showing the broad edges of large cardboard puzzle boards. The full bag is centered and all handles fit in frame, no tiny loose objects, people or text.\nPanel 2: A complete dry closed green compact umbrella lying horizontally on a wide wooden entryway tray, its fabric sleeve pulled halfway over the lower canopy so the folded green canopy and handle remain clearly visible. Full object within margins, realistic fabric, no people, logos or text.\nPanel 3: A complete low rectangular wooden table in a home activity corner, with a soft plain table mat and three large sheets of colored paper laid flat. Tabletop and stable legs fully visible, natural daylight, no scissors, tools, people, markings or text.\nPanel 4: A complete sturdy muted blue wooden chair with a clearly visible backrest, seat and four legs standing beside a plain shoe mat in a bright home entryway. Centered full furniture framing, realistic painted wood, no people, shoes with logos or text.\nFour independent scenes. Bag contents are broad puzzle-board edges, not tiny loose puzzle pieces. Green umbrella is closed and half-covered with a sleeve, never opened. Colored paper is three large flat unmarked sheets, with no scissors. Chair has a blue wooden backrest and stable feet. Retain the horizontal composition and equal panels with three crisp white seams.",
+    "reviewNotes": "Actual JPEG reviewed: complete beige tote on low shelf with front fabric handle and large illustrated puzzle-board edges visible; closed green compact umbrella laid in wide wood tray, sleeve covers most of lower folded canopy and handle remains visible; full low rectangular wood table with plain mat and three large yellow/pink/blue paper sheets; complete muted-blue wood chair beside shoe mat. All referents clear, no people or readable text; printed puzzle imagery belongs to the physical board, not a stylized cover. Crop heights424/432/427/429px. Sleeve coverage is slightly more than halfway but folded green canopy is unambiguous.",
+    "cuts": [
+      444,
+      896,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "home-table-02-scene0",
+        "label": "铺着软桌垫和大张彩纸的矮桌",
+        "image": "hanzi-images/realistic-v1/home-table-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "home-chair-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-06_1795398805509_ac2b7d74.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi domestic stories. Produce one 1024x1792 sheet of exactly FOUR full-width landscape photos stacked in four equal-height panels, about448px each. Exactly three straight4-6px WHITE horizontal separator seams near y=448,896,1344; no vertical divisions or outer border. Real ordinary home photography, soft daylight, authentic fabric stitching, wood grain and paper texture, credible object shapes; no CGI or illustration. Center each entire target with at least8% crop-safe margins and keep everything inside its own panel, no cropping of bag handles, umbrella tips, furniture feet or chair back. No people, children, writing, letters, numerals, labels, logos, watermarks or captions. Top-to-bottom scenes:\nPanel 1: A complete plain beige fabric tote bag with two handles sitting on a low home storage shelf, its open top showing the broad edges of large cardboard puzzle boards. The full bag is centered and all handles fit in frame, no tiny loose objects, people or text.\nPanel 2: A complete dry closed green compact umbrella lying horizontally on a wide wooden entryway tray, its fabric sleeve pulled halfway over the lower canopy so the folded green canopy and handle remain clearly visible. Full object within margins, realistic fabric, no people, logos or text.\nPanel 3: A complete low rectangular wooden table in a home activity corner, with a soft plain table mat and three large sheets of colored paper laid flat. Tabletop and stable legs fully visible, natural daylight, no scissors, tools, people, markings or text.\nPanel 4: A complete sturdy muted blue wooden chair with a clearly visible backrest, seat and four legs standing beside a plain shoe mat in a bright home entryway. Centered full furniture framing, realistic painted wood, no people, shoes with logos or text.\nFour independent scenes. Bag contents are broad puzzle-board edges, not tiny loose puzzle pieces. Green umbrella is closed and half-covered with a sleeve, never opened. Colored paper is three large flat unmarked sheets, with no scissors. Chair has a blue wooden backrest and stable feet. Retain the horizontal composition and equal panels with three crisp white seams.",
+    "reviewNotes": "Actual JPEG reviewed: complete beige tote on low shelf with front fabric handle and large illustrated puzzle-board edges visible; closed green compact umbrella laid in wide wood tray, sleeve covers most of lower folded canopy and handle remains visible; full low rectangular wood table with plain mat and three large yellow/pink/blue paper sheets; complete muted-blue wood chair beside shoe mat. All referents clear, no people or readable text; printed puzzle imagery belongs to the physical board, not a stylized cover. Crop heights424/432/427/429px. Sleeve coverage is slightly more than halfway but folded green canopy is unambiguous.",
+    "cuts": [
+      444,
+      896,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "home-chair-02-scene0",
+        "label": "玄关鞋垫旁的一把蓝色靠背椅",
+        "image": "hanzi-images/realistic-v1/home-chair-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chair"
+  },
+  {
+    "id": "home-clock-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-07_1795398930189_2b36084f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR independent full-width landscape photographs stacked vertically on one1024x1792 sheet. Four equally tall panels about448px each, exactly three straight white4-6px horizontal seams near y=448,896,1344; no vertical divisions or outer border. Natural domestic photography with credible clock mechanisms, brick construction, matte soap, thick terry and wood textures, soft true daylight; no illustration or CGI. Center each whole target with at least8% crop-safe margin on all sides and no object crossing a panel seam. No people, children, letters, numerals, logos, labels, captions, brands or watermarks. Four scenes, top to bottom:\nPanel 1: A complete pastel green twin-bell tabletop alarm clock standing on a wooden bedside cabinet, with two readable distinct hands and simple tick marks without numerals. Bells, clock face and two feet wholly visible, realistic metal and glass, no people, digits, brand names or text.\nPanel 2: A complete single-storey red brick home beside a small dry paved courtyard, with a grey pitched roof, front door and two windows. Full roof, walls and building footprint inside landscape margins, authentic masonry and daylight, no people, house numbers, signs or text.\nPanel 3: A large lilac terry bath towel folded neatly in a low open wooden linen cubby, with broad thick folds and the full towel stack visible. Clean dry fabric texture, calm home daylight, no people, personal labels or text.\nPanel 4: A single complete white square bar of soap with gently rounded corners sitting on a pale blue plastic cleaning tray near a home washbasin. Square outline clearly visible, realistic matte soap surface, no food, embossed markings, people or text.\nKeep four distinct main subjects: green twin-bell clock with tick marks ONLY; real one-storey red-brick house with grey roof; folded PURPLE bath towel in low wooden cubby; WHITE square soap on BLUE tray. The soap must not look like food; the building must not be a toy or model. Maintain complete subjects and equal panel heights.",
+    "reviewNotes": "Actual JPEG reviewed: complete pastel-green twin-bell clock with tick marks, hands and feet on bedside cabinet; whole one-storey red-brick house with grey pitched roof, door and two front windows by dry paving; two folded lilac terry towels in low wooden linen cubby; one white square rounded-corner soap on pale-blue slotted tray by basin. All referents present, no people or readable text. Crop heights426/428/430/428px. Towel sceneDescription changed from one towel to observed two-towel stack; labels and gameplay remain accurate.",
+    "cuts": [
+      446,
+      894,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "home-clock-02-scene0",
+        "label": "床头柜上带刻线的双铃时钟",
+        "image": "hanzi-images/realistic-v1/home-clock-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "clock"
+  },
+  {
+    "id": "home-house-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-07_1795398930189_2b36084f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR independent full-width landscape photographs stacked vertically on one1024x1792 sheet. Four equally tall panels about448px each, exactly three straight white4-6px horizontal seams near y=448,896,1344; no vertical divisions or outer border. Natural domestic photography with credible clock mechanisms, brick construction, matte soap, thick terry and wood textures, soft true daylight; no illustration or CGI. Center each whole target with at least8% crop-safe margin on all sides and no object crossing a panel seam. No people, children, letters, numerals, logos, labels, captions, brands or watermarks. Four scenes, top to bottom:\nPanel 1: A complete pastel green twin-bell tabletop alarm clock standing on a wooden bedside cabinet, with two readable distinct hands and simple tick marks without numerals. Bells, clock face and two feet wholly visible, realistic metal and glass, no people, digits, brand names or text.\nPanel 2: A complete single-storey red brick home beside a small dry paved courtyard, with a grey pitched roof, front door and two windows. Full roof, walls and building footprint inside landscape margins, authentic masonry and daylight, no people, house numbers, signs or text.\nPanel 3: A large lilac terry bath towel folded neatly in a low open wooden linen cubby, with broad thick folds and the full towel stack visible. Clean dry fabric texture, calm home daylight, no people, personal labels or text.\nPanel 4: A single complete white square bar of soap with gently rounded corners sitting on a pale blue plastic cleaning tray near a home washbasin. Square outline clearly visible, realistic matte soap surface, no food, embossed markings, people or text.\nKeep four distinct main subjects: green twin-bell clock with tick marks ONLY; real one-storey red-brick house with grey roof; folded PURPLE bath towel in low wooden cubby; WHITE square soap on BLUE tray. The soap must not look like food; the building must not be a toy or model. Maintain complete subjects and equal panel heights.",
+    "reviewNotes": "Actual JPEG reviewed: complete pastel-green twin-bell clock with tick marks, hands and feet on bedside cabinet; whole one-storey red-brick house with grey pitched roof, door and two front windows by dry paving; two folded lilac terry towels in low wooden linen cubby; one white square rounded-corner soap on pale-blue slotted tray by basin. All referents present, no people or readable text. Crop heights426/428/430/428px. Towel sceneDescription changed from one towel to observed two-towel stack; labels and gameplay remain accurate.",
+    "cuts": [
+      446,
+      894,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "home-house-02-scene0",
+        "label": "小院边的一层红砖房屋",
+        "image": "hanzi-images/realistic-v1/home-house-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "house"
+  },
+  {
+    "id": "home-towel-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-07_1795398930189_2b36084f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR independent full-width landscape photographs stacked vertically on one1024x1792 sheet. Four equally tall panels about448px each, exactly three straight white4-6px horizontal seams near y=448,896,1344; no vertical divisions or outer border. Natural domestic photography with credible clock mechanisms, brick construction, matte soap, thick terry and wood textures, soft true daylight; no illustration or CGI. Center each whole target with at least8% crop-safe margin on all sides and no object crossing a panel seam. No people, children, letters, numerals, logos, labels, captions, brands or watermarks. Four scenes, top to bottom:\nPanel 1: A complete pastel green twin-bell tabletop alarm clock standing on a wooden bedside cabinet, with two readable distinct hands and simple tick marks without numerals. Bells, clock face and two feet wholly visible, realistic metal and glass, no people, digits, brand names or text.\nPanel 2: A complete single-storey red brick home beside a small dry paved courtyard, with a grey pitched roof, front door and two windows. Full roof, walls and building footprint inside landscape margins, authentic masonry and daylight, no people, house numbers, signs or text.\nPanel 3: A large lilac terry bath towel folded neatly in a low open wooden linen cubby, with broad thick folds and the full towel stack visible. Clean dry fabric texture, calm home daylight, no people, personal labels or text.\nPanel 4: A single complete white square bar of soap with gently rounded corners sitting on a pale blue plastic cleaning tray near a home washbasin. Square outline clearly visible, realistic matte soap surface, no food, embossed markings, people or text.\nKeep four distinct main subjects: green twin-bell clock with tick marks ONLY; real one-storey red-brick house with grey roof; folded PURPLE bath towel in low wooden cubby; WHITE square soap on BLUE tray. The soap must not look like food; the building must not be a toy or model. Maintain complete subjects and equal panel heights.",
+    "reviewNotes": "Actual JPEG reviewed: complete pastel-green twin-bell clock with tick marks, hands and feet on bedside cabinet; whole one-storey red-brick house with grey pitched roof, door and two front windows by dry paving; two folded lilac terry towels in low wooden linen cubby; one white square rounded-corner soap on pale-blue slotted tray by basin. All referents present, no people or readable text. Crop heights426/428/430/428px. Towel sceneDescription changed from one towel to observed two-towel stack; labels and gameplay remain accurate.",
+    "cuts": [
+      446,
+      894,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "home-towel-02-scene0",
+        "label": "低收纳格里折叠整齐的紫色浴巾",
+        "image": "hanzi-images/realistic-v1/home-towel-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "towel"
+  },
+  {
+    "id": "home-soap-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-07_1795398930189_2b36084f.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Create exactly FOUR independent full-width landscape photographs stacked vertically on one1024x1792 sheet. Four equally tall panels about448px each, exactly three straight white4-6px horizontal seams near y=448,896,1344; no vertical divisions or outer border. Natural domestic photography with credible clock mechanisms, brick construction, matte soap, thick terry and wood textures, soft true daylight; no illustration or CGI. Center each whole target with at least8% crop-safe margin on all sides and no object crossing a panel seam. No people, children, letters, numerals, logos, labels, captions, brands or watermarks. Four scenes, top to bottom:\nPanel 1: A complete pastel green twin-bell tabletop alarm clock standing on a wooden bedside cabinet, with two readable distinct hands and simple tick marks without numerals. Bells, clock face and two feet wholly visible, realistic metal and glass, no people, digits, brand names or text.\nPanel 2: A complete single-storey red brick home beside a small dry paved courtyard, with a grey pitched roof, front door and two windows. Full roof, walls and building footprint inside landscape margins, authentic masonry and daylight, no people, house numbers, signs or text.\nPanel 3: A large lilac terry bath towel folded neatly in a low open wooden linen cubby, with broad thick folds and the full towel stack visible. Clean dry fabric texture, calm home daylight, no people, personal labels or text.\nPanel 4: A single complete white square bar of soap with gently rounded corners sitting on a pale blue plastic cleaning tray near a home washbasin. Square outline clearly visible, realistic matte soap surface, no food, embossed markings, people or text.\nKeep four distinct main subjects: green twin-bell clock with tick marks ONLY; real one-storey red-brick house with grey roof; folded PURPLE bath towel in low wooden cubby; WHITE square soap on BLUE tray. The soap must not look like food; the building must not be a toy or model. Maintain complete subjects and equal panel heights.",
+    "reviewNotes": "Actual JPEG reviewed: complete pastel-green twin-bell clock with tick marks, hands and feet on bedside cabinet; whole one-storey red-brick house with grey pitched roof, door and two front windows by dry paving; two folded lilac terry towels in low wooden linen cubby; one white square rounded-corner soap on pale-blue slotted tray by basin. All referents present, no people or readable text. Crop heights426/428/430/428px. Towel sceneDescription changed from one towel to observed two-towel stack; labels and gameplay remain accurate.",
+    "cuts": [
+      446,
+      894,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "home-soap-02-scene0",
+        "label": "浅蓝清洁托盘上的白色方形香皂",
+        "image": "hanzi-images/realistic-v1/home-soap-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "soap"
+  },
+  {
+    "id": "home-door-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-08_1795399043528_713ade59.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Exactly FOUR standalone full-width landscape photographs stacked top-to-bottom on a1024x1792 sheet, each equally tall around448px. Exactly three crisp straight white4-6px horizontal separators near y=448,896,1344, no vertical divisions, outer border or captions. Natural photorealistic real homes with authentic painted wood, fabric, glass and rattan textures, credible construction and soft daylight. Center each complete main subject with at least8% crop-safe margin on ALL sides; wide shots to include whole door, bed and lamp. No people, children, text, numbers, words, labels, logos, watermarks, CGI or cartoon rendering. Top-to-bottom scenes:\nPanel 1: A complete closed light grey home study door with its frame and handle, a plain soft rectangular floor mat lying outside the doorway in a tidy hallway. Entire door inside wide crop-safe framing, realistic wood and fabric, no people, door signs or text.\nPanel 2: A complete closed small square white-framed window above an empty dry breakfast sideboard in a home kitchen corner. Daylight through glass and a pale wall, whole window clearly centered, no cooker, hot items, people, open sash or text.\nPanel 3: A complete woven rattan-shaded pendant lamp suspended above a simple home dining table. Full shade, bulb enclosure and short suspension visible within the panel, gentle warm light and authentic woven texture, no people, exposed wiring, plugs or text.\nPanel 4: A complete low wooden single bed with a blue-and-white striped sheet, one plain pillow and a neatly folded cream throw near the foot. Calm afternoon bedroom light and realistic fabric, full frame and mattress within margins, no people, bunk structure or text.\nFour independent scenes, not a single shared interior. Keep whole GREY door, entire small SQUARE window frame, woven hanging lampshade with short suspension, and BLUE-WHITE striped low single bed inside their respective landscape panels. Lamp shade is a real woven rattan object, not an icon. Window is closed and safely above an empty sideboard; no heat source.",
+    "reviewNotes": "Actual JPEG reviewed: closed light-grey door with handle and mat, but upper door trim is outside top frame; complete small square white window above clear dry sideboard; glowing woven-rattan pendant shade with suspension over dining table; low single wood bed with blue-white striped sheet, matching striped pillow and cream throw draped over foot. All four referents clear, no people or readable text. Crop heights426/430/429/427px. Door description corrected to honest upper-trim framing; bed description corrected for striped pillow and draped throw. Lamp suspension top also close to seam; no gameplay or labels changed.",
+    "cuts": [
+      446,
+      896,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "home-door-03-scene0",
+        "label": "软地垫后关着的浅灰书房门",
+        "image": "hanzi-images/realistic-v1/home-door-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "home-window-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-08_1795399043528_713ade59.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Exactly FOUR standalone full-width landscape photographs stacked top-to-bottom on a1024x1792 sheet, each equally tall around448px. Exactly three crisp straight white4-6px horizontal separators near y=448,896,1344, no vertical divisions, outer border or captions. Natural photorealistic real homes with authentic painted wood, fabric, glass and rattan textures, credible construction and soft daylight. Center each complete main subject with at least8% crop-safe margin on ALL sides; wide shots to include whole door, bed and lamp. No people, children, text, numbers, words, labels, logos, watermarks, CGI or cartoon rendering. Top-to-bottom scenes:\nPanel 1: A complete closed light grey home study door with its frame and handle, a plain soft rectangular floor mat lying outside the doorway in a tidy hallway. Entire door inside wide crop-safe framing, realistic wood and fabric, no people, door signs or text.\nPanel 2: A complete closed small square white-framed window above an empty dry breakfast sideboard in a home kitchen corner. Daylight through glass and a pale wall, whole window clearly centered, no cooker, hot items, people, open sash or text.\nPanel 3: A complete woven rattan-shaded pendant lamp suspended above a simple home dining table. Full shade, bulb enclosure and short suspension visible within the panel, gentle warm light and authentic woven texture, no people, exposed wiring, plugs or text.\nPanel 4: A complete low wooden single bed with a blue-and-white striped sheet, one plain pillow and a neatly folded cream throw near the foot. Calm afternoon bedroom light and realistic fabric, full frame and mattress within margins, no people, bunk structure or text.\nFour independent scenes, not a single shared interior. Keep whole GREY door, entire small SQUARE window frame, woven hanging lampshade with short suspension, and BLUE-WHITE striped low single bed inside their respective landscape panels. Lamp shade is a real woven rattan object, not an icon. Window is closed and safely above an empty sideboard; no heat source.",
+    "reviewNotes": "Actual JPEG reviewed: closed light-grey door with handle and mat, but upper door trim is outside top frame; complete small square white window above clear dry sideboard; glowing woven-rattan pendant shade with suspension over dining table; low single wood bed with blue-white striped sheet, matching striped pillow and cream throw draped over foot. All four referents clear, no people or readable text. Crop heights426/430/429/427px. Door description corrected to honest upper-trim framing; bed description corrected for striped pillow and draped throw. Lamp suspension top also close to seam; no gameplay or labels changed.",
+    "cuts": [
+      446,
+      896,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "home-window-03-scene0",
+        "label": "早餐角上方关着的白框小方窗",
+        "image": "hanzi-images/realistic-v1/home-window-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "window"
+  },
+  {
+    "id": "home-lamp-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-08_1795399043528_713ade59.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Exactly FOUR standalone full-width landscape photographs stacked top-to-bottom on a1024x1792 sheet, each equally tall around448px. Exactly three crisp straight white4-6px horizontal separators near y=448,896,1344, no vertical divisions, outer border or captions. Natural photorealistic real homes with authentic painted wood, fabric, glass and rattan textures, credible construction and soft daylight. Center each complete main subject with at least8% crop-safe margin on ALL sides; wide shots to include whole door, bed and lamp. No people, children, text, numbers, words, labels, logos, watermarks, CGI or cartoon rendering. Top-to-bottom scenes:\nPanel 1: A complete closed light grey home study door with its frame and handle, a plain soft rectangular floor mat lying outside the doorway in a tidy hallway. Entire door inside wide crop-safe framing, realistic wood and fabric, no people, door signs or text.\nPanel 2: A complete closed small square white-framed window above an empty dry breakfast sideboard in a home kitchen corner. Daylight through glass and a pale wall, whole window clearly centered, no cooker, hot items, people, open sash or text.\nPanel 3: A complete woven rattan-shaded pendant lamp suspended above a simple home dining table. Full shade, bulb enclosure and short suspension visible within the panel, gentle warm light and authentic woven texture, no people, exposed wiring, plugs or text.\nPanel 4: A complete low wooden single bed with a blue-and-white striped sheet, one plain pillow and a neatly folded cream throw near the foot. Calm afternoon bedroom light and realistic fabric, full frame and mattress within margins, no people, bunk structure or text.\nFour independent scenes, not a single shared interior. Keep whole GREY door, entire small SQUARE window frame, woven hanging lampshade with short suspension, and BLUE-WHITE striped low single bed inside their respective landscape panels. Lamp shade is a real woven rattan object, not an icon. Window is closed and safely above an empty sideboard; no heat source.",
+    "reviewNotes": "Actual JPEG reviewed: closed light-grey door with handle and mat, but upper door trim is outside top frame; complete small square white window above clear dry sideboard; glowing woven-rattan pendant shade with suspension over dining table; low single wood bed with blue-white striped sheet, matching striped pillow and cream throw draped over foot. All four referents clear, no people or readable text. Crop heights426/430/429/427px. Door description corrected to honest upper-trim framing; bed description corrected for striped pillow and draped throw. Lamp suspension top also close to seam; no gameplay or labels changed.",
+    "cuts": [
+      446,
+      896,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "home-lamp-03-scene0",
+        "label": "餐桌上方带编织灯罩的吊灯",
+        "image": "hanzi-images/realistic-v1/home-lamp-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "lamp"
+  },
+  {
+    "id": "home-bed-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-08_1795399043528_713ade59.png",
+    "prompt": "Use case: four unique photographic covers for children's Hanzi home stories. Exactly FOUR standalone full-width landscape photographs stacked top-to-bottom on a1024x1792 sheet, each equally tall around448px. Exactly three crisp straight white4-6px horizontal separators near y=448,896,1344, no vertical divisions, outer border or captions. Natural photorealistic real homes with authentic painted wood, fabric, glass and rattan textures, credible construction and soft daylight. Center each complete main subject with at least8% crop-safe margin on ALL sides; wide shots to include whole door, bed and lamp. No people, children, text, numbers, words, labels, logos, watermarks, CGI or cartoon rendering. Top-to-bottom scenes:\nPanel 1: A complete closed light grey home study door with its frame and handle, a plain soft rectangular floor mat lying outside the doorway in a tidy hallway. Entire door inside wide crop-safe framing, realistic wood and fabric, no people, door signs or text.\nPanel 2: A complete closed small square white-framed window above an empty dry breakfast sideboard in a home kitchen corner. Daylight through glass and a pale wall, whole window clearly centered, no cooker, hot items, people, open sash or text.\nPanel 3: A complete woven rattan-shaded pendant lamp suspended above a simple home dining table. Full shade, bulb enclosure and short suspension visible within the panel, gentle warm light and authentic woven texture, no people, exposed wiring, plugs or text.\nPanel 4: A complete low wooden single bed with a blue-and-white striped sheet, one plain pillow and a neatly folded cream throw near the foot. Calm afternoon bedroom light and realistic fabric, full frame and mattress within margins, no people, bunk structure or text.\nFour independent scenes, not a single shared interior. Keep whole GREY door, entire small SQUARE window frame, woven hanging lampshade with short suspension, and BLUE-WHITE striped low single bed inside their respective landscape panels. Lamp shade is a real woven rattan object, not an icon. Window is closed and safely above an empty sideboard; no heat source.",
+    "reviewNotes": "Actual JPEG reviewed: closed light-grey door with handle and mat, but upper door trim is outside top frame; complete small square white window above clear dry sideboard; glowing woven-rattan pendant shade with suspension over dining table; low single wood bed with blue-white striped sheet, matching striped pillow and cream throw draped over foot. All four referents clear, no people or readable text. Crop heights426/430/429/427px. Door description corrected to honest upper-trim framing; bed description corrected for striped pillow and draped throw. Lamp suspension top also close to seam; no gameplay or labels changed.",
+    "cuts": [
+      446,
+      896,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "home-bed-03-scene0",
+        "label": "铺着蓝白条纹床单的低木床",
+        "image": "hanzi-images/realistic-v1/home-bed-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bed"
+  },
+  {
+    "id": "home-shirt-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-09_1795399166799_a5a706ce.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked in equal panels, approximately448px tall each. Exactly three straight white4-6px horizontal separator seams near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic homes with soft daylight, tactile padded cotton, canvas stitching, dry wooden trays and shelves, realistic umbrella construction; never illustration, cartoon or CGI. Every complete target must be centered inside its own landscape panel with at least8% crop-safe margin on all sides. Zoom out for the standing umbrella so the entire hook handle and holder fit. No people, children, text, numbers, logos, labels, addresses, captions or watermarks. Scenes from top to bottom:\nPanel 1: A complete mustard yellow padded cotton vest neatly folded in an open soft fabric storage box on a low bedroom shelf, with neckline and sleeveless arm openings clearly visible. Authentic quilted fabric texture, no people, logos, labels or text.\nPanel 2: A complete clean cream canvas baseball cap resting upright on a low wooden tray, its curved front brim, crown and seam stitching clearly visible. Soft home morning light, realistic cotton texture, no people, brand logos, embroidered marks or text.\nPanel 3: A complete pale blue cloth tote bag standing upright in a low open entryway cubby, both fabric handles and the entire rectangular bag body visible. Plain soft cotton with natural seams, dry tidy shelf, no people, labels, addresses or text.\nPanel 4: A complete closed red umbrella with a clearly visible curved hook handle standing securely in a wide sturdy umbrella holder in a home entryway. Full handle and folded canopy inside the landscape frame, dry floor and realistic fabric, no people, logos or text.\nKeep all four subjects distinct and unmistakable: folded YELLOW sleeveless padded vest; CREAM baseball cap with front brim; upright LIGHT-BLUE tote with both handles; closed RED umbrella with curved hook. No sleeves on the vest, no wide circular brim on the baseball cap, no open umbrella. Maintain ample room around objects and all three clean straight white seams.",
+    "reviewNotes": "Actual JPEG reviewed: yellow quilted padded sleeveless vest folded in soft fabric box with neckline and arm openings visible; complete cream canvas baseball cap with curved front brim on wood tray; upright pale-blue fabric tote in low entryway cubby with prominent handle loop and whole bag body; closed red umbrella with curved hook in wide stable white holder on dry floor. All four referents clearly present, no people or readable text. Crop heights423/409/419/461px; separators slightly unequal. No source edits needed.",
+    "cuts": [
+      443,
+      872,
+      1311
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "home-shirt-03-scene0",
+        "label": "打开的软收纳箱里折好的黄色棉背心",
+        "image": "hanzi-images/realistic-v1/home-shirt-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shirt"
+  },
+  {
+    "id": "home-hat-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-09_1795399166799_a5a706ce.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked in equal panels, approximately448px tall each. Exactly three straight white4-6px horizontal separator seams near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic homes with soft daylight, tactile padded cotton, canvas stitching, dry wooden trays and shelves, realistic umbrella construction; never illustration, cartoon or CGI. Every complete target must be centered inside its own landscape panel with at least8% crop-safe margin on all sides. Zoom out for the standing umbrella so the entire hook handle and holder fit. No people, children, text, numbers, logos, labels, addresses, captions or watermarks. Scenes from top to bottom:\nPanel 1: A complete mustard yellow padded cotton vest neatly folded in an open soft fabric storage box on a low bedroom shelf, with neckline and sleeveless arm openings clearly visible. Authentic quilted fabric texture, no people, logos, labels or text.\nPanel 2: A complete clean cream canvas baseball cap resting upright on a low wooden tray, its curved front brim, crown and seam stitching clearly visible. Soft home morning light, realistic cotton texture, no people, brand logos, embroidered marks or text.\nPanel 3: A complete pale blue cloth tote bag standing upright in a low open entryway cubby, both fabric handles and the entire rectangular bag body visible. Plain soft cotton with natural seams, dry tidy shelf, no people, labels, addresses or text.\nPanel 4: A complete closed red umbrella with a clearly visible curved hook handle standing securely in a wide sturdy umbrella holder in a home entryway. Full handle and folded canopy inside the landscape frame, dry floor and realistic fabric, no people, logos or text.\nKeep all four subjects distinct and unmistakable: folded YELLOW sleeveless padded vest; CREAM baseball cap with front brim; upright LIGHT-BLUE tote with both handles; closed RED umbrella with curved hook. No sleeves on the vest, no wide circular brim on the baseball cap, no open umbrella. Maintain ample room around objects and all three clean straight white seams.",
+    "reviewNotes": "Actual JPEG reviewed: yellow quilted padded sleeveless vest folded in soft fabric box with neckline and arm openings visible; complete cream canvas baseball cap with curved front brim on wood tray; upright pale-blue fabric tote in low entryway cubby with prominent handle loop and whole bag body; closed red umbrella with curved hook in wide stable white holder on dry floor. All four referents clearly present, no people or readable text. Crop heights423/409/419/461px; separators slightly unequal. No source edits needed.",
+    "cuts": [
+      443,
+      872,
+      1311
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 409
+    },
+    "contexts": [
+      {
+        "id": "home-hat-03-scene0",
+        "label": "低木托盘上放着的米白棒球帽",
+        "image": "hanzi-images/realistic-v1/home-hat-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "home-bag-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-09_1795399166799_a5a706ce.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked in equal panels, approximately448px tall each. Exactly three straight white4-6px horizontal separator seams near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic homes with soft daylight, tactile padded cotton, canvas stitching, dry wooden trays and shelves, realistic umbrella construction; never illustration, cartoon or CGI. Every complete target must be centered inside its own landscape panel with at least8% crop-safe margin on all sides. Zoom out for the standing umbrella so the entire hook handle and holder fit. No people, children, text, numbers, logos, labels, addresses, captions or watermarks. Scenes from top to bottom:\nPanel 1: A complete mustard yellow padded cotton vest neatly folded in an open soft fabric storage box on a low bedroom shelf, with neckline and sleeveless arm openings clearly visible. Authentic quilted fabric texture, no people, logos, labels or text.\nPanel 2: A complete clean cream canvas baseball cap resting upright on a low wooden tray, its curved front brim, crown and seam stitching clearly visible. Soft home morning light, realistic cotton texture, no people, brand logos, embroidered marks or text.\nPanel 3: A complete pale blue cloth tote bag standing upright in a low open entryway cubby, both fabric handles and the entire rectangular bag body visible. Plain soft cotton with natural seams, dry tidy shelf, no people, labels, addresses or text.\nPanel 4: A complete closed red umbrella with a clearly visible curved hook handle standing securely in a wide sturdy umbrella holder in a home entryway. Full handle and folded canopy inside the landscape frame, dry floor and realistic fabric, no people, logos or text.\nKeep all four subjects distinct and unmistakable: folded YELLOW sleeveless padded vest; CREAM baseball cap with front brim; upright LIGHT-BLUE tote with both handles; closed RED umbrella with curved hook. No sleeves on the vest, no wide circular brim on the baseball cap, no open umbrella. Maintain ample room around objects and all three clean straight white seams.",
+    "reviewNotes": "Actual JPEG reviewed: yellow quilted padded sleeveless vest folded in soft fabric box with neckline and arm openings visible; complete cream canvas baseball cap with curved front brim on wood tray; upright pale-blue fabric tote in low entryway cubby with prominent handle loop and whole bag body; closed red umbrella with curved hook in wide stable white holder on dry floor. All four referents clearly present, no people or readable text. Crop heights423/409/419/461px; separators slightly unequal. No source edits needed.",
+    "cuts": [
+      443,
+      872,
+      1311
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 882,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "home-bag-03-scene0",
+        "label": "低玄关格里竖放的浅蓝布手提包",
+        "image": "hanzi-images/realistic-v1/home-bag-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "home-umbrella-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-home-v2-09_1795399166799_a5a706ce.png",
+    "prompt": "Use case: four distinct photographic covers for children's Hanzi home stories. Create a1024x1792 sheet with exactly FOUR independent full-width landscape photographs stacked in equal panels, approximately448px tall each. Exactly three straight white4-6px horizontal separator seams near y=448,896,1344, no vertical divisions or outer border. Natural photorealistic homes with soft daylight, tactile padded cotton, canvas stitching, dry wooden trays and shelves, realistic umbrella construction; never illustration, cartoon or CGI. Every complete target must be centered inside its own landscape panel with at least8% crop-safe margin on all sides. Zoom out for the standing umbrella so the entire hook handle and holder fit. No people, children, text, numbers, logos, labels, addresses, captions or watermarks. Scenes from top to bottom:\nPanel 1: A complete mustard yellow padded cotton vest neatly folded in an open soft fabric storage box on a low bedroom shelf, with neckline and sleeveless arm openings clearly visible. Authentic quilted fabric texture, no people, logos, labels or text.\nPanel 2: A complete clean cream canvas baseball cap resting upright on a low wooden tray, its curved front brim, crown and seam stitching clearly visible. Soft home morning light, realistic cotton texture, no people, brand logos, embroidered marks or text.\nPanel 3: A complete pale blue cloth tote bag standing upright in a low open entryway cubby, both fabric handles and the entire rectangular bag body visible. Plain soft cotton with natural seams, dry tidy shelf, no people, labels, addresses or text.\nPanel 4: A complete closed red umbrella with a clearly visible curved hook handle standing securely in a wide sturdy umbrella holder in a home entryway. Full handle and folded canopy inside the landscape frame, dry floor and realistic fabric, no people, logos or text.\nKeep all four subjects distinct and unmistakable: folded YELLOW sleeveless padded vest; CREAM baseball cap with front brim; upright LIGHT-BLUE tote with both handles; closed RED umbrella with curved hook. No sleeves on the vest, no wide circular brim on the baseball cap, no open umbrella. Maintain ample room around objects and all three clean straight white seams.",
+    "reviewNotes": "Actual JPEG reviewed: yellow quilted padded sleeveless vest folded in soft fabric box with neckline and arm openings visible; complete cream canvas baseball cap with curved front brim on wood tray; upright pale-blue fabric tote in low entryway cubby with prominent handle loop and whole bag body; closed red umbrella with curved hook in wide stable white holder on dry floor. All four referents clearly present, no people or readable text. Crop heights423/409/419/461px; separators slightly unequal. No source edits needed.",
+    "cuts": [
+      443,
+      872,
+      1311
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1321,
+      "width": 1008,
+      "height": 461
+    },
+    "contexts": [
+      {
+        "id": "home-umbrella-03-scene0",
+        "label": "玄关宽伞架里合拢的红色弯柄雨伞",
+        "image": "hanzi-images/realistic-v1/home-umbrella-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  }
+]

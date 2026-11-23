@@ -235,9 +235,10 @@
   }
 
   function shuffledChoices(targetId, lessons, random = Math.random) {
-    const ids = lessonList(lessons).map(lesson => lesson.id);
-    if (!ids.includes(targetId)) return [];
-    const distractors = ids.filter(id => id !== targetId);
+    const catalog = lessonList(lessons);
+    const target = catalog.find(lesson => lesson.id === targetId);
+    if (!target) return [];
+    const distractors = catalog.filter(lesson => lesson.id !== targetId && lesson.char !== target.char).map(lesson => lesson.id);
     if (!distractors.length) return [];
     function pick(length) {
       const value = random();

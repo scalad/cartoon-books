@@ -1,0 +1,860 @@
+[
+  {
+    "id": "animals-bird-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-01_1795399677537_ad8895ec.png",
+    "prompt": "Use case: four new animal story cover photographs for a Hanzi learning photo album.\nLayout: a 1024x1792 sheet with EXACTLY FOUR independent full-width landscape photographs stacked vertically. Four equal-height panels, each about 444 pixels high, separated ONLY by exactly three straight thin 5-pixel white horizontal seams near y=448,896,1344. No outer border, no vertical divisions, no inset photos. Each panel has its own complete scene, not a continuous panorama.\nTop photo: a small blue tit naturally perched on a slender snow-covered branch in winter woodland. Entire feathered body, short beak, folded wings and feet gripping the twig visible. Pale blurred forest background, cold natural daylight.\nSecond photo: a single small wild bird flying above a wetland reed bed, both wings fully extended in a credible flying posture, entire body and wing tips clear above softly blurred reeds. Natural morning light.\nThird photo: a red ladybug with black spots resting naturally on a curved green grass blade beside clear morning dew droplets. Entire insect with credible six legs and wing covers, shallow-focus meadow background, authentic macro detail.\nBottom photo: a single dark ant walking along the edge of a narrow crack in dry garden soil. Complete head, thorax, abdomen, two antennae and six legs visible against rough soil. Gentle side lighting, macro detail.\nStyle: photorealistic camera photographs, natural feathers and insect anatomy, real surface textures, no illustration or CGI. Frame each entire target animal centrally with at least 10% empty crop-safe room around all body parts, wings and legs, including at the top and bottom of EACH individual panel. No animal crosses a seam. No people, children, hands, captions, letters, watermarks, cartoon, anthropomorphism, bait, feeding, handling, traps, nests or nest disturbance.",
+    "reviewNotes": "Read the actual 380px JPEG: top blue tit fully perched on a snowy twig; second small flying bird has both extended wings and visible wing tips above reeds; third red spotted ladybug on a dew-covered curved grass blade; bottom dark ant beside a soil crack with body, antennae and legs inside the panel. Three thin horizontal white seams, no text or people. Compact preview supports credible silhouettes; tiny far-side insect legs are partly overlapped, not individually countable here. Measured cuts 446/895/1344; assigned crops 1008px wide and 426/429/429/428px high, without upscaling.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "animals-bird-01-scene0",
+        "label": "停在覆雪细枝上的小鸟",
+        "image": "hanzi-images/realistic-v1/animals-bird-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bird"
+  },
+  {
+    "id": "animals-bird-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-01_1795399677537_ad8895ec.png",
+    "prompt": "Use case: four new animal story cover photographs for a Hanzi learning photo album.\nLayout: a 1024x1792 sheet with EXACTLY FOUR independent full-width landscape photographs stacked vertically. Four equal-height panels, each about 444 pixels high, separated ONLY by exactly three straight thin 5-pixel white horizontal seams near y=448,896,1344. No outer border, no vertical divisions, no inset photos. Each panel has its own complete scene, not a continuous panorama.\nTop photo: a small blue tit naturally perched on a slender snow-covered branch in winter woodland. Entire feathered body, short beak, folded wings and feet gripping the twig visible. Pale blurred forest background, cold natural daylight.\nSecond photo: a single small wild bird flying above a wetland reed bed, both wings fully extended in a credible flying posture, entire body and wing tips clear above softly blurred reeds. Natural morning light.\nThird photo: a red ladybug with black spots resting naturally on a curved green grass blade beside clear morning dew droplets. Entire insect with credible six legs and wing covers, shallow-focus meadow background, authentic macro detail.\nBottom photo: a single dark ant walking along the edge of a narrow crack in dry garden soil. Complete head, thorax, abdomen, two antennae and six legs visible against rough soil. Gentle side lighting, macro detail.\nStyle: photorealistic camera photographs, natural feathers and insect anatomy, real surface textures, no illustration or CGI. Frame each entire target animal centrally with at least 10% empty crop-safe room around all body parts, wings and legs, including at the top and bottom of EACH individual panel. No animal crosses a seam. No people, children, hands, captions, letters, watermarks, cartoon, anthropomorphism, bait, feeding, handling, traps, nests or nest disturbance.",
+    "reviewNotes": "Read the actual 380px JPEG: top blue tit fully perched on a snowy twig; second small flying bird has both extended wings and visible wing tips above reeds; third red spotted ladybug on a dew-covered curved grass blade; bottom dark ant beside a soil crack with body, antennae and legs inside the panel. Three thin horizontal white seams, no text or people. Compact preview supports credible silhouettes; tiny far-side insect legs are partly overlapped, not individually countable here. Measured cuts 446/895/1344; assigned crops 1008px wide and 426/429/429/428px high, without upscaling.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "animals-bird-02-scene0",
+        "label": "掠过芦苇上方的飞鸟",
+        "image": "hanzi-images/realistic-v1/animals-bird-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bird"
+  },
+  {
+    "id": "animals-insect-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-01_1795399677537_ad8895ec.png",
+    "prompt": "Use case: four new animal story cover photographs for a Hanzi learning photo album.\nLayout: a 1024x1792 sheet with EXACTLY FOUR independent full-width landscape photographs stacked vertically. Four equal-height panels, each about 444 pixels high, separated ONLY by exactly three straight thin 5-pixel white horizontal seams near y=448,896,1344. No outer border, no vertical divisions, no inset photos. Each panel has its own complete scene, not a continuous panorama.\nTop photo: a small blue tit naturally perched on a slender snow-covered branch in winter woodland. Entire feathered body, short beak, folded wings and feet gripping the twig visible. Pale blurred forest background, cold natural daylight.\nSecond photo: a single small wild bird flying above a wetland reed bed, both wings fully extended in a credible flying posture, entire body and wing tips clear above softly blurred reeds. Natural morning light.\nThird photo: a red ladybug with black spots resting naturally on a curved green grass blade beside clear morning dew droplets. Entire insect with credible six legs and wing covers, shallow-focus meadow background, authentic macro detail.\nBottom photo: a single dark ant walking along the edge of a narrow crack in dry garden soil. Complete head, thorax, abdomen, two antennae and six legs visible against rough soil. Gentle side lighting, macro detail.\nStyle: photorealistic camera photographs, natural feathers and insect anatomy, real surface textures, no illustration or CGI. Frame each entire target animal centrally with at least 10% empty crop-safe room around all body parts, wings and legs, including at the top and bottom of EACH individual panel. No animal crosses a seam. No people, children, hands, captions, letters, watermarks, cartoon, anthropomorphism, bait, feeding, handling, traps, nests or nest disturbance.",
+    "reviewNotes": "Read the actual 380px JPEG: top blue tit fully perched on a snowy twig; second small flying bird has both extended wings and visible wing tips above reeds; third red spotted ladybug on a dew-covered curved grass blade; bottom dark ant beside a soil crack with body, antennae and legs inside the panel. Three thin horizontal white seams, no text or people. Compact preview supports credible silhouettes; tiny far-side insect legs are partly overlapped, not individually countable here. Measured cuts 446/895/1344; assigned crops 1008px wide and 426/429/429/428px high, without upscaling.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "animals-insect-01-scene0",
+        "label": "停在带露珠草叶上的瓢虫",
+        "image": "hanzi-images/realistic-v1/animals-insect-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "insect"
+  },
+  {
+    "id": "animals-insect-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-01_1795399677537_ad8895ec.png",
+    "prompt": "Use case: four new animal story cover photographs for a Hanzi learning photo album.\nLayout: a 1024x1792 sheet with EXACTLY FOUR independent full-width landscape photographs stacked vertically. Four equal-height panels, each about 444 pixels high, separated ONLY by exactly three straight thin 5-pixel white horizontal seams near y=448,896,1344. No outer border, no vertical divisions, no inset photos. Each panel has its own complete scene, not a continuous panorama.\nTop photo: a small blue tit naturally perched on a slender snow-covered branch in winter woodland. Entire feathered body, short beak, folded wings and feet gripping the twig visible. Pale blurred forest background, cold natural daylight.\nSecond photo: a single small wild bird flying above a wetland reed bed, both wings fully extended in a credible flying posture, entire body and wing tips clear above softly blurred reeds. Natural morning light.\nThird photo: a red ladybug with black spots resting naturally on a curved green grass blade beside clear morning dew droplets. Entire insect with credible six legs and wing covers, shallow-focus meadow background, authentic macro detail.\nBottom photo: a single dark ant walking along the edge of a narrow crack in dry garden soil. Complete head, thorax, abdomen, two antennae and six legs visible against rough soil. Gentle side lighting, macro detail.\nStyle: photorealistic camera photographs, natural feathers and insect anatomy, real surface textures, no illustration or CGI. Frame each entire target animal centrally with at least 10% empty crop-safe room around all body parts, wings and legs, including at the top and bottom of EACH individual panel. No animal crosses a seam. No people, children, hands, captions, letters, watermarks, cartoon, anthropomorphism, bait, feeding, handling, traps, nests or nest disturbance.",
+    "reviewNotes": "Read the actual 380px JPEG: top blue tit fully perched on a snowy twig; second small flying bird has both extended wings and visible wing tips above reeds; third red spotted ladybug on a dew-covered curved grass blade; bottom dark ant beside a soil crack with body, antennae and legs inside the panel. Three thin horizontal white seams, no text or people. Compact preview supports credible silhouettes; tiny far-side insect legs are partly overlapped, not individually countable here. Measured cuts 446/895/1344; assigned crops 1008px wide and 426/429/429/428px high, without upscaling.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "animals-insect-02-scene0",
+        "label": "在干土裂纹旁爬行的蚂蚁",
+        "image": "hanzi-images/realistic-v1/animals-insect-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "insect"
+  },
+  {
+    "id": "animals-fish-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-02_1795399791630_ea83d551.png",
+    "prompt": "Create a 1024x1792 photographic sheet for four animal story covers. EXACTLY FOUR standalone full-width landscape photos stacked top to bottom, equal heights, ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No vertical dividers, outer frame, inset images or text.\nPhoto 1: one silver marine fish swimming between long green seagrass leaves in clear shallow seawater. Complete fish body, fins and tail unobscured, sandy seabed, sunlight filtering through water.\nPhoto 2: one healthy orange aquarium fish swimming beside smooth submerged driftwood in a spacious planted freshwater aquarium. Entire fish and all fin edges separated from the wood, green water plants and fine gravel, soft tank lighting.\nPhoto 3: one brown wild rabbit resting naturally among low white wildflowers on green meadow grass, long ears, entire body and short tail visible, soft afternoon light, blurred meadow beyond.\nPhoto 4: one white mountain hare naturally sitting on snow at an alpine meadow edge, long upright dark-tipped ears, entire body and short tail, low blurred shrubs, subtle snow texture.\nPhotorealistic wildlife camera imagery, authentic scales, fur, plants and lighting, credible anatomy and natural posture. Each subject centered with >=10% crop-safe space around its complete body, fins, ears and legs within its own landscape panel. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, watermark, bait, feeding, handling, carrots, nets, divers, fishing gear, footprints leading to the hare, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: silver fish with complete fins/tail amid seagrass over lit sand; orange goldfish clear of aquarium driftwood; brown rabbit quietly resting upright among white meadow flowers; white long-eared hare sitting in snow near shrubs. All complete silhouettes and ear/fin edges remain within panels, no people or text. Resting rabbit is upright rather than lying, consistent with its resting label. Thin seams at 441/893/1330; assigned crop heights 421/432/417/442px, width 1008px, no upscaling.",
+    "cuts": [
+      441,
+      893,
+      1330
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "animals-fish-01-scene0",
+        "label": "在海草叶间游动的银色鱼",
+        "image": "hanzi-images/realistic-v1/animals-fish-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fish"
+  },
+  {
+    "id": "animals-fish-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-02_1795399791630_ea83d551.png",
+    "prompt": "Create a 1024x1792 photographic sheet for four animal story covers. EXACTLY FOUR standalone full-width landscape photos stacked top to bottom, equal heights, ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No vertical dividers, outer frame, inset images or text.\nPhoto 1: one silver marine fish swimming between long green seagrass leaves in clear shallow seawater. Complete fish body, fins and tail unobscured, sandy seabed, sunlight filtering through water.\nPhoto 2: one healthy orange aquarium fish swimming beside smooth submerged driftwood in a spacious planted freshwater aquarium. Entire fish and all fin edges separated from the wood, green water plants and fine gravel, soft tank lighting.\nPhoto 3: one brown wild rabbit resting naturally among low white wildflowers on green meadow grass, long ears, entire body and short tail visible, soft afternoon light, blurred meadow beyond.\nPhoto 4: one white mountain hare naturally sitting on snow at an alpine meadow edge, long upright dark-tipped ears, entire body and short tail, low blurred shrubs, subtle snow texture.\nPhotorealistic wildlife camera imagery, authentic scales, fur, plants and lighting, credible anatomy and natural posture. Each subject centered with >=10% crop-safe space around its complete body, fins, ears and legs within its own landscape panel. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, watermark, bait, feeding, handling, carrots, nets, divers, fishing gear, footprints leading to the hare, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: silver fish with complete fins/tail amid seagrass over lit sand; orange goldfish clear of aquarium driftwood; brown rabbit quietly resting upright among white meadow flowers; white long-eared hare sitting in snow near shrubs. All complete silhouettes and ear/fin edges remain within panels, no people or text. Resting rabbit is upright rather than lying, consistent with its resting label. Thin seams at 441/893/1330; assigned crop heights 421/432/417/442px, width 1008px, no upscaling.",
+    "cuts": [
+      441,
+      893,
+      1330
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 451,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "animals-fish-02-scene0",
+        "label": "在水族箱沉木旁游动的橙色鱼",
+        "image": "hanzi-images/realistic-v1/animals-fish-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fish"
+  },
+  {
+    "id": "animals-rabbit-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-02_1795399791630_ea83d551.png",
+    "prompt": "Create a 1024x1792 photographic sheet for four animal story covers. EXACTLY FOUR standalone full-width landscape photos stacked top to bottom, equal heights, ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No vertical dividers, outer frame, inset images or text.\nPhoto 1: one silver marine fish swimming between long green seagrass leaves in clear shallow seawater. Complete fish body, fins and tail unobscured, sandy seabed, sunlight filtering through water.\nPhoto 2: one healthy orange aquarium fish swimming beside smooth submerged driftwood in a spacious planted freshwater aquarium. Entire fish and all fin edges separated from the wood, green water plants and fine gravel, soft tank lighting.\nPhoto 3: one brown wild rabbit resting naturally among low white wildflowers on green meadow grass, long ears, entire body and short tail visible, soft afternoon light, blurred meadow beyond.\nPhoto 4: one white mountain hare naturally sitting on snow at an alpine meadow edge, long upright dark-tipped ears, entire body and short tail, low blurred shrubs, subtle snow texture.\nPhotorealistic wildlife camera imagery, authentic scales, fur, plants and lighting, credible anatomy and natural posture. Each subject centered with >=10% crop-safe space around its complete body, fins, ears and legs within its own landscape panel. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, watermark, bait, feeding, handling, carrots, nets, divers, fishing gear, footprints leading to the hare, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: silver fish with complete fins/tail amid seagrass over lit sand; orange goldfish clear of aquarium driftwood; brown rabbit quietly resting upright among white meadow flowers; white long-eared hare sitting in snow near shrubs. All complete silhouettes and ear/fin edges remain within panels, no people or text. Resting rabbit is upright rather than lying, consistent with its resting label. Thin seams at 441/893/1330; assigned crop heights 421/432/417/442px, width 1008px, no upscaling.",
+    "cuts": [
+      441,
+      893,
+      1330
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 903,
+      "width": 1008,
+      "height": 417
+    },
+    "contexts": [
+      {
+        "id": "animals-rabbit-01-scene0",
+        "label": "在野花草地上休息的兔",
+        "image": "hanzi-images/realistic-v1/animals-rabbit-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rabbit"
+  },
+  {
+    "id": "animals-rabbit-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-02_1795399791630_ea83d551.png",
+    "prompt": "Create a 1024x1792 photographic sheet for four animal story covers. EXACTLY FOUR standalone full-width landscape photos stacked top to bottom, equal heights, ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No vertical dividers, outer frame, inset images or text.\nPhoto 1: one silver marine fish swimming between long green seagrass leaves in clear shallow seawater. Complete fish body, fins and tail unobscured, sandy seabed, sunlight filtering through water.\nPhoto 2: one healthy orange aquarium fish swimming beside smooth submerged driftwood in a spacious planted freshwater aquarium. Entire fish and all fin edges separated from the wood, green water plants and fine gravel, soft tank lighting.\nPhoto 3: one brown wild rabbit resting naturally among low white wildflowers on green meadow grass, long ears, entire body and short tail visible, soft afternoon light, blurred meadow beyond.\nPhoto 4: one white mountain hare naturally sitting on snow at an alpine meadow edge, long upright dark-tipped ears, entire body and short tail, low blurred shrubs, subtle snow texture.\nPhotorealistic wildlife camera imagery, authentic scales, fur, plants and lighting, credible anatomy and natural posture. Each subject centered with >=10% crop-safe space around its complete body, fins, ears and legs within its own landscape panel. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, watermark, bait, feeding, handling, carrots, nets, divers, fishing gear, footprints leading to the hare, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: silver fish with complete fins/tail amid seagrass over lit sand; orange goldfish clear of aquarium driftwood; brown rabbit quietly resting upright among white meadow flowers; white long-eared hare sitting in snow near shrubs. All complete silhouettes and ear/fin edges remain within panels, no people or text. Resting rabbit is upright rather than lying, consistent with its resting label. Thin seams at 441/893/1330; assigned crop heights 421/432/417/442px, width 1008px, no upscaling.",
+    "cuts": [
+      441,
+      893,
+      1330
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1340,
+      "width": 1008,
+      "height": 442
+    },
+    "contexts": [
+      {
+        "id": "animals-rabbit-02-scene0",
+        "label": "在积雪地面上自然坐起的白兔",
+        "image": "hanzi-images/realistic-v1/animals-rabbit-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rabbit"
+  },
+  {
+    "id": "animals-cow-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-03_1795399910880_2cc3fdf8.png",
+    "prompt": "Use case: four distinct photorealistic farm animal cover photos.\nLayout: 1024x1792, EXACTLY FOUR full-width standalone landscape photographs stacked vertically, equal panel heights, exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, no vertical divisions, no text.\nTop: a black-and-white dairy cow standing naturally side-on on grass in an orchard pasture. Four legs, head and entire body visible, widely spaced mature apple trees behind, natural morning light.\nSecond: a brown cow lying naturally on grass beneath the broad shade of a mature tree. Whole resting body, relaxed face and naturally folded legs visible, dappled shade with sunlit pasture beyond.\nThird: a woolly sheep standing naturally in shade beneath the edge of an open-sided timber farm shelter. Entire sheep with dense curled fleece, face and four legs visible; posts well behind it and sunlit grass pasture beyond.\nBottom: a single woolly sheep standing in side profile on level grass beside a low dry-stone wall. Complete sheep, grounded legs, relaxed head, detailed fleece; overcast daylight, rural pasture.\nReal camera photographic textures, credible livestock anatomy and postures, no CGI or illustration. Center each complete animal within its own horizontal photo with >=10% empty crop-safe margin at every edge around horns, ears, feet and body. No people, children, hands, cartoon, anthropomorphism, captions, letters, watermark, bait, food, feeding, handling, shearing tools, restraint or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: complete standing black/white cow in an apple orchard; brown cow lying in mature-tree shade with folded legs; woolly sheep standing under an open timber shelter; separate side-on sheep standing before a dry-stone wall. Hooves and body silhouettes retained with margins; natural leg overlap in side views, no people, captions or feeding. Cow has a small non-readable farm ear tag. Cuts 446/896/1347; 1008px-wide crops with heights 426/430/431/425px, no upscaling.",
+    "cuts": [
+      446,
+      896,
+      1347
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "animals-cow-01-scene0",
+        "label": "在果树牧草地上站着的花斑牛",
+        "image": "hanzi-images/realistic-v1/animals-cow-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cow"
+  },
+  {
+    "id": "animals-cow-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-03_1795399910880_2cc3fdf8.png",
+    "prompt": "Use case: four distinct photorealistic farm animal cover photos.\nLayout: 1024x1792, EXACTLY FOUR full-width standalone landscape photographs stacked vertically, equal panel heights, exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, no vertical divisions, no text.\nTop: a black-and-white dairy cow standing naturally side-on on grass in an orchard pasture. Four legs, head and entire body visible, widely spaced mature apple trees behind, natural morning light.\nSecond: a brown cow lying naturally on grass beneath the broad shade of a mature tree. Whole resting body, relaxed face and naturally folded legs visible, dappled shade with sunlit pasture beyond.\nThird: a woolly sheep standing naturally in shade beneath the edge of an open-sided timber farm shelter. Entire sheep with dense curled fleece, face and four legs visible; posts well behind it and sunlit grass pasture beyond.\nBottom: a single woolly sheep standing in side profile on level grass beside a low dry-stone wall. Complete sheep, grounded legs, relaxed head, detailed fleece; overcast daylight, rural pasture.\nReal camera photographic textures, credible livestock anatomy and postures, no CGI or illustration. Center each complete animal within its own horizontal photo with >=10% empty crop-safe margin at every edge around horns, ears, feet and body. No people, children, hands, cartoon, anthropomorphism, captions, letters, watermark, bait, food, feeding, handling, shearing tools, restraint or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: complete standing black/white cow in an apple orchard; brown cow lying in mature-tree shade with folded legs; woolly sheep standing under an open timber shelter; separate side-on sheep standing before a dry-stone wall. Hooves and body silhouettes retained with margins; natural leg overlap in side views, no people, captions or feeding. Cow has a small non-readable farm ear tag. Cuts 446/896/1347; 1008px-wide crops with heights 426/430/431/425px, no upscaling.",
+    "cuts": [
+      446,
+      896,
+      1347
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "animals-cow-02-scene0",
+        "label": "在牧场树荫下卧着的棕色牛",
+        "image": "hanzi-images/realistic-v1/animals-cow-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cow"
+  },
+  {
+    "id": "animals-sheep-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-03_1795399910880_2cc3fdf8.png",
+    "prompt": "Use case: four distinct photorealistic farm animal cover photos.\nLayout: 1024x1792, EXACTLY FOUR full-width standalone landscape photographs stacked vertically, equal panel heights, exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, no vertical divisions, no text.\nTop: a black-and-white dairy cow standing naturally side-on on grass in an orchard pasture. Four legs, head and entire body visible, widely spaced mature apple trees behind, natural morning light.\nSecond: a brown cow lying naturally on grass beneath the broad shade of a mature tree. Whole resting body, relaxed face and naturally folded legs visible, dappled shade with sunlit pasture beyond.\nThird: a woolly sheep standing naturally in shade beneath the edge of an open-sided timber farm shelter. Entire sheep with dense curled fleece, face and four legs visible; posts well behind it and sunlit grass pasture beyond.\nBottom: a single woolly sheep standing in side profile on level grass beside a low dry-stone wall. Complete sheep, grounded legs, relaxed head, detailed fleece; overcast daylight, rural pasture.\nReal camera photographic textures, credible livestock anatomy and postures, no CGI or illustration. Center each complete animal within its own horizontal photo with >=10% empty crop-safe margin at every edge around horns, ears, feet and body. No people, children, hands, cartoon, anthropomorphism, captions, letters, watermark, bait, food, feeding, handling, shearing tools, restraint or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: complete standing black/white cow in an apple orchard; brown cow lying in mature-tree shade with folded legs; woolly sheep standing under an open timber shelter; separate side-on sheep standing before a dry-stone wall. Hooves and body silhouettes retained with margins; natural leg overlap in side views, no people, captions or feeding. Cow has a small non-readable farm ear tag. Cuts 446/896/1347; 1008px-wide crops with heights 426/430/431/425px, no upscaling.",
+    "cuts": [
+      446,
+      896,
+      1347
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "animals-sheep-01-scene0",
+        "label": "在开放棚檐阴影里站着的绵羊",
+        "image": "hanzi-images/realistic-v1/animals-sheep-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sheep"
+  },
+  {
+    "id": "animals-sheep-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-03_1795399910880_2cc3fdf8.png",
+    "prompt": "Use case: four distinct photorealistic farm animal cover photos.\nLayout: 1024x1792, EXACTLY FOUR full-width standalone landscape photographs stacked vertically, equal panel heights, exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, no vertical divisions, no text.\nTop: a black-and-white dairy cow standing naturally side-on on grass in an orchard pasture. Four legs, head and entire body visible, widely spaced mature apple trees behind, natural morning light.\nSecond: a brown cow lying naturally on grass beneath the broad shade of a mature tree. Whole resting body, relaxed face and naturally folded legs visible, dappled shade with sunlit pasture beyond.\nThird: a woolly sheep standing naturally in shade beneath the edge of an open-sided timber farm shelter. Entire sheep with dense curled fleece, face and four legs visible; posts well behind it and sunlit grass pasture beyond.\nBottom: a single woolly sheep standing in side profile on level grass beside a low dry-stone wall. Complete sheep, grounded legs, relaxed head, detailed fleece; overcast daylight, rural pasture.\nReal camera photographic textures, credible livestock anatomy and postures, no CGI or illustration. Center each complete animal within its own horizontal photo with >=10% empty crop-safe margin at every edge around horns, ears, feet and body. No people, children, hands, cartoon, anthropomorphism, captions, letters, watermark, bait, food, feeding, handling, shearing tools, restraint or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: complete standing black/white cow in an apple orchard; brown cow lying in mature-tree shade with folded legs; woolly sheep standing under an open timber shelter; separate side-on sheep standing before a dry-stone wall. Hooves and body silhouettes retained with margins; natural leg overlap in side views, no people, captions or feeding. Cow has a small non-readable farm ear tag. Cuts 446/896/1347; 1008px-wide crops with heights 426/430/431/425px, no upscaling.",
+    "cuts": [
+      446,
+      896,
+      1347
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1357,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "animals-sheep-02-scene0",
+        "label": "在草地石墙旁侧身站着的绵羊",
+        "image": "hanzi-images/realistic-v1/animals-sheep-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sheep"
+  },
+  {
+    "id": "animals-horse-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-04_1795400010463_55039a21.png",
+    "prompt": "Create EXACTLY FOUR independent landscape animal photographs, stacked full width on a 1024x1792 sheet. Four roughly equal panels separated ONLY by three thin straight white 5px horizontal seams near y=448,896,1344. No outer border, vertical split, inset photos or text.\nTop photograph: a grey horse standing naturally on level coastal dune grass, entire body, long face, mane, tail and four grounded legs, sand dunes and a pale distant sea horizon behind; soft coastal daylight.\nSecond photograph: a chestnut horse naturally lowering its muzzle to drink from a stable low farm water trough on level pasture grass. Show entire horse including mane, tail and four legs, plausible simple trough, natural daylight. No tack or person.\nThird photograph: a medium-sized tan domestic dog sleeping naturally on its side on a plain woven mat in a shaded house porch. Entire relaxed body and paws, closed eyes; doorway and porch floor behind, soft daylight.\nBottom photograph: a black domestic dog naturally sniffing golden fallen leaves on level ground in a quiet enclosed garden. Nose lowered near leaves, full body, tail and four paws, softly blurred shrubs; warm autumn light.\nPhotorealistic camera imagery, authentic fur, real materials and lighting, anatomically credible natural postures. Entire subject centered inside EACH photo with >=10% safe margin around ears, tail, body and feet, no cropped parts. No people or children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, readable tags, bait, feeding, handling, riders, reins, toys, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: grey horse standing on dune grass before sea; chestnut horse muzzle lowered into a low round concrete water trough; tan dog sleeping side-on on woven porch mat; black dog nose lowered over autumn leaves in a planted garden. Complete bodies, tails and feet remain within crops, no people, tack, toys or text. Grey horse has narrower upper ear margin than requested but ears remain inside measured crop. Seams 438/896/1316; crop heights 418/438/400/456px, width 1008px, no upscaling.",
+    "cuts": [
+      438,
+      896,
+      1316
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "animals-horse-01-scene0",
+        "label": "在海岸沙丘草地上站着的灰马",
+        "image": "hanzi-images/realistic-v1/animals-horse-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "horse"
+  },
+  {
+    "id": "animals-horse-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-04_1795400010463_55039a21.png",
+    "prompt": "Create EXACTLY FOUR independent landscape animal photographs, stacked full width on a 1024x1792 sheet. Four roughly equal panels separated ONLY by three thin straight white 5px horizontal seams near y=448,896,1344. No outer border, vertical split, inset photos or text.\nTop photograph: a grey horse standing naturally on level coastal dune grass, entire body, long face, mane, tail and four grounded legs, sand dunes and a pale distant sea horizon behind; soft coastal daylight.\nSecond photograph: a chestnut horse naturally lowering its muzzle to drink from a stable low farm water trough on level pasture grass. Show entire horse including mane, tail and four legs, plausible simple trough, natural daylight. No tack or person.\nThird photograph: a medium-sized tan domestic dog sleeping naturally on its side on a plain woven mat in a shaded house porch. Entire relaxed body and paws, closed eyes; doorway and porch floor behind, soft daylight.\nBottom photograph: a black domestic dog naturally sniffing golden fallen leaves on level ground in a quiet enclosed garden. Nose lowered near leaves, full body, tail and four paws, softly blurred shrubs; warm autumn light.\nPhotorealistic camera imagery, authentic fur, real materials and lighting, anatomically credible natural postures. Entire subject centered inside EACH photo with >=10% safe margin around ears, tail, body and feet, no cropped parts. No people or children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, readable tags, bait, feeding, handling, riders, reins, toys, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: grey horse standing on dune grass before sea; chestnut horse muzzle lowered into a low round concrete water trough; tan dog sleeping side-on on woven porch mat; black dog nose lowered over autumn leaves in a planted garden. Complete bodies, tails and feet remain within crops, no people, tack, toys or text. Grey horse has narrower upper ear margin than requested but ears remain inside measured crop. Seams 438/896/1316; crop heights 418/438/400/456px, width 1008px, no upscaling.",
+    "cuts": [
+      438,
+      896,
+      1316
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 448,
+      "width": 1008,
+      "height": 438
+    },
+    "contexts": [
+      {
+        "id": "animals-horse-02-scene0",
+        "label": "在牧场水槽旁低头饮水的棕马",
+        "image": "hanzi-images/realistic-v1/animals-horse-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "horse"
+  },
+  {
+    "id": "animals-dog-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-04_1795400010463_55039a21.png",
+    "prompt": "Create EXACTLY FOUR independent landscape animal photographs, stacked full width on a 1024x1792 sheet. Four roughly equal panels separated ONLY by three thin straight white 5px horizontal seams near y=448,896,1344. No outer border, vertical split, inset photos or text.\nTop photograph: a grey horse standing naturally on level coastal dune grass, entire body, long face, mane, tail and four grounded legs, sand dunes and a pale distant sea horizon behind; soft coastal daylight.\nSecond photograph: a chestnut horse naturally lowering its muzzle to drink from a stable low farm water trough on level pasture grass. Show entire horse including mane, tail and four legs, plausible simple trough, natural daylight. No tack or person.\nThird photograph: a medium-sized tan domestic dog sleeping naturally on its side on a plain woven mat in a shaded house porch. Entire relaxed body and paws, closed eyes; doorway and porch floor behind, soft daylight.\nBottom photograph: a black domestic dog naturally sniffing golden fallen leaves on level ground in a quiet enclosed garden. Nose lowered near leaves, full body, tail and four paws, softly blurred shrubs; warm autumn light.\nPhotorealistic camera imagery, authentic fur, real materials and lighting, anatomically credible natural postures. Entire subject centered inside EACH photo with >=10% safe margin around ears, tail, body and feet, no cropped parts. No people or children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, readable tags, bait, feeding, handling, riders, reins, toys, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: grey horse standing on dune grass before sea; chestnut horse muzzle lowered into a low round concrete water trough; tan dog sleeping side-on on woven porch mat; black dog nose lowered over autumn leaves in a planted garden. Complete bodies, tails and feet remain within crops, no people, tack, toys or text. Grey horse has narrower upper ear margin than requested but ears remain inside measured crop. Seams 438/896/1316; crop heights 418/438/400/456px, width 1008px, no upscaling.",
+    "cuts": [
+      438,
+      896,
+      1316
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 400
+    },
+    "contexts": [
+      {
+        "id": "animals-dog-01-scene0",
+        "label": "在门廊地垫上侧卧睡觉的狗",
+        "image": "hanzi-images/realistic-v1/animals-dog-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "dog"
+  },
+  {
+    "id": "animals-dog-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-04_1795400010463_55039a21.png",
+    "prompt": "Create EXACTLY FOUR independent landscape animal photographs, stacked full width on a 1024x1792 sheet. Four roughly equal panels separated ONLY by three thin straight white 5px horizontal seams near y=448,896,1344. No outer border, vertical split, inset photos or text.\nTop photograph: a grey horse standing naturally on level coastal dune grass, entire body, long face, mane, tail and four grounded legs, sand dunes and a pale distant sea horizon behind; soft coastal daylight.\nSecond photograph: a chestnut horse naturally lowering its muzzle to drink from a stable low farm water trough on level pasture grass. Show entire horse including mane, tail and four legs, plausible simple trough, natural daylight. No tack or person.\nThird photograph: a medium-sized tan domestic dog sleeping naturally on its side on a plain woven mat in a shaded house porch. Entire relaxed body and paws, closed eyes; doorway and porch floor behind, soft daylight.\nBottom photograph: a black domestic dog naturally sniffing golden fallen leaves on level ground in a quiet enclosed garden. Nose lowered near leaves, full body, tail and four paws, softly blurred shrubs; warm autumn light.\nPhotorealistic camera imagery, authentic fur, real materials and lighting, anatomically credible natural postures. Entire subject centered inside EACH photo with >=10% safe margin around ears, tail, body and feet, no cropped parts. No people or children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, readable tags, bait, feeding, handling, riders, reins, toys, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: grey horse standing on dune grass before sea; chestnut horse muzzle lowered into a low round concrete water trough; tan dog sleeping side-on on woven porch mat; black dog nose lowered over autumn leaves in a planted garden. Complete bodies, tails and feet remain within crops, no people, tack, toys or text. Grey horse has narrower upper ear margin than requested but ears remain inside measured crop. Seams 438/896/1316; crop heights 418/438/400/456px, width 1008px, no upscaling.",
+    "cuts": [
+      438,
+      896,
+      1316
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1326,
+      "width": 1008,
+      "height": 456
+    },
+    "contexts": [
+      {
+        "id": "animals-dog-02-scene0",
+        "label": "在院子落叶旁低头嗅闻的黑狗",
+        "image": "hanzi-images/realistic-v1/animals-dog-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "dog"
+  },
+  {
+    "id": "animals-cat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-05_1795400127146_4a536161.png",
+    "prompt": "Use case: four animal story album covers. A 1024x1792 sheet of EXACTLY FOUR separate full-width landscape photographs stacked vertically. Equal panel heights; exactly three thin straight 5px white horizontal seams near y=448,896,1344, no outer frame, vertical divider or inset. No text anywhere.\nTop: a tabby cat lying naturally in soft sunlight on a broad stable indoor wooden windowsill. Full body, whiskers, relaxed paws and tail visible; CLOSED window with blurred garden beyond. Gentle indoor photographic daylight.\nSecond: an orange cat sitting naturally on a LOW stone doorstep facing a quiet planted courtyard. Complete body, front paws, whiskers and loosely curved tail visible, potted greenery behind, gentle morning light.\nThird: a mallard duck standing on a broad level patch of rounded riverbank pebbles beside calm water. Complete feathered body, flat bill, BOTH webbed feet, blurred reflected reeds behind, soft natural light.\nBottom: a single duck swimming through a clear gap between floating water-lily leaves on a calm pond. Full above-water body, flat bill and folded wings unobscured, realistic ripples and leaf reflections, soft daylight.\nPhotorealistic camera imagery with authentic fur, feathers, stone and water; anatomically credible animals, natural poses. Center each subject with >=10% crop-safe room around all visible body parts, ears, bill, tail and feet within EACH panel. No cropped body, people, children, hands, cartoon, CGI, anthropomorphism, text, captions, watermark, bait, feeding, handling, open windows, food bowls, fishing gear, boats, nests or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: tabby reclining on wide wooden sill before closed window, complete tail/paws; orange cat seated on a low courtyard doorstep, off-center left but wholly visible; standing mallard on pebbles with two orange webbed feet; separate mallard swimming between lily pads with clear bill/body and ripples. No people, feeding or captions. Panel heights uneven but seams clear at 429/855/1280; crop heights 409/406/405/492px, width 1008px; no upscaling.",
+    "cuts": [
+      429,
+      855,
+      1280
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 409
+    },
+    "contexts": [
+      {
+        "id": "animals-cat-01-scene0",
+        "label": "在室内宽窗台上趴着晒太阳的猫",
+        "image": "hanzi-images/realistic-v1/animals-cat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cat"
+  },
+  {
+    "id": "animals-cat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-05_1795400127146_4a536161.png",
+    "prompt": "Use case: four animal story album covers. A 1024x1792 sheet of EXACTLY FOUR separate full-width landscape photographs stacked vertically. Equal panel heights; exactly three thin straight 5px white horizontal seams near y=448,896,1344, no outer frame, vertical divider or inset. No text anywhere.\nTop: a tabby cat lying naturally in soft sunlight on a broad stable indoor wooden windowsill. Full body, whiskers, relaxed paws and tail visible; CLOSED window with blurred garden beyond. Gentle indoor photographic daylight.\nSecond: an orange cat sitting naturally on a LOW stone doorstep facing a quiet planted courtyard. Complete body, front paws, whiskers and loosely curved tail visible, potted greenery behind, gentle morning light.\nThird: a mallard duck standing on a broad level patch of rounded riverbank pebbles beside calm water. Complete feathered body, flat bill, BOTH webbed feet, blurred reflected reeds behind, soft natural light.\nBottom: a single duck swimming through a clear gap between floating water-lily leaves on a calm pond. Full above-water body, flat bill and folded wings unobscured, realistic ripples and leaf reflections, soft daylight.\nPhotorealistic camera imagery with authentic fur, feathers, stone and water; anatomically credible animals, natural poses. Center each subject with >=10% crop-safe room around all visible body parts, ears, bill, tail and feet within EACH panel. No cropped body, people, children, hands, cartoon, CGI, anthropomorphism, text, captions, watermark, bait, feeding, handling, open windows, food bowls, fishing gear, boats, nests or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: tabby reclining on wide wooden sill before closed window, complete tail/paws; orange cat seated on a low courtyard doorstep, off-center left but wholly visible; standing mallard on pebbles with two orange webbed feet; separate mallard swimming between lily pads with clear bill/body and ripples. No people, feeding or captions. Panel heights uneven but seams clear at 429/855/1280; crop heights 409/406/405/492px, width 1008px; no upscaling.",
+    "cuts": [
+      429,
+      855,
+      1280
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 439,
+      "width": 1008,
+      "height": 406
+    },
+    "contexts": [
+      {
+        "id": "animals-cat-02-scene0",
+        "label": "在庭院低门阶上坐着的橘猫",
+        "image": "hanzi-images/realistic-v1/animals-cat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cat"
+  },
+  {
+    "id": "animals-duck-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-05_1795400127146_4a536161.png",
+    "prompt": "Use case: four animal story album covers. A 1024x1792 sheet of EXACTLY FOUR separate full-width landscape photographs stacked vertically. Equal panel heights; exactly three thin straight 5px white horizontal seams near y=448,896,1344, no outer frame, vertical divider or inset. No text anywhere.\nTop: a tabby cat lying naturally in soft sunlight on a broad stable indoor wooden windowsill. Full body, whiskers, relaxed paws and tail visible; CLOSED window with blurred garden beyond. Gentle indoor photographic daylight.\nSecond: an orange cat sitting naturally on a LOW stone doorstep facing a quiet planted courtyard. Complete body, front paws, whiskers and loosely curved tail visible, potted greenery behind, gentle morning light.\nThird: a mallard duck standing on a broad level patch of rounded riverbank pebbles beside calm water. Complete feathered body, flat bill, BOTH webbed feet, blurred reflected reeds behind, soft natural light.\nBottom: a single duck swimming through a clear gap between floating water-lily leaves on a calm pond. Full above-water body, flat bill and folded wings unobscured, realistic ripples and leaf reflections, soft daylight.\nPhotorealistic camera imagery with authentic fur, feathers, stone and water; anatomically credible animals, natural poses. Center each subject with >=10% crop-safe room around all visible body parts, ears, bill, tail and feet within EACH panel. No cropped body, people, children, hands, cartoon, CGI, anthropomorphism, text, captions, watermark, bait, feeding, handling, open windows, food bowls, fishing gear, boats, nests or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: tabby reclining on wide wooden sill before closed window, complete tail/paws; orange cat seated on a low courtyard doorstep, off-center left but wholly visible; standing mallard on pebbles with two orange webbed feet; separate mallard swimming between lily pads with clear bill/body and ripples. No people, feeding or captions. Panel heights uneven but seams clear at 429/855/1280; crop heights 409/406/405/492px, width 1008px; no upscaling.",
+    "cuts": [
+      429,
+      855,
+      1280
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 865,
+      "width": 1008,
+      "height": 405
+    },
+    "contexts": [
+      {
+        "id": "animals-duck-01-scene0",
+        "label": "在河岸卵石上站着的鸭",
+        "image": "hanzi-images/realistic-v1/animals-duck-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "duck"
+  },
+  {
+    "id": "animals-duck-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-05_1795400127146_4a536161.png",
+    "prompt": "Use case: four animal story album covers. A 1024x1792 sheet of EXACTLY FOUR separate full-width landscape photographs stacked vertically. Equal panel heights; exactly three thin straight 5px white horizontal seams near y=448,896,1344, no outer frame, vertical divider or inset. No text anywhere.\nTop: a tabby cat lying naturally in soft sunlight on a broad stable indoor wooden windowsill. Full body, whiskers, relaxed paws and tail visible; CLOSED window with blurred garden beyond. Gentle indoor photographic daylight.\nSecond: an orange cat sitting naturally on a LOW stone doorstep facing a quiet planted courtyard. Complete body, front paws, whiskers and loosely curved tail visible, potted greenery behind, gentle morning light.\nThird: a mallard duck standing on a broad level patch of rounded riverbank pebbles beside calm water. Complete feathered body, flat bill, BOTH webbed feet, blurred reflected reeds behind, soft natural light.\nBottom: a single duck swimming through a clear gap between floating water-lily leaves on a calm pond. Full above-water body, flat bill and folded wings unobscured, realistic ripples and leaf reflections, soft daylight.\nPhotorealistic camera imagery with authentic fur, feathers, stone and water; anatomically credible animals, natural poses. Center each subject with >=10% crop-safe room around all visible body parts, ears, bill, tail and feet within EACH panel. No cropped body, people, children, hands, cartoon, CGI, anthropomorphism, text, captions, watermark, bait, feeding, handling, open windows, food bowls, fishing gear, boats, nests or nest disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: tabby reclining on wide wooden sill before closed window, complete tail/paws; orange cat seated on a low courtyard doorstep, off-center left but wholly visible; standing mallard on pebbles with two orange webbed feet; separate mallard swimming between lily pads with clear bill/body and ripples. No people, feeding or captions. Panel heights uneven but seams clear at 429/855/1280; crop heights 409/406/405/492px, width 1008px; no upscaling.",
+    "cuts": [
+      429,
+      855,
+      1280
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1290,
+      "width": 1008,
+      "height": 492
+    },
+    "contexts": [
+      {
+        "id": "animals-duck-02-scene0",
+        "label": "在睡莲叶间游泳的鸭",
+        "image": "hanzi-images/realistic-v1/animals-duck-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "duck"
+  },
+  {
+    "id": "animals-chicken-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-06_1795400254020_bd66c2c4.png",
+    "prompt": "Generate a 1024x1792 sheet with EXACTLY FOUR standalone landscape animal photos stacked full width. Four equal-height photos divided ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No border, vertical divisions, inset images, words or captions.\nTop: a brown hen naturally dust-bathing in a shallow hollow of dry soil in a spacious farmyard. Complete feathered body, head and tail in a relaxed low pose, one wing slightly loosened; no cloud of dust hiding anatomy, gentle daylight.\nSecond: a speckled domestic hen naturally walking on level orchard grass between widely spaced trees. Full body, bill, feather pattern and both legs visible in a credible walking pose, morning light.\nThird: a white goose standing on a level grassy bank beside reeds, naturally preening its shoulder feathers with its long neck turned back and bill touching feathers. Entire body, anatomically plausible curved neck, head, bill and both webbed feet remain visible; soft wetland daylight.\nBottom: a grey domestic goose standing in clear shallow calm water near a bank beside the reflection of willow branches. Complete grey feathered body and long neck, both feet discernible through shallow water, realistic ripples and reflections.\nStyle: photorealistic natural camera photographs, authentic feathers, soil, grass and water, credible bird anatomy. Each complete animal contained centrally with >=10% crop-safe margin from EACH landscape panel's four edges around wings, head, tail and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, text, watermark, bait, feed scattering, feeding, handling, restraint, nests or nest disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown hen low in shallow dry-soil dust bath with loosened wing and no obscuring dust; speckled hen walking on orchard grass with both legs; white goose turning its neck back to preen shoulder on a grassy reed bank; grey goose standing in shallow clear water with reflected branches and visible feet. Complete bird silhouettes, natural near/far-foot overlap, no humans or captions. Cuts 447/889/1300; crop heights 427/422/391/472px at width 1008px. ISSUE: animals-goose-01 crop is 391px high, below 400 but above 300; no upscaling.",
+    "cuts": [
+      447,
+      889,
+      1300
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "animals-chicken-01-scene0",
+        "label": "在干土地浅坑里自然沙浴的棕母鸡",
+        "image": "hanzi-images/realistic-v1/animals-chicken-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chicken"
+  },
+  {
+    "id": "animals-chicken-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-06_1795400254020_bd66c2c4.png",
+    "prompt": "Generate a 1024x1792 sheet with EXACTLY FOUR standalone landscape animal photos stacked full width. Four equal-height photos divided ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No border, vertical divisions, inset images, words or captions.\nTop: a brown hen naturally dust-bathing in a shallow hollow of dry soil in a spacious farmyard. Complete feathered body, head and tail in a relaxed low pose, one wing slightly loosened; no cloud of dust hiding anatomy, gentle daylight.\nSecond: a speckled domestic hen naturally walking on level orchard grass between widely spaced trees. Full body, bill, feather pattern and both legs visible in a credible walking pose, morning light.\nThird: a white goose standing on a level grassy bank beside reeds, naturally preening its shoulder feathers with its long neck turned back and bill touching feathers. Entire body, anatomically plausible curved neck, head, bill and both webbed feet remain visible; soft wetland daylight.\nBottom: a grey domestic goose standing in clear shallow calm water near a bank beside the reflection of willow branches. Complete grey feathered body and long neck, both feet discernible through shallow water, realistic ripples and reflections.\nStyle: photorealistic natural camera photographs, authentic feathers, soil, grass and water, credible bird anatomy. Each complete animal contained centrally with >=10% crop-safe margin from EACH landscape panel's four edges around wings, head, tail and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, text, watermark, bait, feed scattering, feeding, handling, restraint, nests or nest disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown hen low in shallow dry-soil dust bath with loosened wing and no obscuring dust; speckled hen walking on orchard grass with both legs; white goose turning its neck back to preen shoulder on a grassy reed bank; grey goose standing in shallow clear water with reflected branches and visible feet. Complete bird silhouettes, natural near/far-foot overlap, no humans or captions. Cuts 447/889/1300; crop heights 427/422/391/472px at width 1008px. ISSUE: animals-goose-01 crop is 391px high, below 400 but above 300; no upscaling.",
+    "cuts": [
+      447,
+      889,
+      1300
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 457,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "animals-chicken-02-scene0",
+        "label": "在果园草地上走路的花羽母鸡",
+        "image": "hanzi-images/realistic-v1/animals-chicken-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chicken"
+  },
+  {
+    "id": "animals-goose-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-06_1795400254020_bd66c2c4.png",
+    "prompt": "Generate a 1024x1792 sheet with EXACTLY FOUR standalone landscape animal photos stacked full width. Four equal-height photos divided ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No border, vertical divisions, inset images, words or captions.\nTop: a brown hen naturally dust-bathing in a shallow hollow of dry soil in a spacious farmyard. Complete feathered body, head and tail in a relaxed low pose, one wing slightly loosened; no cloud of dust hiding anatomy, gentle daylight.\nSecond: a speckled domestic hen naturally walking on level orchard grass between widely spaced trees. Full body, bill, feather pattern and both legs visible in a credible walking pose, morning light.\nThird: a white goose standing on a level grassy bank beside reeds, naturally preening its shoulder feathers with its long neck turned back and bill touching feathers. Entire body, anatomically plausible curved neck, head, bill and both webbed feet remain visible; soft wetland daylight.\nBottom: a grey domestic goose standing in clear shallow calm water near a bank beside the reflection of willow branches. Complete grey feathered body and long neck, both feet discernible through shallow water, realistic ripples and reflections.\nStyle: photorealistic natural camera photographs, authentic feathers, soil, grass and water, credible bird anatomy. Each complete animal contained centrally with >=10% crop-safe margin from EACH landscape panel's four edges around wings, head, tail and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, text, watermark, bait, feed scattering, feeding, handling, restraint, nests or nest disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown hen low in shallow dry-soil dust bath with loosened wing and no obscuring dust; speckled hen walking on orchard grass with both legs; white goose turning its neck back to preen shoulder on a grassy reed bank; grey goose standing in shallow clear water with reflected branches and visible feet. Complete bird silhouettes, natural near/far-foot overlap, no humans or captions. Cuts 447/889/1300; crop heights 427/422/391/472px at width 1008px. ISSUE: animals-goose-01 crop is 391px high, below 400 but above 300; no upscaling.",
+    "cuts": [
+      447,
+      889,
+      1300
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 899,
+      "width": 1008,
+      "height": 391
+    },
+    "contexts": [
+      {
+        "id": "animals-goose-01-scene0",
+        "label": "在芦苇旁岸地上自然梳羽的白鹅",
+        "image": "hanzi-images/realistic-v1/animals-goose-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "goose"
+  },
+  {
+    "id": "animals-goose-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-06_1795400254020_bd66c2c4.png",
+    "prompt": "Generate a 1024x1792 sheet with EXACTLY FOUR standalone landscape animal photos stacked full width. Four equal-height photos divided ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No border, vertical divisions, inset images, words or captions.\nTop: a brown hen naturally dust-bathing in a shallow hollow of dry soil in a spacious farmyard. Complete feathered body, head and tail in a relaxed low pose, one wing slightly loosened; no cloud of dust hiding anatomy, gentle daylight.\nSecond: a speckled domestic hen naturally walking on level orchard grass between widely spaced trees. Full body, bill, feather pattern and both legs visible in a credible walking pose, morning light.\nThird: a white goose standing on a level grassy bank beside reeds, naturally preening its shoulder feathers with its long neck turned back and bill touching feathers. Entire body, anatomically plausible curved neck, head, bill and both webbed feet remain visible; soft wetland daylight.\nBottom: a grey domestic goose standing in clear shallow calm water near a bank beside the reflection of willow branches. Complete grey feathered body and long neck, both feet discernible through shallow water, realistic ripples and reflections.\nStyle: photorealistic natural camera photographs, authentic feathers, soil, grass and water, credible bird anatomy. Each complete animal contained centrally with >=10% crop-safe margin from EACH landscape panel's four edges around wings, head, tail and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, text, watermark, bait, feed scattering, feeding, handling, restraint, nests or nest disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown hen low in shallow dry-soil dust bath with loosened wing and no obscuring dust; speckled hen walking on orchard grass with both legs; white goose turning its neck back to preen shoulder on a grassy reed bank; grey goose standing in shallow clear water with reflected branches and visible feet. Complete bird silhouettes, natural near/far-foot overlap, no humans or captions. Cuts 447/889/1300; crop heights 427/422/391/472px at width 1008px. ISSUE: animals-goose-01 crop is 391px high, below 400 but above 300; no upscaling.",
+    "cuts": [
+      447,
+      889,
+      1300
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1310,
+      "width": 1008,
+      "height": 472
+    },
+    "contexts": [
+      {
+        "id": "animals-goose-02-scene0",
+        "label": "在柳树倒影旁浅水里站着的灰鹅",
+        "image": "hanzi-images/realistic-v1/animals-goose-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "goose"
+  },
+  {
+    "id": "animals-pig-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-07_1795400379275_c526a1aa.png",
+    "prompt": "Create four new animal cover photographs on one 1024x1792 sheet. EXACTLY FOUR independent full-width LANDSCAPE photos stacked vertically, four equal-height panels and ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No outer border, vertical divisions, inset pictures or text.\nTop photo: a black domestic pig naturally walking across level green pasture in a spacious farm paddock. Full sturdy body, rounded snout disk, ears, tail and four legs in side view; distant blurred simple farm shelter, natural daylight.\nSecond photo: a pink domestic pig naturally standing on level dry soil under the shade of a mature oak in a spacious paddock. Whole body, snout disk, ears, tail and four grounded legs; dappled leaf shadows and grass beyond, soft afternoon light.\nThird photo: a deer resting naturally with folded legs on a quiet meadow among low wildflowers. Whole resting body, slender face and ears unobscured, distant woodland edge behind, gentle morning light.\nBottom photo: an antlerless deer lying naturally with folded legs on dry fallen leaves in deciduous woodland. Full body, slender head, alert ears and folded leg forms, widely spaced tree trunks, soft filtered light.\nPhotorealistic telephoto and farm camera imagery, authentic fur, skin, grass and leaves, credible anatomy and natural resting or walking poses. Each entire animal comfortably within its own panel, >=10% crop-safe room around ears, tail, head and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, bait, feeding, handling, restraint, collars, aggression, nests or disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: black pig walking on grass before a farm shelter, visible snout, curled tail and legs; pink pig standing on dry ground in oak shade; antlerless deer reclining among meadow flowers; distinct antlerless deer reclining on woodland fallen leaves. Both deer show folded legs and complete bodies with clear ears. Three thin seams, no people, feeding or text. Cuts 446/894/1343; crop heights 426/428/429/429px, width 1008px, no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "animals-pig-01-scene0",
+        "label": "在农场牧草地上行走的黑猪",
+        "image": "hanzi-images/realistic-v1/animals-pig-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pig"
+  },
+  {
+    "id": "animals-pig-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-07_1795400379275_c526a1aa.png",
+    "prompt": "Create four new animal cover photographs on one 1024x1792 sheet. EXACTLY FOUR independent full-width LANDSCAPE photos stacked vertically, four equal-height panels and ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No outer border, vertical divisions, inset pictures or text.\nTop photo: a black domestic pig naturally walking across level green pasture in a spacious farm paddock. Full sturdy body, rounded snout disk, ears, tail and four legs in side view; distant blurred simple farm shelter, natural daylight.\nSecond photo: a pink domestic pig naturally standing on level dry soil under the shade of a mature oak in a spacious paddock. Whole body, snout disk, ears, tail and four grounded legs; dappled leaf shadows and grass beyond, soft afternoon light.\nThird photo: a deer resting naturally with folded legs on a quiet meadow among low wildflowers. Whole resting body, slender face and ears unobscured, distant woodland edge behind, gentle morning light.\nBottom photo: an antlerless deer lying naturally with folded legs on dry fallen leaves in deciduous woodland. Full body, slender head, alert ears and folded leg forms, widely spaced tree trunks, soft filtered light.\nPhotorealistic telephoto and farm camera imagery, authentic fur, skin, grass and leaves, credible anatomy and natural resting or walking poses. Each entire animal comfortably within its own panel, >=10% crop-safe room around ears, tail, head and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, bait, feeding, handling, restraint, collars, aggression, nests or disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: black pig walking on grass before a farm shelter, visible snout, curled tail and legs; pink pig standing on dry ground in oak shade; antlerless deer reclining among meadow flowers; distinct antlerless deer reclining on woodland fallen leaves. Both deer show folded legs and complete bodies with clear ears. Three thin seams, no people, feeding or text. Cuts 446/894/1343; crop heights 426/428/429/429px, width 1008px, no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "animals-pig-02-scene0",
+        "label": "在橡树阴影里的土地上站着的粉色猪",
+        "image": "hanzi-images/realistic-v1/animals-pig-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pig"
+  },
+  {
+    "id": "animals-deer-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-07_1795400379275_c526a1aa.png",
+    "prompt": "Create four new animal cover photographs on one 1024x1792 sheet. EXACTLY FOUR independent full-width LANDSCAPE photos stacked vertically, four equal-height panels and ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No outer border, vertical divisions, inset pictures or text.\nTop photo: a black domestic pig naturally walking across level green pasture in a spacious farm paddock. Full sturdy body, rounded snout disk, ears, tail and four legs in side view; distant blurred simple farm shelter, natural daylight.\nSecond photo: a pink domestic pig naturally standing on level dry soil under the shade of a mature oak in a spacious paddock. Whole body, snout disk, ears, tail and four grounded legs; dappled leaf shadows and grass beyond, soft afternoon light.\nThird photo: a deer resting naturally with folded legs on a quiet meadow among low wildflowers. Whole resting body, slender face and ears unobscured, distant woodland edge behind, gentle morning light.\nBottom photo: an antlerless deer lying naturally with folded legs on dry fallen leaves in deciduous woodland. Full body, slender head, alert ears and folded leg forms, widely spaced tree trunks, soft filtered light.\nPhotorealistic telephoto and farm camera imagery, authentic fur, skin, grass and leaves, credible anatomy and natural resting or walking poses. Each entire animal comfortably within its own panel, >=10% crop-safe room around ears, tail, head and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, bait, feeding, handling, restraint, collars, aggression, nests or disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: black pig walking on grass before a farm shelter, visible snout, curled tail and legs; pink pig standing on dry ground in oak shade; antlerless deer reclining among meadow flowers; distinct antlerless deer reclining on woodland fallen leaves. Both deer show folded legs and complete bodies with clear ears. Three thin seams, no people, feeding or text. Cuts 446/894/1343; crop heights 426/428/429/429px, width 1008px, no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "animals-deer-01-scene0",
+        "label": "在野花草地上卧着休息的鹿",
+        "image": "hanzi-images/realistic-v1/animals-deer-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "deer"
+  },
+  {
+    "id": "animals-deer-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-07_1795400379275_c526a1aa.png",
+    "prompt": "Create four new animal cover photographs on one 1024x1792 sheet. EXACTLY FOUR independent full-width LANDSCAPE photos stacked vertically, four equal-height panels and ONLY three straight thin 5px white horizontal seams near y=448,896,1344. No outer border, vertical divisions, inset pictures or text.\nTop photo: a black domestic pig naturally walking across level green pasture in a spacious farm paddock. Full sturdy body, rounded snout disk, ears, tail and four legs in side view; distant blurred simple farm shelter, natural daylight.\nSecond photo: a pink domestic pig naturally standing on level dry soil under the shade of a mature oak in a spacious paddock. Whole body, snout disk, ears, tail and four grounded legs; dappled leaf shadows and grass beyond, soft afternoon light.\nThird photo: a deer resting naturally with folded legs on a quiet meadow among low wildflowers. Whole resting body, slender face and ears unobscured, distant woodland edge behind, gentle morning light.\nBottom photo: an antlerless deer lying naturally with folded legs on dry fallen leaves in deciduous woodland. Full body, slender head, alert ears and folded leg forms, widely spaced tree trunks, soft filtered light.\nPhotorealistic telephoto and farm camera imagery, authentic fur, skin, grass and leaves, credible anatomy and natural resting or walking poses. Each entire animal comfortably within its own panel, >=10% crop-safe room around ears, tail, head and feet. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, letters, watermark, bait, feeding, handling, restraint, collars, aggression, nests or disturbance.",
+    "reviewNotes": "Viewed actual 380px JPEG: black pig walking on grass before a farm shelter, visible snout, curled tail and legs; pink pig standing on dry ground in oak shade; antlerless deer reclining among meadow flowers; distinct antlerless deer reclining on woodland fallen leaves. Both deer show folded legs and complete bodies with clear ears. Three thin seams, no people, feeding or text. Cuts 446/894/1343; crop heights 426/428/429/429px, width 1008px, no upscaling.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "animals-deer-02-scene0",
+        "label": "在林间落叶地上卧着的无角鹿",
+        "image": "hanzi-images/realistic-v1/animals-deer-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "deer"
+  },
+  {
+    "id": "animals-bear-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-08_1795400485632_9d8933dd.png",
+    "prompt": "Use case: four new animal story cover photos. 1024x1792 sheet with EXACTLY FOUR independent full-width LANDSCAPE photographs stacked top to bottom. Equal-height panels separated ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, vertical divider, inset or words.\nTop photo: one brown bear naturally standing on four grounded legs in a shallow clear river over a stony riverbed. Complete strong body, small round ears and relaxed head, gentle ripples, forested far bank; no fishing or prey.\nSecond photo: one brown bear naturally walking in side view across a broad level gravel riverbank. Full body, round ears and walking legs, calm river and distant conifers behind, soft overcast light; calm behavior, no prey.\nThird photo: one honeybee naturally perched on a small lavender flower cluster. Complete fuzzy body, antennae, six credible legs and translucent wings visible among purple flowers, natural macro detail and soft daylight, garden bokeh.\nBottom photo: one honeybee naturally resting in clear side profile on the central disk of a sunflower. Entire bee with head, antennae, legs, abdomen and translucent wings; textured flower disk and a COMPLETE sunflower flower with yellow petals wholly inside this landscape panel. Gentle daylight, macro photography.\nPhotorealistic camera imagery, authentic fur, feathers-free bear anatomy, insect anatomy, water, flower and pollen textures. Bears viewed from distant telephoto perspective, bees with shallow-focus natural background. Center each target with >=10% crop-safe margin around entire body, ears, legs and wings; also retain whole sunflower with margin. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, text, watermark, bait, feeding, handling, hives, collection jars, aggressive behavior, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown bear calmly standing in shallow stony river, lower feet partly submerged; distinct bear walking side-on on gravel riverbank; honeybee perched among lavender flowers with full abdomen, antennae and wings; side-on honeybee on sunflower disk. Bee bodies and wing edges retained; flower-contact legs overlap naturally and not all six can be separately counted at 380px. Sunflower fills foreground and some OUTER PETALS extend beyond panel, although bee is complete; source description corrected only for this floral framing. No people, captions, bait or prey. Cuts 445/895/1341; assigned heights 425/430/426/431px, width 1008px, no upscaling.",
+    "cuts": [
+      445,
+      895,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "animals-bear-01-scene0",
+        "label": "在浅河水中自然站着的棕熊",
+        "image": "hanzi-images/realistic-v1/animals-bear-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bear"
+  },
+  {
+    "id": "animals-bear-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-08_1795400485632_9d8933dd.png",
+    "prompt": "Use case: four new animal story cover photos. 1024x1792 sheet with EXACTLY FOUR independent full-width LANDSCAPE photographs stacked top to bottom. Equal-height panels separated ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, vertical divider, inset or words.\nTop photo: one brown bear naturally standing on four grounded legs in a shallow clear river over a stony riverbed. Complete strong body, small round ears and relaxed head, gentle ripples, forested far bank; no fishing or prey.\nSecond photo: one brown bear naturally walking in side view across a broad level gravel riverbank. Full body, round ears and walking legs, calm river and distant conifers behind, soft overcast light; calm behavior, no prey.\nThird photo: one honeybee naturally perched on a small lavender flower cluster. Complete fuzzy body, antennae, six credible legs and translucent wings visible among purple flowers, natural macro detail and soft daylight, garden bokeh.\nBottom photo: one honeybee naturally resting in clear side profile on the central disk of a sunflower. Entire bee with head, antennae, legs, abdomen and translucent wings; textured flower disk and a COMPLETE sunflower flower with yellow petals wholly inside this landscape panel. Gentle daylight, macro photography.\nPhotorealistic camera imagery, authentic fur, feathers-free bear anatomy, insect anatomy, water, flower and pollen textures. Bears viewed from distant telephoto perspective, bees with shallow-focus natural background. Center each target with >=10% crop-safe margin around entire body, ears, legs and wings; also retain whole sunflower with margin. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, text, watermark, bait, feeding, handling, hives, collection jars, aggressive behavior, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown bear calmly standing in shallow stony river, lower feet partly submerged; distinct bear walking side-on on gravel riverbank; honeybee perched among lavender flowers with full abdomen, antennae and wings; side-on honeybee on sunflower disk. Bee bodies and wing edges retained; flower-contact legs overlap naturally and not all six can be separately counted at 380px. Sunflower fills foreground and some OUTER PETALS extend beyond panel, although bee is complete; source description corrected only for this floral framing. No people, captions, bait or prey. Cuts 445/895/1341; assigned heights 425/430/426/431px, width 1008px, no upscaling.",
+    "cuts": [
+      445,
+      895,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "animals-bear-02-scene0",
+        "label": "在砾石河岸上自然行走的棕熊",
+        "image": "hanzi-images/realistic-v1/animals-bear-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bear"
+  },
+  {
+    "id": "animals-bee-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-08_1795400485632_9d8933dd.png",
+    "prompt": "Use case: four new animal story cover photos. 1024x1792 sheet with EXACTLY FOUR independent full-width LANDSCAPE photographs stacked top to bottom. Equal-height panels separated ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, vertical divider, inset or words.\nTop photo: one brown bear naturally standing on four grounded legs in a shallow clear river over a stony riverbed. Complete strong body, small round ears and relaxed head, gentle ripples, forested far bank; no fishing or prey.\nSecond photo: one brown bear naturally walking in side view across a broad level gravel riverbank. Full body, round ears and walking legs, calm river and distant conifers behind, soft overcast light; calm behavior, no prey.\nThird photo: one honeybee naturally perched on a small lavender flower cluster. Complete fuzzy body, antennae, six credible legs and translucent wings visible among purple flowers, natural macro detail and soft daylight, garden bokeh.\nBottom photo: one honeybee naturally resting in clear side profile on the central disk of a sunflower. Entire bee with head, antennae, legs, abdomen and translucent wings; textured flower disk and a COMPLETE sunflower flower with yellow petals wholly inside this landscape panel. Gentle daylight, macro photography.\nPhotorealistic camera imagery, authentic fur, feathers-free bear anatomy, insect anatomy, water, flower and pollen textures. Bears viewed from distant telephoto perspective, bees with shallow-focus natural background. Center each target with >=10% crop-safe margin around entire body, ears, legs and wings; also retain whole sunflower with margin. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, text, watermark, bait, feeding, handling, hives, collection jars, aggressive behavior, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown bear calmly standing in shallow stony river, lower feet partly submerged; distinct bear walking side-on on gravel riverbank; honeybee perched among lavender flowers with full abdomen, antennae and wings; side-on honeybee on sunflower disk. Bee bodies and wing edges retained; flower-contact legs overlap naturally and not all six can be separately counted at 380px. Sunflower fills foreground and some OUTER PETALS extend beyond panel, although bee is complete; source description corrected only for this floral framing. No people, captions, bait or prey. Cuts 445/895/1341; assigned heights 425/430/426/431px, width 1008px, no upscaling.",
+    "cuts": [
+      445,
+      895,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "animals-bee-01-scene0",
+        "label": "停在薰衣草花上的蜜蜂",
+        "image": "hanzi-images/realistic-v1/animals-bee-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bee"
+  },
+  {
+    "id": "animals-bee-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-08_1795400485632_9d8933dd.png",
+    "prompt": "Use case: four new animal story cover photos. 1024x1792 sheet with EXACTLY FOUR independent full-width LANDSCAPE photographs stacked top to bottom. Equal-height panels separated ONLY by exactly three thin straight 5px white horizontal seams near y=448,896,1344. No outer frame, vertical divider, inset or words.\nTop photo: one brown bear naturally standing on four grounded legs in a shallow clear river over a stony riverbed. Complete strong body, small round ears and relaxed head, gentle ripples, forested far bank; no fishing or prey.\nSecond photo: one brown bear naturally walking in side view across a broad level gravel riverbank. Full body, round ears and walking legs, calm river and distant conifers behind, soft overcast light; calm behavior, no prey.\nThird photo: one honeybee naturally perched on a small lavender flower cluster. Complete fuzzy body, antennae, six credible legs and translucent wings visible among purple flowers, natural macro detail and soft daylight, garden bokeh.\nBottom photo: one honeybee naturally resting in clear side profile on the central disk of a sunflower. Entire bee with head, antennae, legs, abdomen and translucent wings; textured flower disk and a COMPLETE sunflower flower with yellow petals wholly inside this landscape panel. Gentle daylight, macro photography.\nPhotorealistic camera imagery, authentic fur, feathers-free bear anatomy, insect anatomy, water, flower and pollen textures. Bears viewed from distant telephoto perspective, bees with shallow-focus natural background. Center each target with >=10% crop-safe margin around entire body, ears, legs and wings; also retain whole sunflower with margin. No humans, children, hands, cartoon, CGI, anthropomorphism, captions, text, watermark, bait, feeding, handling, hives, collection jars, aggressive behavior, nests or disturbance.",
+    "reviewNotes": "Read actual 380px JPEG: brown bear calmly standing in shallow stony river, lower feet partly submerged; distinct bear walking side-on on gravel riverbank; honeybee perched among lavender flowers with full abdomen, antennae and wings; side-on honeybee on sunflower disk. Bee bodies and wing edges retained; flower-contact legs overlap naturally and not all six can be separately counted at 380px. Sunflower fills foreground and some OUTER PETALS extend beyond panel, although bee is complete; source description corrected only for this floral framing. No people, captions, bait or prey. Cuts 445/895/1341; assigned heights 425/430/426/431px, width 1008px, no upscaling.",
+    "cuts": [
+      445,
+      895,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "animals-bee-02-scene0",
+        "label": "侧身停在向日葵花盘上的蜜蜂",
+        "image": "hanzi-images/realistic-v1/animals-bee-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bee"
+  },
+  {
+    "id": "animals-butterfly-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-animals-v3-09_1795400590794_9ce6ef98.png",
+    "prompt": "Use case: one butterfly story cover plus three UNASSIGNED neutral nature panels. Create a 1024x1792 photographic sheet with EXACTLY FOUR independent full-width LANDSCAPE photographs stacked vertically. Four equal-height panels, separated ONLY by three straight thin 5px white horizontal seams near y=448,896,1344. No outer border, vertical dividers, inset photos, captions or text.\nTOP PHOTO, assigned cover: a butterfly naturally perched on the yellow center of a white daisy with its wings CLOSED upright, clear side profile showing outer wing pattern. Complete butterfly with full closed wing edges, antennae, head, abdomen and anatomically credible legs all within frame. Show the COMPLETE white daisy flower including every petal wholly within panel, generous background above and below. Soft garden daylight, authentic macro photograph, blurred green meadow. Butterfly is unmistakable, not a moth.\nSecond photo, unassigned: neutral sunlit green meadow grass with small white wildflowers, no animals.\nThird photo, unassigned: neutral quiet woodland floor with dry brown leaves and widely spaced tree trunks, no animals.\nBottom photo, unassigned: neutral calm shallow stream with smooth pebbles and soft reflections of green trees, no animals.\nAll four panels photorealistic camera photographs with natural texture and lighting, no cartoon or CGI. Keep complete butterfly and complete daisy in the CENTRAL 65% of their panel's width and height, ample crop-safe space around wings, legs, antennae and petals. No humans, children, hands, anthropomorphism, captions, letters, watermark, bait, feeding, handling, nets, collection containers, nests or disturbance. Exactly four photos; only the top photo contains an animal.",
+    "reviewNotes": "Read actual 380px JPEG: top closed-wing butterfly in side profile on a complete white daisy, antennae and wing edges clear; legs naturally overlap at flower contact. Wing upper margin narrower than requested but remains inside measured crop. Lower panels show meadow grass/white wildflowers, leaf-covered woodland and shallow stony stream; no animals assigned to these three neutral panels. No people, nets or text. Cuts 446/895/1344; only assigned crop is top 1008x426px. Remaining unassigned crops 429/429/428px high are not exported. No upscaling.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "animals-butterfly-01-scene0",
+        "label": "合拢翅膀停在雏菊上的蝴蝶",
+        "image": "hanzi-images/realistic-v1/animals-butterfly-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "butterfly"
+  }
+]

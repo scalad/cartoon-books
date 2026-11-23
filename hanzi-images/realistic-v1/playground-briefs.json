@@ -1,0 +1,418 @@
+[
+  {
+    "id": "wind", "char": "风",
+    "contexts": [
+      { "id": "wind-ribbons", "label": "被风吹起的布条", "description": "Photorealistic outdoor photograph of three plain fabric ribbons tied to a simple pole, visibly streaming horizontally in a breeze. Natural daylight, crisp fabric folds, quiet blurred background. Show wind through moving fabric, not an invisible-air graphic. No people, faces, writing, logos or watermarks." },
+      { "id": "wind-grasses", "label": "被风吹弯的草", "description": "Photorealistic low-angle photograph of a dense patch of long green grasses bending together in a steady breeze. Visible lean and slight tip motion, daylight, plain distant background. Wind is inferred from movement. No people, faces, writing, logos or watermarks." },
+      { "id": "wind-curtain", "label": "被风吹起的窗帘", "description": "Photorealistic interior photograph of a lightweight plain white curtain billowing inward beside a securely limited-open window. Soft daylight and clearly curved fabric. Unoccupied room, no cords within reach, no people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "snow", "char": "雪",
+    "contexts": [
+      { "id": "snow-lawn", "label": "草地上积着的雪", "description": "Photorealistic winter photograph of soft white snow accumulated across a lawn, a few grass tips emerging through the snow. Detailed granular snow texture under overcast daylight. No footprints, people, faces, writing, logos or watermarks." },
+      { "id": "snow-branch", "label": "树枝上积着的雪", "description": "Photorealistic close photograph of white snow resting along a horizontal bare tree branch, showing the contrast between bark and loosely packed snow. Soft winter daylight, shallow depth of field. No people, faces, writing, logos or watermarks." },
+      { "id": "snow-falling", "label": "空中飘落的雪", "description": "Photorealistic photograph of actual falling snowflakes at different distances against a dark softly blurred hedge. Falling flakes clearly visible in the air, natural winter light, no decorative snowflake symbols. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "star", "char": "星",
+    "contexts": [
+      { "id": "star-mountain", "label": "山上方夜空里的星", "description": "Photorealistic astronomical landscape photograph of many distant stars appearing as natural pinpoints above a dark mountain silhouette. Sharp stars without trails, deep night sky, no moon or five-pointed graphic stars. No people, faces, writing, logos or watermarks." },
+      { "id": "star-lake", "label": "湖上方夜空里的星", "description": "Photorealistic night landscape photograph of natural pinpoint stars above a calm lake with a low dark shoreline. Sky occupies most of the frame; realistic faint reflections, no moon, no cartoon star shapes. No people, faces, writing, logos or watermarks." },
+      { "id": "star-rooftop", "label": "屋顶上方夜空里的星", "description": "Photorealistic night photograph of a small unlit roof silhouette below a clear star-filled sky. Stars are distant points of light, no streaks, moon or decorative five-pointed shapes. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "ice", "char": "冰",
+    "contexts": [
+      { "id": "ice-cubes", "label": "托盘里的冰块", "description": "Photorealistic close photograph of several transparent water ice cubes in a shallow plain tray. Clear solid edges, trapped tiny bubbles and small melt droplets, neutral indoor daylight. No drinks, people, faces, writing, logos or watermarks." },
+      { "id": "ice-surface", "label": "水面上结成的冰", "description": "Photorealistic photograph of a shallow pond surface frozen into continuous translucent ice, with delicate natural cracks and a frosty rim. No footprints or activity on the ice. No people, faces, writing, logos or watermarks." },
+      { "id": "ice-icicles", "label": "屋檐下垂着的冰柱", "description": "Photorealistic telephoto photograph of clear tapered icicles hanging from an empty roof eave, viewed from a distance. Natural winter light highlights transparent ice. No person beneath the icicles, no faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "river", "char": "河",
+    "contexts": [
+      { "id": "river-valley", "label": "山谷里流动的河", "description": "Photorealistic wide landscape photograph of a flowing river following a mountain valley, with clearly visible continuous channel and two banks. Natural water ripples, distant perspective. No people, faces, boats, writing, logos or watermarks." },
+      { "id": "river-city", "label": "城市里流动的河", "description": "Photorealistic wide photograph of a river flowing through a quiet city, water channel centered between two clearly defined embankments. Empty guarded walkways and distant buildings. No people, faces, boats, writing, logos or watermarks." },
+      { "id": "river-fields", "label": "田野间流动的河", "description": "Photorealistic landscape photograph of a winding river flowing between agricultural fields. Show its continuous channel, both banks and subtle water movement, warm natural daylight. No people, faces, boats, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "pond", "char": "池",
+    "contexts": [
+      { "id": "pond-garden", "label": "花园里的小池", "description": "Photorealistic photograph of a small garden pond with the entire enclosed water outline visible, planting around its edges and gentle reflections. Clearly a small standing-water basin, not a river. No people, faces, fish, writing, logos or watermarks." },
+      { "id": "pond-lotus", "label": "长着荷花的池", "description": "Photorealistic photograph of a bounded lotus pond with standing water, several lotus leaves and flowers, and visible pond edges. Natural daylight and rippled reflections. No people, faces, fish, writing, logos or watermarks." },
+      { "id": "pond-courtyard", "label": "院子里蓄水的池", "description": "Photorealistic wide photograph of a small water-filled courtyard pond, showing its complete low enclosing rim and calm surface. Quiet empty courtyard, no fountain jets, swimming activity or river channel. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "tree", "char": "树",
+    "contexts": [
+      { "id": "tree-broadleaf", "label": "枝叶繁茂的阔叶树", "description": "Photorealistic full-tree photograph of one mature broadleaf tree with a visible woody trunk, spreading branches and leafy crown. Simple grassy surroundings and natural daylight. No people, faces, writing, logos or watermarks." },
+      { "id": "tree-conifer", "label": "长着针叶的树", "description": "Photorealistic photograph of a complete conifer tree, showing woody trunk, tiered branches and dense needle foliage. Entire tree visible against a quiet natural background. No people, faces, writing, logos or watermarks." },
+      { "id": "tree-bare", "label": "冬天落叶后的树", "description": "Photorealistic winter photograph of a complete deciduous tree after leaf fall, showing a substantial woody trunk and branching crown without leaves. Soft daylight, plain sky background. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "root", "char": "根",
+    "contexts": [
+      { "id": "root-soil", "label": "透明观察盒中土里的根", "description": "Photorealistic educational photograph of an intact plant growing in a thin transparent root observation box. Fine branching roots visible through the clear front against soil, stem emerging above. No labels, diagrams, people, faces, writing, logos or watermarks." },
+      { "id": "root-tree", "label": "树干旁露出的根", "description": "Photorealistic close photograph of naturally exposed branching tree roots connected to the base of a tree trunk. Show roots continuing into soil without digging or damage. No tools, people, faces, writing, logos or watermarks." },
+      { "id": "root-water", "label": "水培植物水中的根", "description": "Photorealistic close photograph of an intact hydroponic plant in a clear glass vessel, white branching roots fully visible beneath the waterline. Green stem and leaves above, neutral background. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "sprout", "char": "芽",
+    "contexts": [
+      { "id": "sprout-bean", "label": "豆种子刚冒出的芽", "description": "Photorealistic macro photograph of a germinating bean seed with a tiny pale-green shoot bud emerging beside the split seed coat. Clearly show the shoot distinct from the downward root, moist growth pad. No people, faces, writing, logos or watermarks." },
+      { "id": "sprout-branch", "label": "枝条上鼓起的芽", "description": "Photorealistic macro photograph of a swollen living leaf bud on a thin woody branch, bud scales beginning to open around a tiny green tip. Shallow depth of field, soft daylight. No people, faces, writing, logos or watermarks." },
+      { "id": "sprout-soil", "label": "刚钻出土面的芽", "description": "Photorealistic macro photograph of a very young green shoot just breaking through moist potting soil, its small folded leaf tip still mostly closed. Distinguish this new shoot from a mature seedling. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "seed", "char": "种",
+    "contexts": [
+      { "id": "seed-bean", "label": "托盘里的豆种子", "description": "Photorealistic close photograph of a small group of whole dry bean seeds in a plain shallow tray, seed coats and attachment scars visible. These are intact planting seeds, no seedlings or food preparation. No people, faces, writing, logos or watermarks." },
+      { "id": "seed-sunflower", "label": "托盘里的向日葵种子", "description": "Photorealistic close photograph of intact sunflower planting seeds with natural striped shells, arranged in a shallow plain tray. No peeled kernels, seasoning, snack packaging or tools. No people, faces, writing, logos or watermarks." },
+      { "id": "seed-pumpkin", "label": "托盘里的南瓜种子", "description": "Photorealistic close photograph of intact flat pale pumpkin planting seeds in a shallow plain tray, natural seed shells clearly visible. No roasting, salt, food service or tools. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "seedling", "char": "苗",
+    "contexts": [
+      { "id": "seedling-vegetable", "label": "育苗盘里的菜苗", "description": "Photorealistic photograph of young vegetable seedlings in a clean nursery tray, small upright stems with open cotyledons and first leaves. Clearly young plants rather than closed buds. No fertilizer containers, people, faces, writing, logos or watermarks." },
+      { "id": "seedling-flower", "label": "花盆里的花苗", "description": "Photorealistic close photograph of a small young flowering-plant seedling growing in a plain pot, several small open leaves, thin stem, no flowers yet. Natural daylight. No tools, people, faces, writing, logos or watermarks." },
+      { "id": "seedling-rice", "label": "田里成行的稻苗", "description": "Photorealistic photograph of young green rice seedlings planted in neat rows in a shallow paddy. Low plants with slender open leaves, no ripe rice heads or loose grains. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "cat", "char": "猫",
+    "contexts": [
+      { "id": "cat-sitting", "label": "安静坐着的猫", "description": "Photorealistic full-body photograph of a real domestic cat sitting naturally on a plain soft mat, whiskers, paws and tail visible. Gentle daylight, calm unposed behavior. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "cat-sleeping", "label": "蜷起来睡觉的猫", "description": "Photorealistic photograph of a real domestic cat curled up asleep on a plain fabric cushion, relaxed body and tucked paws. No human touching or waking it. No rice, grains, stones, food, writing, logos or watermarks." },
+      { "id": "cat-stretching", "label": "伸懒腰的猫", "description": "Photorealistic full-body photograph of a real domestic cat naturally stretching with forelegs extended and back raised on a soft plain rug. Accurate anatomy, quiet daylight. No rice, grains, stones, food, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "duck", "char": "鸭",
+    "contexts": [
+      { "id": "duck-swimming", "label": "清水里游泳的鸭", "description": "Photorealistic photograph of a real duck swimming naturally on clear water, flattened bill and feathered body visible, gentle wake behind. Water fills background with no shoreline rocks. No rice, grains, stones, feeders, people, writing, logos or watermarks." },
+      { "id": "duck-walking", "label": "草地上走路的鸭", "description": "Photorealistic full-body photograph of a real duck walking across clean short grass, flattened bill and webbed feet clearly visible. Natural behavior, no anthropomorphic pose. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "duck-resting", "label": "草地上休息的鸭", "description": "Photorealistic photograph of a real duck resting naturally on clean short grass, bill and folded wings visible. Soft daylight, calm shallow-depth background. No rice, grains, stones, food, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "chicken", "char": "鸡",
+    "contexts": [
+      { "id": "chicken-rooster", "label": "草地上站着的公鸡", "description": "Photorealistic full-body photograph of a healthy real rooster standing on clean grass, red comb, feathered wings and curved tail visible. Natural anatomy and posture. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "chicken-hen", "label": "草地上站着的母鸡", "description": "Photorealistic full-body photograph of a healthy real hen standing naturally on clean grass, small comb and folded feathered wings clear. No eggs or chicks in this view. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "chicken-chick", "label": "自然站立的小鸡", "description": "Photorealistic photograph of a real young chick standing naturally on a clean soft bedding mat, down feathers and both feet visible. Accurate anatomy, no handling. No rice, grains, stones, food, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "goose", "char": "鹅",
+    "contexts": [
+      { "id": "goose-white", "label": "草地上站着的白鹅", "description": "Photorealistic full-body photograph of a real white domestic goose standing on clean grass, long neck and webbed feet clear. Calm natural posture, not approaching a person. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "goose-grey", "label": "草地上站着的灰鹅", "description": "Photorealistic full-body photograph of a real grey domestic goose standing on clean short grass, long neck, grey feathers and webbed feet visible. Natural daylight. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "goose-swimming", "label": "清水里游泳的鹅", "description": "Photorealistic photograph of a real goose swimming on clear water, long neck raised naturally, feathered body and soft wake visible. No shoreline rocks or food. No rice, grains, stones, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "pig", "char": "猪",
+    "contexts": [
+      { "id": "pig-pink", "label": "站着的粉色猪", "description": "Photorealistic full-body photograph of a healthy real pink domestic pig standing naturally on clean short grass, snout disk and sturdy body visible. No costume or human handling. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "pig-black", "label": "站着的黑色猪", "description": "Photorealistic full-body photograph of a healthy real black domestic pig standing naturally on clean short grass, snout disk and legs clearly visible. Soft daylight. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "pig-resting", "label": "干净垫草上休息的猪", "description": "Photorealistic photograph of a real domestic pig lying comfortably on clean dry straw bedding, relaxed natural pose, snout disk visible. Straw stems only, no grain heads or feeding trough. No rice, grains, stones, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "deer", "char": "鹿",
+    "contexts": [
+      { "id": "deer-standing", "label": "草地上站着的鹿", "description": "Photorealistic telephoto photograph of a real deer standing naturally on clean grass, slender legs and cloven hooves visible. Undisturbed animal, distant soft background. No rice, grains, stones, food, people, writing, logos or watermarks." },
+      { "id": "deer-grazing", "label": "低头吃草的鹿", "description": "Photorealistic telephoto photograph of a real deer naturally grazing with head lowered on clean short grass. Full body and slender legs visible; no human-provided food. No rice, grains, stones, people, writing, logos or watermarks." },
+      { "id": "deer-resting", "label": "草地上休息的鹿", "description": "Photorealistic telephoto photograph of a real deer resting with folded legs on clean grass, alert ears and relaxed natural body. No person nearby or bait. No rice, grains, stones, food, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "bear", "char": "熊",
+    "contexts": [
+      { "id": "bear-walking", "label": "草地上行走的棕熊", "description": "Photorealistic remote telephoto photograph of a real brown bear walking naturally on grass, bulky furry body, small round ears and four limbs visible. No toy styling. No rice, grains, stones, bait, people, writing, logos or watermarks." },
+      { "id": "bear-sitting", "label": "草地上坐着的棕熊", "description": "Photorealistic remote telephoto photograph of a real brown bear sitting naturally on clean grass, round ears and heavy fur visible, no anthropomorphic expression. No rice, grains, stones, bait, people, writing, logos or watermarks." },
+      { "id": "bear-resting", "label": "草地上休息的棕熊", "description": "Photorealistic remote telephoto photograph of a real brown bear lying at rest on clean grass, natural body posture and substantial fur. Undisturbed wildlife, no human proximity. No rice, grains, stones, bait, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "bee", "char": "蜂",
+    "contexts": [
+      { "id": "bee-flower", "label": "停在花上的蜜蜂", "description": "Photorealistic macro photograph of a real honeybee naturally resting on a flower, six legs, antennae and translucent wings anatomically accurate. Clear bee body, soft foliage background. No rice, grains, stones, people, handling, writing, logos or watermarks." },
+      { "id": "bee-flying", "label": "空中飞行的蜜蜂", "description": "Photorealistic high-speed macro photograph of a real honeybee flying naturally against blurred green foliage. Body sharply visible, wings with slight motion blur, six tucked legs anatomically accurate. No rice, grains, stones, people, writing, logos or watermarks." },
+      { "id": "bee-side", "label": "侧身停在叶上的蜜蜂", "description": "Photorealistic side-view macro photograph of a real honeybee resting on a green leaf, antennae, segmented body, folded wings and six legs discernible. No trapping or handling. No rice, grains, stones, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "butterfly", "char": "蝶",
+    "contexts": [
+      { "id": "butterfly-open", "label": "展开翅膀的蝴蝶", "description": "Photorealistic macro photograph of a real butterfly naturally resting with both pairs of wings spread open on a leaf. Accurate antennae and six legs, detailed wing patterns. No rice, grains, stones, people, handling, writing, logos or watermarks." },
+      { "id": "butterfly-closed", "label": "合拢翅膀的蝴蝶", "description": "Photorealistic side-view macro photograph of a real butterfly resting on a leaf with wings held together upright. Side wing pattern and clubbed antennae visible. No rice, grains, stones, people, handling, writing, logos or watermarks." },
+      { "id": "butterfly-flying", "label": "飞行中的蝴蝶", "description": "Photorealistic high-speed photograph of a real butterfly flying freely against softly blurred green foliage. Anatomically accurate body, two pairs of wings visible in a natural wingbeat, no symbolic styling. No rice, grains, stones, people, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "foot", "char": "足",
+    "contexts": [
+      { "id": "foot-top", "label": "人的脚背", "description": "Photorealistic educational close photograph of the top of one consenting adult's bare human foot resting on a plain clean mat. Show toes, foot dorsum and ankle boundary, neutral framing. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "foot-sole", "label": "人的脚底", "description": "Photorealistic educational close photograph of one consenting adult's human foot sole held naturally above a plain clean mat. Heel, arch and toe pads clearly visible, no injury or sexualized framing. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "foot-side", "label": "人的脚侧面", "description": "Photorealistic educational side-view photograph of one consenting adult's bare foot resting on a clean mat, showing heel, arch, toes and ankle edge. Neutral medical-style observation, no injury. No rice, grains, stones, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "head", "char": "头",
+    "contexts": [
+      { "id": "head-front", "label": "人的头部正面", "description": "Photorealistic neutral educational portrait of a consenting adult's complete head from the front, including hair, ears, face and chin. Crop at upper neck, plain background, natural relaxed expression. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "head-profile", "label": "人的头部侧面", "description": "Photorealistic educational portrait of the same consenting adult's complete head in true side profile, hair, ear, forehead, nose and chin visible. Crop at upper neck, plain background. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "head-back", "label": "人的头部后面", "description": "Photorealistic educational photograph of the same consenting adult's head from directly behind, showing whole skull outline under hair, both ear edges and upper neck. Neutral background, no forced pose. No rice, grains, stones, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "tooth", "char": "牙",
+    "contexts": [
+      { "id": "tooth-front", "label": "牙齿模型上的前牙", "description": "Photorealistic close photograph of an anatomically accurate dental teaching model, focusing on the front incisors and their flat cutting edges. Clean resin teeth and model gums, no real mouth or patient. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "tooth-molar", "label": "牙齿模型上的后牙", "description": "Photorealistic macro photograph of an anatomically accurate dental teaching model viewed from above and to the side, emphasizing broad rear molar crowns and chewing cusps. No real patient or procedures. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "tooth-row", "label": "牙齿模型上的整排牙", "description": "Photorealistic photograph of a clean dental teaching model opened to show complete upper and lower tooth rows, incisors and molars clearly arranged in natural arches. No real human mouth, tools or procedures. No rice, grains, stones, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "heart", "char": "心",
+    "contexts": [
+      { "id": "heart-front", "label": "人体心脏教学模型的正面", "description": "Photorealistic front-view photograph of a physical anatomically accurate human-heart educational model on a plain stand. Realistic rounded upper chambers, pointed inferior apex, major vessels and coronary vessel relief. Clearly a manufactured teaching model, no love icon, surgery, blood, rice, stones, labels or text." },
+      { "id": "heart-side", "label": "人体心脏教学模型的侧面", "description": "Photorealistic true side-view photograph of the same physical human-heart anatomical educational model on the same plain stand. Show ventricular thickness, curved lateral surface, apex and upper great vessels. Consistent colors and anatomy, no love icon, surgery, blood, rice, stones, labels or text." },
+      { "id": "heart-back", "label": "人体心脏教学模型的背面", "description": "Photorealistic posterior-view photograph of the same physical human-heart anatomical educational model on the same plain stand. Show posterior atrial surfaces, pulmonary-vein openings and vessel relief with accurate anatomy. No love icon, surgery, blood, rice, stones, labels, text, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "face", "char": "脸",
+    "contexts": [
+      { "id": "face-front", "label": "人的脸部正面", "description": "Photorealistic close neutral portrait of a consenting adult's face from the front. Frame forehead to chin with both eyes, nose and mouth visible; face fills the image more than the whole head. Plain background, no rice, grains, stones, writing, logos or watermarks." },
+      { "id": "face-profile", "label": "人的脸部侧面", "description": "Photorealistic close side portrait of the same consenting adult's face, emphasizing forehead, eye, nose, lips and chin in profile. Natural relaxed expression, plain background. No rice, grains, stones, writing, logos or watermarks." },
+      { "id": "face-smile", "label": "自然微笑的脸", "description": "Photorealistic close portrait of the same consenting adult with a small natural relaxed smile, face clearly visible from forehead to chin. Soft daylight and plain background, no exaggerated expression. No rice, grains, stones, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "table", "char": "桌",
+    "contexts": [
+      { "id": "table-dining", "label": "空着的餐桌", "description": "Photorealistic three-quarter photograph of an empty household dining table with a broad tabletop and four stable legs fully visible. Quiet interior, no chairs or tableware to distract. No people, faces, writing, logos or watermarks." },
+      { "id": "table-desk", "label": "空着的书桌", "description": "Photorealistic photograph of an empty writing desk with a clear flat desktop, modest drawers and visible legs. Unoccupied room, no chair, books or electronics. Natural daylight, no people, faces, writing, logos or watermarks." },
+      { "id": "table-low", "label": "空着的矮桌", "description": "Photorealistic low-angle photograph of an empty low household table, showing its short legs and usable flat top. Simple clean room and realistic wood texture. No chairs, people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "chair", "char": "椅",
+    "contexts": [
+      { "id": "chair-wood", "label": "一把木椅", "description": "Photorealistic three-quarter photograph of one plain wooden chair with a seat, backrest and four legs all visible. Neutral indoor background, no table or other furniture. No people, faces, writing, logos or watermarks." },
+      { "id": "chair-padded", "label": "一把软靠背椅", "description": "Photorealistic photograph of one upholstered chair with padded seat and clearly visible soft backrest, all support legs shown. Quiet plain interior, no person or table. No faces, writing, logos or watermarks." },
+      { "id": "chair-child", "label": "一把儿童椅", "description": "Photorealistic photograph of a small sturdy child-sized chair with seat, backrest and four stable short legs, isolated in a plain room. No child sitting or climbing, no table. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "cup", "char": "杯",
+    "contexts": [
+      { "id": "cup-glass", "label": "一只透明玻璃杯", "description": "Photorealistic close photograph of one empty transparent drinking glass, upright with a clearly defined rim and base on a plain surface. Reflections reveal glass shape, no drink or other objects. No people, faces, writing, logos or watermarks." },
+      { "id": "cup-handled", "label": "一只有柄的杯", "description": "Photorealistic photograph of one plain ceramic drinking cup with a single handle, empty and upright, interior and rim visible. Natural daylight, neutral surface. No saucer, people, faces, writing, logos or watermarks." },
+      { "id": "cup-steel", "label": "一只不锈钢杯", "description": "Photorealistic photograph of one empty stainless-steel drinking cup, upright with visible rim, brushed metal sides and base. Plain neutral background, no other tableware. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "bowl", "char": "碗",
+    "contexts": [
+      { "id": "bowl-ceramic", "label": "一只空瓷碗", "description": "Photorealistic three-quarter close photograph of one empty ceramic bowl with a wide mouth and deep concave interior, plain white glaze. Neutral tabletop, no food or utensils. No people, faces, writing, logos or watermarks." },
+      { "id": "bowl-wood", "label": "一只空木碗", "description": "Photorealistic photograph of one empty wooden bowl, deep curved interior and visible natural wood grain, mouth wider than its base. Plain background, no food or utensils. No people, faces, writing, logos or watermarks." },
+      { "id": "bowl-metal", "label": "一只空金属碗", "description": "Photorealistic photograph of one empty metal bowl with a clearly concave interior, broad rim and stable base. Soft reflections, plain neutral surface, no food or other tableware. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "plate", "char": "盘",
+    "contexts": [
+      { "id": "plate-round", "label": "一只空圆瓷盘", "description": "Photorealistic angled overhead photograph of one empty round ceramic plate with a shallow recessed center and slightly raised rim. Its shallow depth clearly distinguishes it from a bowl. No food, people, faces, writing, logos or watermarks." },
+      { "id": "plate-rectangle", "label": "一只空长方盘", "description": "Photorealistic angled overhead photograph of one empty rectangular serving plate with shallow interior and low rim. Plain neutral surface, complete outline visible. No food, utensils, people, faces, writing, logos or watermarks." },
+      { "id": "plate-metal", "label": "一只空金属盘", "description": "Photorealistic three-quarter photograph of one empty shallow metal plate, flat central area and low raised edge visible. Brushed metal texture, plain background. No food, utensils, people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "spoon", "char": "勺",
+    "contexts": [
+      { "id": "spoon-metal", "label": "一把金属勺", "description": "Photorealistic close photograph of one metal spoon lying alone on a plain surface, concave bowl and long handle fully visible. Soft natural reflections emphasize its scoop shape. No food, people, faces, writing, logos or watermarks." },
+      { "id": "spoon-wood", "label": "一把木勺", "description": "Photorealistic close photograph of one wooden spoon lying alone on a neutral surface, carved concave head and handle both clear. Visible wood grain, no food or other tools. No people, faces, writing, logos or watermarks." },
+      { "id": "spoon-ceramic", "label": "一把瓷勺", "description": "Photorealistic close photograph of one Chinese ceramic soup spoon lying alone, deep concave spoon head and short raised handle visible. Plain glaze and neutral background. No soup, people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "pot", "char": "锅",
+    "contexts": [
+      { "id": "pot-soup", "label": "台面上冷却的汤锅", "description": "Photorealistic photograph of one cool unheated soup pot on a plain worktop, deep cooking chamber and two handles visible, lid placed beside it. No stove, flames, steam or food. No people, faces, writing, logos or watermarks." },
+      { "id": "pot-pan", "label": "台面上冷却的平底锅", "description": "Photorealistic photograph of one cool unheated frying pan resting on a plain worktop, flat cooking base, low sidewalls and long handle visible. No stove, flames, steam or food. No people, faces, writing, logos or watermarks." },
+      { "id": "pot-steamer", "label": "台面上冷却的蒸锅", "description": "Photorealistic photograph of one cool stainless-steel steamer pot on a worktop, lower pot and upper perforated insert visible with lid beside them. No heat, steam, stove or food. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "ball", "char": "球",
+    "contexts": [
+      { "id": "ball-football", "label": "一只足球", "description": "Photorealistic photograph of one round soccer ball resting on a clean plain gym mat, realistic stitched panel pattern and spherical volume. No goal, player or surrounding equipment. No people, faces, writing, logos or watermarks." },
+      { "id": "ball-basketball", "label": "一只篮球", "description": "Photorealistic photograph of one orange basketball resting on a plain clean gym mat, pebbled texture and black channels visible. Clearly spherical, no hoop or player. No people, faces, writing, logos or watermarks." },
+      { "id": "ball-cloth", "label": "一只软布球", "description": "Photorealistic photograph of one soft spherical cloth ball with plain colored fabric panels, resting on a clean mat. Seams and soft texture visible, no illustrated face or other toys. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "book", "char": "书",
+    "contexts": [
+      { "id": "book-closed", "label": "一本合着的绘本", "description": "Photorealistic photograph of one closed bound picture book on a plain surface, spine, cover and page edges visible. Cover has only a simple nonverbal landscape illustration, absolutely no lettering. No people, faces, logos or watermarks." },
+      { "id": "book-open", "label": "一本打开的书", "description": "Photorealistic photograph of one bound book open to two pages with simple nonverbal landscape pictures. Visible spine fold and layered page edges distinguish it from loose paper. No letters, numbers, people, faces, logos or watermarks." },
+      { "id": "book-shelf", "label": "书架上排着的书", "description": "Photorealistic close photograph of several bound books upright on a small shelf, solid-color unlettered spines and visible page blocks. Quiet library-like background, no other objects. No text, people, faces, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "pen", "char": "笔",
+    "contexts": [
+      { "id": "pen-pencil", "label": "一支铅笔", "description": "Photorealistic close photograph of one unbranded wooden pencil lying alone, graphite tip and wooden barrel clearly visible. Plain neutral surface, no sharpener, paper marks or hands. No people, faces, writing, logos or watermarks." },
+      { "id": "pen-marker", "label": "一支水彩笔", "description": "Photorealistic photograph of one unbranded watercolor marker with its felt tip visible and cap resting beside it. Plain barrel without lettering, neutral surface. No drawings, people, faces, writing, logos or watermarks." },
+      { "id": "pen-brush", "label": "一支毛笔", "description": "Photorealistic photograph of one traditional writing brush lying alone, tapered soft bristles and smooth plain handle clearly visible. No ink, calligraphy, tools or hands. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "paper", "char": "纸",
+    "contexts": [
+      { "id": "paper-white", "label": "平铺的白纸", "description": "Photorealistic close photograph of a single blank white paper sheet laid flat, one corner slightly lifted to reveal thinness and paper fibers. Plain neutral surface, no books or tools. No people, faces, writing, logos or watermarks." },
+      { "id": "paper-colour", "label": "平铺的彩纸", "description": "Photorealistic photograph of several blank colored paper sheets laid flat with lightly overlapping edges, clearly thin flexible material. Natural daylight, plain surface, no folded objects. No people, faces, writing, logos or watermarks." },
+      { "id": "paper-kraft", "label": "平铺的牛皮纸", "description": "Photorealistic close photograph of a blank brown kraft paper sheet laid flat with a gently curled edge, subtle fiber texture and thin profile visible. No packaging print or tools. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "clock", "char": "钟",
+    "contexts": [
+      { "id": "clock-wall", "label": "墙上的时钟", "description": "Photorealistic photograph of an analog wall clock securely mounted on a plain wall. Clear hour and minute hands with simple unnumbered tick marks, realistic round case. No letters, numerals, people, faces, logos or watermarks." },
+      { "id": "clock-desk", "label": "桌上的时钟", "description": "Photorealistic photograph of a small analog desk clock on a plain surface, hour and minute hands clearly visible within a stable case. Use unnumbered ticks only, no bells. No letters, numerals, people, faces, logos or watermarks." },
+      { "id": "clock-standing", "label": "落地的立式钟", "description": "Photorealistic full photograph of a tall freestanding household clock, visible clock dial with hands and unnumbered tick marks, wooden case and pendulum compartment. Quiet unoccupied room. No text, numerals, people, faces, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "ship", "char": "船",
+    "contexts": [
+      { "id": "ship-passenger", "label": "水上的客船", "description": "Photorealistic distant photograph of a real passenger ship afloat on calm water, complete hull, decks and rows of cabin windows visible. Side view with natural wake, no visible passengers or vessel lettering. No people, faces, text, logos or watermarks." },
+      { "id": "ship-cargo", "label": "水上的货船", "description": "Photorealistic wide photograph of a real cargo ship afloat, long hull, deck cargo and wheelhouse clear. Containers have plain unlettered surfaces, sea-level distant view. No visible people, faces, vessel names, writing, logos or watermarks." },
+      { "id": "ship-ferry", "label": "水上的渡船", "description": "Photorealistic side-view photograph of a real ferry moving slowly on calm water, broad hull and passenger deck visible. No visible passengers, vehicles or lettering, quiet distant shoreline. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "wheel", "char": "轮",
+    "contexts": [
+      { "id": "wheel-bicycle", "label": "自行车的轮", "description": "Photorealistic close photograph of a stationary bicycle wheel attached to its frame, circular tire, spokes, hub and axle visible. Wheel fills frame, clean plain backdrop. No riders, hands, people, faces, writing, logos or watermarks." },
+      { "id": "wheel-car", "label": "汽车的轮", "description": "Photorealistic close photograph of a parked car wheel attached to the vehicle, tire, rim and central hub visible, small part of fender showing context. No brand marks or tire lettering. No people, faces, writing, logos or watermarks." },
+      { "id": "wheel-cart", "label": "手推车的轮", "description": "Photorealistic close photograph of a stationary handcart wheel connected to its axle, showing round tire, hub and a small portion of the cart frame. Plain background, no load or person. No faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "house", "char": "房",
+    "contexts": [
+      { "id": "house-detached", "label": "一座独立小房", "description": "Photorealistic exterior photograph of one detached dwelling with roof, walls and windows all visible, clearly a habitable house. Quiet residential setting, daylight, no residents or signage. No people, faces, writing, logos or watermarks." },
+      { "id": "house-row", "label": "并排的连排房", "description": "Photorealistic street photograph of a short row of connected residential houses, repeated roofs, doors and windows visible. Empty calm street, no vehicles or signs. No people, faces, writing, logos or watermarks." },
+      { "id": "house-apartment", "label": "供人居住的楼房", "description": "Photorealistic exterior photograph of a residential apartment building with repeated home windows and balconies, full facade visible. Quiet neighborhood, not a school or office. No occupants, people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "school", "char": "校",
+    "contexts": [
+      { "id": "school-gate", "label": "学校的校门", "description": "Photorealistic wide photograph of the entrance gate of an identifiable school campus, with classroom buildings and a campus walkway visible behind it. Unoccupied, all sign panels blank. Show a school entrance as one part of the school. No people, faces, text, logos or watermarks." },
+      { "id": "school-classroom", "label": "学校的教学楼", "description": "Photorealistic photograph of a school classroom building within its campus, repeated classroom windows, covered corridor and adjoining school courtyard visible. Clearly educational campus context rather than a generic building. No people, faces, banners, lettering, logos or watermarks." },
+      { "id": "school-playground", "label": "学校的校园操场", "description": "Photorealistic wide photograph of an empty school playground with running surface and classroom buildings visibly bordering the same campus. Show playground as part of a school, not the entire school itself. No people, faces, signs, text, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "garden", "char": "园",
+    "contexts": [
+      { "id": "garden-flower", "label": "有花木和步道的花园", "description": "Photorealistic wide photograph of a maintained flower garden with flowering beds, shrubs and a clear walking path. Entire arranged garden space visible, not just one flower. No visitors, people, faces, signage, writing, logos or watermarks." },
+      { "id": "garden-orchard", "label": "种着果树的果园", "description": "Photorealistic wide photograph of an orchard with orderly rows of fruit trees and clear aisles, a few natural fruits on branches. Show the planted garden area as a whole. No people, faces, tools, signs, writing, logos or watermarks." },
+      { "id": "garden-park", "label": "有绿地和步道的公园", "description": "Photorealistic wide photograph of a public park with green lawns, planted trees and curving pedestrian paths forming a managed recreation area. Calm empty daytime scene. No visitors, people, faces, signs, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "kite", "char": "筝",
+    "contexts": [
+      { "id": "kite-diamond", "label": "空中飞着的菱形风筝", "description": "Photorealistic telephoto photograph of a real diamond-shaped kite flying in a plain blue sky, taut flying line and two fabric tails visible. Plain colored kite panels, no printed face or symbol. No people, faces, power lines, text, logos or watermarks." },
+      { "id": "kite-swallow", "label": "空中飞着的燕形风筝", "description": "Photorealistic telephoto photograph of a real swallow-shaped fabric kite flying in clear sky, visible fabric spars and taut line distinguish it from a live bird. Plain colors, no face motifs. No people, power lines, text, logos or watermarks." },
+      { "id": "kite-triangle", "label": "空中飞着的三角形风筝", "description": "Photorealistic telephoto photograph of a real triangular delta kite flying in clear sky, taut tether line and fabric construction clearly visible. Plain unlettered panels, no cartoon face. No people, faces, power lines, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "drum", "char": "鼓",
+    "contexts": [
+      { "id": "drum-frame", "label": "一面手鼓", "description": "Photorealistic photograph of one plain frame hand drum resting at an angle, stretched drumhead and shallow circular wooden frame clearly visible. No jingles, drumsticks or player. No people, faces, writing, logos or watermarks." },
+      { "id": "drum-small", "label": "一面小堂鼓", "description": "Photorealistic photograph of a small Chinese barrel drum with stretched top drumhead and wooden barrel body, resting securely on a low stand. No sticks or performer. Plain decoration, no faces, writing, logos or watermarks." },
+      { "id": "drum-large", "label": "一面大鼓", "description": "Photorealistic full photograph of a large traditional drum on a sturdy stand, broad stretched drumhead and substantial barrel visible. Quiet music room, no performer, sticks or other instruments. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "bell", "char": "铃",
+    "contexts": [
+      { "id": "bell-hand", "label": "一只手铃", "description": "Photorealistic photograph of one metal handbell resting alone, smooth handle, flared bell body and internal clapper visible from an angle. Clearly a sound-making bell, not a clock. No hands, people, faces, writing, logos or watermarks." },
+      { "id": "bell-hanging", "label": "挂着的金属铃", "description": "Photorealistic close photograph of a single metal bell hanging securely from a short fixture, hollow flared body and clapper clear. Plain background, no reachable cord or other objects. No people, faces, writing, logos or watermarks." },
+      { "id": "bell-desk", "label": "桌上的小铃", "description": "Photorealistic photograph of a small freestanding metal bell with a short handle and visible clapper, resting on a plain surface. Simple unbranded design, not an alarm clock. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "rope", "char": "绳",
+    "contexts": [
+      { "id": "rope-cotton", "label": "盘好的棉绳", "description": "Photorealistic close photograph of thick soft cotton rope neatly coiled on a plain surface, twisted fibers and flexible length clearly visible. No tied people, hanging loops or activity. No people, faces, writing, logos or watermarks." },
+      { "id": "rope-braided", "label": "盘好的编织绳", "description": "Photorealistic close photograph of a neatly coiled braided rope on a neutral surface, interwoven strands sharply detailed. A loose safe display coil only, no neck loop or restraint. No people, faces, writing, logos or watermarks." },
+      { "id": "rope-jump", "label": "平放的跳绳", "description": "Photorealistic overhead photograph of a jump rope laid flat on a clean plain mat, entire flexible rope and two handles visible. No child using it, no knots or body wrapping. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "towel", "char": "巾",
+    "contexts": [
+      { "id": "towel-hanging", "label": "挂着的毛巾", "description": "Photorealistic photograph of one clean terrycloth towel hanging neatly over a fixed towel rail. Fabric loops and full rectangular shape visible, plain bathroom background. No people, faces, mirrors reflecting people, writing, logos or watermarks." },
+      { "id": "towel-folded", "label": "折好的手巾", "description": "Photorealistic close photograph of one clean small hand towel folded neatly on a plain surface, woven fabric texture and layered edges visible. Solid color without motifs. No people, faces, writing, logos or watermarks." },
+      { "id": "towel-bath", "label": "展开的浴巾", "description": "Photorealistic photograph of one large clean bath towel spread flat, complete rectangular outline and thick terrycloth texture visible. Plain solid color and simple background, no bathing person. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "soap", "char": "皂",
+    "contexts": [
+      { "id": "soap-square", "label": "一块方形香皂", "description": "Photorealistic close photograph of one plain square soap bar in a simple draining soap dish. Smooth unbranded surface, slightly rounded corners and a few water droplets imply soap, not candy. No people, faces, text, logos or watermarks." },
+      { "id": "soap-round", "label": "一块圆形香皂", "description": "Photorealistic close photograph of one plain round soap bar in a simple draining soap dish, matte creamy surface and a few wet soap bubbles at its base. No food styling, people, faces, embossing, text, logos or watermarks." },
+      { "id": "soap-oval", "label": "一块椭圆形香皂", "description": "Photorealistic close photograph of one plain oval soap bar in a draining soap dish, smooth surface and a small trace of lather identify a cleaning product. No decorative face, people, lettering, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "milk", "char": "奶",
+    "contexts": [
+      { "id": "milk-glass", "label": "玻璃杯里的牛奶", "description": "Photorealistic close photograph of a transparent glass containing fresh cow's milk, opaque white liquid with a natural surface and slight creamy rim. Plain neutral surface, no drinking person or other food. No people, faces, writing, logos or watermarks." },
+      { "id": "milk-bottle", "label": "透明玻璃瓶里的牛奶", "description": "Photorealistic photograph of cow's milk in an unlabelled transparent glass milk bottle, filled body and narrow neck visible, plain cap. Realistic milk opacity and subtle reflections. No people, faces, packaging text, logos or watermarks." },
+      { "id": "milk-jug", "label": "敞口小壶里的牛奶", "description": "Photorealistic angled photograph of cow's milk in a small open glass jug, visible milk surface, handle and pouring lip. Jug rests still on a plain surface, no pouring or drinking person. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "egg", "char": "蛋",
+    "contexts": [
+      { "id": "egg-white", "label": "白壳鸡蛋", "description": "Photorealistic close photograph of several intact white-shell chicken eggs resting in a plain molded egg holder, natural oval shapes and shell texture clear. No cracked raw contents or handling. No people, faces, writing, logos or watermarks." },
+      { "id": "egg-brown", "label": "褐壳鸡蛋", "description": "Photorealistic close photograph of several intact brown-shell chicken eggs in a plain molded egg holder, subtle natural shell variation and oval shapes visible. No raw contents or tools. No people, faces, writing, logos or watermarks." },
+      { "id": "egg-cooked", "label": "剥壳的熟鸡蛋", "description": "Photorealistic close photograph of a peeled fully cooked chicken egg and one pre-cut cooked half showing firm white and yellow yolk. Resting on a plain small dish, no knife or heat. No people, faces, writing, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "bread", "char": "饼",
+    "contexts": [
+      { "id": "bread-flatcake", "label": "一张烙饼", "description": "Photorealistic close photograph of one Chinese round pan-baked flatcake, thin flattened shape and lightly browned surface visible, cooled on a plain dish. Not a Western bread loaf, roll or sliced bread. No people, faces, text, logos or watermarks." },
+      { "id": "bread-pancake", "label": "一张煎饼", "description": "Photorealistic close photograph of one thin Chinese pancake spread flat on a plain dish, round shape, delicate browned cooking pattern and slightly irregular edge visible. No filling, hot pan or Western bread. No people, faces, writing, logos or watermarks." },
+      { "id": "bread-biscuit", "label": "几块方形饼干", "description": "Photorealistic close photograph of a few plain square baked biscuits on a neutral dish, flat rectangular profiles, small bake holes and crisp edges visible. No stamped letters, Western bread loaf or food packaging. No people, faces, text, logos or watermarks." }
+    ]
+  },
+  {
+    "id": "tea", "char": "茶",
+    "contexts": [
+      { "id": "tea-dry", "label": "浅碟里的干茶叶", "description": "Photorealistic macro photograph of dry loose tea leaves in a shallow plain dish, rolled and curled leaf texture clearly visible. Adult tea-preparation still life only, no sweets or children. No people, faces, writing, logos or watermarks." },
+      { "id": "tea-pot", "label": "透明壶里泡开的茶叶", "description": "Photorealistic close photograph of expanded tea leaves visibly steeping in a transparent teapot, natural tea-colored liquid, leaf shapes clear through glass. Static adult tea still life, no kettle, pouring, steam or child. No people, faces, text, logos or watermarks." },
+      { "id": "tea-liquid", "label": "透明杯里的茶汤", "description": "Photorealistic close photograph of transparent amber tea infusion in a clear glass cup, with a few recognizable steeped tea leaves visible at the bottom to establish tea context. Static adult tea still life, no drinking person or hot pouring. No people, faces, text, logos or watermarks." }
+    ]
+  }
+]

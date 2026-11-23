@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "community-book-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-01_1795403801722_e65b2f03.png",
+    "prompt": "Use case: four independent AI-photorealistic educational story covers, not documentary or archival photographs. Create ONE 1024x1792 PNG sheet of EXACTLY FOUR independent full-width landscape photorealistic panels stacked vertically. Each panel occupies about 448 pixels height. Exactly three thin straight pure-white horizontal seams, 4-6 pixels thick, centered near y=448,896,1344. No outer border, no vertical divider, no text, letters, numbers, logos, watermarks, identifying information or people. Realistic paper fibers, wood grain, fabric covers, natural light; no cartoon, illustration-style environment or CGI. Every main object must be completely inside its own panel with at least 8 percent crop-safe margins on all sides; use comfortably wide framing, not tight closeups. TOP PANEL: A small outdoor community book exchange shelf under a leafy tree, holding several closed picture books with visible bound page edges. Center the whole low shelf and books in soft daylight with the outdoor courtyard behind them, clearly outside, no library interior. SECOND PANEL: A closed bound picture book resting flat in a shallow book return tray on a low counter inside an empty community reading room. Show the whole book, its plain cover, page block and complete tray clearly, shelves softly blurred behind. THIRD PANEL: An open picture book on a wooden reading table inside an open-sided sheltered neighborhood reading pavilion. Bound pages and simple unlettered pictorial illustrations clear in foreground, pavilion roof supports and leafy outdoors visible behind. Keep complete book safely centered; distinctly a roofed outdoor reading pavilion, not an indoor library. BOTTOM PANEL: A tidy stack of gently worn bound books on a community book swap table in a bright empty meeting room. Center the complete stack with visible plain cloth covers and page edges, leaving clear margin around it. No readable printing anywhere, only unlettered pictures within the book pages. All settings empty, safe and anonymous.",
+    "reviewNotes": "Compact preview reviewed: outdoor tree-shaded wooden exchange shelf with upright bound books; indoor return tray with closed plain book; open illustrated book on table in clearly open-sided roofed reading pavilion; complete stack of worn cloth-covered books in meeting room. All four intended referents present, no people or readable text seen. Pavilion is not an indoor library and says nothing about locations of reused base images. Cuts 446/895/1346; crops 1008x426,1008x429,1008x431,1008x426. Objects retained with margins; background tables/shelf furnishings extend to frame edges, not targets.",
+    "cuts": [
+      446,
+      895,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "community-book-01-scene0",
+        "label": "社区树荫借阅架上的绘本",
+        "image": "hanzi-images/realistic-v1/community-book-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "community-book-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-01_1795403801722_e65b2f03.png",
+    "prompt": "Use case: four independent AI-photorealistic educational story covers, not documentary or archival photographs. Create ONE 1024x1792 PNG sheet of EXACTLY FOUR independent full-width landscape photorealistic panels stacked vertically. Each panel occupies about 448 pixels height. Exactly three thin straight pure-white horizontal seams, 4-6 pixels thick, centered near y=448,896,1344. No outer border, no vertical divider, no text, letters, numbers, logos, watermarks, identifying information or people. Realistic paper fibers, wood grain, fabric covers, natural light; no cartoon, illustration-style environment or CGI. Every main object must be completely inside its own panel with at least 8 percent crop-safe margins on all sides; use comfortably wide framing, not tight closeups. TOP PANEL: A small outdoor community book exchange shelf under a leafy tree, holding several closed picture books with visible bound page edges. Center the whole low shelf and books in soft daylight with the outdoor courtyard behind them, clearly outside, no library interior. SECOND PANEL: A closed bound picture book resting flat in a shallow book return tray on a low counter inside an empty community reading room. Show the whole book, its plain cover, page block and complete tray clearly, shelves softly blurred behind. THIRD PANEL: An open picture book on a wooden reading table inside an open-sided sheltered neighborhood reading pavilion. Bound pages and simple unlettered pictorial illustrations clear in foreground, pavilion roof supports and leafy outdoors visible behind. Keep complete book safely centered; distinctly a roofed outdoor reading pavilion, not an indoor library. BOTTOM PANEL: A tidy stack of gently worn bound books on a community book swap table in a bright empty meeting room. Center the complete stack with visible plain cloth covers and page edges, leaving clear margin around it. No readable printing anywhere, only unlettered pictures within the book pages. All settings empty, safe and anonymous.",
+    "reviewNotes": "Compact preview reviewed: outdoor tree-shaded wooden exchange shelf with upright bound books; indoor return tray with closed plain book; open illustrated book on table in clearly open-sided roofed reading pavilion; complete stack of worn cloth-covered books in meeting room. All four intended referents present, no people or readable text seen. Pavilion is not an indoor library and says nothing about locations of reused base images. Cuts 446/895/1346; crops 1008x426,1008x429,1008x431,1008x426. Objects retained with margins; background tables/shelf furnishings extend to frame edges, not targets.",
+    "cuts": [
+      446,
+      895,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "community-book-02-scene0",
+        "label": "社区活动室归书托盘里的绘本",
+        "image": "hanzi-images/realistic-v1/community-book-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "community-book-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-01_1795403801722_e65b2f03.png",
+    "prompt": "Use case: four independent AI-photorealistic educational story covers, not documentary or archival photographs. Create ONE 1024x1792 PNG sheet of EXACTLY FOUR independent full-width landscape photorealistic panels stacked vertically. Each panel occupies about 448 pixels height. Exactly three thin straight pure-white horizontal seams, 4-6 pixels thick, centered near y=448,896,1344. No outer border, no vertical divider, no text, letters, numbers, logos, watermarks, identifying information or people. Realistic paper fibers, wood grain, fabric covers, natural light; no cartoon, illustration-style environment or CGI. Every main object must be completely inside its own panel with at least 8 percent crop-safe margins on all sides; use comfortably wide framing, not tight closeups. TOP PANEL: A small outdoor community book exchange shelf under a leafy tree, holding several closed picture books with visible bound page edges. Center the whole low shelf and books in soft daylight with the outdoor courtyard behind them, clearly outside, no library interior. SECOND PANEL: A closed bound picture book resting flat in a shallow book return tray on a low counter inside an empty community reading room. Show the whole book, its plain cover, page block and complete tray clearly, shelves softly blurred behind. THIRD PANEL: An open picture book on a wooden reading table inside an open-sided sheltered neighborhood reading pavilion. Bound pages and simple unlettered pictorial illustrations clear in foreground, pavilion roof supports and leafy outdoors visible behind. Keep complete book safely centered; distinctly a roofed outdoor reading pavilion, not an indoor library. BOTTOM PANEL: A tidy stack of gently worn bound books on a community book swap table in a bright empty meeting room. Center the complete stack with visible plain cloth covers and page edges, leaving clear margin around it. No readable printing anywhere, only unlettered pictures within the book pages. All settings empty, safe and anonymous.",
+    "reviewNotes": "Compact preview reviewed: outdoor tree-shaded wooden exchange shelf with upright bound books; indoor return tray with closed plain book; open illustrated book on table in clearly open-sided roofed reading pavilion; complete stack of worn cloth-covered books in meeting room. All four intended referents present, no people or readable text seen. Pavilion is not an indoor library and says nothing about locations of reused base images. Cuts 446/895/1346; crops 1008x426,1008x429,1008x431,1008x426. Objects retained with margins; background tables/shelf furnishings extend to frame edges, not targets.",
+    "cuts": [
+      446,
+      895,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "community-book-03-scene0",
+        "label": "街角阅读亭桌上打开的图画书",
+        "image": "hanzi-images/realistic-v1/community-book-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "community-book-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-01_1795403801722_e65b2f03.png",
+    "prompt": "Use case: four independent AI-photorealistic educational story covers, not documentary or archival photographs. Create ONE 1024x1792 PNG sheet of EXACTLY FOUR independent full-width landscape photorealistic panels stacked vertically. Each panel occupies about 448 pixels height. Exactly three thin straight pure-white horizontal seams, 4-6 pixels thick, centered near y=448,896,1344. No outer border, no vertical divider, no text, letters, numbers, logos, watermarks, identifying information or people. Realistic paper fibers, wood grain, fabric covers, natural light; no cartoon, illustration-style environment or CGI. Every main object must be completely inside its own panel with at least 8 percent crop-safe margins on all sides; use comfortably wide framing, not tight closeups. TOP PANEL: A small outdoor community book exchange shelf under a leafy tree, holding several closed picture books with visible bound page edges. Center the whole low shelf and books in soft daylight with the outdoor courtyard behind them, clearly outside, no library interior. SECOND PANEL: A closed bound picture book resting flat in a shallow book return tray on a low counter inside an empty community reading room. Show the whole book, its plain cover, page block and complete tray clearly, shelves softly blurred behind. THIRD PANEL: An open picture book on a wooden reading table inside an open-sided sheltered neighborhood reading pavilion. Bound pages and simple unlettered pictorial illustrations clear in foreground, pavilion roof supports and leafy outdoors visible behind. Keep complete book safely centered; distinctly a roofed outdoor reading pavilion, not an indoor library. BOTTOM PANEL: A tidy stack of gently worn bound books on a community book swap table in a bright empty meeting room. Center the complete stack with visible plain cloth covers and page edges, leaving clear margin around it. No readable printing anywhere, only unlettered pictures within the book pages. All settings empty, safe and anonymous.",
+    "reviewNotes": "Compact preview reviewed: outdoor tree-shaded wooden exchange shelf with upright bound books; indoor return tray with closed plain book; open illustrated book on table in clearly open-sided roofed reading pavilion; complete stack of worn cloth-covered books in meeting room. All four intended referents present, no people or readable text seen. Pavilion is not an indoor library and says nothing about locations of reused base images. Cuts 446/895/1346; crops 1008x426,1008x429,1008x431,1008x426. Objects retained with margins; background tables/shelf furnishings extend to frame edges, not targets.",
+    "cuts": [
+      446,
+      895,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "community-book-04-scene0",
+        "label": "邻里旧书交换桌上叠放的书",
+        "image": "hanzi-images/realistic-v1/community-book-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "community-ball-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-02_1795403926082_b3d171a5.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi story covers, invented anonymous settings, not documentary imagery. ONE 1024x1792 PNG containing exactly FOUR full-width landscape photographs vertically stacked; exactly three 4-6px thin straight pure-white horizontal seams centered near y448,896,1344. No outer border or vertical divider. Photorealistic fabric stitching, rubber grain, glass and floor textures, natural soft lighting; no CGI or cartoon. Every main ball and its supporting cradle must fit wholly inside its panel with at least 8 percent crop-safe margins on every side. TOP: A round stitched fabric play ball on a clean foam mat inside a fenced community recreation corner. Whole soft ball with clear fabric seams, flat enclosed play surface, leafy courtyard behind; no road in play area. SECOND: A single orange basketball in a low storage cradle beside an empty fenced neighborhood basketball court. Entire ball clearly centered, pebbled rubber texture and black curved seams, court visible softly behind; low cradle complete. THIRD: A round soft fabric ball at the beginning of a wide low flat foam rolling mat in an uncluttered indoor community activity room. Gentle elevated angle, whole ball and ample clear floor space, flat mat clearly visible. BOTTOM: A black and white soccer ball on a padded shelf inside a neighborhood sports equipment display window. Entire ball with credible pentagonal panels, simple indoor background, subtle glass reflections. Empty safe settings, no children or any people, no readable letters, numbers, signs, package labels, text, logos or watermarks anywhere.",
+    "reviewNotes": "Compact preview reviewed: stitched multicolor fabric ball on fenced outdoor foam surface; orange basketball in black low cradle beside empty fenced court; soft stitched ball on start end of blue indoor rolling mat; black-white soccer ball on display shelf behind glass. No people or readable text observed. Main balls wholly retained. Cradle lower margin is tighter than requested 8 percent but survives measured crop; mats, display-frame edges and background furnishings extend to frame. Cuts 443/895/1341; crops 1008x423,1008x432,1008x426,1008x431.",
+    "cuts": [
+      443,
+      895,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "community-ball-01-scene0",
+        "label": "社区围栏内软垫上的软布球",
+        "image": "hanzi-images/realistic-v1/community-ball-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ball"
+  },
+  {
+    "id": "community-ball-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-02_1795403926082_b3d171a5.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi story covers, invented anonymous settings, not documentary imagery. ONE 1024x1792 PNG containing exactly FOUR full-width landscape photographs vertically stacked; exactly three 4-6px thin straight pure-white horizontal seams centered near y448,896,1344. No outer border or vertical divider. Photorealistic fabric stitching, rubber grain, glass and floor textures, natural soft lighting; no CGI or cartoon. Every main ball and its supporting cradle must fit wholly inside its panel with at least 8 percent crop-safe margins on every side. TOP: A round stitched fabric play ball on a clean foam mat inside a fenced community recreation corner. Whole soft ball with clear fabric seams, flat enclosed play surface, leafy courtyard behind; no road in play area. SECOND: A single orange basketball in a low storage cradle beside an empty fenced neighborhood basketball court. Entire ball clearly centered, pebbled rubber texture and black curved seams, court visible softly behind; low cradle complete. THIRD: A round soft fabric ball at the beginning of a wide low flat foam rolling mat in an uncluttered indoor community activity room. Gentle elevated angle, whole ball and ample clear floor space, flat mat clearly visible. BOTTOM: A black and white soccer ball on a padded shelf inside a neighborhood sports equipment display window. Entire ball with credible pentagonal panels, simple indoor background, subtle glass reflections. Empty safe settings, no children or any people, no readable letters, numbers, signs, package labels, text, logos or watermarks anywhere.",
+    "reviewNotes": "Compact preview reviewed: stitched multicolor fabric ball on fenced outdoor foam surface; orange basketball in black low cradle beside empty fenced court; soft stitched ball on start end of blue indoor rolling mat; black-white soccer ball on display shelf behind glass. No people or readable text observed. Main balls wholly retained. Cradle lower margin is tighter than requested 8 percent but survives measured crop; mats, display-frame edges and background furnishings extend to frame. Cuts 443/895/1341; crops 1008x423,1008x432,1008x426,1008x431.",
+    "cuts": [
+      443,
+      895,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "community-ball-02-scene0",
+        "label": "社区小球场边架子上的篮球",
+        "image": "hanzi-images/realistic-v1/community-ball-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ball"
+  },
+  {
+    "id": "community-ball-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-02_1795403926082_b3d171a5.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi story covers, invented anonymous settings, not documentary imagery. ONE 1024x1792 PNG containing exactly FOUR full-width landscape photographs vertically stacked; exactly three 4-6px thin straight pure-white horizontal seams centered near y448,896,1344. No outer border or vertical divider. Photorealistic fabric stitching, rubber grain, glass and floor textures, natural soft lighting; no CGI or cartoon. Every main ball and its supporting cradle must fit wholly inside its panel with at least 8 percent crop-safe margins on every side. TOP: A round stitched fabric play ball on a clean foam mat inside a fenced community recreation corner. Whole soft ball with clear fabric seams, flat enclosed play surface, leafy courtyard behind; no road in play area. SECOND: A single orange basketball in a low storage cradle beside an empty fenced neighborhood basketball court. Entire ball clearly centered, pebbled rubber texture and black curved seams, court visible softly behind; low cradle complete. THIRD: A round soft fabric ball at the beginning of a wide low flat foam rolling mat in an uncluttered indoor community activity room. Gentle elevated angle, whole ball and ample clear floor space, flat mat clearly visible. BOTTOM: A black and white soccer ball on a padded shelf inside a neighborhood sports equipment display window. Entire ball with credible pentagonal panels, simple indoor background, subtle glass reflections. Empty safe settings, no children or any people, no readable letters, numbers, signs, package labels, text, logos or watermarks anywhere.",
+    "reviewNotes": "Compact preview reviewed: stitched multicolor fabric ball on fenced outdoor foam surface; orange basketball in black low cradle beside empty fenced court; soft stitched ball on start end of blue indoor rolling mat; black-white soccer ball on display shelf behind glass. No people or readable text observed. Main balls wholly retained. Cradle lower margin is tighter than requested 8 percent but survives measured crop; mats, display-frame edges and background furnishings extend to frame. Cuts 443/895/1341; crops 1008x423,1008x432,1008x426,1008x431.",
+    "cuts": [
+      443,
+      895,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "community-ball-03-scene0",
+        "label": "社区活动室滚球垫起点的软球",
+        "image": "hanzi-images/realistic-v1/community-ball-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ball"
+  },
+  {
+    "id": "community-ball-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-02_1795403926082_b3d171a5.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi story covers, invented anonymous settings, not documentary imagery. ONE 1024x1792 PNG containing exactly FOUR full-width landscape photographs vertically stacked; exactly three 4-6px thin straight pure-white horizontal seams centered near y448,896,1344. No outer border or vertical divider. Photorealistic fabric stitching, rubber grain, glass and floor textures, natural soft lighting; no CGI or cartoon. Every main ball and its supporting cradle must fit wholly inside its panel with at least 8 percent crop-safe margins on every side. TOP: A round stitched fabric play ball on a clean foam mat inside a fenced community recreation corner. Whole soft ball with clear fabric seams, flat enclosed play surface, leafy courtyard behind; no road in play area. SECOND: A single orange basketball in a low storage cradle beside an empty fenced neighborhood basketball court. Entire ball clearly centered, pebbled rubber texture and black curved seams, court visible softly behind; low cradle complete. THIRD: A round soft fabric ball at the beginning of a wide low flat foam rolling mat in an uncluttered indoor community activity room. Gentle elevated angle, whole ball and ample clear floor space, flat mat clearly visible. BOTTOM: A black and white soccer ball on a padded shelf inside a neighborhood sports equipment display window. Entire ball with credible pentagonal panels, simple indoor background, subtle glass reflections. Empty safe settings, no children or any people, no readable letters, numbers, signs, package labels, text, logos or watermarks anywhere.",
+    "reviewNotes": "Compact preview reviewed: stitched multicolor fabric ball on fenced outdoor foam surface; orange basketball in black low cradle beside empty fenced court; soft stitched ball on start end of blue indoor rolling mat; black-white soccer ball on display shelf behind glass. No people or readable text observed. Main balls wholly retained. Cradle lower margin is tighter than requested 8 percent but survives measured crop; mats, display-frame edges and background furnishings extend to frame. Cuts 443/895/1341; crops 1008x423,1008x432,1008x426,1008x431.",
+    "cuts": [
+      443,
+      895,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "community-ball-04-scene0",
+        "label": "社区球具展示窗里的足球",
+        "image": "hanzi-images/realistic-v1/community-ball-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ball"
+  },
+  {
+    "id": "community-school-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-03_1795404032304_a9cb6594.png",
+    "prompt": "Use case: four new independent AI-photorealistic educational covers of anonymous school/community places, not claims of actual locations or documentary provenance. Generate one 1024x1792 PNG with exactly FOUR separate full-width landscape panels stacked vertically, approximately448px each, separated only by exactly three thin 4-6px pure-white horizontal seams near y448/896/1344. No outer border, vertical divider, captions, text, numbers, lettering, logos, watermark or people. Photorealistic credible architecture, masonry, wood, glass, book paper and natural daylight, no cartoon or CGI. Main subjects wholly inside each panel with at least8percent crop-safe margins; wide framing, not clipped roofs or gate tops. TOP: Clearly recognizable anonymous school entrance with complete gate, visible classroom teaching building beyond, small reception table just inside for a permitted open day, empty clean entry courtyard in daylight. SECOND: A complete school teaching building with rows of classroom windows across an empty paved campus assembly area; coherent school courtyard and building, natural daylight. THIRD: An empty school library with low bookshelves and reading tables, view through an interior doorway toward a school corridor. Show the coherent educational room in soft daylight, plain unlettered book spines, no identifying school details. BOTTOM: A neighborhood stationery shop storefront with notebooks and drawing tools prominently displayed behind a window, beside a clear sidewalk. Center the whole storefront with its doorway and recognizable plain notebooks, pencil bundles and drawing brushes, daylight. Blank unlettered facade, no school names, signs, readable book titles or merchandise labels. All spaces safe, empty and anonymous.",
+    "reviewNotes": "Compact preview reviewed: open school gate with reception table and teaching building beyond; teaching-building facade across empty paved assembly courtyard; empty library with low shelving, reading tables and corridor doorway; stationery storefront with blank notebooks and pots of drawing tools, entrance and sidewalk. No people, readable identifying text or logos observed. Gate leaves/posts and stationery storefront retained. School-building right wing extends off frame and some library foreground furniture is clipped; central educational setting and intended referents clear, not evidence of a real named school. Cuts 447/896/1345; crops 1008x427,1008x429,1008x429,1008x427.",
+    "cuts": [
+      447,
+      896,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "community-school-01-scene0",
+        "label": "校园开放日接待桌旁的校门",
+        "image": "hanzi-images/realistic-v1/community-school-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "school"
+  },
+  {
+    "id": "community-school-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-03_1795404032304_a9cb6594.png",
+    "prompt": "Use case: four new independent AI-photorealistic educational covers of anonymous school/community places, not claims of actual locations or documentary provenance. Generate one 1024x1792 PNG with exactly FOUR separate full-width landscape panels stacked vertically, approximately448px each, separated only by exactly three thin 4-6px pure-white horizontal seams near y448/896/1344. No outer border, vertical divider, captions, text, numbers, lettering, logos, watermark or people. Photorealistic credible architecture, masonry, wood, glass, book paper and natural daylight, no cartoon or CGI. Main subjects wholly inside each panel with at least8percent crop-safe margins; wide framing, not clipped roofs or gate tops. TOP: Clearly recognizable anonymous school entrance with complete gate, visible classroom teaching building beyond, small reception table just inside for a permitted open day, empty clean entry courtyard in daylight. SECOND: A complete school teaching building with rows of classroom windows across an empty paved campus assembly area; coherent school courtyard and building, natural daylight. THIRD: An empty school library with low bookshelves and reading tables, view through an interior doorway toward a school corridor. Show the coherent educational room in soft daylight, plain unlettered book spines, no identifying school details. BOTTOM: A neighborhood stationery shop storefront with notebooks and drawing tools prominently displayed behind a window, beside a clear sidewalk. Center the whole storefront with its doorway and recognizable plain notebooks, pencil bundles and drawing brushes, daylight. Blank unlettered facade, no school names, signs, readable book titles or merchandise labels. All spaces safe, empty and anonymous.",
+    "reviewNotes": "Compact preview reviewed: open school gate with reception table and teaching building beyond; teaching-building facade across empty paved assembly courtyard; empty library with low shelving, reading tables and corridor doorway; stationery storefront with blank notebooks and pots of drawing tools, entrance and sidewalk. No people, readable identifying text or logos observed. Gate leaves/posts and stationery storefront retained. School-building right wing extends off frame and some library foreground furniture is clipped; central educational setting and intended referents clear, not evidence of a real named school. Cuts 447/896/1345; crops 1008x427,1008x429,1008x429,1008x427.",
+    "cuts": [
+      447,
+      896,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 457,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "community-school-02-scene0",
+        "label": "学校教学楼前的空旷集合区",
+        "image": "hanzi-images/realistic-v1/community-school-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "school"
+  },
+  {
+    "id": "community-school-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-03_1795404032304_a9cb6594.png",
+    "prompt": "Use case: four new independent AI-photorealistic educational covers of anonymous school/community places, not claims of actual locations or documentary provenance. Generate one 1024x1792 PNG with exactly FOUR separate full-width landscape panels stacked vertically, approximately448px each, separated only by exactly three thin 4-6px pure-white horizontal seams near y448/896/1344. No outer border, vertical divider, captions, text, numbers, lettering, logos, watermark or people. Photorealistic credible architecture, masonry, wood, glass, book paper and natural daylight, no cartoon or CGI. Main subjects wholly inside each panel with at least8percent crop-safe margins; wide framing, not clipped roofs or gate tops. TOP: Clearly recognizable anonymous school entrance with complete gate, visible classroom teaching building beyond, small reception table just inside for a permitted open day, empty clean entry courtyard in daylight. SECOND: A complete school teaching building with rows of classroom windows across an empty paved campus assembly area; coherent school courtyard and building, natural daylight. THIRD: An empty school library with low bookshelves and reading tables, view through an interior doorway toward a school corridor. Show the coherent educational room in soft daylight, plain unlettered book spines, no identifying school details. BOTTOM: A neighborhood stationery shop storefront with notebooks and drawing tools prominently displayed behind a window, beside a clear sidewalk. Center the whole storefront with its doorway and recognizable plain notebooks, pencil bundles and drawing brushes, daylight. Blank unlettered facade, no school names, signs, readable book titles or merchandise labels. All spaces safe, empty and anonymous.",
+    "reviewNotes": "Compact preview reviewed: open school gate with reception table and teaching building beyond; teaching-building facade across empty paved assembly courtyard; empty library with low shelving, reading tables and corridor doorway; stationery storefront with blank notebooks and pots of drawing tools, entrance and sidewalk. No people, readable identifying text or logos observed. Gate leaves/posts and stationery storefront retained. School-building right wing extends off frame and some library foreground furniture is clipped; central educational setting and intended referents clear, not evidence of a real named school. Cuts 447/896/1345; crops 1008x427,1008x429,1008x429,1008x427.",
+    "cuts": [
+      447,
+      896,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "community-school-03-scene0",
+        "label": "学校图书室里的低书架和阅读桌",
+        "image": "hanzi-images/realistic-v1/community-school-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "school"
+  },
+  {
+    "id": "community-shop-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-03_1795404032304_a9cb6594.png",
+    "prompt": "Use case: four new independent AI-photorealistic educational covers of anonymous school/community places, not claims of actual locations or documentary provenance. Generate one 1024x1792 PNG with exactly FOUR separate full-width landscape panels stacked vertically, approximately448px each, separated only by exactly three thin 4-6px pure-white horizontal seams near y448/896/1344. No outer border, vertical divider, captions, text, numbers, lettering, logos, watermark or people. Photorealistic credible architecture, masonry, wood, glass, book paper and natural daylight, no cartoon or CGI. Main subjects wholly inside each panel with at least8percent crop-safe margins; wide framing, not clipped roofs or gate tops. TOP: Clearly recognizable anonymous school entrance with complete gate, visible classroom teaching building beyond, small reception table just inside for a permitted open day, empty clean entry courtyard in daylight. SECOND: A complete school teaching building with rows of classroom windows across an empty paved campus assembly area; coherent school courtyard and building, natural daylight. THIRD: An empty school library with low bookshelves and reading tables, view through an interior doorway toward a school corridor. Show the coherent educational room in soft daylight, plain unlettered book spines, no identifying school details. BOTTOM: A neighborhood stationery shop storefront with notebooks and drawing tools prominently displayed behind a window, beside a clear sidewalk. Center the whole storefront with its doorway and recognizable plain notebooks, pencil bundles and drawing brushes, daylight. Blank unlettered facade, no school names, signs, readable book titles or merchandise labels. All spaces safe, empty and anonymous.",
+    "reviewNotes": "Compact preview reviewed: open school gate with reception table and teaching building beyond; teaching-building facade across empty paved assembly courtyard; empty library with low shelving, reading tables and corridor doorway; stationery storefront with blank notebooks and pots of drawing tools, entrance and sidewalk. No people, readable identifying text or logos observed. Gate leaves/posts and stationery storefront retained. School-building right wing extends off frame and some library foreground furniture is clipped; central educational setting and intended referents clear, not evidence of a real named school. Cuts 447/896/1345; crops 1008x427,1008x429,1008x429,1008x427.",
+    "cuts": [
+      447,
+      896,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "community-shop-01-scene0",
+        "label": "街角陈列本子和画笔的文具店",
+        "image": "hanzi-images/realistic-v1/community-shop-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shop"
+  },
+  {
+    "id": "community-shop-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-04_1795404144062_56bcc0bd.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented places not documentary records. One1024x1792 PNG, exactly FOUR separate full-width landscape panels stacked top to bottom. Exactly three straight thin pure-white 4-6px horizontal seams near y448/896/1344; no outer border or vertical divider. Realistic masonry, wood grain, paper edges, shop glass and plants; natural soft daylight, no CGI/cartoon. Each principal storefront or garden shelter framed fully inside its panel with at least8percent crop-safe margins. TOP: A small neighborhood bookshop storefront with closed bound books arranged in its display window, a visible entrance, complete modest facade on a calm pedestrian street. Plain covers and unlettered spines, visible book page edges. SECOND: A neighborhood toy shop storefront with large wooden building blocks and simple wooden toy vehicles behind glass. Complete doorway and merchandise in balanced front view, realistic wood/glass texture. THIRD: A modest neighborhood grocery shop entrance with household paper goods, baskets and plain packaged everyday supplies on indoor shelves. Complete storefront from quiet sidewalk, no legible package printing. BOTTOM: A community shared garden with planted flower beds, shrubs and a wide accessible level walking path leading toward a small roofed shelter. Coherent planted garden layout, gentle morning light, all paths away from water. No people or children, no readable text, letters, numbers, signs, logos, watermarks, private information, vehicles or unsafe activity. Blank shop fascias, not signs with invented lettering.",
+    "reviewNotes": "Compact preview reviewed: bookshop with book-filled twin windows and central entrance; toy shop with wooden blocks/buildings and toy vehicles; grocery shop with paper rolls, plain supplies and baskets; flower-bed garden with clear central path toward complete shelter. Empty, no readable names, text or logos observed. Shop entrances/windows and garden shelter retained; upper facades and peripheral plantings near frame edges. Actual white seams displaced to 482/947/1377, producing crops 1008x462,1008x445,1008x410,1008x395. Garden-01 cover is honestly 395px high (below400, above300), no upscaling. Other-reference shop images are not claimed to be neighboring locations.",
+    "cuts": [
+      482,
+      947,
+      1377
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 462
+    },
+    "contexts": [
+      {
+        "id": "community-shop-02-scene0",
+        "label": "社区书店摆着书的橱窗店面",
+        "image": "hanzi-images/realistic-v1/community-shop-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shop"
+  },
+  {
+    "id": "community-shop-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-04_1795404144062_56bcc0bd.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented places not documentary records. One1024x1792 PNG, exactly FOUR separate full-width landscape panels stacked top to bottom. Exactly three straight thin pure-white 4-6px horizontal seams near y448/896/1344; no outer border or vertical divider. Realistic masonry, wood grain, paper edges, shop glass and plants; natural soft daylight, no CGI/cartoon. Each principal storefront or garden shelter framed fully inside its panel with at least8percent crop-safe margins. TOP: A small neighborhood bookshop storefront with closed bound books arranged in its display window, a visible entrance, complete modest facade on a calm pedestrian street. Plain covers and unlettered spines, visible book page edges. SECOND: A neighborhood toy shop storefront with large wooden building blocks and simple wooden toy vehicles behind glass. Complete doorway and merchandise in balanced front view, realistic wood/glass texture. THIRD: A modest neighborhood grocery shop entrance with household paper goods, baskets and plain packaged everyday supplies on indoor shelves. Complete storefront from quiet sidewalk, no legible package printing. BOTTOM: A community shared garden with planted flower beds, shrubs and a wide accessible level walking path leading toward a small roofed shelter. Coherent planted garden layout, gentle morning light, all paths away from water. No people or children, no readable text, letters, numbers, signs, logos, watermarks, private information, vehicles or unsafe activity. Blank shop fascias, not signs with invented lettering.",
+    "reviewNotes": "Compact preview reviewed: bookshop with book-filled twin windows and central entrance; toy shop with wooden blocks/buildings and toy vehicles; grocery shop with paper rolls, plain supplies and baskets; flower-bed garden with clear central path toward complete shelter. Empty, no readable names, text or logos observed. Shop entrances/windows and garden shelter retained; upper facades and peripheral plantings near frame edges. Actual white seams displaced to 482/947/1377, producing crops 1008x462,1008x445,1008x410,1008x395. Garden-01 cover is honestly 395px high (below400, above300), no upscaling. Other-reference shop images are not claimed to be neighboring locations.",
+    "cuts": [
+      482,
+      947,
+      1377
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 492,
+      "width": 1008,
+      "height": 445
+    },
+    "contexts": [
+      {
+        "id": "community-shop-03-scene0",
+        "label": "社区玩具店陈列木积木的店面",
+        "image": "hanzi-images/realistic-v1/community-shop-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shop"
+  },
+  {
+    "id": "community-shop-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-04_1795404144062_56bcc0bd.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented places not documentary records. One1024x1792 PNG, exactly FOUR separate full-width landscape panels stacked top to bottom. Exactly three straight thin pure-white 4-6px horizontal seams near y448/896/1344; no outer border or vertical divider. Realistic masonry, wood grain, paper edges, shop glass and plants; natural soft daylight, no CGI/cartoon. Each principal storefront or garden shelter framed fully inside its panel with at least8percent crop-safe margins. TOP: A small neighborhood bookshop storefront with closed bound books arranged in its display window, a visible entrance, complete modest facade on a calm pedestrian street. Plain covers and unlettered spines, visible book page edges. SECOND: A neighborhood toy shop storefront with large wooden building blocks and simple wooden toy vehicles behind glass. Complete doorway and merchandise in balanced front view, realistic wood/glass texture. THIRD: A modest neighborhood grocery shop entrance with household paper goods, baskets and plain packaged everyday supplies on indoor shelves. Complete storefront from quiet sidewalk, no legible package printing. BOTTOM: A community shared garden with planted flower beds, shrubs and a wide accessible level walking path leading toward a small roofed shelter. Coherent planted garden layout, gentle morning light, all paths away from water. No people or children, no readable text, letters, numbers, signs, logos, watermarks, private information, vehicles or unsafe activity. Blank shop fascias, not signs with invented lettering.",
+    "reviewNotes": "Compact preview reviewed: bookshop with book-filled twin windows and central entrance; toy shop with wooden blocks/buildings and toy vehicles; grocery shop with paper rolls, plain supplies and baskets; flower-bed garden with clear central path toward complete shelter. Empty, no readable names, text or logos observed. Shop entrances/windows and garden shelter retained; upper facades and peripheral plantings near frame edges. Actual white seams displaced to 482/947/1377, producing crops 1008x462,1008x445,1008x410,1008x395. Garden-01 cover is honestly 395px high (below400, above300), no upscaling. Other-reference shop images are not claimed to be neighboring locations.",
+    "cuts": [
+      482,
+      947,
+      1377
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 957,
+      "width": 1008,
+      "height": 410
+    },
+    "contexts": [
+      {
+        "id": "community-shop-04-scene0",
+        "label": "社区杂货店摆着日用品的店面",
+        "image": "hanzi-images/realistic-v1/community-shop-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shop"
+  },
+  {
+    "id": "community-garden-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-04_1795404144062_56bcc0bd.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented places not documentary records. One1024x1792 PNG, exactly FOUR separate full-width landscape panels stacked top to bottom. Exactly three straight thin pure-white 4-6px horizontal seams near y448/896/1344; no outer border or vertical divider. Realistic masonry, wood grain, paper edges, shop glass and plants; natural soft daylight, no CGI/cartoon. Each principal storefront or garden shelter framed fully inside its panel with at least8percent crop-safe margins. TOP: A small neighborhood bookshop storefront with closed bound books arranged in its display window, a visible entrance, complete modest facade on a calm pedestrian street. Plain covers and unlettered spines, visible book page edges. SECOND: A neighborhood toy shop storefront with large wooden building blocks and simple wooden toy vehicles behind glass. Complete doorway and merchandise in balanced front view, realistic wood/glass texture. THIRD: A modest neighborhood grocery shop entrance with household paper goods, baskets and plain packaged everyday supplies on indoor shelves. Complete storefront from quiet sidewalk, no legible package printing. BOTTOM: A community shared garden with planted flower beds, shrubs and a wide accessible level walking path leading toward a small roofed shelter. Coherent planted garden layout, gentle morning light, all paths away from water. No people or children, no readable text, letters, numbers, signs, logos, watermarks, private information, vehicles or unsafe activity. Blank shop fascias, not signs with invented lettering.",
+    "reviewNotes": "Compact preview reviewed: bookshop with book-filled twin windows and central entrance; toy shop with wooden blocks/buildings and toy vehicles; grocery shop with paper rolls, plain supplies and baskets; flower-bed garden with clear central path toward complete shelter. Empty, no readable names, text or logos observed. Shop entrances/windows and garden shelter retained; upper facades and peripheral plantings near frame edges. Actual white seams displaced to 482/947/1377, producing crops 1008x462,1008x445,1008x410,1008x395. Garden-01 cover is honestly 395px high (below400, above300), no upscaling. Other-reference shop images are not claimed to be neighboring locations.",
+    "cuts": [
+      482,
+      947,
+      1377
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1387,
+      "width": 1008,
+      "height": 395
+    },
+    "contexts": [
+      {
+        "id": "community-garden-01-scene0",
+        "label": "邻里共享花园里的花坛和步道",
+        "image": "hanzi-images/realistic-v1/community-garden-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  },
+  {
+    "id": "community-garden-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-05_1795404257429_addcab17.png",
+    "prompt": "Use case: four independent new AI-photorealistic community story covers, not real-place records. ONE1024x1792 PNG with exactly FOUR independent full-width landscape images vertically stacked in four EQUAL448px bands. Exactly three thin straight 4-6px pure-white horizontal seams centered at approximately y448,896,1344. No border, no vertical divider, no text, logos, watermarks, signs, readable letters/numbers or people. Realistic garden soil, foliage, wood grain and upholstery, natural light; no cartoon or CGI. Objects fully inside individual panels with at least8percent crop-safe margins. TOP: A neighborhood community vegetable garden with orderly wooden raised beds filled with leafy vegetables, wide level paths between beds. Whole coherent planted garden area, realistic soil and bed borders, daylight, no tools in use. SECOND: A compact residential pocket garden between buildings with planted flowers, shrubs and a level looping pedestrian path visibly curving around the plantings. Planted outdoor space, warm daylight, no water or traffic. THIRD: A single sturdy wooden chair with a clear backrest, seat and four legs in an empty community storytelling room, softly blurred reading shelves behind. Show entire chair centered at moderate size (about65percent of panel height), complete backrest and every foot, floor margin below, soft indoor daylight. BOTTOM: A complete upholstered chair with firm backrest, padded seat and visible legs in a welcoming community meeting corner beside a low unoccupied table. Chair centered at moderate size, complete silhouette safely away from all seams, soft indoor light. No cropped chair backs or feet, no identifiable people, no unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: leafy vegetables in wooden raised beds with central path; planted pocket garden between buildings and visible looping path; complete wooden backrest chair in reading/story room; complete blue padded backrest chair beside low meeting-corner table. No people or readable labels seen. Both chair silhouettes/feet survive measured crops; upholstered-chair lower margin tighter than8percent. Raised beds, foreground plants and secondary low table extend to frame edges, not lost target meanings. Cuts445/893/1340; crops1008x425,1008x428,1008x427,1008x432.",
+    "cuts": [
+      445,
+      893,
+      1340
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "community-garden-02-scene0",
+        "label": "社区菜园里整齐的蔬菜畦和小路",
+        "image": "hanzi-images/realistic-v1/community-garden-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  },
+  {
+    "id": "community-garden-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-05_1795404257429_addcab17.png",
+    "prompt": "Use case: four independent new AI-photorealistic community story covers, not real-place records. ONE1024x1792 PNG with exactly FOUR independent full-width landscape images vertically stacked in four EQUAL448px bands. Exactly three thin straight 4-6px pure-white horizontal seams centered at approximately y448,896,1344. No border, no vertical divider, no text, logos, watermarks, signs, readable letters/numbers or people. Realistic garden soil, foliage, wood grain and upholstery, natural light; no cartoon or CGI. Objects fully inside individual panels with at least8percent crop-safe margins. TOP: A neighborhood community vegetable garden with orderly wooden raised beds filled with leafy vegetables, wide level paths between beds. Whole coherent planted garden area, realistic soil and bed borders, daylight, no tools in use. SECOND: A compact residential pocket garden between buildings with planted flowers, shrubs and a level looping pedestrian path visibly curving around the plantings. Planted outdoor space, warm daylight, no water or traffic. THIRD: A single sturdy wooden chair with a clear backrest, seat and four legs in an empty community storytelling room, softly blurred reading shelves behind. Show entire chair centered at moderate size (about65percent of panel height), complete backrest and every foot, floor margin below, soft indoor daylight. BOTTOM: A complete upholstered chair with firm backrest, padded seat and visible legs in a welcoming community meeting corner beside a low unoccupied table. Chair centered at moderate size, complete silhouette safely away from all seams, soft indoor light. No cropped chair backs or feet, no identifiable people, no unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: leafy vegetables in wooden raised beds with central path; planted pocket garden between buildings and visible looping path; complete wooden backrest chair in reading/story room; complete blue padded backrest chair beside low meeting-corner table. No people or readable labels seen. Both chair silhouettes/feet survive measured crops; upholstered-chair lower margin tighter than8percent. Raised beds, foreground plants and secondary low table extend to frame edges, not lost target meanings. Cuts445/893/1340; crops1008x425,1008x428,1008x427,1008x432.",
+    "cuts": [
+      445,
+      893,
+      1340
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "community-garden-03-scene0",
+        "label": "社区口袋花园的花木与环形步道",
+        "image": "hanzi-images/realistic-v1/community-garden-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  },
+  {
+    "id": "community-chair-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-05_1795404257429_addcab17.png",
+    "prompt": "Use case: four independent new AI-photorealistic community story covers, not real-place records. ONE1024x1792 PNG with exactly FOUR independent full-width landscape images vertically stacked in four EQUAL448px bands. Exactly three thin straight 4-6px pure-white horizontal seams centered at approximately y448,896,1344. No border, no vertical divider, no text, logos, watermarks, signs, readable letters/numbers or people. Realistic garden soil, foliage, wood grain and upholstery, natural light; no cartoon or CGI. Objects fully inside individual panels with at least8percent crop-safe margins. TOP: A neighborhood community vegetable garden with orderly wooden raised beds filled with leafy vegetables, wide level paths between beds. Whole coherent planted garden area, realistic soil and bed borders, daylight, no tools in use. SECOND: A compact residential pocket garden between buildings with planted flowers, shrubs and a level looping pedestrian path visibly curving around the plantings. Planted outdoor space, warm daylight, no water or traffic. THIRD: A single sturdy wooden chair with a clear backrest, seat and four legs in an empty community storytelling room, softly blurred reading shelves behind. Show entire chair centered at moderate size (about65percent of panel height), complete backrest and every foot, floor margin below, soft indoor daylight. BOTTOM: A complete upholstered chair with firm backrest, padded seat and visible legs in a welcoming community meeting corner beside a low unoccupied table. Chair centered at moderate size, complete silhouette safely away from all seams, soft indoor light. No cropped chair backs or feet, no identifiable people, no unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: leafy vegetables in wooden raised beds with central path; planted pocket garden between buildings and visible looping path; complete wooden backrest chair in reading/story room; complete blue padded backrest chair beside low meeting-corner table. No people or readable labels seen. Both chair silhouettes/feet survive measured crops; upholstered-chair lower margin tighter than8percent. Raised beds, foreground plants and secondary low table extend to frame edges, not lost target meanings. Cuts445/893/1340; crops1008x425,1008x428,1008x427,1008x432.",
+    "cuts": [
+      445,
+      893,
+      1340
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 903,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "community-chair-01-scene0",
+        "label": "社区故事活动室里有靠背的木椅",
+        "image": "hanzi-images/realistic-v1/community-chair-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chair"
+  },
+  {
+    "id": "community-chair-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-05_1795404257429_addcab17.png",
+    "prompt": "Use case: four independent new AI-photorealistic community story covers, not real-place records. ONE1024x1792 PNG with exactly FOUR independent full-width landscape images vertically stacked in four EQUAL448px bands. Exactly three thin straight 4-6px pure-white horizontal seams centered at approximately y448,896,1344. No border, no vertical divider, no text, logos, watermarks, signs, readable letters/numbers or people. Realistic garden soil, foliage, wood grain and upholstery, natural light; no cartoon or CGI. Objects fully inside individual panels with at least8percent crop-safe margins. TOP: A neighborhood community vegetable garden with orderly wooden raised beds filled with leafy vegetables, wide level paths between beds. Whole coherent planted garden area, realistic soil and bed borders, daylight, no tools in use. SECOND: A compact residential pocket garden between buildings with planted flowers, shrubs and a level looping pedestrian path visibly curving around the plantings. Planted outdoor space, warm daylight, no water or traffic. THIRD: A single sturdy wooden chair with a clear backrest, seat and four legs in an empty community storytelling room, softly blurred reading shelves behind. Show entire chair centered at moderate size (about65percent of panel height), complete backrest and every foot, floor margin below, soft indoor daylight. BOTTOM: A complete upholstered chair with firm backrest, padded seat and visible legs in a welcoming community meeting corner beside a low unoccupied table. Chair centered at moderate size, complete silhouette safely away from all seams, soft indoor light. No cropped chair backs or feet, no identifiable people, no unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: leafy vegetables in wooden raised beds with central path; planted pocket garden between buildings and visible looping path; complete wooden backrest chair in reading/story room; complete blue padded backrest chair beside low meeting-corner table. No people or readable labels seen. Both chair silhouettes/feet survive measured crops; upholstered-chair lower margin tighter than8percent. Raised beds, foreground plants and secondary low table extend to frame edges, not lost target meanings. Cuts445/893/1340; crops1008x425,1008x428,1008x427,1008x432.",
+    "cuts": [
+      445,
+      893,
+      1340
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1350,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "community-chair-02-scene0",
+        "label": "邻里会客角里有靠背的软垫椅",
+        "image": "hanzi-images/realistic-v1/community-chair-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chair"
+  },
+  {
+    "id": "community-chair-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-06_1795404364682_f0102bf9.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi furniture covers in empty community settings, no actual-location/provenance claims. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels vertically stacked, equal448px bands separated by exactly three thin straight pure-white4-6px horizontal seams near y448/896/1344. No outer border, vertical divider, text, readable signs/captions/box titles, letters, numbers, logos, watermarks or people. Photorealistic wood grain, realistic furniture joinery, natural soft light, not CGI/cartoon. ALL principal furniture completely inside their panel with at least8percent crop-safe margin on every side; show complete legs and feet with clear floor margin, moderate scale about65percent panel height. TOP: A single wooden chair with a backrest under a tree in a level community courtyard. Complete seat/back/four legs on paved ground with greenery behind, clearly outdoors. SECOND: An empty rectangular wooden long table in a community sharing-event room. Whole clear tabletop and supporting legs fully visible on level indoor floor, calm meeting-room background, no food or things on table. THIRD: An empty square game table in tidy neighborhood board-game room, closed plain game boxes stored on shelves in background. Entire clear square tabletop and all supporting legs, soft indoor light. BOTTOM: An empty sturdy display table in community craft-exhibition room, framed handmade craft objects on a distant wall. Whole clear tabletop and legs prominent, all principal furniture safely clear of seams and image edges. No tools in use, no climbing, no unsafe activity, no identifying information.",
+    "reviewNotes": "Compact preview reviewed: complete backrest wooden chair on tree-shaded courtyard paving; empty indoor rectangular sharing table; empty square wooden game table with plain boxes on shelves; empty craft-exhibition display table with handmade framed objects behind. All principal seats/tabletops and feet retained, no people, text or logos seen. Courtyard chair upper margin and square-table bottom margin tighter than8percent but clear of actual crop; surrounding architecture/trees and exhibition walls extend off-frame normally. Cuts445/896/1346; crops1008x425,1008x431,1008x430,1008x426.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "community-chair-03-scene0",
+        "label": "社区庭院树荫下有靠背的木椅",
+        "image": "hanzi-images/realistic-v1/community-chair-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "chair"
+  },
+  {
+    "id": "community-table-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-06_1795404364682_f0102bf9.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi furniture covers in empty community settings, no actual-location/provenance claims. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels vertically stacked, equal448px bands separated by exactly three thin straight pure-white4-6px horizontal seams near y448/896/1344. No outer border, vertical divider, text, readable signs/captions/box titles, letters, numbers, logos, watermarks or people. Photorealistic wood grain, realistic furniture joinery, natural soft light, not CGI/cartoon. ALL principal furniture completely inside their panel with at least8percent crop-safe margin on every side; show complete legs and feet with clear floor margin, moderate scale about65percent panel height. TOP: A single wooden chair with a backrest under a tree in a level community courtyard. Complete seat/back/four legs on paved ground with greenery behind, clearly outdoors. SECOND: An empty rectangular wooden long table in a community sharing-event room. Whole clear tabletop and supporting legs fully visible on level indoor floor, calm meeting-room background, no food or things on table. THIRD: An empty square game table in tidy neighborhood board-game room, closed plain game boxes stored on shelves in background. Entire clear square tabletop and all supporting legs, soft indoor light. BOTTOM: An empty sturdy display table in community craft-exhibition room, framed handmade craft objects on a distant wall. Whole clear tabletop and legs prominent, all principal furniture safely clear of seams and image edges. No tools in use, no climbing, no unsafe activity, no identifying information.",
+    "reviewNotes": "Compact preview reviewed: complete backrest wooden chair on tree-shaded courtyard paving; empty indoor rectangular sharing table; empty square wooden game table with plain boxes on shelves; empty craft-exhibition display table with handmade framed objects behind. All principal seats/tabletops and feet retained, no people, text or logos seen. Courtyard chair upper margin and square-table bottom margin tighter than8percent but clear of actual crop; surrounding architecture/trees and exhibition walls extend off-frame normally. Cuts445/896/1346; crops1008x425,1008x431,1008x430,1008x426.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "community-table-01-scene0",
+        "label": "社区分享活动区空着的长桌",
+        "image": "hanzi-images/realistic-v1/community-table-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "community-table-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-06_1795404364682_f0102bf9.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi furniture covers in empty community settings, no actual-location/provenance claims. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels vertically stacked, equal448px bands separated by exactly three thin straight pure-white4-6px horizontal seams near y448/896/1344. No outer border, vertical divider, text, readable signs/captions/box titles, letters, numbers, logos, watermarks or people. Photorealistic wood grain, realistic furniture joinery, natural soft light, not CGI/cartoon. ALL principal furniture completely inside their panel with at least8percent crop-safe margin on every side; show complete legs and feet with clear floor margin, moderate scale about65percent panel height. TOP: A single wooden chair with a backrest under a tree in a level community courtyard. Complete seat/back/four legs on paved ground with greenery behind, clearly outdoors. SECOND: An empty rectangular wooden long table in a community sharing-event room. Whole clear tabletop and supporting legs fully visible on level indoor floor, calm meeting-room background, no food or things on table. THIRD: An empty square game table in tidy neighborhood board-game room, closed plain game boxes stored on shelves in background. Entire clear square tabletop and all supporting legs, soft indoor light. BOTTOM: An empty sturdy display table in community craft-exhibition room, framed handmade craft objects on a distant wall. Whole clear tabletop and legs prominent, all principal furniture safely clear of seams and image edges. No tools in use, no climbing, no unsafe activity, no identifying information.",
+    "reviewNotes": "Compact preview reviewed: complete backrest wooden chair on tree-shaded courtyard paving; empty indoor rectangular sharing table; empty square wooden game table with plain boxes on shelves; empty craft-exhibition display table with handmade framed objects behind. All principal seats/tabletops and feet retained, no people, text or logos seen. Courtyard chair upper margin and square-table bottom margin tighter than8percent but clear of actual crop; surrounding architecture/trees and exhibition walls extend off-frame normally. Cuts445/896/1346; crops1008x425,1008x431,1008x430,1008x426.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "community-table-02-scene0",
+        "label": "社区桌游室里收整后的空方桌",
+        "image": "hanzi-images/realistic-v1/community-table-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "community-table-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-06_1795404364682_f0102bf9.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi furniture covers in empty community settings, no actual-location/provenance claims. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels vertically stacked, equal448px bands separated by exactly three thin straight pure-white4-6px horizontal seams near y448/896/1344. No outer border, vertical divider, text, readable signs/captions/box titles, letters, numbers, logos, watermarks or people. Photorealistic wood grain, realistic furniture joinery, natural soft light, not CGI/cartoon. ALL principal furniture completely inside their panel with at least8percent crop-safe margin on every side; show complete legs and feet with clear floor margin, moderate scale about65percent panel height. TOP: A single wooden chair with a backrest under a tree in a level community courtyard. Complete seat/back/four legs on paved ground with greenery behind, clearly outdoors. SECOND: An empty rectangular wooden long table in a community sharing-event room. Whole clear tabletop and supporting legs fully visible on level indoor floor, calm meeting-room background, no food or things on table. THIRD: An empty square game table in tidy neighborhood board-game room, closed plain game boxes stored on shelves in background. Entire clear square tabletop and all supporting legs, soft indoor light. BOTTOM: An empty sturdy display table in community craft-exhibition room, framed handmade craft objects on a distant wall. Whole clear tabletop and legs prominent, all principal furniture safely clear of seams and image edges. No tools in use, no climbing, no unsafe activity, no identifying information.",
+    "reviewNotes": "Compact preview reviewed: complete backrest wooden chair on tree-shaded courtyard paving; empty indoor rectangular sharing table; empty square wooden game table with plain boxes on shelves; empty craft-exhibition display table with handmade framed objects behind. All principal seats/tabletops and feet retained, no people, text or logos seen. Courtyard chair upper margin and square-table bottom margin tighter than8percent but clear of actual crop; surrounding architecture/trees and exhibition walls extend off-frame normally. Cuts445/896/1346; crops1008x425,1008x431,1008x430,1008x426.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "community-table-03-scene0",
+        "label": "社区手工作品展区空着的展示桌",
+        "image": "hanzi-images/realistic-v1/community-table-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "community-door-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-07_1795404591108_bb9e2190.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community covers, anonymous invented spaces, not real-place documentary records. Critical layout: one1024x1792 PNG split into EXACTLY FOUR full-width landscape photographic panels of equal height. Put EXACTLY THREE absolutely PURE WHITE RGB255,255,255 straight horizontal separator strips 6pixels tall centered at y448,896,1344 spanning every pixel from left edge to right edge. Separators are solid white, NOT gray, NOT shadows, NOT translucent, NOT architectural surfaces. No outer border, no vertical divider, captions or text. Panels are four distinct independent scenes, no shared architecture crossing separators. Main subjects wholly contained with at least8percent crop-safe margins; wide framing from further back so full door frames and thresholds fit. Realistic wood grain, glass, stone and foliage; photorealistic soft daylight, not CGI/cartoon. TOP: Closed glass double entrance doors at an empty neighborhood activity center. Complete top of door frame, both closed door leaves and handles, wide level landing and gentle access ramp beside it. Entire doorway moderate size, air/wall margin above frame and floor below. SECOND: Closed single wooden door at an empty neighborhood reading room, complete frame/handle/threshold; plain bookshelves visible through adjacent fixed glass panel. THIRD: Two fully open wooden entrance door leaves at an empty community exhibition hall, complete frame and both leaves in wide front view, empty lobby and unlettered distant display boards beyond. BOTTOM: Level paved pedestrian path between flower beds leading to a small complete roofed storytelling pavilion in an empty residential courtyard. Clear continuous path edges, no vehicles/crossings. No people, readable text, signs, letters, numbers, logos, watermarks or private information anywhere. White separator strips must remain perfectly white and separate all four scenes.",
+    "reviewNotes": "Compact preview reviewed after regeneration: closed glass double doors with landing, steps and adjacent ramp; closed wooden reading-room door with books visible through fixed side glazing; fully open wooden double leaves framing empty exhibition lobby; flower-lined paved path toward complete storytelling pavilion. All intended referents present, no people/readable text/logos seen. Door tops remain tighter than8percent margin but complete door leaves/thresholds survive actual crops; upper exterior canopy/facade is peripheral and clipped. Pure-white seams now detected at441/895/1343; crops1008x421,1008x434,1008x428,1008x429. Earlier gray-seam sheet retained unused with separate rejected provenance.",
+    "cuts": [
+      441,
+      895,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "community-door-01-scene0",
+        "label": "社区活动中心入口的玻璃双扇门",
+        "image": "hanzi-images/realistic-v1/community-door-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "community-door-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-07_1795404591108_bb9e2190.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community covers, anonymous invented spaces, not real-place documentary records. Critical layout: one1024x1792 PNG split into EXACTLY FOUR full-width landscape photographic panels of equal height. Put EXACTLY THREE absolutely PURE WHITE RGB255,255,255 straight horizontal separator strips 6pixels tall centered at y448,896,1344 spanning every pixel from left edge to right edge. Separators are solid white, NOT gray, NOT shadows, NOT translucent, NOT architectural surfaces. No outer border, no vertical divider, captions or text. Panels are four distinct independent scenes, no shared architecture crossing separators. Main subjects wholly contained with at least8percent crop-safe margins; wide framing from further back so full door frames and thresholds fit. Realistic wood grain, glass, stone and foliage; photorealistic soft daylight, not CGI/cartoon. TOP: Closed glass double entrance doors at an empty neighborhood activity center. Complete top of door frame, both closed door leaves and handles, wide level landing and gentle access ramp beside it. Entire doorway moderate size, air/wall margin above frame and floor below. SECOND: Closed single wooden door at an empty neighborhood reading room, complete frame/handle/threshold; plain bookshelves visible through adjacent fixed glass panel. THIRD: Two fully open wooden entrance door leaves at an empty community exhibition hall, complete frame and both leaves in wide front view, empty lobby and unlettered distant display boards beyond. BOTTOM: Level paved pedestrian path between flower beds leading to a small complete roofed storytelling pavilion in an empty residential courtyard. Clear continuous path edges, no vehicles/crossings. No people, readable text, signs, letters, numbers, logos, watermarks or private information anywhere. White separator strips must remain perfectly white and separate all four scenes.",
+    "reviewNotes": "Compact preview reviewed after regeneration: closed glass double doors with landing, steps and adjacent ramp; closed wooden reading-room door with books visible through fixed side glazing; fully open wooden double leaves framing empty exhibition lobby; flower-lined paved path toward complete storytelling pavilion. All intended referents present, no people/readable text/logos seen. Door tops remain tighter than8percent margin but complete door leaves/thresholds survive actual crops; upper exterior canopy/facade is peripheral and clipped. Pure-white seams now detected at441/895/1343; crops1008x421,1008x434,1008x428,1008x429. Earlier gray-seam sheet retained unused with separate rejected provenance.",
+    "cuts": [
+      441,
+      895,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 451,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "community-door-02-scene0",
+        "label": "邻里阅读室入口关着的木门",
+        "image": "hanzi-images/realistic-v1/community-door-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "community-door-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-07_1795404591108_bb9e2190.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community covers, anonymous invented spaces, not real-place documentary records. Critical layout: one1024x1792 PNG split into EXACTLY FOUR full-width landscape photographic panels of equal height. Put EXACTLY THREE absolutely PURE WHITE RGB255,255,255 straight horizontal separator strips 6pixels tall centered at y448,896,1344 spanning every pixel from left edge to right edge. Separators are solid white, NOT gray, NOT shadows, NOT translucent, NOT architectural surfaces. No outer border, no vertical divider, captions or text. Panels are four distinct independent scenes, no shared architecture crossing separators. Main subjects wholly contained with at least8percent crop-safe margins; wide framing from further back so full door frames and thresholds fit. Realistic wood grain, glass, stone and foliage; photorealistic soft daylight, not CGI/cartoon. TOP: Closed glass double entrance doors at an empty neighborhood activity center. Complete top of door frame, both closed door leaves and handles, wide level landing and gentle access ramp beside it. Entire doorway moderate size, air/wall margin above frame and floor below. SECOND: Closed single wooden door at an empty neighborhood reading room, complete frame/handle/threshold; plain bookshelves visible through adjacent fixed glass panel. THIRD: Two fully open wooden entrance door leaves at an empty community exhibition hall, complete frame and both leaves in wide front view, empty lobby and unlettered distant display boards beyond. BOTTOM: Level paved pedestrian path between flower beds leading to a small complete roofed storytelling pavilion in an empty residential courtyard. Clear continuous path edges, no vehicles/crossings. No people, readable text, signs, letters, numbers, logos, watermarks or private information anywhere. White separator strips must remain perfectly white and separate all four scenes.",
+    "reviewNotes": "Compact preview reviewed after regeneration: closed glass double doors with landing, steps and adjacent ramp; closed wooden reading-room door with books visible through fixed side glazing; fully open wooden double leaves framing empty exhibition lobby; flower-lined paved path toward complete storytelling pavilion. All intended referents present, no people/readable text/logos seen. Door tops remain tighter than8percent margin but complete door leaves/thresholds survive actual crops; upper exterior canopy/facade is peripheral and clipped. Pure-white seams now detected at441/895/1343; crops1008x421,1008x434,1008x428,1008x429. Earlier gray-seam sheet retained unused with separate rejected provenance.",
+    "cuts": [
+      441,
+      895,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "community-door-03-scene0",
+        "label": "社区展厅入口打开的双扇木门",
+        "image": "hanzi-images/realistic-v1/community-door-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "community-road-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-07_1795404591108_bb9e2190.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community covers, anonymous invented spaces, not real-place documentary records. Critical layout: one1024x1792 PNG split into EXACTLY FOUR full-width landscape photographic panels of equal height. Put EXACTLY THREE absolutely PURE WHITE RGB255,255,255 straight horizontal separator strips 6pixels tall centered at y448,896,1344 spanning every pixel from left edge to right edge. Separators are solid white, NOT gray, NOT shadows, NOT translucent, NOT architectural surfaces. No outer border, no vertical divider, captions or text. Panels are four distinct independent scenes, no shared architecture crossing separators. Main subjects wholly contained with at least8percent crop-safe margins; wide framing from further back so full door frames and thresholds fit. Realistic wood grain, glass, stone and foliage; photorealistic soft daylight, not CGI/cartoon. TOP: Closed glass double entrance doors at an empty neighborhood activity center. Complete top of door frame, both closed door leaves and handles, wide level landing and gentle access ramp beside it. Entire doorway moderate size, air/wall margin above frame and floor below. SECOND: Closed single wooden door at an empty neighborhood reading room, complete frame/handle/threshold; plain bookshelves visible through adjacent fixed glass panel. THIRD: Two fully open wooden entrance door leaves at an empty community exhibition hall, complete frame and both leaves in wide front view, empty lobby and unlettered distant display boards beyond. BOTTOM: Level paved pedestrian path between flower beds leading to a small complete roofed storytelling pavilion in an empty residential courtyard. Clear continuous path edges, no vehicles/crossings. No people, readable text, signs, letters, numbers, logos, watermarks or private information anywhere. White separator strips must remain perfectly white and separate all four scenes.",
+    "reviewNotes": "Compact preview reviewed after regeneration: closed glass double doors with landing, steps and adjacent ramp; closed wooden reading-room door with books visible through fixed side glazing; fully open wooden double leaves framing empty exhibition lobby; flower-lined paved path toward complete storytelling pavilion. All intended referents present, no people/readable text/logos seen. Door tops remain tighter than8percent margin but complete door leaves/thresholds survive actual crops; upper exterior canopy/facade is peripheral and clipped. Pure-white seams now detected at441/895/1343; crops1008x421,1008x434,1008x428,1008x429. Earlier gray-seam sheet retained unused with separate rejected provenance.",
+    "cuts": [
+      441,
+      895,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "community-road-01-scene0",
+        "label": "社区花坛之间通往故事亭的步行路",
+        "image": "hanzi-images/realistic-v1/community-road-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "community-road-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-08_1795404705434_944253bf.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi story covers, invented anonymous places, not documentary photographs. Create ONE1024x1792 PNG with EXACTLY FOUR full-width landscape panels stacked vertically in equal448px bands. Exactly three straight thin pure-white RGB255,255,255 horizontal seams 4-6px tall near y448/896/1344, no outer border or vertical divider. Real paving, stone masonry, bridge joinery, foliage and diffuse daylight, photorealistic not CGI/cartoon. Main bridge structures completely inside their own panels with at least8percent crop-safe margins; wide safe viewpoints from distant public paths, include both bridge ends, full rails and span. TOP: A gently curving paved pedestrian path outside a neighborhood activity center, bending around a flower bed. Full visible curve and planted edges, distant entrance, daylight, no traffic. SECOND: A wet level pedestrian path after light rain in a residential courtyard. Damp paving stones, low planted borders, continuous path and clear edges in soft overcast light, no deep standing water or vehicles. THIRD: A small pedestrian bridge with continuous protective railings spanning a narrow ornamental channel in a community garden. Complete bridge deck, both ends and channel below, framed from a safe wide viewpoint, daylight. BOTTOM: A low stone arch pedestrian bridge with parapets across a narrow landscaped channel in a neighborhood garden. Complete low stone arch, walkway and both banks from a distant path; realistic stone masonry, soft daylight. Safe empty public settings, no people, climbing, vehicles, unsafe activity, readable signs/text/letters/numbers, logos, watermarks or identifying details.",
+    "reviewNotes": "Compact preview reviewed: curved paved activity-center path around flowers; damp reflective courtyard path after rain with clear planted edges; complete wooden-railed pedestrian bridge over ornamental channel; complete low stone arch bridge with parapets and both banks. No people, vehicles, readable signage or unsafe activity seen. Both bridge spans/ends safely retained; foreground paths and landscape edges continue out of frame as expected. Channels are visible only in bridge panels, not path panels. Cuts448/894/1342; crops1008x428,1008x426,1008x428,1008x430.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "community-road-02-scene0",
+        "label": "社区活动中心外弯向花坛的小路",
+        "image": "hanzi-images/realistic-v1/community-road-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "community-road-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-08_1795404705434_944253bf.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi story covers, invented anonymous places, not documentary photographs. Create ONE1024x1792 PNG with EXACTLY FOUR full-width landscape panels stacked vertically in equal448px bands. Exactly three straight thin pure-white RGB255,255,255 horizontal seams 4-6px tall near y448/896/1344, no outer border or vertical divider. Real paving, stone masonry, bridge joinery, foliage and diffuse daylight, photorealistic not CGI/cartoon. Main bridge structures completely inside their own panels with at least8percent crop-safe margins; wide safe viewpoints from distant public paths, include both bridge ends, full rails and span. TOP: A gently curving paved pedestrian path outside a neighborhood activity center, bending around a flower bed. Full visible curve and planted edges, distant entrance, daylight, no traffic. SECOND: A wet level pedestrian path after light rain in a residential courtyard. Damp paving stones, low planted borders, continuous path and clear edges in soft overcast light, no deep standing water or vehicles. THIRD: A small pedestrian bridge with continuous protective railings spanning a narrow ornamental channel in a community garden. Complete bridge deck, both ends and channel below, framed from a safe wide viewpoint, daylight. BOTTOM: A low stone arch pedestrian bridge with parapets across a narrow landscaped channel in a neighborhood garden. Complete low stone arch, walkway and both banks from a distant path; realistic stone masonry, soft daylight. Safe empty public settings, no people, climbing, vehicles, unsafe activity, readable signs/text/letters/numbers, logos, watermarks or identifying details.",
+    "reviewNotes": "Compact preview reviewed: curved paved activity-center path around flowers; damp reflective courtyard path after rain with clear planted edges; complete wooden-railed pedestrian bridge over ornamental channel; complete low stone arch bridge with parapets and both banks. No people, vehicles, readable signage or unsafe activity seen. Both bridge spans/ends safely retained; foreground paths and landscape edges continue out of frame as expected. Channels are visible only in bridge panels, not path panels. Cuts448/894/1342; crops1008x428,1008x426,1008x428,1008x430.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 458,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "community-road-03-scene0",
+        "label": "雨后社区庭院里湿润的步行路",
+        "image": "hanzi-images/realistic-v1/community-road-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "community-bridge-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-08_1795404705434_944253bf.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi story covers, invented anonymous places, not documentary photographs. Create ONE1024x1792 PNG with EXACTLY FOUR full-width landscape panels stacked vertically in equal448px bands. Exactly three straight thin pure-white RGB255,255,255 horizontal seams 4-6px tall near y448/896/1344, no outer border or vertical divider. Real paving, stone masonry, bridge joinery, foliage and diffuse daylight, photorealistic not CGI/cartoon. Main bridge structures completely inside their own panels with at least8percent crop-safe margins; wide safe viewpoints from distant public paths, include both bridge ends, full rails and span. TOP: A gently curving paved pedestrian path outside a neighborhood activity center, bending around a flower bed. Full visible curve and planted edges, distant entrance, daylight, no traffic. SECOND: A wet level pedestrian path after light rain in a residential courtyard. Damp paving stones, low planted borders, continuous path and clear edges in soft overcast light, no deep standing water or vehicles. THIRD: A small pedestrian bridge with continuous protective railings spanning a narrow ornamental channel in a community garden. Complete bridge deck, both ends and channel below, framed from a safe wide viewpoint, daylight. BOTTOM: A low stone arch pedestrian bridge with parapets across a narrow landscaped channel in a neighborhood garden. Complete low stone arch, walkway and both banks from a distant path; realistic stone masonry, soft daylight. Safe empty public settings, no people, climbing, vehicles, unsafe activity, readable signs/text/letters/numbers, logos, watermarks or identifying details.",
+    "reviewNotes": "Compact preview reviewed: curved paved activity-center path around flowers; damp reflective courtyard path after rain with clear planted edges; complete wooden-railed pedestrian bridge over ornamental channel; complete low stone arch bridge with parapets and both banks. No people, vehicles, readable signage or unsafe activity seen. Both bridge spans/ends safely retained; foreground paths and landscape edges continue out of frame as expected. Channels are visible only in bridge panels, not path panels. Cuts448/894/1342; crops1008x428,1008x426,1008x428,1008x430.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "community-bridge-01-scene0",
+        "label": "社区花园水渠上带栏杆的小桥",
+        "image": "hanzi-images/realistic-v1/community-bridge-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "community-bridge-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-08_1795404705434_944253bf.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi story covers, invented anonymous places, not documentary photographs. Create ONE1024x1792 PNG with EXACTLY FOUR full-width landscape panels stacked vertically in equal448px bands. Exactly three straight thin pure-white RGB255,255,255 horizontal seams 4-6px tall near y448/896/1344, no outer border or vertical divider. Real paving, stone masonry, bridge joinery, foliage and diffuse daylight, photorealistic not CGI/cartoon. Main bridge structures completely inside their own panels with at least8percent crop-safe margins; wide safe viewpoints from distant public paths, include both bridge ends, full rails and span. TOP: A gently curving paved pedestrian path outside a neighborhood activity center, bending around a flower bed. Full visible curve and planted edges, distant entrance, daylight, no traffic. SECOND: A wet level pedestrian path after light rain in a residential courtyard. Damp paving stones, low planted borders, continuous path and clear edges in soft overcast light, no deep standing water or vehicles. THIRD: A small pedestrian bridge with continuous protective railings spanning a narrow ornamental channel in a community garden. Complete bridge deck, both ends and channel below, framed from a safe wide viewpoint, daylight. BOTTOM: A low stone arch pedestrian bridge with parapets across a narrow landscaped channel in a neighborhood garden. Complete low stone arch, walkway and both banks from a distant path; realistic stone masonry, soft daylight. Safe empty public settings, no people, climbing, vehicles, unsafe activity, readable signs/text/letters/numbers, logos, watermarks or identifying details.",
+    "reviewNotes": "Compact preview reviewed: curved paved activity-center path around flowers; damp reflective courtyard path after rain with clear planted edges; complete wooden-railed pedestrian bridge over ornamental channel; complete low stone arch bridge with parapets and both banks. No people, vehicles, readable signage or unsafe activity seen. Both bridge spans/ends safely retained; foreground paths and landscape edges continue out of frame as expected. Channels are visible only in bridge panels, not path panels. Cuts448/894/1342; crops1008x428,1008x426,1008x428,1008x430.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "community-bridge-02-scene0",
+        "label": "社区景观水渠上的低石拱桥",
+        "image": "hanzi-images/realistic-v1/community-bridge-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "community-hat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-09_1795404802199_9e9b1744.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community-object covers, anonymous invented spaces not documentary evidence. ONE1024x1792 PNG, exactly FOUR separate full-width landscape panels vertically stacked, equal448px bands. Exactly three solid PURE WHITE RGB255,255,255 straight horizontal seams4-6px tall near y448/896/1344. No outer border or vertical divider. Real cotton/canvas stitching, woven straw, book page fibers, soft natural lighting, no cartoon or CGI. Principal hats/bags and all handles entirely inside their own panel with at least8percent crop-safe margin on all sides, moderately sized about65percent panel height. TOP: Plain baseball cap with clear front brim on a clean neighborhood lost-property counter, entire cap and crown, natural fabric texture, anonymous storage cubbies softly blurred behind, no identifying labels. SECOND: Wide-brimmed woven sun hat on an outdoor community garden-event preparation table. Entire brim and crown, warm daylight, sheltered garden gathering area behind. THIRD: Sturdy fabric tote bag with TWO carrying handles on a community library counter, several closed bound picture books partly visible inside. Complete bag body/opening/both handles, plain covers and visible page edges, anonymous reading shelves behind, soft daylight. BOTTOM: Closed soft-sided travel bag with TWO carrying handles on a community event supply table. Entire bag, closed zipper seam, handles, realistic canvas texture in tidy indoor room. No people, names, luggage tags, readable text, letters, numbers, logos, watermarks, signs, package labels or private information. No cropped handles or hat brims.",
+    "reviewNotes": "Compact preview reviewed: plain navy baseball cap with front brim on cubby-backed counter; complete woven wide-brim sun hat on outdoor garden preparation table; cream two-handle tote with bound books protruding at opening on library counter; closed olive canvas travel bag with paired carrying handles and zipper on supply table. All principal outlines retained, no people, identifying tags or readable printing seen. Handles overlap naturally in view; table/background edges extend out of frame. Seams shifted to420/859/1314; crops1008x400,1008x419,1008x435,1008x458. Hat-01 is exactly400px high, not below400.",
+    "cuts": [
+      420,
+      859,
+      1314
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 400
+    },
+    "contexts": [
+      {
+        "id": "community-hat-01-scene0",
+        "label": "社区失物台上带前帽檐的棒球帽",
+        "image": "hanzi-images/realistic-v1/community-hat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "community-hat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-09_1795404802199_9e9b1744.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community-object covers, anonymous invented spaces not documentary evidence. ONE1024x1792 PNG, exactly FOUR separate full-width landscape panels vertically stacked, equal448px bands. Exactly three solid PURE WHITE RGB255,255,255 straight horizontal seams4-6px tall near y448/896/1344. No outer border or vertical divider. Real cotton/canvas stitching, woven straw, book page fibers, soft natural lighting, no cartoon or CGI. Principal hats/bags and all handles entirely inside their own panel with at least8percent crop-safe margin on all sides, moderately sized about65percent panel height. TOP: Plain baseball cap with clear front brim on a clean neighborhood lost-property counter, entire cap and crown, natural fabric texture, anonymous storage cubbies softly blurred behind, no identifying labels. SECOND: Wide-brimmed woven sun hat on an outdoor community garden-event preparation table. Entire brim and crown, warm daylight, sheltered garden gathering area behind. THIRD: Sturdy fabric tote bag with TWO carrying handles on a community library counter, several closed bound picture books partly visible inside. Complete bag body/opening/both handles, plain covers and visible page edges, anonymous reading shelves behind, soft daylight. BOTTOM: Closed soft-sided travel bag with TWO carrying handles on a community event supply table. Entire bag, closed zipper seam, handles, realistic canvas texture in tidy indoor room. No people, names, luggage tags, readable text, letters, numbers, logos, watermarks, signs, package labels or private information. No cropped handles or hat brims.",
+    "reviewNotes": "Compact preview reviewed: plain navy baseball cap with front brim on cubby-backed counter; complete woven wide-brim sun hat on outdoor garden preparation table; cream two-handle tote with bound books protruding at opening on library counter; closed olive canvas travel bag with paired carrying handles and zipper on supply table. All principal outlines retained, no people, identifying tags or readable printing seen. Handles overlap naturally in view; table/background edges extend out of frame. Seams shifted to420/859/1314; crops1008x400,1008x419,1008x435,1008x458. Hat-01 is exactly400px high, not below400.",
+    "cuts": [
+      420,
+      859,
+      1314
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 430,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "community-hat-02-scene0",
+        "label": "社区园游准备台上的宽檐遮阳帽",
+        "image": "hanzi-images/realistic-v1/community-hat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "community-bag-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-09_1795404802199_9e9b1744.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community-object covers, anonymous invented spaces not documentary evidence. ONE1024x1792 PNG, exactly FOUR separate full-width landscape panels vertically stacked, equal448px bands. Exactly three solid PURE WHITE RGB255,255,255 straight horizontal seams4-6px tall near y448/896/1344. No outer border or vertical divider. Real cotton/canvas stitching, woven straw, book page fibers, soft natural lighting, no cartoon or CGI. Principal hats/bags and all handles entirely inside their own panel with at least8percent crop-safe margin on all sides, moderately sized about65percent panel height. TOP: Plain baseball cap with clear front brim on a clean neighborhood lost-property counter, entire cap and crown, natural fabric texture, anonymous storage cubbies softly blurred behind, no identifying labels. SECOND: Wide-brimmed woven sun hat on an outdoor community garden-event preparation table. Entire brim and crown, warm daylight, sheltered garden gathering area behind. THIRD: Sturdy fabric tote bag with TWO carrying handles on a community library counter, several closed bound picture books partly visible inside. Complete bag body/opening/both handles, plain covers and visible page edges, anonymous reading shelves behind, soft daylight. BOTTOM: Closed soft-sided travel bag with TWO carrying handles on a community event supply table. Entire bag, closed zipper seam, handles, realistic canvas texture in tidy indoor room. No people, names, luggage tags, readable text, letters, numbers, logos, watermarks, signs, package labels or private information. No cropped handles or hat brims.",
+    "reviewNotes": "Compact preview reviewed: plain navy baseball cap with front brim on cubby-backed counter; complete woven wide-brim sun hat on outdoor garden preparation table; cream two-handle tote with bound books protruding at opening on library counter; closed olive canvas travel bag with paired carrying handles and zipper on supply table. All principal outlines retained, no people, identifying tags or readable printing seen. Handles overlap naturally in view; table/background edges extend out of frame. Seams shifted to420/859/1314; crops1008x400,1008x419,1008x435,1008x458. Hat-01 is exactly400px high, not below400.",
+    "cuts": [
+      420,
+      859,
+      1314
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 869,
+      "width": 1008,
+      "height": 435
+    },
+    "contexts": [
+      {
+        "id": "community-bag-01-scene0",
+        "label": "社区借阅柜台旁装着绘本的手提包",
+        "image": "hanzi-images/realistic-v1/community-bag-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "community-bag-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-09_1795404802199_9e9b1744.png",
+    "prompt": "Use case: four independent AI-photorealistic Hanzi community-object covers, anonymous invented spaces not documentary evidence. ONE1024x1792 PNG, exactly FOUR separate full-width landscape panels vertically stacked, equal448px bands. Exactly three solid PURE WHITE RGB255,255,255 straight horizontal seams4-6px tall near y448/896/1344. No outer border or vertical divider. Real cotton/canvas stitching, woven straw, book page fibers, soft natural lighting, no cartoon or CGI. Principal hats/bags and all handles entirely inside their own panel with at least8percent crop-safe margin on all sides, moderately sized about65percent panel height. TOP: Plain baseball cap with clear front brim on a clean neighborhood lost-property counter, entire cap and crown, natural fabric texture, anonymous storage cubbies softly blurred behind, no identifying labels. SECOND: Wide-brimmed woven sun hat on an outdoor community garden-event preparation table. Entire brim and crown, warm daylight, sheltered garden gathering area behind. THIRD: Sturdy fabric tote bag with TWO carrying handles on a community library counter, several closed bound picture books partly visible inside. Complete bag body/opening/both handles, plain covers and visible page edges, anonymous reading shelves behind, soft daylight. BOTTOM: Closed soft-sided travel bag with TWO carrying handles on a community event supply table. Entire bag, closed zipper seam, handles, realistic canvas texture in tidy indoor room. No people, names, luggage tags, readable text, letters, numbers, logos, watermarks, signs, package labels or private information. No cropped handles or hat brims.",
+    "reviewNotes": "Compact preview reviewed: plain navy baseball cap with front brim on cubby-backed counter; complete woven wide-brim sun hat on outdoor garden preparation table; cream two-handle tote with bound books protruding at opening on library counter; closed olive canvas travel bag with paired carrying handles and zipper on supply table. All principal outlines retained, no people, identifying tags or readable printing seen. Handles overlap naturally in view; table/background edges extend out of frame. Seams shifted to420/859/1314; crops1008x400,1008x419,1008x435,1008x458. Hat-01 is exactly400px high, not below400.",
+    "cuts": [
+      420,
+      859,
+      1314
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1324,
+      "width": 1008,
+      "height": 458
+    },
+    "contexts": [
+      {
+        "id": "community-bag-02-scene0",
+        "label": "社区活动物资台上有提手的旅行包",
+        "image": "hanzi-images/realistic-v1/community-bag-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "community-umbrella-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-10_1795404902256_9f98791a.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented scenes, not documentary images. ONE1024x1792 PNG with exactly FOUR full-width landscape panels stacked vertically, equal448px bands. Exactly three thin straight PURE WHITE RGB255,255,255 horizontal seams4-6px tall near y448/896/1344; no outer border or vertical divider. Photorealistic umbrella fabric, ceramic glaze, petals, stems, paving, natural soft daylight; no CGI/cartoon. Every principal umbrella/flower pot/planter fully inside its own panel with at least8percent crop-safe margins on all sides. Umbrellas shown at moderate scale, entire folded canopy, shaft and handle plus support/tray retained; do not crop top handle or tip. TOP: A single CLOSED rain umbrella standing securely in a drip-tray umbrella rack at an empty community activity-center entrance, dry uncluttered surrounding floor, full folded umbrella/rack clearly visible. SECOND: A CLOSED rain umbrella supported upright in a shallow drip tray under eaves of an open-sided neighborhood reading pavilion, sheltered paved landing after rain, full umbrella/tray and clearly outdoor pavilion setting. THIRD: Blooming flowers in a ceramic plant pot on a welcome table in community meeting lounge. Entire flowering plant, petals, stems, leaves and pot centered, soft indoor daylight. BOTTOM: Colorful flowers blooming in a raised planter at the edge of a neighborhood pedestrian square. Blossoms clear and complete planter with calm paved square behind, daylight. No people or children, readable labels, signs, letters, numbers, text, logos, watermarks, identifying information, tools or unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: whole blue closed umbrella in rack at activity-center glass entrance; whole green closed umbrella upright in drip tray under outdoor reading-pavilion eaves; blooming pink potted plant on lounge table; multicolor flowers in square-edge raised planter. No people, readable text or logos seen. Both umbrella handles/tips/trays and indoor flowering plant retained; umbrella-01 handle upper margin tighter than8percent and surrounding stone floor looks damp, not dry. Flower-02 blooms fully retained but planter lower base reaches frame edge and will not be completely shown. Minor source factual corrections required: remove dry-floor claim and complete-planter claim, no learning/game change. Cuts441/886/1330; crops1008x421,1008x425,1008x424,1008x442.",
+    "cuts": [
+      441,
+      886,
+      1330
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "community-umbrella-01-scene0",
+        "label": "社区活动中心伞架里合拢的雨伞",
+        "image": "hanzi-images/realistic-v1/community-umbrella-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "community-umbrella-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-10_1795404902256_9f98791a.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented scenes, not documentary images. ONE1024x1792 PNG with exactly FOUR full-width landscape panels stacked vertically, equal448px bands. Exactly three thin straight PURE WHITE RGB255,255,255 horizontal seams4-6px tall near y448/896/1344; no outer border or vertical divider. Photorealistic umbrella fabric, ceramic glaze, petals, stems, paving, natural soft daylight; no CGI/cartoon. Every principal umbrella/flower pot/planter fully inside its own panel with at least8percent crop-safe margins on all sides. Umbrellas shown at moderate scale, entire folded canopy, shaft and handle plus support/tray retained; do not crop top handle or tip. TOP: A single CLOSED rain umbrella standing securely in a drip-tray umbrella rack at an empty community activity-center entrance, dry uncluttered surrounding floor, full folded umbrella/rack clearly visible. SECOND: A CLOSED rain umbrella supported upright in a shallow drip tray under eaves of an open-sided neighborhood reading pavilion, sheltered paved landing after rain, full umbrella/tray and clearly outdoor pavilion setting. THIRD: Blooming flowers in a ceramic plant pot on a welcome table in community meeting lounge. Entire flowering plant, petals, stems, leaves and pot centered, soft indoor daylight. BOTTOM: Colorful flowers blooming in a raised planter at the edge of a neighborhood pedestrian square. Blossoms clear and complete planter with calm paved square behind, daylight. No people or children, readable labels, signs, letters, numbers, text, logos, watermarks, identifying information, tools or unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: whole blue closed umbrella in rack at activity-center glass entrance; whole green closed umbrella upright in drip tray under outdoor reading-pavilion eaves; blooming pink potted plant on lounge table; multicolor flowers in square-edge raised planter. No people, readable text or logos seen. Both umbrella handles/tips/trays and indoor flowering plant retained; umbrella-01 handle upper margin tighter than8percent and surrounding stone floor looks damp, not dry. Flower-02 blooms fully retained but planter lower base reaches frame edge and will not be completely shown. Minor source factual corrections required: remove dry-floor claim and complete-planter claim, no learning/game change. Cuts441/886/1330; crops1008x421,1008x425,1008x424,1008x442.",
+    "cuts": [
+      441,
+      886,
+      1330
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 451,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "community-umbrella-02-scene0",
+        "label": "社区阅读亭檐下滴水盘里的合拢雨伞",
+        "image": "hanzi-images/realistic-v1/community-umbrella-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "community-flower-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-10_1795404902256_9f98791a.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented scenes, not documentary images. ONE1024x1792 PNG with exactly FOUR full-width landscape panels stacked vertically, equal448px bands. Exactly three thin straight PURE WHITE RGB255,255,255 horizontal seams4-6px tall near y448/896/1344; no outer border or vertical divider. Photorealistic umbrella fabric, ceramic glaze, petals, stems, paving, natural soft daylight; no CGI/cartoon. Every principal umbrella/flower pot/planter fully inside its own panel with at least8percent crop-safe margins on all sides. Umbrellas shown at moderate scale, entire folded canopy, shaft and handle plus support/tray retained; do not crop top handle or tip. TOP: A single CLOSED rain umbrella standing securely in a drip-tray umbrella rack at an empty community activity-center entrance, dry uncluttered surrounding floor, full folded umbrella/rack clearly visible. SECOND: A CLOSED rain umbrella supported upright in a shallow drip tray under eaves of an open-sided neighborhood reading pavilion, sheltered paved landing after rain, full umbrella/tray and clearly outdoor pavilion setting. THIRD: Blooming flowers in a ceramic plant pot on a welcome table in community meeting lounge. Entire flowering plant, petals, stems, leaves and pot centered, soft indoor daylight. BOTTOM: Colorful flowers blooming in a raised planter at the edge of a neighborhood pedestrian square. Blossoms clear and complete planter with calm paved square behind, daylight. No people or children, readable labels, signs, letters, numbers, text, logos, watermarks, identifying information, tools or unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: whole blue closed umbrella in rack at activity-center glass entrance; whole green closed umbrella upright in drip tray under outdoor reading-pavilion eaves; blooming pink potted plant on lounge table; multicolor flowers in square-edge raised planter. No people, readable text or logos seen. Both umbrella handles/tips/trays and indoor flowering plant retained; umbrella-01 handle upper margin tighter than8percent and surrounding stone floor looks damp, not dry. Flower-02 blooms fully retained but planter lower base reaches frame edge and will not be completely shown. Minor source factual corrections required: remove dry-floor claim and complete-planter claim, no learning/game change. Cuts441/886/1330; crops1008x421,1008x425,1008x424,1008x442.",
+    "cuts": [
+      441,
+      886,
+      1330
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 896,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "community-flower-01-scene0",
+        "label": "邻里会客厅迎宾台花盆里开放的花",
+        "image": "hanzi-images/realistic-v1/community-flower-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "community-flower-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-10_1795404902256_9f98791a.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi covers, anonymous invented scenes, not documentary images. ONE1024x1792 PNG with exactly FOUR full-width landscape panels stacked vertically, equal448px bands. Exactly three thin straight PURE WHITE RGB255,255,255 horizontal seams4-6px tall near y448/896/1344; no outer border or vertical divider. Photorealistic umbrella fabric, ceramic glaze, petals, stems, paving, natural soft daylight; no CGI/cartoon. Every principal umbrella/flower pot/planter fully inside its own panel with at least8percent crop-safe margins on all sides. Umbrellas shown at moderate scale, entire folded canopy, shaft and handle plus support/tray retained; do not crop top handle or tip. TOP: A single CLOSED rain umbrella standing securely in a drip-tray umbrella rack at an empty community activity-center entrance, dry uncluttered surrounding floor, full folded umbrella/rack clearly visible. SECOND: A CLOSED rain umbrella supported upright in a shallow drip tray under eaves of an open-sided neighborhood reading pavilion, sheltered paved landing after rain, full umbrella/tray and clearly outdoor pavilion setting. THIRD: Blooming flowers in a ceramic plant pot on a welcome table in community meeting lounge. Entire flowering plant, petals, stems, leaves and pot centered, soft indoor daylight. BOTTOM: Colorful flowers blooming in a raised planter at the edge of a neighborhood pedestrian square. Blossoms clear and complete planter with calm paved square behind, daylight. No people or children, readable labels, signs, letters, numbers, text, logos, watermarks, identifying information, tools or unsafe activity.",
+    "reviewNotes": "Compact preview reviewed: whole blue closed umbrella in rack at activity-center glass entrance; whole green closed umbrella upright in drip tray under outdoor reading-pavilion eaves; blooming pink potted plant on lounge table; multicolor flowers in square-edge raised planter. No people, readable text or logos seen. Both umbrella handles/tips/trays and indoor flowering plant retained; umbrella-01 handle upper margin tighter than8percent and surrounding stone floor looks damp, not dry. Flower-02 blooms fully retained but planter lower base reaches frame edge and will not be completely shown. Minor source factual corrections required: remove dry-floor claim and complete-planter claim, no learning/game change. Cuts441/886/1330; crops1008x421,1008x425,1008x424,1008x442.",
+    "cuts": [
+      441,
+      886,
+      1330
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1340,
+      "width": 1008,
+      "height": 442
+    },
+    "contexts": [
+      {
+        "id": "community-flower-02-scene0",
+        "label": "社区广场花箱里盛开的彩色花",
+        "image": "hanzi-images/realistic-v1/community-flower-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "community-drum-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-11_1795405064315_82da37e7.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi instrument covers, anonymous invented safe exhibits, not documentary records. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels stacked vertically in equal448px bands. Exactly three thin pure-white RGB255,255,255 straight4-6px horizontal seams near y448/896/1344. No outer border or vertical divider. Photorealistic metal reflections, wood grain, taut drum skin, fabric pads and glass, quiet soft indoor/stage light, not CGI/cartoon. ALL principal instruments, stands and frames wholly inside their panels with at least8percent crop-safe margins, moderate scale with complete silhouettes, no cropped drumheads or bell handles. TOP: A frame tambourine with a stretched drumhead and metal jingles resting on padded mat in empty community music corner, whole round instrument and clear drumhead, simple storage shelves behind. SECOND: A large round bass drum resting securely on low stand on empty community performance stage. Entire drum, visible drumhead, wooden shell and supporting stand, soft stage lighting, no beaters or performers. THIRD: A large metal handbell with wooden handle resting on padded community instrument-introduction table. Complete wooden handle and flared metal bell body clearly recognizable, realistic reflections, quiet indoor setting. BOTTOM: A metal bell mounted on stable wooden display frame with a SHORT pull cord secured within an enclosed community instrument-exhibition cabinet. Entire bell, short cord and wooden frame visible behind glass, soft light, no accessible dangling long cords. No people or children, readable text/captions/labels, letters, numbers, logos, watermarks, identifying information, active performance or unsafe handling.",
+    "reviewNotes": "Compact preview reviewed: complete skin-headed tambourine with metal jingles on dark padded mat; complete large wood-shell bass drum on low stage stand; brass flared handbell lying on padded table with complete wooden handle; metal bell in complete wooden display frame with short cord/loop behind cabinet glass. No people, labels or readable text seen. All principal instruments/stands retained, some lower mat/table edges and cabinet sides extend off-frame. Actual unequal seams415/887/1250 give crops1008x395,1008x452,1008x343,1008x522. Drum-01 at395px and bell-01 at343px are below400 but above300; no upscaling or invented equal crop heights.",
+    "cuts": [
+      415,
+      887,
+      1250
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 395
+    },
+    "contexts": [
+      {
+        "id": "community-drum-01-scene0",
+        "label": "社区音乐角软垫上带铃片的手鼓",
+        "image": "hanzi-images/realistic-v1/community-drum-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "community-drum-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-11_1795405064315_82da37e7.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi instrument covers, anonymous invented safe exhibits, not documentary records. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels stacked vertically in equal448px bands. Exactly three thin pure-white RGB255,255,255 straight4-6px horizontal seams near y448/896/1344. No outer border or vertical divider. Photorealistic metal reflections, wood grain, taut drum skin, fabric pads and glass, quiet soft indoor/stage light, not CGI/cartoon. ALL principal instruments, stands and frames wholly inside their panels with at least8percent crop-safe margins, moderate scale with complete silhouettes, no cropped drumheads or bell handles. TOP: A frame tambourine with a stretched drumhead and metal jingles resting on padded mat in empty community music corner, whole round instrument and clear drumhead, simple storage shelves behind. SECOND: A large round bass drum resting securely on low stand on empty community performance stage. Entire drum, visible drumhead, wooden shell and supporting stand, soft stage lighting, no beaters or performers. THIRD: A large metal handbell with wooden handle resting on padded community instrument-introduction table. Complete wooden handle and flared metal bell body clearly recognizable, realistic reflections, quiet indoor setting. BOTTOM: A metal bell mounted on stable wooden display frame with a SHORT pull cord secured within an enclosed community instrument-exhibition cabinet. Entire bell, short cord and wooden frame visible behind glass, soft light, no accessible dangling long cords. No people or children, readable text/captions/labels, letters, numbers, logos, watermarks, identifying information, active performance or unsafe handling.",
+    "reviewNotes": "Compact preview reviewed: complete skin-headed tambourine with metal jingles on dark padded mat; complete large wood-shell bass drum on low stage stand; brass flared handbell lying on padded table with complete wooden handle; metal bell in complete wooden display frame with short cord/loop behind cabinet glass. No people, labels or readable text seen. All principal instruments/stands retained, some lower mat/table edges and cabinet sides extend off-frame. Actual unequal seams415/887/1250 give crops1008x395,1008x452,1008x343,1008x522. Drum-01 at395px and bell-01 at343px are below400 but above300; no upscaling or invented equal crop heights.",
+    "cuts": [
+      415,
+      887,
+      1250
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 425,
+      "width": 1008,
+      "height": 452
+    },
+    "contexts": [
+      {
+        "id": "community-drum-02-scene0",
+        "label": "邻里小舞台支架上静放的大鼓",
+        "image": "hanzi-images/realistic-v1/community-drum-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "community-bell-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-11_1795405064315_82da37e7.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi instrument covers, anonymous invented safe exhibits, not documentary records. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels stacked vertically in equal448px bands. Exactly three thin pure-white RGB255,255,255 straight4-6px horizontal seams near y448/896/1344. No outer border or vertical divider. Photorealistic metal reflections, wood grain, taut drum skin, fabric pads and glass, quiet soft indoor/stage light, not CGI/cartoon. ALL principal instruments, stands and frames wholly inside their panels with at least8percent crop-safe margins, moderate scale with complete silhouettes, no cropped drumheads or bell handles. TOP: A frame tambourine with a stretched drumhead and metal jingles resting on padded mat in empty community music corner, whole round instrument and clear drumhead, simple storage shelves behind. SECOND: A large round bass drum resting securely on low stand on empty community performance stage. Entire drum, visible drumhead, wooden shell and supporting stand, soft stage lighting, no beaters or performers. THIRD: A large metal handbell with wooden handle resting on padded community instrument-introduction table. Complete wooden handle and flared metal bell body clearly recognizable, realistic reflections, quiet indoor setting. BOTTOM: A metal bell mounted on stable wooden display frame with a SHORT pull cord secured within an enclosed community instrument-exhibition cabinet. Entire bell, short cord and wooden frame visible behind glass, soft light, no accessible dangling long cords. No people or children, readable text/captions/labels, letters, numbers, logos, watermarks, identifying information, active performance or unsafe handling.",
+    "reviewNotes": "Compact preview reviewed: complete skin-headed tambourine with metal jingles on dark padded mat; complete large wood-shell bass drum on low stage stand; brass flared handbell lying on padded table with complete wooden handle; metal bell in complete wooden display frame with short cord/loop behind cabinet glass. No people, labels or readable text seen. All principal instruments/stands retained, some lower mat/table edges and cabinet sides extend off-frame. Actual unequal seams415/887/1250 give crops1008x395,1008x452,1008x343,1008x522. Drum-01 at395px and bell-01 at343px are below400 but above300; no upscaling or invented equal crop heights.",
+    "cuts": [
+      415,
+      887,
+      1250
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 897,
+      "width": 1008,
+      "height": 343
+    },
+    "contexts": [
+      {
+        "id": "community-bell-01-scene0",
+        "label": "社区乐器介绍桌上的木柄手铃",
+        "image": "hanzi-images/realistic-v1/community-bell-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "community-bell-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-11_1795405064315_82da37e7.png",
+    "prompt": "Use case: four independent AI-photorealistic community Hanzi instrument covers, anonymous invented safe exhibits, not documentary records. ONE1024x1792 PNG, exactly FOUR independent full-width landscape panels stacked vertically in equal448px bands. Exactly three thin pure-white RGB255,255,255 straight4-6px horizontal seams near y448/896/1344. No outer border or vertical divider. Photorealistic metal reflections, wood grain, taut drum skin, fabric pads and glass, quiet soft indoor/stage light, not CGI/cartoon. ALL principal instruments, stands and frames wholly inside their panels with at least8percent crop-safe margins, moderate scale with complete silhouettes, no cropped drumheads or bell handles. TOP: A frame tambourine with a stretched drumhead and metal jingles resting on padded mat in empty community music corner, whole round instrument and clear drumhead, simple storage shelves behind. SECOND: A large round bass drum resting securely on low stand on empty community performance stage. Entire drum, visible drumhead, wooden shell and supporting stand, soft stage lighting, no beaters or performers. THIRD: A large metal handbell with wooden handle resting on padded community instrument-introduction table. Complete wooden handle and flared metal bell body clearly recognizable, realistic reflections, quiet indoor setting. BOTTOM: A metal bell mounted on stable wooden display frame with a SHORT pull cord secured within an enclosed community instrument-exhibition cabinet. Entire bell, short cord and wooden frame visible behind glass, soft light, no accessible dangling long cords. No people or children, readable text/captions/labels, letters, numbers, logos, watermarks, identifying information, active performance or unsafe handling.",
+    "reviewNotes": "Compact preview reviewed: complete skin-headed tambourine with metal jingles on dark padded mat; complete large wood-shell bass drum on low stage stand; brass flared handbell lying on padded table with complete wooden handle; metal bell in complete wooden display frame with short cord/loop behind cabinet glass. No people, labels or readable text seen. All principal instruments/stands retained, some lower mat/table edges and cabinet sides extend off-frame. Actual unequal seams415/887/1250 give crops1008x395,1008x452,1008x343,1008x522. Drum-01 at395px and bell-01 at343px are below400 but above300; no upscaling or invented equal crop heights.",
+    "cuts": [
+      415,
+      887,
+      1250
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1260,
+      "width": 1008,
+      "height": 522
+    },
+    "contexts": [
+      {
+        "id": "community-bell-02-scene0",
+        "label": "邻里乐器展柜里架上带拉绳的铃",
+        "image": "hanzi-images/realistic-v1/community-bell-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "community-kite-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-12_1795405171649_10cf9338.png",
+    "prompt": "Use case: two independent new AI-photorealistic Hanzi kite covers plus two neutral UNASSIGNED community panels, anonymous invented scenes not documentary records. ONE1024x1792 PNG of exactly FOUR independent full-width landscape panels vertically stacked in EQUAL448px bands. Exactly three straight thin PURE WHITE RGB255,255,255 horizontal seams6px tall centered at y448,896,1344. No outer border, vertical divider, text or captions. Photorealistic paper/fabric, light bamboo spars, wood grain and natural daylight, not cartoon or CGI. All main objects fully inside their panels with at least8percent crop-safe margins on every side. TOP assigned cover: A real DIAMOND-shaped kite lying flat on a community exhibition table. Whole four-cornered paper sail, visible lightweight spars, attached fabric tail arranged neatly along tabletop and separate neatly wound reel visible. Gentle elevated view; kite, entire tail and reel collectively occupy no more than75percent panel width/height, not cut off at corners, no taut loose line crossing frame. SECOND assigned cover: A real SWALLOW-shaped kite displayed securely on a low stand at sheltered community garden event. Clearly taut fabric/paper sail, lightweight visible frame, swallow-like spread pointed wings and forked tail outline; separate neatly wound reel beside it. Whole kite/stand/reel, moderate scale, safe stationary exhibit, not an actual bird, no flying or overhead wires. THIRD neutral unassigned panel: Empty publicly accessible park bench on level community-garden paving under leafy shade, complete bench, safe landscaped background, no water or road. BOTTOM neutral unassigned panel: An empty wooden reading table under a small open-sided neighborhood pavilion, complete table with quiet garden beyond, no objects requiring a story assignment. No people, children, readable labels/signs/letters/numbers, logos, watermarks, private information, tools in use or unsafe activities.",
+    "reviewNotes": "Compact preview reviewed: complete diamond paper kite with visible cross spars, red-white fabric tail arranged on exhibit tabletop and separate wound reel; swallow-shaped stationary kite with visible frame/taut sail on low wooden stand and reel; neutral empty shaded park bench; neutral empty reading table under open-sided pavilion. Both assigned kites/tails/reels retained, no people, readable labels or unsafe flying. Diamond upper corner and swallow tail/stand lower margin tighter than8percent but survive measured crops. Neutral reading-table legs continue off bottom frame; neither neutral panel assigned or exported. Cuts444/893/1343; assigned crops1008x424,1008x429 (neutral potential crops1008x430,1008x429).",
+    "cuts": [
+      444,
+      893,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "community-kite-01-scene0",
+        "label": "社区风筝展台上的菱形风筝与线轴",
+        "image": "hanzi-images/realistic-v1/community-kite-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  },
+  {
+    "id": "community-kite-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-community-v3-12_1795405171649_10cf9338.png",
+    "prompt": "Use case: two independent new AI-photorealistic Hanzi kite covers plus two neutral UNASSIGNED community panels, anonymous invented scenes not documentary records. ONE1024x1792 PNG of exactly FOUR independent full-width landscape panels vertically stacked in EQUAL448px bands. Exactly three straight thin PURE WHITE RGB255,255,255 horizontal seams6px tall centered at y448,896,1344. No outer border, vertical divider, text or captions. Photorealistic paper/fabric, light bamboo spars, wood grain and natural daylight, not cartoon or CGI. All main objects fully inside their panels with at least8percent crop-safe margins on every side. TOP assigned cover: A real DIAMOND-shaped kite lying flat on a community exhibition table. Whole four-cornered paper sail, visible lightweight spars, attached fabric tail arranged neatly along tabletop and separate neatly wound reel visible. Gentle elevated view; kite, entire tail and reel collectively occupy no more than75percent panel width/height, not cut off at corners, no taut loose line crossing frame. SECOND assigned cover: A real SWALLOW-shaped kite displayed securely on a low stand at sheltered community garden event. Clearly taut fabric/paper sail, lightweight visible frame, swallow-like spread pointed wings and forked tail outline; separate neatly wound reel beside it. Whole kite/stand/reel, moderate scale, safe stationary exhibit, not an actual bird, no flying or overhead wires. THIRD neutral unassigned panel: Empty publicly accessible park bench on level community-garden paving under leafy shade, complete bench, safe landscaped background, no water or road. BOTTOM neutral unassigned panel: An empty wooden reading table under a small open-sided neighborhood pavilion, complete table with quiet garden beyond, no objects requiring a story assignment. No people, children, readable labels/signs/letters/numbers, logos, watermarks, private information, tools in use or unsafe activities.",
+    "reviewNotes": "Compact preview reviewed: complete diamond paper kite with visible cross spars, red-white fabric tail arranged on exhibit tabletop and separate wound reel; swallow-shaped stationary kite with visible frame/taut sail on low wooden stand and reel; neutral empty shaded park bench; neutral empty reading table under open-sided pavilion. Both assigned kites/tails/reels retained, no people, readable labels or unsafe flying. Diamond upper corner and swallow tail/stand lower margin tighter than8percent but survive measured crops. Neutral reading-table legs continue off bottom frame; neither neutral panel assigned or exported. Cuts444/893/1343; assigned crops1008x424,1008x429 (neutral potential crops1008x430,1008x429).",
+    "cuts": [
+      444,
+      893,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "community-kite-02-scene0",
+        "label": "社区园游展示架上的燕形风筝",
+        "image": "hanzi-images/realistic-v1/community-kite-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  }
+]

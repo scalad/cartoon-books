@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "workshop-wood-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-01_1795403542000_8fd41198.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A tabletop stage entrance made of three smooth wooden blocks, two upright supports and one horizontal lintel, on a craft mat. Clearly show the natural wood grain and complete small structure from a slightly elevated angle in soft daylight. No people, tools, text, logos or watermarks.\nPanel 2: Three smooth rectangular wood sample boards laid flat on a neutral craft table, displaying clearly visible grain in different natural brown tones. Frame all boards fully with ample margin and a soft blurred workshop background. No people, sharp tools, labels, text, logos or watermarks.\nPanel 3: A small square wooden picture frame with rounded smooth corners resting flat on a padded craft mat. Its four broad wooden sides surround an empty opening with no glass, and the wood grain is clearly visible. Show the complete frame from above. No people, fasteners, tools, text or watermarks.\nPanel 4: A broad smooth wooden display base supporting a small folded paper house on a craft exhibition table. The exposed wooden platform and its grain occupy the foreground, with the whole paper house safely inside the base. Soft indoor daylight, no people, sharp tools, readable text, logos or watermarks.",
+    "reviewNotes": "Observed top to bottom: three grain-visible wooden blocks form a complete lintel entrance on a green mat; three flat rectangular wood samples in different brown tones; complete empty wooden frame on a fabric mat; complete white paper house with red roof on a broad wooden base. No people or legible text. Background stationery cup visible in panel 1. Frame top and bottom padding is tighter than requested but the measured crop retains the entire frame. Actual seams 431/878/1300 give 1008-wide crop heights 411/427/402/472; no target clipping observed.",
+    "cuts": [
+      431,
+      878,
+      1300
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 411
+    },
+    "contexts": [
+      {
+        "id": "workshop-wood-01-scene0",
+        "label": "工坊桌上搭成舞台入口的木积木",
+        "image": "hanzi-images/realistic-v1/workshop-wood-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wood"
+  },
+  {
+    "id": "workshop-wood-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-01_1795403542000_8fd41198.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A tabletop stage entrance made of three smooth wooden blocks, two upright supports and one horizontal lintel, on a craft mat. Clearly show the natural wood grain and complete small structure from a slightly elevated angle in soft daylight. No people, tools, text, logos or watermarks.\nPanel 2: Three smooth rectangular wood sample boards laid flat on a neutral craft table, displaying clearly visible grain in different natural brown tones. Frame all boards fully with ample margin and a soft blurred workshop background. No people, sharp tools, labels, text, logos or watermarks.\nPanel 3: A small square wooden picture frame with rounded smooth corners resting flat on a padded craft mat. Its four broad wooden sides surround an empty opening with no glass, and the wood grain is clearly visible. Show the complete frame from above. No people, fasteners, tools, text or watermarks.\nPanel 4: A broad smooth wooden display base supporting a small folded paper house on a craft exhibition table. The exposed wooden platform and its grain occupy the foreground, with the whole paper house safely inside the base. Soft indoor daylight, no people, sharp tools, readable text, logos or watermarks.",
+    "reviewNotes": "Observed top to bottom: three grain-visible wooden blocks form a complete lintel entrance on a green mat; three flat rectangular wood samples in different brown tones; complete empty wooden frame on a fabric mat; complete white paper house with red roof on a broad wooden base. No people or legible text. Background stationery cup visible in panel 1. Frame top and bottom padding is tighter than requested but the measured crop retains the entire frame. Actual seams 431/878/1300 give 1008-wide crop heights 411/427/402/472; no target clipping observed.",
+    "cuts": [
+      431,
+      878,
+      1300
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 441,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "workshop-wood-02-scene0",
+        "label": "材料台上平放的木纹样本板",
+        "image": "hanzi-images/realistic-v1/workshop-wood-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wood"
+  },
+  {
+    "id": "workshop-wood-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-01_1795403542000_8fd41198.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A tabletop stage entrance made of three smooth wooden blocks, two upright supports and one horizontal lintel, on a craft mat. Clearly show the natural wood grain and complete small structure from a slightly elevated angle in soft daylight. No people, tools, text, logos or watermarks.\nPanel 2: Three smooth rectangular wood sample boards laid flat on a neutral craft table, displaying clearly visible grain in different natural brown tones. Frame all boards fully with ample margin and a soft blurred workshop background. No people, sharp tools, labels, text, logos or watermarks.\nPanel 3: A small square wooden picture frame with rounded smooth corners resting flat on a padded craft mat. Its four broad wooden sides surround an empty opening with no glass, and the wood grain is clearly visible. Show the complete frame from above. No people, fasteners, tools, text or watermarks.\nPanel 4: A broad smooth wooden display base supporting a small folded paper house on a craft exhibition table. The exposed wooden platform and its grain occupy the foreground, with the whole paper house safely inside the base. Soft indoor daylight, no people, sharp tools, readable text, logos or watermarks.",
+    "reviewNotes": "Observed top to bottom: three grain-visible wooden blocks form a complete lintel entrance on a green mat; three flat rectangular wood samples in different brown tones; complete empty wooden frame on a fabric mat; complete white paper house with red roof on a broad wooden base. No people or legible text. Background stationery cup visible in panel 1. Frame top and bottom padding is tighter than requested but the measured crop retains the entire frame. Actual seams 431/878/1300 give 1008-wide crop heights 411/427/402/472; no target clipping observed.",
+    "cuts": [
+      431,
+      878,
+      1300
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 888,
+      "width": 1008,
+      "height": 402
+    },
+    "contexts": [
+      {
+        "id": "workshop-wood-03-scene0",
+        "label": "工坊软垫上摆好的木片方相框",
+        "image": "hanzi-images/realistic-v1/workshop-wood-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wood"
+  },
+  {
+    "id": "workshop-wood-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-01_1795403542000_8fd41198.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A tabletop stage entrance made of three smooth wooden blocks, two upright supports and one horizontal lintel, on a craft mat. Clearly show the natural wood grain and complete small structure from a slightly elevated angle in soft daylight. No people, tools, text, logos or watermarks.\nPanel 2: Three smooth rectangular wood sample boards laid flat on a neutral craft table, displaying clearly visible grain in different natural brown tones. Frame all boards fully with ample margin and a soft blurred workshop background. No people, sharp tools, labels, text, logos or watermarks.\nPanel 3: A small square wooden picture frame with rounded smooth corners resting flat on a padded craft mat. Its four broad wooden sides surround an empty opening with no glass, and the wood grain is clearly visible. Show the complete frame from above. No people, fasteners, tools, text or watermarks.\nPanel 4: A broad smooth wooden display base supporting a small folded paper house on a craft exhibition table. The exposed wooden platform and its grain occupy the foreground, with the whole paper house safely inside the base. Soft indoor daylight, no people, sharp tools, readable text, logos or watermarks.",
+    "reviewNotes": "Observed top to bottom: three grain-visible wooden blocks form a complete lintel entrance on a green mat; three flat rectangular wood samples in different brown tones; complete empty wooden frame on a fabric mat; complete white paper house with red roof on a broad wooden base. No people or legible text. Background stationery cup visible in panel 1. Frame top and bottom padding is tighter than requested but the measured crop retains the entire frame. Actual seams 431/878/1300 give 1008-wide crop heights 411/427/402/472; no target clipping observed.",
+    "cuts": [
+      431,
+      878,
+      1300
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1310,
+      "width": 1008,
+      "height": 472
+    },
+    "contexts": [
+      {
+        "id": "workshop-wood-04-scene0",
+        "label": "模型展示台上托着纸屋的木底座",
+        "image": "hanzi-images/realistic-v1/workshop-wood-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wood"
+  },
+  {
+    "id": "workshop-wood-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-02_1795403633346_c1cb336e.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Several smooth unfinished wooden boards stored horizontally on a low workshop material shelf, showing broad surfaces, clean ends and natural grain. Frame the full shelf section and boards in soft daylight with a neutral wall behind. No people, saws, nails, labels, printed text, logos or watermarks.\nPanel 2: A thick water-based felt-tip marker lying beside a sheet of white paper with a few colored round dots on a clean art table. Show the whole marker with its broad rounded tip and its cap placed separately nearby. Soft daylight, no people, sharp tools, lettering, logos or watermarks.\nPanel 3: A traditional writing brush with a smooth bamboo handle and soft tapered bristles resting horizontally in a shallow display tray on an art table. The entire brush is visible with no ink or liquid nearby. Natural soft lighting, no people, readable words, labels, logos or watermarks.\nPanel 4: An open soft fabric stationery case containing three capped water-based markers laid horizontally in separate padded compartments on a craft table. Show the complete case and recognizable marker bodies from above with natural fabric texture. No people, scissors, blades, readable text, brands, logos or watermarks.",
+    "reviewNotes": "Observed: low two-level shelf holds horizontal smooth wooden boards; entire blue broad-tip marker and separate cap beside four colored paper dots; complete bamboo-handled tapered writing brush in shallow fabric-lined tray; open fabric case with three capped markers in separate padded slots. No people or legible text. Background cups contain capped stationery. Peripheral shelf uprights have tight top padding, and paper sheet extends beyond panel 2; target boards and all pens remain complete in crops. Seams 445/896/1346; crop heights 425/431/430/426 at width 1008.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "workshop-wood-05-scene0",
+        "label": "工坊材料架上整齐摆放的木板",
+        "image": "hanzi-images/realistic-v1/workshop-wood-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wood"
+  },
+  {
+    "id": "workshop-pen-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-02_1795403633346_c1cb336e.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Several smooth unfinished wooden boards stored horizontally on a low workshop material shelf, showing broad surfaces, clean ends and natural grain. Frame the full shelf section and boards in soft daylight with a neutral wall behind. No people, saws, nails, labels, printed text, logos or watermarks.\nPanel 2: A thick water-based felt-tip marker lying beside a sheet of white paper with a few colored round dots on a clean art table. Show the whole marker with its broad rounded tip and its cap placed separately nearby. Soft daylight, no people, sharp tools, lettering, logos or watermarks.\nPanel 3: A traditional writing brush with a smooth bamboo handle and soft tapered bristles resting horizontally in a shallow display tray on an art table. The entire brush is visible with no ink or liquid nearby. Natural soft lighting, no people, readable words, labels, logos or watermarks.\nPanel 4: An open soft fabric stationery case containing three capped water-based markers laid horizontally in separate padded compartments on a craft table. Show the complete case and recognizable marker bodies from above with natural fabric texture. No people, scissors, blades, readable text, brands, logos or watermarks.",
+    "reviewNotes": "Observed: low two-level shelf holds horizontal smooth wooden boards; entire blue broad-tip marker and separate cap beside four colored paper dots; complete bamboo-handled tapered writing brush in shallow fabric-lined tray; open fabric case with three capped markers in separate padded slots. No people or legible text. Background cups contain capped stationery. Peripheral shelf uprights have tight top padding, and paper sheet extends beyond panel 2; target boards and all pens remain complete in crops. Seams 445/896/1346; crop heights 425/431/430/426 at width 1008.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "workshop-pen-01-scene0",
+        "label": "点画台纸张旁的粗头水彩笔",
+        "image": "hanzi-images/realistic-v1/workshop-pen-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pen"
+  },
+  {
+    "id": "workshop-pen-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-02_1795403633346_c1cb336e.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Several smooth unfinished wooden boards stored horizontally on a low workshop material shelf, showing broad surfaces, clean ends and natural grain. Frame the full shelf section and boards in soft daylight with a neutral wall behind. No people, saws, nails, labels, printed text, logos or watermarks.\nPanel 2: A thick water-based felt-tip marker lying beside a sheet of white paper with a few colored round dots on a clean art table. Show the whole marker with its broad rounded tip and its cap placed separately nearby. Soft daylight, no people, sharp tools, lettering, logos or watermarks.\nPanel 3: A traditional writing brush with a smooth bamboo handle and soft tapered bristles resting horizontally in a shallow display tray on an art table. The entire brush is visible with no ink or liquid nearby. Natural soft lighting, no people, readable words, labels, logos or watermarks.\nPanel 4: An open soft fabric stationery case containing three capped water-based markers laid horizontally in separate padded compartments on a craft table. Show the complete case and recognizable marker bodies from above with natural fabric texture. No people, scissors, blades, readable text, brands, logos or watermarks.",
+    "reviewNotes": "Observed: low two-level shelf holds horizontal smooth wooden boards; entire blue broad-tip marker and separate cap beside four colored paper dots; complete bamboo-handled tapered writing brush in shallow fabric-lined tray; open fabric case with three capped markers in separate padded slots. No people or legible text. Background cups contain capped stationery. Peripheral shelf uprights have tight top padding, and paper sheet extends beyond panel 2; target boards and all pens remain complete in crops. Seams 445/896/1346; crop heights 425/431/430/426 at width 1008.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "workshop-pen-02-scene0",
+        "label": "画具展示盘里平放的毛笔",
+        "image": "hanzi-images/realistic-v1/workshop-pen-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pen"
+  },
+  {
+    "id": "workshop-pen-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-02_1795403633346_c1cb336e.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Several smooth unfinished wooden boards stored horizontally on a low workshop material shelf, showing broad surfaces, clean ends and natural grain. Frame the full shelf section and boards in soft daylight with a neutral wall behind. No people, saws, nails, labels, printed text, logos or watermarks.\nPanel 2: A thick water-based felt-tip marker lying beside a sheet of white paper with a few colored round dots on a clean art table. Show the whole marker with its broad rounded tip and its cap placed separately nearby. Soft daylight, no people, sharp tools, lettering, logos or watermarks.\nPanel 3: A traditional writing brush with a smooth bamboo handle and soft tapered bristles resting horizontally in a shallow display tray on an art table. The entire brush is visible with no ink or liquid nearby. Natural soft lighting, no people, readable words, labels, logos or watermarks.\nPanel 4: An open soft fabric stationery case containing three capped water-based markers laid horizontally in separate padded compartments on a craft table. Show the complete case and recognizable marker bodies from above with natural fabric texture. No people, scissors, blades, readable text, brands, logos or watermarks.",
+    "reviewNotes": "Observed: low two-level shelf holds horizontal smooth wooden boards; entire blue broad-tip marker and separate cap beside four colored paper dots; complete bamboo-handled tapered writing brush in shallow fabric-lined tray; open fabric case with three capped markers in separate padded slots. No people or legible text. Background cups contain capped stationery. Peripheral shelf uprights have tight top padding, and paper sheet extends beyond panel 2; target boards and all pens remain complete in crops. Seams 445/896/1346; crop heights 425/431/430/426 at width 1008.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "workshop-pen-03-scene0",
+        "label": "工坊桌面软盒里平放的水彩笔",
+        "image": "hanzi-images/realistic-v1/workshop-pen-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pen"
+  },
+  {
+    "id": "workshop-pen-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-03_1795403710020_a8d46e94.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single graphite pencil lying beside an open sketch pad with a simple line drawing of a ceramic vase on a clean studio table. Center the entire pencil and show its wooden body and short graphite point clearly. No people, sharpeners, blades, readable writing, logos or watermarks.\nPanel 2: Two graphite pencils resting horizontally inside an open padded pencil box on an art room table, with their short points facing inward away from the box opening. Show the entire pencils and fabric lining from above. No people, sharpeners, scissors, readable text, logos or watermarks.\nPanel 3: A soft square sheet of colored paper beside another sheet folded diagonally into a simple triangle on a clean folding mat. Clearly show the thin paper edges, crease and complete triangular shape from overhead in natural daylight. No people, scissors, cutters, printed text, logos or watermarks.\nPanel 4: Three thin sheets of red, yellow and blue craft paper laid partly overlapping on a white collage table, with a blank backing sheet nearby. Frame all three sheets fully from above so their paper edges and matte surfaces are clear. No people, glue guns, blades, scissors, text or watermarks.",
+    "reviewNotes": "Observed: one complete wooden graphite pencil beside a spiral sketch pad with a shaded vase drawing; two complete pencils in a padded open box with points facing toward the center; pink square sheet and purple triangular folded paper on a gridded mat without lettering; overlapping complete red/yellow/blue sheets beside a blank white backing sheet. Vase drawing has shading rather than only outline; triangle has a visible center crease. No people, legible text or active tools. Key objects stay inside measured crops, heights 423/427/427/435, width 1008, seams 443/890/1337.",
+    "cuts": [
+      443,
+      890,
+      1337
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "workshop-pen-04-scene0",
+        "label": "工坊写生垫旁平放的铅笔",
+        "image": "hanzi-images/realistic-v1/workshop-pen-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pen"
+  },
+  {
+    "id": "workshop-pen-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-03_1795403710020_a8d46e94.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single graphite pencil lying beside an open sketch pad with a simple line drawing of a ceramic vase on a clean studio table. Center the entire pencil and show its wooden body and short graphite point clearly. No people, sharpeners, blades, readable writing, logos or watermarks.\nPanel 2: Two graphite pencils resting horizontally inside an open padded pencil box on an art room table, with their short points facing inward away from the box opening. Show the entire pencils and fabric lining from above. No people, sharpeners, scissors, readable text, logos or watermarks.\nPanel 3: A soft square sheet of colored paper beside another sheet folded diagonally into a simple triangle on a clean folding mat. Clearly show the thin paper edges, crease and complete triangular shape from overhead in natural daylight. No people, scissors, cutters, printed text, logos or watermarks.\nPanel 4: Three thin sheets of red, yellow and blue craft paper laid partly overlapping on a white collage table, with a blank backing sheet nearby. Frame all three sheets fully from above so their paper edges and matte surfaces are clear. No people, glue guns, blades, scissors, text or watermarks.",
+    "reviewNotes": "Observed: one complete wooden graphite pencil beside a spiral sketch pad with a shaded vase drawing; two complete pencils in a padded open box with points facing toward the center; pink square sheet and purple triangular folded paper on a gridded mat without lettering; overlapping complete red/yellow/blue sheets beside a blank white backing sheet. Vase drawing has shading rather than only outline; triangle has a visible center crease. No people, legible text or active tools. Key objects stay inside measured crops, heights 423/427/427/435, width 1008, seams 443/890/1337.",
+    "cuts": [
+      443,
+      890,
+      1337
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "workshop-pen-05-scene0",
+        "label": "美术桌上内衬盒里平放的铅笔",
+        "image": "hanzi-images/realistic-v1/workshop-pen-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pen"
+  },
+  {
+    "id": "workshop-paper-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-03_1795403710020_a8d46e94.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single graphite pencil lying beside an open sketch pad with a simple line drawing of a ceramic vase on a clean studio table. Center the entire pencil and show its wooden body and short graphite point clearly. No people, sharpeners, blades, readable writing, logos or watermarks.\nPanel 2: Two graphite pencils resting horizontally inside an open padded pencil box on an art room table, with their short points facing inward away from the box opening. Show the entire pencils and fabric lining from above. No people, sharpeners, scissors, readable text, logos or watermarks.\nPanel 3: A soft square sheet of colored paper beside another sheet folded diagonally into a simple triangle on a clean folding mat. Clearly show the thin paper edges, crease and complete triangular shape from overhead in natural daylight. No people, scissors, cutters, printed text, logos or watermarks.\nPanel 4: Three thin sheets of red, yellow and blue craft paper laid partly overlapping on a white collage table, with a blank backing sheet nearby. Frame all three sheets fully from above so their paper edges and matte surfaces are clear. No people, glue guns, blades, scissors, text or watermarks.",
+    "reviewNotes": "Observed: one complete wooden graphite pencil beside a spiral sketch pad with a shaded vase drawing; two complete pencils in a padded open box with points facing toward the center; pink square sheet and purple triangular folded paper on a gridded mat without lettering; overlapping complete red/yellow/blue sheets beside a blank white backing sheet. Vase drawing has shading rather than only outline; triangle has a visible center crease. No people, legible text or active tools. Key objects stay inside measured crops, heights 423/427/427/435, width 1008, seams 443/890/1337.",
+    "cuts": [
+      443,
+      890,
+      1337
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 900,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "workshop-paper-01-scene0",
+        "label": "折纸垫上的方纸和三角折页",
+        "image": "hanzi-images/realistic-v1/workshop-paper-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "paper"
+  },
+  {
+    "id": "workshop-paper-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-03_1795403710020_a8d46e94.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single graphite pencil lying beside an open sketch pad with a simple line drawing of a ceramic vase on a clean studio table. Center the entire pencil and show its wooden body and short graphite point clearly. No people, sharpeners, blades, readable writing, logos or watermarks.\nPanel 2: Two graphite pencils resting horizontally inside an open padded pencil box on an art room table, with their short points facing inward away from the box opening. Show the entire pencils and fabric lining from above. No people, sharpeners, scissors, readable text, logos or watermarks.\nPanel 3: A soft square sheet of colored paper beside another sheet folded diagonally into a simple triangle on a clean folding mat. Clearly show the thin paper edges, crease and complete triangular shape from overhead in natural daylight. No people, scissors, cutters, printed text, logos or watermarks.\nPanel 4: Three thin sheets of red, yellow and blue craft paper laid partly overlapping on a white collage table, with a blank backing sheet nearby. Frame all three sheets fully from above so their paper edges and matte surfaces are clear. No people, glue guns, blades, scissors, text or watermarks.",
+    "reviewNotes": "Observed: one complete wooden graphite pencil beside a spiral sketch pad with a shaded vase drawing; two complete pencils in a padded open box with points facing toward the center; pink square sheet and purple triangular folded paper on a gridded mat without lettering; overlapping complete red/yellow/blue sheets beside a blank white backing sheet. Vase drawing has shading rather than only outline; triangle has a visible center crease. No people, legible text or active tools. Key objects stay inside measured crops, heights 423/427/427/435, width 1008, seams 443/890/1337.",
+    "cuts": [
+      443,
+      890,
+      1337
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1347,
+      "width": 1008,
+      "height": 435
+    },
+    "contexts": [
+      {
+        "id": "workshop-paper-02-scene0",
+        "label": "拼贴台上红黄蓝三张彩纸",
+        "image": "hanzi-images/realistic-v1/workshop-paper-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "paper"
+  },
+  {
+    "id": "workshop-paper-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-04_1795403808741_5b9c01a1.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A neat small stack of plain white paper sheets in a shallow stationery tray on a bright craft table. Show the top blank sheet and fine layered paper edges from a gentle overhead angle, with a neutral background. No people, cutting tools, printed words, logos or watermarks.\nPanel 2: An unprinted brown kraft paper bag standing beside a broad unfolded kraft paper sheet on a craft packaging table. Center the sheet and bag, showing fibrous paper texture, thin edges and folded seams in soft daylight. No people, cord loops, staplers, sharp tools, labels, text, logos or watermarks.\nPanel 3: A roll of plain white drawing paper with a broad section unrolled across a craft printing table. The exposed sheet bears a few simple blue leaf-shaped impressions, and the curled roll edge clearly shows the thin paper material. No people, text, hot equipment, sharp tools, logos or watermarks.\nPanel 4: A complete diamond-shaped kite laid flat on a workshop table, with a taut paper sail, visible cross spars and a short colorful tail arranged flat beside it. The flying line is stored out of view. Show the whole kite from above. No people, sharp tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: layered white paper stack in wooden tray; standing unprinted kraft bag beside broad unfolded creased kraft sheet; unrolled white paper bearing several blue botanical impressions; complete four-color diamond kite with crossed spars and bow-decorated short tail laid flat. No people or readable text. Background stationery, paint dish and twine spool are stationary props. Final JPEG inspected: bag upper rim is clipped by the top edge; target kraft sheet is fully retained. Kite upper point and tail have tighter than 8 percent padding but remain within crop. Seams 440/879/1313, crop heights 420/419/414/459, width 1008.",
+    "cuts": [
+      440,
+      879,
+      1313
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 420
+    },
+    "contexts": [
+      {
+        "id": "workshop-paper-03-scene0",
+        "label": "创作材料盘里叠放的白纸",
+        "image": "hanzi-images/realistic-v1/workshop-paper-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "paper"
+  },
+  {
+    "id": "workshop-paper-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-04_1795403808741_5b9c01a1.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A neat small stack of plain white paper sheets in a shallow stationery tray on a bright craft table. Show the top blank sheet and fine layered paper edges from a gentle overhead angle, with a neutral background. No people, cutting tools, printed words, logos or watermarks.\nPanel 2: An unprinted brown kraft paper bag standing beside a broad unfolded kraft paper sheet on a craft packaging table. Center the sheet and bag, showing fibrous paper texture, thin edges and folded seams in soft daylight. No people, cord loops, staplers, sharp tools, labels, text, logos or watermarks.\nPanel 3: A roll of plain white drawing paper with a broad section unrolled across a craft printing table. The exposed sheet bears a few simple blue leaf-shaped impressions, and the curled roll edge clearly shows the thin paper material. No people, text, hot equipment, sharp tools, logos or watermarks.\nPanel 4: A complete diamond-shaped kite laid flat on a workshop table, with a taut paper sail, visible cross spars and a short colorful tail arranged flat beside it. The flying line is stored out of view. Show the whole kite from above. No people, sharp tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: layered white paper stack in wooden tray; standing unprinted kraft bag beside broad unfolded creased kraft sheet; unrolled white paper bearing several blue botanical impressions; complete four-color diamond kite with crossed spars and bow-decorated short tail laid flat. No people or readable text. Background stationery, paint dish and twine spool are stationary props. Final JPEG inspected: bag upper rim is clipped by the top edge; target kraft sheet is fully retained. Kite upper point and tail have tighter than 8 percent padding but remain within crop. Seams 440/879/1313, crop heights 420/419/414/459, width 1008.",
+    "cuts": [
+      440,
+      879,
+      1313
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 450,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "workshop-paper-04-scene0",
+        "label": "包装台上纸袋旁展开的牛皮纸",
+        "image": "hanzi-images/realistic-v1/workshop-paper-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "paper"
+  },
+  {
+    "id": "workshop-paper-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-04_1795403808741_5b9c01a1.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A neat small stack of plain white paper sheets in a shallow stationery tray on a bright craft table. Show the top blank sheet and fine layered paper edges from a gentle overhead angle, with a neutral background. No people, cutting tools, printed words, logos or watermarks.\nPanel 2: An unprinted brown kraft paper bag standing beside a broad unfolded kraft paper sheet on a craft packaging table. Center the sheet and bag, showing fibrous paper texture, thin edges and folded seams in soft daylight. No people, cord loops, staplers, sharp tools, labels, text, logos or watermarks.\nPanel 3: A roll of plain white drawing paper with a broad section unrolled across a craft printing table. The exposed sheet bears a few simple blue leaf-shaped impressions, and the curled roll edge clearly shows the thin paper material. No people, text, hot equipment, sharp tools, logos or watermarks.\nPanel 4: A complete diamond-shaped kite laid flat on a workshop table, with a taut paper sail, visible cross spars and a short colorful tail arranged flat beside it. The flying line is stored out of view. Show the whole kite from above. No people, sharp tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: layered white paper stack in wooden tray; standing unprinted kraft bag beside broad unfolded creased kraft sheet; unrolled white paper bearing several blue botanical impressions; complete four-color diamond kite with crossed spars and bow-decorated short tail laid flat. No people or readable text. Background stationery, paint dish and twine spool are stationary props. Final JPEG inspected: bag upper rim is clipped by the top edge; target kraft sheet is fully retained. Kite upper point and tail have tighter than 8 percent padding but remain within crop. Seams 440/879/1313, crop heights 420/419/414/459, width 1008.",
+    "cuts": [
+      440,
+      879,
+      1313
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 889,
+      "width": 1008,
+      "height": 414
+    },
+    "contexts": [
+      {
+        "id": "workshop-paper-05-scene0",
+        "label": "印纹台上展开一段的白纸卷",
+        "image": "hanzi-images/realistic-v1/workshop-paper-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "paper"
+  },
+  {
+    "id": "workshop-kite-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-04_1795403808741_5b9c01a1.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A neat small stack of plain white paper sheets in a shallow stationery tray on a bright craft table. Show the top blank sheet and fine layered paper edges from a gentle overhead angle, with a neutral background. No people, cutting tools, printed words, logos or watermarks.\nPanel 2: An unprinted brown kraft paper bag standing beside a broad unfolded kraft paper sheet on a craft packaging table. Center the sheet and bag, showing fibrous paper texture, thin edges and folded seams in soft daylight. No people, cord loops, staplers, sharp tools, labels, text, logos or watermarks.\nPanel 3: A roll of plain white drawing paper with a broad section unrolled across a craft printing table. The exposed sheet bears a few simple blue leaf-shaped impressions, and the curled roll edge clearly shows the thin paper material. No people, text, hot equipment, sharp tools, logos or watermarks.\nPanel 4: A complete diamond-shaped kite laid flat on a workshop table, with a taut paper sail, visible cross spars and a short colorful tail arranged flat beside it. The flying line is stored out of view. Show the whole kite from above. No people, sharp tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: layered white paper stack in wooden tray; standing unprinted kraft bag beside broad unfolded creased kraft sheet; unrolled white paper bearing several blue botanical impressions; complete four-color diamond kite with crossed spars and bow-decorated short tail laid flat. No people or readable text. Background stationery, paint dish and twine spool are stationary props. Final JPEG inspected: bag upper rim is clipped by the top edge; target kraft sheet is fully retained. Kite upper point and tail have tighter than 8 percent padding but remain within crop. Seams 440/879/1313, crop heights 420/419/414/459, width 1008.",
+    "cuts": [
+      440,
+      879,
+      1313
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1323,
+      "width": 1008,
+      "height": 459
+    },
+    "contexts": [
+      {
+        "id": "workshop-kite-01-scene0",
+        "label": "工坊桌上平放的菱形风筝",
+        "image": "hanzi-images/realistic-v1/workshop-kite-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  },
+  {
+    "id": "workshop-kite-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-05_1795403926814_97f5f3dd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A complete triangular delta kite resting flat in a broad shallow workshop display box, with a taut blue fabric sail and clearly visible supporting spars. Keep the whole recognizable kite inside the frame, with no flying line exposed. No people, sharp tools, labels, text, logos or watermarks.\nPanel 2: A swallow-shaped kite displayed at a gentle angle on a low padded tabletop stand in a craft exhibition corner. Show its complete wing outline, split tail and taut sail with supporting spars, with any flying line stored out of sight. No people, readable signs, sharp tools, logos or watermarks.\nPanel 3: A finished diamond-shaped kite mounted flat on a neutral craft workshop display wall, with visible crossed spars and a short paper tail. Center the entire kite with generous clear wall space around it and no exposed flying line. Soft natural indoor light, no people, captions, text, logos or watermarks.\nPanel 4: A round frame tambourine with metal jingles resting silently in a broad cloth-lined tray on a workshop exhibition table. Show the whole taut drumhead, wooden rim and inset jingles clearly from a slightly elevated angle. No people, striking hands, mallets, readable labels, text, logos or watermarks.",
+    "reviewNotes": "Observed: intact blue delta kite in cloth-lined shallow box with center and wing spars; recognizable black/cream/red swallow-shaped kite with complete wings and split tail on low padded stand; complete four-color diamond kite mounted on wall with short bow tail; complete round drumheaded tambourine with metal jingles in fabric-lined wooden tray. No people, readable text or exposed flying line. Final workshop-kite-04 JPEG inspected: panel 3 wall-kite upper apex is slightly clipped at top and tail continues beyond lower edge; all three tail bows remain visible. Panel 1 delta kite apex has tight clearance but remains visible. Requested 8 percent margins were not achieved for these wall-kite extremities. Outer display box/tray edges are peripheral. Seams 432/887/1339; heights 412/435/432/433 at width 1008.",
+    "cuts": [
+      432,
+      887,
+      1339
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "workshop-kite-02-scene0",
+        "label": "工坊样本盒里完整的三角形风筝",
+        "image": "hanzi-images/realistic-v1/workshop-kite-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  },
+  {
+    "id": "workshop-kite-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-05_1795403926814_97f5f3dd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A complete triangular delta kite resting flat in a broad shallow workshop display box, with a taut blue fabric sail and clearly visible supporting spars. Keep the whole recognizable kite inside the frame, with no flying line exposed. No people, sharp tools, labels, text, logos or watermarks.\nPanel 2: A swallow-shaped kite displayed at a gentle angle on a low padded tabletop stand in a craft exhibition corner. Show its complete wing outline, split tail and taut sail with supporting spars, with any flying line stored out of sight. No people, readable signs, sharp tools, logos or watermarks.\nPanel 3: A finished diamond-shaped kite mounted flat on a neutral craft workshop display wall, with visible crossed spars and a short paper tail. Center the entire kite with generous clear wall space around it and no exposed flying line. Soft natural indoor light, no people, captions, text, logos or watermarks.\nPanel 4: A round frame tambourine with metal jingles resting silently in a broad cloth-lined tray on a workshop exhibition table. Show the whole taut drumhead, wooden rim and inset jingles clearly from a slightly elevated angle. No people, striking hands, mallets, readable labels, text, logos or watermarks.",
+    "reviewNotes": "Observed: intact blue delta kite in cloth-lined shallow box with center and wing spars; recognizable black/cream/red swallow-shaped kite with complete wings and split tail on low padded stand; complete four-color diamond kite mounted on wall with short bow tail; complete round drumheaded tambourine with metal jingles in fabric-lined wooden tray. No people, readable text or exposed flying line. Final workshop-kite-04 JPEG inspected: panel 3 wall-kite upper apex is slightly clipped at top and tail continues beyond lower edge; all three tail bows remain visible. Panel 1 delta kite apex has tight clearance but remains visible. Requested 8 percent margins were not achieved for these wall-kite extremities. Outer display box/tray edges are peripheral. Seams 432/887/1339; heights 412/435/432/433 at width 1008.",
+    "cuts": [
+      432,
+      887,
+      1339
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 442,
+      "width": 1008,
+      "height": 435
+    },
+    "contexts": [
+      {
+        "id": "workshop-kite-03-scene0",
+        "label": "工坊低展架上斜放的燕形风筝",
+        "image": "hanzi-images/realistic-v1/workshop-kite-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  },
+  {
+    "id": "workshop-kite-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-05_1795403926814_97f5f3dd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A complete triangular delta kite resting flat in a broad shallow workshop display box, with a taut blue fabric sail and clearly visible supporting spars. Keep the whole recognizable kite inside the frame, with no flying line exposed. No people, sharp tools, labels, text, logos or watermarks.\nPanel 2: A swallow-shaped kite displayed at a gentle angle on a low padded tabletop stand in a craft exhibition corner. Show its complete wing outline, split tail and taut sail with supporting spars, with any flying line stored out of sight. No people, readable signs, sharp tools, logos or watermarks.\nPanel 3: A finished diamond-shaped kite mounted flat on a neutral craft workshop display wall, with visible crossed spars and a short paper tail. Center the entire kite with generous clear wall space around it and no exposed flying line. Soft natural indoor light, no people, captions, text, logos or watermarks.\nPanel 4: A round frame tambourine with metal jingles resting silently in a broad cloth-lined tray on a workshop exhibition table. Show the whole taut drumhead, wooden rim and inset jingles clearly from a slightly elevated angle. No people, striking hands, mallets, readable labels, text, logos or watermarks.",
+    "reviewNotes": "Observed: intact blue delta kite in cloth-lined shallow box with center and wing spars; recognizable black/cream/red swallow-shaped kite with complete wings and split tail on low padded stand; complete four-color diamond kite mounted on wall with short bow tail; complete round drumheaded tambourine with metal jingles in fabric-lined wooden tray. No people, readable text or exposed flying line. Final workshop-kite-04 JPEG inspected: panel 3 wall-kite upper apex is slightly clipped at top and tail continues beyond lower edge; all three tail bows remain visible. Panel 1 delta kite apex has tight clearance but remains visible. Requested 8 percent margins were not achieved for these wall-kite extremities. Outer display box/tray edges are peripheral. Seams 432/887/1339; heights 412/435/432/433 at width 1008.",
+    "cuts": [
+      432,
+      887,
+      1339
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 897,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "workshop-kite-04-scene0",
+        "label": "工坊作品墙上展示的菱形风筝",
+        "image": "hanzi-images/realistic-v1/workshop-kite-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "kite"
+  },
+  {
+    "id": "workshop-drum-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-05_1795403926814_97f5f3dd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A complete triangular delta kite resting flat in a broad shallow workshop display box, with a taut blue fabric sail and clearly visible supporting spars. Keep the whole recognizable kite inside the frame, with no flying line exposed. No people, sharp tools, labels, text, logos or watermarks.\nPanel 2: A swallow-shaped kite displayed at a gentle angle on a low padded tabletop stand in a craft exhibition corner. Show its complete wing outline, split tail and taut sail with supporting spars, with any flying line stored out of sight. No people, readable signs, sharp tools, logos or watermarks.\nPanel 3: A finished diamond-shaped kite mounted flat on a neutral craft workshop display wall, with visible crossed spars and a short paper tail. Center the entire kite with generous clear wall space around it and no exposed flying line. Soft natural indoor light, no people, captions, text, logos or watermarks.\nPanel 4: A round frame tambourine with metal jingles resting silently in a broad cloth-lined tray on a workshop exhibition table. Show the whole taut drumhead, wooden rim and inset jingles clearly from a slightly elevated angle. No people, striking hands, mallets, readable labels, text, logos or watermarks.",
+    "reviewNotes": "Observed: intact blue delta kite in cloth-lined shallow box with center and wing spars; recognizable black/cream/red swallow-shaped kite with complete wings and split tail on low padded stand; complete four-color diamond kite mounted on wall with short bow tail; complete round drumheaded tambourine with metal jingles in fabric-lined wooden tray. No people, readable text or exposed flying line. Final workshop-kite-04 JPEG inspected: panel 3 wall-kite upper apex is slightly clipped at top and tail continues beyond lower edge; all three tail bows remain visible. Panel 1 delta kite apex has tight clearance but remains visible. Requested 8 percent margins were not achieved for these wall-kite extremities. Outer display box/tray edges are peripheral. Seams 432/887/1339; heights 412/435/432/433 at width 1008.",
+    "cuts": [
+      432,
+      887,
+      1339
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1349,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "workshop-drum-01-scene0",
+        "label": "工坊衬布托盘里静放的手鼓",
+        "image": "hanzi-images/realistic-v1/workshop-drum-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "workshop-drum-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-06_1795404035238_9110c09c.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single tall wooden conga drum standing securely on the floor beside a blank drawing easel in a workshop sketching corner. Show the entire tapered drum body, upper drumhead and natural wood grain with clear space around it. No people, sticks, readable text, labels, logos or watermarks.\nPanel 2: A round tambourine with a pale taut drumhead and visible pairs of metal jingles in its wooden rim, lying flat on a padded shelf in front of a plain workshop display board. Frame the entire instrument with margin. No people, striking action, text, labels, logos or watermarks.\nPanel 3: A large bass drum resting securely on a sturdy low cradle stand in a quiet workshop exhibition area. Show its complete circular drumhead, wooden shell and support structure with ample uncluttered floor space. No people, beaters, motion, readable signs, text, logos or watermarks.\nPanel 4: A large intact handbell with a wooden handle and a metal bell body lying silently inside a shallow foam-lined display box on a craft table. Center the whole recognizable bell and handle, with the clapper enclosed in the bell. No people, shaking action, readable words, logos or watermarks.",
+    "reviewNotes": "Observed: tall wood-grained conga beside blank easel; full taut-head tambourine with paired jingles on a fabric-covered display surface before plain board; complete bass drum on low wood cradle; complete wooden-handled brass bell lying in black foam-lined box with attached clapper visible inside. No people, mallets, active playing or legible text. Background shelves contain stationary brushes and craft pots. Conga floor clearance and bass cradle lower clearance are tighter than requested but remain inside measured crops. Bell box outer lower edge extends toward frame boundary; bell itself is fully retained. Seams 443/894/1344, heights 423/431/430/428, width 1008.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "workshop-drum-02-scene0",
+        "label": "工坊写生角里静放的康加鼓",
+        "image": "hanzi-images/realistic-v1/workshop-drum-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "workshop-drum-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-06_1795404035238_9110c09c.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single tall wooden conga drum standing securely on the floor beside a blank drawing easel in a workshop sketching corner. Show the entire tapered drum body, upper drumhead and natural wood grain with clear space around it. No people, sticks, readable text, labels, logos or watermarks.\nPanel 2: A round tambourine with a pale taut drumhead and visible pairs of metal jingles in its wooden rim, lying flat on a padded shelf in front of a plain workshop display board. Frame the entire instrument with margin. No people, striking action, text, labels, logos or watermarks.\nPanel 3: A large bass drum resting securely on a sturdy low cradle stand in a quiet workshop exhibition area. Show its complete circular drumhead, wooden shell and support structure with ample uncluttered floor space. No people, beaters, motion, readable signs, text, logos or watermarks.\nPanel 4: A large intact handbell with a wooden handle and a metal bell body lying silently inside a shallow foam-lined display box on a craft table. Center the whole recognizable bell and handle, with the clapper enclosed in the bell. No people, shaking action, readable words, logos or watermarks.",
+    "reviewNotes": "Observed: tall wood-grained conga beside blank easel; full taut-head tambourine with paired jingles on a fabric-covered display surface before plain board; complete bass drum on low wood cradle; complete wooden-handled brass bell lying in black foam-lined box with attached clapper visible inside. No people, mallets, active playing or legible text. Background shelves contain stationary brushes and craft pots. Conga floor clearance and bass cradle lower clearance are tighter than requested but remain inside measured crops. Bell box outer lower edge extends toward frame boundary; bell itself is fully retained. Seams 443/894/1344, heights 423/431/430/428, width 1008.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "workshop-drum-03-scene0",
+        "label": "工坊乐器展板前平放的带铃片手鼓",
+        "image": "hanzi-images/realistic-v1/workshop-drum-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "workshop-drum-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-06_1795404035238_9110c09c.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single tall wooden conga drum standing securely on the floor beside a blank drawing easel in a workshop sketching corner. Show the entire tapered drum body, upper drumhead and natural wood grain with clear space around it. No people, sticks, readable text, labels, logos or watermarks.\nPanel 2: A round tambourine with a pale taut drumhead and visible pairs of metal jingles in its wooden rim, lying flat on a padded shelf in front of a plain workshop display board. Frame the entire instrument with margin. No people, striking action, text, labels, logos or watermarks.\nPanel 3: A large bass drum resting securely on a sturdy low cradle stand in a quiet workshop exhibition area. Show its complete circular drumhead, wooden shell and support structure with ample uncluttered floor space. No people, beaters, motion, readable signs, text, logos or watermarks.\nPanel 4: A large intact handbell with a wooden handle and a metal bell body lying silently inside a shallow foam-lined display box on a craft table. Center the whole recognizable bell and handle, with the clapper enclosed in the bell. No people, shaking action, readable words, logos or watermarks.",
+    "reviewNotes": "Observed: tall wood-grained conga beside blank easel; full taut-head tambourine with paired jingles on a fabric-covered display surface before plain board; complete bass drum on low wood cradle; complete wooden-handled brass bell lying in black foam-lined box with attached clapper visible inside. No people, mallets, active playing or legible text. Background shelves contain stationary brushes and craft pots. Conga floor clearance and bass cradle lower clearance are tighter than requested but remain inside measured crops. Bell box outer lower edge extends toward frame boundary; bell itself is fully retained. Seams 443/894/1344, heights 423/431/430/428, width 1008.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "workshop-drum-04-scene0",
+        "label": "工坊展示区稳固支架上的大鼓",
+        "image": "hanzi-images/realistic-v1/workshop-drum-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "drum"
+  },
+  {
+    "id": "workshop-bell-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-06_1795404035238_9110c09c.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A single tall wooden conga drum standing securely on the floor beside a blank drawing easel in a workshop sketching corner. Show the entire tapered drum body, upper drumhead and natural wood grain with clear space around it. No people, sticks, readable text, labels, logos or watermarks.\nPanel 2: A round tambourine with a pale taut drumhead and visible pairs of metal jingles in its wooden rim, lying flat on a padded shelf in front of a plain workshop display board. Frame the entire instrument with margin. No people, striking action, text, labels, logos or watermarks.\nPanel 3: A large bass drum resting securely on a sturdy low cradle stand in a quiet workshop exhibition area. Show its complete circular drumhead, wooden shell and support structure with ample uncluttered floor space. No people, beaters, motion, readable signs, text, logos or watermarks.\nPanel 4: A large intact handbell with a wooden handle and a metal bell body lying silently inside a shallow foam-lined display box on a craft table. Center the whole recognizable bell and handle, with the clapper enclosed in the bell. No people, shaking action, readable words, logos or watermarks.",
+    "reviewNotes": "Observed: tall wood-grained conga beside blank easel; full taut-head tambourine with paired jingles on a fabric-covered display surface before plain board; complete bass drum on low wood cradle; complete wooden-handled brass bell lying in black foam-lined box with attached clapper visible inside. No people, mallets, active playing or legible text. Background shelves contain stationary brushes and craft pots. Conga floor clearance and bass cradle lower clearance are tighter than requested but remain inside measured crops. Bell box outer lower edge extends toward frame boundary; bell itself is fully retained. Seams 443/894/1344, heights 423/431/430/428, width 1008.",
+    "cuts": [
+      443,
+      894,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "workshop-bell-01-scene0",
+        "label": "工坊软垫盒里静放的木柄手铃",
+        "image": "hanzi-images/realistic-v1/workshop-bell-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "workshop-bell-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-07_1795404133285_73e3d10b.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three intact metal bells hanging silently from rigid hooks on a stable tabletop workshop display rack. Their flared bell bodies are fully visible with space between them and no exposed loose cords. Show the whole rack against a neutral wall. No people, motion, readable text, logos or watermarks.\nPanel 2: A single large intact metal bell resting on its side on a padded material study table, showing its flared body, rim and upper suspension eye clearly. Its clapper remains attached inside. Frame the entire bell in soft daylight. No people, loose parts, shaking action, printed text, logos or watermarks.\nPanel 3: A large handbell standing upright on a soft cloth-lined shelf inside a low workshop display cabinet, with a wooden handle above its metal bell body. Show the complete instrument and simple cabinet interior in gentle light. No people, ringing action, loose components, readable labels, text, logos or watermarks.\nPanel 4: Three short thick cotton rope samples laid in straight parallel lines inside a broad shallow material display tray. Clearly show the twisted fiber texture and blunt securely finished ends from above, with no loops or knots. No people, scissors, loose threads, text, labels, logos or watermarks.",
+    "reviewNotes": "Observed: exactly three flared metal bells on rigid hooks across a complete wooden rack; complete single side-resting metal bell with suspension eye and attached clapper visible at the mouth; upright wooden-handled handbell on cloth-lined cabinet shelf; exactly three straight thick cotton-rope samples with finished ends in a shallow tray. No people, loose cords, ringing or legible text. Handbell handle has tight upper clearance below requested 8 percent but survives the 10px crop inset. Side-resting bell clapper is visible and slightly projects at the rim, not a detached part. Seams 447/895/1345, heights 427/428/430/427, width 1008; targets fully retained.",
+    "cuts": [
+      447,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "workshop-bell-02-scene0",
+        "label": "工坊展示架上静挂的三只金属铃",
+        "image": "hanzi-images/realistic-v1/workshop-bell-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "workshop-bell-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-07_1795404133285_73e3d10b.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three intact metal bells hanging silently from rigid hooks on a stable tabletop workshop display rack. Their flared bell bodies are fully visible with space between them and no exposed loose cords. Show the whole rack against a neutral wall. No people, motion, readable text, logos or watermarks.\nPanel 2: A single large intact metal bell resting on its side on a padded material study table, showing its flared body, rim and upper suspension eye clearly. Its clapper remains attached inside. Frame the entire bell in soft daylight. No people, loose parts, shaking action, printed text, logos or watermarks.\nPanel 3: A large handbell standing upright on a soft cloth-lined shelf inside a low workshop display cabinet, with a wooden handle above its metal bell body. Show the complete instrument and simple cabinet interior in gentle light. No people, ringing action, loose components, readable labels, text, logos or watermarks.\nPanel 4: Three short thick cotton rope samples laid in straight parallel lines inside a broad shallow material display tray. Clearly show the twisted fiber texture and blunt securely finished ends from above, with no loops or knots. No people, scissors, loose threads, text, labels, logos or watermarks.",
+    "reviewNotes": "Observed: exactly three flared metal bells on rigid hooks across a complete wooden rack; complete single side-resting metal bell with suspension eye and attached clapper visible at the mouth; upright wooden-handled handbell on cloth-lined cabinet shelf; exactly three straight thick cotton-rope samples with finished ends in a shallow tray. No people, loose cords, ringing or legible text. Handbell handle has tight upper clearance below requested 8 percent but survives the 10px crop inset. Side-resting bell clapper is visible and slightly projects at the rim, not a detached part. Seams 447/895/1345, heights 427/428/430/427, width 1008; targets fully retained.",
+    "cuts": [
+      447,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 457,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "workshop-bell-03-scene0",
+        "label": "工坊材料台上平放的完整金属铃",
+        "image": "hanzi-images/realistic-v1/workshop-bell-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "workshop-bell-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-07_1795404133285_73e3d10b.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three intact metal bells hanging silently from rigid hooks on a stable tabletop workshop display rack. Their flared bell bodies are fully visible with space between them and no exposed loose cords. Show the whole rack against a neutral wall. No people, motion, readable text, logos or watermarks.\nPanel 2: A single large intact metal bell resting on its side on a padded material study table, showing its flared body, rim and upper suspension eye clearly. Its clapper remains attached inside. Frame the entire bell in soft daylight. No people, loose parts, shaking action, printed text, logos or watermarks.\nPanel 3: A large handbell standing upright on a soft cloth-lined shelf inside a low workshop display cabinet, with a wooden handle above its metal bell body. Show the complete instrument and simple cabinet interior in gentle light. No people, ringing action, loose components, readable labels, text, logos or watermarks.\nPanel 4: Three short thick cotton rope samples laid in straight parallel lines inside a broad shallow material display tray. Clearly show the twisted fiber texture and blunt securely finished ends from above, with no loops or knots. No people, scissors, loose threads, text, labels, logos or watermarks.",
+    "reviewNotes": "Observed: exactly three flared metal bells on rigid hooks across a complete wooden rack; complete single side-resting metal bell with suspension eye and attached clapper visible at the mouth; upright wooden-handled handbell on cloth-lined cabinet shelf; exactly three straight thick cotton-rope samples with finished ends in a shallow tray. No people, loose cords, ringing or legible text. Handbell handle has tight upper clearance below requested 8 percent but survives the 10px crop inset. Side-resting bell clapper is visible and slightly projects at the rim, not a detached part. Seams 447/895/1345, heights 427/428/430/427, width 1008; targets fully retained.",
+    "cuts": [
+      447,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "workshop-bell-04-scene0",
+        "label": "工坊低展柜衬布上立放的手铃",
+        "image": "hanzi-images/realistic-v1/workshop-bell-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bell"
+  },
+  {
+    "id": "workshop-rope-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-07_1795404133285_73e3d10b.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three intact metal bells hanging silently from rigid hooks on a stable tabletop workshop display rack. Their flared bell bodies are fully visible with space between them and no exposed loose cords. Show the whole rack against a neutral wall. No people, motion, readable text, logos or watermarks.\nPanel 2: A single large intact metal bell resting on its side on a padded material study table, showing its flared body, rim and upper suspension eye clearly. Its clapper remains attached inside. Frame the entire bell in soft daylight. No people, loose parts, shaking action, printed text, logos or watermarks.\nPanel 3: A large handbell standing upright on a soft cloth-lined shelf inside a low workshop display cabinet, with a wooden handle above its metal bell body. Show the complete instrument and simple cabinet interior in gentle light. No people, ringing action, loose components, readable labels, text, logos or watermarks.\nPanel 4: Three short thick cotton rope samples laid in straight parallel lines inside a broad shallow material display tray. Clearly show the twisted fiber texture and blunt securely finished ends from above, with no loops or knots. No people, scissors, loose threads, text, labels, logos or watermarks.",
+    "reviewNotes": "Observed: exactly three flared metal bells on rigid hooks across a complete wooden rack; complete single side-resting metal bell with suspension eye and attached clapper visible at the mouth; upright wooden-handled handbell on cloth-lined cabinet shelf; exactly three straight thick cotton-rope samples with finished ends in a shallow tray. No people, loose cords, ringing or legible text. Handbell handle has tight upper clearance below requested 8 percent but survives the 10px crop inset. Side-resting bell clapper is visible and slightly projects at the rim, not a detached part. Seams 447/895/1345, heights 427/428/430/427, width 1008; targets fully retained.",
+    "cuts": [
+      447,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "workshop-rope-01-scene0",
+        "label": "工坊样本盘里直线平铺的棉绳",
+        "image": "hanzi-images/realistic-v1/workshop-rope-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "workshop-rope-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-08_1795404250410_d1b2de59.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three short thick rope segments laid straight in three broad parallel recessed channels of a tabletop material collage board. The fibers and securely finished blunt ends are visible, with all segments fully contained in the board. Overhead view, no people, knots, loops, blades, labels, text or watermarks.\nPanel 2: A short thick braided rope sample mounted in a straight horizontal line on a neutral workshop texture display board. The interlaced fibers and securely finished ends are clearly visible, with the entire sample framed and no loose loops. No people, needles, cutting tools, captions, text, logos or watermarks.\nPanel 3: A closed transparent material storage box containing several short thick rope samples laid straight in separate compartments on a workshop table. Show the complete box and visible twisted fibers through the lid, with no loops or exposed loose ends. No people, scissors, text, labels, logos or watermarks.\nPanel 4: A single yellow fan-shaped ginkgo leaf lying flat beside a sheet of drawing paper bearing a simple leaf rubbing on a studio craft table. Center the real leaf and show its fan outline and radiating veins clearly with ample margin. No people, sharp tools, printed words, logos or watermarks.",
+    "reviewNotes": "Observed: three straight thick white/tan/blue rope sections in recessed board channels; one complete visibly interlaced braided rope secured horizontally on fabric-covered texture board; closed clear latched compartment box holding five straight rope samples; complete yellow fan-shaped ginkgo leaf with stem beside a yellow leaf rubbing. No people, loops, active tools or text. Rope samples are wholly retained; peripheral first-board top edge has tight padding and can be slightly trimmed by inset. Ginkgo stem lower padding is tighter than 8 percent but remains inside crop. Unequal panel seams 432/852/1302 yield heights 412/400/430/470, width 1008; second crop exactly 400, none below 400.",
+    "cuts": [
+      432,
+      852,
+      1302
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "workshop-rope-02-scene0",
+        "label": "工坊拼画板槽中平放的三段短绳",
+        "image": "hanzi-images/realistic-v1/workshop-rope-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "workshop-rope-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-08_1795404250410_d1b2de59.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three short thick rope segments laid straight in three broad parallel recessed channels of a tabletop material collage board. The fibers and securely finished blunt ends are visible, with all segments fully contained in the board. Overhead view, no people, knots, loops, blades, labels, text or watermarks.\nPanel 2: A short thick braided rope sample mounted in a straight horizontal line on a neutral workshop texture display board. The interlaced fibers and securely finished ends are clearly visible, with the entire sample framed and no loose loops. No people, needles, cutting tools, captions, text, logos or watermarks.\nPanel 3: A closed transparent material storage box containing several short thick rope samples laid straight in separate compartments on a workshop table. Show the complete box and visible twisted fibers through the lid, with no loops or exposed loose ends. No people, scissors, text, labels, logos or watermarks.\nPanel 4: A single yellow fan-shaped ginkgo leaf lying flat beside a sheet of drawing paper bearing a simple leaf rubbing on a studio craft table. Center the real leaf and show its fan outline and radiating veins clearly with ample margin. No people, sharp tools, printed words, logos or watermarks.",
+    "reviewNotes": "Observed: three straight thick white/tan/blue rope sections in recessed board channels; one complete visibly interlaced braided rope secured horizontally on fabric-covered texture board; closed clear latched compartment box holding five straight rope samples; complete yellow fan-shaped ginkgo leaf with stem beside a yellow leaf rubbing. No people, loops, active tools or text. Rope samples are wholly retained; peripheral first-board top edge has tight padding and can be slightly trimmed by inset. Ginkgo stem lower padding is tighter than 8 percent but remains inside crop. Unequal panel seams 432/852/1302 yield heights 412/400/430/470, width 1008; second crop exactly 400, none below 400.",
+    "cuts": [
+      432,
+      852,
+      1302
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 442,
+      "width": 1008,
+      "height": 400
+    },
+    "contexts": [
+      {
+        "id": "workshop-rope-03-scene0",
+        "label": "工坊绳纹展板上固定的编织绳样本",
+        "image": "hanzi-images/realistic-v1/workshop-rope-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "workshop-rope-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-08_1795404250410_d1b2de59.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three short thick rope segments laid straight in three broad parallel recessed channels of a tabletop material collage board. The fibers and securely finished blunt ends are visible, with all segments fully contained in the board. Overhead view, no people, knots, loops, blades, labels, text or watermarks.\nPanel 2: A short thick braided rope sample mounted in a straight horizontal line on a neutral workshop texture display board. The interlaced fibers and securely finished ends are clearly visible, with the entire sample framed and no loose loops. No people, needles, cutting tools, captions, text, logos or watermarks.\nPanel 3: A closed transparent material storage box containing several short thick rope samples laid straight in separate compartments on a workshop table. Show the complete box and visible twisted fibers through the lid, with no loops or exposed loose ends. No people, scissors, text, labels, logos or watermarks.\nPanel 4: A single yellow fan-shaped ginkgo leaf lying flat beside a sheet of drawing paper bearing a simple leaf rubbing on a studio craft table. Center the real leaf and show its fan outline and radiating veins clearly with ample margin. No people, sharp tools, printed words, logos or watermarks.",
+    "reviewNotes": "Observed: three straight thick white/tan/blue rope sections in recessed board channels; one complete visibly interlaced braided rope secured horizontally on fabric-covered texture board; closed clear latched compartment box holding five straight rope samples; complete yellow fan-shaped ginkgo leaf with stem beside a yellow leaf rubbing. No people, loops, active tools or text. Rope samples are wholly retained; peripheral first-board top edge has tight padding and can be slightly trimmed by inset. Ginkgo stem lower padding is tighter than 8 percent but remains inside crop. Unequal panel seams 432/852/1302 yield heights 412/400/430/470, width 1008; second crop exactly 400, none below 400.",
+    "cuts": [
+      432,
+      852,
+      1302
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 862,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "workshop-rope-04-scene0",
+        "label": "工坊透明材料盒里平放的短绳样本",
+        "image": "hanzi-images/realistic-v1/workshop-rope-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "workshop-leaf-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-08_1795404250410_d1b2de59.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: Three short thick rope segments laid straight in three broad parallel recessed channels of a tabletop material collage board. The fibers and securely finished blunt ends are visible, with all segments fully contained in the board. Overhead view, no people, knots, loops, blades, labels, text or watermarks.\nPanel 2: A short thick braided rope sample mounted in a straight horizontal line on a neutral workshop texture display board. The interlaced fibers and securely finished ends are clearly visible, with the entire sample framed and no loose loops. No people, needles, cutting tools, captions, text, logos or watermarks.\nPanel 3: A closed transparent material storage box containing several short thick rope samples laid straight in separate compartments on a workshop table. Show the complete box and visible twisted fibers through the lid, with no loops or exposed loose ends. No people, scissors, text, labels, logos or watermarks.\nPanel 4: A single yellow fan-shaped ginkgo leaf lying flat beside a sheet of drawing paper bearing a simple leaf rubbing on a studio craft table. Center the real leaf and show its fan outline and radiating veins clearly with ample margin. No people, sharp tools, printed words, logos or watermarks.",
+    "reviewNotes": "Observed: three straight thick white/tan/blue rope sections in recessed board channels; one complete visibly interlaced braided rope secured horizontally on fabric-covered texture board; closed clear latched compartment box holding five straight rope samples; complete yellow fan-shaped ginkgo leaf with stem beside a yellow leaf rubbing. No people, loops, active tools or text. Rope samples are wholly retained; peripheral first-board top edge has tight padding and can be slightly trimmed by inset. Ginkgo stem lower padding is tighter than 8 percent but remains inside crop. Unequal panel seams 432/852/1302 yield heights 412/400/430/470, width 1008; second crop exactly 400, none below 400.",
+    "cuts": [
+      432,
+      852,
+      1302
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1312,
+      "width": 1008,
+      "height": 470
+    },
+    "contexts": [
+      {
+        "id": "workshop-leaf-01-scene0",
+        "label": "工坊叶纹台上画纸旁的黄色银杏叶",
+        "image": "hanzi-images/realistic-v1/workshop-leaf-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "leaf"
+  },
+  {
+    "id": "workshop-leaf-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-09_1795404363261_d3830dde.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A real red maple leaf resting flat on a plain cream collage reference board on a craft table. Show the entire lobed leaf, short stem and branching veins clearly from above, with generous empty space around it. No people, scissors, text, captions, logos or watermarks.\nPanel 2: Several fresh flowers in a plain ceramic vase on a studio still-life table beside a blank drawing pad. The blossoms are centered and fully visible with natural petals and stems, while the vase and paper establish the sketching setting. No people, text, scissors, logos or watermarks.\nPanel 3: Three real flattened dried flowers with intact petals and short stems arranged on an unlettered cream display card on a craft table. Clearly show the delicate dry flower texture and recognizable blossoms from above, with the whole card visible. No people, presses, scissors, needles, text or watermarks.\nPanel 4: Several intact bamboo stalks with clearly visible nodes standing in a secure broad display holder beside a blank sketching easel in a plant drawing workshop. Frame the bamboo sections and nodes fully in natural light, with no loose splinters. No people, saws, cutting tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: complete red lobed maple leaf with stem on cream board; fresh mixed flowers in ceramic vase beside blank spiral pad; three flattened dried-flower specimens on cream card; green bamboo stalks with multiple clear nodes in broad ceramic holder beside blank easel. No people, legible text or active tools. Bamboo upper growth continues beyond the panel top, so only lower node-bearing stalk sections are shown; source sceneDescription for workshop-bamboo-01 was factually corrected to state this, with label and all learning/game fields unchanged. Maple apex, bouquet top and bamboo holder bottom have tighter margins than requested; crops retain leaf, blossoms and holder. Seams 440/897/1340, heights 420/437/423/432, width 1008.",
+    "cuts": [
+      440,
+      897,
+      1340
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 420
+    },
+    "contexts": [
+      {
+        "id": "workshop-leaf-02-scene0",
+        "label": "工坊拼贴参考板上平放的红色枫叶",
+        "image": "hanzi-images/realistic-v1/workshop-leaf-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "leaf"
+  },
+  {
+    "id": "workshop-flower-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-09_1795404363261_d3830dde.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A real red maple leaf resting flat on a plain cream collage reference board on a craft table. Show the entire lobed leaf, short stem and branching veins clearly from above, with generous empty space around it. No people, scissors, text, captions, logos or watermarks.\nPanel 2: Several fresh flowers in a plain ceramic vase on a studio still-life table beside a blank drawing pad. The blossoms are centered and fully visible with natural petals and stems, while the vase and paper establish the sketching setting. No people, text, scissors, logos or watermarks.\nPanel 3: Three real flattened dried flowers with intact petals and short stems arranged on an unlettered cream display card on a craft table. Clearly show the delicate dry flower texture and recognizable blossoms from above, with the whole card visible. No people, presses, scissors, needles, text or watermarks.\nPanel 4: Several intact bamboo stalks with clearly visible nodes standing in a secure broad display holder beside a blank sketching easel in a plant drawing workshop. Frame the bamboo sections and nodes fully in natural light, with no loose splinters. No people, saws, cutting tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: complete red lobed maple leaf with stem on cream board; fresh mixed flowers in ceramic vase beside blank spiral pad; three flattened dried-flower specimens on cream card; green bamboo stalks with multiple clear nodes in broad ceramic holder beside blank easel. No people, legible text or active tools. Bamboo upper growth continues beyond the panel top, so only lower node-bearing stalk sections are shown; source sceneDescription for workshop-bamboo-01 was factually corrected to state this, with label and all learning/game fields unchanged. Maple apex, bouquet top and bamboo holder bottom have tighter margins than requested; crops retain leaf, blossoms and holder. Seams 440/897/1340, heights 420/437/423/432, width 1008.",
+    "cuts": [
+      440,
+      897,
+      1340
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 450,
+      "width": 1008,
+      "height": 437
+    },
+    "contexts": [
+      {
+        "id": "workshop-flower-01-scene0",
+        "label": "工坊写生台花瓶里插着的花",
+        "image": "hanzi-images/realistic-v1/workshop-flower-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "workshop-flower-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-09_1795404363261_d3830dde.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A real red maple leaf resting flat on a plain cream collage reference board on a craft table. Show the entire lobed leaf, short stem and branching veins clearly from above, with generous empty space around it. No people, scissors, text, captions, logos or watermarks.\nPanel 2: Several fresh flowers in a plain ceramic vase on a studio still-life table beside a blank drawing pad. The blossoms are centered and fully visible with natural petals and stems, while the vase and paper establish the sketching setting. No people, text, scissors, logos or watermarks.\nPanel 3: Three real flattened dried flowers with intact petals and short stems arranged on an unlettered cream display card on a craft table. Clearly show the delicate dry flower texture and recognizable blossoms from above, with the whole card visible. No people, presses, scissors, needles, text or watermarks.\nPanel 4: Several intact bamboo stalks with clearly visible nodes standing in a secure broad display holder beside a blank sketching easel in a plant drawing workshop. Frame the bamboo sections and nodes fully in natural light, with no loose splinters. No people, saws, cutting tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: complete red lobed maple leaf with stem on cream board; fresh mixed flowers in ceramic vase beside blank spiral pad; three flattened dried-flower specimens on cream card; green bamboo stalks with multiple clear nodes in broad ceramic holder beside blank easel. No people, legible text or active tools. Bamboo upper growth continues beyond the panel top, so only lower node-bearing stalk sections are shown; source sceneDescription for workshop-bamboo-01 was factually corrected to state this, with label and all learning/game fields unchanged. Maple apex, bouquet top and bamboo holder bottom have tighter margins than requested; crops retain leaf, blossoms and holder. Seams 440/897/1340, heights 420/437/423/432, width 1008.",
+    "cuts": [
+      440,
+      897,
+      1340
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 907,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "workshop-flower-02-scene0",
+        "label": "工坊压花卡上平铺的干花",
+        "image": "hanzi-images/realistic-v1/workshop-flower-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "workshop-bamboo-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-09_1795404363261_d3830dde.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A real red maple leaf resting flat on a plain cream collage reference board on a craft table. Show the entire lobed leaf, short stem and branching veins clearly from above, with generous empty space around it. No people, scissors, text, captions, logos or watermarks.\nPanel 2: Several fresh flowers in a plain ceramic vase on a studio still-life table beside a blank drawing pad. The blossoms are centered and fully visible with natural petals and stems, while the vase and paper establish the sketching setting. No people, text, scissors, logos or watermarks.\nPanel 3: Three real flattened dried flowers with intact petals and short stems arranged on an unlettered cream display card on a craft table. Clearly show the delicate dry flower texture and recognizable blossoms from above, with the whole card visible. No people, presses, scissors, needles, text or watermarks.\nPanel 4: Several intact bamboo stalks with clearly visible nodes standing in a secure broad display holder beside a blank sketching easel in a plant drawing workshop. Frame the bamboo sections and nodes fully in natural light, with no loose splinters. No people, saws, cutting tools, text, logos or watermarks.",
+    "reviewNotes": "Observed: complete red lobed maple leaf with stem on cream board; fresh mixed flowers in ceramic vase beside blank spiral pad; three flattened dried-flower specimens on cream card; green bamboo stalks with multiple clear nodes in broad ceramic holder beside blank easel. No people, legible text or active tools. Bamboo upper growth continues beyond the panel top, so only lower node-bearing stalk sections are shown; source sceneDescription for workshop-bamboo-01 was factually corrected to state this, with label and all learning/game fields unchanged. Maple apex, bouquet top and bamboo holder bottom have tighter margins than requested; crops retain leaf, blossoms and holder. Seams 440/897/1340, heights 420/437/423/432, width 1008.",
+    "cuts": [
+      440,
+      897,
+      1340
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1350,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "workshop-bamboo-01-scene0",
+        "label": "工坊写生架前展示的带节竹竿",
+        "image": "hanzi-images/realistic-v1/workshop-bamboo-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bamboo"
+  },
+  {
+    "id": "workshop-bamboo-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-10_1795404510074_d24cda16.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A leafy bamboo branch with visible segmented stems displayed in a stable ceramic container beside a simple bamboo sketch on a studio table. Center the real branch, clearly showing its narrow leaves and nodes, with all important parts inside the frame. No people, text, cutters, logos or watermarks.\nPanel 2: A small finished blank handmade book lying closed on a padded craft display mat. Show its plain thick paper cover, clearly bound spine and layered pages from a three-quarter overhead angle. No loose binding threads, people, needles, staplers, printed text, logos or watermarks.\nPanel 3: An open bound handmade picture book resting on a soft reading mat on a workshop table. Its two visible pages contain simple unlettered paper collage shapes, and the bound spine and page edges are clear. Frame the entire book in soft daylight. No people, readable words, tools, logos or watermarks.\nPanel 4: A sturdy long craft table in a bright collage workshop, with a small stack of soft paper at one end and an unlettered finished collage card at the other, leaving a broad clear tabletop in the middle. Show the complete table surface and visible supporting legs. No people, sharp tools, text or watermarks.",
+    "reviewNotes": "Observed: leafy segmented bamboo stems in ceramic vase beside bamboo sketch; complete closed handmade blank book with fixed spine binding and layered pages; complete open bound picture book with unlettered landscape/tree collages; broad clear wooden craft table with paper stack at left, collage card at right and supporting legs below. No people, active tools or legible text. Bamboo upper growth extends beyond top; table outer ends extend beyond side edges and lower legs have tight bottom clearance. Source sceneDescription only for workshop-bamboo-02 and workshop-table-01 corrected to these observed framing facts; labels and protected learning/game fields unchanged. Both books fully retained. Seams 444/892/1324; crop heights 424/428/412/448 at width 1008.",
+    "cuts": [
+      444,
+      892,
+      1324
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "workshop-bamboo-02-scene0",
+        "label": "工坊画稿旁花器里的带叶竹枝",
+        "image": "hanzi-images/realistic-v1/workshop-bamboo-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bamboo"
+  },
+  {
+    "id": "workshop-book-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-10_1795404510074_d24cda16.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A leafy bamboo branch with visible segmented stems displayed in a stable ceramic container beside a simple bamboo sketch on a studio table. Center the real branch, clearly showing its narrow leaves and nodes, with all important parts inside the frame. No people, text, cutters, logos or watermarks.\nPanel 2: A small finished blank handmade book lying closed on a padded craft display mat. Show its plain thick paper cover, clearly bound spine and layered pages from a three-quarter overhead angle. No loose binding threads, people, needles, staplers, printed text, logos or watermarks.\nPanel 3: An open bound handmade picture book resting on a soft reading mat on a workshop table. Its two visible pages contain simple unlettered paper collage shapes, and the bound spine and page edges are clear. Frame the entire book in soft daylight. No people, readable words, tools, logos or watermarks.\nPanel 4: A sturdy long craft table in a bright collage workshop, with a small stack of soft paper at one end and an unlettered finished collage card at the other, leaving a broad clear tabletop in the middle. Show the complete table surface and visible supporting legs. No people, sharp tools, text or watermarks.",
+    "reviewNotes": "Observed: leafy segmented bamboo stems in ceramic vase beside bamboo sketch; complete closed handmade blank book with fixed spine binding and layered pages; complete open bound picture book with unlettered landscape/tree collages; broad clear wooden craft table with paper stack at left, collage card at right and supporting legs below. No people, active tools or legible text. Bamboo upper growth extends beyond top; table outer ends extend beyond side edges and lower legs have tight bottom clearance. Source sceneDescription only for workshop-bamboo-02 and workshop-table-01 corrected to these observed framing facts; labels and protected learning/game fields unchanged. Both books fully retained. Seams 444/892/1324; crop heights 424/428/412/448 at width 1008.",
+    "cuts": [
+      444,
+      892,
+      1324
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "workshop-book-01-scene0",
+        "label": "工坊展示垫上合着的空白装订书",
+        "image": "hanzi-images/realistic-v1/workshop-book-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "workshop-book-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-10_1795404510074_d24cda16.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A leafy bamboo branch with visible segmented stems displayed in a stable ceramic container beside a simple bamboo sketch on a studio table. Center the real branch, clearly showing its narrow leaves and nodes, with all important parts inside the frame. No people, text, cutters, logos or watermarks.\nPanel 2: A small finished blank handmade book lying closed on a padded craft display mat. Show its plain thick paper cover, clearly bound spine and layered pages from a three-quarter overhead angle. No loose binding threads, people, needles, staplers, printed text, logos or watermarks.\nPanel 3: An open bound handmade picture book resting on a soft reading mat on a workshop table. Its two visible pages contain simple unlettered paper collage shapes, and the bound spine and page edges are clear. Frame the entire book in soft daylight. No people, readable words, tools, logos or watermarks.\nPanel 4: A sturdy long craft table in a bright collage workshop, with a small stack of soft paper at one end and an unlettered finished collage card at the other, leaving a broad clear tabletop in the middle. Show the complete table surface and visible supporting legs. No people, sharp tools, text or watermarks.",
+    "reviewNotes": "Observed: leafy segmented bamboo stems in ceramic vase beside bamboo sketch; complete closed handmade blank book with fixed spine binding and layered pages; complete open bound picture book with unlettered landscape/tree collages; broad clear wooden craft table with paper stack at left, collage card at right and supporting legs below. No people, active tools or legible text. Bamboo upper growth extends beyond top; table outer ends extend beyond side edges and lower legs have tight bottom clearance. Source sceneDescription only for workshop-bamboo-02 and workshop-table-01 corrected to these observed framing facts; labels and protected learning/game fields unchanged. Both books fully retained. Seams 444/892/1324; crop heights 424/428/412/448 at width 1008.",
+    "cuts": [
+      444,
+      892,
+      1324
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 902,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "workshop-book-02-scene0",
+        "label": "工坊阅读垫上打开的图画作品书",
+        "image": "hanzi-images/realistic-v1/workshop-book-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "book"
+  },
+  {
+    "id": "workshop-table-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-10_1795404510074_d24cda16.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Create exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Four equal-height panels, each about 448 pixels high. Exactly three thin pure-white straight horizontal seams, about 4–6 pixels thick, near y=448, 896, and 1344; no outer border, vertical divider, inset pictures or extra panels. All key objects entirely visible, centered within each panel with at least 8 percent crop-safe margins on every side. Natural soft daylight, authentic wood grain, paper fibers, fabric weave and realistic material textures, credible construction; no cartoon, illustration or CGI appearance. No people, children, hands, identifiable persons, sharp or hot tools, unsafe activity, text, lettering, labels, logos or watermarks. Safe stationary craft displays only. Each panel is an independent scene, not a continuous room. Top-to-bottom subjects:\nPanel 1: A leafy bamboo branch with visible segmented stems displayed in a stable ceramic container beside a simple bamboo sketch on a studio table. Center the real branch, clearly showing its narrow leaves and nodes, with all important parts inside the frame. No people, text, cutters, logos or watermarks.\nPanel 2: A small finished blank handmade book lying closed on a padded craft display mat. Show its plain thick paper cover, clearly bound spine and layered pages from a three-quarter overhead angle. No loose binding threads, people, needles, staplers, printed text, logos or watermarks.\nPanel 3: An open bound handmade picture book resting on a soft reading mat on a workshop table. Its two visible pages contain simple unlettered paper collage shapes, and the bound spine and page edges are clear. Frame the entire book in soft daylight. No people, readable words, tools, logos or watermarks.\nPanel 4: A sturdy long craft table in a bright collage workshop, with a small stack of soft paper at one end and an unlettered finished collage card at the other, leaving a broad clear tabletop in the middle. Show the complete table surface and visible supporting legs. No people, sharp tools, text or watermarks.",
+    "reviewNotes": "Observed: leafy segmented bamboo stems in ceramic vase beside bamboo sketch; complete closed handmade blank book with fixed spine binding and layered pages; complete open bound picture book with unlettered landscape/tree collages; broad clear wooden craft table with paper stack at left, collage card at right and supporting legs below. No people, active tools or legible text. Bamboo upper growth extends beyond top; table outer ends extend beyond side edges and lower legs have tight bottom clearance. Source sceneDescription only for workshop-bamboo-02 and workshop-table-01 corrected to these observed framing facts; labels and protected learning/game fields unchanged. Both books fully retained. Seams 444/892/1324; crop heights 424/428/412/448 at width 1008.",
+    "cuts": [
+      444,
+      892,
+      1324
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1334,
+      "width": 1008,
+      "height": 448
+    },
+    "contexts": [
+      {
+        "id": "workshop-table-01-scene0",
+        "label": "拼贴工坊里留出大片空位的长桌",
+        "image": "hanzi-images/realistic-v1/workshop-table-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "table"
+  },
+  {
+    "id": "workshop-stone-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-11_1795404863618_74e328cd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Generate a new corrected final four-panel sheet. Exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Place exactly three straight 6-pixel-thick PURE WHITE RGB(255,255,255) horizontal separator bars spanning the entire width at y=445–450, y=893–898 and y=1341–1346. Separators must be bright pure white, not cream, gray, translucent or textured. No outer border, vertical divider, inset pictures, extra panels, text, labels, logos or watermarks. Each panel is its own independent scene. Natural soft daylight, authentic mineral texture, fabric weave, sand grains and wood grain; photorealistic, not illustration, cartoon or CGI. No people, children, hands, identifiable persons, sharp or hot tools or unsafe activity. All key objects entirely contained in their panel with at least 8 percent crop-safe margins on every side; reduce subject size rather than crop it.\nPanel 1, top: Three broad smooth rounded stones in varied gray tones on a padded still-life craft table beside a blank sketch pad. Show all three complete stone outlines and natural mineral texture from a gentle overhead angle. No tools or writing.\nPanel 2: A shallow transparent sand display box on a workshop texture table, securely CLOSED by a clearly visible transparent lid and two attached closed latch clips. Gentle parallel grooves in fine natural sand remain visible through the lid. Show the entire closed box with ample margin, visible lid edge and subtle light reflections across the transparent top, no open tray, no loose airborne sand, no tools or printed labels.\nPanel 3: A complete finished small tabletop model handcart on a craft mat: simple wooden bed, two large round wheels attached to the same visible axle, motionless. Use a three-quarter angle that shows one complete near wheel and the attached opposite wheel recognizably behind the bed; no extra wheels. Keep the whole bed, wheels and handle inside the panel with generous margin. No tools or loose parts.\nPanel 4, bottom: Unassigned neutral workshop panel: only a clean padded craft mat on an empty wooden craft table in soft daylight, no story-specific objects, tools, people or text.",
+    "reviewNotes": "Accepted replacement, actual compact preview reviewed: three complete rounded stones in varied gray tones on padded surface beside blank pad; fully visible transparent sand box with lid edge, reflections and two attached closed latch clips over grooved sand; complete stationary wooden model cart with one full near wheel, far-wheel rim visible behind bed and axle hub connection, handle fully inside frame; unassigned neutral empty padded craft mat on table. No people or legible text; background plant and baskets are neutral room props. Far wheel is partly occluded by bed, not fully exposed. All main targets have safe crop clearance. Actual seams 444/882/1324 give heights 424/418/422/448, width 1008; only first three panels assigned. Previous seam-failing PNG and exact prompt retained separately as rejected, not cropped.",
+    "cuts": [
+      444,
+      882,
+      1324
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "workshop-stone-01-scene0",
+        "label": "工坊写生台软垫上摆放的圆石",
+        "image": "hanzi-images/realistic-v1/workshop-stone-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "workshop-sand-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-11_1795404863618_74e328cd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Generate a new corrected final four-panel sheet. Exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Place exactly three straight 6-pixel-thick PURE WHITE RGB(255,255,255) horizontal separator bars spanning the entire width at y=445–450, y=893–898 and y=1341–1346. Separators must be bright pure white, not cream, gray, translucent or textured. No outer border, vertical divider, inset pictures, extra panels, text, labels, logos or watermarks. Each panel is its own independent scene. Natural soft daylight, authentic mineral texture, fabric weave, sand grains and wood grain; photorealistic, not illustration, cartoon or CGI. No people, children, hands, identifiable persons, sharp or hot tools or unsafe activity. All key objects entirely contained in their panel with at least 8 percent crop-safe margins on every side; reduce subject size rather than crop it.\nPanel 1, top: Three broad smooth rounded stones in varied gray tones on a padded still-life craft table beside a blank sketch pad. Show all three complete stone outlines and natural mineral texture from a gentle overhead angle. No tools or writing.\nPanel 2: A shallow transparent sand display box on a workshop texture table, securely CLOSED by a clearly visible transparent lid and two attached closed latch clips. Gentle parallel grooves in fine natural sand remain visible through the lid. Show the entire closed box with ample margin, visible lid edge and subtle light reflections across the transparent top, no open tray, no loose airborne sand, no tools or printed labels.\nPanel 3: A complete finished small tabletop model handcart on a craft mat: simple wooden bed, two large round wheels attached to the same visible axle, motionless. Use a three-quarter angle that shows one complete near wheel and the attached opposite wheel recognizably behind the bed; no extra wheels. Keep the whole bed, wheels and handle inside the panel with generous margin. No tools or loose parts.\nPanel 4, bottom: Unassigned neutral workshop panel: only a clean padded craft mat on an empty wooden craft table in soft daylight, no story-specific objects, tools, people or text.",
+    "reviewNotes": "Accepted replacement, actual compact preview reviewed: three complete rounded stones in varied gray tones on padded surface beside blank pad; fully visible transparent sand box with lid edge, reflections and two attached closed latch clips over grooved sand; complete stationary wooden model cart with one full near wheel, far-wheel rim visible behind bed and axle hub connection, handle fully inside frame; unassigned neutral empty padded craft mat on table. No people or legible text; background plant and baskets are neutral room props. Far wheel is partly occluded by bed, not fully exposed. All main targets have safe crop clearance. Actual seams 444/882/1324 give heights 424/418/422/448, width 1008; only first three panels assigned. Previous seam-failing PNG and exact prompt retained separately as rejected, not cropped.",
+    "cuts": [
+      444,
+      882,
+      1324
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "workshop-sand-01-scene0",
+        "label": "工坊密封透明沙纹盒里的细沙",
+        "image": "hanzi-images/realistic-v1/workshop-sand-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sand"
+  },
+  {
+    "id": "workshop-wheel-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-workshop-v3-11_1795404863618_74e328cd.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children’s educational craft workshop, not documentary or archival photography. Generate a new corrected final four-panel sheet. Exactly four independent full-width landscape photographs stacked vertically in a 1024x1792 PNG. Place exactly three straight 6-pixel-thick PURE WHITE RGB(255,255,255) horizontal separator bars spanning the entire width at y=445–450, y=893–898 and y=1341–1346. Separators must be bright pure white, not cream, gray, translucent or textured. No outer border, vertical divider, inset pictures, extra panels, text, labels, logos or watermarks. Each panel is its own independent scene. Natural soft daylight, authentic mineral texture, fabric weave, sand grains and wood grain; photorealistic, not illustration, cartoon or CGI. No people, children, hands, identifiable persons, sharp or hot tools or unsafe activity. All key objects entirely contained in their panel with at least 8 percent crop-safe margins on every side; reduce subject size rather than crop it.\nPanel 1, top: Three broad smooth rounded stones in varied gray tones on a padded still-life craft table beside a blank sketch pad. Show all three complete stone outlines and natural mineral texture from a gentle overhead angle. No tools or writing.\nPanel 2: A shallow transparent sand display box on a workshop texture table, securely CLOSED by a clearly visible transparent lid and two attached closed latch clips. Gentle parallel grooves in fine natural sand remain visible through the lid. Show the entire closed box with ample margin, visible lid edge and subtle light reflections across the transparent top, no open tray, no loose airborne sand, no tools or printed labels.\nPanel 3: A complete finished small tabletop model handcart on a craft mat: simple wooden bed, two large round wheels attached to the same visible axle, motionless. Use a three-quarter angle that shows one complete near wheel and the attached opposite wheel recognizably behind the bed; no extra wheels. Keep the whole bed, wheels and handle inside the panel with generous margin. No tools or loose parts.\nPanel 4, bottom: Unassigned neutral workshop panel: only a clean padded craft mat on an empty wooden craft table in soft daylight, no story-specific objects, tools, people or text.",
+    "reviewNotes": "Accepted replacement, actual compact preview reviewed: three complete rounded stones in varied gray tones on padded surface beside blank pad; fully visible transparent sand box with lid edge, reflections and two attached closed latch clips over grooved sand; complete stationary wooden model cart with one full near wheel, far-wheel rim visible behind bed and axle hub connection, handle fully inside frame; unassigned neutral empty padded craft mat on table. No people or legible text; background plant and baskets are neutral room props. Far wheel is partly occluded by bed, not fully exposed. All main targets have safe crop clearance. Actual seams 444/882/1324 give heights 424/418/422/448, width 1008; only first three panels assigned. Previous seam-failing PNG and exact prompt retained separately as rejected, not cropped.",
+    "cuts": [
+      444,
+      882,
+      1324
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 892,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "workshop-wheel-01-scene0",
+        "label": "工坊桌面模型推车上装好的车轮",
+        "image": "hanzi-images/realistic-v1/workshop-wheel-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  }
+]

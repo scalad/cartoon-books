@@ -1984,5 +1984,7 @@ HanziLessons.push(...[
   }
 })();
 
-if (typeof module !== 'undefined' && module.exports) module.exports = HanziLessons;
-else window.HanziLessons = HanziLessons;
+if (typeof module !== 'undefined' && module.exports) {
+  HanziLessons.push(...require('./hanzi-more-data.js')(HanziLessons));
+  module.exports = HanziLessons;
+} else window.HanziLessons = HanziLessons;

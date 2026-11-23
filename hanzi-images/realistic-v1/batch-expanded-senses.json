@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "senses-mouth-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-01_1795400889918_535c9128.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult quietly speaking beside a library shelf. Relaxed lips are slightly parted, with a plain closed book softly blurred behind them. Frame only the mouth and chin, centered with generous crop-safe margins, natural skin texture and soft indoor light. No complete face, identifiable likeness, children, tongue display, text, logos or watermark.\nPanel 2: AI-generated photorealistic close-up of the naturally closed relaxed lips of a fictional anonymous adult taking a drinking pause. A small plain ceramic cup stands on the table below and to one side, separate from the mouth. Only the lower face and the cup appear, with the mouth centered and unobscured, ample margins and gentle daylight. No identifiable person, children, hot steam, swallowing demonstration, text or logos.\nPanel 3: AI-generated photorealistic cropped lower-face photograph of a fictional anonymous adult with relaxed closed lips at a dining table. A clean folded cream cloth napkin rests on a plain tray below the mouth, not touching the skin. Mouth and napkin are both clearly visible within wide safe margins, soft daylight, ordinary skin and cotton textures. No full face, children, food in the mouth, forced expression, identity, text or branding.\nPanel 4: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult softly singing in a calm music corner. Lips are gently open in a natural singing posture; a plain acoustic guitar is softly blurred in the background. Only the lower face is shown, no throat or tongue close-up, mouth centered with generous margins and natural skin texture. No named likeness, children, microphone recording, text or logos.",
+    "reviewNotes": "Viewed compact preview: four lower-face photographs, top to bottom slightly parted lips beside blurred books and a closed green book; closed lips beside a ceramic cup; closed lips above a cream striped folded napkin on a wooden tray; gently open mouth beside a blurred acoustic guitar. All mouth targets and chins remain readable after measured crops. The cup is close to the right edge and its right side/handle is partly clipped; guitar is background-only and partly framed. No eyes/full faces, visible text or watermark. Heights 412,433,427,440; no crop below400.",
+    "cuts": [
+      432,
+      885,
+      1332
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "senses-mouth-01-scene0",
+        "label": "书架旁轻声说话的成人嘴部",
+        "image": "hanzi-images/realistic-v1/senses-mouth-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mouth"
+  },
+  {
+    "id": "senses-mouth-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-01_1795400889918_535c9128.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult quietly speaking beside a library shelf. Relaxed lips are slightly parted, with a plain closed book softly blurred behind them. Frame only the mouth and chin, centered with generous crop-safe margins, natural skin texture and soft indoor light. No complete face, identifiable likeness, children, tongue display, text, logos or watermark.\nPanel 2: AI-generated photorealistic close-up of the naturally closed relaxed lips of a fictional anonymous adult taking a drinking pause. A small plain ceramic cup stands on the table below and to one side, separate from the mouth. Only the lower face and the cup appear, with the mouth centered and unobscured, ample margins and gentle daylight. No identifiable person, children, hot steam, swallowing demonstration, text or logos.\nPanel 3: AI-generated photorealistic cropped lower-face photograph of a fictional anonymous adult with relaxed closed lips at a dining table. A clean folded cream cloth napkin rests on a plain tray below the mouth, not touching the skin. Mouth and napkin are both clearly visible within wide safe margins, soft daylight, ordinary skin and cotton textures. No full face, children, food in the mouth, forced expression, identity, text or branding.\nPanel 4: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult softly singing in a calm music corner. Lips are gently open in a natural singing posture; a plain acoustic guitar is softly blurred in the background. Only the lower face is shown, no throat or tongue close-up, mouth centered with generous margins and natural skin texture. No named likeness, children, microphone recording, text or logos.",
+    "reviewNotes": "Viewed compact preview: four lower-face photographs, top to bottom slightly parted lips beside blurred books and a closed green book; closed lips beside a ceramic cup; closed lips above a cream striped folded napkin on a wooden tray; gently open mouth beside a blurred acoustic guitar. All mouth targets and chins remain readable after measured crops. The cup is close to the right edge and its right side/handle is partly clipped; guitar is background-only and partly framed. No eyes/full faces, visible text or watermark. Heights 412,433,427,440; no crop below400.",
+    "cuts": [
+      432,
+      885,
+      1332
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 442,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "senses-mouth-02-scene0",
+        "label": "小杯旁自然合拢的成人嘴唇",
+        "image": "hanzi-images/realistic-v1/senses-mouth-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mouth"
+  },
+  {
+    "id": "senses-mouth-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-01_1795400889918_535c9128.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult quietly speaking beside a library shelf. Relaxed lips are slightly parted, with a plain closed book softly blurred behind them. Frame only the mouth and chin, centered with generous crop-safe margins, natural skin texture and soft indoor light. No complete face, identifiable likeness, children, tongue display, text, logos or watermark.\nPanel 2: AI-generated photorealistic close-up of the naturally closed relaxed lips of a fictional anonymous adult taking a drinking pause. A small plain ceramic cup stands on the table below and to one side, separate from the mouth. Only the lower face and the cup appear, with the mouth centered and unobscured, ample margins and gentle daylight. No identifiable person, children, hot steam, swallowing demonstration, text or logos.\nPanel 3: AI-generated photorealistic cropped lower-face photograph of a fictional anonymous adult with relaxed closed lips at a dining table. A clean folded cream cloth napkin rests on a plain tray below the mouth, not touching the skin. Mouth and napkin are both clearly visible within wide safe margins, soft daylight, ordinary skin and cotton textures. No full face, children, food in the mouth, forced expression, identity, text or branding.\nPanel 4: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult softly singing in a calm music corner. Lips are gently open in a natural singing posture; a plain acoustic guitar is softly blurred in the background. Only the lower face is shown, no throat or tongue close-up, mouth centered with generous margins and natural skin texture. No named likeness, children, microphone recording, text or logos.",
+    "reviewNotes": "Viewed compact preview: four lower-face photographs, top to bottom slightly parted lips beside blurred books and a closed green book; closed lips beside a ceramic cup; closed lips above a cream striped folded napkin on a wooden tray; gently open mouth beside a blurred acoustic guitar. All mouth targets and chins remain readable after measured crops. The cup is close to the right edge and its right side/handle is partly clipped; guitar is background-only and partly framed. No eyes/full faces, visible text or watermark. Heights 412,433,427,440; no crop below400.",
+    "cuts": [
+      432,
+      885,
+      1332
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 895,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "senses-mouth-03-scene0",
+        "label": "干净餐巾旁放松的成人嘴部",
+        "image": "hanzi-images/realistic-v1/senses-mouth-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mouth"
+  },
+  {
+    "id": "senses-mouth-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-01_1795400889918_535c9128.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult quietly speaking beside a library shelf. Relaxed lips are slightly parted, with a plain closed book softly blurred behind them. Frame only the mouth and chin, centered with generous crop-safe margins, natural skin texture and soft indoor light. No complete face, identifiable likeness, children, tongue display, text, logos or watermark.\nPanel 2: AI-generated photorealistic close-up of the naturally closed relaxed lips of a fictional anonymous adult taking a drinking pause. A small plain ceramic cup stands on the table below and to one side, separate from the mouth. Only the lower face and the cup appear, with the mouth centered and unobscured, ample margins and gentle daylight. No identifiable person, children, hot steam, swallowing demonstration, text or logos.\nPanel 3: AI-generated photorealistic cropped lower-face photograph of a fictional anonymous adult with relaxed closed lips at a dining table. A clean folded cream cloth napkin rests on a plain tray below the mouth, not touching the skin. Mouth and napkin are both clearly visible within wide safe margins, soft daylight, ordinary skin and cotton textures. No full face, children, food in the mouth, forced expression, identity, text or branding.\nPanel 4: AI-generated photorealistic close-up of the mouth of a fictional anonymous adult softly singing in a calm music corner. Lips are gently open in a natural singing posture; a plain acoustic guitar is softly blurred in the background. Only the lower face is shown, no throat or tongue close-up, mouth centered with generous margins and natural skin texture. No named likeness, children, microphone recording, text or logos.",
+    "reviewNotes": "Viewed compact preview: four lower-face photographs, top to bottom slightly parted lips beside blurred books and a closed green book; closed lips beside a ceramic cup; closed lips above a cream striped folded napkin on a wooden tray; gently open mouth beside a blurred acoustic guitar. All mouth targets and chins remain readable after measured crops. The cup is close to the right edge and its right side/handle is partly clipped; guitar is background-only and partly framed. No eyes/full faces, visible text or watermark. Heights 412,433,427,440; no crop below400.",
+    "cuts": [
+      432,
+      885,
+      1332
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1342,
+      "width": 1008,
+      "height": 440
+    },
+    "contexts": [
+      {
+        "id": "senses-mouth-04-scene0",
+        "label": "音乐角轻声唱歌时微张的成人嘴部",
+        "image": "hanzi-images/realistic-v1/senses-mouth-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mouth"
+  },
+  {
+    "id": "senses-mouth-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-02_1795400968423_a80e236b.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the naturally closed lips of a fictional anonymous adult resting after a conversation, against a softly blurred pale green lounge wall. The lips and chin fill the central area without touching the frame edges, realistic skin detail and diffuse indoor light. No complete face, recognizable likeness, children, deliberate mouth pose, text, identifying marks or watermark.\nPanel 2: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult looking down naturally at an open picture book. Show only the forehead, eyes and upper nose, with an unlettered illustrated page blurred along the lower edge. Both open eyes remain unobscured and well within crop-safe margins, gentle reflected room light and realistic skin. No full identifiable face, children, bright glare, text, logos or recording equipment.\nPanel 3: AI-generated photorealistic upper-face close-up of the open eyes of a fictional anonymous adult naturally reading at a desk. A softly glowing shaded desk lamp and a plain book are blurred at the sides; neither obscures the eyes. Diffuse comfortable room light, ordinary skin texture, ample margins around both eyes. No full identifiable portrait, children, direct light beam at the eyes, exposed wiring, letters, logos or watermark.\nPanel 4: AI-generated photorealistic macro-style photograph of one naturally open eye of a fictional anonymous adult in diffuse daylight. Show the complete eyelids, iris and a small surrounding area of ordinary skin, with a soft broad room-light reflection rather than a bright point source. The entire eye is centered with generous margins. No identifiable face, children, medical instruments, flash beam, injury, text or exaggerated eye pose.",
+    "reviewNotes": "Viewed compact preview: closed lips and chin against pale green background; both eyes looking downward above an illustrated book; both eyes above a plain book with shaded glowing lamp at left; a single complete open eye with eyebrow and soft room/window reflection. Book edges are intentionally partial foregrounds but do not cover the eyes. Eye counts observed directly in new panels: two,two,one. No full face or visible lettering. Targets survive crops, heights420,434,425,433; none below400.",
+    "cuts": [
+      440,
+      894,
+      1339
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 420
+    },
+    "contexts": [
+      {
+        "id": "senses-mouth-05-scene0",
+        "label": "聊天间歇自然闭合的成人嘴唇",
+        "image": "hanzi-images/realistic-v1/senses-mouth-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mouth"
+  },
+  {
+    "id": "senses-eye-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-02_1795400968423_a80e236b.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the naturally closed lips of a fictional anonymous adult resting after a conversation, against a softly blurred pale green lounge wall. The lips and chin fill the central area without touching the frame edges, realistic skin detail and diffuse indoor light. No complete face, recognizable likeness, children, deliberate mouth pose, text, identifying marks or watermark.\nPanel 2: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult looking down naturally at an open picture book. Show only the forehead, eyes and upper nose, with an unlettered illustrated page blurred along the lower edge. Both open eyes remain unobscured and well within crop-safe margins, gentle reflected room light and realistic skin. No full identifiable face, children, bright glare, text, logos or recording equipment.\nPanel 3: AI-generated photorealistic upper-face close-up of the open eyes of a fictional anonymous adult naturally reading at a desk. A softly glowing shaded desk lamp and a plain book are blurred at the sides; neither obscures the eyes. Diffuse comfortable room light, ordinary skin texture, ample margins around both eyes. No full identifiable portrait, children, direct light beam at the eyes, exposed wiring, letters, logos or watermark.\nPanel 4: AI-generated photorealistic macro-style photograph of one naturally open eye of a fictional anonymous adult in diffuse daylight. Show the complete eyelids, iris and a small surrounding area of ordinary skin, with a soft broad room-light reflection rather than a bright point source. The entire eye is centered with generous margins. No identifiable face, children, medical instruments, flash beam, injury, text or exaggerated eye pose.",
+    "reviewNotes": "Viewed compact preview: closed lips and chin against pale green background; both eyes looking downward above an illustrated book; both eyes above a plain book with shaded glowing lamp at left; a single complete open eye with eyebrow and soft room/window reflection. Book edges are intentionally partial foregrounds but do not cover the eyes. Eye counts observed directly in new panels: two,two,one. No full face or visible lettering. Targets survive crops, heights420,434,425,433; none below400.",
+    "cuts": [
+      440,
+      894,
+      1339
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 450,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "senses-eye-01-scene0",
+        "label": "看图画书时清楚可见的成人双眼",
+        "image": "hanzi-images/realistic-v1/senses-eye-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "eye"
+  },
+  {
+    "id": "senses-eye-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-02_1795400968423_a80e236b.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the naturally closed lips of a fictional anonymous adult resting after a conversation, against a softly blurred pale green lounge wall. The lips and chin fill the central area without touching the frame edges, realistic skin detail and diffuse indoor light. No complete face, recognizable likeness, children, deliberate mouth pose, text, identifying marks or watermark.\nPanel 2: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult looking down naturally at an open picture book. Show only the forehead, eyes and upper nose, with an unlettered illustrated page blurred along the lower edge. Both open eyes remain unobscured and well within crop-safe margins, gentle reflected room light and realistic skin. No full identifiable face, children, bright glare, text, logos or recording equipment.\nPanel 3: AI-generated photorealistic upper-face close-up of the open eyes of a fictional anonymous adult naturally reading at a desk. A softly glowing shaded desk lamp and a plain book are blurred at the sides; neither obscures the eyes. Diffuse comfortable room light, ordinary skin texture, ample margins around both eyes. No full identifiable portrait, children, direct light beam at the eyes, exposed wiring, letters, logos or watermark.\nPanel 4: AI-generated photorealistic macro-style photograph of one naturally open eye of a fictional anonymous adult in diffuse daylight. Show the complete eyelids, iris and a small surrounding area of ordinary skin, with a soft broad room-light reflection rather than a bright point source. The entire eye is centered with generous margins. No identifiable face, children, medical instruments, flash beam, injury, text or exaggerated eye pose.",
+    "reviewNotes": "Viewed compact preview: closed lips and chin against pale green background; both eyes looking downward above an illustrated book; both eyes above a plain book with shaded glowing lamp at left; a single complete open eye with eyebrow and soft room/window reflection. Book edges are intentionally partial foregrounds but do not cover the eyes. Eye counts observed directly in new panels: two,two,one. No full face or visible lettering. Targets survive crops, heights420,434,425,433; none below400.",
+    "cuts": [
+      440,
+      894,
+      1339
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "senses-eye-02-scene0",
+        "label": "柔和桌灯旁自然看书的成人双眼",
+        "image": "hanzi-images/realistic-v1/senses-eye-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "eye"
+  },
+  {
+    "id": "senses-eye-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-02_1795400968423_a80e236b.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the naturally closed lips of a fictional anonymous adult resting after a conversation, against a softly blurred pale green lounge wall. The lips and chin fill the central area without touching the frame edges, realistic skin detail and diffuse indoor light. No complete face, recognizable likeness, children, deliberate mouth pose, text, identifying marks or watermark.\nPanel 2: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult looking down naturally at an open picture book. Show only the forehead, eyes and upper nose, with an unlettered illustrated page blurred along the lower edge. Both open eyes remain unobscured and well within crop-safe margins, gentle reflected room light and realistic skin. No full identifiable face, children, bright glare, text, logos or recording equipment.\nPanel 3: AI-generated photorealistic upper-face close-up of the open eyes of a fictional anonymous adult naturally reading at a desk. A softly glowing shaded desk lamp and a plain book are blurred at the sides; neither obscures the eyes. Diffuse comfortable room light, ordinary skin texture, ample margins around both eyes. No full identifiable portrait, children, direct light beam at the eyes, exposed wiring, letters, logos or watermark.\nPanel 4: AI-generated photorealistic macro-style photograph of one naturally open eye of a fictional anonymous adult in diffuse daylight. Show the complete eyelids, iris and a small surrounding area of ordinary skin, with a soft broad room-light reflection rather than a bright point source. The entire eye is centered with generous margins. No identifiable face, children, medical instruments, flash beam, injury, text or exaggerated eye pose.",
+    "reviewNotes": "Viewed compact preview: closed lips and chin against pale green background; both eyes looking downward above an illustrated book; both eyes above a plain book with shaded glowing lamp at left; a single complete open eye with eyebrow and soft room/window reflection. Book edges are intentionally partial foregrounds but do not cover the eyes. Eye counts observed directly in new panels: two,two,one. No full face or visible lettering. Targets survive crops, heights420,434,425,433; none below400.",
+    "cuts": [
+      440,
+      894,
+      1339
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1349,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "senses-eye-03-scene0",
+        "label": "漫射光下一只自然睁开的成人眼睛",
+        "image": "hanzi-images/realistic-v1/senses-eye-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "eye"
+  },
+  {
+    "id": "senses-eye-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-03_1795401050392_cb7415a6.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult naturally looking toward greenery through a closed window from an ordinary indoor seat. Crop to the upper face; a closed window frame and diffuse green foliage are softly blurred to one side. Both eyes are clearly visible with soft light and wide crop-safe margins. No direct sun, open window, identifiable likeness, children, text or posed eye exercise.\nPanel 2: AI-generated photorealistic tight crop showing exactly one complete naturally open eye of a fictional anonymous adult, with a plain wooden easel softly blurred behind the surrounding temple area. The other eye is entirely outside this photographic crop, not covered or closed. Full eyelids visible with generous margins, gentle studio light and ordinary skin texture. No complete identity-bearing portrait, children, letters, logos or medical examination.\nPanel 3: AI-generated photorealistic side close-up of the complete external ear of a fictional anonymous adult seated in a quiet indoor string-music corner. A wooden violin resting on a distant stand is softly blurred in the background, not near the ear. Crop excludes the complete face, shows ordinary skin and a small area of hair, with generous margins around the ear. No children, identifiable likeness, loudspeaker at the ear, ear instruments, text or branding.\nPanel 4: AI-generated photorealistic close-up of a fictional anonymous adult external ear beside a comfortable indoor reading seat. An open unlettered picture book rests on a small table in the soft background. The complete ear is unobstructed, centered with wide crop-safe margins, natural hair and skin detail in warm diffuse room light. Exclude the full face and any other person. No children, identifiable likeness, ear devices, text or logos.",
+    "reviewNotes": "Viewed compact preview: two open eyes beside a closed window and greenery; exactly one complete eye beside a blurred wooden easel with blank canvas; complete outer ear with distant wooden bowed string instrument on stand and music stand; complete outer ear beside reading chair and open illustrated book on table. Main eyes and ears are inside measured crop areas. Instrument and open book are background details, and book right page extends to outer edge; no legible text. Window eye photo is tight at lower nose but eyes remain complete. Heights412,419,418,463, none below400. Existing eye sorting labels are untouched.",
+    "cuts": [
+      432,
+      871,
+      1309
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "senses-eye-04-scene0",
+        "label": "隔着关闭的窗自然望向绿植的成人双眼",
+        "image": "hanzi-images/realistic-v1/senses-eye-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "eye"
+  },
+  {
+    "id": "senses-eye-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-03_1795401050392_cb7415a6.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult naturally looking toward greenery through a closed window from an ordinary indoor seat. Crop to the upper face; a closed window frame and diffuse green foliage are softly blurred to one side. Both eyes are clearly visible with soft light and wide crop-safe margins. No direct sun, open window, identifiable likeness, children, text or posed eye exercise.\nPanel 2: AI-generated photorealistic tight crop showing exactly one complete naturally open eye of a fictional anonymous adult, with a plain wooden easel softly blurred behind the surrounding temple area. The other eye is entirely outside this photographic crop, not covered or closed. Full eyelids visible with generous margins, gentle studio light and ordinary skin texture. No complete identity-bearing portrait, children, letters, logos or medical examination.\nPanel 3: AI-generated photorealistic side close-up of the complete external ear of a fictional anonymous adult seated in a quiet indoor string-music corner. A wooden violin resting on a distant stand is softly blurred in the background, not near the ear. Crop excludes the complete face, shows ordinary skin and a small area of hair, with generous margins around the ear. No children, identifiable likeness, loudspeaker at the ear, ear instruments, text or branding.\nPanel 4: AI-generated photorealistic close-up of a fictional anonymous adult external ear beside a comfortable indoor reading seat. An open unlettered picture book rests on a small table in the soft background. The complete ear is unobstructed, centered with wide crop-safe margins, natural hair and skin detail in warm diffuse room light. Exclude the full face and any other person. No children, identifiable likeness, ear devices, text or logos.",
+    "reviewNotes": "Viewed compact preview: two open eyes beside a closed window and greenery; exactly one complete eye beside a blurred wooden easel with blank canvas; complete outer ear with distant wooden bowed string instrument on stand and music stand; complete outer ear beside reading chair and open illustrated book on table. Main eyes and ears are inside measured crop areas. Instrument and open book are background details, and book right page extends to outer edge; no legible text. Window eye photo is tight at lower nose but eyes remain complete. Heights412,419,418,463, none below400. Existing eye sorting labels are untouched.",
+    "cuts": [
+      432,
+      871,
+      1309
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 442,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "senses-eye-05-scene0",
+        "label": "画架旁近照中清楚可见的一只成人眼睛",
+        "image": "hanzi-images/realistic-v1/senses-eye-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "eye"
+  },
+  {
+    "id": "senses-ear-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-03_1795401050392_cb7415a6.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult naturally looking toward greenery through a closed window from an ordinary indoor seat. Crop to the upper face; a closed window frame and diffuse green foliage are softly blurred to one side. Both eyes are clearly visible with soft light and wide crop-safe margins. No direct sun, open window, identifiable likeness, children, text or posed eye exercise.\nPanel 2: AI-generated photorealistic tight crop showing exactly one complete naturally open eye of a fictional anonymous adult, with a plain wooden easel softly blurred behind the surrounding temple area. The other eye is entirely outside this photographic crop, not covered or closed. Full eyelids visible with generous margins, gentle studio light and ordinary skin texture. No complete identity-bearing portrait, children, letters, logos or medical examination.\nPanel 3: AI-generated photorealistic side close-up of the complete external ear of a fictional anonymous adult seated in a quiet indoor string-music corner. A wooden violin resting on a distant stand is softly blurred in the background, not near the ear. Crop excludes the complete face, shows ordinary skin and a small area of hair, with generous margins around the ear. No children, identifiable likeness, loudspeaker at the ear, ear instruments, text or branding.\nPanel 4: AI-generated photorealistic close-up of a fictional anonymous adult external ear beside a comfortable indoor reading seat. An open unlettered picture book rests on a small table in the soft background. The complete ear is unobstructed, centered with wide crop-safe margins, natural hair and skin detail in warm diffuse room light. Exclude the full face and any other person. No children, identifiable likeness, ear devices, text or logos.",
+    "reviewNotes": "Viewed compact preview: two open eyes beside a closed window and greenery; exactly one complete eye beside a blurred wooden easel with blank canvas; complete outer ear with distant wooden bowed string instrument on stand and music stand; complete outer ear beside reading chair and open illustrated book on table. Main eyes and ears are inside measured crop areas. Instrument and open book are background details, and book right page extends to outer edge; no legible text. Window eye photo is tight at lower nose but eyes remain complete. Heights412,419,418,463, none below400. Existing eye sorting labels are untouched.",
+    "cuts": [
+      432,
+      871,
+      1309
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 881,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "senses-ear-01-scene0",
+        "label": "弦乐角旁清楚可见的成人耳朵",
+        "image": "hanzi-images/realistic-v1/senses-ear-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ear"
+  },
+  {
+    "id": "senses-ear-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-03_1795401050392_cb7415a6.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of both eyes of a fictional anonymous adult naturally looking toward greenery through a closed window from an ordinary indoor seat. Crop to the upper face; a closed window frame and diffuse green foliage are softly blurred to one side. Both eyes are clearly visible with soft light and wide crop-safe margins. No direct sun, open window, identifiable likeness, children, text or posed eye exercise.\nPanel 2: AI-generated photorealistic tight crop showing exactly one complete naturally open eye of a fictional anonymous adult, with a plain wooden easel softly blurred behind the surrounding temple area. The other eye is entirely outside this photographic crop, not covered or closed. Full eyelids visible with generous margins, gentle studio light and ordinary skin texture. No complete identity-bearing portrait, children, letters, logos or medical examination.\nPanel 3: AI-generated photorealistic side close-up of the complete external ear of a fictional anonymous adult seated in a quiet indoor string-music corner. A wooden violin resting on a distant stand is softly blurred in the background, not near the ear. Crop excludes the complete face, shows ordinary skin and a small area of hair, with generous margins around the ear. No children, identifiable likeness, loudspeaker at the ear, ear instruments, text or branding.\nPanel 4: AI-generated photorealistic close-up of a fictional anonymous adult external ear beside a comfortable indoor reading seat. An open unlettered picture book rests on a small table in the soft background. The complete ear is unobstructed, centered with wide crop-safe margins, natural hair and skin detail in warm diffuse room light. Exclude the full face and any other person. No children, identifiable likeness, ear devices, text or logos.",
+    "reviewNotes": "Viewed compact preview: two open eyes beside a closed window and greenery; exactly one complete eye beside a blurred wooden easel with blank canvas; complete outer ear with distant wooden bowed string instrument on stand and music stand; complete outer ear beside reading chair and open illustrated book on table. Main eyes and ears are inside measured crop areas. Instrument and open book are background details, and book right page extends to outer edge; no legible text. Window eye photo is tight at lower nose but eyes remain complete. Heights412,419,418,463, none below400. Existing eye sorting labels are untouched.",
+    "cuts": [
+      432,
+      871,
+      1309
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1319,
+      "width": 1008,
+      "height": 463
+    },
+    "contexts": [
+      {
+        "id": "senses-ear-02-scene0",
+        "label": "共读座位旁清楚可见的成人耳朵",
+        "image": "hanzi-images/realistic-v1/senses-ear-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ear"
+  },
+  {
+    "id": "senses-ear-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-04_1795401149725_99cd8749.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the complete external ear of a fictional anonymous adult resting beside a soft beige curtain in a quiet room. A padded chair edge is visible far behind the ear, with gentle diffuse indoor light and natural skin texture. Crop excludes the full face, ear unobstructed with ample margins. No children, identifying features, earplugs, headphones, inserted objects, text, logos or watermark.\nPanel 2: AI-generated photorealistic profile-detail photograph of a complete fictional anonymous adult external ear against a softly blurred pale green wall. Show the ordinary outer ear and adjacent hair only, natural skin texture and soft lateral room light, all ear edges within generous crop-safe margins. Do not show an identifiable full face, children, inner-ear examination, devices, jewelry, injuries, text or logos.\nPanel 3: AI-generated photorealistic close-up of a complete fictional anonymous adult external ear from the side at a living-room seat. A small plain speaker on a distant shelf is softly blurred far behind, clearly not beside the ear. Ordinary skin and hair textures, calm diffuse light and generous framing margins; exclude the full face. No children, recognizable likeness, earphones, inserted objects, volume display, text or branding.\nPanel 4: AI-generated photorealistic close-up of the hands of a fictional anonymous adult gently folding a large clean cotton cloth on a low wooden table. Both complete hands and the cloth are visible, natural fingers in a credible relaxed pose, cotton weave and wood grain in soft daylight, generous crop-safe margins. No identifiable face, children, personal jewelry, tattoos, sharp tools, text or branding.",
+    "reviewNotes": "Viewed compact preview: unobstructed external ear beside beige curtain and upholstered chair; complete ear against pale green wall with blurred plant/picture; complete ear beside sofa with speaker well behind on shelf; two adult hands folding a large pale cotton cloth on wood table. Ears have complete visible outlines; hands naturally hold cloth with some fingertips hidden by the fold, not frame clipping. Cloth outer right edge is close to margin but both hand targets remain inside crop. No full faces, jewelry, text or devices touching ears. Heights427,428,429,428, none below400.",
+    "cuts": [
+      447,
+      895,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "senses-ear-03-scene0",
+        "label": "软帘旁安静休息的成人耳朵近照",
+        "image": "hanzi-images/realistic-v1/senses-ear-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ear"
+  },
+  {
+    "id": "senses-ear-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-04_1795401149725_99cd8749.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the complete external ear of a fictional anonymous adult resting beside a soft beige curtain in a quiet room. A padded chair edge is visible far behind the ear, with gentle diffuse indoor light and natural skin texture. Crop excludes the full face, ear unobstructed with ample margins. No children, identifying features, earplugs, headphones, inserted objects, text, logos or watermark.\nPanel 2: AI-generated photorealistic profile-detail photograph of a complete fictional anonymous adult external ear against a softly blurred pale green wall. Show the ordinary outer ear and adjacent hair only, natural skin texture and soft lateral room light, all ear edges within generous crop-safe margins. Do not show an identifiable full face, children, inner-ear examination, devices, jewelry, injuries, text or logos.\nPanel 3: AI-generated photorealistic close-up of a complete fictional anonymous adult external ear from the side at a living-room seat. A small plain speaker on a distant shelf is softly blurred far behind, clearly not beside the ear. Ordinary skin and hair textures, calm diffuse light and generous framing margins; exclude the full face. No children, recognizable likeness, earphones, inserted objects, volume display, text or branding.\nPanel 4: AI-generated photorealistic close-up of the hands of a fictional anonymous adult gently folding a large clean cotton cloth on a low wooden table. Both complete hands and the cloth are visible, natural fingers in a credible relaxed pose, cotton weave and wood grain in soft daylight, generous crop-safe margins. No identifiable face, children, personal jewelry, tattoos, sharp tools, text or branding.",
+    "reviewNotes": "Viewed compact preview: unobstructed external ear beside beige curtain and upholstered chair; complete ear against pale green wall with blurred plant/picture; complete ear beside sofa with speaker well behind on shelf; two adult hands folding a large pale cotton cloth on wood table. Ears have complete visible outlines; hands naturally hold cloth with some fingertips hidden by the fold, not frame clipping. Cloth outer right edge is close to margin but both hand targets remain inside crop. No full faces, jewelry, text or devices touching ears. Heights427,428,429,428, none below400.",
+    "cuts": [
+      447,
+      895,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 457,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "senses-ear-04-scene0",
+        "label": "浅绿墙旁清楚可见的成人外耳",
+        "image": "hanzi-images/realistic-v1/senses-ear-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ear"
+  },
+  {
+    "id": "senses-ear-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-04_1795401149725_99cd8749.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the complete external ear of a fictional anonymous adult resting beside a soft beige curtain in a quiet room. A padded chair edge is visible far behind the ear, with gentle diffuse indoor light and natural skin texture. Crop excludes the full face, ear unobstructed with ample margins. No children, identifying features, earplugs, headphones, inserted objects, text, logos or watermark.\nPanel 2: AI-generated photorealistic profile-detail photograph of a complete fictional anonymous adult external ear against a softly blurred pale green wall. Show the ordinary outer ear and adjacent hair only, natural skin texture and soft lateral room light, all ear edges within generous crop-safe margins. Do not show an identifiable full face, children, inner-ear examination, devices, jewelry, injuries, text or logos.\nPanel 3: AI-generated photorealistic close-up of a complete fictional anonymous adult external ear from the side at a living-room seat. A small plain speaker on a distant shelf is softly blurred far behind, clearly not beside the ear. Ordinary skin and hair textures, calm diffuse light and generous framing margins; exclude the full face. No children, recognizable likeness, earphones, inserted objects, volume display, text or branding.\nPanel 4: AI-generated photorealistic close-up of the hands of a fictional anonymous adult gently folding a large clean cotton cloth on a low wooden table. Both complete hands and the cloth are visible, natural fingers in a credible relaxed pose, cotton weave and wood grain in soft daylight, generous crop-safe margins. No identifiable face, children, personal jewelry, tattoos, sharp tools, text or branding.",
+    "reviewNotes": "Viewed compact preview: unobstructed external ear beside beige curtain and upholstered chair; complete ear against pale green wall with blurred plant/picture; complete ear beside sofa with speaker well behind on shelf; two adult hands folding a large pale cotton cloth on wood table. Ears have complete visible outlines; hands naturally hold cloth with some fingertips hidden by the fold, not frame clipping. Cloth outer right edge is close to margin but both hand targets remain inside crop. No full faces, jewelry, text or devices touching ears. Heights427,428,429,428, none below400.",
+    "cuts": [
+      447,
+      895,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-ear-05-scene0",
+        "label": "客厅远离音箱座位上的成人耳朵",
+        "image": "hanzi-images/realistic-v1/senses-ear-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ear"
+  },
+  {
+    "id": "senses-hand-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-04_1795401149725_99cd8749.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of the complete external ear of a fictional anonymous adult resting beside a soft beige curtain in a quiet room. A padded chair edge is visible far behind the ear, with gentle diffuse indoor light and natural skin texture. Crop excludes the full face, ear unobstructed with ample margins. No children, identifying features, earplugs, headphones, inserted objects, text, logos or watermark.\nPanel 2: AI-generated photorealistic profile-detail photograph of a complete fictional anonymous adult external ear against a softly blurred pale green wall. Show the ordinary outer ear and adjacent hair only, natural skin texture and soft lateral room light, all ear edges within generous crop-safe margins. Do not show an identifiable full face, children, inner-ear examination, devices, jewelry, injuries, text or logos.\nPanel 3: AI-generated photorealistic close-up of a complete fictional anonymous adult external ear from the side at a living-room seat. A small plain speaker on a distant shelf is softly blurred far behind, clearly not beside the ear. Ordinary skin and hair textures, calm diffuse light and generous framing margins; exclude the full face. No children, recognizable likeness, earphones, inserted objects, volume display, text or branding.\nPanel 4: AI-generated photorealistic close-up of the hands of a fictional anonymous adult gently folding a large clean cotton cloth on a low wooden table. Both complete hands and the cloth are visible, natural fingers in a credible relaxed pose, cotton weave and wood grain in soft daylight, generous crop-safe margins. No identifiable face, children, personal jewelry, tattoos, sharp tools, text or branding.",
+    "reviewNotes": "Viewed compact preview: unobstructed external ear beside beige curtain and upholstered chair; complete ear against pale green wall with blurred plant/picture; complete ear beside sofa with speaker well behind on shelf; two adult hands folding a large pale cotton cloth on wood table. Ears have complete visible outlines; hands naturally hold cloth with some fingertips hidden by the fold, not frame clipping. Cloth outer right edge is close to margin but both hand targets remain inside crop. No full faces, jewelry, text or devices touching ears. Heights427,428,429,428, none below400.",
+    "cuts": [
+      447,
+      895,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "senses-hand-01-scene0",
+        "label": "木桌上轻轻折叠干净软布的成人双手",
+        "image": "hanzi-images/realistic-v1/senses-hand-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hand"
+  },
+  {
+    "id": "senses-hand-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-05_1795401228157_eabbe8d7.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently turning a thick page of an open picture book on a wooden table. Fingers and wrist are naturally positioned and fully within safe margins, unlettered illustrations on the page, tactile paper texture and soft daylight. No face, children, identity-bearing jewelry, tattoos, sharp objects, written words or branding.\nPanel 2: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently pressing a large single lump of soft modeling clay on a clean work mat. Natural fingers and palm, substantial clay piece, authentic matte material and soft studio light, hand and clay fully inside crop-safe margins. No face, children, small loose beads, cutting tools, identifiable jewelry, tattoos, text or logos.\nPanel 3: AI-generated photorealistic close-up of fictional anonymous adult hands gently drying with a clean blue cotton hand towel beside a washbasin. Both hands remain clearly visible around the soft towel, fingers naturally placed, basin tap turned off, dry surrounding floor outside the frame. Soft indoor light and realistic terry texture, generous margins. No face, children, identity markers, chemical bottles, hot water, text or branding.\nPanel 4: AI-generated photorealistic close-up of a complete fictional anonymous adult hand placing one large cardboard jigsaw piece on a flat table next to a few other oversized pieces. Fingers naturally hold the edge, all hand and main piece inside generous margins, real cardboard texture and soft daylight. No face, children, miniature parts, sharp tools, identifiable jewelry, tattoos, letters, branding or watermark.",
+    "reviewNotes": "Viewed compact preview: hand lifting illustrated book page; hand pressing one large green clay lump on gray mat; two hands visible around blue towel beside inactive washbasin faucet; hand placing large illustrated cardboard jigsaw piece next to other large pieces. Hands and primary clay/puzzle targets remain inside crop. Book left edge is outside frame, towel hangs to panel bottom and obscures portions of fingers naturally; no face, jewelry, lettering or watermark. Blurred craft brush holder appears behind clay. Heights426,429,430,427, none below400.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "senses-hand-02-scene0",
+        "label": "轻轻翻动图画书书页的成人手",
+        "image": "hanzi-images/realistic-v1/senses-hand-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hand"
+  },
+  {
+    "id": "senses-hand-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-05_1795401228157_eabbe8d7.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently turning a thick page of an open picture book on a wooden table. Fingers and wrist are naturally positioned and fully within safe margins, unlettered illustrations on the page, tactile paper texture and soft daylight. No face, children, identity-bearing jewelry, tattoos, sharp objects, written words or branding.\nPanel 2: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently pressing a large single lump of soft modeling clay on a clean work mat. Natural fingers and palm, substantial clay piece, authentic matte material and soft studio light, hand and clay fully inside crop-safe margins. No face, children, small loose beads, cutting tools, identifiable jewelry, tattoos, text or logos.\nPanel 3: AI-generated photorealistic close-up of fictional anonymous adult hands gently drying with a clean blue cotton hand towel beside a washbasin. Both hands remain clearly visible around the soft towel, fingers naturally placed, basin tap turned off, dry surrounding floor outside the frame. Soft indoor light and realistic terry texture, generous margins. No face, children, identity markers, chemical bottles, hot water, text or branding.\nPanel 4: AI-generated photorealistic close-up of a complete fictional anonymous adult hand placing one large cardboard jigsaw piece on a flat table next to a few other oversized pieces. Fingers naturally hold the edge, all hand and main piece inside generous margins, real cardboard texture and soft daylight. No face, children, miniature parts, sharp tools, identifiable jewelry, tattoos, letters, branding or watermark.",
+    "reviewNotes": "Viewed compact preview: hand lifting illustrated book page; hand pressing one large green clay lump on gray mat; two hands visible around blue towel beside inactive washbasin faucet; hand placing large illustrated cardboard jigsaw piece next to other large pieces. Hands and primary clay/puzzle targets remain inside crop. Book left edge is outside frame, towel hangs to panel bottom and obscures portions of fingers naturally; no face, jewelry, lettering or watermark. Blurred craft brush holder appears behind clay. Heights426,429,430,427, none below400.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-hand-03-scene0",
+        "label": "桌面上轻压大块软泥的成人手",
+        "image": "hanzi-images/realistic-v1/senses-hand-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hand"
+  },
+  {
+    "id": "senses-hand-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-05_1795401228157_eabbe8d7.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently turning a thick page of an open picture book on a wooden table. Fingers and wrist are naturally positioned and fully within safe margins, unlettered illustrations on the page, tactile paper texture and soft daylight. No face, children, identity-bearing jewelry, tattoos, sharp objects, written words or branding.\nPanel 2: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently pressing a large single lump of soft modeling clay on a clean work mat. Natural fingers and palm, substantial clay piece, authentic matte material and soft studio light, hand and clay fully inside crop-safe margins. No face, children, small loose beads, cutting tools, identifiable jewelry, tattoos, text or logos.\nPanel 3: AI-generated photorealistic close-up of fictional anonymous adult hands gently drying with a clean blue cotton hand towel beside a washbasin. Both hands remain clearly visible around the soft towel, fingers naturally placed, basin tap turned off, dry surrounding floor outside the frame. Soft indoor light and realistic terry texture, generous margins. No face, children, identity markers, chemical bottles, hot water, text or branding.\nPanel 4: AI-generated photorealistic close-up of a complete fictional anonymous adult hand placing one large cardboard jigsaw piece on a flat table next to a few other oversized pieces. Fingers naturally hold the edge, all hand and main piece inside generous margins, real cardboard texture and soft daylight. No face, children, miniature parts, sharp tools, identifiable jewelry, tattoos, letters, branding or watermark.",
+    "reviewNotes": "Viewed compact preview: hand lifting illustrated book page; hand pressing one large green clay lump on gray mat; two hands visible around blue towel beside inactive washbasin faucet; hand placing large illustrated cardboard jigsaw piece next to other large pieces. Hands and primary clay/puzzle targets remain inside crop. Book left edge is outside frame, towel hangs to panel bottom and obscures portions of fingers naturally; no face, jewelry, lettering or watermark. Blurred craft brush holder appears behind clay. Heights426,429,430,427, none below400.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "senses-hand-04-scene0",
+        "label": "用干净手巾轻轻擦干的成人双手",
+        "image": "hanzi-images/realistic-v1/senses-hand-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hand"
+  },
+  {
+    "id": "senses-hand-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-05_1795401228157_eabbe8d7.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently turning a thick page of an open picture book on a wooden table. Fingers and wrist are naturally positioned and fully within safe margins, unlettered illustrations on the page, tactile paper texture and soft daylight. No face, children, identity-bearing jewelry, tattoos, sharp objects, written words or branding.\nPanel 2: AI-generated photorealistic close-up of one complete fictional anonymous adult hand gently pressing a large single lump of soft modeling clay on a clean work mat. Natural fingers and palm, substantial clay piece, authentic matte material and soft studio light, hand and clay fully inside crop-safe margins. No face, children, small loose beads, cutting tools, identifiable jewelry, tattoos, text or logos.\nPanel 3: AI-generated photorealistic close-up of fictional anonymous adult hands gently drying with a clean blue cotton hand towel beside a washbasin. Both hands remain clearly visible around the soft towel, fingers naturally placed, basin tap turned off, dry surrounding floor outside the frame. Soft indoor light and realistic terry texture, generous margins. No face, children, identity markers, chemical bottles, hot water, text or branding.\nPanel 4: AI-generated photorealistic close-up of a complete fictional anonymous adult hand placing one large cardboard jigsaw piece on a flat table next to a few other oversized pieces. Fingers naturally hold the edge, all hand and main piece inside generous margins, real cardboard texture and soft daylight. No face, children, miniature parts, sharp tools, identifiable jewelry, tattoos, letters, branding or watermark.",
+    "reviewNotes": "Viewed compact preview: hand lifting illustrated book page; hand pressing one large green clay lump on gray mat; two hands visible around blue towel beside inactive washbasin faucet; hand placing large illustrated cardboard jigsaw piece next to other large pieces. Hands and primary clay/puzzle targets remain inside crop. Book left edge is outside frame, towel hangs to panel bottom and obscures portions of fingers naturally; no face, jewelry, lettering or watermark. Blurred craft brush holder appears behind clay. Heights426,429,430,427, none below400.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "senses-hand-05-scene0",
+        "label": "平桌上摆放大块拼图的成人手",
+        "image": "hanzi-images/realistic-v1/senses-hand-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hand"
+  },
+  {
+    "id": "senses-foot-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-06_1795401312144_408d0516.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic ordinary care photograph of one fictional anonymous adult foot resting naturally flat on a clean dry fabric mat while the adult is seated. Show the complete top of the foot and toes with a small area of trouser cuff, a pair of plain slippers set to the side. Neutral educational framing, soft daylight and wide crop-safe margins. No face, children, intimate areas, suggestive framing, identity markers, injury, text or logos.\nPanel 2: AI-generated photorealistic neutral everyday care close-up of one fictional anonymous adult foot during a seated sock-dressing pause. A plain soft sock is only partly on near the heel, leaving the entire forefoot, toes and most of the top of the foot clearly visible. Foot rests on a dry low mat, trouser cuff visible, ample framing margins and soft room light. No children, face, intimate parts, suggestive pose, identifying marks, injury, text or branding.\nPanel 3: AI-generated photorealistic neutral side-view photograph of one complete fictional anonymous adult foot resting on a low padded footrest beside a lounge chair. Heel, arch, forefoot and toes are fully visible in side profile, with a small trouser cuff area and no other body parts. Ordinary non-suggestive educational framing, soft daylight, realistic skin and cloth, generous crop-safe margins. No children, identity, intimate areas, injuries, text or logos.\nPanel 4: AI-generated photorealistic neutral everyday photograph of one complete fictional anonymous adult bare foot resting naturally on a flat dry rug near a plain pair of slippers. Show the foot from a gentle oblique top angle, all toes and heel in frame, seated posture indicated only by a trouser cuff. The foot stays central with wide margins and soft room light. No child, face, intimate areas, suggestive framing, walking stunt, injury, identifying marks or text.",
+    "reviewNotes": "Viewed compact preview: complete bare foot on dry woven rug with beige slippers nearby; foot with gray sock bunched around ankle/heel leaving forefoot and toes exposed; complete foot side profile on low padded footrest; complete bare foot from oblique top angle on flat rug beside blue slippers. Trouser cuffs only, neutral everyday framing. All foot targets stay inside crops. Sock bunching hides part of heel as expected; slipper pairs in panels1/4 extend to right outer edge and are partly clipped, not target feet. Heights425,429,432,426, none below400. No text or identity/health assessment.",
+    "cuts": [
+      445,
+      894,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "senses-foot-01-scene0",
+        "label": "干燥软垫上自然放着的成人脚背",
+        "image": "hanzi-images/realistic-v1/senses-foot-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "foot"
+  },
+  {
+    "id": "senses-foot-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-06_1795401312144_408d0516.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic ordinary care photograph of one fictional anonymous adult foot resting naturally flat on a clean dry fabric mat while the adult is seated. Show the complete top of the foot and toes with a small area of trouser cuff, a pair of plain slippers set to the side. Neutral educational framing, soft daylight and wide crop-safe margins. No face, children, intimate areas, suggestive framing, identity markers, injury, text or logos.\nPanel 2: AI-generated photorealistic neutral everyday care close-up of one fictional anonymous adult foot during a seated sock-dressing pause. A plain soft sock is only partly on near the heel, leaving the entire forefoot, toes and most of the top of the foot clearly visible. Foot rests on a dry low mat, trouser cuff visible, ample framing margins and soft room light. No children, face, intimate parts, suggestive pose, identifying marks, injury, text or branding.\nPanel 3: AI-generated photorealistic neutral side-view photograph of one complete fictional anonymous adult foot resting on a low padded footrest beside a lounge chair. Heel, arch, forefoot and toes are fully visible in side profile, with a small trouser cuff area and no other body parts. Ordinary non-suggestive educational framing, soft daylight, realistic skin and cloth, generous crop-safe margins. No children, identity, intimate areas, injuries, text or logos.\nPanel 4: AI-generated photorealistic neutral everyday photograph of one complete fictional anonymous adult bare foot resting naturally on a flat dry rug near a plain pair of slippers. Show the foot from a gentle oblique top angle, all toes and heel in frame, seated posture indicated only by a trouser cuff. The foot stays central with wide margins and soft room light. No child, face, intimate areas, suggestive framing, walking stunt, injury, identifying marks or text.",
+    "reviewNotes": "Viewed compact preview: complete bare foot on dry woven rug with beige slippers nearby; foot with gray sock bunched around ankle/heel leaving forefoot and toes exposed; complete foot side profile on low padded footrest; complete bare foot from oblique top angle on flat rug beside blue slippers. Trouser cuffs only, neutral everyday framing. All foot targets stay inside crops. Sock bunching hides part of heel as expected; slipper pairs in panels1/4 extend to right outer edge and are partly clipped, not target feet. Heights425,429,432,426, none below400. No text or identity/health assessment.",
+    "cuts": [
+      445,
+      894,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-foot-02-scene0",
+        "label": "穿袜间歇仍清楚可见脚背和脚趾的成人脚",
+        "image": "hanzi-images/realistic-v1/senses-foot-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "foot"
+  },
+  {
+    "id": "senses-foot-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-06_1795401312144_408d0516.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic ordinary care photograph of one fictional anonymous adult foot resting naturally flat on a clean dry fabric mat while the adult is seated. Show the complete top of the foot and toes with a small area of trouser cuff, a pair of plain slippers set to the side. Neutral educational framing, soft daylight and wide crop-safe margins. No face, children, intimate areas, suggestive framing, identity markers, injury, text or logos.\nPanel 2: AI-generated photorealistic neutral everyday care close-up of one fictional anonymous adult foot during a seated sock-dressing pause. A plain soft sock is only partly on near the heel, leaving the entire forefoot, toes and most of the top of the foot clearly visible. Foot rests on a dry low mat, trouser cuff visible, ample framing margins and soft room light. No children, face, intimate parts, suggestive pose, identifying marks, injury, text or branding.\nPanel 3: AI-generated photorealistic neutral side-view photograph of one complete fictional anonymous adult foot resting on a low padded footrest beside a lounge chair. Heel, arch, forefoot and toes are fully visible in side profile, with a small trouser cuff area and no other body parts. Ordinary non-suggestive educational framing, soft daylight, realistic skin and cloth, generous crop-safe margins. No children, identity, intimate areas, injuries, text or logos.\nPanel 4: AI-generated photorealistic neutral everyday photograph of one complete fictional anonymous adult bare foot resting naturally on a flat dry rug near a plain pair of slippers. Show the foot from a gentle oblique top angle, all toes and heel in frame, seated posture indicated only by a trouser cuff. The foot stays central with wide margins and soft room light. No child, face, intimate areas, suggestive framing, walking stunt, injury, identifying marks or text.",
+    "reviewNotes": "Viewed compact preview: complete bare foot on dry woven rug with beige slippers nearby; foot with gray sock bunched around ankle/heel leaving forefoot and toes exposed; complete foot side profile on low padded footrest; complete bare foot from oblique top angle on flat rug beside blue slippers. Trouser cuffs only, neutral everyday framing. All foot targets stay inside crops. Sock bunching hides part of heel as expected; slipper pairs in panels1/4 extend to right outer edge and are partly clipped, not target feet. Heights425,429,432,426, none below400. No text or identity/health assessment.",
+    "cuts": [
+      445,
+      894,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "senses-foot-03-scene0",
+        "label": "靠椅旁低软垫上放松的成人脚侧面",
+        "image": "hanzi-images/realistic-v1/senses-foot-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "foot"
+  },
+  {
+    "id": "senses-foot-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-06_1795401312144_408d0516.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic ordinary care photograph of one fictional anonymous adult foot resting naturally flat on a clean dry fabric mat while the adult is seated. Show the complete top of the foot and toes with a small area of trouser cuff, a pair of plain slippers set to the side. Neutral educational framing, soft daylight and wide crop-safe margins. No face, children, intimate areas, suggestive framing, identity markers, injury, text or logos.\nPanel 2: AI-generated photorealistic neutral everyday care close-up of one fictional anonymous adult foot during a seated sock-dressing pause. A plain soft sock is only partly on near the heel, leaving the entire forefoot, toes and most of the top of the foot clearly visible. Foot rests on a dry low mat, trouser cuff visible, ample framing margins and soft room light. No children, face, intimate parts, suggestive pose, identifying marks, injury, text or branding.\nPanel 3: AI-generated photorealistic neutral side-view photograph of one complete fictional anonymous adult foot resting on a low padded footrest beside a lounge chair. Heel, arch, forefoot and toes are fully visible in side profile, with a small trouser cuff area and no other body parts. Ordinary non-suggestive educational framing, soft daylight, realistic skin and cloth, generous crop-safe margins. No children, identity, intimate areas, injuries, text or logos.\nPanel 4: AI-generated photorealistic neutral everyday photograph of one complete fictional anonymous adult bare foot resting naturally on a flat dry rug near a plain pair of slippers. Show the foot from a gentle oblique top angle, all toes and heel in frame, seated posture indicated only by a trouser cuff. The foot stays central with wide margins and soft room light. No child, face, intimate areas, suggestive framing, walking stunt, injury, identifying marks or text.",
+    "reviewNotes": "Viewed compact preview: complete bare foot on dry woven rug with beige slippers nearby; foot with gray sock bunched around ankle/heel leaving forefoot and toes exposed; complete foot side profile on low padded footrest; complete bare foot from oblique top angle on flat rug beside blue slippers. Trouser cuffs only, neutral everyday framing. All foot targets stay inside crops. Sock bunching hides part of heel as expected; slipper pairs in panels1/4 extend to right outer edge and are partly clipped, not target feet. Heights425,429,432,426, none below400. No text or identity/health assessment.",
+    "cuts": [
+      445,
+      894,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "senses-foot-04-scene0",
+        "label": "平整地毯上自然落放的成人脚和旁边的拖鞋",
+        "image": "hanzi-images/realistic-v1/senses-foot-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "foot"
+  },
+  {
+    "id": "senses-foot-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-07_1795401391516_3c41a2bd.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral educational top-view photograph of one complete fictional anonymous adult foot resting flat on a clean dry mat, with unworn plain sandals placed separately beside it. The entire top of the foot, heel and toes are clearly visible; the sole is not shown. Only a small trouser cuff appears, no other body parts. Soft daylight and ample crop-safe margins, no children, identity markers, suggestive framing, injury, text or branding.\nPanel 2: AI-generated photorealistic rear view of the complete head of a fictional anonymous adult seated beside a grooming table. Natural short hair shows the full crown and back of the head; a plain rounded comb lies unused in a tray to the side. Include only the head and a high clothed collar, all head edges well inside crop-safe margins in soft daylight. No child, identifiable face, intimate areas, forced pose, blades, text or branding.\nPanel 3: AI-generated photorealistic educational front view of the complete head of a fictional anonymous adult in a plain high-neck shirt, relaxed natural expression. An unworn wide-brim fabric hat rests on a nearby shelf, separate from the head so the entire crown, face and ears remain visible. Soft indoor daylight, ordinary features with no resemblance to a real person, generous crop-safe margins. No children, personal identity, intimate areas, direct sun, text or logos.\nPanel 4: AI-generated photorealistic educational side view of the whole head of a fictional anonymous adult naturally seated upright beside a padded chair back. Entire crown, ear, profile and chin are visible within generous margins, plain high clothed collar, relaxed expression and soft diffuse room light. Ordinary invented features with no real-person resemblance. No child, identity information, forced head tilt, intimate areas, medical devices, letters or logos.",
+    "reviewNotes": "Viewed compact preview: foot top view beside separate unworn beige sandals; short-haired adult head rear view with unused comb in tray on table; complete adult head front view with separate fabric brimmed hat on shelf; whole head side profile beside padded chair. Foot and head referents are readable, no sole shown in foot panel. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-01 and senses-head-02; most crown, back/head shape, and facial oval remain visible, but requested8percent upper padding is not achieved. Scene descriptions and head-02 photo label/application were corrected to avoid claiming a completely framed crown; learning/game semantics are unchanged. Hat approaches right edge. Heights422,433,429,428, none below400. No visible text or identity assessment.",
+    "cuts": [
+      442,
+      895,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "senses-foot-05-scene0",
+        "label": "凉鞋旁完整可见脚背的成人脚",
+        "image": "hanzi-images/realistic-v1/senses-foot-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "foot"
+  },
+  {
+    "id": "senses-head-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-07_1795401391516_3c41a2bd.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral educational top-view photograph of one complete fictional anonymous adult foot resting flat on a clean dry mat, with unworn plain sandals placed separately beside it. The entire top of the foot, heel and toes are clearly visible; the sole is not shown. Only a small trouser cuff appears, no other body parts. Soft daylight and ample crop-safe margins, no children, identity markers, suggestive framing, injury, text or branding.\nPanel 2: AI-generated photorealistic rear view of the complete head of a fictional anonymous adult seated beside a grooming table. Natural short hair shows the full crown and back of the head; a plain rounded comb lies unused in a tray to the side. Include only the head and a high clothed collar, all head edges well inside crop-safe margins in soft daylight. No child, identifiable face, intimate areas, forced pose, blades, text or branding.\nPanel 3: AI-generated photorealistic educational front view of the complete head of a fictional anonymous adult in a plain high-neck shirt, relaxed natural expression. An unworn wide-brim fabric hat rests on a nearby shelf, separate from the head so the entire crown, face and ears remain visible. Soft indoor daylight, ordinary features with no resemblance to a real person, generous crop-safe margins. No children, personal identity, intimate areas, direct sun, text or logos.\nPanel 4: AI-generated photorealistic educational side view of the whole head of a fictional anonymous adult naturally seated upright beside a padded chair back. Entire crown, ear, profile and chin are visible within generous margins, plain high clothed collar, relaxed expression and soft diffuse room light. Ordinary invented features with no real-person resemblance. No child, identity information, forced head tilt, intimate areas, medical devices, letters or logos.",
+    "reviewNotes": "Viewed compact preview: foot top view beside separate unworn beige sandals; short-haired adult head rear view with unused comb in tray on table; complete adult head front view with separate fabric brimmed hat on shelf; whole head side profile beside padded chair. Foot and head referents are readable, no sole shown in foot panel. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-01 and senses-head-02; most crown, back/head shape, and facial oval remain visible, but requested8percent upper padding is not achieved. Scene descriptions and head-02 photo label/application were corrected to avoid claiming a completely framed crown; learning/game semantics are unchanged. Hat approaches right edge. Heights422,433,429,428, none below400. No visible text or identity assessment.",
+    "cuts": [
+      442,
+      895,
+      1344
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 452,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "senses-head-01-scene0",
+        "label": "梳子托盘旁清楚可见后脑和头顶的成人头部",
+        "image": "hanzi-images/realistic-v1/senses-head-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "head"
+  },
+  {
+    "id": "senses-head-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-07_1795401391516_3c41a2bd.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral educational top-view photograph of one complete fictional anonymous adult foot resting flat on a clean dry mat, with unworn plain sandals placed separately beside it. The entire top of the foot, heel and toes are clearly visible; the sole is not shown. Only a small trouser cuff appears, no other body parts. Soft daylight and ample crop-safe margins, no children, identity markers, suggestive framing, injury, text or branding.\nPanel 2: AI-generated photorealistic rear view of the complete head of a fictional anonymous adult seated beside a grooming table. Natural short hair shows the full crown and back of the head; a plain rounded comb lies unused in a tray to the side. Include only the head and a high clothed collar, all head edges well inside crop-safe margins in soft daylight. No child, identifiable face, intimate areas, forced pose, blades, text or branding.\nPanel 3: AI-generated photorealistic educational front view of the complete head of a fictional anonymous adult in a plain high-neck shirt, relaxed natural expression. An unworn wide-brim fabric hat rests on a nearby shelf, separate from the head so the entire crown, face and ears remain visible. Soft indoor daylight, ordinary features with no resemblance to a real person, generous crop-safe margins. No children, personal identity, intimate areas, direct sun, text or logos.\nPanel 4: AI-generated photorealistic educational side view of the whole head of a fictional anonymous adult naturally seated upright beside a padded chair back. Entire crown, ear, profile and chin are visible within generous margins, plain high clothed collar, relaxed expression and soft diffuse room light. Ordinary invented features with no real-person resemblance. No child, identity information, forced head tilt, intimate areas, medical devices, letters or logos.",
+    "reviewNotes": "Viewed compact preview: foot top view beside separate unworn beige sandals; short-haired adult head rear view with unused comb in tray on table; complete adult head front view with separate fabric brimmed hat on shelf; whole head side profile beside padded chair. Foot and head referents are readable, no sole shown in foot panel. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-01 and senses-head-02; most crown, back/head shape, and facial oval remain visible, but requested8percent upper padding is not achieved. Scene descriptions and head-02 photo label/application were corrected to avoid claiming a completely framed crown; learning/game semantics are unchanged. Hat approaches right edge. Heights422,433,429,428, none below400. No visible text or identity assessment.",
+    "cuts": [
+      442,
+      895,
+      1344
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-head-02-scene0",
+        "label": "布帽旁露出头顶的成人头部正面",
+        "image": "hanzi-images/realistic-v1/senses-head-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "head"
+  },
+  {
+    "id": "senses-head-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-07_1795401391516_3c41a2bd.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral educational top-view photograph of one complete fictional anonymous adult foot resting flat on a clean dry mat, with unworn plain sandals placed separately beside it. The entire top of the foot, heel and toes are clearly visible; the sole is not shown. Only a small trouser cuff appears, no other body parts. Soft daylight and ample crop-safe margins, no children, identity markers, suggestive framing, injury, text or branding.\nPanel 2: AI-generated photorealistic rear view of the complete head of a fictional anonymous adult seated beside a grooming table. Natural short hair shows the full crown and back of the head; a plain rounded comb lies unused in a tray to the side. Include only the head and a high clothed collar, all head edges well inside crop-safe margins in soft daylight. No child, identifiable face, intimate areas, forced pose, blades, text or branding.\nPanel 3: AI-generated photorealistic educational front view of the complete head of a fictional anonymous adult in a plain high-neck shirt, relaxed natural expression. An unworn wide-brim fabric hat rests on a nearby shelf, separate from the head so the entire crown, face and ears remain visible. Soft indoor daylight, ordinary features with no resemblance to a real person, generous crop-safe margins. No children, personal identity, intimate areas, direct sun, text or logos.\nPanel 4: AI-generated photorealistic educational side view of the whole head of a fictional anonymous adult naturally seated upright beside a padded chair back. Entire crown, ear, profile and chin are visible within generous margins, plain high clothed collar, relaxed expression and soft diffuse room light. Ordinary invented features with no real-person resemblance. No child, identity information, forced head tilt, intimate areas, medical devices, letters or logos.",
+    "reviewNotes": "Viewed compact preview: foot top view beside separate unworn beige sandals; short-haired adult head rear view with unused comb in tray on table; complete adult head front view with separate fabric brimmed hat on shelf; whole head side profile beside padded chair. Foot and head referents are readable, no sole shown in foot panel. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-01 and senses-head-02; most crown, back/head shape, and facial oval remain visible, but requested8percent upper padding is not achieved. Scene descriptions and head-02 photo label/application were corrected to avoid claiming a completely framed crown; learning/game semantics are unchanged. Hat approaches right edge. Heights422,433,429,428, none below400. No visible text or identity assessment.",
+    "cuts": [
+      442,
+      895,
+      1344
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1354,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "senses-head-03-scene0",
+        "label": "靠椅旁自然坐稳的成人头部侧面",
+        "image": "hanzi-images/realistic-v1/senses-head-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "head"
+  },
+  {
+    "id": "senses-head-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-08_1795401478490_5621538f.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral care rear view of a fictional anonymous adult head while an adult hand gently pats one lower side of the hair with a clean cream towel. The whole crown and back-of-head outline remain plainly visible, not wrapped or hidden by the towel. Show a high clothed collar only, ordinary hair texture, soft indoor light and wide margins. No child, identifiable face, intimate parts, bath setting, electrical dryer, text or logos.\nPanel 2: Photorealistic AI-generated still-life of one enlarged anatomical incisor teaching model standing on a plain white stable base. The model is clean molded off-white resin, with a credible broad incisor crown and simplified intact root, wholly visible with generous margins on a beige classroom table. Clearly an educational manufactured object, not a real extracted tooth or tissue. Soft daylight, no people, blood, disease, surgical tools, letters, labels, logos or watermark.\nPanel 3: Photorealistic AI-generated still-life of a clean anatomical dental jaw teaching model on a stable plain tray, with the white molded teeth clearly visible in orderly upper and lower rows. An unused soft-bristle toothbrush lies separately beside the model without touching it. Credible manufactured matte resin and pale pink synthetic gum material, full model within wide margins, gentle indoor light. No people, real tissue, extracted teeth, blood, surgical instruments, text, logos or watermark.\nPanel 4: Photorealistic AI-generated still-life of a single enlarged anatomical incisor teaching model lying on a plain pale blue display pad. Its complete broad crown and simplified intact root are visible from an oblique overhead view, clean off-white molded resin with a slight manufacturing seam. The model fills the central area with generous margins in soft classroom daylight. No people, real extracted tooth, tissue, injury, blood, dental tools, text, labels or branding.",
+    "reviewNotes": "Viewed compact preview: rear adult head with visible crown and towel held against lower right hair; one enlarged off-white broad-crowned incisor-shaped teaching model upright on white base; artificial dental jaw with upper/lower tooth rows and separate blue soft-bristle brush; one complete incisor-shaped model lying diagonally on blue display pad. Teeth are manufactured objects, no tissue/injury. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-04; most crown and back remain visible, towel naturally overlaps lower side, and collar continues below frame. Its sceneDescription was corrected to describe this tight crop without changing learning/game semantics. Tooth models complete and crop-safe; blue pad partly extends below frame. Heights426,430,418,438, none below400. Existing front/posterior-versus-whole-row tooth photo sorting fix remains untouched.",
+    "cuts": [
+      446,
+      896,
+      1334
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "senses-head-04-scene0",
+        "label": "干净毛巾旁轻轻擦头发的成人头部后面",
+        "image": "hanzi-images/realistic-v1/senses-head-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "head"
+  },
+  {
+    "id": "senses-tooth-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-08_1795401478490_5621538f.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral care rear view of a fictional anonymous adult head while an adult hand gently pats one lower side of the hair with a clean cream towel. The whole crown and back-of-head outline remain plainly visible, not wrapped or hidden by the towel. Show a high clothed collar only, ordinary hair texture, soft indoor light and wide margins. No child, identifiable face, intimate parts, bath setting, electrical dryer, text or logos.\nPanel 2: Photorealistic AI-generated still-life of one enlarged anatomical incisor teaching model standing on a plain white stable base. The model is clean molded off-white resin, with a credible broad incisor crown and simplified intact root, wholly visible with generous margins on a beige classroom table. Clearly an educational manufactured object, not a real extracted tooth or tissue. Soft daylight, no people, blood, disease, surgical tools, letters, labels, logos or watermark.\nPanel 3: Photorealistic AI-generated still-life of a clean anatomical dental jaw teaching model on a stable plain tray, with the white molded teeth clearly visible in orderly upper and lower rows. An unused soft-bristle toothbrush lies separately beside the model without touching it. Credible manufactured matte resin and pale pink synthetic gum material, full model within wide margins, gentle indoor light. No people, real tissue, extracted teeth, blood, surgical instruments, text, logos or watermark.\nPanel 4: Photorealistic AI-generated still-life of a single enlarged anatomical incisor teaching model lying on a plain pale blue display pad. Its complete broad crown and simplified intact root are visible from an oblique overhead view, clean off-white molded resin with a slight manufacturing seam. The model fills the central area with generous margins in soft classroom daylight. No people, real extracted tooth, tissue, injury, blood, dental tools, text, labels or branding.",
+    "reviewNotes": "Viewed compact preview: rear adult head with visible crown and towel held against lower right hair; one enlarged off-white broad-crowned incisor-shaped teaching model upright on white base; artificial dental jaw with upper/lower tooth rows and separate blue soft-bristle brush; one complete incisor-shaped model lying diagonally on blue display pad. Teeth are manufactured objects, no tissue/injury. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-04; most crown and back remain visible, towel naturally overlaps lower side, and collar continues below frame. Its sceneDescription was corrected to describe this tight crop without changing learning/game semantics. Tooth models complete and crop-safe; blue pad partly extends below frame. Heights426,430,418,438, none below400. Existing front/posterior-versus-whole-row tooth photo sorting fix remains untouched.",
+    "cuts": [
+      446,
+      896,
+      1334
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "senses-tooth-01-scene0",
+        "label": "白底座上完整的放大前牙教学模型",
+        "image": "hanzi-images/realistic-v1/senses-tooth-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tooth"
+  },
+  {
+    "id": "senses-tooth-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-08_1795401478490_5621538f.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral care rear view of a fictional anonymous adult head while an adult hand gently pats one lower side of the hair with a clean cream towel. The whole crown and back-of-head outline remain plainly visible, not wrapped or hidden by the towel. Show a high clothed collar only, ordinary hair texture, soft indoor light and wide margins. No child, identifiable face, intimate parts, bath setting, electrical dryer, text or logos.\nPanel 2: Photorealistic AI-generated still-life of one enlarged anatomical incisor teaching model standing on a plain white stable base. The model is clean molded off-white resin, with a credible broad incisor crown and simplified intact root, wholly visible with generous margins on a beige classroom table. Clearly an educational manufactured object, not a real extracted tooth or tissue. Soft daylight, no people, blood, disease, surgical tools, letters, labels, logos or watermark.\nPanel 3: Photorealistic AI-generated still-life of a clean anatomical dental jaw teaching model on a stable plain tray, with the white molded teeth clearly visible in orderly upper and lower rows. An unused soft-bristle toothbrush lies separately beside the model without touching it. Credible manufactured matte resin and pale pink synthetic gum material, full model within wide margins, gentle indoor light. No people, real tissue, extracted teeth, blood, surgical instruments, text, logos or watermark.\nPanel 4: Photorealistic AI-generated still-life of a single enlarged anatomical incisor teaching model lying on a plain pale blue display pad. Its complete broad crown and simplified intact root are visible from an oblique overhead view, clean off-white molded resin with a slight manufacturing seam. The model fills the central area with generous margins in soft classroom daylight. No people, real extracted tooth, tissue, injury, blood, dental tools, text, labels or branding.",
+    "reviewNotes": "Viewed compact preview: rear adult head with visible crown and towel held against lower right hair; one enlarged off-white broad-crowned incisor-shaped teaching model upright on white base; artificial dental jaw with upper/lower tooth rows and separate blue soft-bristle brush; one complete incisor-shaped model lying diagonally on blue display pad. Teeth are manufactured objects, no tissue/injury. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-04; most crown and back remain visible, towel naturally overlaps lower side, and collar continues below frame. Its sceneDescription was corrected to describe this tight crop without changing learning/game semantics. Tooth models complete and crop-safe; blue pad partly extends below frame. Heights426,430,418,438, none below400. Existing front/posterior-versus-whole-row tooth photo sorting fix remains untouched.",
+    "cuts": [
+      446,
+      896,
+      1334
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "senses-tooth-02-scene0",
+        "label": "软毛牙刷旁清楚可见整排牙的牙齿教学模型",
+        "image": "hanzi-images/realistic-v1/senses-tooth-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tooth"
+  },
+  {
+    "id": "senses-tooth-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-08_1795401478490_5621538f.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic neutral care rear view of a fictional anonymous adult head while an adult hand gently pats one lower side of the hair with a clean cream towel. The whole crown and back-of-head outline remain plainly visible, not wrapped or hidden by the towel. Show a high clothed collar only, ordinary hair texture, soft indoor light and wide margins. No child, identifiable face, intimate parts, bath setting, electrical dryer, text or logos.\nPanel 2: Photorealistic AI-generated still-life of one enlarged anatomical incisor teaching model standing on a plain white stable base. The model is clean molded off-white resin, with a credible broad incisor crown and simplified intact root, wholly visible with generous margins on a beige classroom table. Clearly an educational manufactured object, not a real extracted tooth or tissue. Soft daylight, no people, blood, disease, surgical tools, letters, labels, logos or watermark.\nPanel 3: Photorealistic AI-generated still-life of a clean anatomical dental jaw teaching model on a stable plain tray, with the white molded teeth clearly visible in orderly upper and lower rows. An unused soft-bristle toothbrush lies separately beside the model without touching it. Credible manufactured matte resin and pale pink synthetic gum material, full model within wide margins, gentle indoor light. No people, real tissue, extracted teeth, blood, surgical instruments, text, logos or watermark.\nPanel 4: Photorealistic AI-generated still-life of a single enlarged anatomical incisor teaching model lying on a plain pale blue display pad. Its complete broad crown and simplified intact root are visible from an oblique overhead view, clean off-white molded resin with a slight manufacturing seam. The model fills the central area with generous margins in soft classroom daylight. No people, real extracted tooth, tissue, injury, blood, dental tools, text, labels or branding.",
+    "reviewNotes": "Viewed compact preview: rear adult head with visible crown and towel held against lower right hair; one enlarged off-white broad-crowned incisor-shaped teaching model upright on white base; artificial dental jaw with upper/lower tooth rows and separate blue soft-bristle brush; one complete incisor-shaped model lying diagonally on blue display pad. Teeth are manufactured objects, no tissue/injury. Final exported JPEG inspection reveals slight uppermost hair-tip trimming in senses-head-04; most crown and back remain visible, towel naturally overlaps lower side, and collar continues below frame. Its sceneDescription was corrected to describe this tight crop without changing learning/game semantics. Tooth models complete and crop-safe; blue pad partly extends below frame. Heights426,430,418,438, none below400. Existing front/posterior-versus-whole-row tooth photo sorting fix remains untouched.",
+    "cuts": [
+      446,
+      896,
+      1334
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1344,
+      "width": 1008,
+      "height": 438
+    },
+    "contexts": [
+      {
+        "id": "senses-tooth-03-scene0",
+        "label": "浅蓝垫上完整的单颗前牙教学模型",
+        "image": "hanzi-images/realistic-v1/senses-tooth-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tooth"
+  },
+  {
+    "id": "senses-tooth-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-09_1795401565730_e071c374.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical dental jaw teaching model under a clear acrylic display cover on a stable museum-style shelf. Orderly white resin upper and lower teeth and pale pink manufactured gum shapes are clearly visible through the clean cover, soft reflections do not obscure the model. Full model and cover within generous crop-safe margins, diffuse light. No people, real tissue, extracted teeth, blood, decay, surgical tools, text, labels or logos.\nPanel 2: Photorealistic AI-generated still-life of the front view of a complete anatomical human heart teaching model on a plain stable base on a beige classroom table. Credible rounded asymmetric anatomical shape, molded muted red resin with simplified blue vessel details and visible manufactured texture, not a symbolic love-heart icon. Entire model and base within wide crop-safe margins, diffuse daylight. No people, real organ, tissue, blood, surgery, open body, text, labels or logos.\nPanel 3: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model standing on a broad stable base on a low clean wooden display shelf. Show a credible asymmetric heart shape with molded muted red and blue educational vessel details, manufactured matte resin rather than living tissue. Clear empty space surrounds the whole model, soft indoor light and generous framing margins. No people, love-heart icon, real organ, blood, surgery, open body, written labels, text or branding.\nPanel 4: Photorealistic AI-generated oblique side-view still-life of a complete anatomical human heart teaching model mounted upright on a stable base in a plain gray tray, with an unmarked blank card lying separately nearby. Credible asymmetric anatomy in clean molded muted red and blue resin, all major model edges visible and generous crop-safe margins. Soft studio daylight, manufactured object clearly distinguishable from tissue. No people, symbolic love-heart, real organ, blood, surgery, text, labels or logos.",
+    "reviewNotes": "Viewed compact preview: complete artificial dental jaw/upper-lower tooth rows under clear acrylic box on shelf; front-facing anatomical heart teaching model on white base on beige table; anatomical heart model on broad dark base on wooden shelf; oblique-side heart model on white base in gray tray beside blank card. Models have visible molded/resin appearance and red/blue vessel details, not love-heart icons or tissue. Complete model targets and bases survive crops. Heart vessel tips close to top margins; no legible text. Dental cover crop senses-tooth-04 is1008x397, honestly below400 but above300; remaining heights429,408,478. No upscaling.",
+    "cuts": [
+      417,
+      866,
+      1294
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 397
+    },
+    "contexts": [
+      {
+        "id": "senses-tooth-04-scene0",
+        "label": "透明展示罩里清楚可见整排牙的牙齿教学模型",
+        "image": "hanzi-images/realistic-v1/senses-tooth-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tooth"
+  },
+  {
+    "id": "senses-heart-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-09_1795401565730_e071c374.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical dental jaw teaching model under a clear acrylic display cover on a stable museum-style shelf. Orderly white resin upper and lower teeth and pale pink manufactured gum shapes are clearly visible through the clean cover, soft reflections do not obscure the model. Full model and cover within generous crop-safe margins, diffuse light. No people, real tissue, extracted teeth, blood, decay, surgical tools, text, labels or logos.\nPanel 2: Photorealistic AI-generated still-life of the front view of a complete anatomical human heart teaching model on a plain stable base on a beige classroom table. Credible rounded asymmetric anatomical shape, molded muted red resin with simplified blue vessel details and visible manufactured texture, not a symbolic love-heart icon. Entire model and base within wide crop-safe margins, diffuse daylight. No people, real organ, tissue, blood, surgery, open body, text, labels or logos.\nPanel 3: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model standing on a broad stable base on a low clean wooden display shelf. Show a credible asymmetric heart shape with molded muted red and blue educational vessel details, manufactured matte resin rather than living tissue. Clear empty space surrounds the whole model, soft indoor light and generous framing margins. No people, love-heart icon, real organ, blood, surgery, open body, written labels, text or branding.\nPanel 4: Photorealistic AI-generated oblique side-view still-life of a complete anatomical human heart teaching model mounted upright on a stable base in a plain gray tray, with an unmarked blank card lying separately nearby. Credible asymmetric anatomy in clean molded muted red and blue resin, all major model edges visible and generous crop-safe margins. Soft studio daylight, manufactured object clearly distinguishable from tissue. No people, symbolic love-heart, real organ, blood, surgery, text, labels or logos.",
+    "reviewNotes": "Viewed compact preview: complete artificial dental jaw/upper-lower tooth rows under clear acrylic box on shelf; front-facing anatomical heart teaching model on white base on beige table; anatomical heart model on broad dark base on wooden shelf; oblique-side heart model on white base in gray tray beside blank card. Models have visible molded/resin appearance and red/blue vessel details, not love-heart icons or tissue. Complete model targets and bases survive crops. Heart vessel tips close to top margins; no legible text. Dental cover crop senses-tooth-04 is1008x397, honestly below400 but above300; remaining heights429,408,478. No upscaling.",
+    "cuts": [
+      417,
+      866,
+      1294
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 427,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-heart-01-scene0",
+        "label": "米色桌面上带底座的人体心脏教学模型正面",
+        "image": "hanzi-images/realistic-v1/senses-heart-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "heart"
+  },
+  {
+    "id": "senses-heart-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-09_1795401565730_e071c374.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical dental jaw teaching model under a clear acrylic display cover on a stable museum-style shelf. Orderly white resin upper and lower teeth and pale pink manufactured gum shapes are clearly visible through the clean cover, soft reflections do not obscure the model. Full model and cover within generous crop-safe margins, diffuse light. No people, real tissue, extracted teeth, blood, decay, surgical tools, text, labels or logos.\nPanel 2: Photorealistic AI-generated still-life of the front view of a complete anatomical human heart teaching model on a plain stable base on a beige classroom table. Credible rounded asymmetric anatomical shape, molded muted red resin with simplified blue vessel details and visible manufactured texture, not a symbolic love-heart icon. Entire model and base within wide crop-safe margins, diffuse daylight. No people, real organ, tissue, blood, surgery, open body, text, labels or logos.\nPanel 3: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model standing on a broad stable base on a low clean wooden display shelf. Show a credible asymmetric heart shape with molded muted red and blue educational vessel details, manufactured matte resin rather than living tissue. Clear empty space surrounds the whole model, soft indoor light and generous framing margins. No people, love-heart icon, real organ, blood, surgery, open body, written labels, text or branding.\nPanel 4: Photorealistic AI-generated oblique side-view still-life of a complete anatomical human heart teaching model mounted upright on a stable base in a plain gray tray, with an unmarked blank card lying separately nearby. Credible asymmetric anatomy in clean molded muted red and blue resin, all major model edges visible and generous crop-safe margins. Soft studio daylight, manufactured object clearly distinguishable from tissue. No people, symbolic love-heart, real organ, blood, surgery, text, labels or logos.",
+    "reviewNotes": "Viewed compact preview: complete artificial dental jaw/upper-lower tooth rows under clear acrylic box on shelf; front-facing anatomical heart teaching model on white base on beige table; anatomical heart model on broad dark base on wooden shelf; oblique-side heart model on white base in gray tray beside blank card. Models have visible molded/resin appearance and red/blue vessel details, not love-heart icons or tissue. Complete model targets and bases survive crops. Heart vessel tips close to top margins; no legible text. Dental cover crop senses-tooth-04 is1008x397, honestly below400 but above300; remaining heights429,408,478. No upscaling.",
+    "cuts": [
+      417,
+      866,
+      1294
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 876,
+      "width": 1008,
+      "height": 408
+    },
+    "contexts": [
+      {
+        "id": "senses-heart-02-scene0",
+        "label": "低展示架上完整的人体心脏教学模型",
+        "image": "hanzi-images/realistic-v1/senses-heart-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "heart"
+  },
+  {
+    "id": "senses-heart-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-09_1795401565730_e071c374.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical dental jaw teaching model under a clear acrylic display cover on a stable museum-style shelf. Orderly white resin upper and lower teeth and pale pink manufactured gum shapes are clearly visible through the clean cover, soft reflections do not obscure the model. Full model and cover within generous crop-safe margins, diffuse light. No people, real tissue, extracted teeth, blood, decay, surgical tools, text, labels or logos.\nPanel 2: Photorealistic AI-generated still-life of the front view of a complete anatomical human heart teaching model on a plain stable base on a beige classroom table. Credible rounded asymmetric anatomical shape, molded muted red resin with simplified blue vessel details and visible manufactured texture, not a symbolic love-heart icon. Entire model and base within wide crop-safe margins, diffuse daylight. No people, real organ, tissue, blood, surgery, open body, text, labels or logos.\nPanel 3: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model standing on a broad stable base on a low clean wooden display shelf. Show a credible asymmetric heart shape with molded muted red and blue educational vessel details, manufactured matte resin rather than living tissue. Clear empty space surrounds the whole model, soft indoor light and generous framing margins. No people, love-heart icon, real organ, blood, surgery, open body, written labels, text or branding.\nPanel 4: Photorealistic AI-generated oblique side-view still-life of a complete anatomical human heart teaching model mounted upright on a stable base in a plain gray tray, with an unmarked blank card lying separately nearby. Credible asymmetric anatomy in clean molded muted red and blue resin, all major model edges visible and generous crop-safe margins. Soft studio daylight, manufactured object clearly distinguishable from tissue. No people, symbolic love-heart, real organ, blood, surgery, text, labels or logos.",
+    "reviewNotes": "Viewed compact preview: complete artificial dental jaw/upper-lower tooth rows under clear acrylic box on shelf; front-facing anatomical heart teaching model on white base on beige table; anatomical heart model on broad dark base on wooden shelf; oblique-side heart model on white base in gray tray beside blank card. Models have visible molded/resin appearance and red/blue vessel details, not love-heart icons or tissue. Complete model targets and bases survive crops. Heart vessel tips close to top margins; no legible text. Dental cover crop senses-tooth-04 is1008x397, honestly below400 but above300; remaining heights429,408,478. No upscaling.",
+    "cuts": [
+      417,
+      866,
+      1294
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1304,
+      "width": 1008,
+      "height": 478
+    },
+    "contexts": [
+      {
+        "id": "senses-heart-03-scene0",
+        "label": "灰底托盘上人体心脏教学模型的斜侧面",
+        "image": "hanzi-images/realistic-v1/senses-heart-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "heart"
+  },
+  {
+    "id": "senses-heart-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-10_1795401649320_196e13cf.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model inside a clear acrylic display cover on a stable classroom reading-corner table. The asymmetric molded red-and-blue resin heart and its plain base remain clearly visible through soft unobtrusive reflections; a closed unmarked book rests separately beside the cover. Entire model and cover within generous margins. No people, love-heart icon, real tissue, organ specimen, blood, surgery, open body, written words or branding.\nPanel 2: AI-generated photorealistic educational front portrait of a fictional anonymous adult with a relaxed neutral face in diffuse indoor window light. Full facial oval, eyes, nose and mouth clearly visible with generous margins, plain high-neck clothing and softly blurred closed window behind. Invented ordinary features, no resemblance to a real individual, no identity information. No children, intimate areas, forced expression, beauty filters, direct sunlight, letters, logos or watermark.\nPanel 3: AI-generated photorealistic educational portrait of a fictional anonymous adult with a slight natural smile, face turned gently three-quarter toward the camera against a soft gray studio wall. Entire facial outline, both eyes, nose and mouth are visible, plain high-neck shirt, natural skin texture and diffuse light, wide crop-safe margins. Ordinary invented features with no real-person likeness or identity. No children, forced expression, intimate parts, personal accessories, letters, logos or watermark.\nPanel 4: AI-generated photorealistic neutral care portrait of a fictional anonymous adult with the entire relaxed face clearly visible beside a clean folded cotton face towel on a washbasin shelf. The towel remains separate and does not hide the face; tap turned off, plain high-neck clothing, ordinary skin and soft indoor light with ample crop-safe margins. No real-person likeness, children, intimate parts, bath exposure, forced expression, cosmetic claims, written words or branding.",
+    "reviewNotes": "Viewed compact preview: red/blue anatomical heart model and full white base inside clear display box with separate closed green book; neutral adult face front view beside closed window; slightly three-quarter adult face with slight smile against gray wall; neutral adult face beside separate folded white cotton towel on inactive washbasin shelf. Full faces/eyes/nose/mouth and heart model are visible. Portrait hair crowns close to upper boundaries but facial ovals are complete; basin edge and right faucet are partial background, towel fully shown. No visible text/identity or health inference. Heights426,429,428,429, none below400.",
+    "cuts": [
+      446,
+      895,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "senses-heart-04-scene0",
+        "label": "透明展示罩里完整的人体心脏教学模型",
+        "image": "hanzi-images/realistic-v1/senses-heart-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "heart"
+  },
+  {
+    "id": "senses-face-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-10_1795401649320_196e13cf.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model inside a clear acrylic display cover on a stable classroom reading-corner table. The asymmetric molded red-and-blue resin heart and its plain base remain clearly visible through soft unobtrusive reflections; a closed unmarked book rests separately beside the cover. Entire model and cover within generous margins. No people, love-heart icon, real tissue, organ specimen, blood, surgery, open body, written words or branding.\nPanel 2: AI-generated photorealistic educational front portrait of a fictional anonymous adult with a relaxed neutral face in diffuse indoor window light. Full facial oval, eyes, nose and mouth clearly visible with generous margins, plain high-neck clothing and softly blurred closed window behind. Invented ordinary features, no resemblance to a real individual, no identity information. No children, intimate areas, forced expression, beauty filters, direct sunlight, letters, logos or watermark.\nPanel 3: AI-generated photorealistic educational portrait of a fictional anonymous adult with a slight natural smile, face turned gently three-quarter toward the camera against a soft gray studio wall. Entire facial outline, both eyes, nose and mouth are visible, plain high-neck shirt, natural skin texture and diffuse light, wide crop-safe margins. Ordinary invented features with no real-person likeness or identity. No children, forced expression, intimate parts, personal accessories, letters, logos or watermark.\nPanel 4: AI-generated photorealistic neutral care portrait of a fictional anonymous adult with the entire relaxed face clearly visible beside a clean folded cotton face towel on a washbasin shelf. The towel remains separate and does not hide the face; tap turned off, plain high-neck clothing, ordinary skin and soft indoor light with ample crop-safe margins. No real-person likeness, children, intimate parts, bath exposure, forced expression, cosmetic claims, written words or branding.",
+    "reviewNotes": "Viewed compact preview: red/blue anatomical heart model and full white base inside clear display box with separate closed green book; neutral adult face front view beside closed window; slightly three-quarter adult face with slight smile against gray wall; neutral adult face beside separate folded white cotton towel on inactive washbasin shelf. Full faces/eyes/nose/mouth and heart model are visible. Portrait hair crowns close to upper boundaries but facial ovals are complete; basin edge and right faucet are partial background, towel fully shown. No visible text/identity or health inference. Heights426,429,428,429, none below400.",
+    "cuts": [
+      446,
+      895,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-face-01-scene0",
+        "label": "室内柔光下表情自然的虚构成人脸部正面",
+        "image": "hanzi-images/realistic-v1/senses-face-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "face"
+  },
+  {
+    "id": "senses-face-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-10_1795401649320_196e13cf.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model inside a clear acrylic display cover on a stable classroom reading-corner table. The asymmetric molded red-and-blue resin heart and its plain base remain clearly visible through soft unobtrusive reflections; a closed unmarked book rests separately beside the cover. Entire model and cover within generous margins. No people, love-heart icon, real tissue, organ specimen, blood, surgery, open body, written words or branding.\nPanel 2: AI-generated photorealistic educational front portrait of a fictional anonymous adult with a relaxed neutral face in diffuse indoor window light. Full facial oval, eyes, nose and mouth clearly visible with generous margins, plain high-neck clothing and softly blurred closed window behind. Invented ordinary features, no resemblance to a real individual, no identity information. No children, intimate areas, forced expression, beauty filters, direct sunlight, letters, logos or watermark.\nPanel 3: AI-generated photorealistic educational portrait of a fictional anonymous adult with a slight natural smile, face turned gently three-quarter toward the camera against a soft gray studio wall. Entire facial outline, both eyes, nose and mouth are visible, plain high-neck shirt, natural skin texture and diffuse light, wide crop-safe margins. Ordinary invented features with no real-person likeness or identity. No children, forced expression, intimate parts, personal accessories, letters, logos or watermark.\nPanel 4: AI-generated photorealistic neutral care portrait of a fictional anonymous adult with the entire relaxed face clearly visible beside a clean folded cotton face towel on a washbasin shelf. The towel remains separate and does not hide the face; tap turned off, plain high-neck clothing, ordinary skin and soft indoor light with ample crop-safe margins. No real-person likeness, children, intimate parts, bath exposure, forced expression, cosmetic claims, written words or branding.",
+    "reviewNotes": "Viewed compact preview: red/blue anatomical heart model and full white base inside clear display box with separate closed green book; neutral adult face front view beside closed window; slightly three-quarter adult face with slight smile against gray wall; neutral adult face beside separate folded white cotton towel on inactive washbasin shelf. Full faces/eyes/nose/mouth and heart model are visible. Portrait hair crowns close to upper boundaries but facial ovals are complete; basin edge and right faucet are partial background, towel fully shown. No visible text/identity or health inference. Heights426,429,428,429, none below400.",
+    "cuts": [
+      446,
+      895,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "senses-face-02-scene0",
+        "label": "灰墙前略微侧向自然微笑的虚构成人脸",
+        "image": "hanzi-images/realistic-v1/senses-face-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "face"
+  },
+  {
+    "id": "senses-face-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-10_1795401649320_196e13cf.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: Photorealistic AI-generated still-life of a complete anatomical human heart teaching model inside a clear acrylic display cover on a stable classroom reading-corner table. The asymmetric molded red-and-blue resin heart and its plain base remain clearly visible through soft unobtrusive reflections; a closed unmarked book rests separately beside the cover. Entire model and cover within generous margins. No people, love-heart icon, real tissue, organ specimen, blood, surgery, open body, written words or branding.\nPanel 2: AI-generated photorealistic educational front portrait of a fictional anonymous adult with a relaxed neutral face in diffuse indoor window light. Full facial oval, eyes, nose and mouth clearly visible with generous margins, plain high-neck clothing and softly blurred closed window behind. Invented ordinary features, no resemblance to a real individual, no identity information. No children, intimate areas, forced expression, beauty filters, direct sunlight, letters, logos or watermark.\nPanel 3: AI-generated photorealistic educational portrait of a fictional anonymous adult with a slight natural smile, face turned gently three-quarter toward the camera against a soft gray studio wall. Entire facial outline, both eyes, nose and mouth are visible, plain high-neck shirt, natural skin texture and diffuse light, wide crop-safe margins. Ordinary invented features with no real-person likeness or identity. No children, forced expression, intimate parts, personal accessories, letters, logos or watermark.\nPanel 4: AI-generated photorealistic neutral care portrait of a fictional anonymous adult with the entire relaxed face clearly visible beside a clean folded cotton face towel on a washbasin shelf. The towel remains separate and does not hide the face; tap turned off, plain high-neck clothing, ordinary skin and soft indoor light with ample crop-safe margins. No real-person likeness, children, intimate parts, bath exposure, forced expression, cosmetic claims, written words or branding.",
+    "reviewNotes": "Viewed compact preview: red/blue anatomical heart model and full white base inside clear display box with separate closed green book; neutral adult face front view beside closed window; slightly three-quarter adult face with slight smile against gray wall; neutral adult face beside separate folded white cotton towel on inactive washbasin shelf. Full faces/eyes/nose/mouth and heart model are visible. Portrait hair crowns close to upper boundaries but facial ovals are complete; basin edge and right faucet are partial background, towel fully shown. No visible text/identity or health inference. Heights426,429,428,429, none below400.",
+    "cuts": [
+      446,
+      895,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "senses-face-03-scene0",
+        "label": "干净手巾旁表情自然的虚构成人脸部",
+        "image": "hanzi-images/realistic-v1/senses-face-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "face"
+  },
+  {
+    "id": "senses-face-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-senses-v3-11_1795401726499_a27f0d50.png",
+    "prompt": "Use case: AI photorealistic cover assets for a children's Hanzi learning playground, not documentary or archive images.\nLayout: One 1024x1792 image containing EXACTLY FOUR independent full-width realistic landscape photographs stacked vertically, each approximately 448 pixels high. Exactly three thin straight white horizontal seams, 4-6 pixels thick, near y=448, 896, 1344. No outer border, no vertical dividers, no inset images, no text, letters, numbers, captions, labels, logos or watermarks anywhere. Each subject and essential prop stays completely inside its own panel with at least 8 percent clear crop-safe margins on all sides. Frame compactly within each landscape panel without cutting off the specified subject. Photorealistic natural skin pores, cloth weave, wood grain and manufactured resin where appropriate; soft diffuse light, no cartoon, diagram or glossy CGI. All people are invented anonymous adults, never recognizable minors or real-person likenesses. No nudity, injury, invasive examination, identity inference or health diagnosis. Teaching models must be clearly artificial manufactured safe objects, never real tissue or specimens.\nFour separate photographs in this exact TOP TO BOTTOM order:\nPanel 1: AI-generated photorealistic educational front portrait of a fictional anonymous adult naturally resting beside a plain soft lounge cushion. Full face, eyes, nose, mouth and facial outline are visible, relaxed neutral expression, plain high-neck shirt, realistic skin detail, diffuse indoor light and generous crop-safe margins. Invented ordinary features with no real identifiable likeness. No children, intimate parts, sleep deprivation, forced expression, medical inference, text or logos.\nPanel 2: Unassigned neutral photograph: a clean folded cream cotton cloth resting alone on a beige wooden table in soft daylight, no people or text, full cloth inside generous margins.\nPanel 3: Unassigned neutral photograph: a plain closed unmarked blue book resting alone on a low pale wooden shelf in diffuse room light, no people or text, complete book inside generous margins.\nPanel 4: Unassigned neutral photograph: one plain soft gray cushion resting on an empty chair against a pale green wall in gentle indoor light, no people or text, full cushion inside generous margins.",
+    "reviewNotes": "Viewed compact preview: complete adult face front view beside gray lounge cushion, clothed high neck; folded cream cloth on wooden table; closed unmarked blue book on shelf; gray cushion on empty wood chair against pale green wall. Only panel1 is assigned to senses-face-04; final three neutral panels are deliberately unassigned. Face and neutral objects stay visible in measured crops, hair near top margin but complete facial oval. Chair continues below frame. Assigned crop1008x432. Unassigned crop heights422,381,477; blue-book neutral panel381 is below400, no JPEG assigned and no upscaling. No visible text or watermark.",
+    "cuts": [
+      452,
+      894,
+      1295
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "senses-face-04-scene0",
+        "label": "靠垫旁自然放松的虚构成人脸部正面",
+        "image": "hanzi-images/realistic-v1/senses-face-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "face"
+  }
+]

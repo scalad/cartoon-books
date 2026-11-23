@@ -1,0 +1,964 @@
+[
+  {
+    "id": "nature-water-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-01_1795399425866_a7e8e1a7.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Each occupies one equal quarter, about 448 pixels high. Exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a complete clear shallow puddle on a level woodland path after rain, reflecting green tree branches. Damp soil and fallen leaves surround its clearly visible full boundary, soft daylight.\nPanel 2: clear spring water visibly flowing as a narrow stream from a natural rock crevice into a small shallow basin. Show the water source, flowing stream, gentle ripples and complete basin centrally, dark wet stone and moss, shaded natural light.\nPanel 3: still transparent seawater in one complete shallow natural rock pool on a coastal rock platform. Clearly visible full rocky rim and smooth submerged stones, distant sea softly behind, calm daylight.\nPanel 4, bottom: macro landscape view of one broad green leaf holding several distinct rounded clear water droplets after rain, leaf and reflective droplets sharp against soft green foliage, diffuse daylight. Keep the entire main leaf visible.\nStyle: photorealistic camera photographs, authentic water reflections, natural textures and credible outdoor lighting, not illustration or CGI. Each main target wholly inside its own panel with at least 8 percent crop-safe margin on all sides. No people, animals, handling, drinking or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows a complete woodland puddle reflecting trees amid wet soil and leaves; second shows a narrow spring emerging between mossy rocks into a shallow clear basin; third shows a bounded coastal rock pool with submerged stones and sea behind; bottom shows a broad green leaf with rounded reflective droplets. All four targets visible and labels accurate; no people or text. AI-generated photorealistic imagery, not documentary photographs. Measured crop heights 416/435/427/434px, width 1008px; seams detected at 436/891/1338.",
+    "cuts": [
+      436,
+      891,
+      1338
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 416
+    },
+    "contexts": [
+      {
+        "id": "nature-water-01-scene0",
+        "label": "林间浅水洼里的水",
+        "image": "hanzi-images/realistic-v1/nature-water-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "nature-water-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-01_1795399425866_a7e8e1a7.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Each occupies one equal quarter, about 448 pixels high. Exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a complete clear shallow puddle on a level woodland path after rain, reflecting green tree branches. Damp soil and fallen leaves surround its clearly visible full boundary, soft daylight.\nPanel 2: clear spring water visibly flowing as a narrow stream from a natural rock crevice into a small shallow basin. Show the water source, flowing stream, gentle ripples and complete basin centrally, dark wet stone and moss, shaded natural light.\nPanel 3: still transparent seawater in one complete shallow natural rock pool on a coastal rock platform. Clearly visible full rocky rim and smooth submerged stones, distant sea softly behind, calm daylight.\nPanel 4, bottom: macro landscape view of one broad green leaf holding several distinct rounded clear water droplets after rain, leaf and reflective droplets sharp against soft green foliage, diffuse daylight. Keep the entire main leaf visible.\nStyle: photorealistic camera photographs, authentic water reflections, natural textures and credible outdoor lighting, not illustration or CGI. Each main target wholly inside its own panel with at least 8 percent crop-safe margin on all sides. No people, animals, handling, drinking or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows a complete woodland puddle reflecting trees amid wet soil and leaves; second shows a narrow spring emerging between mossy rocks into a shallow clear basin; third shows a bounded coastal rock pool with submerged stones and sea behind; bottom shows a broad green leaf with rounded reflective droplets. All four targets visible and labels accurate; no people or text. AI-generated photorealistic imagery, not documentary photographs. Measured crop heights 416/435/427/434px, width 1008px; seams detected at 436/891/1338.",
+    "cuts": [
+      436,
+      891,
+      1338
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 446,
+      "width": 1008,
+      "height": 435
+    },
+    "contexts": [
+      {
+        "id": "nature-water-02-scene0",
+        "label": "石缝里流出的山泉水",
+        "image": "hanzi-images/realistic-v1/nature-water-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "nature-water-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-01_1795399425866_a7e8e1a7.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Each occupies one equal quarter, about 448 pixels high. Exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a complete clear shallow puddle on a level woodland path after rain, reflecting green tree branches. Damp soil and fallen leaves surround its clearly visible full boundary, soft daylight.\nPanel 2: clear spring water visibly flowing as a narrow stream from a natural rock crevice into a small shallow basin. Show the water source, flowing stream, gentle ripples and complete basin centrally, dark wet stone and moss, shaded natural light.\nPanel 3: still transparent seawater in one complete shallow natural rock pool on a coastal rock platform. Clearly visible full rocky rim and smooth submerged stones, distant sea softly behind, calm daylight.\nPanel 4, bottom: macro landscape view of one broad green leaf holding several distinct rounded clear water droplets after rain, leaf and reflective droplets sharp against soft green foliage, diffuse daylight. Keep the entire main leaf visible.\nStyle: photorealistic camera photographs, authentic water reflections, natural textures and credible outdoor lighting, not illustration or CGI. Each main target wholly inside its own panel with at least 8 percent crop-safe margin on all sides. No people, animals, handling, drinking or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows a complete woodland puddle reflecting trees amid wet soil and leaves; second shows a narrow spring emerging between mossy rocks into a shallow clear basin; third shows a bounded coastal rock pool with submerged stones and sea behind; bottom shows a broad green leaf with rounded reflective droplets. All four targets visible and labels accurate; no people or text. AI-generated photorealistic imagery, not documentary photographs. Measured crop heights 416/435/427/434px, width 1008px; seams detected at 436/891/1338.",
+    "cuts": [
+      436,
+      891,
+      1338
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 901,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "nature-water-03-scene0",
+        "label": "海边岩石浅坑里的水",
+        "image": "hanzi-images/realistic-v1/nature-water-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "nature-water-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-01_1795399425866_a7e8e1a7.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Each occupies one equal quarter, about 448 pixels high. Exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a complete clear shallow puddle on a level woodland path after rain, reflecting green tree branches. Damp soil and fallen leaves surround its clearly visible full boundary, soft daylight.\nPanel 2: clear spring water visibly flowing as a narrow stream from a natural rock crevice into a small shallow basin. Show the water source, flowing stream, gentle ripples and complete basin centrally, dark wet stone and moss, shaded natural light.\nPanel 3: still transparent seawater in one complete shallow natural rock pool on a coastal rock platform. Clearly visible full rocky rim and smooth submerged stones, distant sea softly behind, calm daylight.\nPanel 4, bottom: macro landscape view of one broad green leaf holding several distinct rounded clear water droplets after rain, leaf and reflective droplets sharp against soft green foliage, diffuse daylight. Keep the entire main leaf visible.\nStyle: photorealistic camera photographs, authentic water reflections, natural textures and credible outdoor lighting, not illustration or CGI. Each main target wholly inside its own panel with at least 8 percent crop-safe margin on all sides. No people, animals, handling, drinking or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows a complete woodland puddle reflecting trees amid wet soil and leaves; second shows a narrow spring emerging between mossy rocks into a shallow clear basin; third shows a bounded coastal rock pool with submerged stones and sea behind; bottom shows a broad green leaf with rounded reflective droplets. All four targets visible and labels accurate; no people or text. AI-generated photorealistic imagery, not documentary photographs. Measured crop heights 416/435/427/434px, width 1008px; seams detected at 436/891/1338.",
+    "cuts": [
+      436,
+      891,
+      1338
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1348,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "nature-water-04-scene0",
+        "label": "宽叶表面聚着的水",
+        "image": "hanzi-images/realistic-v1/nature-water-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "nature-mountain-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-02_1795399518812_a68c9ca5.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: several steep green karst mountains rising distinctly from a flat valley. Complete central limestone peaks with textured exposed rock and vegetation, level foreground, pale morning haze separating their silhouettes.\nPanel 2: one broad red sandstone mountain, horizontal weathered rock layers and a flat high summit, whole landform above a dry level foreground in clear daylight, generous margins above and beside the mountain.\nPanel 3: multiple rounded mountain ridges receding in distinct overlapping layers, nearest dark green, farther muted blue with atmospheric haze. Mountains central above a low valley, soft evening light.\nPanel 4, bottom: a clearly visible circular sun disk just above a distant desert dune ridge at sunrise, gently curved sand dunes foreground, ample warm sky. Sun disk fully separated from the dune edge and safely within the central frame.\nStyle: photorealistic camera photographs, authentic geological textures and natural light, not illustration or CGI. Main landform and solar target wholly inside each panel with at least 8 percent crop-safe margin. No people, buildings, animals, sun-viewing equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows steep vegetated limestone peaks over flat green land; second a layered red sandstone mountain with a flat summit and dry foreground; third successive green-to-blue mountain ridges; bottom a clear round sun above desert dunes. Central peaks, summit and solar disk remain visible in measured crops; some peripheral ridges extend outside frame naturally. Labels match. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 428/429/425/430px, width 1008px; cuts 448/897/1342.",
+    "cuts": [
+      448,
+      897,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "nature-mountain-01-scene0",
+        "label": "平地远处陡立的喀斯特山",
+        "image": "hanzi-images/realistic-v1/nature-mountain-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mountain"
+  },
+  {
+    "id": "nature-mountain-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-02_1795399518812_a68c9ca5.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: several steep green karst mountains rising distinctly from a flat valley. Complete central limestone peaks with textured exposed rock and vegetation, level foreground, pale morning haze separating their silhouettes.\nPanel 2: one broad red sandstone mountain, horizontal weathered rock layers and a flat high summit, whole landform above a dry level foreground in clear daylight, generous margins above and beside the mountain.\nPanel 3: multiple rounded mountain ridges receding in distinct overlapping layers, nearest dark green, farther muted blue with atmospheric haze. Mountains central above a low valley, soft evening light.\nPanel 4, bottom: a clearly visible circular sun disk just above a distant desert dune ridge at sunrise, gently curved sand dunes foreground, ample warm sky. Sun disk fully separated from the dune edge and safely within the central frame.\nStyle: photorealistic camera photographs, authentic geological textures and natural light, not illustration or CGI. Main landform and solar target wholly inside each panel with at least 8 percent crop-safe margin. No people, buildings, animals, sun-viewing equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows steep vegetated limestone peaks over flat green land; second a layered red sandstone mountain with a flat summit and dry foreground; third successive green-to-blue mountain ridges; bottom a clear round sun above desert dunes. Central peaks, summit and solar disk remain visible in measured crops; some peripheral ridges extend outside frame naturally. Labels match. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 428/429/425/430px, width 1008px; cuts 448/897/1342.",
+    "cuts": [
+      448,
+      897,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 458,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "nature-mountain-02-scene0",
+        "label": "荒野中高起的红色砂岩山",
+        "image": "hanzi-images/realistic-v1/nature-mountain-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mountain"
+  },
+  {
+    "id": "nature-mountain-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-02_1795399518812_a68c9ca5.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: several steep green karst mountains rising distinctly from a flat valley. Complete central limestone peaks with textured exposed rock and vegetation, level foreground, pale morning haze separating their silhouettes.\nPanel 2: one broad red sandstone mountain, horizontal weathered rock layers and a flat high summit, whole landform above a dry level foreground in clear daylight, generous margins above and beside the mountain.\nPanel 3: multiple rounded mountain ridges receding in distinct overlapping layers, nearest dark green, farther muted blue with atmospheric haze. Mountains central above a low valley, soft evening light.\nPanel 4, bottom: a clearly visible circular sun disk just above a distant desert dune ridge at sunrise, gently curved sand dunes foreground, ample warm sky. Sun disk fully separated from the dune edge and safely within the central frame.\nStyle: photorealistic camera photographs, authentic geological textures and natural light, not illustration or CGI. Main landform and solar target wholly inside each panel with at least 8 percent crop-safe margin. No people, buildings, animals, sun-viewing equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows steep vegetated limestone peaks over flat green land; second a layered red sandstone mountain with a flat summit and dry foreground; third successive green-to-blue mountain ridges; bottom a clear round sun above desert dunes. Central peaks, summit and solar disk remain visible in measured crops; some peripheral ridges extend outside frame naturally. Labels match. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 428/429/425/430px, width 1008px; cuts 448/897/1342.",
+    "cuts": [
+      448,
+      897,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 907,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "nature-mountain-03-scene0",
+        "label": "远处层层重叠的山脊",
+        "image": "hanzi-images/realistic-v1/nature-mountain-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "mountain"
+  },
+  {
+    "id": "nature-sun-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-02_1795399518812_a68c9ca5.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: several steep green karst mountains rising distinctly from a flat valley. Complete central limestone peaks with textured exposed rock and vegetation, level foreground, pale morning haze separating their silhouettes.\nPanel 2: one broad red sandstone mountain, horizontal weathered rock layers and a flat high summit, whole landform above a dry level foreground in clear daylight, generous margins above and beside the mountain.\nPanel 3: multiple rounded mountain ridges receding in distinct overlapping layers, nearest dark green, farther muted blue with atmospheric haze. Mountains central above a low valley, soft evening light.\nPanel 4, bottom: a clearly visible circular sun disk just above a distant desert dune ridge at sunrise, gently curved sand dunes foreground, ample warm sky. Sun disk fully separated from the dune edge and safely within the central frame.\nStyle: photorealistic camera photographs, authentic geological textures and natural light, not illustration or CGI. Main landform and solar target wholly inside each panel with at least 8 percent crop-safe margin. No people, buildings, animals, sun-viewing equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows steep vegetated limestone peaks over flat green land; second a layered red sandstone mountain with a flat summit and dry foreground; third successive green-to-blue mountain ridges; bottom a clear round sun above desert dunes. Central peaks, summit and solar disk remain visible in measured crops; some peripheral ridges extend outside frame naturally. Labels match. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 428/429/425/430px, width 1008px; cuts 448/897/1342.",
+    "cuts": [
+      448,
+      897,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-sun-01-scene0",
+        "label": "沙丘上方刚升起的太阳",
+        "image": "hanzi-images/realistic-v1/nature-sun-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sun"
+  },
+  {
+    "id": "nature-sun-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-03_1795399600807_bb403735.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a small distinct circular sun disk above a broad rocky canyon in warm low evening light. Clear sky visibly separates the full sun disk from the canyon rim, layered stone walls and dry valley below. Center the disk with ample sky.\nPanel 2: clear round setting sun above a dry pale salt flat. Foreground is visibly solid dry land with subtle salt crust polygons, NOT water or a reflective lake. Full sun disk above the horizon, warm hazy sky.\nPanel 3: a realistic clearly visible crescent moon above a low band of reed silhouettes in blue twilight sky. Curved illuminated lunar surface with natural texture, not a decorative icon, ample clear sky around the full crescent.\nPanel 4, bottom: a realistic half-illuminated moon above a low rounded hill silhouette in deep blue twilight. Half lunar disk has subtle natural surface texture and a straight terminator. Moon clearly separated from hill, generous sky margins.\nStyle: photorealistic landscape camera imagery and credible natural lighting, not illustration or CGI. Each sun or moon entirely within its panel, at least 8 percent crop-safe margin all sides. Keep low foreground landforms distinct. No people, buildings, animals, optical equipment, decorative stars or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a distinct circular sun over dry layered canyon walls; second a round low sun over solid polygonal salt crust, not water; third a textured crescent moon over silhouetted reed heads; fourth a textured half moon with near-straight terminator above a rounded hill. All four celestial targets separated from foreground and comfortably inside crops; labels match. No people or text. AI-generated photorealistic imagery, not evidence of actual locations or astronomical events. Crop heights 426/429/427/430px, width 1008px; cuts 446/895/1342.",
+    "cuts": [
+      446,
+      895,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "nature-sun-02-scene0",
+        "label": "岩石峡谷上方的太阳",
+        "image": "hanzi-images/realistic-v1/nature-sun-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sun"
+  },
+  {
+    "id": "nature-sun-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-03_1795399600807_bb403735.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a small distinct circular sun disk above a broad rocky canyon in warm low evening light. Clear sky visibly separates the full sun disk from the canyon rim, layered stone walls and dry valley below. Center the disk with ample sky.\nPanel 2: clear round setting sun above a dry pale salt flat. Foreground is visibly solid dry land with subtle salt crust polygons, NOT water or a reflective lake. Full sun disk above the horizon, warm hazy sky.\nPanel 3: a realistic clearly visible crescent moon above a low band of reed silhouettes in blue twilight sky. Curved illuminated lunar surface with natural texture, not a decorative icon, ample clear sky around the full crescent.\nPanel 4, bottom: a realistic half-illuminated moon above a low rounded hill silhouette in deep blue twilight. Half lunar disk has subtle natural surface texture and a straight terminator. Moon clearly separated from hill, generous sky margins.\nStyle: photorealistic landscape camera imagery and credible natural lighting, not illustration or CGI. Each sun or moon entirely within its panel, at least 8 percent crop-safe margin all sides. Keep low foreground landforms distinct. No people, buildings, animals, optical equipment, decorative stars or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a distinct circular sun over dry layered canyon walls; second a round low sun over solid polygonal salt crust, not water; third a textured crescent moon over silhouetted reed heads; fourth a textured half moon with near-straight terminator above a rounded hill. All four celestial targets separated from foreground and comfortably inside crops; labels match. No people or text. AI-generated photorealistic imagery, not evidence of actual locations or astronomical events. Crop heights 426/429/427/430px, width 1008px; cuts 446/895/1342.",
+    "cuts": [
+      446,
+      895,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "nature-sun-03-scene0",
+        "label": "干燥盐地上方落低的太阳",
+        "image": "hanzi-images/realistic-v1/nature-sun-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sun"
+  },
+  {
+    "id": "nature-moon-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-03_1795399600807_bb403735.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a small distinct circular sun disk above a broad rocky canyon in warm low evening light. Clear sky visibly separates the full sun disk from the canyon rim, layered stone walls and dry valley below. Center the disk with ample sky.\nPanel 2: clear round setting sun above a dry pale salt flat. Foreground is visibly solid dry land with subtle salt crust polygons, NOT water or a reflective lake. Full sun disk above the horizon, warm hazy sky.\nPanel 3: a realistic clearly visible crescent moon above a low band of reed silhouettes in blue twilight sky. Curved illuminated lunar surface with natural texture, not a decorative icon, ample clear sky around the full crescent.\nPanel 4, bottom: a realistic half-illuminated moon above a low rounded hill silhouette in deep blue twilight. Half lunar disk has subtle natural surface texture and a straight terminator. Moon clearly separated from hill, generous sky margins.\nStyle: photorealistic landscape camera imagery and credible natural lighting, not illustration or CGI. Each sun or moon entirely within its panel, at least 8 percent crop-safe margin all sides. Keep low foreground landforms distinct. No people, buildings, animals, optical equipment, decorative stars or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a distinct circular sun over dry layered canyon walls; second a round low sun over solid polygonal salt crust, not water; third a textured crescent moon over silhouetted reed heads; fourth a textured half moon with near-straight terminator above a rounded hill. All four celestial targets separated from foreground and comfortably inside crops; labels match. No people or text. AI-generated photorealistic imagery, not evidence of actual locations or astronomical events. Crop heights 426/429/427/430px, width 1008px; cuts 446/895/1342.",
+    "cuts": [
+      446,
+      895,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "nature-moon-01-scene0",
+        "label": "芦苇梢上方弯弯的月亮",
+        "image": "hanzi-images/realistic-v1/nature-moon-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "moon"
+  },
+  {
+    "id": "nature-moon-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-03_1795399600807_bb403735.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a small distinct circular sun disk above a broad rocky canyon in warm low evening light. Clear sky visibly separates the full sun disk from the canyon rim, layered stone walls and dry valley below. Center the disk with ample sky.\nPanel 2: clear round setting sun above a dry pale salt flat. Foreground is visibly solid dry land with subtle salt crust polygons, NOT water or a reflective lake. Full sun disk above the horizon, warm hazy sky.\nPanel 3: a realistic clearly visible crescent moon above a low band of reed silhouettes in blue twilight sky. Curved illuminated lunar surface with natural texture, not a decorative icon, ample clear sky around the full crescent.\nPanel 4, bottom: a realistic half-illuminated moon above a low rounded hill silhouette in deep blue twilight. Half lunar disk has subtle natural surface texture and a straight terminator. Moon clearly separated from hill, generous sky margins.\nStyle: photorealistic landscape camera imagery and credible natural lighting, not illustration or CGI. Each sun or moon entirely within its panel, at least 8 percent crop-safe margin all sides. Keep low foreground landforms distinct. No people, buildings, animals, optical equipment, decorative stars or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a distinct circular sun over dry layered canyon walls; second a round low sun over solid polygonal salt crust, not water; third a textured crescent moon over silhouetted reed heads; fourth a textured half moon with near-straight terminator above a rounded hill. All four celestial targets separated from foreground and comfortably inside crops; labels match. No people or text. AI-generated photorealistic imagery, not evidence of actual locations or astronomical events. Crop heights 426/429/427/430px, width 1008px; cuts 446/895/1342.",
+    "cuts": [
+      446,
+      895,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-moon-02-scene0",
+        "label": "山坡上方半圆的月亮",
+        "image": "hanzi-images/realistic-v1/nature-moon-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "moon"
+  },
+  {
+    "id": "nature-moon-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-04_1795399688672_64763334.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a full round moon with realistic shaded lunar surface in clear dark blue night sky above a low rustic dry-stone wall. Wall only along the lower frame, full moon centered with ample space, realistic low-light exposure.\nPanel 2: delicate white wispy clouds across a blue daylight sky above a low green mountain ridge. Natural uneven feathered cloud strands dominate central upper frame, ridge lies below.\nPanel 3: large naturally rounded white cumulus cloud masses above an open grassy plain, bright sunlit tops and softly gray undersides. Low horizon, unobstructed central clouds in blue sky.\nPanel 4, bottom: broad layered gray-white cloud sheets over a calm freshwater lake. Distinct horizontal natural cloud bands dominate sky above a low distant tree shoreline, subdued reflections in lake, overcast daylight.\nStyle: photorealistic landscape camera imagery, authentic stone and vegetation, natural atmospheric textures, not illustration or CGI. Moon and central cloud formations fully within respective panels with at least 8 percent crop-safe margin; no people, animals, decorative moon icons, buildings other than the low stone wall, optical equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top full textured round moon over a low rough stone wall; second feathered thin white cloud strands above a green ridge; third large rounded white cumulus with shaded undersides over open meadow; bottom gray-white cloud bands over a calm lake and distant tree shore. Main moon and cloud targets visible, scene labels accurate; thin clouds naturally span the sky beyond side edges. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 426/430/430/426px, width 1008px; cuts 446/896/1346.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "nature-moon-03-scene0",
+        "label": "低矮石墙上方圆圆的月亮",
+        "image": "hanzi-images/realistic-v1/nature-moon-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "moon"
+  },
+  {
+    "id": "nature-cloud-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-04_1795399688672_64763334.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a full round moon with realistic shaded lunar surface in clear dark blue night sky above a low rustic dry-stone wall. Wall only along the lower frame, full moon centered with ample space, realistic low-light exposure.\nPanel 2: delicate white wispy clouds across a blue daylight sky above a low green mountain ridge. Natural uneven feathered cloud strands dominate central upper frame, ridge lies below.\nPanel 3: large naturally rounded white cumulus cloud masses above an open grassy plain, bright sunlit tops and softly gray undersides. Low horizon, unobstructed central clouds in blue sky.\nPanel 4, bottom: broad layered gray-white cloud sheets over a calm freshwater lake. Distinct horizontal natural cloud bands dominate sky above a low distant tree shoreline, subdued reflections in lake, overcast daylight.\nStyle: photorealistic landscape camera imagery, authentic stone and vegetation, natural atmospheric textures, not illustration or CGI. Moon and central cloud formations fully within respective panels with at least 8 percent crop-safe margin; no people, animals, decorative moon icons, buildings other than the low stone wall, optical equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top full textured round moon over a low rough stone wall; second feathered thin white cloud strands above a green ridge; third large rounded white cumulus with shaded undersides over open meadow; bottom gray-white cloud bands over a calm lake and distant tree shore. Main moon and cloud targets visible, scene labels accurate; thin clouds naturally span the sky beyond side edges. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 426/430/430/426px, width 1008px; cuts 446/896/1346.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-cloud-01-scene0",
+        "label": "山脊上方丝缕状的薄云",
+        "image": "hanzi-images/realistic-v1/nature-cloud-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "nature-cloud-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-04_1795399688672_64763334.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a full round moon with realistic shaded lunar surface in clear dark blue night sky above a low rustic dry-stone wall. Wall only along the lower frame, full moon centered with ample space, realistic low-light exposure.\nPanel 2: delicate white wispy clouds across a blue daylight sky above a low green mountain ridge. Natural uneven feathered cloud strands dominate central upper frame, ridge lies below.\nPanel 3: large naturally rounded white cumulus cloud masses above an open grassy plain, bright sunlit tops and softly gray undersides. Low horizon, unobstructed central clouds in blue sky.\nPanel 4, bottom: broad layered gray-white cloud sheets over a calm freshwater lake. Distinct horizontal natural cloud bands dominate sky above a low distant tree shoreline, subdued reflections in lake, overcast daylight.\nStyle: photorealistic landscape camera imagery, authentic stone and vegetation, natural atmospheric textures, not illustration or CGI. Moon and central cloud formations fully within respective panels with at least 8 percent crop-safe margin; no people, animals, decorative moon icons, buildings other than the low stone wall, optical equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top full textured round moon over a low rough stone wall; second feathered thin white cloud strands above a green ridge; third large rounded white cumulus with shaded undersides over open meadow; bottom gray-white cloud bands over a calm lake and distant tree shore. Main moon and cloud targets visible, scene labels accurate; thin clouds naturally span the sky beyond side edges. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 426/430/430/426px, width 1008px; cuts 446/896/1346.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-cloud-02-scene0",
+        "label": "开阔草原上方成团的白云",
+        "image": "hanzi-images/realistic-v1/nature-cloud-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "nature-cloud-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-04_1795399688672_64763334.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a full round moon with realistic shaded lunar surface in clear dark blue night sky above a low rustic dry-stone wall. Wall only along the lower frame, full moon centered with ample space, realistic low-light exposure.\nPanel 2: delicate white wispy clouds across a blue daylight sky above a low green mountain ridge. Natural uneven feathered cloud strands dominate central upper frame, ridge lies below.\nPanel 3: large naturally rounded white cumulus cloud masses above an open grassy plain, bright sunlit tops and softly gray undersides. Low horizon, unobstructed central clouds in blue sky.\nPanel 4, bottom: broad layered gray-white cloud sheets over a calm freshwater lake. Distinct horizontal natural cloud bands dominate sky above a low distant tree shoreline, subdued reflections in lake, overcast daylight.\nStyle: photorealistic landscape camera imagery, authentic stone and vegetation, natural atmospheric textures, not illustration or CGI. Moon and central cloud formations fully within respective panels with at least 8 percent crop-safe margin; no people, animals, decorative moon icons, buildings other than the low stone wall, optical equipment or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top full textured round moon over a low rough stone wall; second feathered thin white cloud strands above a green ridge; third large rounded white cumulus with shaded undersides over open meadow; bottom gray-white cloud bands over a calm lake and distant tree shore. Main moon and cloud targets visible, scene labels accurate; thin clouds naturally span the sky beyond side edges. No people or text. AI-generated photorealistic imagery, not documentary photographs. Crop heights 426/430/430/426px, width 1008px; cuts 446/896/1346.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "nature-cloud-03-scene0",
+        "label": "湖面上方铺成层的灰白云",
+        "image": "hanzi-images/realistic-v1/nature-cloud-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "nature-rain-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-05_1795399797174_62d5e93c.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: view from a dry indoor room through a clear window into a small paved courtyard during active rain. Distinct falling rain streaks through the central view and splashes on wet paving; subtle window edge only at margin, overcast daylight. Not merely a wet courtyard after rain.\nPanel 2: one plain open umbrella fixed securely on a stand in a quiet courtyard during active rain, no person holding it. Entire canopy with ample surrounding space, falling rain streaks, fresh splashes on curved fabric and drops from its edge. Stand and base visible below, natural muted light.\nPanel 3: active rain falling through a small clump of bamboo leaves outside a sheltered veranda. Central narrow green leaves with visible falling rain streaks between them and fresh water drops on their surfaces, wet garden softly blurred behind, natural overcast light.\nPanel 4, bottom: tall reed stems and seed heads bending together noticeably in one direction in a gentle breeze. Several central stems and their feathery tips visible with clear bases and slight natural motion blur at tips, soft marsh plants behind.\nStyle: photorealistic camera imagery, authentic fabric, water, plants and natural light, not illustration or CGI. Central rain or wind evidence clearly visible; each important target entirely within its panel with at least 8 percent crop-safe margin. No people, animals, artificial wind lines or staged dangerous activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows falling rain and splashes in a paved courtyard through an indoor window; second a fully visible green umbrella supported on a weighted stand amid active rain and edge drips; third rain streaks and drops around bamboo leaves beside a veranda post; bottom several reeds leaning coherently right with clear curved stems and feathery heads. Rain is visibly falling rather than only residual wetness. Main umbrella and reed heads clear of crop seams; natural foliage extends beyond frame. All scene labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/429/430/430px, width 1008px; cuts 443/892/1342.",
+    "cuts": [
+      443,
+      892,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "nature-rain-01-scene0",
+        "label": "从天空落向院子的雨",
+        "image": "hanzi-images/realistic-v1/nature-rain-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rain"
+  },
+  {
+    "id": "nature-rain-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-05_1795399797174_62d5e93c.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: view from a dry indoor room through a clear window into a small paved courtyard during active rain. Distinct falling rain streaks through the central view and splashes on wet paving; subtle window edge only at margin, overcast daylight. Not merely a wet courtyard after rain.\nPanel 2: one plain open umbrella fixed securely on a stand in a quiet courtyard during active rain, no person holding it. Entire canopy with ample surrounding space, falling rain streaks, fresh splashes on curved fabric and drops from its edge. Stand and base visible below, natural muted light.\nPanel 3: active rain falling through a small clump of bamboo leaves outside a sheltered veranda. Central narrow green leaves with visible falling rain streaks between them and fresh water drops on their surfaces, wet garden softly blurred behind, natural overcast light.\nPanel 4, bottom: tall reed stems and seed heads bending together noticeably in one direction in a gentle breeze. Several central stems and their feathery tips visible with clear bases and slight natural motion blur at tips, soft marsh plants behind.\nStyle: photorealistic camera imagery, authentic fabric, water, plants and natural light, not illustration or CGI. Central rain or wind evidence clearly visible; each important target entirely within its panel with at least 8 percent crop-safe margin. No people, animals, artificial wind lines or staged dangerous activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows falling rain and splashes in a paved courtyard through an indoor window; second a fully visible green umbrella supported on a weighted stand amid active rain and edge drips; third rain streaks and drops around bamboo leaves beside a veranda post; bottom several reeds leaning coherently right with clear curved stems and feathery heads. Rain is visibly falling rather than only residual wetness. Main umbrella and reed heads clear of crop seams; natural foliage extends beyond frame. All scene labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/429/430/430px, width 1008px; cuts 443/892/1342.",
+    "cuts": [
+      443,
+      892,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "nature-rain-02-scene0",
+        "label": "落在撑开雨伞上的雨",
+        "image": "hanzi-images/realistic-v1/nature-rain-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rain"
+  },
+  {
+    "id": "nature-rain-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-05_1795399797174_62d5e93c.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: view from a dry indoor room through a clear window into a small paved courtyard during active rain. Distinct falling rain streaks through the central view and splashes on wet paving; subtle window edge only at margin, overcast daylight. Not merely a wet courtyard after rain.\nPanel 2: one plain open umbrella fixed securely on a stand in a quiet courtyard during active rain, no person holding it. Entire canopy with ample surrounding space, falling rain streaks, fresh splashes on curved fabric and drops from its edge. Stand and base visible below, natural muted light.\nPanel 3: active rain falling through a small clump of bamboo leaves outside a sheltered veranda. Central narrow green leaves with visible falling rain streaks between them and fresh water drops on their surfaces, wet garden softly blurred behind, natural overcast light.\nPanel 4, bottom: tall reed stems and seed heads bending together noticeably in one direction in a gentle breeze. Several central stems and their feathery tips visible with clear bases and slight natural motion blur at tips, soft marsh plants behind.\nStyle: photorealistic camera imagery, authentic fabric, water, plants and natural light, not illustration or CGI. Central rain or wind evidence clearly visible; each important target entirely within its panel with at least 8 percent crop-safe margin. No people, animals, artificial wind lines or staged dangerous activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows falling rain and splashes in a paved courtyard through an indoor window; second a fully visible green umbrella supported on a weighted stand amid active rain and edge drips; third rain streaks and drops around bamboo leaves beside a veranda post; bottom several reeds leaning coherently right with clear curved stems and feathery heads. Rain is visibly falling rather than only residual wetness. Main umbrella and reed heads clear of crop seams; natural foliage extends beyond frame. All scene labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/429/430/430px, width 1008px; cuts 443/892/1342.",
+    "cuts": [
+      443,
+      892,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 902,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-rain-03-scene0",
+        "label": "落在竹叶上的雨",
+        "image": "hanzi-images/realistic-v1/nature-rain-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rain"
+  },
+  {
+    "id": "nature-wind-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-05_1795399797174_62d5e93c.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: view from a dry indoor room through a clear window into a small paved courtyard during active rain. Distinct falling rain streaks through the central view and splashes on wet paving; subtle window edge only at margin, overcast daylight. Not merely a wet courtyard after rain.\nPanel 2: one plain open umbrella fixed securely on a stand in a quiet courtyard during active rain, no person holding it. Entire canopy with ample surrounding space, falling rain streaks, fresh splashes on curved fabric and drops from its edge. Stand and base visible below, natural muted light.\nPanel 3: active rain falling through a small clump of bamboo leaves outside a sheltered veranda. Central narrow green leaves with visible falling rain streaks between them and fresh water drops on their surfaces, wet garden softly blurred behind, natural overcast light.\nPanel 4, bottom: tall reed stems and seed heads bending together noticeably in one direction in a gentle breeze. Several central stems and their feathery tips visible with clear bases and slight natural motion blur at tips, soft marsh plants behind.\nStyle: photorealistic camera imagery, authentic fabric, water, plants and natural light, not illustration or CGI. Central rain or wind evidence clearly visible; each important target entirely within its panel with at least 8 percent crop-safe margin. No people, animals, artificial wind lines or staged dangerous activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top shows falling rain and splashes in a paved courtyard through an indoor window; second a fully visible green umbrella supported on a weighted stand amid active rain and edge drips; third rain streaks and drops around bamboo leaves beside a veranda post; bottom several reeds leaning coherently right with clear curved stems and feathery heads. Rain is visibly falling rather than only residual wetness. Main umbrella and reed heads clear of crop seams; natural foliage extends beyond frame. All scene labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/429/430/430px, width 1008px; cuts 443/892/1342.",
+    "cuts": [
+      443,
+      892,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-wind-01-scene0",
+        "label": "被风吹弯的芦苇",
+        "image": "hanzi-images/realistic-v1/nature-wind-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "nature-wind-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-06_1795399907899_266b8ba3.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: orange-and-white fabric windsock inflated sideways by a breeze on a short fixed pole in an open observation lawn. Entire striped windsock from wide opening to tapered end, its mounting ring, complete pole and base visible with generous margins. Natural daylight, no airport machinery.\nPanel 2: one dense rooted tuft of long coastal dune grass leaning noticeably in one direction in a breeze. Sand ripples around central grass, fine blades with slight tip motion and sharp rooted base, full tuft surrounded by sand in natural daylight.\nPanel 3: three low outdoor stone steps covered in fresh white snow, recognizable stepped stone forms beneath soft snow. Full small set of steps centered with margins and dormant plants nearby, cold diffuse daylight, no footprints.\nPanel 4, bottom: several rounded boulders capped with thick soft white snow in a quiet winter clearing. Complete central boulder shows dark rounded stone sides beneath snow cap, smaller boulders behind, fine snow texture, cold daylight.\nStyle: photorealistic camera imagery, authentic fabric, stone, plants and snow, not illustration or CGI. Every main target entirely within its own panel with at least 8 percent crop-safe margin. No people, animals, artificial wind marks, handling or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top an inflated orange-white striped windsock with mounting ring and complete short pole/base on grass; second rooted dune grass coherently leaning right on rippled sand; third three recognizable snow-covered stone steps; bottom rounded dark boulders bearing thick snow caps. All four scene labels accurate. Final JPEG review: full windsock and mounting are visible but have a very tight upper margin. Dune grass rooted tuft and leaning blades are clear, but some tallest blade tips are clipped by the upper JPEG edge, so the requested full-target crop margin was not fully achieved for that cover. No additional zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 423/431/431/427px, width 1008px; cuts 443/894/1345.",
+    "cuts": [
+      443,
+      894,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "nature-wind-02-scene0",
+        "label": "被风吹起的橙白风向袋",
+        "image": "hanzi-images/realistic-v1/nature-wind-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "nature-wind-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-06_1795399907899_266b8ba3.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: orange-and-white fabric windsock inflated sideways by a breeze on a short fixed pole in an open observation lawn. Entire striped windsock from wide opening to tapered end, its mounting ring, complete pole and base visible with generous margins. Natural daylight, no airport machinery.\nPanel 2: one dense rooted tuft of long coastal dune grass leaning noticeably in one direction in a breeze. Sand ripples around central grass, fine blades with slight tip motion and sharp rooted base, full tuft surrounded by sand in natural daylight.\nPanel 3: three low outdoor stone steps covered in fresh white snow, recognizable stepped stone forms beneath soft snow. Full small set of steps centered with margins and dormant plants nearby, cold diffuse daylight, no footprints.\nPanel 4, bottom: several rounded boulders capped with thick soft white snow in a quiet winter clearing. Complete central boulder shows dark rounded stone sides beneath snow cap, smaller boulders behind, fine snow texture, cold daylight.\nStyle: photorealistic camera imagery, authentic fabric, stone, plants and snow, not illustration or CGI. Every main target entirely within its own panel with at least 8 percent crop-safe margin. No people, animals, artificial wind marks, handling or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top an inflated orange-white striped windsock with mounting ring and complete short pole/base on grass; second rooted dune grass coherently leaning right on rippled sand; third three recognizable snow-covered stone steps; bottom rounded dark boulders bearing thick snow caps. All four scene labels accurate. Final JPEG review: full windsock and mounting are visible but have a very tight upper margin. Dune grass rooted tuft and leaning blades are clear, but some tallest blade tips are clipped by the upper JPEG edge, so the requested full-target crop margin was not fully achieved for that cover. No additional zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 423/431/431/427px, width 1008px; cuts 443/894/1345.",
+    "cuts": [
+      443,
+      894,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "nature-wind-03-scene0",
+        "label": "被风吹斜的沙丘草",
+        "image": "hanzi-images/realistic-v1/nature-wind-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "nature-snow-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-06_1795399907899_266b8ba3.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: orange-and-white fabric windsock inflated sideways by a breeze on a short fixed pole in an open observation lawn. Entire striped windsock from wide opening to tapered end, its mounting ring, complete pole and base visible with generous margins. Natural daylight, no airport machinery.\nPanel 2: one dense rooted tuft of long coastal dune grass leaning noticeably in one direction in a breeze. Sand ripples around central grass, fine blades with slight tip motion and sharp rooted base, full tuft surrounded by sand in natural daylight.\nPanel 3: three low outdoor stone steps covered in fresh white snow, recognizable stepped stone forms beneath soft snow. Full small set of steps centered with margins and dormant plants nearby, cold diffuse daylight, no footprints.\nPanel 4, bottom: several rounded boulders capped with thick soft white snow in a quiet winter clearing. Complete central boulder shows dark rounded stone sides beneath snow cap, smaller boulders behind, fine snow texture, cold daylight.\nStyle: photorealistic camera imagery, authentic fabric, stone, plants and snow, not illustration or CGI. Every main target entirely within its own panel with at least 8 percent crop-safe margin. No people, animals, artificial wind marks, handling or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top an inflated orange-white striped windsock with mounting ring and complete short pole/base on grass; second rooted dune grass coherently leaning right on rippled sand; third three recognizable snow-covered stone steps; bottom rounded dark boulders bearing thick snow caps. All four scene labels accurate. Final JPEG review: full windsock and mounting are visible but have a very tight upper margin. Dune grass rooted tuft and leaning blades are clear, but some tallest blade tips are clipped by the upper JPEG edge, so the requested full-target crop margin was not fully achieved for that cover. No additional zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 423/431/431/427px, width 1008px; cuts 443/894/1345.",
+    "cuts": [
+      443,
+      894,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "nature-snow-01-scene0",
+        "label": "石阶表面积着的雪",
+        "image": "hanzi-images/realistic-v1/nature-snow-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "snow"
+  },
+  {
+    "id": "nature-snow-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-06_1795399907899_266b8ba3.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: orange-and-white fabric windsock inflated sideways by a breeze on a short fixed pole in an open observation lawn. Entire striped windsock from wide opening to tapered end, its mounting ring, complete pole and base visible with generous margins. Natural daylight, no airport machinery.\nPanel 2: one dense rooted tuft of long coastal dune grass leaning noticeably in one direction in a breeze. Sand ripples around central grass, fine blades with slight tip motion and sharp rooted base, full tuft surrounded by sand in natural daylight.\nPanel 3: three low outdoor stone steps covered in fresh white snow, recognizable stepped stone forms beneath soft snow. Full small set of steps centered with margins and dormant plants nearby, cold diffuse daylight, no footprints.\nPanel 4, bottom: several rounded boulders capped with thick soft white snow in a quiet winter clearing. Complete central boulder shows dark rounded stone sides beneath snow cap, smaller boulders behind, fine snow texture, cold daylight.\nStyle: photorealistic camera imagery, authentic fabric, stone, plants and snow, not illustration or CGI. Every main target entirely within its own panel with at least 8 percent crop-safe margin. No people, animals, artificial wind marks, handling or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top an inflated orange-white striped windsock with mounting ring and complete short pole/base on grass; second rooted dune grass coherently leaning right on rippled sand; third three recognizable snow-covered stone steps; bottom rounded dark boulders bearing thick snow caps. All four scene labels accurate. Final JPEG review: full windsock and mounting are visible but have a very tight upper margin. Dune grass rooted tuft and leaning blades are clear, but some tallest blade tips are clipped by the upper JPEG edge, so the requested full-target crop margin was not fully achieved for that cover. No additional zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 423/431/431/427px, width 1008px; cuts 443/894/1345.",
+    "cuts": [
+      443,
+      894,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "nature-snow-02-scene0",
+        "label": "圆岩石上厚厚的积雪",
+        "image": "hanzi-images/realistic-v1/nature-snow-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "snow"
+  },
+  {
+    "id": "nature-snow-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-07_1795400023105_9f8eaa06.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one empty wooden park bench covered with fresh white snow on seat and backrest beside a quiet winter path. Entire bench including back, arms and legs clearly visible, centered with generous 12 percent margins above and beside it, authentic wood grain and soft snow, diffuse daylight.\nPanel 2: clear dark night sky filled with many small natural stellar pinpoints of varied subtle brightness above a low desert dune silhouette. Sky occupies most of panel, distant stars are natural points, no five-point shapes or long trails.\nPanel 3: star-filled night sky over a small forest clearing. Dark tree silhouettes along the left and right lower edges frame a large central opening of clear sky. Small realistic stellar points visible throughout central sky, subtle natural low-light texture, no campfire.\nPanel 4, bottom: clear star-filled sky above a low distant coastal cliff silhouette and dark ocean. Small natural stellar points dominate central sky, distinct coast and ocean along low foreground. No bright artificial star shapes or trails.\nStyle: photorealistic camera imagery, real wood, snow and natural low-light landscape textures, not illustration or CGI. Keep each main target fully within its own panel with crop-safe generous margins. No people, animals, moon, camping or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete wooden bench with snow on back and seat, arms and legs visible on a winter path; second numerous small star points over low desert dunes; third star points and a faint Milky Way-like band above a tree-framed forest clearing; fourth small stars above coastal cliffs and a dark ocean. Stars are pinpoints rather than decorative shapes or trails. Main bench and night-sky referents visible within crops; labels match. No people or text. AI-generated photorealistic imagery, not verified astronomical photographs. Crop heights 426/428/429/429px, width 1008px; cuts 446/894/1343.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "nature-snow-03-scene0",
+        "label": "公园长凳上积着的雪",
+        "image": "hanzi-images/realistic-v1/nature-snow-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "snow"
+  },
+  {
+    "id": "nature-star-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-07_1795400023105_9f8eaa06.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one empty wooden park bench covered with fresh white snow on seat and backrest beside a quiet winter path. Entire bench including back, arms and legs clearly visible, centered with generous 12 percent margins above and beside it, authentic wood grain and soft snow, diffuse daylight.\nPanel 2: clear dark night sky filled with many small natural stellar pinpoints of varied subtle brightness above a low desert dune silhouette. Sky occupies most of panel, distant stars are natural points, no five-point shapes or long trails.\nPanel 3: star-filled night sky over a small forest clearing. Dark tree silhouettes along the left and right lower edges frame a large central opening of clear sky. Small realistic stellar points visible throughout central sky, subtle natural low-light texture, no campfire.\nPanel 4, bottom: clear star-filled sky above a low distant coastal cliff silhouette and dark ocean. Small natural stellar points dominate central sky, distinct coast and ocean along low foreground. No bright artificial star shapes or trails.\nStyle: photorealistic camera imagery, real wood, snow and natural low-light landscape textures, not illustration or CGI. Keep each main target fully within its own panel with crop-safe generous margins. No people, animals, moon, camping or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete wooden bench with snow on back and seat, arms and legs visible on a winter path; second numerous small star points over low desert dunes; third star points and a faint Milky Way-like band above a tree-framed forest clearing; fourth small stars above coastal cliffs and a dark ocean. Stars are pinpoints rather than decorative shapes or trails. Main bench and night-sky referents visible within crops; labels match. No people or text. AI-generated photorealistic imagery, not verified astronomical photographs. Crop heights 426/428/429/429px, width 1008px; cuts 446/894/1343.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "nature-star-01-scene0",
+        "label": "沙漠上方夜空里的星",
+        "image": "hanzi-images/realistic-v1/nature-star-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "star"
+  },
+  {
+    "id": "nature-star-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-07_1795400023105_9f8eaa06.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one empty wooden park bench covered with fresh white snow on seat and backrest beside a quiet winter path. Entire bench including back, arms and legs clearly visible, centered with generous 12 percent margins above and beside it, authentic wood grain and soft snow, diffuse daylight.\nPanel 2: clear dark night sky filled with many small natural stellar pinpoints of varied subtle brightness above a low desert dune silhouette. Sky occupies most of panel, distant stars are natural points, no five-point shapes or long trails.\nPanel 3: star-filled night sky over a small forest clearing. Dark tree silhouettes along the left and right lower edges frame a large central opening of clear sky. Small realistic stellar points visible throughout central sky, subtle natural low-light texture, no campfire.\nPanel 4, bottom: clear star-filled sky above a low distant coastal cliff silhouette and dark ocean. Small natural stellar points dominate central sky, distinct coast and ocean along low foreground. No bright artificial star shapes or trails.\nStyle: photorealistic camera imagery, real wood, snow and natural low-light landscape textures, not illustration or CGI. Keep each main target fully within its own panel with crop-safe generous margins. No people, animals, moon, camping or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete wooden bench with snow on back and seat, arms and legs visible on a winter path; second numerous small star points over low desert dunes; third star points and a faint Milky Way-like band above a tree-framed forest clearing; fourth small stars above coastal cliffs and a dark ocean. Stars are pinpoints rather than decorative shapes or trails. Main bench and night-sky referents visible within crops; labels match. No people or text. AI-generated photorealistic imagery, not verified astronomical photographs. Crop heights 426/428/429/429px, width 1008px; cuts 446/894/1343.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "nature-star-02-scene0",
+        "label": "林间空地上方夜空里的星",
+        "image": "hanzi-images/realistic-v1/nature-star-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "star"
+  },
+  {
+    "id": "nature-star-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-07_1795400023105_9f8eaa06.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one empty wooden park bench covered with fresh white snow on seat and backrest beside a quiet winter path. Entire bench including back, arms and legs clearly visible, centered with generous 12 percent margins above and beside it, authentic wood grain and soft snow, diffuse daylight.\nPanel 2: clear dark night sky filled with many small natural stellar pinpoints of varied subtle brightness above a low desert dune silhouette. Sky occupies most of panel, distant stars are natural points, no five-point shapes or long trails.\nPanel 3: star-filled night sky over a small forest clearing. Dark tree silhouettes along the left and right lower edges frame a large central opening of clear sky. Small realistic stellar points visible throughout central sky, subtle natural low-light texture, no campfire.\nPanel 4, bottom: clear star-filled sky above a low distant coastal cliff silhouette and dark ocean. Small natural stellar points dominate central sky, distinct coast and ocean along low foreground. No bright artificial star shapes or trails.\nStyle: photorealistic camera imagery, real wood, snow and natural low-light landscape textures, not illustration or CGI. Keep each main target fully within its own panel with crop-safe generous margins. No people, animals, moon, camping or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete wooden bench with snow on back and seat, arms and legs visible on a winter path; second numerous small star points over low desert dunes; third star points and a faint Milky Way-like band above a tree-framed forest clearing; fourth small stars above coastal cliffs and a dark ocean. Stars are pinpoints rather than decorative shapes or trails. Main bench and night-sky referents visible within crops; labels match. No people or text. AI-generated photorealistic imagery, not verified astronomical photographs. Crop heights 426/428/429/429px, width 1008px; cuts 446/894/1343.",
+    "cuts": [
+      446,
+      894,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "nature-star-03-scene0",
+        "label": "海崖上方夜空里的星",
+        "image": "hanzi-images/realistic-v1/nature-star-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "star"
+  },
+  {
+    "id": "nature-ice-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-08_1795400134471_d9e81d28.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one plain ice cube tray holding solid translucent frozen cubes in its compartments on a clean countertop. Entire central tray including all outer edges visible with generous 12 percent surrounding margins, subtle frost and natural reflections on ice, cool diffuse lighting, no drinks.\nPanel 2: several clear solid icicles hanging from the edge of a simple roof eave. Entire lengths and pointed tips of the central cluster visible with substantial empty space below and above, roof edge near upper part of panel, translucent frozen textures against softly blurred winter background. No handling.\nPanel 3: one low shallow stone basin in a quiet winter garden, its water surface covered by a thin solid ice sheet with trapped bubbles and faint cracks. Entire complete oval basin rim and sides visible centrally with generous margins, no birds or other animals, cold daylight.\nPanel 4, bottom: a natural river curving around a pale gravel bar, continuous flowing channel with ripples, two distinct riverbanks and the whole central bend seen from a distant elevated viewpoint, green bank vegetation, natural daylight. Clearly a river with continuing upstream and downstream channel, not a contained pond.\nStyle: photorealistic camera imagery, authentic frozen water, stone and landscape textures, not illustration or CGI. Main tray, icicle cluster, basin and river bend wholly inside respective panels with crop-safe margins. No people, animals, tools, ice tasting or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete plain tray with translucent ice cubes inside compartments on a countertop; second tapered transparent icicles hanging from a snowy roof eave, all central tips visible; third a full low stone basin with opaque-translucent frozen sheet, bubbles and crack lines; bottom flowing rippled river splitting around a pale gravel bar with green banks and a continuous distant channel. Central referents visible and labels accurate. Final JPEG review: the longest central icicle tip reaches the lower JPEG edge with essentially no margin, while the hanging cluster remains identifiable. The requested full-target safety margin was not achieved at that tip; no further zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 415/436/413/448px, width 1008px; cuts 435/891/1324.",
+    "cuts": [
+      435,
+      891,
+      1324
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 415
+    },
+    "contexts": [
+      {
+        "id": "nature-ice-01-scene0",
+        "label": "制冰盒格子里的冰块",
+        "image": "hanzi-images/realistic-v1/nature-ice-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ice"
+  },
+  {
+    "id": "nature-ice-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-08_1795400134471_d9e81d28.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one plain ice cube tray holding solid translucent frozen cubes in its compartments on a clean countertop. Entire central tray including all outer edges visible with generous 12 percent surrounding margins, subtle frost and natural reflections on ice, cool diffuse lighting, no drinks.\nPanel 2: several clear solid icicles hanging from the edge of a simple roof eave. Entire lengths and pointed tips of the central cluster visible with substantial empty space below and above, roof edge near upper part of panel, translucent frozen textures against softly blurred winter background. No handling.\nPanel 3: one low shallow stone basin in a quiet winter garden, its water surface covered by a thin solid ice sheet with trapped bubbles and faint cracks. Entire complete oval basin rim and sides visible centrally with generous margins, no birds or other animals, cold daylight.\nPanel 4, bottom: a natural river curving around a pale gravel bar, continuous flowing channel with ripples, two distinct riverbanks and the whole central bend seen from a distant elevated viewpoint, green bank vegetation, natural daylight. Clearly a river with continuing upstream and downstream channel, not a contained pond.\nStyle: photorealistic camera imagery, authentic frozen water, stone and landscape textures, not illustration or CGI. Main tray, icicle cluster, basin and river bend wholly inside respective panels with crop-safe margins. No people, animals, tools, ice tasting or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete plain tray with translucent ice cubes inside compartments on a countertop; second tapered transparent icicles hanging from a snowy roof eave, all central tips visible; third a full low stone basin with opaque-translucent frozen sheet, bubbles and crack lines; bottom flowing rippled river splitting around a pale gravel bar with green banks and a continuous distant channel. Central referents visible and labels accurate. Final JPEG review: the longest central icicle tip reaches the lower JPEG edge with essentially no margin, while the hanging cluster remains identifiable. The requested full-target safety margin was not achieved at that tip; no further zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 415/436/413/448px, width 1008px; cuts 435/891/1324.",
+    "cuts": [
+      435,
+      891,
+      1324
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 445,
+      "width": 1008,
+      "height": 436
+    },
+    "contexts": [
+      {
+        "id": "nature-ice-02-scene0",
+        "label": "屋檐下垂着的冰柱",
+        "image": "hanzi-images/realistic-v1/nature-ice-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ice"
+  },
+  {
+    "id": "nature-ice-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-08_1795400134471_d9e81d28.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one plain ice cube tray holding solid translucent frozen cubes in its compartments on a clean countertop. Entire central tray including all outer edges visible with generous 12 percent surrounding margins, subtle frost and natural reflections on ice, cool diffuse lighting, no drinks.\nPanel 2: several clear solid icicles hanging from the edge of a simple roof eave. Entire lengths and pointed tips of the central cluster visible with substantial empty space below and above, roof edge near upper part of panel, translucent frozen textures against softly blurred winter background. No handling.\nPanel 3: one low shallow stone basin in a quiet winter garden, its water surface covered by a thin solid ice sheet with trapped bubbles and faint cracks. Entire complete oval basin rim and sides visible centrally with generous margins, no birds or other animals, cold daylight.\nPanel 4, bottom: a natural river curving around a pale gravel bar, continuous flowing channel with ripples, two distinct riverbanks and the whole central bend seen from a distant elevated viewpoint, green bank vegetation, natural daylight. Clearly a river with continuing upstream and downstream channel, not a contained pond.\nStyle: photorealistic camera imagery, authentic frozen water, stone and landscape textures, not illustration or CGI. Main tray, icicle cluster, basin and river bend wholly inside respective panels with crop-safe margins. No people, animals, tools, ice tasting or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete plain tray with translucent ice cubes inside compartments on a countertop; second tapered transparent icicles hanging from a snowy roof eave, all central tips visible; third a full low stone basin with opaque-translucent frozen sheet, bubbles and crack lines; bottom flowing rippled river splitting around a pale gravel bar with green banks and a continuous distant channel. Central referents visible and labels accurate. Final JPEG review: the longest central icicle tip reaches the lower JPEG edge with essentially no margin, while the hanging cluster remains identifiable. The requested full-target safety margin was not achieved at that tip; no further zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 415/436/413/448px, width 1008px; cuts 435/891/1324.",
+    "cuts": [
+      435,
+      891,
+      1324
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 901,
+      "width": 1008,
+      "height": 413
+    },
+    "contexts": [
+      {
+        "id": "nature-ice-03-scene0",
+        "label": "浅石盆水面上结成的冰",
+        "image": "hanzi-images/realistic-v1/nature-ice-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ice"
+  },
+  {
+    "id": "nature-river-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-08_1795400134471_d9e81d28.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: one plain ice cube tray holding solid translucent frozen cubes in its compartments on a clean countertop. Entire central tray including all outer edges visible with generous 12 percent surrounding margins, subtle frost and natural reflections on ice, cool diffuse lighting, no drinks.\nPanel 2: several clear solid icicles hanging from the edge of a simple roof eave. Entire lengths and pointed tips of the central cluster visible with substantial empty space below and above, roof edge near upper part of panel, translucent frozen textures against softly blurred winter background. No handling.\nPanel 3: one low shallow stone basin in a quiet winter garden, its water surface covered by a thin solid ice sheet with trapped bubbles and faint cracks. Entire complete oval basin rim and sides visible centrally with generous margins, no birds or other animals, cold daylight.\nPanel 4, bottom: a natural river curving around a pale gravel bar, continuous flowing channel with ripples, two distinct riverbanks and the whole central bend seen from a distant elevated viewpoint, green bank vegetation, natural daylight. Clearly a river with continuing upstream and downstream channel, not a contained pond.\nStyle: photorealistic camera imagery, authentic frozen water, stone and landscape textures, not illustration or CGI. Main tray, icicle cluster, basin and river bend wholly inside respective panels with crop-safe margins. No people, animals, tools, ice tasting or staged activity.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top complete plain tray with translucent ice cubes inside compartments on a countertop; second tapered transparent icicles hanging from a snowy roof eave, all central tips visible; third a full low stone basin with opaque-translucent frozen sheet, bubbles and crack lines; bottom flowing rippled river splitting around a pale gravel bar with green banks and a continuous distant channel. Central referents visible and labels accurate. Final JPEG review: the longest central icicle tip reaches the lower JPEG edge with essentially no margin, while the hanging cluster remains identifiable. The requested full-target safety margin was not achieved at that tip; no further zoom crop recommended. No people or text. AI-generated photorealistic imagery. Crop heights 415/436/413/448px, width 1008px; cuts 435/891/1324.",
+    "cuts": [
+      435,
+      891,
+      1324
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1334,
+      "width": 1008,
+      "height": 448
+    },
+    "contexts": [
+      {
+        "id": "nature-river-01-scene0",
+        "label": "绕过砾石滩流动的河",
+        "image": "hanzi-images/realistic-v1/nature-river-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "river"
+  },
+  {
+    "id": "nature-river-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-09_1795400248866_ab63e5fa.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a narrow natural river running continuously between two reed-lined banks. Clear channel recedes into the distance with rippled flowing water and distinct land edges on both sides, central water and both banks in frame, gentle daylight.\nPanel 2: a river flowing along the bottom of a broad rocky canyon, continuous central channel and both banks visible between tall horizontally layered stone walls. Distant fixed elevated viewpoint, warm natural daylight, no climbing or boating.\nPanel 3: a small still oval pond surrounded by orchard fruit trees. Complete closed water boundary and low earthen bank visible centrally, gentle tree reflections, compact contained pond not a river. Show the whole pond with at least 12 percent dry-land margins above, below and beside its shoreline, soft daylight.\nPanel 4, bottom: a small still rounded pond enclosed by grassy meadow, reflecting pale blue sky. Entire compact closed shoreline with low grass banks visible and ample 12 percent dry grass margins on every side. Calm water with no through-flowing channel, no reeds hiding the boundary, soft daylight.\nStyle: photorealistic camera imagery, authentic rock, grass, tree and water textures, not illustration or CGI. Main river channels clear and every pond fully inside its panel with crop-safe margins. No people, animals, equipment, structures, water access activity or staged behavior.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a continuous rippled river between two dense reed-lined banks; second a continuous river winding through a broad layered rock canyon with both banks; third a compact closed oval pond among rows of orchard trees with full earthen boundary; fourth a rounded closed meadow pond reflecting blue sky and clouds with full grassy shoreline. Both ponds are contained rather than river channels, and their boundaries survive the measured crop. Central river targets visible, all labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/432/430/427px, width 1008px; cuts 443/895/1345.",
+    "cuts": [
+      443,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "nature-river-02-scene0",
+        "label": "两岸长着芦苇的河",
+        "image": "hanzi-images/realistic-v1/nature-river-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "river"
+  },
+  {
+    "id": "nature-river-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-09_1795400248866_ab63e5fa.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a narrow natural river running continuously between two reed-lined banks. Clear channel recedes into the distance with rippled flowing water and distinct land edges on both sides, central water and both banks in frame, gentle daylight.\nPanel 2: a river flowing along the bottom of a broad rocky canyon, continuous central channel and both banks visible between tall horizontally layered stone walls. Distant fixed elevated viewpoint, warm natural daylight, no climbing or boating.\nPanel 3: a small still oval pond surrounded by orchard fruit trees. Complete closed water boundary and low earthen bank visible centrally, gentle tree reflections, compact contained pond not a river. Show the whole pond with at least 12 percent dry-land margins above, below and beside its shoreline, soft daylight.\nPanel 4, bottom: a small still rounded pond enclosed by grassy meadow, reflecting pale blue sky. Entire compact closed shoreline with low grass banks visible and ample 12 percent dry grass margins on every side. Calm water with no through-flowing channel, no reeds hiding the boundary, soft daylight.\nStyle: photorealistic camera imagery, authentic rock, grass, tree and water textures, not illustration or CGI. Main river channels clear and every pond fully inside its panel with crop-safe margins. No people, animals, equipment, structures, water access activity or staged behavior.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a continuous rippled river between two dense reed-lined banks; second a continuous river winding through a broad layered rock canyon with both banks; third a compact closed oval pond among rows of orchard trees with full earthen boundary; fourth a rounded closed meadow pond reflecting blue sky and clouds with full grassy shoreline. Both ponds are contained rather than river channels, and their boundaries survive the measured crop. Central river targets visible, all labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/432/430/427px, width 1008px; cuts 443/895/1345.",
+    "cuts": [
+      443,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "nature-river-03-scene0",
+        "label": "岩石峡谷底部流动的河",
+        "image": "hanzi-images/realistic-v1/nature-river-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "river"
+  },
+  {
+    "id": "nature-pond-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-09_1795400248866_ab63e5fa.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a narrow natural river running continuously between two reed-lined banks. Clear channel recedes into the distance with rippled flowing water and distinct land edges on both sides, central water and both banks in frame, gentle daylight.\nPanel 2: a river flowing along the bottom of a broad rocky canyon, continuous central channel and both banks visible between tall horizontally layered stone walls. Distant fixed elevated viewpoint, warm natural daylight, no climbing or boating.\nPanel 3: a small still oval pond surrounded by orchard fruit trees. Complete closed water boundary and low earthen bank visible centrally, gentle tree reflections, compact contained pond not a river. Show the whole pond with at least 12 percent dry-land margins above, below and beside its shoreline, soft daylight.\nPanel 4, bottom: a small still rounded pond enclosed by grassy meadow, reflecting pale blue sky. Entire compact closed shoreline with low grass banks visible and ample 12 percent dry grass margins on every side. Calm water with no through-flowing channel, no reeds hiding the boundary, soft daylight.\nStyle: photorealistic camera imagery, authentic rock, grass, tree and water textures, not illustration or CGI. Main river channels clear and every pond fully inside its panel with crop-safe margins. No people, animals, equipment, structures, water access activity or staged behavior.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a continuous rippled river between two dense reed-lined banks; second a continuous river winding through a broad layered rock canyon with both banks; third a compact closed oval pond among rows of orchard trees with full earthen boundary; fourth a rounded closed meadow pond reflecting blue sky and clouds with full grassy shoreline. Both ponds are contained rather than river channels, and their boundaries survive the measured crop. Central river targets visible, all labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/432/430/427px, width 1008px; cuts 443/895/1345.",
+    "cuts": [
+      443,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "nature-pond-01-scene0",
+        "label": "果树之间蓄水的小池",
+        "image": "hanzi-images/realistic-v1/nature-pond-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pond"
+  },
+  {
+    "id": "nature-pond-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-09_1795400248866_ab63e5fa.png",
+    "prompt": "Use case: four new AI-generated photographic covers for a children's nature photo album.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top: a narrow natural river running continuously between two reed-lined banks. Clear channel recedes into the distance with rippled flowing water and distinct land edges on both sides, central water and both banks in frame, gentle daylight.\nPanel 2: a river flowing along the bottom of a broad rocky canyon, continuous central channel and both banks visible between tall horizontally layered stone walls. Distant fixed elevated viewpoint, warm natural daylight, no climbing or boating.\nPanel 3: a small still oval pond surrounded by orchard fruit trees. Complete closed water boundary and low earthen bank visible centrally, gentle tree reflections, compact contained pond not a river. Show the whole pond with at least 12 percent dry-land margins above, below and beside its shoreline, soft daylight.\nPanel 4, bottom: a small still rounded pond enclosed by grassy meadow, reflecting pale blue sky. Entire compact closed shoreline with low grass banks visible and ample 12 percent dry grass margins on every side. Calm water with no through-flowing channel, no reeds hiding the boundary, soft daylight.\nStyle: photorealistic camera imagery, authentic rock, grass, tree and water textures, not illustration or CGI. Main river channels clear and every pond fully inside its panel with crop-safe margins. No people, animals, equipment, structures, water access activity or staged behavior.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: top a continuous rippled river between two dense reed-lined banks; second a continuous river winding through a broad layered rock canyon with both banks; third a compact closed oval pond among rows of orchard trees with full earthen boundary; fourth a rounded closed meadow pond reflecting blue sky and clouds with full grassy shoreline. Both ponds are contained rather than river channels, and their boundaries survive the measured crop. Central river targets visible, all labels accurate. No people or text. AI-generated photorealistic imagery. Crop heights 423/432/430/427px, width 1008px; cuts 443/895/1345.",
+    "cuts": [
+      443,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "nature-pond-02-scene0",
+        "label": "草地中映着天空的小池",
+        "image": "hanzi-images/realistic-v1/nature-pond-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pond"
+  },
+  {
+    "id": "nature-pond-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-nature-v3-10_1795400371928_7e672291.png",
+    "prompt": "Use case: final AI-generated sheet for a children's nature photo album; ONLY the top photograph is an assigned story cover. The other three photographs are unassigned neutral nature scenes.\nLayout: exactly FOUR separate full-width landscape photographs stacked top to bottom in one 1024x1792 sheet. Equal quarters about 448 pixels high, exactly THREE thin straight pure white horizontal separators, 5 pixels thick, at y=448,896,1344. No outer border, vertical divisions, text, captions or watermark.\nPanel 1, top, assigned cover: a small still garden pond enclosed by a complete low stone-lined rim among neat tea shrubs. Entire compact closed pond boundary and rough stone construction visible centrally, water holds gentle shrub reflections. Surround the entire rim on all sides with at least 12 percent dry-ground or tea-shrub margin, especially below and beside it. Slightly elevated wide view, natural daylight, clearly a compact pond not a river.\nPanel 2, unassigned neutral: quiet open grassy meadow with low distant trees under pale blue sky, soft daylight, no pond.\nPanel 3, unassigned neutral: distant softly layered green hills beneath a lightly clouded sky, natural daylight.\nPanel 4, unassigned neutral: sunlit woodland foliage and a few smooth stones on dry level ground, soft natural texture.\nStyle: photorealistic camera imagery, authentic stone, tea foliage, water and landscape textures, not illustration or CGI. Keep complete top pond rim safely inside its own panel; no people, animals, buildings, equipment, labels or staged activity in any panel.",
+    "reviewNotes": "Reviewed actual 380px quad500 preview: assigned top panel shows a complete compact still pond with low rough stone rim among neatly trimmed tea shrubs, gentle foliage reflections and dry ground outside the entire rim. Full pond boundary remains inside crop; scene label accurate. Unassigned panels 2/3/4 show an open grassy meadow, distant green hills and sunlit woodland stones respectively; no story mapping or JPEG outputs for these three neutral scenes. No people or text. AI-generated photorealistic imagery. Assigned crop height 424px, width 1008px; other panel heights 431/426/431px; cuts 444/895/1341.",
+    "cuts": [
+      444,
+      895,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "nature-pond-03-scene0",
+        "label": "茶园里石块围边的小池",
+        "image": "hanzi-images/realistic-v1/nature-pond-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "pond"
+  }
+]

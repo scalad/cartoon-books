@@ -115,15 +115,20 @@
         return /^[a-z0-9_-]+$/i.test(id) ? id : 'water';
     }
 
+    function sceneSource(lesson, variant) {
+        return lesson.contexts?.[variant]?.image || `hanzi-images/realistic-v1/${lessonId(lesson)}-${variant}.jpg`;
+    }
+
     function thumbnail(lesson, variant, className = 'play-thumbnail') {
-        return `<img class="${className}" src="hanzi-images/realistic-v1/${escape(lessonId(lesson))}-${inRange(variant, 3) ? variant : 0}.jpg" alt="" width="1008" height="568" loading="lazy" decoding="async" draggable="false">`;
+        const index = inRange(variant, 3) ? variant : 0;
+        return `<img class="${className}${lesson.contexts?.[index]?.framing === 'wide' ? ' photo-wide' : ''}" src="${escape(sceneSource(lesson, index))}" alt="" width="1008" height="568" loading="lazy" decoding="async" draggable="false">`;
     }
 
     function photograph(lesson, variant = 0) {
         const id = lessonId(lesson);
         const scene = root.HanziArt && typeof root.HanziArt.scene === 'function'
             ? root.HanziArt.scene(id, variant)
-            : `<img class="play-scene-image" src="hanzi-images/realistic-v1/${escape(id)}-${variant}.jpg" alt="" width="1008" height="568" decoding="async">`;
+            : `<img class="play-scene-image${lesson.contexts?.[variant]?.framing === 'wide' ? ' photo-wide' : ''}" src="${escape(sceneSource(lesson, variant))}" alt="" width="1008" height="568" decoding="async">`;
         return `<div class="play-photograph" aria-hidden="true">${scene}</div>`;
     }
 

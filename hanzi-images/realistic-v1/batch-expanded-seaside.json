@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "seaside-shell-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-01_1795402147489_0fc7f60c.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete empty scallop shell on a dark blue velvet tray in a coastal natural history museum. Full fan outline and radial ridges clearly visible, softly lit.\nPanel 2: one empty clam shell half, smooth pale inner surface facing upward on a neutral specimen pad inside a glass museum case. Entire curved shell visible with subtle natural sheen, no tissue.\nPanel 3: one complete empty spiral sea snail shell resting horizontally on a clear acrylic support inside a transparent coastal exhibit case. Warm cream texture, visible spiral whorls and open aperture, no living animal.\nPanel 4, bottom: two intact matching empty clam shell halves laid open side by side on a flat gray observation mat on a coastal science museum table. Both complete halves centrally visible, soft daylight, no tools or tissue.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: top complete fan-shaped scallop shell on dark blue velvet; second empty clam half with pale inner surface upward inside glass; third empty spiral shell with open aperture on clear support in glass case; bottom two matching open clam halves on gray mat. Labels match; no people or text. Top scallop has a tight upper margin, less than requested 8 percent; avoid further zoom crops. Other shell outlines clear of seams. AI imagery, not documentary. Detected cuts 438/891/1343; crops 1008px wide, heights 418/433/432/429px.",
+    "cuts": [
+      438,
+      891,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "seaside-shell-01-scene0",
+        "label": "绒布托盘里的空扇贝壳",
+        "image": "hanzi-images/realistic-v1/seaside-shell-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shell"
+  },
+  {
+    "id": "seaside-shell-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-01_1795402147489_0fc7f60c.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete empty scallop shell on a dark blue velvet tray in a coastal natural history museum. Full fan outline and radial ridges clearly visible, softly lit.\nPanel 2: one empty clam shell half, smooth pale inner surface facing upward on a neutral specimen pad inside a glass museum case. Entire curved shell visible with subtle natural sheen, no tissue.\nPanel 3: one complete empty spiral sea snail shell resting horizontally on a clear acrylic support inside a transparent coastal exhibit case. Warm cream texture, visible spiral whorls and open aperture, no living animal.\nPanel 4, bottom: two intact matching empty clam shell halves laid open side by side on a flat gray observation mat on a coastal science museum table. Both complete halves centrally visible, soft daylight, no tools or tissue.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: top complete fan-shaped scallop shell on dark blue velvet; second empty clam half with pale inner surface upward inside glass; third empty spiral shell with open aperture on clear support in glass case; bottom two matching open clam halves on gray mat. Labels match; no people or text. Top scallop has a tight upper margin, less than requested 8 percent; avoid further zoom crops. Other shell outlines clear of seams. AI imagery, not documentary. Detected cuts 438/891/1343; crops 1008px wide, heights 418/433/432/429px.",
+    "cuts": [
+      438,
+      891,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 448,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "seaside-shell-02-scene0",
+        "label": "展柜里内侧朝上的空蛤蜊壳",
+        "image": "hanzi-images/realistic-v1/seaside-shell-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shell"
+  },
+  {
+    "id": "seaside-shell-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-01_1795402147489_0fc7f60c.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete empty scallop shell on a dark blue velvet tray in a coastal natural history museum. Full fan outline and radial ridges clearly visible, softly lit.\nPanel 2: one empty clam shell half, smooth pale inner surface facing upward on a neutral specimen pad inside a glass museum case. Entire curved shell visible with subtle natural sheen, no tissue.\nPanel 3: one complete empty spiral sea snail shell resting horizontally on a clear acrylic support inside a transparent coastal exhibit case. Warm cream texture, visible spiral whorls and open aperture, no living animal.\nPanel 4, bottom: two intact matching empty clam shell halves laid open side by side on a flat gray observation mat on a coastal science museum table. Both complete halves centrally visible, soft daylight, no tools or tissue.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: top complete fan-shaped scallop shell on dark blue velvet; second empty clam half with pale inner surface upward inside glass; third empty spiral shell with open aperture on clear support in glass case; bottom two matching open clam halves on gray mat. Labels match; no people or text. Top scallop has a tight upper margin, less than requested 8 percent; avoid further zoom crops. Other shell outlines clear of seams. AI imagery, not documentary. Detected cuts 438/891/1343; crops 1008px wide, heights 418/433/432/429px.",
+    "cuts": [
+      438,
+      891,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 901,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "seaside-shell-03-scene0",
+        "label": "透明展柜里完整的空海螺壳",
+        "image": "hanzi-images/realistic-v1/seaside-shell-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shell"
+  },
+  {
+    "id": "seaside-shell-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-01_1795402147489_0fc7f60c.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete empty scallop shell on a dark blue velvet tray in a coastal natural history museum. Full fan outline and radial ridges clearly visible, softly lit.\nPanel 2: one empty clam shell half, smooth pale inner surface facing upward on a neutral specimen pad inside a glass museum case. Entire curved shell visible with subtle natural sheen, no tissue.\nPanel 3: one complete empty spiral sea snail shell resting horizontally on a clear acrylic support inside a transparent coastal exhibit case. Warm cream texture, visible spiral whorls and open aperture, no living animal.\nPanel 4, bottom: two intact matching empty clam shell halves laid open side by side on a flat gray observation mat on a coastal science museum table. Both complete halves centrally visible, soft daylight, no tools or tissue.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: top complete fan-shaped scallop shell on dark blue velvet; second empty clam half with pale inner surface upward inside glass; third empty spiral shell with open aperture on clear support in glass case; bottom two matching open clam halves on gray mat. Labels match; no people or text. Top scallop has a tight upper margin, less than requested 8 percent; avoid further zoom crops. Other shell outlines clear of seams. AI imagery, not documentary. Detected cuts 438/891/1343; crops 1008px wide, heights 418/433/432/429px.",
+    "cuts": [
+      438,
+      891,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "seaside-shell-04-scene0",
+        "label": "观察台上成对摊开的空蛤蜊壳",
+        "image": "hanzi-images/realistic-v1/seaside-shell-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "shell"
+  },
+  {
+    "id": "seaside-sand-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-02_1795402222821_c011f795.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete shallow rectangular museum tray of pale coastal sand shaped into low parallel ripple ridges. Fine grains and shallow ripples visible on an indoor exhibit table.\nPanel 2: a broad shallow indoor sand tray filled with evenly leveled fine dry beige sand at a coastal visitor center. Visible grains and complete tray edges, soft side lighting, no water.\nPanel 3: a sealed clear rectangular museum box with horizontal layers of beige, cream and light gray sand. Frontal view showing grains through transparent front, whole box on an indoor shelf.\nPanel 4, bottom: low coastal sand dunes with fine wind-made ripple textures across a broad beige foreground slope. Sand dominates, a little distant dune grass above, gentle daylight, no sea access point.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: rippled sand in shallow rectangular gray tray; evenly leveled dry sand in wooden indoor tray; pale horizontal sand layers in transparent box; rippled coastal dune with distant grass. Main labels match and all sand subjects visible. No people, no readable foreground text; distant museum placards are blurred. Tray edges are close to lower seams, especially second tray, so requested 8 percent outer margins not fully achieved; no extra zoom crop. Dune naturally extends beyond frame. AI imagery. Cuts 447/891/1341; crop heights 427/424/430/431px, width 1008px.",
+    "cuts": [
+      447,
+      891,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "seaside-sand-01-scene0",
+        "label": "展盒里带浅浅波纹的沙",
+        "image": "hanzi-images/realistic-v1/seaside-sand-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sand"
+  },
+  {
+    "id": "seaside-sand-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-02_1795402222821_c011f795.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete shallow rectangular museum tray of pale coastal sand shaped into low parallel ripple ridges. Fine grains and shallow ripples visible on an indoor exhibit table.\nPanel 2: a broad shallow indoor sand tray filled with evenly leveled fine dry beige sand at a coastal visitor center. Visible grains and complete tray edges, soft side lighting, no water.\nPanel 3: a sealed clear rectangular museum box with horizontal layers of beige, cream and light gray sand. Frontal view showing grains through transparent front, whole box on an indoor shelf.\nPanel 4, bottom: low coastal sand dunes with fine wind-made ripple textures across a broad beige foreground slope. Sand dominates, a little distant dune grass above, gentle daylight, no sea access point.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: rippled sand in shallow rectangular gray tray; evenly leveled dry sand in wooden indoor tray; pale horizontal sand layers in transparent box; rippled coastal dune with distant grass. Main labels match and all sand subjects visible. No people, no readable foreground text; distant museum placards are blurred. Tray edges are close to lower seams, especially second tray, so requested 8 percent outer margins not fully achieved; no extra zoom crop. Dune naturally extends beyond frame. AI imagery. Cuts 447/891/1341; crop heights 427/424/430/431px, width 1008px.",
+    "cuts": [
+      447,
+      891,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 457,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "seaside-sand-02-scene0",
+        "label": "室内沙盘里平铺的干沙",
+        "image": "hanzi-images/realistic-v1/seaside-sand-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sand"
+  },
+  {
+    "id": "seaside-sand-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-02_1795402222821_c011f795.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete shallow rectangular museum tray of pale coastal sand shaped into low parallel ripple ridges. Fine grains and shallow ripples visible on an indoor exhibit table.\nPanel 2: a broad shallow indoor sand tray filled with evenly leveled fine dry beige sand at a coastal visitor center. Visible grains and complete tray edges, soft side lighting, no water.\nPanel 3: a sealed clear rectangular museum box with horizontal layers of beige, cream and light gray sand. Frontal view showing grains through transparent front, whole box on an indoor shelf.\nPanel 4, bottom: low coastal sand dunes with fine wind-made ripple textures across a broad beige foreground slope. Sand dominates, a little distant dune grass above, gentle daylight, no sea access point.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: rippled sand in shallow rectangular gray tray; evenly leveled dry sand in wooden indoor tray; pale horizontal sand layers in transparent box; rippled coastal dune with distant grass. Main labels match and all sand subjects visible. No people, no readable foreground text; distant museum placards are blurred. Tray edges are close to lower seams, especially second tray, so requested 8 percent outer margins not fully achieved; no extra zoom crop. Dune naturally extends beyond frame. AI imagery. Cuts 447/891/1341; crop heights 427/424/430/431px, width 1008px.",
+    "cuts": [
+      447,
+      891,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 901,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-sand-03-scene0",
+        "label": "透明展盒里不同浅色层次的沙",
+        "image": "hanzi-images/realistic-v1/seaside-sand-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sand"
+  },
+  {
+    "id": "seaside-sand-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-02_1795402222821_c011f795.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete shallow rectangular museum tray of pale coastal sand shaped into low parallel ripple ridges. Fine grains and shallow ripples visible on an indoor exhibit table.\nPanel 2: a broad shallow indoor sand tray filled with evenly leveled fine dry beige sand at a coastal visitor center. Visible grains and complete tray edges, soft side lighting, no water.\nPanel 3: a sealed clear rectangular museum box with horizontal layers of beige, cream and light gray sand. Frontal view showing grains through transparent front, whole box on an indoor shelf.\nPanel 4, bottom: low coastal sand dunes with fine wind-made ripple textures across a broad beige foreground slope. Sand dominates, a little distant dune grass above, gentle daylight, no sea access point.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: rippled sand in shallow rectangular gray tray; evenly leveled dry sand in wooden indoor tray; pale horizontal sand layers in transparent box; rippled coastal dune with distant grass. Main labels match and all sand subjects visible. No people, no readable foreground text; distant museum placards are blurred. Tray edges are close to lower seams, especially second tray, so requested 8 percent outer margins not fully achieved; no extra zoom crop. Dune naturally extends beyond frame. AI imagery. Cuts 447/891/1341; crop heights 427/424/430/431px, width 1008px.",
+    "cuts": [
+      447,
+      891,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "seaside-sand-04-scene0",
+        "label": "海岸沙丘表面起伏的沙",
+        "image": "hanzi-images/realistic-v1/seaside-sand-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sand"
+  },
+  {
+    "id": "seaside-net-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-03_1795402307850_5fd1428e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a clean fishing net stretched flat across a complete rectangular wooden exhibition frame on a neutral museum wall. Sharp intersecting fibers and open diamond mesh, no hooks or animals.\nPanel 2: an entire taut volleyball net between two upright poles on an empty coastal sand sports court. Rectangular mesh clearly visible, complete poles and net within generous margins, a distant promenade, calm daylight.\nPanel 3: a clean fishing net neatly folded on a wide museum shelf behind glass, one outer section spread to show crossing strands and open mesh. Complete folded net, soft indoor light, no fish or hooks.\nPanel 4, bottom: an intact small wooden rowboat resting securely on low exhibition cradles in an empty maritime museum gallery. Complete curved hull, wooden seats and outline visible from a slightly elevated side angle, no cabinet around boat, no water or boarding.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: diamond-mesh fishing net in wooden wall frame; taut rectangular volleyball net between two poles on empty coastal sand court; clean folded mesh net on glass-case shelf; full wooden rowboat with seats on low cradles in open dry gallery, not a boat cabinet. All labels match. No people or readable foreground text; small blurred museum placards in background. Wooden frame upper margin and folded net lower margin tighter than requested 8 percent, but central mesh and boat clear. AI imagery. Cuts 441/888/1338; heights 421/427/430/434px, width 1008px.",
+    "cuts": [
+      441,
+      888,
+      1338
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "seaside-net-01-scene0",
+        "label": "博物馆木框上平展的渔网",
+        "image": "hanzi-images/realistic-v1/seaside-net-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "net"
+  },
+  {
+    "id": "seaside-net-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-03_1795402307850_5fd1428e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a clean fishing net stretched flat across a complete rectangular wooden exhibition frame on a neutral museum wall. Sharp intersecting fibers and open diamond mesh, no hooks or animals.\nPanel 2: an entire taut volleyball net between two upright poles on an empty coastal sand sports court. Rectangular mesh clearly visible, complete poles and net within generous margins, a distant promenade, calm daylight.\nPanel 3: a clean fishing net neatly folded on a wide museum shelf behind glass, one outer section spread to show crossing strands and open mesh. Complete folded net, soft indoor light, no fish or hooks.\nPanel 4, bottom: an intact small wooden rowboat resting securely on low exhibition cradles in an empty maritime museum gallery. Complete curved hull, wooden seats and outline visible from a slightly elevated side angle, no cabinet around boat, no water or boarding.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: diamond-mesh fishing net in wooden wall frame; taut rectangular volleyball net between two poles on empty coastal sand court; clean folded mesh net on glass-case shelf; full wooden rowboat with seats on low cradles in open dry gallery, not a boat cabinet. All labels match. No people or readable foreground text; small blurred museum placards in background. Wooden frame upper margin and folded net lower margin tighter than requested 8 percent, but central mesh and boat clear. AI imagery. Cuts 441/888/1338; heights 421/427/430/434px, width 1008px.",
+    "cuts": [
+      441,
+      888,
+      1338
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 451,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "seaside-net-02-scene0",
+        "label": "海滨沙地球场中间的排球网",
+        "image": "hanzi-images/realistic-v1/seaside-net-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "net"
+  },
+  {
+    "id": "seaside-net-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-03_1795402307850_5fd1428e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a clean fishing net stretched flat across a complete rectangular wooden exhibition frame on a neutral museum wall. Sharp intersecting fibers and open diamond mesh, no hooks or animals.\nPanel 2: an entire taut volleyball net between two upright poles on an empty coastal sand sports court. Rectangular mesh clearly visible, complete poles and net within generous margins, a distant promenade, calm daylight.\nPanel 3: a clean fishing net neatly folded on a wide museum shelf behind glass, one outer section spread to show crossing strands and open mesh. Complete folded net, soft indoor light, no fish or hooks.\nPanel 4, bottom: an intact small wooden rowboat resting securely on low exhibition cradles in an empty maritime museum gallery. Complete curved hull, wooden seats and outline visible from a slightly elevated side angle, no cabinet around boat, no water or boarding.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: diamond-mesh fishing net in wooden wall frame; taut rectangular volleyball net between two poles on empty coastal sand court; clean folded mesh net on glass-case shelf; full wooden rowboat with seats on low cradles in open dry gallery, not a boat cabinet. All labels match. No people or readable foreground text; small blurred museum placards in background. Wooden frame upper margin and folded net lower margin tighter than requested 8 percent, but central mesh and boat clear. AI imagery. Cuts 441/888/1338; heights 421/427/430/434px, width 1008px.",
+    "cuts": [
+      441,
+      888,
+      1338
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 898,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-net-03-scene0",
+        "label": "展柜里整齐叠放的干净渔网",
+        "image": "hanzi-images/realistic-v1/seaside-net-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "net"
+  },
+  {
+    "id": "seaside-boat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-03_1795402307850_5fd1428e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a clean fishing net stretched flat across a complete rectangular wooden exhibition frame on a neutral museum wall. Sharp intersecting fibers and open diamond mesh, no hooks or animals.\nPanel 2: an entire taut volleyball net between two upright poles on an empty coastal sand sports court. Rectangular mesh clearly visible, complete poles and net within generous margins, a distant promenade, calm daylight.\nPanel 3: a clean fishing net neatly folded on a wide museum shelf behind glass, one outer section spread to show crossing strands and open mesh. Complete folded net, soft indoor light, no fish or hooks.\nPanel 4, bottom: an intact small wooden rowboat resting securely on low exhibition cradles in an empty maritime museum gallery. Complete curved hull, wooden seats and outline visible from a slightly elevated side angle, no cabinet around boat, no water or boarding.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: diamond-mesh fishing net in wooden wall frame; taut rectangular volleyball net between two poles on empty coastal sand court; clean folded mesh net on glass-case shelf; full wooden rowboat with seats on low cradles in open dry gallery, not a boat cabinet. All labels match. No people or readable foreground text; small blurred museum placards in background. Wooden frame upper margin and folded net lower margin tighter than requested 8 percent, but central mesh and boat clear. AI imagery. Cuts 441/888/1338; heights 421/427/430/434px, width 1008px.",
+    "cuts": [
+      441,
+      888,
+      1338
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1348,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "seaside-boat-01-scene0",
+        "label": "海事博物馆里支架上的木划艇",
+        "image": "hanzi-images/realistic-v1/seaside-boat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "seaside-boat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-04_1795402395276_eab9c2a9.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a small unoccupied sailboat moored on calm harbor water, mast and neatly furled sail visible. Complete hull AND full mast within the panel with generous margins, distant quay softly blurred, observation image from fixed land.\nPanel 2: a long intact dugout canoe on secure low padded supports in a coastal history museum. Elevated side view showing narrow wooden hull and hollow interior, entire canoe with generous end margins, wood grain and soft indoor light.\nPanel 3: a complete white passenger ship moored in calm coastal harbor water. Entire hull and several deck levels clearly visible with wide margins, distant port buildings and soft daylight, observation image from fixed land.\nPanel 4, bottom: a complete cargo ship carrying orderly stacks of plain unmarked containers on calm harbor water. Full hull, deck cargo and bridge distinct with generous margins, daylight observation view from land, no loading workers or cargo operation.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: small moored sailboat with furled sail and complete hull; long hollow dugout canoe on low padded supports; white multi-deck passenger ship at quay; container cargo ship on calm harbor water. Correct story subjects, no people or readable ship labels. Sailboat mast nearly touches source upper edge and its very tip may be clipped by fixed 10px crop inset, though full hull remains clear; requested 8 percent mast margin not achieved. Canoe end margins narrower than requested. Other vessels clear of seams. AI imagery. Cuts 445/896/1346; crops 1008px wide, heights 425/431/430/426px.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-boat-02-scene0",
+        "label": "平静港湾里停泊的小帆船",
+        "image": "hanzi-images/realistic-v1/seaside-boat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "seaside-boat-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-04_1795402395276_eab9c2a9.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a small unoccupied sailboat moored on calm harbor water, mast and neatly furled sail visible. Complete hull AND full mast within the panel with generous margins, distant quay softly blurred, observation image from fixed land.\nPanel 2: a long intact dugout canoe on secure low padded supports in a coastal history museum. Elevated side view showing narrow wooden hull and hollow interior, entire canoe with generous end margins, wood grain and soft indoor light.\nPanel 3: a complete white passenger ship moored in calm coastal harbor water. Entire hull and several deck levels clearly visible with wide margins, distant port buildings and soft daylight, observation image from fixed land.\nPanel 4, bottom: a complete cargo ship carrying orderly stacks of plain unmarked containers on calm harbor water. Full hull, deck cargo and bridge distinct with generous margins, daylight observation view from land, no loading workers or cargo operation.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: small moored sailboat with furled sail and complete hull; long hollow dugout canoe on low padded supports; white multi-deck passenger ship at quay; container cargo ship on calm harbor water. Correct story subjects, no people or readable ship labels. Sailboat mast nearly touches source upper edge and its very tip may be clipped by fixed 10px crop inset, though full hull remains clear; requested 8 percent mast margin not achieved. Canoe end margins narrower than requested. Other vessels clear of seams. AI imagery. Cuts 445/896/1346; crops 1008px wide, heights 425/431/430/426px.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "seaside-boat-03-scene0",
+        "label": "海岸历史馆架上完整的独木舟",
+        "image": "hanzi-images/realistic-v1/seaside-boat-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "seaside-ship-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-04_1795402395276_eab9c2a9.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a small unoccupied sailboat moored on calm harbor water, mast and neatly furled sail visible. Complete hull AND full mast within the panel with generous margins, distant quay softly blurred, observation image from fixed land.\nPanel 2: a long intact dugout canoe on secure low padded supports in a coastal history museum. Elevated side view showing narrow wooden hull and hollow interior, entire canoe with generous end margins, wood grain and soft indoor light.\nPanel 3: a complete white passenger ship moored in calm coastal harbor water. Entire hull and several deck levels clearly visible with wide margins, distant port buildings and soft daylight, observation image from fixed land.\nPanel 4, bottom: a complete cargo ship carrying orderly stacks of plain unmarked containers on calm harbor water. Full hull, deck cargo and bridge distinct with generous margins, daylight observation view from land, no loading workers or cargo operation.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: small moored sailboat with furled sail and complete hull; long hollow dugout canoe on low padded supports; white multi-deck passenger ship at quay; container cargo ship on calm harbor water. Correct story subjects, no people or readable ship labels. Sailboat mast nearly touches source upper edge and its very tip may be clipped by fixed 10px crop inset, though full hull remains clear; requested 8 percent mast margin not achieved. Canoe end margins narrower than requested. Other vessels clear of seams. AI imagery. Cuts 445/896/1346; crops 1008px wide, heights 425/431/430/426px.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-ship-01-scene0",
+        "label": "港湾里停泊的白色客船",
+        "image": "hanzi-images/realistic-v1/seaside-ship-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "seaside-ship-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-04_1795402395276_eab9c2a9.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a small unoccupied sailboat moored on calm harbor water, mast and neatly furled sail visible. Complete hull AND full mast within the panel with generous margins, distant quay softly blurred, observation image from fixed land.\nPanel 2: a long intact dugout canoe on secure low padded supports in a coastal history museum. Elevated side view showing narrow wooden hull and hollow interior, entire canoe with generous end margins, wood grain and soft indoor light.\nPanel 3: a complete white passenger ship moored in calm coastal harbor water. Entire hull and several deck levels clearly visible with wide margins, distant port buildings and soft daylight, observation image from fixed land.\nPanel 4, bottom: a complete cargo ship carrying orderly stacks of plain unmarked containers on calm harbor water. Full hull, deck cargo and bridge distinct with generous margins, daylight observation view from land, no loading workers or cargo operation.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: small moored sailboat with furled sail and complete hull; long hollow dugout canoe on low padded supports; white multi-deck passenger ship at quay; container cargo ship on calm harbor water. Correct story subjects, no people or readable ship labels. Sailboat mast nearly touches source upper edge and its very tip may be clipped by fixed 10px crop inset, though full hull remains clear; requested 8 percent mast margin not achieved. Canoe end margins narrower than requested. Other vessels clear of seams. AI imagery. Cuts 445/896/1346; crops 1008px wide, heights 425/431/430/426px.",
+    "cuts": [
+      445,
+      896,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "seaside-ship-02-scene0",
+        "label": "港湾水面上载着集装箱的货船",
+        "image": "hanzi-images/realistic-v1/seaside-ship-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "seaside-ship-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-05_1795402496411_dff910aa.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete double-ended coastal ferry traveling across a calm bay, broad hull and enclosed passenger cabin fully visible. Modest wake, distant hills, daylight observation image from elevated fixed land, no visible passengers.\nPanel 2: calm blue-green water with gentle surface ripples filling most of a sheltered coastal bay landscape. A thin distant shoreline only at the top, centered open water with wide margins, elevated fixed-land observation view.\nPanel 3: a sealed transparent rectangular wave demonstration tank in an indoor marine science museum. Clear water in the lower half, visibly gently curved wave surface and empty space above, entire tank centered, no controls operated.\nPanel 4, bottom: blue seawater forming one low rolling wave with a clear white foam band. Water and foam dominate the center, generous space around the main wave, daylight telephoto observation imagery from fixed land, no beach access or activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete double-ended ferry with small wake in calm bay; broad blue bay water with fine ripples and low distant shore; transparent rectangular wave tank with curved water surface and air above on indoor plinth; low blue wave with central white foam. All target labels accurate, no people or readable foreground text. Tank upper and side margins tighter than requested 8 percent but its water surface and rectangular enclosure remain visible. Landscape water naturally spans frame. AI imagery. Cuts 443/896/1342; heights 423/433/426/430px, width 1008px.",
+    "cuts": [
+      443,
+      896,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "seaside-ship-03-scene0",
+        "label": "海湾里航行的双头渡船",
+        "image": "hanzi-images/realistic-v1/seaside-ship-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "seaside-water-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-05_1795402496411_dff910aa.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete double-ended coastal ferry traveling across a calm bay, broad hull and enclosed passenger cabin fully visible. Modest wake, distant hills, daylight observation image from elevated fixed land, no visible passengers.\nPanel 2: calm blue-green water with gentle surface ripples filling most of a sheltered coastal bay landscape. A thin distant shoreline only at the top, centered open water with wide margins, elevated fixed-land observation view.\nPanel 3: a sealed transparent rectangular wave demonstration tank in an indoor marine science museum. Clear water in the lower half, visibly gently curved wave surface and empty space above, entire tank centered, no controls operated.\nPanel 4, bottom: blue seawater forming one low rolling wave with a clear white foam band. Water and foam dominate the center, generous space around the main wave, daylight telephoto observation imagery from fixed land, no beach access or activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete double-ended ferry with small wake in calm bay; broad blue bay water with fine ripples and low distant shore; transparent rectangular wave tank with curved water surface and air above on indoor plinth; low blue wave with central white foam. All target labels accurate, no people or readable foreground text. Tank upper and side margins tighter than requested 8 percent but its water surface and rectangular enclosure remain visible. Landscape water naturally spans frame. AI imagery. Cuts 443/896/1342; heights 423/433/426/430px, width 1008px.",
+    "cuts": [
+      443,
+      896,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 433
+    },
+    "contexts": [
+      {
+        "id": "seaside-water-01-scene0",
+        "label": "海湾里带轻轻波纹的水",
+        "image": "hanzi-images/realistic-v1/seaside-water-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "seaside-water-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-05_1795402496411_dff910aa.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete double-ended coastal ferry traveling across a calm bay, broad hull and enclosed passenger cabin fully visible. Modest wake, distant hills, daylight observation image from elevated fixed land, no visible passengers.\nPanel 2: calm blue-green water with gentle surface ripples filling most of a sheltered coastal bay landscape. A thin distant shoreline only at the top, centered open water with wide margins, elevated fixed-land observation view.\nPanel 3: a sealed transparent rectangular wave demonstration tank in an indoor marine science museum. Clear water in the lower half, visibly gently curved wave surface and empty space above, entire tank centered, no controls operated.\nPanel 4, bottom: blue seawater forming one low rolling wave with a clear white foam band. Water and foam dominate the center, generous space around the main wave, daylight telephoto observation imagery from fixed land, no beach access or activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete double-ended ferry with small wake in calm bay; broad blue bay water with fine ripples and low distant shore; transparent rectangular wave tank with curved water surface and air above on indoor plinth; low blue wave with central white foam. All target labels accurate, no people or readable foreground text. Tank upper and side margins tighter than requested 8 percent but its water surface and rectangular enclosure remain visible. Landscape water naturally spans frame. AI imagery. Cuts 443/896/1342; heights 423/433/426/430px, width 1008px.",
+    "cuts": [
+      443,
+      896,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "seaside-water-02-scene0",
+        "label": "密封透明波浪展箱里的水",
+        "image": "hanzi-images/realistic-v1/seaside-water-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "seaside-water-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-05_1795402496411_dff910aa.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete double-ended coastal ferry traveling across a calm bay, broad hull and enclosed passenger cabin fully visible. Modest wake, distant hills, daylight observation image from elevated fixed land, no visible passengers.\nPanel 2: calm blue-green water with gentle surface ripples filling most of a sheltered coastal bay landscape. A thin distant shoreline only at the top, centered open water with wide margins, elevated fixed-land observation view.\nPanel 3: a sealed transparent rectangular wave demonstration tank in an indoor marine science museum. Clear water in the lower half, visibly gently curved wave surface and empty space above, entire tank centered, no controls operated.\nPanel 4, bottom: blue seawater forming one low rolling wave with a clear white foam band. Water and foam dominate the center, generous space around the main wave, daylight telephoto observation imagery from fixed land, no beach access or activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete double-ended ferry with small wake in calm bay; broad blue bay water with fine ripples and low distant shore; transparent rectangular wave tank with curved water surface and air above on indoor plinth; low blue wave with central white foam. All target labels accurate, no people or readable foreground text. Tank upper and side margins tighter than requested 8 percent but its water surface and rectangular enclosure remain visible. Landscape water naturally spans frame. AI imagery. Cuts 443/896/1342; heights 423/433/426/430px, width 1008px.",
+    "cuts": [
+      443,
+      896,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-water-03-scene0",
+        "label": "海面上带白色浪花的水",
+        "image": "hanzi-images/realistic-v1/seaside-water-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "water"
+  },
+  {
+    "id": "seaside-wind-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-06_1795402576860_99dca3c7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete orange fabric windsock gently extended sideways in a breeze on a short coastal weather-station pole near a small observation building. Entire sock, mounting and short pole clear of crop seams against pale sky, natural fabric folds, no storms.\nPanel 2: several short fabric ribbons firmly attached to a coastal observation pole and extending gently sideways in a light breeze. All ribbon ends visible, complete main ribbon cluster with generous margins, distant seaside visitor building softly blurred, no loose litter.\nPanel 3: a rooted clump of long green coastal grass beside a level promenade, blades bending together in a gentle breeze. Entire main tuft including blade tips and base safely within margins; distant visitor-center wall and pale sky, no storms or cliffs.\nPanel 4, bottom: distinct rounded white cumulus clouds above a small calm harbor. Puffy cloud masses dominate the central upper frame, complete main cloud comfortably within margins, thin strip of quay and water below, balanced daylight.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: orange windsock extended right on coastal pole; four attached colored ribbons streaming right; coastal grass blades leaning beside level promenade; puffy white cumulus over quiet harbor. Air itself is not depicted as lines. Correct wind/cloud referents, no people or text. Sock and ribbon ends visible; poles continue to panel bottom. Grass fills left foreground, peripheral blades extend outside frame and upper tips are close to seam, so full-tuft 8 percent margin not achieved. Main cumulus upper margin also tight. AI imagery. Cuts 446/896/1346; heights 426/430/430/426px, width 1008px.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "seaside-wind-01-scene0",
+        "label": "海岸气象站被风吹起的风向袋",
+        "image": "hanzi-images/realistic-v1/seaside-wind-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "seaside-wind-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-06_1795402576860_99dca3c7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete orange fabric windsock gently extended sideways in a breeze on a short coastal weather-station pole near a small observation building. Entire sock, mounting and short pole clear of crop seams against pale sky, natural fabric folds, no storms.\nPanel 2: several short fabric ribbons firmly attached to a coastal observation pole and extending gently sideways in a light breeze. All ribbon ends visible, complete main ribbon cluster with generous margins, distant seaside visitor building softly blurred, no loose litter.\nPanel 3: a rooted clump of long green coastal grass beside a level promenade, blades bending together in a gentle breeze. Entire main tuft including blade tips and base safely within margins; distant visitor-center wall and pale sky, no storms or cliffs.\nPanel 4, bottom: distinct rounded white cumulus clouds above a small calm harbor. Puffy cloud masses dominate the central upper frame, complete main cloud comfortably within margins, thin strip of quay and water below, balanced daylight.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: orange windsock extended right on coastal pole; four attached colored ribbons streaming right; coastal grass blades leaning beside level promenade; puffy white cumulus over quiet harbor. Air itself is not depicted as lines. Correct wind/cloud referents, no people or text. Sock and ribbon ends visible; poles continue to panel bottom. Grass fills left foreground, peripheral blades extend outside frame and upper tips are close to seam, so full-tuft 8 percent margin not achieved. Main cumulus upper margin also tight. AI imagery. Cuts 446/896/1346; heights 426/430/430/426px, width 1008px.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-wind-02-scene0",
+        "label": "海滨观测杆上被风吹起的布飘带",
+        "image": "hanzi-images/realistic-v1/seaside-wind-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "seaside-wind-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-06_1795402576860_99dca3c7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete orange fabric windsock gently extended sideways in a breeze on a short coastal weather-station pole near a small observation building. Entire sock, mounting and short pole clear of crop seams against pale sky, natural fabric folds, no storms.\nPanel 2: several short fabric ribbons firmly attached to a coastal observation pole and extending gently sideways in a light breeze. All ribbon ends visible, complete main ribbon cluster with generous margins, distant seaside visitor building softly blurred, no loose litter.\nPanel 3: a rooted clump of long green coastal grass beside a level promenade, blades bending together in a gentle breeze. Entire main tuft including blade tips and base safely within margins; distant visitor-center wall and pale sky, no storms or cliffs.\nPanel 4, bottom: distinct rounded white cumulus clouds above a small calm harbor. Puffy cloud masses dominate the central upper frame, complete main cloud comfortably within margins, thin strip of quay and water below, balanced daylight.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: orange windsock extended right on coastal pole; four attached colored ribbons streaming right; coastal grass blades leaning beside level promenade; puffy white cumulus over quiet harbor. Air itself is not depicted as lines. Correct wind/cloud referents, no people or text. Sock and ribbon ends visible; poles continue to panel bottom. Grass fills left foreground, peripheral blades extend outside frame and upper tips are close to seam, so full-tuft 8 percent margin not achieved. Main cumulus upper margin also tight. AI imagery. Cuts 446/896/1346; heights 426/430/430/426px, width 1008px.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-wind-03-scene0",
+        "label": "海岸步道旁被风吹弯的草叶",
+        "image": "hanzi-images/realistic-v1/seaside-wind-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wind"
+  },
+  {
+    "id": "seaside-cloud-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-06_1795402576860_99dca3c7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a complete orange fabric windsock gently extended sideways in a breeze on a short coastal weather-station pole near a small observation building. Entire sock, mounting and short pole clear of crop seams against pale sky, natural fabric folds, no storms.\nPanel 2: several short fabric ribbons firmly attached to a coastal observation pole and extending gently sideways in a light breeze. All ribbon ends visible, complete main ribbon cluster with generous margins, distant seaside visitor building softly blurred, no loose litter.\nPanel 3: a rooted clump of long green coastal grass beside a level promenade, blades bending together in a gentle breeze. Entire main tuft including blade tips and base safely within margins; distant visitor-center wall and pale sky, no storms or cliffs.\nPanel 4, bottom: distinct rounded white cumulus clouds above a small calm harbor. Puffy cloud masses dominate the central upper frame, complete main cloud comfortably within margins, thin strip of quay and water below, balanced daylight.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: orange windsock extended right on coastal pole; four attached colored ribbons streaming right; coastal grass blades leaning beside level promenade; puffy white cumulus over quiet harbor. Air itself is not depicted as lines. Correct wind/cloud referents, no people or text. Sock and ribbon ends visible; poles continue to panel bottom. Grass fills left foreground, peripheral blades extend outside frame and upper tips are close to seam, so full-tuft 8 percent margin not achieved. Main cumulus upper margin also tight. AI imagery. Cuts 446/896/1346; heights 426/430/430/426px, width 1008px.",
+    "cuts": [
+      446,
+      896,
+      1346
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1356,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "seaside-cloud-01-scene0",
+        "label": "港湾上空一团团的白云",
+        "image": "hanzi-images/realistic-v1/seaside-cloud-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "seaside-cloud-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-07_1795402667510_e053164d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a continuous gray-white stratus cloud deck above a distant low island and calm sea. Soft lower cloud boundary clearly visible, cloud layer dominates the sky, no fog, storms or obscured island.\nPanel 2: fine wispy white cirrus clouds across blue sky above low coastal sand dunes. Delicate central cloud strands recognizable with surrounding blue sky, dunes confined to bottom, no sea access.\nPanel 3: complete orange sunrise disk just above a calm sea horizon, visibly separated from horizon with soft reflection on water. Natural warm dawn colors, ample sky and sea margins, image for indoor viewing only, no sun-viewing equipment.\nPanel 4, bottom: distinct fully visible warm orange setting sun above a quiet harbor horizon. Small unoccupied moored boats below, gentle evening colors, sun wholly inside ample sky margins, image for indoor viewing only, no optical equipment.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: broad gray-white continuous cloud deck with low island visible below; wispy white cloud strands above coastal dunes; full orange sunrise disk separated from sea horizon with reflection; full orange sunset disk above harbor with small moored boats below. Both solar disks well inside crop margins and no sun-viewing equipment. Cloud textures naturally continue beyond landscape frame. Labels accurate, no people or text. AI imagery, not factual astronomical documentation. Cuts 446/894/1342; heights 426/428/428/430px, width 1008px.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "seaside-cloud-02-scene0",
+        "label": "海岛上方连成一片的灰白云",
+        "image": "hanzi-images/realistic-v1/seaside-cloud-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "seaside-cloud-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-07_1795402667510_e053164d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a continuous gray-white stratus cloud deck above a distant low island and calm sea. Soft lower cloud boundary clearly visible, cloud layer dominates the sky, no fog, storms or obscured island.\nPanel 2: fine wispy white cirrus clouds across blue sky above low coastal sand dunes. Delicate central cloud strands recognizable with surrounding blue sky, dunes confined to bottom, no sea access.\nPanel 3: complete orange sunrise disk just above a calm sea horizon, visibly separated from horizon with soft reflection on water. Natural warm dawn colors, ample sky and sea margins, image for indoor viewing only, no sun-viewing equipment.\nPanel 4, bottom: distinct fully visible warm orange setting sun above a quiet harbor horizon. Small unoccupied moored boats below, gentle evening colors, sun wholly inside ample sky margins, image for indoor viewing only, no optical equipment.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: broad gray-white continuous cloud deck with low island visible below; wispy white cloud strands above coastal dunes; full orange sunrise disk separated from sea horizon with reflection; full orange sunset disk above harbor with small moored boats below. Both solar disks well inside crop margins and no sun-viewing equipment. Cloud textures naturally continue beyond landscape frame. Labels accurate, no people or text. AI imagery, not factual astronomical documentation. Cuts 446/894/1342; heights 426/428/428/430px, width 1008px.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "seaside-cloud-03-scene0",
+        "label": "海岸沙丘上方细丝状的云",
+        "image": "hanzi-images/realistic-v1/seaside-cloud-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "cloud"
+  },
+  {
+    "id": "seaside-sun-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-07_1795402667510_e053164d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a continuous gray-white stratus cloud deck above a distant low island and calm sea. Soft lower cloud boundary clearly visible, cloud layer dominates the sky, no fog, storms or obscured island.\nPanel 2: fine wispy white cirrus clouds across blue sky above low coastal sand dunes. Delicate central cloud strands recognizable with surrounding blue sky, dunes confined to bottom, no sea access.\nPanel 3: complete orange sunrise disk just above a calm sea horizon, visibly separated from horizon with soft reflection on water. Natural warm dawn colors, ample sky and sea margins, image for indoor viewing only, no sun-viewing equipment.\nPanel 4, bottom: distinct fully visible warm orange setting sun above a quiet harbor horizon. Small unoccupied moored boats below, gentle evening colors, sun wholly inside ample sky margins, image for indoor viewing only, no optical equipment.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: broad gray-white continuous cloud deck with low island visible below; wispy white cloud strands above coastal dunes; full orange sunrise disk separated from sea horizon with reflection; full orange sunset disk above harbor with small moored boats below. Both solar disks well inside crop margins and no sun-viewing equipment. Cloud textures naturally continue beyond landscape frame. Labels accurate, no people or text. AI imagery, not factual astronomical documentation. Cuts 446/894/1342; heights 426/428/428/430px, width 1008px.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "seaside-sun-01-scene0",
+        "label": "海平线上刚升起的太阳",
+        "image": "hanzi-images/realistic-v1/seaside-sun-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sun"
+  },
+  {
+    "id": "seaside-sun-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-07_1795402667510_e053164d.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a continuous gray-white stratus cloud deck above a distant low island and calm sea. Soft lower cloud boundary clearly visible, cloud layer dominates the sky, no fog, storms or obscured island.\nPanel 2: fine wispy white cirrus clouds across blue sky above low coastal sand dunes. Delicate central cloud strands recognizable with surrounding blue sky, dunes confined to bottom, no sea access.\nPanel 3: complete orange sunrise disk just above a calm sea horizon, visibly separated from horizon with soft reflection on water. Natural warm dawn colors, ample sky and sea margins, image for indoor viewing only, no sun-viewing equipment.\nPanel 4, bottom: distinct fully visible warm orange setting sun above a quiet harbor horizon. Small unoccupied moored boats below, gentle evening colors, sun wholly inside ample sky margins, image for indoor viewing only, no optical equipment.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: broad gray-white continuous cloud deck with low island visible below; wispy white cloud strands above coastal dunes; full orange sunrise disk separated from sea horizon with reflection; full orange sunset disk above harbor with small moored boats below. Both solar disks well inside crop margins and no sun-viewing equipment. Cloud textures naturally continue beyond landscape frame. Labels accurate, no people or text. AI imagery, not factual astronomical documentation. Cuts 446/894/1342; heights 426/428/428/430px, width 1008px.",
+    "cuts": [
+      446,
+      894,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-sun-02-scene0",
+        "label": "港湾上方傍晚的太阳",
+        "image": "hanzi-images/realistic-v1/seaside-sun-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sun"
+  },
+  {
+    "id": "seaside-moon-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-08_1795402758130_53b6b39e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a round moon with visible lunar shading above a small distant coastal lighthouse in blue twilight. Moon distinct from the lighthouse lamp, entire main lighthouse and full moon inside safe margins, quiet shoreline low below, no access path.\nPanel 2: a clear recognizable crescent moon with natural lunar shading above a sheltered coastal bay at twilight. Entire crescent centered in open sky with generous margins, distant coastline below and soft blue evening light, no night activity.\nPanel 3: a complete rough coastal rock specimen with pale mineral bands on a low padded museum pedestal. Natural stone grain and bands clearly visible, entire specimen centered, neutral indoor background, no tools or fragments.\nPanel 4, bottom: several complete smooth rounded coastal stones in muted gray and brown on a flat gray specimen mat inside a closed glass museum case. Natural rounded surfaces and glass context visible, all stones inside generous margins, soft indoor light.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: shaded round moon clearly separate from small lighthouse lamp over coastal water; recognizable crescent moon over blue twilight bay; complete rough rock with pale mineral bands on padded pedestal; five rounded gray/brown stones on mat in glass case. Moon targets comfortably inside sky and not icons. Rock upper margin modest, complete outline visible; rounded stones clear of seams. All labels match, no people or text. AI imagery. Cuts 445/895/1343; heights 425/430/428/429px, width 1008px.",
+    "cuts": [
+      445,
+      895,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-moon-01-scene0",
+        "label": "海岸灯塔上方圆圆的月亮",
+        "image": "hanzi-images/realistic-v1/seaside-moon-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "moon"
+  },
+  {
+    "id": "seaside-moon-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-08_1795402758130_53b6b39e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a round moon with visible lunar shading above a small distant coastal lighthouse in blue twilight. Moon distinct from the lighthouse lamp, entire main lighthouse and full moon inside safe margins, quiet shoreline low below, no access path.\nPanel 2: a clear recognizable crescent moon with natural lunar shading above a sheltered coastal bay at twilight. Entire crescent centered in open sky with generous margins, distant coastline below and soft blue evening light, no night activity.\nPanel 3: a complete rough coastal rock specimen with pale mineral bands on a low padded museum pedestal. Natural stone grain and bands clearly visible, entire specimen centered, neutral indoor background, no tools or fragments.\nPanel 4, bottom: several complete smooth rounded coastal stones in muted gray and brown on a flat gray specimen mat inside a closed glass museum case. Natural rounded surfaces and glass context visible, all stones inside generous margins, soft indoor light.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: shaded round moon clearly separate from small lighthouse lamp over coastal water; recognizable crescent moon over blue twilight bay; complete rough rock with pale mineral bands on padded pedestal; five rounded gray/brown stones on mat in glass case. Moon targets comfortably inside sky and not icons. Rock upper margin modest, complete outline visible; rounded stones clear of seams. All labels match, no people or text. AI imagery. Cuts 445/895/1343; heights 425/430/428/429px, width 1008px.",
+    "cuts": [
+      445,
+      895,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-moon-02-scene0",
+        "label": "海湾上方弯弯的月亮",
+        "image": "hanzi-images/realistic-v1/seaside-moon-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "moon"
+  },
+  {
+    "id": "seaside-stone-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-08_1795402758130_53b6b39e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a round moon with visible lunar shading above a small distant coastal lighthouse in blue twilight. Moon distinct from the lighthouse lamp, entire main lighthouse and full moon inside safe margins, quiet shoreline low below, no access path.\nPanel 2: a clear recognizable crescent moon with natural lunar shading above a sheltered coastal bay at twilight. Entire crescent centered in open sky with generous margins, distant coastline below and soft blue evening light, no night activity.\nPanel 3: a complete rough coastal rock specimen with pale mineral bands on a low padded museum pedestal. Natural stone grain and bands clearly visible, entire specimen centered, neutral indoor background, no tools or fragments.\nPanel 4, bottom: several complete smooth rounded coastal stones in muted gray and brown on a flat gray specimen mat inside a closed glass museum case. Natural rounded surfaces and glass context visible, all stones inside generous margins, soft indoor light.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: shaded round moon clearly separate from small lighthouse lamp over coastal water; recognizable crescent moon over blue twilight bay; complete rough rock with pale mineral bands on padded pedestal; five rounded gray/brown stones on mat in glass case. Moon targets comfortably inside sky and not icons. Rock upper margin modest, complete outline visible; rounded stones clear of seams. All labels match, no people or text. AI imagery. Cuts 445/895/1343; heights 425/430/428/429px, width 1008px.",
+    "cuts": [
+      445,
+      895,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "seaside-stone-01-scene0",
+        "label": "地质展台上带浅色条纹的石头",
+        "image": "hanzi-images/realistic-v1/seaside-stone-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "seaside-stone-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-08_1795402758130_53b6b39e.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: a round moon with visible lunar shading above a small distant coastal lighthouse in blue twilight. Moon distinct from the lighthouse lamp, entire main lighthouse and full moon inside safe margins, quiet shoreline low below, no access path.\nPanel 2: a clear recognizable crescent moon with natural lunar shading above a sheltered coastal bay at twilight. Entire crescent centered in open sky with generous margins, distant coastline below and soft blue evening light, no night activity.\nPanel 3: a complete rough coastal rock specimen with pale mineral bands on a low padded museum pedestal. Natural stone grain and bands clearly visible, entire specimen centered, neutral indoor background, no tools or fragments.\nPanel 4, bottom: several complete smooth rounded coastal stones in muted gray and brown on a flat gray specimen mat inside a closed glass museum case. Natural rounded surfaces and glass context visible, all stones inside generous margins, soft indoor light.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: shaded round moon clearly separate from small lighthouse lamp over coastal water; recognizable crescent moon over blue twilight bay; complete rough rock with pale mineral bands on padded pedestal; five rounded gray/brown stones on mat in glass case. Moon targets comfortably inside sky and not icons. Rock upper margin modest, complete outline visible; rounded stones clear of seams. All labels match, no people or text. AI imagery. Cuts 445/895/1343; heights 425/430/428/429px, width 1008px.",
+    "cuts": [
+      445,
+      895,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "seaside-stone-02-scene0",
+        "label": "封闭展柜里几块圆润的海岸石头",
+        "image": "hanzi-images/realistic-v1/seaside-stone-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "seaside-stone-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-09_1795402859549_eccd26e7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: closely packed natural basalt columns forming a low coastal outcrop. Complete central polygonal stone faces and vertical joints sharp, narrow distant sea strip for context, daylight observation image only, no climbing.\nPanel 2: one striped marine reef fish swimming naturally in clear water of a maintained aquarium display. Complete body, fins and tail with generous margins, rocks softly blurred behind, natural exhibit lighting.\nPanel 3: a small school of silver marine fish naturally swimming in clear blue-green coastal water. Several complete bodies with visible fins and tails wholly inside margins, faint rocky seabed below; neutral underwater photo-album imagery with no photographer or provenance claim, no divers or nets.\nPanel 4, bottom: one disk-shaped marine fish swimming naturally in a maintained clear aquarium. Side view with whole laterally flattened body, fins, eye and tail visible and centered with wide margins, submerged stones softly blurred behind.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: natural polygonal basalt columns with vertical joints by sea; one complete striped reef fish with fins and tail in aquarium; school of silver fish above rocky seabed; laterally flattened disk-shaped marine fish with yellow-edged fins in aquarium. Targets and labels accurate, no divers, nets, handling, people or text, no photographer attribution. Central school fish complete, one upper-left peripheral tail close to upper seam. Disk fish dorsal and lower fin margins very tight and may be trimmed by fixed inset; 8 percent margin not achieved there. Basalt outcrop naturally continues beyond landscape edges. AI imagery. Cuts 445/896/1341; heights 425/431/425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-stone-03-scene0",
+        "label": "海岸地质照片里成排的柱状石头",
+        "image": "hanzi-images/realistic-v1/seaside-stone-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "seaside-fish-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-09_1795402859549_eccd26e7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: closely packed natural basalt columns forming a low coastal outcrop. Complete central polygonal stone faces and vertical joints sharp, narrow distant sea strip for context, daylight observation image only, no climbing.\nPanel 2: one striped marine reef fish swimming naturally in clear water of a maintained aquarium display. Complete body, fins and tail with generous margins, rocks softly blurred behind, natural exhibit lighting.\nPanel 3: a small school of silver marine fish naturally swimming in clear blue-green coastal water. Several complete bodies with visible fins and tails wholly inside margins, faint rocky seabed below; neutral underwater photo-album imagery with no photographer or provenance claim, no divers or nets.\nPanel 4, bottom: one disk-shaped marine fish swimming naturally in a maintained clear aquarium. Side view with whole laterally flattened body, fins, eye and tail visible and centered with wide margins, submerged stones softly blurred behind.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: natural polygonal basalt columns with vertical joints by sea; one complete striped reef fish with fins and tail in aquarium; school of silver fish above rocky seabed; laterally flattened disk-shaped marine fish with yellow-edged fins in aquarium. Targets and labels accurate, no divers, nets, handling, people or text, no photographer attribution. Central school fish complete, one upper-left peripheral tail close to upper seam. Disk fish dorsal and lower fin margins very tight and may be trimmed by fixed inset; 8 percent margin not achieved there. Basalt outcrop naturally continues beyond landscape edges. AI imagery. Cuts 445/896/1341; heights 425/431/425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "seaside-fish-01-scene0",
+        "label": "海洋水族箱里游动的条纹鱼",
+        "image": "hanzi-images/realistic-v1/seaside-fish-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fish"
+  },
+  {
+    "id": "seaside-fish-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-09_1795402859549_eccd26e7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: closely packed natural basalt columns forming a low coastal outcrop. Complete central polygonal stone faces and vertical joints sharp, narrow distant sea strip for context, daylight observation image only, no climbing.\nPanel 2: one striped marine reef fish swimming naturally in clear water of a maintained aquarium display. Complete body, fins and tail with generous margins, rocks softly blurred behind, natural exhibit lighting.\nPanel 3: a small school of silver marine fish naturally swimming in clear blue-green coastal water. Several complete bodies with visible fins and tails wholly inside margins, faint rocky seabed below; neutral underwater photo-album imagery with no photographer or provenance claim, no divers or nets.\nPanel 4, bottom: one disk-shaped marine fish swimming naturally in a maintained clear aquarium. Side view with whole laterally flattened body, fins, eye and tail visible and centered with wide margins, submerged stones softly blurred behind.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: natural polygonal basalt columns with vertical joints by sea; one complete striped reef fish with fins and tail in aquarium; school of silver fish above rocky seabed; laterally flattened disk-shaped marine fish with yellow-edged fins in aquarium. Targets and labels accurate, no divers, nets, handling, people or text, no photographer attribution. Central school fish complete, one upper-left peripheral tail close to upper seam. Disk fish dorsal and lower fin margins very tight and may be trimmed by fixed inset; 8 percent margin not achieved there. Basalt outcrop naturally continues beyond landscape edges. AI imagery. Cuts 445/896/1341; heights 425/431/425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-fish-02-scene0",
+        "label": "近海水下照片里成群的银色鱼",
+        "image": "hanzi-images/realistic-v1/seaside-fish-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fish"
+  },
+  {
+    "id": "seaside-fish-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-09_1795402859549_eccd26e7.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: closely packed natural basalt columns forming a low coastal outcrop. Complete central polygonal stone faces and vertical joints sharp, narrow distant sea strip for context, daylight observation image only, no climbing.\nPanel 2: one striped marine reef fish swimming naturally in clear water of a maintained aquarium display. Complete body, fins and tail with generous margins, rocks softly blurred behind, natural exhibit lighting.\nPanel 3: a small school of silver marine fish naturally swimming in clear blue-green coastal water. Several complete bodies with visible fins and tails wholly inside margins, faint rocky seabed below; neutral underwater photo-album imagery with no photographer or provenance claim, no divers or nets.\nPanel 4, bottom: one disk-shaped marine fish swimming naturally in a maintained clear aquarium. Side view with whole laterally flattened body, fins, eye and tail visible and centered with wide margins, submerged stones softly blurred behind.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: natural polygonal basalt columns with vertical joints by sea; one complete striped reef fish with fins and tail in aquarium; school of silver fish above rocky seabed; laterally flattened disk-shaped marine fish with yellow-edged fins in aquarium. Targets and labels accurate, no divers, nets, handling, people or text, no photographer attribution. Central school fish complete, one upper-left peripheral tail close to upper seam. Disk fish dorsal and lower fin margins very tight and may be trimmed by fixed inset; 8 percent margin not achieved there. Basalt outcrop naturally continues beyond landscape edges. AI imagery. Cuts 445/896/1341; heights 425/431/425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "seaside-fish-03-scene0",
+        "label": "海洋水族箱里自然游动的扁身鱼",
+        "image": "hanzi-images/realistic-v1/seaside-fish-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "fish"
+  },
+  {
+    "id": "seaside-bird-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-10_1795402943924_3cea84d4.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one gull naturally standing on a dry coastal sandbar, complete feathered body, folded wings, beak and both legs visible. Telephoto observation imagery with soft distant water, no nests or disturbance.\nPanel 2: one tern naturally flying above a distant coast with both pointed wings fully extended. Complete wings, body and forked tail inside wide margins, pale blue sky and a tiny low coastal strip, telephoto observation imagery.\nPanel 3: one cormorant naturally standing on a coastal rock with both wings spread in a typical drying posture. Complete feathered body, feet and both wings fully inside margins, sea softly blurred behind, telephoto observation imagery.\nPanel 4, bottom: one complete wide-brimmed cotton sunhat on an indoor table at a coastal visitor center. Crown and broad brim clearly visible with generous margins, authentic cotton texture, soft window light, blurred plain brochures without writing.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete standing gull with folded wings and two legs on dry sandbar; flying tern with pointed extended wings and forked tail; standing cormorant spreading wings on coastal rock; beige broad-brim cotton hat on indoor table. Feather/fabric textures realistic and all main subjects visible, no people, handling, bait, nests or readable text. Bird upper margins, especially tern left wingtip, are tighter than requested 8 percent after inset but appear clear of crop boundary; hat outline clear. AI observation imagery, not wildlife documentation. Cuts 438/892/1342; heights 418/434/430/430px, width 1008px.",
+    "cuts": [
+      438,
+      892,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 418
+    },
+    "contexts": [
+      {
+        "id": "seaside-bird-01-scene0",
+        "label": "远距离照片里站在沙洲上的海鸥",
+        "image": "hanzi-images/realistic-v1/seaside-bird-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bird"
+  },
+  {
+    "id": "seaside-bird-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-10_1795402943924_3cea84d4.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one gull naturally standing on a dry coastal sandbar, complete feathered body, folded wings, beak and both legs visible. Telephoto observation imagery with soft distant water, no nests or disturbance.\nPanel 2: one tern naturally flying above a distant coast with both pointed wings fully extended. Complete wings, body and forked tail inside wide margins, pale blue sky and a tiny low coastal strip, telephoto observation imagery.\nPanel 3: one cormorant naturally standing on a coastal rock with both wings spread in a typical drying posture. Complete feathered body, feet and both wings fully inside margins, sea softly blurred behind, telephoto observation imagery.\nPanel 4, bottom: one complete wide-brimmed cotton sunhat on an indoor table at a coastal visitor center. Crown and broad brim clearly visible with generous margins, authentic cotton texture, soft window light, blurred plain brochures without writing.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete standing gull with folded wings and two legs on dry sandbar; flying tern with pointed extended wings and forked tail; standing cormorant spreading wings on coastal rock; beige broad-brim cotton hat on indoor table. Feather/fabric textures realistic and all main subjects visible, no people, handling, bait, nests or readable text. Bird upper margins, especially tern left wingtip, are tighter than requested 8 percent after inset but appear clear of crop boundary; hat outline clear. AI observation imagery, not wildlife documentation. Cuts 438/892/1342; heights 418/434/430/430px, width 1008px.",
+    "cuts": [
+      438,
+      892,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 448,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "seaside-bird-02-scene0",
+        "label": "海岸上空展开翅膀飞行的燕鸥",
+        "image": "hanzi-images/realistic-v1/seaside-bird-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bird"
+  },
+  {
+    "id": "seaside-bird-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-10_1795402943924_3cea84d4.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one gull naturally standing on a dry coastal sandbar, complete feathered body, folded wings, beak and both legs visible. Telephoto observation imagery with soft distant water, no nests or disturbance.\nPanel 2: one tern naturally flying above a distant coast with both pointed wings fully extended. Complete wings, body and forked tail inside wide margins, pale blue sky and a tiny low coastal strip, telephoto observation imagery.\nPanel 3: one cormorant naturally standing on a coastal rock with both wings spread in a typical drying posture. Complete feathered body, feet and both wings fully inside margins, sea softly blurred behind, telephoto observation imagery.\nPanel 4, bottom: one complete wide-brimmed cotton sunhat on an indoor table at a coastal visitor center. Crown and broad brim clearly visible with generous margins, authentic cotton texture, soft window light, blurred plain brochures without writing.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete standing gull with folded wings and two legs on dry sandbar; flying tern with pointed extended wings and forked tail; standing cormorant spreading wings on coastal rock; beige broad-brim cotton hat on indoor table. Feather/fabric textures realistic and all main subjects visible, no people, handling, bait, nests or readable text. Bird upper margins, especially tern left wingtip, are tighter than requested 8 percent after inset but appear clear of crop boundary; hat outline clear. AI observation imagery, not wildlife documentation. Cuts 438/892/1342; heights 418/434/430/430px, width 1008px.",
+    "cuts": [
+      438,
+      892,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 902,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-bird-03-scene0",
+        "label": "远距离照片里在海岸岩石上展开翅膀的鸬鹚",
+        "image": "hanzi-images/realistic-v1/seaside-bird-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bird"
+  },
+  {
+    "id": "seaside-hat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-10_1795402943924_3cea84d4.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one gull naturally standing on a dry coastal sandbar, complete feathered body, folded wings, beak and both legs visible. Telephoto observation imagery with soft distant water, no nests or disturbance.\nPanel 2: one tern naturally flying above a distant coast with both pointed wings fully extended. Complete wings, body and forked tail inside wide margins, pale blue sky and a tiny low coastal strip, telephoto observation imagery.\nPanel 3: one cormorant naturally standing on a coastal rock with both wings spread in a typical drying posture. Complete feathered body, feet and both wings fully inside margins, sea softly blurred behind, telephoto observation imagery.\nPanel 4, bottom: one complete wide-brimmed cotton sunhat on an indoor table at a coastal visitor center. Crown and broad brim clearly visible with generous margins, authentic cotton texture, soft window light, blurred plain brochures without writing.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete standing gull with folded wings and two legs on dry sandbar; flying tern with pointed extended wings and forked tail; standing cormorant spreading wings on coastal rock; beige broad-brim cotton hat on indoor table. Feather/fabric textures realistic and all main subjects visible, no people, handling, bait, nests or readable text. Bird upper margins, especially tern left wingtip, are tighter than requested 8 percent after inset but appear clear of crop boundary; hat outline clear. AI observation imagery, not wildlife documentation. Cuts 438/892/1342; heights 418/434/430/430px, width 1008px.",
+    "cuts": [
+      438,
+      892,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "seaside-hat-01-scene0",
+        "label": "游客中心桌上有宽帽檐的布遮阳帽",
+        "image": "hanzi-images/realistic-v1/seaside-hat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "seaside-hat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-11_1795403078776_ecca01ff.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete broad-brimmed straw sunhat on a low neutral exhibit stand in a coastal science visitor gallery. Natural woven texture and whole crown and brim visible, generous margins, gentle indoor daylight.\nPanel 2: thick braided marine mooring rope neatly coiled on a flat padded shelf inside a glass maritime museum case. Entire coil and detailed braided fibers visible with generous margins, no attached vessel or tensioned line.\nPanel 3: thick natural-fiber hemp rope arranged in a neat flat coil on an indoor maritime history exhibit table. Visible twisted strands, warm tan fiber and complete coil on a muted mat, generous margins, no equipment attached.\nPanel 4, bottom: one thick rope tied in a simple finished knot and fixed securely to a flat maritime teaching display board. Knot, fiber texture and short secured ends wholly visible with ample margins, no hands or hanging loops, no knot-making activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete straw sunhat on small stand; pale thick coiled marine rope behind glass; tan twisted natural-fiber rope coiled on indoor table; finished rope knot secured with two brackets to wooden teaching board. Rope in second panel shows twisted strands rather than braided construction; corrected only seaside-rope-01 English sceneDescription from braided to twisted-strand. Chinese rope referent and learning/game content retained. No people or operation; small blurred exhibit placard at side of second panel, no readable target text. Hat crown and coils have modest upper margins but complete targets visible. AI imagery. Cuts 445/881/1313, unequal panel heights; crops 1008px wide, heights 425/416/412/459px, no upscaling.",
+    "cuts": [
+      445,
+      881,
+      1313
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-hat-02-scene0",
+        "label": "海滨科普馆展台上的草编遮阳帽",
+        "image": "hanzi-images/realistic-v1/seaside-hat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "seaside-rope-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-11_1795403078776_ecca01ff.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete broad-brimmed straw sunhat on a low neutral exhibit stand in a coastal science visitor gallery. Natural woven texture and whole crown and brim visible, generous margins, gentle indoor daylight.\nPanel 2: thick braided marine mooring rope neatly coiled on a flat padded shelf inside a glass maritime museum case. Entire coil and detailed braided fibers visible with generous margins, no attached vessel or tensioned line.\nPanel 3: thick natural-fiber hemp rope arranged in a neat flat coil on an indoor maritime history exhibit table. Visible twisted strands, warm tan fiber and complete coil on a muted mat, generous margins, no equipment attached.\nPanel 4, bottom: one thick rope tied in a simple finished knot and fixed securely to a flat maritime teaching display board. Knot, fiber texture and short secured ends wholly visible with ample margins, no hands or hanging loops, no knot-making activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete straw sunhat on small stand; pale thick coiled marine rope behind glass; tan twisted natural-fiber rope coiled on indoor table; finished rope knot secured with two brackets to wooden teaching board. Rope in second panel shows twisted strands rather than braided construction; corrected only seaside-rope-01 English sceneDescription from braided to twisted-strand. Chinese rope referent and learning/game content retained. No people or operation; small blurred exhibit placard at side of second panel, no readable target text. Hat crown and coils have modest upper margins but complete targets visible. AI imagery. Cuts 445/881/1313, unequal panel heights; crops 1008px wide, heights 425/416/412/459px, no upscaling.",
+    "cuts": [
+      445,
+      881,
+      1313
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 416
+    },
+    "contexts": [
+      {
+        "id": "seaside-rope-01-scene0",
+        "label": "海事展柜里盘好的粗编织缆绳",
+        "image": "hanzi-images/realistic-v1/seaside-rope-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "seaside-rope-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-11_1795403078776_ecca01ff.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete broad-brimmed straw sunhat on a low neutral exhibit stand in a coastal science visitor gallery. Natural woven texture and whole crown and brim visible, generous margins, gentle indoor daylight.\nPanel 2: thick braided marine mooring rope neatly coiled on a flat padded shelf inside a glass maritime museum case. Entire coil and detailed braided fibers visible with generous margins, no attached vessel or tensioned line.\nPanel 3: thick natural-fiber hemp rope arranged in a neat flat coil on an indoor maritime history exhibit table. Visible twisted strands, warm tan fiber and complete coil on a muted mat, generous margins, no equipment attached.\nPanel 4, bottom: one thick rope tied in a simple finished knot and fixed securely to a flat maritime teaching display board. Knot, fiber texture and short secured ends wholly visible with ample margins, no hands or hanging loops, no knot-making activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete straw sunhat on small stand; pale thick coiled marine rope behind glass; tan twisted natural-fiber rope coiled on indoor table; finished rope knot secured with two brackets to wooden teaching board. Rope in second panel shows twisted strands rather than braided construction; corrected only seaside-rope-01 English sceneDescription from braided to twisted-strand. Chinese rope referent and learning/game content retained. No people or operation; small blurred exhibit placard at side of second panel, no readable target text. Hat crown and coils have modest upper margins but complete targets visible. AI imagery. Cuts 445/881/1313, unequal panel heights; crops 1008px wide, heights 425/416/412/459px, no upscaling.",
+    "cuts": [
+      445,
+      881,
+      1313
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 891,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "seaside-rope-02-scene0",
+        "label": "航海展台上整齐盘放的麻绳",
+        "image": "hanzi-images/realistic-v1/seaside-rope-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "seaside-rope-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-11_1795403078776_ecca01ff.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one complete broad-brimmed straw sunhat on a low neutral exhibit stand in a coastal science visitor gallery. Natural woven texture and whole crown and brim visible, generous margins, gentle indoor daylight.\nPanel 2: thick braided marine mooring rope neatly coiled on a flat padded shelf inside a glass maritime museum case. Entire coil and detailed braided fibers visible with generous margins, no attached vessel or tensioned line.\nPanel 3: thick natural-fiber hemp rope arranged in a neat flat coil on an indoor maritime history exhibit table. Visible twisted strands, warm tan fiber and complete coil on a muted mat, generous margins, no equipment attached.\nPanel 4, bottom: one thick rope tied in a simple finished knot and fixed securely to a flat maritime teaching display board. Knot, fiber texture and short secured ends wholly visible with ample margins, no hands or hanging loops, no knot-making activity.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: complete straw sunhat on small stand; pale thick coiled marine rope behind glass; tan twisted natural-fiber rope coiled on indoor table; finished rope knot secured with two brackets to wooden teaching board. Rope in second panel shows twisted strands rather than braided construction; corrected only seaside-rope-01 English sceneDescription from braided to twisted-strand. Chinese rope referent and learning/game content retained. No people or operation; small blurred exhibit placard at side of second panel, no readable target text. Hat crown and coils have modest upper margins but complete targets visible. AI imagery. Cuts 445/881/1313, unequal panel heights; crops 1008px wide, heights 425/416/412/459px, no upscaling.",
+    "cuts": [
+      445,
+      881,
+      1313
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1323,
+      "width": 1008,
+      "height": 459
+    },
+    "contexts": [
+      {
+        "id": "seaside-rope-03-scene0",
+        "label": "海事展板上固定成结的粗绳",
+        "image": "hanzi-images/realistic-v1/seaside-rope-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "rope"
+  },
+  {
+    "id": "seaside-umbrella-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-12_1795403187023_93424465.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one closed straight-handled rain umbrella standing securely in an indoor umbrella rack at a coastal visitor center entrance. Entire folded canopy, handle and tip visible with wide margins, rain-speckled glass door softly blurred behind.\nPanel 2: one complete open blue rain umbrella fixed securely to a stable low display support in a coastal everyday-life museum. Whole canopy, shaft, curved handle and support within generous margins, neutral wall and soft indoor light, no umbrella operation.\nPanel 3, unassigned neutral: calm empty coastal bay in soft daylight with low distant hills and gentle blue-green water ripples, no boats or activities.\nPanel 4, bottom, unassigned neutral: low pale coastal dunes with delicate sand ripples and a small distant patch of dune grass, soft daylight, no sea access or activities.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: closed blue umbrella in indoor rack with curved hook handle and rain-speckled door behind; complete open blue umbrella with curved handle fixed to weighted museum display stand; unassigned calm empty bay; unassigned rippled coastal dunes. Two umbrella labels match, no people or umbrella operation, no readable target text. Closed umbrella has curved rather than requested straight handle; corrected only seaside-umbrella-01 English sceneDescription to curved-handled, retaining learning/game content. Handles and canopy visible, upper margins tighter than requested 8 percent. Final two neutral panels are deliberately unassigned and will not produce story covers. AI imagery. Cuts 445/896/1347; assigned crop heights 425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "seaside-umbrella-01-scene0",
+        "label": "海滨游客中心伞架里合拢的雨伞",
+        "image": "hanzi-images/realistic-v1/seaside-umbrella-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "seaside-umbrella-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-seaside-v3-12_1795403187023_93424465.png",
+    "prompt": "Use case: AI-generated photorealistic covers for existing seaside learning stories, not documentary evidence.\nLayout: exactly FOUR independent full-width landscape photographs stacked vertically in one 1024x1792 image, equal quarters about 448px high. Exactly THREE thin straight pure white horizontal seams, 5px thick, near y=448,896,1344. No outer border, vertical dividers, text, logos or watermarks.\nPanel 1, top: one closed straight-handled rain umbrella standing securely in an indoor umbrella rack at a coastal visitor center entrance. Entire folded canopy, handle and tip visible with wide margins, rain-speckled glass door softly blurred behind.\nPanel 2: one complete open blue rain umbrella fixed securely to a stable low display support in a coastal everyday-life museum. Whole canopy, shaft, curved handle and support within generous margins, neutral wall and soft indoor light, no umbrella operation.\nPanel 3, unassigned neutral: calm empty coastal bay in soft daylight with low distant hills and gentle blue-green water ripples, no boats or activities.\nPanel 4, bottom, unassigned neutral: low pale coastal dunes with delicate sand ripples and a small distant patch of dune grass, soft daylight, no sea access or activities.\nStyle: realistic camera imagery with natural material texture and credible lighting, not illustration or glossy CGI. Every key target completely inside its own panel with at least 8 percent crop-safe margins on every side; keep full object outlines clear of seams. No people or minors, hands, dangerous seagoing or swimming activity, wildlife handling, feeding or identity claims. Outdoor scenes are observation imagery only; indoor objects are safe dry exhibits unless a sealed water tank is specified. No provenance claims or added captions.",
+    "reviewNotes": "Read actual compact preview: closed blue umbrella in indoor rack with curved hook handle and rain-speckled door behind; complete open blue umbrella with curved handle fixed to weighted museum display stand; unassigned calm empty bay; unassigned rippled coastal dunes. Two umbrella labels match, no people or umbrella operation, no readable target text. Closed umbrella has curved rather than requested straight handle; corrected only seaside-umbrella-01 English sceneDescription to curved-handled, retaining learning/game content. Handles and canopy visible, upper margins tighter than requested 8 percent. Final two neutral panels are deliberately unassigned and will not produce story covers. AI imagery. Cuts 445/896/1347; assigned crop heights 425/431px, width 1008px.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "seaside-umbrella-02-scene0",
+        "label": "海滨生活馆支架上撑开的雨伞",
+        "image": "hanzi-images/realistic-v1/seaside-umbrella-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  }
+]

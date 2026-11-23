@@ -105,6 +105,11 @@
     border-radius: inherit;
 }
 
+.play-photograph img.photo-wide,
+.play-thumbnail.photo-wide {
+    object-fit: contain;
+}
+
 .play-caption {
     margin: 6px 0 12px;
     color: var(--muted, #6f7c6e);

@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "travel-vehicle-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-01_1795401806699_55740527.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a stationary silver taxi with a plain roof light in a quiet designated pickup bay. Show the entire car in three-quarter view with a curb and shelter behind it, realistic tires and daylight, generous crop-safe margins, no people, readable plates, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a full-size green city bus standing in a recessed roadside bus bay beside an empty covered shelter. Frame the whole bus from a pedestrian-side viewpoint, doors closed, curb clearly separate from the lane, realistic glass and rubber, no people, lettering, logos or readable registration plates.\nPanel 3 (third): Photorealistic landscape photograph of a complete blue commuter bicycle parked in a metal cycle rack outside a railway station. Show both wheels, pedals, saddle and handlebar clearly in side view, with a quiet paved forecourt and station canopy softly behind it; no people, writing, brands or motion.\nPanel 4 (bottom): Photorealistic landscape photograph of a stationary white passenger minibus in an airport ground transport pickup bay. Keep the complete vehicle centered in three-quarter side view, closed passenger door and visible wheels, an empty terminal canopy behind, realistic daylight and reflections, no people, airline logos, writing or readable plates.",
+    "reviewNotes": "Preview inspected: silver roof-light taxi in sheltered pickup bay; complete green city bus beside shelter with closed door; blue bicycle in station cycle rack with both wheels and handlebar; white passenger minibus beside terminal canopy. Main vehicles contained and wheels retained by measured crops. Bicycle and minibus lower margins are tighter than the requested 8 percent; no main-subject clipping observed. No people or readable text observed.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-01-scene0",
+        "label": "候车区里停着的出租车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-vehicle-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-01_1795401806699_55740527.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a stationary silver taxi with a plain roof light in a quiet designated pickup bay. Show the entire car in three-quarter view with a curb and shelter behind it, realistic tires and daylight, generous crop-safe margins, no people, readable plates, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a full-size green city bus standing in a recessed roadside bus bay beside an empty covered shelter. Frame the whole bus from a pedestrian-side viewpoint, doors closed, curb clearly separate from the lane, realistic glass and rubber, no people, lettering, logos or readable registration plates.\nPanel 3 (third): Photorealistic landscape photograph of a complete blue commuter bicycle parked in a metal cycle rack outside a railway station. Show both wheels, pedals, saddle and handlebar clearly in side view, with a quiet paved forecourt and station canopy softly behind it; no people, writing, brands or motion.\nPanel 4 (bottom): Photorealistic landscape photograph of a stationary white passenger minibus in an airport ground transport pickup bay. Keep the complete vehicle centered in three-quarter side view, closed passenger door and visible wheels, an empty terminal canopy behind, realistic daylight and reflections, no people, airline logos, writing or readable plates.",
+    "reviewNotes": "Preview inspected: silver roof-light taxi in sheltered pickup bay; complete green city bus beside shelter with closed door; blue bicycle in station cycle rack with both wheels and handlebar; white passenger minibus beside terminal canopy. Main vehicles contained and wheels retained by measured crops. Bicycle and minibus lower margins are tighter than the requested 8 percent; no main-subject clipping observed. No people or readable text observed.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-02-scene0",
+        "label": "港湾式车站里停着的公交车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-vehicle-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-01_1795401806699_55740527.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a stationary silver taxi with a plain roof light in a quiet designated pickup bay. Show the entire car in three-quarter view with a curb and shelter behind it, realistic tires and daylight, generous crop-safe margins, no people, readable plates, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a full-size green city bus standing in a recessed roadside bus bay beside an empty covered shelter. Frame the whole bus from a pedestrian-side viewpoint, doors closed, curb clearly separate from the lane, realistic glass and rubber, no people, lettering, logos or readable registration plates.\nPanel 3 (third): Photorealistic landscape photograph of a complete blue commuter bicycle parked in a metal cycle rack outside a railway station. Show both wheels, pedals, saddle and handlebar clearly in side view, with a quiet paved forecourt and station canopy softly behind it; no people, writing, brands or motion.\nPanel 4 (bottom): Photorealistic landscape photograph of a stationary white passenger minibus in an airport ground transport pickup bay. Keep the complete vehicle centered in three-quarter side view, closed passenger door and visible wheels, an empty terminal canopy behind, realistic daylight and reflections, no people, airline logos, writing or readable plates.",
+    "reviewNotes": "Preview inspected: silver roof-light taxi in sheltered pickup bay; complete green city bus beside shelter with closed door; blue bicycle in station cycle rack with both wheels and handlebar; white passenger minibus beside terminal canopy. Main vehicles contained and wheels retained by measured crops. Bicycle and minibus lower margins are tighter than the requested 8 percent; no main-subject clipping observed. No people or readable text observed.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-03-scene0",
+        "label": "车站车架旁停放的自行车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-vehicle-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-01_1795401806699_55740527.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a stationary silver taxi with a plain roof light in a quiet designated pickup bay. Show the entire car in three-quarter view with a curb and shelter behind it, realistic tires and daylight, generous crop-safe margins, no people, readable plates, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a full-size green city bus standing in a recessed roadside bus bay beside an empty covered shelter. Frame the whole bus from a pedestrian-side viewpoint, doors closed, curb clearly separate from the lane, realistic glass and rubber, no people, lettering, logos or readable registration plates.\nPanel 3 (third): Photorealistic landscape photograph of a complete blue commuter bicycle parked in a metal cycle rack outside a railway station. Show both wheels, pedals, saddle and handlebar clearly in side view, with a quiet paved forecourt and station canopy softly behind it; no people, writing, brands or motion.\nPanel 4 (bottom): Photorealistic landscape photograph of a stationary white passenger minibus in an airport ground transport pickup bay. Keep the complete vehicle centered in three-quarter side view, closed passenger door and visible wheels, an empty terminal canopy behind, realistic daylight and reflections, no people, airline logos, writing or readable plates.",
+    "reviewNotes": "Preview inspected: silver roof-light taxi in sheltered pickup bay; complete green city bus beside shelter with closed door; blue bicycle in station cycle rack with both wheels and handlebar; white passenger minibus beside terminal canopy. Main vehicles contained and wheels retained by measured crops. Bicycle and minibus lower margins are tighter than the requested 8 percent; no main-subject clipping observed. No people or readable text observed.",
+    "cuts": [
+      445,
+      896,
+      1347
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1357,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-04-scene0",
+        "label": "机场接驳区停着的小巴车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-vehicle-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-02_1795401896210_f62612dc.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a large blue intercity coach standing in an empty marked terminal parking bay. Include the whole coach with its tall windows, luggage compartment outlines and wheels, seen from a safe forecourt viewpoint, soft morning light, no passengers, lettering, brands or readable number plates.\nPanel 2 (second): Photorealistic landscape photograph of a modern red tram stationary on rails outside a closed depot building. Frame the entire tram from the side with its steel wheels and overhead contact equipment visible, wide paved surroundings and natural daylight, no workers, readable route displays, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a single-arch stone pedestrian bridge spanning a narrow urban canal. Show the complete masonry arch, deck and low stone parapets with both banks in frame, still water reflecting the bridge, natural overcast light and authentic stone texture, no people or writing.\nPanel 4 (bottom): Photorealistic landscape photograph of a short timber footbridge over a dry shallow stream bed in a maintained park. Include the entire plank deck, two wooden handrails and both approach paths, realistic bolted timber construction, leaves and dry stones below, diffuse daylight, no people, tools or text.",
+    "reviewNotes": "Preview inspected: complete blue intercity coach in terminal bay; red articulated tram on depot rails with raised overhead contact arm, wheels largely screened by lower body; single stone arch over urban canal; timber footbridge with two handrails over dry rocky stream bed. Assigned subjects present and no main-object clipping observed; surrounding bank paths continue beyond frame. Seams are uneven at 445/844/1329; tram JPEG will be 1008x379, below 400 high, without upscaling. No people or readable text observed.",
+    "cuts": [
+      445,
+      844,
+      1329
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-05-scene0",
+        "label": "客运站停车位里的长途客车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-vehicle-06",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-02_1795401896210_f62612dc.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a large blue intercity coach standing in an empty marked terminal parking bay. Include the whole coach with its tall windows, luggage compartment outlines and wheels, seen from a safe forecourt viewpoint, soft morning light, no passengers, lettering, brands or readable number plates.\nPanel 2 (second): Photorealistic landscape photograph of a modern red tram stationary on rails outside a closed depot building. Frame the entire tram from the side with its steel wheels and overhead contact equipment visible, wide paved surroundings and natural daylight, no workers, readable route displays, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a single-arch stone pedestrian bridge spanning a narrow urban canal. Show the complete masonry arch, deck and low stone parapets with both banks in frame, still water reflecting the bridge, natural overcast light and authentic stone texture, no people or writing.\nPanel 4 (bottom): Photorealistic landscape photograph of a short timber footbridge over a dry shallow stream bed in a maintained park. Include the entire plank deck, two wooden handrails and both approach paths, realistic bolted timber construction, leaves and dry stones below, diffuse daylight, no people, tools or text.",
+    "reviewNotes": "Preview inspected: complete blue intercity coach in terminal bay; red articulated tram on depot rails with raised overhead contact arm, wheels largely screened by lower body; single stone arch over urban canal; timber footbridge with two handrails over dry rocky stream bed. Assigned subjects present and no main-object clipping observed; surrounding bank paths continue beyond frame. Seams are uneven at 445/844/1329; tram JPEG will be 1008x379, below 400 high, without upscaling. No people or readable text observed.",
+    "cuts": [
+      445,
+      844,
+      1329
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 379
+    },
+    "contexts": [
+      {
+        "id": "travel-vehicle-06-scene0",
+        "label": "检修库外轨道上停着的电车",
+        "image": "hanzi-images/realistic-v1/travel-vehicle-06-0.jpg"
+      }
+    ],
+    "reuseBaseId": "vehicle"
+  },
+  {
+    "id": "travel-bridge-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-02_1795401896210_f62612dc.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a large blue intercity coach standing in an empty marked terminal parking bay. Include the whole coach with its tall windows, luggage compartment outlines and wheels, seen from a safe forecourt viewpoint, soft morning light, no passengers, lettering, brands or readable number plates.\nPanel 2 (second): Photorealistic landscape photograph of a modern red tram stationary on rails outside a closed depot building. Frame the entire tram from the side with its steel wheels and overhead contact equipment visible, wide paved surroundings and natural daylight, no workers, readable route displays, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a single-arch stone pedestrian bridge spanning a narrow urban canal. Show the complete masonry arch, deck and low stone parapets with both banks in frame, still water reflecting the bridge, natural overcast light and authentic stone texture, no people or writing.\nPanel 4 (bottom): Photorealistic landscape photograph of a short timber footbridge over a dry shallow stream bed in a maintained park. Include the entire plank deck, two wooden handrails and both approach paths, realistic bolted timber construction, leaves and dry stones below, diffuse daylight, no people, tools or text.",
+    "reviewNotes": "Preview inspected: complete blue intercity coach in terminal bay; red articulated tram on depot rails with raised overhead contact arm, wheels largely screened by lower body; single stone arch over urban canal; timber footbridge with two handrails over dry rocky stream bed. Assigned subjects present and no main-object clipping observed; surrounding bank paths continue beyond frame. Seams are uneven at 445/844/1329; tram JPEG will be 1008x379, below 400 high, without upscaling. No people or readable text observed.",
+    "cuts": [
+      445,
+      844,
+      1329
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 854,
+      "width": 1008,
+      "height": 465
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-01-scene0",
+        "label": "运河两岸之间的石拱桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-bridge-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-02_1795401896210_f62612dc.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a large blue intercity coach standing in an empty marked terminal parking bay. Include the whole coach with its tall windows, luggage compartment outlines and wheels, seen from a safe forecourt viewpoint, soft morning light, no passengers, lettering, brands or readable number plates.\nPanel 2 (second): Photorealistic landscape photograph of a modern red tram stationary on rails outside a closed depot building. Frame the entire tram from the side with its steel wheels and overhead contact equipment visible, wide paved surroundings and natural daylight, no workers, readable route displays, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a single-arch stone pedestrian bridge spanning a narrow urban canal. Show the complete masonry arch, deck and low stone parapets with both banks in frame, still water reflecting the bridge, natural overcast light and authentic stone texture, no people or writing.\nPanel 4 (bottom): Photorealistic landscape photograph of a short timber footbridge over a dry shallow stream bed in a maintained park. Include the entire plank deck, two wooden handrails and both approach paths, realistic bolted timber construction, leaves and dry stones below, diffuse daylight, no people, tools or text.",
+    "reviewNotes": "Preview inspected: complete blue intercity coach in terminal bay; red articulated tram on depot rails with raised overhead contact arm, wheels largely screened by lower body; single stone arch over urban canal; timber footbridge with two handrails over dry rocky stream bed. Assigned subjects present and no main-object clipping observed; surrounding bank paths continue beyond frame. Seams are uneven at 445/844/1329; tram JPEG will be 1008x379, below 400 high, without upscaling. No people or readable text observed.",
+    "cuts": [
+      445,
+      844,
+      1329
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1339,
+      "width": 1008,
+      "height": 443
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-02-scene0",
+        "label": "干溪沟上带护栏的木桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-bridge-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-03_1795402018991_5b4072bb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a small rough-stone arch bridge crossing a clear stream in a wooded valley. Frame the entire bridge and both landings from a distant bank viewpoint, moss on masonry and calm water beneath, realistic daylight and construction, no people, signage or lettering.\nPanel 2 (second): Photorealistic landscape photograph of a steel pedestrian overbridge spanning two empty railway tracks. Show the whole elevated span, high protective side fencing and both stair approaches from a distant public viewpoint, realistic structural supports and daylight, no trains, people, signs or writing.\nPanel 3 (third): Photorealistic landscape photograph of a pedestrian suspension bridge spanning a green mountain valley. Keep the complete deck, load-bearing cables, railings and both anchored ends visible in a wide distant view, credible engineering and soft daylight, no people, lettering or dramatic unsafe behavior.\nPanel 4 (bottom): Photorealistic landscape photograph of a short railed pedestrian bridge across a narrow inlet along a lake shore. Show the complete bridge, solid deck and both connected lakeside paths from a distant landscaped bank, calm water, realistic railings and morning light, no people, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone arch crossing a wooded valley stream; steel pedestrian overbridge with tall protective mesh and two stair approaches over empty railway tracks; suspension footbridge with two towers and cables spanning green valley; short railed bridge connecting landscaped paths over lake inlet. All four bridge spans present. Railway stair approaches and suspension anchored ends are near lateral edges, tighter than 8 percent margins, but primary structures remain within measured crops; paths and terrain extend beyond frame. No people or readable text observed.",
+    "cuts": [
+      450,
+      896,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-03-scene0",
+        "label": "溪谷中横跨水流的石拱桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-bridge-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-03_1795402018991_5b4072bb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a small rough-stone arch bridge crossing a clear stream in a wooded valley. Frame the entire bridge and both landings from a distant bank viewpoint, moss on masonry and calm water beneath, realistic daylight and construction, no people, signage or lettering.\nPanel 2 (second): Photorealistic landscape photograph of a steel pedestrian overbridge spanning two empty railway tracks. Show the whole elevated span, high protective side fencing and both stair approaches from a distant public viewpoint, realistic structural supports and daylight, no trains, people, signs or writing.\nPanel 3 (third): Photorealistic landscape photograph of a pedestrian suspension bridge spanning a green mountain valley. Keep the complete deck, load-bearing cables, railings and both anchored ends visible in a wide distant view, credible engineering and soft daylight, no people, lettering or dramatic unsafe behavior.\nPanel 4 (bottom): Photorealistic landscape photograph of a short railed pedestrian bridge across a narrow inlet along a lake shore. Show the complete bridge, solid deck and both connected lakeside paths from a distant landscaped bank, calm water, realistic railings and morning light, no people, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone arch crossing a wooded valley stream; steel pedestrian overbridge with tall protective mesh and two stair approaches over empty railway tracks; suspension footbridge with two towers and cables spanning green valley; short railed bridge connecting landscaped paths over lake inlet. All four bridge spans present. Railway stair approaches and suspension anchored ends are near lateral edges, tighter than 8 percent margins, but primary structures remain within measured crops; paths and terrain extend beyond frame. No people or readable text observed.",
+    "cuts": [
+      450,
+      896,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 460,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-04-scene0",
+        "label": "铁路上方带高护栏的步行桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-bridge-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-03_1795402018991_5b4072bb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a small rough-stone arch bridge crossing a clear stream in a wooded valley. Frame the entire bridge and both landings from a distant bank viewpoint, moss on masonry and calm water beneath, realistic daylight and construction, no people, signage or lettering.\nPanel 2 (second): Photorealistic landscape photograph of a steel pedestrian overbridge spanning two empty railway tracks. Show the whole elevated span, high protective side fencing and both stair approaches from a distant public viewpoint, realistic structural supports and daylight, no trains, people, signs or writing.\nPanel 3 (third): Photorealistic landscape photograph of a pedestrian suspension bridge spanning a green mountain valley. Keep the complete deck, load-bearing cables, railings and both anchored ends visible in a wide distant view, credible engineering and soft daylight, no people, lettering or dramatic unsafe behavior.\nPanel 4 (bottom): Photorealistic landscape photograph of a short railed pedestrian bridge across a narrow inlet along a lake shore. Show the complete bridge, solid deck and both connected lakeside paths from a distant landscaped bank, calm water, realistic railings and morning light, no people, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone arch crossing a wooded valley stream; steel pedestrian overbridge with tall protective mesh and two stair approaches over empty railway tracks; suspension footbridge with two towers and cables spanning green valley; short railed bridge connecting landscaped paths over lake inlet. All four bridge spans present. Railway stair approaches and suspension anchored ends are near lateral edges, tighter than 8 percent margins, but primary structures remain within measured crops; paths and terrain extend beyond frame. No people or readable text observed.",
+    "cuts": [
+      450,
+      896,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-05-scene0",
+        "label": "山谷两岸之间的步行吊桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-bridge-06",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-03_1795402018991_5b4072bb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a small rough-stone arch bridge crossing a clear stream in a wooded valley. Frame the entire bridge and both landings from a distant bank viewpoint, moss on masonry and calm water beneath, realistic daylight and construction, no people, signage or lettering.\nPanel 2 (second): Photorealistic landscape photograph of a steel pedestrian overbridge spanning two empty railway tracks. Show the whole elevated span, high protective side fencing and both stair approaches from a distant public viewpoint, realistic structural supports and daylight, no trains, people, signs or writing.\nPanel 3 (third): Photorealistic landscape photograph of a pedestrian suspension bridge spanning a green mountain valley. Keep the complete deck, load-bearing cables, railings and both anchored ends visible in a wide distant view, credible engineering and soft daylight, no people, lettering or dramatic unsafe behavior.\nPanel 4 (bottom): Photorealistic landscape photograph of a short railed pedestrian bridge across a narrow inlet along a lake shore. Show the complete bridge, solid deck and both connected lakeside paths from a distant landscaped bank, calm water, realistic railings and morning light, no people, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone arch crossing a wooded valley stream; steel pedestrian overbridge with tall protective mesh and two stair approaches over empty railway tracks; suspension footbridge with two towers and cables spanning green valley; short railed bridge connecting landscaped paths over lake inlet. All four bridge spans present. Railway stair approaches and suspension anchored ends are near lateral edges, tighter than 8 percent margins, but primary structures remain within measured crops; paths and terrain extend beyond frame. No people or readable text observed.",
+    "cuts": [
+      450,
+      896,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-bridge-06-scene0",
+        "label": "湖岸步道之间的短步行桥",
+        "image": "hanzi-images/realistic-v1/travel-bridge-06-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bridge"
+  },
+  {
+    "id": "travel-road-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-04_1795402120198_4e328fdf.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty stone-paved pedestrian lane between low old-town houses. Frame the walking surface broadly in the foreground as it recedes between walls, clear paving joints and a gentle bend, soft natural daylight, no people, vehicles, shop names, lettering or signs.\nPanel 2 (second): Photorealistic landscape photograph of a broad level pedestrian path leading across an empty railway station forecourt to a glazed entrance. Show the full-width paving in the foreground, planter edges and continuous accessible walking surface, believable architectural materials, no people, vehicles, station names or other text.\nPanel 3 (third): Photorealistic landscape photograph of an empty two-lane coastal road curving along a rocky shore. Frame the asphalt surface, ordinary lane markings and roadside guardrail prominently with the sea beyond, viewed from a distant safe overlook, realistic terrain and daylight, no people, vehicles, written signs or text.\nPanel 4 (bottom): Photorealistic landscape photograph of a maintained gravel walking path between rows of mature orchard trees. Show the continuous path broadly in the foreground leading to a simple distant resting shelter, realistic gravel and foliage in soft morning light, no people, harvesting equipment, fruit labels, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone-paved lane between old houses; broad empty station forecourt walkway leading to glazed entrance; empty two-lane coastal road with markings and guardrail above rocky shore; gravel orchard path leading to small resting shelter. All paths clearly visible and source labels fit. Roads and nearby architecture naturally continue beyond panel boundaries, not isolated complete objects. No vehicles, people or readable text observed; no important referent lost by measured crop.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-road-01-scene0",
+        "label": "老街房屋之间的石板小路",
+        "image": "hanzi-images/realistic-v1/travel-road-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-road-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-04_1795402120198_4e328fdf.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty stone-paved pedestrian lane between low old-town houses. Frame the walking surface broadly in the foreground as it recedes between walls, clear paving joints and a gentle bend, soft natural daylight, no people, vehicles, shop names, lettering or signs.\nPanel 2 (second): Photorealistic landscape photograph of a broad level pedestrian path leading across an empty railway station forecourt to a glazed entrance. Show the full-width paving in the foreground, planter edges and continuous accessible walking surface, believable architectural materials, no people, vehicles, station names or other text.\nPanel 3 (third): Photorealistic landscape photograph of an empty two-lane coastal road curving along a rocky shore. Frame the asphalt surface, ordinary lane markings and roadside guardrail prominently with the sea beyond, viewed from a distant safe overlook, realistic terrain and daylight, no people, vehicles, written signs or text.\nPanel 4 (bottom): Photorealistic landscape photograph of a maintained gravel walking path between rows of mature orchard trees. Show the continuous path broadly in the foreground leading to a simple distant resting shelter, realistic gravel and foliage in soft morning light, no people, harvesting equipment, fruit labels, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone-paved lane between old houses; broad empty station forecourt walkway leading to glazed entrance; empty two-lane coastal road with markings and guardrail above rocky shore; gravel orchard path leading to small resting shelter. All paths clearly visible and source labels fit. Roads and nearby architecture naturally continue beyond panel boundaries, not isolated complete objects. No vehicles, people or readable text observed; no important referent lost by measured crop.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "travel-road-02-scene0",
+        "label": "车站广场通向入口的步行路",
+        "image": "hanzi-images/realistic-v1/travel-road-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-road-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-04_1795402120198_4e328fdf.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty stone-paved pedestrian lane between low old-town houses. Frame the walking surface broadly in the foreground as it recedes between walls, clear paving joints and a gentle bend, soft natural daylight, no people, vehicles, shop names, lettering or signs.\nPanel 2 (second): Photorealistic landscape photograph of a broad level pedestrian path leading across an empty railway station forecourt to a glazed entrance. Show the full-width paving in the foreground, planter edges and continuous accessible walking surface, believable architectural materials, no people, vehicles, station names or other text.\nPanel 3 (third): Photorealistic landscape photograph of an empty two-lane coastal road curving along a rocky shore. Frame the asphalt surface, ordinary lane markings and roadside guardrail prominently with the sea beyond, viewed from a distant safe overlook, realistic terrain and daylight, no people, vehicles, written signs or text.\nPanel 4 (bottom): Photorealistic landscape photograph of a maintained gravel walking path between rows of mature orchard trees. Show the continuous path broadly in the foreground leading to a simple distant resting shelter, realistic gravel and foliage in soft morning light, no people, harvesting equipment, fruit labels, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone-paved lane between old houses; broad empty station forecourt walkway leading to glazed entrance; empty two-lane coastal road with markings and guardrail above rocky shore; gravel orchard path leading to small resting shelter. All paths clearly visible and source labels fit. Roads and nearby architecture naturally continue beyond panel boundaries, not isolated complete objects. No vehicles, people or readable text observed; no important referent lost by measured crop.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-road-03-scene0",
+        "label": "沿海岸延伸的公路",
+        "image": "hanzi-images/realistic-v1/travel-road-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-road-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-04_1795402120198_4e328fdf.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty stone-paved pedestrian lane between low old-town houses. Frame the walking surface broadly in the foreground as it recedes between walls, clear paving joints and a gentle bend, soft natural daylight, no people, vehicles, shop names, lettering or signs.\nPanel 2 (second): Photorealistic landscape photograph of a broad level pedestrian path leading across an empty railway station forecourt to a glazed entrance. Show the full-width paving in the foreground, planter edges and continuous accessible walking surface, believable architectural materials, no people, vehicles, station names or other text.\nPanel 3 (third): Photorealistic landscape photograph of an empty two-lane coastal road curving along a rocky shore. Frame the asphalt surface, ordinary lane markings and roadside guardrail prominently with the sea beyond, viewed from a distant safe overlook, realistic terrain and daylight, no people, vehicles, written signs or text.\nPanel 4 (bottom): Photorealistic landscape photograph of a maintained gravel walking path between rows of mature orchard trees. Show the continuous path broadly in the foreground leading to a simple distant resting shelter, realistic gravel and foliage in soft morning light, no people, harvesting equipment, fruit labels, lettering or signs.",
+    "reviewNotes": "Preview inspected: stone-paved lane between old houses; broad empty station forecourt walkway leading to glazed entrance; empty two-lane coastal road with markings and guardrail above rocky shore; gravel orchard path leading to small resting shelter. All paths clearly visible and source labels fit. Roads and nearby architecture naturally continue beyond panel boundaries, not isolated complete objects. No vehicles, people or readable text observed; no important referent lost by measured crop.",
+    "cuts": [
+      446,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "travel-road-04-scene0",
+        "label": "果园树行之间的碎石小路",
+        "image": "hanzi-images/realistic-v1/travel-road-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-road-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-05_1795402206111_b7e739f9.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty paved mountain road making a broad gentle bend between green slopes. Show the asphalt road and protective guardrail clearly from a distant scenic viewpoint, natural rock and vegetation, calm daylight, no vehicles, people, written signs or text.\nPanel 2 (second): Photorealistic landscape photograph of an empty covered pedestrian walkway alongside a railway station, leading toward an enclosed waiting hall. Show a continuous level paved path, canopy columns and distant hall doorway, realistic metal and glass, natural diffused light, no people, directional writing, logos or signs.\nPanel 3 (third): Photorealistic landscape photograph of a small passenger ferry moored in a sheltered river landing berth. Show the complete hull, enclosed cabin and side railings from a distant shore viewpoint, landing pontoon beside it and calm water below, realistic construction and daylight, no people, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a container cargo ship moored beside a commercial quay, viewed from a distant public overlook. Frame the whole vessel, stacked plain containers, bridge superstructure and waterline with generous margins, realistic scale and overcast daylight, no people, active loading, readable container codes, writing or logos.",
+    "reviewNotes": "Preview inspected: empty curving mountain road with guardrail; covered station pedestrian walkway with columns and railway tracks alongside, receding toward hall doorway; small enclosed-cabin ferry beside pontoon; container cargo ship alongside quay with both hull ends and superstructure visible. Vessel subjects contained with no main-object clipping observed. Walkway roof and road foreground naturally extend beyond frame. Tiny hull fittings are present, but no readable writing, people or active loading observed.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "travel-road-05-scene0",
+        "label": "山坡间弯曲延伸的公路",
+        "image": "hanzi-images/realistic-v1/travel-road-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-road-06",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-05_1795402206111_b7e739f9.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty paved mountain road making a broad gentle bend between green slopes. Show the asphalt road and protective guardrail clearly from a distant scenic viewpoint, natural rock and vegetation, calm daylight, no vehicles, people, written signs or text.\nPanel 2 (second): Photorealistic landscape photograph of an empty covered pedestrian walkway alongside a railway station, leading toward an enclosed waiting hall. Show a continuous level paved path, canopy columns and distant hall doorway, realistic metal and glass, natural diffused light, no people, directional writing, logos or signs.\nPanel 3 (third): Photorealistic landscape photograph of a small passenger ferry moored in a sheltered river landing berth. Show the complete hull, enclosed cabin and side railings from a distant shore viewpoint, landing pontoon beside it and calm water below, realistic construction and daylight, no people, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a container cargo ship moored beside a commercial quay, viewed from a distant public overlook. Frame the whole vessel, stacked plain containers, bridge superstructure and waterline with generous margins, realistic scale and overcast daylight, no people, active loading, readable container codes, writing or logos.",
+    "reviewNotes": "Preview inspected: empty curving mountain road with guardrail; covered station pedestrian walkway with columns and railway tracks alongside, receding toward hall doorway; small enclosed-cabin ferry beside pontoon; container cargo ship alongside quay with both hull ends and superstructure visible. Vessel subjects contained with no main-object clipping observed. Walkway roof and road foreground naturally extend beyond frame. Tiny hull fittings are present, but no readable writing, people or active loading observed.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 458,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-road-06-scene0",
+        "label": "车站旁通向等候厅的有顶步道",
+        "image": "hanzi-images/realistic-v1/travel-road-06-0.jpg"
+      }
+    ],
+    "reuseBaseId": "road"
+  },
+  {
+    "id": "travel-ship-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-05_1795402206111_b7e739f9.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty paved mountain road making a broad gentle bend between green slopes. Show the asphalt road and protective guardrail clearly from a distant scenic viewpoint, natural rock and vegetation, calm daylight, no vehicles, people, written signs or text.\nPanel 2 (second): Photorealistic landscape photograph of an empty covered pedestrian walkway alongside a railway station, leading toward an enclosed waiting hall. Show a continuous level paved path, canopy columns and distant hall doorway, realistic metal and glass, natural diffused light, no people, directional writing, logos or signs.\nPanel 3 (third): Photorealistic landscape photograph of a small passenger ferry moored in a sheltered river landing berth. Show the complete hull, enclosed cabin and side railings from a distant shore viewpoint, landing pontoon beside it and calm water below, realistic construction and daylight, no people, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a container cargo ship moored beside a commercial quay, viewed from a distant public overlook. Frame the whole vessel, stacked plain containers, bridge superstructure and waterline with generous margins, realistic scale and overcast daylight, no people, active loading, readable container codes, writing or logos.",
+    "reviewNotes": "Preview inspected: empty curving mountain road with guardrail; covered station pedestrian walkway with columns and railway tracks alongside, receding toward hall doorway; small enclosed-cabin ferry beside pontoon; container cargo ship alongside quay with both hull ends and superstructure visible. Vessel subjects contained with no main-object clipping observed. Walkway roof and road foreground naturally extend beyond frame. Tiny hull fittings are present, but no readable writing, people or active loading observed.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-01-scene0",
+        "label": "渡口泊位里停着的渡船",
+        "image": "hanzi-images/realistic-v1/travel-ship-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-ship-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-05_1795402206111_b7e739f9.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty paved mountain road making a broad gentle bend between green slopes. Show the asphalt road and protective guardrail clearly from a distant scenic viewpoint, natural rock and vegetation, calm daylight, no vehicles, people, written signs or text.\nPanel 2 (second): Photorealistic landscape photograph of an empty covered pedestrian walkway alongside a railway station, leading toward an enclosed waiting hall. Show a continuous level paved path, canopy columns and distant hall doorway, realistic metal and glass, natural diffused light, no people, directional writing, logos or signs.\nPanel 3 (third): Photorealistic landscape photograph of a small passenger ferry moored in a sheltered river landing berth. Show the complete hull, enclosed cabin and side railings from a distant shore viewpoint, landing pontoon beside it and calm water below, realistic construction and daylight, no people, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a container cargo ship moored beside a commercial quay, viewed from a distant public overlook. Frame the whole vessel, stacked plain containers, bridge superstructure and waterline with generous margins, realistic scale and overcast daylight, no people, active loading, readable container codes, writing or logos.",
+    "reviewNotes": "Preview inspected: empty curving mountain road with guardrail; covered station pedestrian walkway with columns and railway tracks alongside, receding toward hall doorway; small enclosed-cabin ferry beside pontoon; container cargo ship alongside quay with both hull ends and superstructure visible. Vessel subjects contained with no main-object clipping observed. Walkway roof and road foreground naturally extend beyond frame. Tiny hull fittings are present, but no readable writing, people or active loading observed.",
+    "cuts": [
+      448,
+      894,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-02-scene0",
+        "label": "港口码头旁停泊的集装箱货船",
+        "image": "hanzi-images/realistic-v1/travel-ship-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-ship-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-06_1795402294158_45cf2e71.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a two-deck sightseeing passenger vessel stationary on a calm lake beside a distant landing. Show the whole hull, two rows of cabin windows and upper deck railings in broad side view, realistic water reflections and surrounding hills, no people, lettering or logos.\nPanel 2 (second): Photorealistic landscape photograph of a modest fishing vessel moored in a quiet fishing harbor. Show the entire hull, wheelhouse, mast and secured empty deck from a distant shore viewpoint, calm water and other indistinct berths behind, realistic marine materials, no people, animals, active fishing, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a harbor tugboat stationary in a sheltered port basin. Frame the whole compact vessel in three-quarter side view, stout hull, black rubber fenders and wheelhouse clearly visible, calm water and distant quay, natural daylight, no crew, towing activity, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a long single-deck river sightseeing passenger boat moored beside an urban riverside pontoon. Include the entire hull and glazed cabin with both ends visible, calm river and distant embankment in soft daylight, no people, boarding activity, writing or logos.",
+    "reviewNotes": "Preview inspected: two-level lake sightseeing vessel with lower glazed cabin and upper viewing level beside landing; fishing vessel with wheelhouse and mast moored in harbor; compact tug with rubber fenders beside quay; long single-deck glazed river sightseeing boat beside pontoon. All hulls and ends retained. Fishing mast and tug antenna top margins are tighter than requested 8 percent but survive 10-pixel crop trim; no main-object clipping observed. Two-level boat upper level appears open/glazed rather than a second fully enclosed cabin. No people, readable text or active operations observed.",
+    "cuts": [
+      446,
+      896,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-03-scene0",
+        "label": "湖面上停泊的双层游览客船",
+        "image": "hanzi-images/realistic-v1/travel-ship-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-ship-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-06_1795402294158_45cf2e71.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a two-deck sightseeing passenger vessel stationary on a calm lake beside a distant landing. Show the whole hull, two rows of cabin windows and upper deck railings in broad side view, realistic water reflections and surrounding hills, no people, lettering or logos.\nPanel 2 (second): Photorealistic landscape photograph of a modest fishing vessel moored in a quiet fishing harbor. Show the entire hull, wheelhouse, mast and secured empty deck from a distant shore viewpoint, calm water and other indistinct berths behind, realistic marine materials, no people, animals, active fishing, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a harbor tugboat stationary in a sheltered port basin. Frame the whole compact vessel in three-quarter side view, stout hull, black rubber fenders and wheelhouse clearly visible, calm water and distant quay, natural daylight, no crew, towing activity, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a long single-deck river sightseeing passenger boat moored beside an urban riverside pontoon. Include the entire hull and glazed cabin with both ends visible, calm river and distant embankment in soft daylight, no people, boarding activity, writing or logos.",
+    "reviewNotes": "Preview inspected: two-level lake sightseeing vessel with lower glazed cabin and upper viewing level beside landing; fishing vessel with wheelhouse and mast moored in harbor; compact tug with rubber fenders beside quay; long single-deck glazed river sightseeing boat beside pontoon. All hulls and ends retained. Fishing mast and tug antenna top margins are tighter than requested 8 percent but survive 10-pixel crop trim; no main-object clipping observed. Two-level boat upper level appears open/glazed rather than a second fully enclosed cabin. No people, readable text or active operations observed.",
+    "cuts": [
+      446,
+      896,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 456,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-04-scene0",
+        "label": "渔港泊位里停着的渔船",
+        "image": "hanzi-images/realistic-v1/travel-ship-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-ship-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-06_1795402294158_45cf2e71.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a two-deck sightseeing passenger vessel stationary on a calm lake beside a distant landing. Show the whole hull, two rows of cabin windows and upper deck railings in broad side view, realistic water reflections and surrounding hills, no people, lettering or logos.\nPanel 2 (second): Photorealistic landscape photograph of a modest fishing vessel moored in a quiet fishing harbor. Show the entire hull, wheelhouse, mast and secured empty deck from a distant shore viewpoint, calm water and other indistinct berths behind, realistic marine materials, no people, animals, active fishing, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a harbor tugboat stationary in a sheltered port basin. Frame the whole compact vessel in three-quarter side view, stout hull, black rubber fenders and wheelhouse clearly visible, calm water and distant quay, natural daylight, no crew, towing activity, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a long single-deck river sightseeing passenger boat moored beside an urban riverside pontoon. Include the entire hull and glazed cabin with both ends visible, calm river and distant embankment in soft daylight, no people, boarding activity, writing or logos.",
+    "reviewNotes": "Preview inspected: two-level lake sightseeing vessel with lower glazed cabin and upper viewing level beside landing; fishing vessel with wheelhouse and mast moored in harbor; compact tug with rubber fenders beside quay; long single-deck glazed river sightseeing boat beside pontoon. All hulls and ends retained. Fishing mast and tug antenna top margins are tighter than requested 8 percent but survive 10-pixel crop trim; no main-object clipping observed. Two-level boat upper level appears open/glazed rather than a second fully enclosed cabin. No people, readable text or active operations observed.",
+    "cuts": [
+      446,
+      896,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-05-scene0",
+        "label": "港池里停泊的港口拖船",
+        "image": "hanzi-images/realistic-v1/travel-ship-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-ship-06",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-06_1795402294158_45cf2e71.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a two-deck sightseeing passenger vessel stationary on a calm lake beside a distant landing. Show the whole hull, two rows of cabin windows and upper deck railings in broad side view, realistic water reflections and surrounding hills, no people, lettering or logos.\nPanel 2 (second): Photorealistic landscape photograph of a modest fishing vessel moored in a quiet fishing harbor. Show the entire hull, wheelhouse, mast and secured empty deck from a distant shore viewpoint, calm water and other indistinct berths behind, realistic marine materials, no people, animals, active fishing, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of a harbor tugboat stationary in a sheltered port basin. Frame the whole compact vessel in three-quarter side view, stout hull, black rubber fenders and wheelhouse clearly visible, calm water and distant quay, natural daylight, no crew, towing activity, writing or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a long single-deck river sightseeing passenger boat moored beside an urban riverside pontoon. Include the entire hull and glazed cabin with both ends visible, calm river and distant embankment in soft daylight, no people, boarding activity, writing or logos.",
+    "reviewNotes": "Preview inspected: two-level lake sightseeing vessel with lower glazed cabin and upper viewing level beside landing; fishing vessel with wheelhouse and mast moored in harbor; compact tug with rubber fenders beside quay; long single-deck glazed river sightseeing boat beside pontoon. All hulls and ends retained. Fishing mast and tug antenna top margins are tighter than requested 8 percent but survive 10-pixel crop trim; no main-object clipping observed. Two-level boat upper level appears open/glazed rather than a second fully enclosed cabin. No people, readable text or active operations observed.",
+    "cuts": [
+      446,
+      896,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-ship-06-scene0",
+        "label": "河岸泊位旁停着的游览客船",
+        "image": "hanzi-images/realistic-v1/travel-ship-06-0.jpg"
+      }
+    ],
+    "reuseBaseId": "ship"
+  },
+  {
+    "id": "travel-wheel-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-07_1795403260313_692e257e.png",
+    "prompt": "Use case: AI photorealistic wheel covers for children's Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels or people.\nCritical framing: WIDE ENVIRONMENTAL DETAIL views, NOT tight close-ups. In each panel its ONE focal wheel is SMALL, only 35-45 percent of that panel's height, centered vertically and horizontally. Leave a very broad visible band of floor above and below every complete circular tire, at least 25 percent of panel height below it. The WHOLE tire must be separated from every panel boundary. Do not zoom in. Include partial vehicle body only as context; the main target is its intact circular wheel. Natural photorealistic rubber, metal and ground textures, credible mechanisms, daylight. All vehicles stationary, nobody operating them.\nTop panel: a small rubber caster wheel and axle bracket under an empty stationary airport-style luggage trolley on a clean paved station forecourt. Show trolley metal frame above and broad pavement beneath the small centered wheel.\nSecond panel: a small front wheel of a stationary folding bicycle beside a station cycle rack. Whole round tire, spokes, rim, hub and fork visible with folding frame partly above. Broad pavement clearly separates entire tire from lower boundary. Keep wheel small within this wide scene.\nThird panel: one small-in-frame wheel of a stationary full-size city bus at a terminal bay, entire rubber tire and metal hub visible side-on, partial lower bus body surrounding it and a broad band of pavement beneath. Do not magnify the bus tire to fill the panel.\nBottom panel: a small whole solid rubber wheel and axle supporting an empty stationary metal handcart on a paved plaza, part of its flat platform above, broad ground below. Keep complete circular tire small and far from all edges.",
+    "reviewNotes": "Final replacement preview inspected: small luggage-trolley caster with bracket on terminal forecourt, airport control tower and parked aircraft in distant background; full folding-bicycle front wheel beside cycle rack; full bus tire and hub in terminal bay; solid handcart wheel with axle and flat platform on plaza. All focal tires now have clear space above and below and are retained by measured crops; supporting vehicle frames extend outside as intended. Forecourt appears airport rather than railway-station setting; correct only factual English description. No people or readable writing observed. Two rejected earlier wheel sheets retained separately, not used.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-01-scene0",
+        "label": "静止行李推车底部的轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-wheel-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-07_1795403260313_692e257e.png",
+    "prompt": "Use case: AI photorealistic wheel covers for children's Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels or people.\nCritical framing: WIDE ENVIRONMENTAL DETAIL views, NOT tight close-ups. In each panel its ONE focal wheel is SMALL, only 35-45 percent of that panel's height, centered vertically and horizontally. Leave a very broad visible band of floor above and below every complete circular tire, at least 25 percent of panel height below it. The WHOLE tire must be separated from every panel boundary. Do not zoom in. Include partial vehicle body only as context; the main target is its intact circular wheel. Natural photorealistic rubber, metal and ground textures, credible mechanisms, daylight. All vehicles stationary, nobody operating them.\nTop panel: a small rubber caster wheel and axle bracket under an empty stationary airport-style luggage trolley on a clean paved station forecourt. Show trolley metal frame above and broad pavement beneath the small centered wheel.\nSecond panel: a small front wheel of a stationary folding bicycle beside a station cycle rack. Whole round tire, spokes, rim, hub and fork visible with folding frame partly above. Broad pavement clearly separates entire tire from lower boundary. Keep wheel small within this wide scene.\nThird panel: one small-in-frame wheel of a stationary full-size city bus at a terminal bay, entire rubber tire and metal hub visible side-on, partial lower bus body surrounding it and a broad band of pavement beneath. Do not magnify the bus tire to fill the panel.\nBottom panel: a small whole solid rubber wheel and axle supporting an empty stationary metal handcart on a paved plaza, part of its flat platform above, broad ground below. Keep complete circular tire small and far from all edges.",
+    "reviewNotes": "Final replacement preview inspected: small luggage-trolley caster with bracket on terminal forecourt, airport control tower and parked aircraft in distant background; full folding-bicycle front wheel beside cycle rack; full bus tire and hub in terminal bay; solid handcart wheel with axle and flat platform on plaza. All focal tires now have clear space above and below and are retained by measured crops; supporting vehicle frames extend outside as intended. Forecourt appears airport rather than railway-station setting; correct only factual English description. No people or readable writing observed. Two rejected earlier wheel sheets retained separately, not used.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-02-scene0",
+        "label": "停放的折叠自行车上的轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-wheel-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-07_1795403260313_692e257e.png",
+    "prompt": "Use case: AI photorealistic wheel covers for children's Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels or people.\nCritical framing: WIDE ENVIRONMENTAL DETAIL views, NOT tight close-ups. In each panel its ONE focal wheel is SMALL, only 35-45 percent of that panel's height, centered vertically and horizontally. Leave a very broad visible band of floor above and below every complete circular tire, at least 25 percent of panel height below it. The WHOLE tire must be separated from every panel boundary. Do not zoom in. Include partial vehicle body only as context; the main target is its intact circular wheel. Natural photorealistic rubber, metal and ground textures, credible mechanisms, daylight. All vehicles stationary, nobody operating them.\nTop panel: a small rubber caster wheel and axle bracket under an empty stationary airport-style luggage trolley on a clean paved station forecourt. Show trolley metal frame above and broad pavement beneath the small centered wheel.\nSecond panel: a small front wheel of a stationary folding bicycle beside a station cycle rack. Whole round tire, spokes, rim, hub and fork visible with folding frame partly above. Broad pavement clearly separates entire tire from lower boundary. Keep wheel small within this wide scene.\nThird panel: one small-in-frame wheel of a stationary full-size city bus at a terminal bay, entire rubber tire and metal hub visible side-on, partial lower bus body surrounding it and a broad band of pavement beneath. Do not magnify the bus tire to fill the panel.\nBottom panel: a small whole solid rubber wheel and axle supporting an empty stationary metal handcart on a paved plaza, part of its flat platform above, broad ground below. Keep complete circular tire small and far from all edges.",
+    "reviewNotes": "Final replacement preview inspected: small luggage-trolley caster with bracket on terminal forecourt, airport control tower and parked aircraft in distant background; full folding-bicycle front wheel beside cycle rack; full bus tire and hub in terminal bay; solid handcart wheel with axle and flat platform on plaza. All focal tires now have clear space above and below and are retained by measured crops; supporting vehicle frames extend outside as intended. Forecourt appears airport rather than railway-station setting; correct only factual English description. No people or readable writing observed. Two rejected earlier wheel sheets retained separately, not used.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-03-scene0",
+        "label": "停站公交车上的轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-wheel-04",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-07_1795403260313_692e257e.png",
+    "prompt": "Use case: AI photorealistic wheel covers for children's Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels or people.\nCritical framing: WIDE ENVIRONMENTAL DETAIL views, NOT tight close-ups. In each panel its ONE focal wheel is SMALL, only 35-45 percent of that panel's height, centered vertically and horizontally. Leave a very broad visible band of floor above and below every complete circular tire, at least 25 percent of panel height below it. The WHOLE tire must be separated from every panel boundary. Do not zoom in. Include partial vehicle body only as context; the main target is its intact circular wheel. Natural photorealistic rubber, metal and ground textures, credible mechanisms, daylight. All vehicles stationary, nobody operating them.\nTop panel: a small rubber caster wheel and axle bracket under an empty stationary airport-style luggage trolley on a clean paved station forecourt. Show trolley metal frame above and broad pavement beneath the small centered wheel.\nSecond panel: a small front wheel of a stationary folding bicycle beside a station cycle rack. Whole round tire, spokes, rim, hub and fork visible with folding frame partly above. Broad pavement clearly separates entire tire from lower boundary. Keep wheel small within this wide scene.\nThird panel: one small-in-frame wheel of a stationary full-size city bus at a terminal bay, entire rubber tire and metal hub visible side-on, partial lower bus body surrounding it and a broad band of pavement beneath. Do not magnify the bus tire to fill the panel.\nBottom panel: a small whole solid rubber wheel and axle supporting an empty stationary metal handcart on a paved plaza, part of its flat platform above, broad ground below. Keep complete circular tire small and far from all edges.",
+    "reviewNotes": "Final replacement preview inspected: small luggage-trolley caster with bracket on terminal forecourt, airport control tower and parked aircraft in distant background; full folding-bicycle front wheel beside cycle rack; full bus tire and hub in terminal bay; solid handcart wheel with axle and flat platform on plaza. All focal tires now have clear space above and below and are retained by measured crops; supporting vehicle frames extend outside as intended. Forecourt appears airport rather than railway-station setting; correct only factual English description. No people or readable writing observed. Two rejected earlier wheel sheets retained separately, not used.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-04-scene0",
+        "label": "广场上静止手推车的轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-04-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-wheel-05",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-08_1795403369383_559832c2.png",
+    "prompt": "Use case: AI photorealistic covers for children's travel Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels, personal information or people.\nCritical framing: all main subjects SMALL and centered in their own landscape panel. Wheel diameter in the first two panels only 35-45 percent of panel height. Leave broad visible floor above and below each whole tire, at least 25 percent of panel height below it. Show each complete circular tire with clearance from all panel boundaries; do not zoom in. Bags in last two panels with whole handles and straps surrounded by at least 12 percent clear margins on every side. Natural photorealistic rubber, metal, fabric and ground textures, credible proportions, daylight. Stationary vehicles and quiet observation settings only.\nTop panel: WIDE environmental detail view of one intact round rubber tire and plain alloy wheel on a safely parked passenger car in a quiet painted parking space. Partial car fender above the small centered wheel and a broad band of pavement below; whole tire top must be visible and far from upper boundary. No car emblem or tire lettering.\nSecond panel: WIDE environmental detail view of one small caster wheel, swivel bracket and part of platform beneath an empty stationary flatbed trolley in an indoor transport exhibit. Broad floor beneath and clear space around the complete small wheel, realistic rubber and steel, no exhibit writing.\nThird panel: a closed navy fabric travel duffel resting on floor beside an empty station waiting bench. Show complete bag, two handles, shoulder strap and zipper, with generous clear margins around the entire bag. Realistic woven fabric and soft indoor daylight, no luggage tags.\nBottom panel: a closed green backpack standing on a travel preparation table in an empty station lounge, both shoulder straps clearly beside it and a plain folded map nearby. Whole bag, carry handle and straps centered with generous margins, authentic fabric and daylight, no map lettering or brands.",
+    "reviewNotes": "Final replacement preview inspected: complete small passenger-car tire and plain alloy hub with broad parking pavement; complete small caster beneath flatbed trolley in indoor transport exhibit with aircraft background; full navy duffel with handles and shoulder strap beside waiting bench; upright green backpack with both shoulder straps and folded map on lounge table. Wheels now clear of crop boundaries; no main-object clipping observed. Backpack carry handle upper margin remains tighter than requested 8 percent but retained. Correct only factual backpack standing position. No people or readable text observed; rejected earlier PNG retained separately and not used.",
+    "cuts": [
+      444,
+      892,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-05-scene0",
+        "label": "停车位里小汽车上的轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-05-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-wheel-06",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-08_1795403369383_559832c2.png",
+    "prompt": "Use case: AI photorealistic covers for children's travel Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels, personal information or people.\nCritical framing: all main subjects SMALL and centered in their own landscape panel. Wheel diameter in the first two panels only 35-45 percent of panel height. Leave broad visible floor above and below each whole tire, at least 25 percent of panel height below it. Show each complete circular tire with clearance from all panel boundaries; do not zoom in. Bags in last two panels with whole handles and straps surrounded by at least 12 percent clear margins on every side. Natural photorealistic rubber, metal, fabric and ground textures, credible proportions, daylight. Stationary vehicles and quiet observation settings only.\nTop panel: WIDE environmental detail view of one intact round rubber tire and plain alloy wheel on a safely parked passenger car in a quiet painted parking space. Partial car fender above the small centered wheel and a broad band of pavement below; whole tire top must be visible and far from upper boundary. No car emblem or tire lettering.\nSecond panel: WIDE environmental detail view of one small caster wheel, swivel bracket and part of platform beneath an empty stationary flatbed trolley in an indoor transport exhibit. Broad floor beneath and clear space around the complete small wheel, realistic rubber and steel, no exhibit writing.\nThird panel: a closed navy fabric travel duffel resting on floor beside an empty station waiting bench. Show complete bag, two handles, shoulder strap and zipper, with generous clear margins around the entire bag. Realistic woven fabric and soft indoor daylight, no luggage tags.\nBottom panel: a closed green backpack standing on a travel preparation table in an empty station lounge, both shoulder straps clearly beside it and a plain folded map nearby. Whole bag, carry handle and straps centered with generous margins, authentic fabric and daylight, no map lettering or brands.",
+    "reviewNotes": "Final replacement preview inspected: complete small passenger-car tire and plain alloy hub with broad parking pavement; complete small caster beneath flatbed trolley in indoor transport exhibit with aircraft background; full navy duffel with handles and shoulder strap beside waiting bench; upright green backpack with both shoulder straps and folded map on lounge table. Wheels now clear of crop boundaries; no main-object clipping observed. Backpack carry handle upper margin remains tighter than requested 8 percent but retained. Correct only factual backpack standing position. No people or readable text observed; rejected earlier PNG retained separately and not used.",
+    "cuts": [
+      444,
+      892,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "travel-wheel-06-scene0",
+        "label": "静止平板推车底部的万向轮",
+        "image": "hanzi-images/realistic-v1/travel-wheel-06-0.jpg"
+      }
+    ],
+    "reuseBaseId": "wheel"
+  },
+  {
+    "id": "travel-bag-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-08_1795403369383_559832c2.png",
+    "prompt": "Use case: AI photorealistic covers for children's travel Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels, personal information or people.\nCritical framing: all main subjects SMALL and centered in their own landscape panel. Wheel diameter in the first two panels only 35-45 percent of panel height. Leave broad visible floor above and below each whole tire, at least 25 percent of panel height below it. Show each complete circular tire with clearance from all panel boundaries; do not zoom in. Bags in last two panels with whole handles and straps surrounded by at least 12 percent clear margins on every side. Natural photorealistic rubber, metal, fabric and ground textures, credible proportions, daylight. Stationary vehicles and quiet observation settings only.\nTop panel: WIDE environmental detail view of one intact round rubber tire and plain alloy wheel on a safely parked passenger car in a quiet painted parking space. Partial car fender above the small centered wheel and a broad band of pavement below; whole tire top must be visible and far from upper boundary. No car emblem or tire lettering.\nSecond panel: WIDE environmental detail view of one small caster wheel, swivel bracket and part of platform beneath an empty stationary flatbed trolley in an indoor transport exhibit. Broad floor beneath and clear space around the complete small wheel, realistic rubber and steel, no exhibit writing.\nThird panel: a closed navy fabric travel duffel resting on floor beside an empty station waiting bench. Show complete bag, two handles, shoulder strap and zipper, with generous clear margins around the entire bag. Realistic woven fabric and soft indoor daylight, no luggage tags.\nBottom panel: a closed green backpack standing on a travel preparation table in an empty station lounge, both shoulder straps clearly beside it and a plain folded map nearby. Whole bag, carry handle and straps centered with generous margins, authentic fabric and daylight, no map lettering or brands.",
+    "reviewNotes": "Final replacement preview inspected: complete small passenger-car tire and plain alloy hub with broad parking pavement; complete small caster beneath flatbed trolley in indoor transport exhibit with aircraft background; full navy duffel with handles and shoulder strap beside waiting bench; upright green backpack with both shoulder straps and folded map on lounge table. Wheels now clear of crop boundaries; no main-object clipping observed. Backpack carry handle upper margin remains tighter than requested 8 percent but retained. Correct only factual backpack standing position. No people or readable text observed; rejected earlier PNG retained separately and not used.",
+    "cuts": [
+      444,
+      892,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 902,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "travel-bag-01-scene0",
+        "label": "候车长椅旁放着的旅行包",
+        "image": "hanzi-images/realistic-v1/travel-bag-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "travel-bag-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-08_1795403369383_559832c2.png",
+    "prompt": "Use case: AI photorealistic covers for children's travel Hanzi stories, fictional visualizations rather than documentary photographs.\nLayout: exactly FOUR independent full-width landscape photographs stacked top to bottom in ONE 1024x1792 PNG. Three thin straight white horizontal seams across full width at y448, y896, y1344; each photograph approximately 448 pixels high. No outer border or vertical divider, no text, captions, logos, watermarks, readable labels, personal information or people.\nCritical framing: all main subjects SMALL and centered in their own landscape panel. Wheel diameter in the first two panels only 35-45 percent of panel height. Leave broad visible floor above and below each whole tire, at least 25 percent of panel height below it. Show each complete circular tire with clearance from all panel boundaries; do not zoom in. Bags in last two panels with whole handles and straps surrounded by at least 12 percent clear margins on every side. Natural photorealistic rubber, metal, fabric and ground textures, credible proportions, daylight. Stationary vehicles and quiet observation settings only.\nTop panel: WIDE environmental detail view of one intact round rubber tire and plain alloy wheel on a safely parked passenger car in a quiet painted parking space. Partial car fender above the small centered wheel and a broad band of pavement below; whole tire top must be visible and far from upper boundary. No car emblem or tire lettering.\nSecond panel: WIDE environmental detail view of one small caster wheel, swivel bracket and part of platform beneath an empty stationary flatbed trolley in an indoor transport exhibit. Broad floor beneath and clear space around the complete small wheel, realistic rubber and steel, no exhibit writing.\nThird panel: a closed navy fabric travel duffel resting on floor beside an empty station waiting bench. Show complete bag, two handles, shoulder strap and zipper, with generous clear margins around the entire bag. Realistic woven fabric and soft indoor daylight, no luggage tags.\nBottom panel: a closed green backpack standing on a travel preparation table in an empty station lounge, both shoulder straps clearly beside it and a plain folded map nearby. Whole bag, carry handle and straps centered with generous margins, authentic fabric and daylight, no map lettering or brands.",
+    "reviewNotes": "Final replacement preview inspected: complete small passenger-car tire and plain alloy hub with broad parking pavement; complete small caster beneath flatbed trolley in indoor transport exhibit with aircraft background; full navy duffel with handles and shoulder strap beside waiting bench; upright green backpack with both shoulder straps and folded map on lounge table. Wheels now clear of crop boundaries; no main-object clipping observed. Backpack carry handle upper margin remains tighter than requested 8 percent but retained. Correct only factual backpack standing position. No people or readable text observed; rejected earlier PNG retained separately and not used.",
+    "cuts": [
+      444,
+      892,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-bag-02-scene0",
+        "label": "换乘准备桌上的双肩包",
+        "image": "hanzi-images/realistic-v1/travel-bag-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "travel-bag-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-09_1795402752182_dcebfb47.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a closed beige zippered tote bag with two handles resting on a bench inside an empty ferry waiting hall. Show the whole bag and its fabric texture, with a distant window overlooking a blurred harbor, calm indoor daylight, no people, readable tags, personal information, brands or writing.\nPanel 2 (second): Photorealistic landscape photograph of a fully closed straight-handled umbrella standing in an umbrella rack inside an empty transit waiting hall on a rainy day. Keep the whole folded canopy, shaft and handle visible, window rain softly behind, realistic damp fabric, no people, brands, lettering or signs.\nPanel 3 (third): Photorealistic landscape photograph of a fully open blue rain umbrella secured upright on a purpose-made indoor display stand near a transit station entrance. Show the complete canopy, shaft and curved handle within the frame, realistic fabric and ribs, quiet diffused daylight, no people, writing or branding.\nPanel 4 (bottom): Photorealistic landscape photograph of a closed compact folding umbrella lying diagonally on a clean station travel preparation counter. Include the whole folded canopy, short handle and secured fabric strap, an empty windowed waiting area behind, realistic textile details and soft daylight, no people, brands, personal details or text.",
+    "reviewNotes": "Preview inspected: beige two-handle tote on ferry waiting bench; closed long umbrella in rack with visibly curved handle, not straight; open blue umbrella upright on indoor display stand with curved handle; closed compact folding umbrella on counter with fastening strap and wrist loop. Change only closed umbrella factual description and its scene/photo label from straight to curved handle. All four main objects contained; rack umbrella tip and open canopy top margins tighter than requested 8 percent but retained by crop. Tote zipper is not distinctly visible at compact size. No people or readable writing observed.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-bag-03-scene0",
+        "label": "候船厅长凳上放着的手提包",
+        "image": "hanzi-images/realistic-v1/travel-bag-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bag"
+  },
+  {
+    "id": "travel-umbrella-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-09_1795402752182_dcebfb47.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a closed beige zippered tote bag with two handles resting on a bench inside an empty ferry waiting hall. Show the whole bag and its fabric texture, with a distant window overlooking a blurred harbor, calm indoor daylight, no people, readable tags, personal information, brands or writing.\nPanel 2 (second): Photorealistic landscape photograph of a fully closed straight-handled umbrella standing in an umbrella rack inside an empty transit waiting hall on a rainy day. Keep the whole folded canopy, shaft and handle visible, window rain softly behind, realistic damp fabric, no people, brands, lettering or signs.\nPanel 3 (third): Photorealistic landscape photograph of a fully open blue rain umbrella secured upright on a purpose-made indoor display stand near a transit station entrance. Show the complete canopy, shaft and curved handle within the frame, realistic fabric and ribs, quiet diffused daylight, no people, writing or branding.\nPanel 4 (bottom): Photorealistic landscape photograph of a closed compact folding umbrella lying diagonally on a clean station travel preparation counter. Include the whole folded canopy, short handle and secured fabric strap, an empty windowed waiting area behind, realistic textile details and soft daylight, no people, brands, personal details or text.",
+    "reviewNotes": "Preview inspected: beige two-handle tote on ferry waiting bench; closed long umbrella in rack with visibly curved handle, not straight; open blue umbrella upright on indoor display stand with curved handle; closed compact folding umbrella on counter with fastening strap and wrist loop. Change only closed umbrella factual description and its scene/photo label from straight to curved handle. All four main objects contained; rack umbrella tip and open canopy top margins tighter than requested 8 percent but retained by crop. Tote zipper is not distinctly visible at compact size. No people or readable writing observed.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "travel-umbrella-01-scene0",
+        "label": "候车厅伞架里收拢的弯柄伞",
+        "image": "hanzi-images/realistic-v1/travel-umbrella-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "travel-umbrella-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-09_1795402752182_dcebfb47.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a closed beige zippered tote bag with two handles resting on a bench inside an empty ferry waiting hall. Show the whole bag and its fabric texture, with a distant window overlooking a blurred harbor, calm indoor daylight, no people, readable tags, personal information, brands or writing.\nPanel 2 (second): Photorealistic landscape photograph of a fully closed straight-handled umbrella standing in an umbrella rack inside an empty transit waiting hall on a rainy day. Keep the whole folded canopy, shaft and handle visible, window rain softly behind, realistic damp fabric, no people, brands, lettering or signs.\nPanel 3 (third): Photorealistic landscape photograph of a fully open blue rain umbrella secured upright on a purpose-made indoor display stand near a transit station entrance. Show the complete canopy, shaft and curved handle within the frame, realistic fabric and ribs, quiet diffused daylight, no people, writing or branding.\nPanel 4 (bottom): Photorealistic landscape photograph of a closed compact folding umbrella lying diagonally on a clean station travel preparation counter. Include the whole folded canopy, short handle and secured fabric strap, an empty windowed waiting area behind, realistic textile details and soft daylight, no people, brands, personal details or text.",
+    "reviewNotes": "Preview inspected: beige two-handle tote on ferry waiting bench; closed long umbrella in rack with visibly curved handle, not straight; open blue umbrella upright on indoor display stand with curved handle; closed compact folding umbrella on counter with fastening strap and wrist loop. Change only closed umbrella factual description and its scene/photo label from straight to curved handle. All four main objects contained; rack umbrella tip and open canopy top margins tighter than requested 8 percent but retained by crop. Tote zipper is not distinctly visible at compact size. No people or readable writing observed.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "travel-umbrella-02-scene0",
+        "label": "站前室内展架上撑开的雨伞",
+        "image": "hanzi-images/realistic-v1/travel-umbrella-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "travel-umbrella-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-09_1795402752182_dcebfb47.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a closed beige zippered tote bag with two handles resting on a bench inside an empty ferry waiting hall. Show the whole bag and its fabric texture, with a distant window overlooking a blurred harbor, calm indoor daylight, no people, readable tags, personal information, brands or writing.\nPanel 2 (second): Photorealistic landscape photograph of a fully closed straight-handled umbrella standing in an umbrella rack inside an empty transit waiting hall on a rainy day. Keep the whole folded canopy, shaft and handle visible, window rain softly behind, realistic damp fabric, no people, brands, lettering or signs.\nPanel 3 (third): Photorealistic landscape photograph of a fully open blue rain umbrella secured upright on a purpose-made indoor display stand near a transit station entrance. Show the complete canopy, shaft and curved handle within the frame, realistic fabric and ribs, quiet diffused daylight, no people, writing or branding.\nPanel 4 (bottom): Photorealistic landscape photograph of a closed compact folding umbrella lying diagonally on a clean station travel preparation counter. Include the whole folded canopy, short handle and secured fabric strap, an empty windowed waiting area behind, realistic textile details and soft daylight, no people, brands, personal details or text.",
+    "reviewNotes": "Preview inspected: beige two-handle tote on ferry waiting bench; closed long umbrella in rack with visibly curved handle, not straight; open blue umbrella upright on indoor display stand with curved handle; closed compact folding umbrella on counter with fastening strap and wrist loop. Change only closed umbrella factual description and its scene/photo label from straight to curved handle. All four main objects contained; rack umbrella tip and open canopy top margins tighter than requested 8 percent but retained by crop. Tote zipper is not distinctly visible at compact size. No people or readable writing observed.",
+    "cuts": [
+      445,
+      894,
+      1341
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1351,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-umbrella-03-scene0",
+        "label": "车站准备台上合拢的折叠伞",
+        "image": "hanzi-images/realistic-v1/travel-umbrella-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "umbrella"
+  },
+  {
+    "id": "travel-hat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-10_1795402862545_fccee974.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a wide-brimmed woven sunhat resting on an outdoor travel preparation table beneath a station courtyard canopy. Include the whole crown and brim with a plain folded map nearby, authentic straw texture and gentle summer light, no people, readable maps, lettering or brands.\nPanel 2 (second): Photorealistic landscape photograph of a folded rib-knit wool hat resting on a bench inside an empty railway waiting room in winter. Show the whole hat with its rounded crown and turned-up cuff, realistic knitted yarn and soft cool window light, no people, brands, lettering or personal information.\nPanel 3 (third): Photorealistic landscape photograph of a plain blue baseball cap resting on a picnic-style table in a sheltered park visitor meeting area. Show the whole crown, front visor and rear adjustment band in three-quarter view, realistic cotton texture and mild daylight, no people, team logos, lettering or signs.\nPanel 4 (bottom): Photorealistic landscape photograph of an empty wooden rowboat floating at rest in a sheltered small harbor. Show the complete hull, wooden seats and a pair of secured oars from a distant shore viewpoint, calm water and simple mooring pontoon behind, authentic timber and daylight, no people, writing or logos.",
+    "reviewNotes": "Preview inspected: full wide-brim woven sunhat and folded map on station courtyard table; rib-knit wool hat with turned-up cuff on waiting-room bench; plain blue baseball cap with visor and rear strap on sheltered park table; empty wooden rowboat with seats and two laid-in oars at quiet harbor dock. Source labels fit; all main subjects contained and no important crop clipping observed. Nearby furniture and dock extend beyond frame naturally. No people or readable text observed.",
+    "cuts": [
+      443,
+      895,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 423
+    },
+    "contexts": [
+      {
+        "id": "travel-hat-01-scene0",
+        "label": "出游准备桌上的宽檐遮阳帽",
+        "image": "hanzi-images/realistic-v1/travel-hat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "travel-hat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-10_1795402862545_fccee974.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a wide-brimmed woven sunhat resting on an outdoor travel preparation table beneath a station courtyard canopy. Include the whole crown and brim with a plain folded map nearby, authentic straw texture and gentle summer light, no people, readable maps, lettering or brands.\nPanel 2 (second): Photorealistic landscape photograph of a folded rib-knit wool hat resting on a bench inside an empty railway waiting room in winter. Show the whole hat with its rounded crown and turned-up cuff, realistic knitted yarn and soft cool window light, no people, brands, lettering or personal information.\nPanel 3 (third): Photorealistic landscape photograph of a plain blue baseball cap resting on a picnic-style table in a sheltered park visitor meeting area. Show the whole crown, front visor and rear adjustment band in three-quarter view, realistic cotton texture and mild daylight, no people, team logos, lettering or signs.\nPanel 4 (bottom): Photorealistic landscape photograph of an empty wooden rowboat floating at rest in a sheltered small harbor. Show the complete hull, wooden seats and a pair of secured oars from a distant shore viewpoint, calm water and simple mooring pontoon behind, authentic timber and daylight, no people, writing or logos.",
+    "reviewNotes": "Preview inspected: full wide-brim woven sunhat and folded map on station courtyard table; rib-knit wool hat with turned-up cuff on waiting-room bench; plain blue baseball cap with visor and rear strap on sheltered park table; empty wooden rowboat with seats and two laid-in oars at quiet harbor dock. Source labels fit; all main subjects contained and no important crop clipping observed. Nearby furniture and dock extend beyond frame naturally. No people or readable text observed.",
+    "cuts": [
+      443,
+      895,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 453,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "travel-hat-02-scene0",
+        "label": "冬日候车厅长椅上的毛线帽",
+        "image": "hanzi-images/realistic-v1/travel-hat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "travel-hat-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-10_1795402862545_fccee974.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a wide-brimmed woven sunhat resting on an outdoor travel preparation table beneath a station courtyard canopy. Include the whole crown and brim with a plain folded map nearby, authentic straw texture and gentle summer light, no people, readable maps, lettering or brands.\nPanel 2 (second): Photorealistic landscape photograph of a folded rib-knit wool hat resting on a bench inside an empty railway waiting room in winter. Show the whole hat with its rounded crown and turned-up cuff, realistic knitted yarn and soft cool window light, no people, brands, lettering or personal information.\nPanel 3 (third): Photorealistic landscape photograph of a plain blue baseball cap resting on a picnic-style table in a sheltered park visitor meeting area. Show the whole crown, front visor and rear adjustment band in three-quarter view, realistic cotton texture and mild daylight, no people, team logos, lettering or signs.\nPanel 4 (bottom): Photorealistic landscape photograph of an empty wooden rowboat floating at rest in a sheltered small harbor. Show the complete hull, wooden seats and a pair of secured oars from a distant shore viewpoint, calm water and simple mooring pontoon behind, authentic timber and daylight, no people, writing or logos.",
+    "reviewNotes": "Preview inspected: full wide-brim woven sunhat and folded map on station courtyard table; rib-knit wool hat with turned-up cuff on waiting-room bench; plain blue baseball cap with visor and rear strap on sheltered park table; empty wooden rowboat with seats and two laid-in oars at quiet harbor dock. Source labels fit; all main subjects contained and no important crop clipping observed. Nearby furniture and dock extend beyond frame naturally. No people or readable text observed.",
+    "cuts": [
+      443,
+      895,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "travel-hat-03-scene0",
+        "label": "游园集合桌上放着的棒球帽",
+        "image": "hanzi-images/realistic-v1/travel-hat-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "hat"
+  },
+  {
+    "id": "travel-boat-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-10_1795402862545_fccee974.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a wide-brimmed woven sunhat resting on an outdoor travel preparation table beneath a station courtyard canopy. Include the whole crown and brim with a plain folded map nearby, authentic straw texture and gentle summer light, no people, readable maps, lettering or brands.\nPanel 2 (second): Photorealistic landscape photograph of a folded rib-knit wool hat resting on a bench inside an empty railway waiting room in winter. Show the whole hat with its rounded crown and turned-up cuff, realistic knitted yarn and soft cool window light, no people, brands, lettering or personal information.\nPanel 3 (third): Photorealistic landscape photograph of a plain blue baseball cap resting on a picnic-style table in a sheltered park visitor meeting area. Show the whole crown, front visor and rear adjustment band in three-quarter view, realistic cotton texture and mild daylight, no people, team logos, lettering or signs.\nPanel 4 (bottom): Photorealistic landscape photograph of an empty wooden rowboat floating at rest in a sheltered small harbor. Show the complete hull, wooden seats and a pair of secured oars from a distant shore viewpoint, calm water and simple mooring pontoon behind, authentic timber and daylight, no people, writing or logos.",
+    "reviewNotes": "Preview inspected: full wide-brim woven sunhat and folded map on station courtyard table; rib-knit wool hat with turned-up cuff on waiting-room bench; plain blue baseball cap with visor and rear strap on sheltered park table; empty wooden rowboat with seats and two laid-in oars at quiet harbor dock. Source labels fit; all main subjects contained and no important crop clipping observed. Nearby furniture and dock extend beyond frame naturally. No people or readable text observed.",
+    "cuts": [
+      443,
+      895,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "travel-boat-01-scene0",
+        "label": "小港湾里停泊的木划艇",
+        "image": "hanzi-images/realistic-v1/travel-boat-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "travel-boat-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-11_1795402983699_9a1c3fdb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty long narrow canoe floating stationary beside a small dock on still lake water. Show the whole open hull and seats in a broad three-quarter side view, a secured paddle inside and distant reeds behind, realistic materials and daylight, no people, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a small sailboat at rest on a calm sheltered lake with a fully raised white sail in light air. Show the entire hull, mast and complete sail inside generous crop-safe margins, distant mooring buoys and wooded shore, no people, readable sail numbers, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of two closed side-by-side glass entrance doors at an empty railway waiting hall. Frame the entire doorway, rectangular door leaves, metal handles and threshold from the forecourt, realistic glass reflections and architecture, no people, station names, writing, stickers or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a single wooden entrance door held open at a small visitor center. Show the entire door leaf, frame and level threshold with the quiet lobby visible beyond, authentic timber grain and soft daylight, no people, destination names, readable brochures, writing or signage.",
+    "reviewNotes": "Preview inspected: complete narrow canoe with seats beside dock on still water; small sailboat with raised white sail and complete hull; pair of closed glass waiting-hall doors with handles and threshold; open wooden visitor-center door with lobby beyond. Main referents present. Sail/mast tip lies very near upper panel edge, below requested 8 percent margin, but remains inside measured crop; doorway surrounding facades extend beyond panels. Canoe paddle is not distinctly identifiable at compact size. No people or readable text observed.",
+    "cuts": [
+      444,
+      896,
+      1347
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "travel-boat-02-scene0",
+        "label": "静水码头旁停着的独木舟",
+        "image": "hanzi-images/realistic-v1/travel-boat-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "travel-boat-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-11_1795402983699_9a1c3fdb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty long narrow canoe floating stationary beside a small dock on still lake water. Show the whole open hull and seats in a broad three-quarter side view, a secured paddle inside and distant reeds behind, realistic materials and daylight, no people, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a small sailboat at rest on a calm sheltered lake with a fully raised white sail in light air. Show the entire hull, mast and complete sail inside generous crop-safe margins, distant mooring buoys and wooded shore, no people, readable sail numbers, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of two closed side-by-side glass entrance doors at an empty railway waiting hall. Frame the entire doorway, rectangular door leaves, metal handles and threshold from the forecourt, realistic glass reflections and architecture, no people, station names, writing, stickers or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a single wooden entrance door held open at a small visitor center. Show the entire door leaf, frame and level threshold with the quiet lobby visible beyond, authentic timber grain and soft daylight, no people, destination names, readable brochures, writing or signage.",
+    "reviewNotes": "Preview inspected: complete narrow canoe with seats beside dock on still water; small sailboat with raised white sail and complete hull; pair of closed glass waiting-hall doors with handles and threshold; open wooden visitor-center door with lobby beyond. Main referents present. Sail/mast tip lies very near upper panel edge, below requested 8 percent margin, but remains inside measured crop; doorway surrounding facades extend beyond panels. Canoe paddle is not distinctly identifiable at compact size. No people or readable text observed.",
+    "cuts": [
+      444,
+      896,
+      1347
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 454,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "travel-boat-03-scene0",
+        "label": "湖上泊位里展开船帆的小帆船",
+        "image": "hanzi-images/realistic-v1/travel-boat-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "boat"
+  },
+  {
+    "id": "travel-door-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-11_1795402983699_9a1c3fdb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty long narrow canoe floating stationary beside a small dock on still lake water. Show the whole open hull and seats in a broad three-quarter side view, a secured paddle inside and distant reeds behind, realistic materials and daylight, no people, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a small sailboat at rest on a calm sheltered lake with a fully raised white sail in light air. Show the entire hull, mast and complete sail inside generous crop-safe margins, distant mooring buoys and wooded shore, no people, readable sail numbers, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of two closed side-by-side glass entrance doors at an empty railway waiting hall. Frame the entire doorway, rectangular door leaves, metal handles and threshold from the forecourt, realistic glass reflections and architecture, no people, station names, writing, stickers or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a single wooden entrance door held open at a small visitor center. Show the entire door leaf, frame and level threshold with the quiet lobby visible beyond, authentic timber grain and soft daylight, no people, destination names, readable brochures, writing or signage.",
+    "reviewNotes": "Preview inspected: complete narrow canoe with seats beside dock on still water; small sailboat with raised white sail and complete hull; pair of closed glass waiting-hall doors with handles and threshold; open wooden visitor-center door with lobby beyond. Main referents present. Sail/mast tip lies very near upper panel edge, below requested 8 percent margin, but remains inside measured crop; doorway surrounding facades extend beyond panels. Canoe paddle is not distinctly identifiable at compact size. No people or readable text observed.",
+    "cuts": [
+      444,
+      896,
+      1347
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 431
+    },
+    "contexts": [
+      {
+        "id": "travel-door-01-scene0",
+        "label": "候车厅入口的两扇玻璃门",
+        "image": "hanzi-images/realistic-v1/travel-door-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "travel-door-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-11_1795402983699_9a1c3fdb.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of an empty long narrow canoe floating stationary beside a small dock on still lake water. Show the whole open hull and seats in a broad three-quarter side view, a secured paddle inside and distant reeds behind, realistic materials and daylight, no people, writing or logos.\nPanel 2 (second): Photorealistic landscape photograph of a small sailboat at rest on a calm sheltered lake with a fully raised white sail in light air. Show the entire hull, mast and complete sail inside generous crop-safe margins, distant mooring buoys and wooded shore, no people, readable sail numbers, writing or logos.\nPanel 3 (third): Photorealistic landscape photograph of two closed side-by-side glass entrance doors at an empty railway waiting hall. Frame the entire doorway, rectangular door leaves, metal handles and threshold from the forecourt, realistic glass reflections and architecture, no people, station names, writing, stickers or logos.\nPanel 4 (bottom): Photorealistic landscape photograph of a single wooden entrance door held open at a small visitor center. Show the entire door leaf, frame and level threshold with the quiet lobby visible beyond, authentic timber grain and soft daylight, no people, destination names, readable brochures, writing or signage.",
+    "reviewNotes": "Preview inspected: complete narrow canoe with seats beside dock on still water; small sailboat with raised white sail and complete hull; pair of closed glass waiting-hall doors with handles and threshold; open wooden visitor-center door with lobby beyond. Main referents present. Sail/mast tip lies very near upper panel edge, below requested 8 percent margin, but remains inside measured crop; doorway surrounding facades extend beyond panels. Canoe paddle is not distinctly identifiable at compact size. No people or readable text observed.",
+    "cuts": [
+      444,
+      896,
+      1347
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1357,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "travel-door-02-scene0",
+        "label": "游客中心入口打开的木门",
+        "image": "hanzi-images/realistic-v1/travel-door-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  },
+  {
+    "id": "travel-door-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-travel-v3-12_1795403094115_2eb73084.png",
+    "prompt": "Use case: AI-generated photorealistic cover assets for a children's travel Hanzi photo-learning collection; fictional visualizations, not documentary records.\nPrimary request: ONE 1024x1792 PNG sheet containing exactly FOUR independent full-width landscape photorealistic scenes stacked vertically in the numbered order below. Each panel occupies approximately 1024x448 pixels. Exactly THREE thin straight white horizontal seams, 4-6 pixels thick, across the entire width near y=448, y=896, y=1344. No outer border, no vertical divider, no inset or collage within any panel.\nStyle: photorealistic natural materials, credible engineering, authentic rubber, metal, wood, glass and fabric textures, realistic proportions and gentle natural lighting; no illustration, cartoon, CGI or glossy plastic look.\nComposition and safety: each main target fully contained inside its own panel with at least 8 percent clear crop-safe margins on every side, including all vehicle wheels, bicycle handlebars, bridge ends, boat masts, sails, umbrella tips and bag straps. Choose sufficiently distant side or three-quarter viewpoints rather than filling or clipping the frame. Vehicles safely stationary, vessels at rest, observation settings only. No people, children, hands, animals, unsafe crossings, driving or active operations. No text, captions, logos, brands, watermarks, readable plates, labels, route displays, personal data or map lettering anywhere.\nPanel 1 (top): Photorealistic landscape photograph of a pair of closed metal-framed glass entrance doors at an empty ferry terminal waiting hall. Include both full door leaves, handles, frame and level entrance paving, with a calm harbor softly reflected in the glass, no people, boat schedules, writing, stickers or logos.\nPanel 2 (second): Photorealistic landscape scene of an empty sheltered station courtyard with a plain bench, clean level paving and planters, soft daylight, no people, vehicles, writing or signs. Unassigned neutral travel panel.\nPanel 3 (third): Photorealistic landscape scene of an empty park visitor rest pavilion beside a broad paved footpath, realistic timber and leafy surroundings, soft daylight, no people, water hazards, writing or signs. Unassigned neutral travel panel.\nPanel 4 (bottom): Photorealistic landscape scene of an empty bright travel waiting lounge with a plain bench and large windows overlooking distant trees, realistic glass and fabric, no people, luggage, writing or signs. Unassigned neutral travel panel.",
+    "reviewNotes": "Preview inspected: two closed metal-framed ferry-hall glass door leaves with handles, threshold and calm harbor visible/reflected beyond; empty sheltered courtyard bench and planters; empty timber park rest pavilion beside paved path; empty bright waiting lounge bench and windows overlooking trees. Only first panel assigned to travel-door-03; other three neutral panels deliberately unassigned. Complete door leaves retained, surrounding facade extends beyond panel. No people or readable text observed.",
+    "cuts": [
+      446,
+      895,
+      1344
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 426
+    },
+    "contexts": [
+      {
+        "id": "travel-door-03-scene0",
+        "label": "候船厅入口的两扇金属框门",
+        "image": "hanzi-images/realistic-v1/travel-door-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "door"
+  }
+]

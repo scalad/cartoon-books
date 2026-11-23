@@ -1,0 +1,964 @@
+[
+  {
+    "id": "garden-stone-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-01_1795398333680_ae3a0977.png",
+    "prompt": "Use case: four photographic covers for a children's garden vocabulary collection. Create ONE portrait 1024x1792 sheet containing exactly FOUR separate full-width landscape photographs stacked vertically in the precise top-to-bottom order below. Give every panel equal height, about 448 pixels. Exactly THREE straight thin white horizontal seams, 4-6 pixels thick, at approximately y448, y896 and y1344; no other white borders or dividers. Each panel is a separate believable camera photograph, not one continuous garden.\nPanel 1: A small circular flower bed completely encircled by smooth rounded gray stones. Slightly elevated view showing the WHOLE ring of stones, low flowering plants inside, green lawn outside. The stone border is the dominant identifiable subject, with individual natural mineral textures and gaps visible. Keep the entire circular border well away from every panel edge.\nPanel 2: A low solid granite garden bench beside flowering shrubs, with a gravel path behind. One rectangular speckled stone seat rests securely on two broad solid stone supports. Show the complete bench, its two supports and grounded construction, centered with space around all edges. This is genuinely stone, not wood painted gray.\nPanel 3: A shallow ceramic bonsai tray containing a small living tree and one prominent textured limestone rock rising from dark soil beside it. The rock dominates, showing real pores and irregular mineral texture. Show the complete tray, tree and rock; an intimate slightly elevated view, with the rock fully inside the panel and no feature hidden at the seam.\nPanel 4: A small cultivated radish field with orderly parallel rows of leafy green radish plants and visible brown soil between rows. A level visitor path runs alongside, separated from the field by a low wooden boundary rail. A slightly elevated wide view clearly establishes planted farmland, not pots or a lawn. Keep the central patch of crop rows and adjacent path readable and crop-safe.\nStyle: natural photorealistic documentary garden photography, soft daylight, real stone grain, soil crumbs, plausible leaf anatomy, authentic materials and realistic proportions. The four scenes must remain distinct and accurate. Every important subject or complete freestanding object must fit wholly within its own panel, with at least 8 percent safe margin on all sides for cropping, including space above tree crowns and below tray or bench bases. No objects cross seams. No people, hands, children, animals, machinery, signs, printed labels, letters, numbers, captions, watermarks or logos. No cartoon, illustration, CGI, shiny synthetic textures, vertical split, outer frame or additional inset.",
+    "reviewNotes": "Reviewed compact JPEG: complete rounded gray-stone ring around flowering bed; full granite bench on two stone supports beside hydrangeas and gravel; complete bonsai tray with small tree, porous pale rock and some moss over soil; orderly radish rows with red root shoulders visible and a railed visitor path. All four assigned referents present, no text or people. Crops 1008px wide, heights 407/421/412/472px; none below400. Panels slightly unequal despite requested equal heights.",
+    "cuts": [
+      427,
+      868,
+      1300
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 407
+    },
+    "contexts": [
+      {
+        "id": "garden-stone-01-scene0",
+        "label": "围在圆形花坛边的石头",
+        "image": "hanzi-images/realistic-v1/garden-stone-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "garden-stone-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-01_1795398333680_ae3a0977.png",
+    "prompt": "Use case: four photographic covers for a children's garden vocabulary collection. Create ONE portrait 1024x1792 sheet containing exactly FOUR separate full-width landscape photographs stacked vertically in the precise top-to-bottom order below. Give every panel equal height, about 448 pixels. Exactly THREE straight thin white horizontal seams, 4-6 pixels thick, at approximately y448, y896 and y1344; no other white borders or dividers. Each panel is a separate believable camera photograph, not one continuous garden.\nPanel 1: A small circular flower bed completely encircled by smooth rounded gray stones. Slightly elevated view showing the WHOLE ring of stones, low flowering plants inside, green lawn outside. The stone border is the dominant identifiable subject, with individual natural mineral textures and gaps visible. Keep the entire circular border well away from every panel edge.\nPanel 2: A low solid granite garden bench beside flowering shrubs, with a gravel path behind. One rectangular speckled stone seat rests securely on two broad solid stone supports. Show the complete bench, its two supports and grounded construction, centered with space around all edges. This is genuinely stone, not wood painted gray.\nPanel 3: A shallow ceramic bonsai tray containing a small living tree and one prominent textured limestone rock rising from dark soil beside it. The rock dominates, showing real pores and irregular mineral texture. Show the complete tray, tree and rock; an intimate slightly elevated view, with the rock fully inside the panel and no feature hidden at the seam.\nPanel 4: A small cultivated radish field with orderly parallel rows of leafy green radish plants and visible brown soil between rows. A level visitor path runs alongside, separated from the field by a low wooden boundary rail. A slightly elevated wide view clearly establishes planted farmland, not pots or a lawn. Keep the central patch of crop rows and adjacent path readable and crop-safe.\nStyle: natural photorealistic documentary garden photography, soft daylight, real stone grain, soil crumbs, plausible leaf anatomy, authentic materials and realistic proportions. The four scenes must remain distinct and accurate. Every important subject or complete freestanding object must fit wholly within its own panel, with at least 8 percent safe margin on all sides for cropping, including space above tree crowns and below tray or bench bases. No objects cross seams. No people, hands, children, animals, machinery, signs, printed labels, letters, numbers, captions, watermarks or logos. No cartoon, illustration, CGI, shiny synthetic textures, vertical split, outer frame or additional inset.",
+    "reviewNotes": "Reviewed compact JPEG: complete rounded gray-stone ring around flowering bed; full granite bench on two stone supports beside hydrangeas and gravel; complete bonsai tray with small tree, porous pale rock and some moss over soil; orderly radish rows with red root shoulders visible and a railed visitor path. All four assigned referents present, no text or people. Crops 1008px wide, heights 407/421/412/472px; none below400. Panels slightly unequal despite requested equal heights.",
+    "cuts": [
+      427,
+      868,
+      1300
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 437,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "garden-stone-02-scene0",
+        "label": "花木旁的整块石头园凳",
+        "image": "hanzi-images/realistic-v1/garden-stone-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "garden-stone-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-01_1795398333680_ae3a0977.png",
+    "prompt": "Use case: four photographic covers for a children's garden vocabulary collection. Create ONE portrait 1024x1792 sheet containing exactly FOUR separate full-width landscape photographs stacked vertically in the precise top-to-bottom order below. Give every panel equal height, about 448 pixels. Exactly THREE straight thin white horizontal seams, 4-6 pixels thick, at approximately y448, y896 and y1344; no other white borders or dividers. Each panel is a separate believable camera photograph, not one continuous garden.\nPanel 1: A small circular flower bed completely encircled by smooth rounded gray stones. Slightly elevated view showing the WHOLE ring of stones, low flowering plants inside, green lawn outside. The stone border is the dominant identifiable subject, with individual natural mineral textures and gaps visible. Keep the entire circular border well away from every panel edge.\nPanel 2: A low solid granite garden bench beside flowering shrubs, with a gravel path behind. One rectangular speckled stone seat rests securely on two broad solid stone supports. Show the complete bench, its two supports and grounded construction, centered with space around all edges. This is genuinely stone, not wood painted gray.\nPanel 3: A shallow ceramic bonsai tray containing a small living tree and one prominent textured limestone rock rising from dark soil beside it. The rock dominates, showing real pores and irregular mineral texture. Show the complete tray, tree and rock; an intimate slightly elevated view, with the rock fully inside the panel and no feature hidden at the seam.\nPanel 4: A small cultivated radish field with orderly parallel rows of leafy green radish plants and visible brown soil between rows. A level visitor path runs alongside, separated from the field by a low wooden boundary rail. A slightly elevated wide view clearly establishes planted farmland, not pots or a lawn. Keep the central patch of crop rows and adjacent path readable and crop-safe.\nStyle: natural photorealistic documentary garden photography, soft daylight, real stone grain, soil crumbs, plausible leaf anatomy, authentic materials and realistic proportions. The four scenes must remain distinct and accurate. Every important subject or complete freestanding object must fit wholly within its own panel, with at least 8 percent safe margin on all sides for cropping, including space above tree crowns and below tray or bench bases. No objects cross seams. No people, hands, children, animals, machinery, signs, printed labels, letters, numbers, captions, watermarks or logos. No cartoon, illustration, CGI, shiny synthetic textures, vertical split, outer frame or additional inset.",
+    "reviewNotes": "Reviewed compact JPEG: complete rounded gray-stone ring around flowering bed; full granite bench on two stone supports beside hydrangeas and gravel; complete bonsai tray with small tree, porous pale rock and some moss over soil; orderly radish rows with red root shoulders visible and a railed visitor path. All four assigned referents present, no text or people. Crops 1008px wide, heights 407/421/412/472px; none below400. Panels slightly unequal despite requested equal heights.",
+    "cuts": [
+      427,
+      868,
+      1300
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 878,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "garden-stone-03-scene0",
+        "label": "浅盆景里露出的石头",
+        "image": "hanzi-images/realistic-v1/garden-stone-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "stone"
+  },
+  {
+    "id": "garden-field-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-01_1795398333680_ae3a0977.png",
+    "prompt": "Use case: four photographic covers for a children's garden vocabulary collection. Create ONE portrait 1024x1792 sheet containing exactly FOUR separate full-width landscape photographs stacked vertically in the precise top-to-bottom order below. Give every panel equal height, about 448 pixels. Exactly THREE straight thin white horizontal seams, 4-6 pixels thick, at approximately y448, y896 and y1344; no other white borders or dividers. Each panel is a separate believable camera photograph, not one continuous garden.\nPanel 1: A small circular flower bed completely encircled by smooth rounded gray stones. Slightly elevated view showing the WHOLE ring of stones, low flowering plants inside, green lawn outside. The stone border is the dominant identifiable subject, with individual natural mineral textures and gaps visible. Keep the entire circular border well away from every panel edge.\nPanel 2: A low solid granite garden bench beside flowering shrubs, with a gravel path behind. One rectangular speckled stone seat rests securely on two broad solid stone supports. Show the complete bench, its two supports and grounded construction, centered with space around all edges. This is genuinely stone, not wood painted gray.\nPanel 3: A shallow ceramic bonsai tray containing a small living tree and one prominent textured limestone rock rising from dark soil beside it. The rock dominates, showing real pores and irregular mineral texture. Show the complete tray, tree and rock; an intimate slightly elevated view, with the rock fully inside the panel and no feature hidden at the seam.\nPanel 4: A small cultivated radish field with orderly parallel rows of leafy green radish plants and visible brown soil between rows. A level visitor path runs alongside, separated from the field by a low wooden boundary rail. A slightly elevated wide view clearly establishes planted farmland, not pots or a lawn. Keep the central patch of crop rows and adjacent path readable and crop-safe.\nStyle: natural photorealistic documentary garden photography, soft daylight, real stone grain, soil crumbs, plausible leaf anatomy, authentic materials and realistic proportions. The four scenes must remain distinct and accurate. Every important subject or complete freestanding object must fit wholly within its own panel, with at least 8 percent safe margin on all sides for cropping, including space above tree crowns and below tray or bench bases. No objects cross seams. No people, hands, children, animals, machinery, signs, printed labels, letters, numbers, captions, watermarks or logos. No cartoon, illustration, CGI, shiny synthetic textures, vertical split, outer frame or additional inset.",
+    "reviewNotes": "Reviewed compact JPEG: complete rounded gray-stone ring around flowering bed; full granite bench on two stone supports beside hydrangeas and gravel; complete bonsai tray with small tree, porous pale rock and some moss over soil; orderly radish rows with red root shoulders visible and a railed visitor path. All four assigned referents present, no text or people. Crops 1008px wide, heights 407/421/412/472px; none below400. Panels slightly unequal despite requested equal heights.",
+    "cuts": [
+      427,
+      868,
+      1300
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1310,
+      "width": 1008,
+      "height": 472
+    },
+    "contexts": [
+      {
+        "id": "garden-field-01-scene0",
+        "label": "成行种着萝卜的田",
+        "image": "hanzi-images/realistic-v1/garden-field-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "field"
+  },
+  {
+    "id": "garden-field-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-02_1795398444120_6850f0fd.png",
+    "prompt": "Use case: four new photographic garden vocabulary covers. Make ONE 1024x1792 portrait sheet containing exactly FOUR full-width landscape photographs stacked vertically, in this order. Equal-height panels about448px each, separated by exactly THREE straight 4-6px white horizontal seams near y448/896/1344. No vertical dividers, outer border or inset. These are four independent real garden photographs, not a continuous scene.\nPanel 1: Cultivated corn field with several orderly rows of tall green corn plants. Show broad arching leaves and visible tassels, realistic corn anatomy. Brown soil paths between rows are clearly visible in the foreground. A wide slightly elevated view establishes farmland; keep the complete central plants and their tassels within the panel with generous space above and below. Natural morning light, no machines or people.\nPanel 2: Neat rows of mature pale-green cabbages growing directly in a cultivated field. Several unmistakable round cabbage heads with tightly wrapped leaves occupy the central foreground; outer leaves have real veins. Dark soil is visible between rows and a narrow field boundary lies behind. Keep the entire foreground heads within the frame, with natural daylight and real planted geometry. No pots or harvest crates.\nPanel 3: A small living basil herb in one terracotta pot on a plain outdoor potting bench. Slightly elevated close-up emphasizes a broad uncovered surface of loose brown potting soil around the stem. Show the whole circular pot rim, full basil plant and complete pot base, with comfortable margins around them. Real soil crumbs, characteristic paired basil leaves, porous terracotta, shaded daylight. No hands or tools.\nPanel 4: One sturdy rectangular raised garden planter filled with loose dark-brown soil, sitting on level paving in a quiet community garden. View slightly from above to clearly show the broad empty soil surface. A few distant plants outside the planter supply context but do not obscure it. Frame the WHOLE wooden box with all corners, supports and base visible, entirely within its panel. Soil is the main subject; no seedlings growing inside, no label or tools.\nStyle and framing: natural photorealistic camera photography with believable scale, leaf veins, soil grain, realistic construction and soft outdoor light. Every important object stays wholly inside its own panel, at least8 percent crop-safe clearance from every edge, including no cropped crowns, container bottoms or cabbage heads. Background plants may extend naturally beyond the frame but the central referents must remain complete. Do not connect the scenes across the white seams. No people, hands, children, animals, tools, machinery, writing, printed packaging, labels, signs, letters, numbers, captions, watermark or logo anywhere. No cartoon, painting, CGI or plastic-looking foliage. Preserve exactly these four subjects in the specified top-to-bottom order and the clean four-panel horizontal-only layout.",
+    "reviewNotes": "Reviewed compact JPEG: corn rows with tassels and clear soil lanes; round pale-green cabbage heads planted in rows; complete terracotta basil pot with visible crumbly soil around stems; complete rectangular wooden planter on paving with a broad uncovered soil surface. All assigned subjects present; foreground peripheral cabbages/field vegetation continue off-frame but central heads are complete. No text or people. Crop heights425/428/429/430px, width1008; none below400.",
+    "cuts": [
+      445,
+      893,
+      1342
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "garden-field-02-scene0",
+        "label": "成排长着玉米的田",
+        "image": "hanzi-images/realistic-v1/garden-field-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "field"
+  },
+  {
+    "id": "garden-field-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-02_1795398444120_6850f0fd.png",
+    "prompt": "Use case: four new photographic garden vocabulary covers. Make ONE 1024x1792 portrait sheet containing exactly FOUR full-width landscape photographs stacked vertically, in this order. Equal-height panels about448px each, separated by exactly THREE straight 4-6px white horizontal seams near y448/896/1344. No vertical dividers, outer border or inset. These are four independent real garden photographs, not a continuous scene.\nPanel 1: Cultivated corn field with several orderly rows of tall green corn plants. Show broad arching leaves and visible tassels, realistic corn anatomy. Brown soil paths between rows are clearly visible in the foreground. A wide slightly elevated view establishes farmland; keep the complete central plants and their tassels within the panel with generous space above and below. Natural morning light, no machines or people.\nPanel 2: Neat rows of mature pale-green cabbages growing directly in a cultivated field. Several unmistakable round cabbage heads with tightly wrapped leaves occupy the central foreground; outer leaves have real veins. Dark soil is visible between rows and a narrow field boundary lies behind. Keep the entire foreground heads within the frame, with natural daylight and real planted geometry. No pots or harvest crates.\nPanel 3: A small living basil herb in one terracotta pot on a plain outdoor potting bench. Slightly elevated close-up emphasizes a broad uncovered surface of loose brown potting soil around the stem. Show the whole circular pot rim, full basil plant and complete pot base, with comfortable margins around them. Real soil crumbs, characteristic paired basil leaves, porous terracotta, shaded daylight. No hands or tools.\nPanel 4: One sturdy rectangular raised garden planter filled with loose dark-brown soil, sitting on level paving in a quiet community garden. View slightly from above to clearly show the broad empty soil surface. A few distant plants outside the planter supply context but do not obscure it. Frame the WHOLE wooden box with all corners, supports and base visible, entirely within its panel. Soil is the main subject; no seedlings growing inside, no label or tools.\nStyle and framing: natural photorealistic camera photography with believable scale, leaf veins, soil grain, realistic construction and soft outdoor light. Every important object stays wholly inside its own panel, at least8 percent crop-safe clearance from every edge, including no cropped crowns, container bottoms or cabbage heads. Background plants may extend naturally beyond the frame but the central referents must remain complete. Do not connect the scenes across the white seams. No people, hands, children, animals, tools, machinery, writing, printed packaging, labels, signs, letters, numbers, captions, watermark or logo anywhere. No cartoon, painting, CGI or plastic-looking foliage. Preserve exactly these four subjects in the specified top-to-bottom order and the clean four-panel horizontal-only layout.",
+    "reviewNotes": "Reviewed compact JPEG: corn rows with tassels and clear soil lanes; round pale-green cabbage heads planted in rows; complete terracotta basil pot with visible crumbly soil around stems; complete rectangular wooden planter on paving with a broad uncovered soil surface. All assigned subjects present; foreground peripheral cabbages/field vegetation continue off-frame but central heads are complete. No text or people. Crop heights425/428/429/430px, width1008; none below400.",
+    "cuts": [
+      445,
+      893,
+      1342
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 428
+    },
+    "contexts": [
+      {
+        "id": "garden-field-03-scene0",
+        "label": "成片种着卷心菜的田",
+        "image": "hanzi-images/realistic-v1/garden-field-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "field"
+  },
+  {
+    "id": "garden-earth-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-02_1795398444120_6850f0fd.png",
+    "prompt": "Use case: four new photographic garden vocabulary covers. Make ONE 1024x1792 portrait sheet containing exactly FOUR full-width landscape photographs stacked vertically, in this order. Equal-height panels about448px each, separated by exactly THREE straight 4-6px white horizontal seams near y448/896/1344. No vertical dividers, outer border or inset. These are four independent real garden photographs, not a continuous scene.\nPanel 1: Cultivated corn field with several orderly rows of tall green corn plants. Show broad arching leaves and visible tassels, realistic corn anatomy. Brown soil paths between rows are clearly visible in the foreground. A wide slightly elevated view establishes farmland; keep the complete central plants and their tassels within the panel with generous space above and below. Natural morning light, no machines or people.\nPanel 2: Neat rows of mature pale-green cabbages growing directly in a cultivated field. Several unmistakable round cabbage heads with tightly wrapped leaves occupy the central foreground; outer leaves have real veins. Dark soil is visible between rows and a narrow field boundary lies behind. Keep the entire foreground heads within the frame, with natural daylight and real planted geometry. No pots or harvest crates.\nPanel 3: A small living basil herb in one terracotta pot on a plain outdoor potting bench. Slightly elevated close-up emphasizes a broad uncovered surface of loose brown potting soil around the stem. Show the whole circular pot rim, full basil plant and complete pot base, with comfortable margins around them. Real soil crumbs, characteristic paired basil leaves, porous terracotta, shaded daylight. No hands or tools.\nPanel 4: One sturdy rectangular raised garden planter filled with loose dark-brown soil, sitting on level paving in a quiet community garden. View slightly from above to clearly show the broad empty soil surface. A few distant plants outside the planter supply context but do not obscure it. Frame the WHOLE wooden box with all corners, supports and base visible, entirely within its panel. Soil is the main subject; no seedlings growing inside, no label or tools.\nStyle and framing: natural photorealistic camera photography with believable scale, leaf veins, soil grain, realistic construction and soft outdoor light. Every important object stays wholly inside its own panel, at least8 percent crop-safe clearance from every edge, including no cropped crowns, container bottoms or cabbage heads. Background plants may extend naturally beyond the frame but the central referents must remain complete. Do not connect the scenes across the white seams. No people, hands, children, animals, tools, machinery, writing, printed packaging, labels, signs, letters, numbers, captions, watermark or logo anywhere. No cartoon, painting, CGI or plastic-looking foliage. Preserve exactly these four subjects in the specified top-to-bottom order and the clean four-panel horizontal-only layout.",
+    "reviewNotes": "Reviewed compact JPEG: corn rows with tassels and clear soil lanes; round pale-green cabbage heads planted in rows; complete terracotta basil pot with visible crumbly soil around stems; complete rectangular wooden planter on paving with a broad uncovered soil surface. All assigned subjects present; foreground peripheral cabbages/field vegetation continue off-frame but central heads are complete. No text or people. Crop heights425/428/429/430px, width1008; none below400.",
+    "cuts": [
+      445,
+      893,
+      1342
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 903,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "garden-earth-01-scene0",
+        "label": "香草苗旁花盆里露出的土",
+        "image": "hanzi-images/realistic-v1/garden-earth-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "earth"
+  },
+  {
+    "id": "garden-earth-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-02_1795398444120_6850f0fd.png",
+    "prompt": "Use case: four new photographic garden vocabulary covers. Make ONE 1024x1792 portrait sheet containing exactly FOUR full-width landscape photographs stacked vertically, in this order. Equal-height panels about448px each, separated by exactly THREE straight 4-6px white horizontal seams near y448/896/1344. No vertical dividers, outer border or inset. These are four independent real garden photographs, not a continuous scene.\nPanel 1: Cultivated corn field with several orderly rows of tall green corn plants. Show broad arching leaves and visible tassels, realistic corn anatomy. Brown soil paths between rows are clearly visible in the foreground. A wide slightly elevated view establishes farmland; keep the complete central plants and their tassels within the panel with generous space above and below. Natural morning light, no machines or people.\nPanel 2: Neat rows of mature pale-green cabbages growing directly in a cultivated field. Several unmistakable round cabbage heads with tightly wrapped leaves occupy the central foreground; outer leaves have real veins. Dark soil is visible between rows and a narrow field boundary lies behind. Keep the entire foreground heads within the frame, with natural daylight and real planted geometry. No pots or harvest crates.\nPanel 3: A small living basil herb in one terracotta pot on a plain outdoor potting bench. Slightly elevated close-up emphasizes a broad uncovered surface of loose brown potting soil around the stem. Show the whole circular pot rim, full basil plant and complete pot base, with comfortable margins around them. Real soil crumbs, characteristic paired basil leaves, porous terracotta, shaded daylight. No hands or tools.\nPanel 4: One sturdy rectangular raised garden planter filled with loose dark-brown soil, sitting on level paving in a quiet community garden. View slightly from above to clearly show the broad empty soil surface. A few distant plants outside the planter supply context but do not obscure it. Frame the WHOLE wooden box with all corners, supports and base visible, entirely within its panel. Soil is the main subject; no seedlings growing inside, no label or tools.\nStyle and framing: natural photorealistic camera photography with believable scale, leaf veins, soil grain, realistic construction and soft outdoor light. Every important object stays wholly inside its own panel, at least8 percent crop-safe clearance from every edge, including no cropped crowns, container bottoms or cabbage heads. Background plants may extend naturally beyond the frame but the central referents must remain complete. Do not connect the scenes across the white seams. No people, hands, children, animals, tools, machinery, writing, printed packaging, labels, signs, letters, numbers, captions, watermark or logo anywhere. No cartoon, painting, CGI or plastic-looking foliage. Preserve exactly these four subjects in the specified top-to-bottom order and the clean four-panel horizontal-only layout.",
+    "reviewNotes": "Reviewed compact JPEG: corn rows with tassels and clear soil lanes; round pale-green cabbage heads planted in rows; complete terracotta basil pot with visible crumbly soil around stems; complete rectangular wooden planter on paving with a broad uncovered soil surface. All assigned subjects present; foreground peripheral cabbages/field vegetation continue off-frame but central heads are complete. No text or people. Crop heights425/428/429/430px, width1008; none below400.",
+    "cuts": [
+      445,
+      893,
+      1342
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1352,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "garden-earth-02-scene0",
+        "label": "长方形种植箱里松软的土",
+        "image": "hanzi-images/realistic-v1/garden-earth-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "earth"
+  },
+  {
+    "id": "garden-earth-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-03_1795398548119_c2784d01.png",
+    "prompt": "Create four natural photographic garden covers on ONE portrait 1024x1792 image. EXACTLY FOUR full-width landscape photographs stacked top to bottom, each equal height about448px. Exactly THREE thin straight white seams, 4-6px, near y448/896/1344. No vertical division, outer border, inset or captions. Four independent scenes, strict order:\nTop panel: An intact brown root ball resting securely in a shallow plain plastic potting tray beside one empty plant pot. A small leafy plant remains upright in the root ball. Show a broad surface of crumbly brown soil with a few fine pale roots at its sides. The soil ball is the dominant subject, not a tangle of naked roots. Show the whole soil ball, plant, tray and adjacent empty pot with ample margins and shaded garden daylight. No tools or hands.\nSecond panel: A living sunflower in a garden flower bed. One open sunflower head faces the camera, its COMPLETE yellow petal ring and textured brown central disk prominent. Its stem and a few green leaves appear below; a little soil and green garden foliage are softly visible behind. Keep every petal well inside the panel, with at least8 percent safe space around the entire head. Real seed-disk texture, correct plant anatomy, natural sunlight, not a cut flower.\nThird panel: Several open pink climbing rose flowers growing on living leafy stems beside a low garden wall. Focus on a complete central cluster of pink layered flowers, green leaves and natural thin stems. The low wall gives clear garden context. Whole foreground blooms fit within the frame with ample margins. Soft daylight, authentic petal layers. No vase, bouquet, trellis hiding the wall or people.\nBottom panel: Several RED tulip flowers blooming on upright living stems in a cultivated flower bed. Clear cup-shaped red blossoms, green leaves and a small patch of exposed soil. The central flowers and their cup-shaped petals are fully within generous safe margins; include their stems and leaves. Natural morning light, realistic non-glossy petals. They are red tulips, not roses or orange poppies.\nPhotorealistic documentary camera style throughout: real soil crumbs, subtle plant texture, believable proportions, naturally varied green foliage, authentic tray and ceramic materials. Keep the principal freestanding objects and blooms WHOLE inside their own panel, leaving comfortable space above crowns, below bases and to both sides; no object touches or crosses a seam. Background foliage can fall softly out of focus. Separate the photographs cleanly with only the three horizontal white seams. No people, hands, children, animals, tools, printed markings, lettering, digits, signs, labels, captions, logos or watermark. No cartoon, drawing, illustration, CGI, artificial plastic flower look or fabricated anatomy. Prioritize unmistakable soil ball, sunflower flower, pink rose flowers and red tulip flowers in the correct order.",
+    "reviewNotes": "Reviewed compact JPEG: brown cylindrical soil/root ball with fine roots in plastic tray beside empty terracotta pot; full yellow sunflower head on living stem; open pink rose flowers beside low stone wall; clear red cup-shaped tulips in soil bed. All assigned referents present. Topmost foliage in soil-ball photograph approaches frame edge, but soil ball and tray are complete; central blooms complete. No text or people. Crop heights408/424/409/471px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      428,
+      872,
+      1301
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 408
+    },
+    "contexts": [
+      {
+        "id": "garden-earth-03-scene0",
+        "label": "换盆托盘上带着细根的土团",
+        "image": "hanzi-images/realistic-v1/garden-earth-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "earth"
+  },
+  {
+    "id": "garden-flower-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-03_1795398548119_c2784d01.png",
+    "prompt": "Create four natural photographic garden covers on ONE portrait 1024x1792 image. EXACTLY FOUR full-width landscape photographs stacked top to bottom, each equal height about448px. Exactly THREE thin straight white seams, 4-6px, near y448/896/1344. No vertical division, outer border, inset or captions. Four independent scenes, strict order:\nTop panel: An intact brown root ball resting securely in a shallow plain plastic potting tray beside one empty plant pot. A small leafy plant remains upright in the root ball. Show a broad surface of crumbly brown soil with a few fine pale roots at its sides. The soil ball is the dominant subject, not a tangle of naked roots. Show the whole soil ball, plant, tray and adjacent empty pot with ample margins and shaded garden daylight. No tools or hands.\nSecond panel: A living sunflower in a garden flower bed. One open sunflower head faces the camera, its COMPLETE yellow petal ring and textured brown central disk prominent. Its stem and a few green leaves appear below; a little soil and green garden foliage are softly visible behind. Keep every petal well inside the panel, with at least8 percent safe space around the entire head. Real seed-disk texture, correct plant anatomy, natural sunlight, not a cut flower.\nThird panel: Several open pink climbing rose flowers growing on living leafy stems beside a low garden wall. Focus on a complete central cluster of pink layered flowers, green leaves and natural thin stems. The low wall gives clear garden context. Whole foreground blooms fit within the frame with ample margins. Soft daylight, authentic petal layers. No vase, bouquet, trellis hiding the wall or people.\nBottom panel: Several RED tulip flowers blooming on upright living stems in a cultivated flower bed. Clear cup-shaped red blossoms, green leaves and a small patch of exposed soil. The central flowers and their cup-shaped petals are fully within generous safe margins; include their stems and leaves. Natural morning light, realistic non-glossy petals. They are red tulips, not roses or orange poppies.\nPhotorealistic documentary camera style throughout: real soil crumbs, subtle plant texture, believable proportions, naturally varied green foliage, authentic tray and ceramic materials. Keep the principal freestanding objects and blooms WHOLE inside their own panel, leaving comfortable space above crowns, below bases and to both sides; no object touches or crosses a seam. Background foliage can fall softly out of focus. Separate the photographs cleanly with only the three horizontal white seams. No people, hands, children, animals, tools, printed markings, lettering, digits, signs, labels, captions, logos or watermark. No cartoon, drawing, illustration, CGI, artificial plastic flower look or fabricated anatomy. Prioritize unmistakable soil ball, sunflower flower, pink rose flowers and red tulip flowers in the correct order.",
+    "reviewNotes": "Reviewed compact JPEG: brown cylindrical soil/root ball with fine roots in plastic tray beside empty terracotta pot; full yellow sunflower head on living stem; open pink rose flowers beside low stone wall; clear red cup-shaped tulips in soil bed. All assigned referents present. Topmost foliage in soil-ball photograph approaches frame edge, but soil ball and tray are complete; central blooms complete. No text or people. Crop heights408/424/409/471px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      428,
+      872,
+      1301
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 438,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "garden-flower-01-scene0",
+        "label": "花坛里开放的向日葵花",
+        "image": "hanzi-images/realistic-v1/garden-flower-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "garden-flower-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-03_1795398548119_c2784d01.png",
+    "prompt": "Create four natural photographic garden covers on ONE portrait 1024x1792 image. EXACTLY FOUR full-width landscape photographs stacked top to bottom, each equal height about448px. Exactly THREE thin straight white seams, 4-6px, near y448/896/1344. No vertical division, outer border, inset or captions. Four independent scenes, strict order:\nTop panel: An intact brown root ball resting securely in a shallow plain plastic potting tray beside one empty plant pot. A small leafy plant remains upright in the root ball. Show a broad surface of crumbly brown soil with a few fine pale roots at its sides. The soil ball is the dominant subject, not a tangle of naked roots. Show the whole soil ball, plant, tray and adjacent empty pot with ample margins and shaded garden daylight. No tools or hands.\nSecond panel: A living sunflower in a garden flower bed. One open sunflower head faces the camera, its COMPLETE yellow petal ring and textured brown central disk prominent. Its stem and a few green leaves appear below; a little soil and green garden foliage are softly visible behind. Keep every petal well inside the panel, with at least8 percent safe space around the entire head. Real seed-disk texture, correct plant anatomy, natural sunlight, not a cut flower.\nThird panel: Several open pink climbing rose flowers growing on living leafy stems beside a low garden wall. Focus on a complete central cluster of pink layered flowers, green leaves and natural thin stems. The low wall gives clear garden context. Whole foreground blooms fit within the frame with ample margins. Soft daylight, authentic petal layers. No vase, bouquet, trellis hiding the wall or people.\nBottom panel: Several RED tulip flowers blooming on upright living stems in a cultivated flower bed. Clear cup-shaped red blossoms, green leaves and a small patch of exposed soil. The central flowers and their cup-shaped petals are fully within generous safe margins; include their stems and leaves. Natural morning light, realistic non-glossy petals. They are red tulips, not roses or orange poppies.\nPhotorealistic documentary camera style throughout: real soil crumbs, subtle plant texture, believable proportions, naturally varied green foliage, authentic tray and ceramic materials. Keep the principal freestanding objects and blooms WHOLE inside their own panel, leaving comfortable space above crowns, below bases and to both sides; no object touches or crosses a seam. Background foliage can fall softly out of focus. Separate the photographs cleanly with only the three horizontal white seams. No people, hands, children, animals, tools, printed markings, lettering, digits, signs, labels, captions, logos or watermark. No cartoon, drawing, illustration, CGI, artificial plastic flower look or fabricated anatomy. Prioritize unmistakable soil ball, sunflower flower, pink rose flowers and red tulip flowers in the correct order.",
+    "reviewNotes": "Reviewed compact JPEG: brown cylindrical soil/root ball with fine roots in plastic tray beside empty terracotta pot; full yellow sunflower head on living stem; open pink rose flowers beside low stone wall; clear red cup-shaped tulips in soil bed. All assigned referents present. Topmost foliage in soil-ball photograph approaches frame edge, but soil ball and tray are complete; central blooms complete. No text or people. Crop heights408/424/409/471px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      428,
+      872,
+      1301
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 882,
+      "width": 1008,
+      "height": 409
+    },
+    "contexts": [
+      {
+        "id": "garden-flower-02-scene0",
+        "label": "花园矮墙旁开放的蔷薇花",
+        "image": "hanzi-images/realistic-v1/garden-flower-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "garden-flower-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-03_1795398548119_c2784d01.png",
+    "prompt": "Create four natural photographic garden covers on ONE portrait 1024x1792 image. EXACTLY FOUR full-width landscape photographs stacked top to bottom, each equal height about448px. Exactly THREE thin straight white seams, 4-6px, near y448/896/1344. No vertical division, outer border, inset or captions. Four independent scenes, strict order:\nTop panel: An intact brown root ball resting securely in a shallow plain plastic potting tray beside one empty plant pot. A small leafy plant remains upright in the root ball. Show a broad surface of crumbly brown soil with a few fine pale roots at its sides. The soil ball is the dominant subject, not a tangle of naked roots. Show the whole soil ball, plant, tray and adjacent empty pot with ample margins and shaded garden daylight. No tools or hands.\nSecond panel: A living sunflower in a garden flower bed. One open sunflower head faces the camera, its COMPLETE yellow petal ring and textured brown central disk prominent. Its stem and a few green leaves appear below; a little soil and green garden foliage are softly visible behind. Keep every petal well inside the panel, with at least8 percent safe space around the entire head. Real seed-disk texture, correct plant anatomy, natural sunlight, not a cut flower.\nThird panel: Several open pink climbing rose flowers growing on living leafy stems beside a low garden wall. Focus on a complete central cluster of pink layered flowers, green leaves and natural thin stems. The low wall gives clear garden context. Whole foreground blooms fit within the frame with ample margins. Soft daylight, authentic petal layers. No vase, bouquet, trellis hiding the wall or people.\nBottom panel: Several RED tulip flowers blooming on upright living stems in a cultivated flower bed. Clear cup-shaped red blossoms, green leaves and a small patch of exposed soil. The central flowers and their cup-shaped petals are fully within generous safe margins; include their stems and leaves. Natural morning light, realistic non-glossy petals. They are red tulips, not roses or orange poppies.\nPhotorealistic documentary camera style throughout: real soil crumbs, subtle plant texture, believable proportions, naturally varied green foliage, authentic tray and ceramic materials. Keep the principal freestanding objects and blooms WHOLE inside their own panel, leaving comfortable space above crowns, below bases and to both sides; no object touches or crosses a seam. Background foliage can fall softly out of focus. Separate the photographs cleanly with only the three horizontal white seams. No people, hands, children, animals, tools, printed markings, lettering, digits, signs, labels, captions, logos or watermark. No cartoon, drawing, illustration, CGI, artificial plastic flower look or fabricated anatomy. Prioritize unmistakable soil ball, sunflower flower, pink rose flowers and red tulip flowers in the correct order.",
+    "reviewNotes": "Reviewed compact JPEG: brown cylindrical soil/root ball with fine roots in plastic tray beside empty terracotta pot; full yellow sunflower head on living stem; open pink rose flowers beside low stone wall; clear red cup-shaped tulips in soil bed. All assigned referents present. Topmost foliage in soil-ball photograph approaches frame edge, but soil ball and tray are complete; central blooms complete. No text or people. Crop heights408/424/409/471px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      428,
+      872,
+      1301
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1311,
+      "width": 1008,
+      "height": 471
+    },
+    "contexts": [
+      {
+        "id": "garden-flower-03-scene0",
+        "label": "花坛里盛开的红色郁金香花",
+        "image": "hanzi-images/realistic-v1/garden-flower-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "flower"
+  },
+  {
+    "id": "garden-grass-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-04_1795398673444_4f2f4d98.png",
+    "prompt": "Use case: four distinct realistic plant vocabulary cover photographs. ONE portrait1024x1792 sheet, exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panels about448px high, exactly THREE straight 4-6px white horizontal separators near y448/896/1344. No vertical division or outer frame. Follow these four scenes precisely:\nPanel 1: Close garden view of a dense patch of narrow-bladed green grass immediately beside a level red-brown brick path. Long slender individual grass blades are clearly visible in the central foreground. The bricks form one readable edge of the scene; no flowers replace the grass. The focal patch remains away from every edge and is fully visible. Diffuse outdoor daylight and authentic blade texture.\nPanel 2: A broad strip of low green lawn grass running between TWO orderly rows of small flowering garden trees. Slightly elevated wide view gives the grass strip dominant central foreground space, with narrow grass blades visible and two rows of tree trunks and small flowering crowns framing its sides. The nearest complete trees, including crowns, should fit inside the panel with ample margins. Real maintained garden proportions, natural daylight, no machines. The grass must not be replaced by a gravel path.\nPanel 3: Macro photograph of a LIVING strawberry plant in a garden planter, centered on one complete green trifoliate leaf: three distinct serrated leaflets with fine branching veins attached together on a real petiole. Soil is softly visible behind. Include the whole three-part leaf and its serrated edges with generous space around every leaflet. Natural true strawberry leaf anatomy and subtle surface texture; no fruit required, no plucked leaf on a tabletop.\nPanel 4: A COMPLETE round green lotus leaf held above pond water on one upright stalk. Its naturally slightly cupped circular surface and radiating veins are clearly seen from a slightly elevated angle, with garden pond water softly behind. The whole leaf silhouette, all edges and central vein structure must lie comfortably inside this landscape panel. No water lily notch, flower or floating flat leaf; show the stalk descending to water.\nStyle: photorealistic documentary plant photography, true natural leaf veins and textures, realistic brick grain, ordinary soft daylight, credible botanical structure and depth of field. Avoid unnaturally glossy or plastic plants. All important central objects and leaves fit wholly within their own photo panel, with at least8 percent crop-safe margin from all edges. No subject crosses the separators; complete key leaves are more important than extra background detail. Four separately composed scenes in exactly the stated order. No people, hands, children, animals, tools, machinery, signs, text, labels, lettering, digits, captions, watermark or logo. No cartoon, illustration, CGI, inset, decorative border or extra panel. Keep the three white seams thin, straight and continuous from left to right.",
+    "reviewNotes": "Reviewed compact JPEG: long green grass blades beside red-brown brick path; lawn strip between two flowering tree rows; a complete three-leaflet serrated green strawberry leaf over soil; whole round green lotus leaf with radial veins above water on stalk. All assigned referents present, no people or text. Nearest tree crowns extend beyond panel2 top/side edges, so source description changed to trunks and flowering branches rather than complete crowns. Crop heights422/413/412/465px, width1008; none below400.",
+    "cuts": [
+      442,
+      875,
+      1307
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "garden-grass-01-scene0",
+        "label": "花园砖径旁细长叶片的草",
+        "image": "hanzi-images/realistic-v1/garden-grass-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "grass"
+  },
+  {
+    "id": "garden-grass-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-04_1795398673444_4f2f4d98.png",
+    "prompt": "Use case: four distinct realistic plant vocabulary cover photographs. ONE portrait1024x1792 sheet, exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panels about448px high, exactly THREE straight 4-6px white horizontal separators near y448/896/1344. No vertical division or outer frame. Follow these four scenes precisely:\nPanel 1: Close garden view of a dense patch of narrow-bladed green grass immediately beside a level red-brown brick path. Long slender individual grass blades are clearly visible in the central foreground. The bricks form one readable edge of the scene; no flowers replace the grass. The focal patch remains away from every edge and is fully visible. Diffuse outdoor daylight and authentic blade texture.\nPanel 2: A broad strip of low green lawn grass running between TWO orderly rows of small flowering garden trees. Slightly elevated wide view gives the grass strip dominant central foreground space, with narrow grass blades visible and two rows of tree trunks and small flowering crowns framing its sides. The nearest complete trees, including crowns, should fit inside the panel with ample margins. Real maintained garden proportions, natural daylight, no machines. The grass must not be replaced by a gravel path.\nPanel 3: Macro photograph of a LIVING strawberry plant in a garden planter, centered on one complete green trifoliate leaf: three distinct serrated leaflets with fine branching veins attached together on a real petiole. Soil is softly visible behind. Include the whole three-part leaf and its serrated edges with generous space around every leaflet. Natural true strawberry leaf anatomy and subtle surface texture; no fruit required, no plucked leaf on a tabletop.\nPanel 4: A COMPLETE round green lotus leaf held above pond water on one upright stalk. Its naturally slightly cupped circular surface and radiating veins are clearly seen from a slightly elevated angle, with garden pond water softly behind. The whole leaf silhouette, all edges and central vein structure must lie comfortably inside this landscape panel. No water lily notch, flower or floating flat leaf; show the stalk descending to water.\nStyle: photorealistic documentary plant photography, true natural leaf veins and textures, realistic brick grain, ordinary soft daylight, credible botanical structure and depth of field. Avoid unnaturally glossy or plastic plants. All important central objects and leaves fit wholly within their own photo panel, with at least8 percent crop-safe margin from all edges. No subject crosses the separators; complete key leaves are more important than extra background detail. Four separately composed scenes in exactly the stated order. No people, hands, children, animals, tools, machinery, signs, text, labels, lettering, digits, captions, watermark or logo. No cartoon, illustration, CGI, inset, decorative border or extra panel. Keep the three white seams thin, straight and continuous from left to right.",
+    "reviewNotes": "Reviewed compact JPEG: long green grass blades beside red-brown brick path; lawn strip between two flowering tree rows; a complete three-leaflet serrated green strawberry leaf over soil; whole round green lotus leaf with radial veins above water on stalk. All assigned referents present, no people or text. Nearest tree crowns extend beyond panel2 top/side edges, so source description changed to trunks and flowering branches rather than complete crowns. Crop heights422/413/412/465px, width1008; none below400.",
+    "cuts": [
+      442,
+      875,
+      1307
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 452,
+      "width": 1008,
+      "height": 413
+    },
+    "contexts": [
+      {
+        "id": "garden-grass-02-scene0",
+        "label": "两排花树之间成片的草",
+        "image": "hanzi-images/realistic-v1/garden-grass-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "grass"
+  },
+  {
+    "id": "garden-leaf-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-04_1795398673444_4f2f4d98.png",
+    "prompt": "Use case: four distinct realistic plant vocabulary cover photographs. ONE portrait1024x1792 sheet, exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panels about448px high, exactly THREE straight 4-6px white horizontal separators near y448/896/1344. No vertical division or outer frame. Follow these four scenes precisely:\nPanel 1: Close garden view of a dense patch of narrow-bladed green grass immediately beside a level red-brown brick path. Long slender individual grass blades are clearly visible in the central foreground. The bricks form one readable edge of the scene; no flowers replace the grass. The focal patch remains away from every edge and is fully visible. Diffuse outdoor daylight and authentic blade texture.\nPanel 2: A broad strip of low green lawn grass running between TWO orderly rows of small flowering garden trees. Slightly elevated wide view gives the grass strip dominant central foreground space, with narrow grass blades visible and two rows of tree trunks and small flowering crowns framing its sides. The nearest complete trees, including crowns, should fit inside the panel with ample margins. Real maintained garden proportions, natural daylight, no machines. The grass must not be replaced by a gravel path.\nPanel 3: Macro photograph of a LIVING strawberry plant in a garden planter, centered on one complete green trifoliate leaf: three distinct serrated leaflets with fine branching veins attached together on a real petiole. Soil is softly visible behind. Include the whole three-part leaf and its serrated edges with generous space around every leaflet. Natural true strawberry leaf anatomy and subtle surface texture; no fruit required, no plucked leaf on a tabletop.\nPanel 4: A COMPLETE round green lotus leaf held above pond water on one upright stalk. Its naturally slightly cupped circular surface and radiating veins are clearly seen from a slightly elevated angle, with garden pond water softly behind. The whole leaf silhouette, all edges and central vein structure must lie comfortably inside this landscape panel. No water lily notch, flower or floating flat leaf; show the stalk descending to water.\nStyle: photorealistic documentary plant photography, true natural leaf veins and textures, realistic brick grain, ordinary soft daylight, credible botanical structure and depth of field. Avoid unnaturally glossy or plastic plants. All important central objects and leaves fit wholly within their own photo panel, with at least8 percent crop-safe margin from all edges. No subject crosses the separators; complete key leaves are more important than extra background detail. Four separately composed scenes in exactly the stated order. No people, hands, children, animals, tools, machinery, signs, text, labels, lettering, digits, captions, watermark or logo. No cartoon, illustration, CGI, inset, decorative border or extra panel. Keep the three white seams thin, straight and continuous from left to right.",
+    "reviewNotes": "Reviewed compact JPEG: long green grass blades beside red-brown brick path; lawn strip between two flowering tree rows; a complete three-leaflet serrated green strawberry leaf over soil; whole round green lotus leaf with radial veins above water on stalk. All assigned referents present, no people or text. Nearest tree crowns extend beyond panel2 top/side edges, so source description changed to trunks and flowering branches rather than complete crowns. Crop heights422/413/412/465px, width1008; none below400.",
+    "cuts": [
+      442,
+      875,
+      1307
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 885,
+      "width": 1008,
+      "height": 412
+    },
+    "contexts": [
+      {
+        "id": "garden-leaf-01-scene0",
+        "label": "草莓植株上带锯齿的绿叶",
+        "image": "hanzi-images/realistic-v1/garden-leaf-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "leaf"
+  },
+  {
+    "id": "garden-leaf-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-04_1795398673444_4f2f4d98.png",
+    "prompt": "Use case: four distinct realistic plant vocabulary cover photographs. ONE portrait1024x1792 sheet, exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panels about448px high, exactly THREE straight 4-6px white horizontal separators near y448/896/1344. No vertical division or outer frame. Follow these four scenes precisely:\nPanel 1: Close garden view of a dense patch of narrow-bladed green grass immediately beside a level red-brown brick path. Long slender individual grass blades are clearly visible in the central foreground. The bricks form one readable edge of the scene; no flowers replace the grass. The focal patch remains away from every edge and is fully visible. Diffuse outdoor daylight and authentic blade texture.\nPanel 2: A broad strip of low green lawn grass running between TWO orderly rows of small flowering garden trees. Slightly elevated wide view gives the grass strip dominant central foreground space, with narrow grass blades visible and two rows of tree trunks and small flowering crowns framing its sides. The nearest complete trees, including crowns, should fit inside the panel with ample margins. Real maintained garden proportions, natural daylight, no machines. The grass must not be replaced by a gravel path.\nPanel 3: Macro photograph of a LIVING strawberry plant in a garden planter, centered on one complete green trifoliate leaf: three distinct serrated leaflets with fine branching veins attached together on a real petiole. Soil is softly visible behind. Include the whole three-part leaf and its serrated edges with generous space around every leaflet. Natural true strawberry leaf anatomy and subtle surface texture; no fruit required, no plucked leaf on a tabletop.\nPanel 4: A COMPLETE round green lotus leaf held above pond water on one upright stalk. Its naturally slightly cupped circular surface and radiating veins are clearly seen from a slightly elevated angle, with garden pond water softly behind. The whole leaf silhouette, all edges and central vein structure must lie comfortably inside this landscape panel. No water lily notch, flower or floating flat leaf; show the stalk descending to water.\nStyle: photorealistic documentary plant photography, true natural leaf veins and textures, realistic brick grain, ordinary soft daylight, credible botanical structure and depth of field. Avoid unnaturally glossy or plastic plants. All important central objects and leaves fit wholly within their own photo panel, with at least8 percent crop-safe margin from all edges. No subject crosses the separators; complete key leaves are more important than extra background detail. Four separately composed scenes in exactly the stated order. No people, hands, children, animals, tools, machinery, signs, text, labels, lettering, digits, captions, watermark or logo. No cartoon, illustration, CGI, inset, decorative border or extra panel. Keep the three white seams thin, straight and continuous from left to right.",
+    "reviewNotes": "Reviewed compact JPEG: long green grass blades beside red-brown brick path; lawn strip between two flowering tree rows; a complete three-leaflet serrated green strawberry leaf over soil; whole round green lotus leaf with radial veins above water on stalk. All assigned referents present, no people or text. Nearest tree crowns extend beyond panel2 top/side edges, so source description changed to trunks and flowering branches rather than complete crowns. Crop heights422/413/412/465px, width1008; none below400.",
+    "cuts": [
+      442,
+      875,
+      1307
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1317,
+      "width": 1008,
+      "height": 465
+    },
+    "contexts": [
+      {
+        "id": "garden-leaf-02-scene0",
+        "label": "荷花池水面上方的圆荷叶",
+        "image": "hanzi-images/realistic-v1/garden-leaf-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "leaf"
+  },
+  {
+    "id": "garden-leaf-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-05_1795398800424_d21454a8.png",
+    "prompt": "Use case: four photorealistic garden vocabulary covers. Produce ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape camera photographs stacked vertically. Each panel equal height about448px; exactly THREE straight white horizontal seams, 4-6px thick, near y448/896/1344. No vertical dividers, outer border, extra panel or inset. Strict top-to-bottom scenes:\n1. Living mint branch in a garden pot, a close macro view focused on TWO complete green mint leaves in the center. Show serrated margins, wrinkled vein patterns and subtle true plant texture. The leaves remain attached to the branch, with the pot softly blurred behind. Both whole leaf outlines must stay well inside the panel, with space around all edges and soft natural daylight. Not basil or a cut leaf on paper.\n2. Compact clump of living GREEN bamboo beside a level botanical garden path, separated by a low boundary rail. Multiple upright green bamboo culms have CLEAR distinct nodes on their visible lower and middle sections, with leafy bamboo branches above. Wide natural garden view, focused centrally on the node-bearing stalks. Leave clear space around the central stalk group and its leafy branches; background vegetation may continue outside the photograph. No signs, people or decorative bamboo fencing replacing the live plant.\n3. A small sturdy vegetable-bed trellis made from TAN BAMBOO POLES: two upright poles and one horizontal crosspiece, all with unmistakable bamboo nodes. Joints securely tied with simple twine. Small climbing plants below do not obscure the poles or joints. Show the ENTIRE freestanding trellis, including both pole bottoms and the crosspiece ends, centered in this landscape photo with generous margin on every side. Soft daylight, credible garden construction; not metal, smooth wooden dowels or an oversized arch.\n4. A modest living apple tree in a cultivated orchard. Show the ENTIRE tree: grounded woody trunk, branches and leafy crown, with several unmistakable red apples attached. A level visitor path lies beside the planting area, with other orchard trees softly behind. Take a wide enough view that the complete crown and trunk fit comfortably inside the shallow landscape panel, with clear space above and below. Natural daylight, realistic bark and leaf scale. No ladder or harvesting tools.\nVisual style: authentic natural camera photographs, believable dimensions, real leaf veins, bamboo texture and rough bark. Every principal leaf, trellis and apple-tree crown must be complete and contained in its own panel with at least8 percent crop-safe clearance from every edge. Do not let objects touch or cross the white seams. Prioritize the specified botanical referents, not extra props. No people, hands, children, animals, machinery, signs, printed markings, lettering, digits, captions, logos, watermark or labels. No cartoon, illustration, painting, CGI or artificial glossy plants. Only the three thin horizontal white separators, in the stated equal-panel layout.",
+    "reviewNotes": "Reviewed compact JPEG: paired complete strongly veined serrated mint leaves over blurred pot; green bamboo clump with clear nodes beside railed path; tan node-bearing bamboo trellis with two uprights, crossbar and tied joints over climbers; apple tree with woody trunk, leafy crown and attached red apples beside orchard path. All assigned referents present, no text or people. Trellis upright tips approach top seam, offering less margin than requested; central frame and all main joints visible. Crop heights410/416/421/465px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      430,
+      866,
+      1307
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 410
+    },
+    "contexts": [
+      {
+        "id": "garden-leaf-03-scene0",
+        "label": "薄荷枝上纹路清楚的绿叶",
+        "image": "hanzi-images/realistic-v1/garden-leaf-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "leaf"
+  },
+  {
+    "id": "garden-bamboo-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-05_1795398800424_d21454a8.png",
+    "prompt": "Use case: four photorealistic garden vocabulary covers. Produce ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape camera photographs stacked vertically. Each panel equal height about448px; exactly THREE straight white horizontal seams, 4-6px thick, near y448/896/1344. No vertical dividers, outer border, extra panel or inset. Strict top-to-bottom scenes:\n1. Living mint branch in a garden pot, a close macro view focused on TWO complete green mint leaves in the center. Show serrated margins, wrinkled vein patterns and subtle true plant texture. The leaves remain attached to the branch, with the pot softly blurred behind. Both whole leaf outlines must stay well inside the panel, with space around all edges and soft natural daylight. Not basil or a cut leaf on paper.\n2. Compact clump of living GREEN bamboo beside a level botanical garden path, separated by a low boundary rail. Multiple upright green bamboo culms have CLEAR distinct nodes on their visible lower and middle sections, with leafy bamboo branches above. Wide natural garden view, focused centrally on the node-bearing stalks. Leave clear space around the central stalk group and its leafy branches; background vegetation may continue outside the photograph. No signs, people or decorative bamboo fencing replacing the live plant.\n3. A small sturdy vegetable-bed trellis made from TAN BAMBOO POLES: two upright poles and one horizontal crosspiece, all with unmistakable bamboo nodes. Joints securely tied with simple twine. Small climbing plants below do not obscure the poles or joints. Show the ENTIRE freestanding trellis, including both pole bottoms and the crosspiece ends, centered in this landscape photo with generous margin on every side. Soft daylight, credible garden construction; not metal, smooth wooden dowels or an oversized arch.\n4. A modest living apple tree in a cultivated orchard. Show the ENTIRE tree: grounded woody trunk, branches and leafy crown, with several unmistakable red apples attached. A level visitor path lies beside the planting area, with other orchard trees softly behind. Take a wide enough view that the complete crown and trunk fit comfortably inside the shallow landscape panel, with clear space above and below. Natural daylight, realistic bark and leaf scale. No ladder or harvesting tools.\nVisual style: authentic natural camera photographs, believable dimensions, real leaf veins, bamboo texture and rough bark. Every principal leaf, trellis and apple-tree crown must be complete and contained in its own panel with at least8 percent crop-safe clearance from every edge. Do not let objects touch or cross the white seams. Prioritize the specified botanical referents, not extra props. No people, hands, children, animals, machinery, signs, printed markings, lettering, digits, captions, logos, watermark or labels. No cartoon, illustration, painting, CGI or artificial glossy plants. Only the three thin horizontal white separators, in the stated equal-panel layout.",
+    "reviewNotes": "Reviewed compact JPEG: paired complete strongly veined serrated mint leaves over blurred pot; green bamboo clump with clear nodes beside railed path; tan node-bearing bamboo trellis with two uprights, crossbar and tied joints over climbers; apple tree with woody trunk, leafy crown and attached red apples beside orchard path. All assigned referents present, no text or people. Trellis upright tips approach top seam, offering less margin than requested; central frame and all main joints visible. Crop heights410/416/421/465px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      430,
+      866,
+      1307
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 440,
+      "width": 1008,
+      "height": 416
+    },
+    "contexts": [
+      {
+        "id": "garden-bamboo-01-scene0",
+        "label": "植物园步道旁带节的竹丛",
+        "image": "hanzi-images/realistic-v1/garden-bamboo-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bamboo"
+  },
+  {
+    "id": "garden-bamboo-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-05_1795398800424_d21454a8.png",
+    "prompt": "Use case: four photorealistic garden vocabulary covers. Produce ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape camera photographs stacked vertically. Each panel equal height about448px; exactly THREE straight white horizontal seams, 4-6px thick, near y448/896/1344. No vertical dividers, outer border, extra panel or inset. Strict top-to-bottom scenes:\n1. Living mint branch in a garden pot, a close macro view focused on TWO complete green mint leaves in the center. Show serrated margins, wrinkled vein patterns and subtle true plant texture. The leaves remain attached to the branch, with the pot softly blurred behind. Both whole leaf outlines must stay well inside the panel, with space around all edges and soft natural daylight. Not basil or a cut leaf on paper.\n2. Compact clump of living GREEN bamboo beside a level botanical garden path, separated by a low boundary rail. Multiple upright green bamboo culms have CLEAR distinct nodes on their visible lower and middle sections, with leafy bamboo branches above. Wide natural garden view, focused centrally on the node-bearing stalks. Leave clear space around the central stalk group and its leafy branches; background vegetation may continue outside the photograph. No signs, people or decorative bamboo fencing replacing the live plant.\n3. A small sturdy vegetable-bed trellis made from TAN BAMBOO POLES: two upright poles and one horizontal crosspiece, all with unmistakable bamboo nodes. Joints securely tied with simple twine. Small climbing plants below do not obscure the poles or joints. Show the ENTIRE freestanding trellis, including both pole bottoms and the crosspiece ends, centered in this landscape photo with generous margin on every side. Soft daylight, credible garden construction; not metal, smooth wooden dowels or an oversized arch.\n4. A modest living apple tree in a cultivated orchard. Show the ENTIRE tree: grounded woody trunk, branches and leafy crown, with several unmistakable red apples attached. A level visitor path lies beside the planting area, with other orchard trees softly behind. Take a wide enough view that the complete crown and trunk fit comfortably inside the shallow landscape panel, with clear space above and below. Natural daylight, realistic bark and leaf scale. No ladder or harvesting tools.\nVisual style: authentic natural camera photographs, believable dimensions, real leaf veins, bamboo texture and rough bark. Every principal leaf, trellis and apple-tree crown must be complete and contained in its own panel with at least8 percent crop-safe clearance from every edge. Do not let objects touch or cross the white seams. Prioritize the specified botanical referents, not extra props. No people, hands, children, animals, machinery, signs, printed markings, lettering, digits, captions, logos, watermark or labels. No cartoon, illustration, painting, CGI or artificial glossy plants. Only the three thin horizontal white separators, in the stated equal-panel layout.",
+    "reviewNotes": "Reviewed compact JPEG: paired complete strongly veined serrated mint leaves over blurred pot; green bamboo clump with clear nodes beside railed path; tan node-bearing bamboo trellis with two uprights, crossbar and tied joints over climbers; apple tree with woody trunk, leafy crown and attached red apples beside orchard path. All assigned referents present, no text or people. Trellis upright tips approach top seam, offering less margin than requested; central frame and all main joints visible. Crop heights410/416/421/465px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      430,
+      866,
+      1307
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 876,
+      "width": 1008,
+      "height": 421
+    },
+    "contexts": [
+      {
+        "id": "garden-bamboo-02-scene0",
+        "label": "菜畦上用带节竹竿搭成的架子",
+        "image": "hanzi-images/realistic-v1/garden-bamboo-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "bamboo"
+  },
+  {
+    "id": "garden-tree-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-05_1795398800424_d21454a8.png",
+    "prompt": "Use case: four photorealistic garden vocabulary covers. Produce ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape camera photographs stacked vertically. Each panel equal height about448px; exactly THREE straight white horizontal seams, 4-6px thick, near y448/896/1344. No vertical dividers, outer border, extra panel or inset. Strict top-to-bottom scenes:\n1. Living mint branch in a garden pot, a close macro view focused on TWO complete green mint leaves in the center. Show serrated margins, wrinkled vein patterns and subtle true plant texture. The leaves remain attached to the branch, with the pot softly blurred behind. Both whole leaf outlines must stay well inside the panel, with space around all edges and soft natural daylight. Not basil or a cut leaf on paper.\n2. Compact clump of living GREEN bamboo beside a level botanical garden path, separated by a low boundary rail. Multiple upright green bamboo culms have CLEAR distinct nodes on their visible lower and middle sections, with leafy bamboo branches above. Wide natural garden view, focused centrally on the node-bearing stalks. Leave clear space around the central stalk group and its leafy branches; background vegetation may continue outside the photograph. No signs, people or decorative bamboo fencing replacing the live plant.\n3. A small sturdy vegetable-bed trellis made from TAN BAMBOO POLES: two upright poles and one horizontal crosspiece, all with unmistakable bamboo nodes. Joints securely tied with simple twine. Small climbing plants below do not obscure the poles or joints. Show the ENTIRE freestanding trellis, including both pole bottoms and the crosspiece ends, centered in this landscape photo with generous margin on every side. Soft daylight, credible garden construction; not metal, smooth wooden dowels or an oversized arch.\n4. A modest living apple tree in a cultivated orchard. Show the ENTIRE tree: grounded woody trunk, branches and leafy crown, with several unmistakable red apples attached. A level visitor path lies beside the planting area, with other orchard trees softly behind. Take a wide enough view that the complete crown and trunk fit comfortably inside the shallow landscape panel, with clear space above and below. Natural daylight, realistic bark and leaf scale. No ladder or harvesting tools.\nVisual style: authentic natural camera photographs, believable dimensions, real leaf veins, bamboo texture and rough bark. Every principal leaf, trellis and apple-tree crown must be complete and contained in its own panel with at least8 percent crop-safe clearance from every edge. Do not let objects touch or cross the white seams. Prioritize the specified botanical referents, not extra props. No people, hands, children, animals, machinery, signs, printed markings, lettering, digits, captions, logos, watermark or labels. No cartoon, illustration, painting, CGI or artificial glossy plants. Only the three thin horizontal white separators, in the stated equal-panel layout.",
+    "reviewNotes": "Reviewed compact JPEG: paired complete strongly veined serrated mint leaves over blurred pot; green bamboo clump with clear nodes beside railed path; tan node-bearing bamboo trellis with two uprights, crossbar and tied joints over climbers; apple tree with woody trunk, leafy crown and attached red apples beside orchard path. All assigned referents present, no text or people. Trellis upright tips approach top seam, offering less margin than requested; central frame and all main joints visible. Crop heights410/416/421/465px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      430,
+      866,
+      1307
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1317,
+      "width": 1008,
+      "height": 465
+    },
+    "contexts": [
+      {
+        "id": "garden-tree-01-scene0",
+        "label": "果园里长着苹果的树",
+        "image": "hanzi-images/realistic-v1/garden-tree-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tree"
+  },
+  {
+    "id": "garden-tree-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-06_1795398920058_83a123f1.png",
+    "prompt": "Use case: four realistic plant learning cover photos. Make ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight thin white horizontal seams4-6px at approximately y448/896/1344. No vertical divider, outer border, inset or text. Strictly ordered independent scenes:\nPanel1: Small living lemon tree in a LARGE terracotta planter on level courtyard paving. Show its complete woody trunk, branching green crown and several attached YELLOW lemons. The entire tree AND planter, including the pot base, fit comfortably in the landscape panel with space above and below. A quiet courtyard wall gives simple context. Natural soft daylight, real bark and waxy but non-plastic lemon leaves. Do not crop the crown or container.\nPanel2: Newly planted young deciduous tree in a garden soil bed. Whole small leafy crown and woody trunk visible, beside TWO low wooden support stakes with loose protective ties. Stakes sit firmly in the ground and do not form a cage. All of the young tree and its stable supports must be inside the panel, with plenty of space above the crown and below the bases. Real soil texture, natural daylight, no tools or people.\nPanel3: Educational clear-sided growing box containing a LIVING young radish plant in brown soil. Its transparent front wall reveals one pale thickening radish root below the leaves, with branching fine side roots visibly embedded against the soil. Green radish leaves grow above the soil; the root is correctly connected to them. Show the complete rectangular observation box and plant, no diagram, x-ray effect or drawn roots. Soil remains inside the clear box, roots naturally exposed to view through its front. Center the container with wide margins, believable glass or clear plastic reflections, natural shaded daylight. No printed measurement scales.\nPanel4: Small LIVING spider plant supported at the neck of a clear glass hydroponic jar. Arching narrow green leaves above the jar, numerous pale slender ROOTS visibly hanging down through CLEAN WATER inside. The root system must be clear and recognizable, naturally attached to the plant. Show the whole jar, bottom and waterline as well as the complete leaf group, with generous margins. Soft daylight on a plain garden bench, authentic glass reflections. No empty jar, soil, flowers, fish or printed markings.\nVisual style: genuine photorealistic documentary garden photography, real foliage, soil grains, bark and container materials, credible botanical anatomy. Each main plant and complete container stays entirely within its own panel with at least8 percent crop-safe space on every side. Do not touch or cross seams. Clarity of the root systems in panels3 and4 is essential; roots are real physical pale branching strands, not white painted graphics. No people, hands, children, animals, signs, labels, printed markings, lettering, numbers, logos, captions, watermark, machinery or tools. No cartoons, CGI, illustrations, decorative frames or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: terracotta-potted lemon tree with attached yellow fruit and woody trunk; small leafy tree flanked by two low support stakes; clear rectangular soil observation box with RED thickened radish root, pale taproot and fine branching roots; clear water jar with spider-plant leaves and many pale hanging roots. All targets present, no people or text. Radish description corrected from pale thickening root to red thickened radish root and pale taproot. Topmost lemon and spider-plant leaves have limited upper clearance. Crop heights425/430/430/427px, width1008; none below400.",
+    "cuts": [
+      445,
+      895,
+      1345
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 425
+    },
+    "contexts": [
+      {
+        "id": "garden-tree-02-scene0",
+        "label": "庭院大盆里长着的柠檬树",
+        "image": "hanzi-images/realistic-v1/garden-tree-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tree"
+  },
+  {
+    "id": "garden-tree-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-06_1795398920058_83a123f1.png",
+    "prompt": "Use case: four realistic plant learning cover photos. Make ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight thin white horizontal seams4-6px at approximately y448/896/1344. No vertical divider, outer border, inset or text. Strictly ordered independent scenes:\nPanel1: Small living lemon tree in a LARGE terracotta planter on level courtyard paving. Show its complete woody trunk, branching green crown and several attached YELLOW lemons. The entire tree AND planter, including the pot base, fit comfortably in the landscape panel with space above and below. A quiet courtyard wall gives simple context. Natural soft daylight, real bark and waxy but non-plastic lemon leaves. Do not crop the crown or container.\nPanel2: Newly planted young deciduous tree in a garden soil bed. Whole small leafy crown and woody trunk visible, beside TWO low wooden support stakes with loose protective ties. Stakes sit firmly in the ground and do not form a cage. All of the young tree and its stable supports must be inside the panel, with plenty of space above the crown and below the bases. Real soil texture, natural daylight, no tools or people.\nPanel3: Educational clear-sided growing box containing a LIVING young radish plant in brown soil. Its transparent front wall reveals one pale thickening radish root below the leaves, with branching fine side roots visibly embedded against the soil. Green radish leaves grow above the soil; the root is correctly connected to them. Show the complete rectangular observation box and plant, no diagram, x-ray effect or drawn roots. Soil remains inside the clear box, roots naturally exposed to view through its front. Center the container with wide margins, believable glass or clear plastic reflections, natural shaded daylight. No printed measurement scales.\nPanel4: Small LIVING spider plant supported at the neck of a clear glass hydroponic jar. Arching narrow green leaves above the jar, numerous pale slender ROOTS visibly hanging down through CLEAN WATER inside. The root system must be clear and recognizable, naturally attached to the plant. Show the whole jar, bottom and waterline as well as the complete leaf group, with generous margins. Soft daylight on a plain garden bench, authentic glass reflections. No empty jar, soil, flowers, fish or printed markings.\nVisual style: genuine photorealistic documentary garden photography, real foliage, soil grains, bark and container materials, credible botanical anatomy. Each main plant and complete container stays entirely within its own panel with at least8 percent crop-safe space on every side. Do not touch or cross seams. Clarity of the root systems in panels3 and4 is essential; roots are real physical pale branching strands, not white painted graphics. No people, hands, children, animals, signs, labels, printed markings, lettering, numbers, logos, captions, watermark, machinery or tools. No cartoons, CGI, illustrations, decorative frames or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: terracotta-potted lemon tree with attached yellow fruit and woody trunk; small leafy tree flanked by two low support stakes; clear rectangular soil observation box with RED thickened radish root, pale taproot and fine branching roots; clear water jar with spider-plant leaves and many pale hanging roots. All targets present, no people or text. Radish description corrected from pale thickening root to red thickened radish root and pale taproot. Topmost lemon and spider-plant leaves have limited upper clearance. Crop heights425/430/430/427px, width1008; none below400.",
+    "cuts": [
+      445,
+      895,
+      1345
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 455,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "garden-tree-03-scene0",
+        "label": "花园里有支撑的新栽小树",
+        "image": "hanzi-images/realistic-v1/garden-tree-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "tree"
+  },
+  {
+    "id": "garden-root-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-06_1795398920058_83a123f1.png",
+    "prompt": "Use case: four realistic plant learning cover photos. Make ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight thin white horizontal seams4-6px at approximately y448/896/1344. No vertical divider, outer border, inset or text. Strictly ordered independent scenes:\nPanel1: Small living lemon tree in a LARGE terracotta planter on level courtyard paving. Show its complete woody trunk, branching green crown and several attached YELLOW lemons. The entire tree AND planter, including the pot base, fit comfortably in the landscape panel with space above and below. A quiet courtyard wall gives simple context. Natural soft daylight, real bark and waxy but non-plastic lemon leaves. Do not crop the crown or container.\nPanel2: Newly planted young deciduous tree in a garden soil bed. Whole small leafy crown and woody trunk visible, beside TWO low wooden support stakes with loose protective ties. Stakes sit firmly in the ground and do not form a cage. All of the young tree and its stable supports must be inside the panel, with plenty of space above the crown and below the bases. Real soil texture, natural daylight, no tools or people.\nPanel3: Educational clear-sided growing box containing a LIVING young radish plant in brown soil. Its transparent front wall reveals one pale thickening radish root below the leaves, with branching fine side roots visibly embedded against the soil. Green radish leaves grow above the soil; the root is correctly connected to them. Show the complete rectangular observation box and plant, no diagram, x-ray effect or drawn roots. Soil remains inside the clear box, roots naturally exposed to view through its front. Center the container with wide margins, believable glass or clear plastic reflections, natural shaded daylight. No printed measurement scales.\nPanel4: Small LIVING spider plant supported at the neck of a clear glass hydroponic jar. Arching narrow green leaves above the jar, numerous pale slender ROOTS visibly hanging down through CLEAN WATER inside. The root system must be clear and recognizable, naturally attached to the plant. Show the whole jar, bottom and waterline as well as the complete leaf group, with generous margins. Soft daylight on a plain garden bench, authentic glass reflections. No empty jar, soil, flowers, fish or printed markings.\nVisual style: genuine photorealistic documentary garden photography, real foliage, soil grains, bark and container materials, credible botanical anatomy. Each main plant and complete container stays entirely within its own panel with at least8 percent crop-safe space on every side. Do not touch or cross seams. Clarity of the root systems in panels3 and4 is essential; roots are real physical pale branching strands, not white painted graphics. No people, hands, children, animals, signs, labels, printed markings, lettering, numbers, logos, captions, watermark, machinery or tools. No cartoons, CGI, illustrations, decorative frames or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: terracotta-potted lemon tree with attached yellow fruit and woody trunk; small leafy tree flanked by two low support stakes; clear rectangular soil observation box with RED thickened radish root, pale taproot and fine branching roots; clear water jar with spider-plant leaves and many pale hanging roots. All targets present, no people or text. Radish description corrected from pale thickening root to red thickened radish root and pale taproot. Topmost lemon and spider-plant leaves have limited upper clearance. Crop heights425/430/430/427px, width1008; none below400.",
+    "cuts": [
+      445,
+      895,
+      1345
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 905,
+      "width": 1008,
+      "height": 430
+    },
+    "contexts": [
+      {
+        "id": "garden-root-01-scene0",
+        "label": "透明种植观察盒中萝卜的根",
+        "image": "hanzi-images/realistic-v1/garden-root-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "root"
+  },
+  {
+    "id": "garden-root-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-06_1795398920058_83a123f1.png",
+    "prompt": "Use case: four realistic plant learning cover photos. Make ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight thin white horizontal seams4-6px at approximately y448/896/1344. No vertical divider, outer border, inset or text. Strictly ordered independent scenes:\nPanel1: Small living lemon tree in a LARGE terracotta planter on level courtyard paving. Show its complete woody trunk, branching green crown and several attached YELLOW lemons. The entire tree AND planter, including the pot base, fit comfortably in the landscape panel with space above and below. A quiet courtyard wall gives simple context. Natural soft daylight, real bark and waxy but non-plastic lemon leaves. Do not crop the crown or container.\nPanel2: Newly planted young deciduous tree in a garden soil bed. Whole small leafy crown and woody trunk visible, beside TWO low wooden support stakes with loose protective ties. Stakes sit firmly in the ground and do not form a cage. All of the young tree and its stable supports must be inside the panel, with plenty of space above the crown and below the bases. Real soil texture, natural daylight, no tools or people.\nPanel3: Educational clear-sided growing box containing a LIVING young radish plant in brown soil. Its transparent front wall reveals one pale thickening radish root below the leaves, with branching fine side roots visibly embedded against the soil. Green radish leaves grow above the soil; the root is correctly connected to them. Show the complete rectangular observation box and plant, no diagram, x-ray effect or drawn roots. Soil remains inside the clear box, roots naturally exposed to view through its front. Center the container with wide margins, believable glass or clear plastic reflections, natural shaded daylight. No printed measurement scales.\nPanel4: Small LIVING spider plant supported at the neck of a clear glass hydroponic jar. Arching narrow green leaves above the jar, numerous pale slender ROOTS visibly hanging down through CLEAN WATER inside. The root system must be clear and recognizable, naturally attached to the plant. Show the whole jar, bottom and waterline as well as the complete leaf group, with generous margins. Soft daylight on a plain garden bench, authentic glass reflections. No empty jar, soil, flowers, fish or printed markings.\nVisual style: genuine photorealistic documentary garden photography, real foliage, soil grains, bark and container materials, credible botanical anatomy. Each main plant and complete container stays entirely within its own panel with at least8 percent crop-safe space on every side. Do not touch or cross seams. Clarity of the root systems in panels3 and4 is essential; roots are real physical pale branching strands, not white painted graphics. No people, hands, children, animals, signs, labels, printed markings, lettering, numbers, logos, captions, watermark, machinery or tools. No cartoons, CGI, illustrations, decorative frames or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: terracotta-potted lemon tree with attached yellow fruit and woody trunk; small leafy tree flanked by two low support stakes; clear rectangular soil observation box with RED thickened radish root, pale taproot and fine branching roots; clear water jar with spider-plant leaves and many pale hanging roots. All targets present, no people or text. Radish description corrected from pale thickening root to red thickened radish root and pale taproot. Topmost lemon and spider-plant leaves have limited upper clearance. Crop heights425/430/430/427px, width1008; none below400.",
+    "cuts": [
+      445,
+      895,
+      1345
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1355,
+      "width": 1008,
+      "height": 427
+    },
+    "contexts": [
+      {
+        "id": "garden-root-02-scene0",
+        "label": "透明水培瓶中吊兰的根",
+        "image": "hanzi-images/realistic-v1/garden-root-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "root"
+  },
+  {
+    "id": "garden-root-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-07_1795399032230_7e47e7a7.png",
+    "prompt": "Use case: four natural root and new-bud vocabulary photographs. Generate ONE portrait1024x1792 sheet containing exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panel heights about448px, exactly THREE thin straight white horizontal seams4-6px near y448/896/1344. No other borders, vertical splits, inset or writing. Follow these precise scenes:\nPanel1: A living vegetable seedling growing in a CLEAR PLASTIC nursery cup filled with brown soil. Pale fine ROOTS are clearly visible against the soil along the transparent inner side wall, with the seedling's small green leaves above. Show the whole cup from its rim to its bottom and the complete small leaf group, centered with ample margins. Correct connected branching roots, real moist soil crumbs and clear-plastic reflections. No painted root graphics or cutaway diagrams, no printed markings. The root-bearing side wall faces the camera, natural diffuse daylight.\nPanel2: Macro view of a newly opening vegetative BUD on a living rose stem in a garden. Tiny reddish-green folded young leaves emerge at a clear stem node. Show the complete young shoot and some old woody rose stem, garden foliage softly blurred behind. It is a leaf bud, not a pink flower or a large mature leaf. True botanical structure, gentle daylight and comfortable safe margin around the young growth. Do not exaggerate or fill the entire panel with the bud.\nPanel3: A sunflower seed JUST GERMINATING at the soil surface of a nursery pot. A tiny pale-green curved emerging shoot with folded cotyledons rises barely above dark crumbly soil, directly beside a split black-and-pale-striped sunflower seed coat. Very young emerging sprout, not a tall seedling or sunflower blossom. Clearly show the little shoot, its folded cotyledons and opened striped seed shell together, centered with ample space. Real soil scale, seed anatomy and natural light. Pot rim softly in background, no labels or fingers.\nPanel4: Macro view of an opening vegetative BUD at a node on a living woody grapevine in a cultivated garden. Tiny folded pale-green leaves and delicate natural fuzz visible on the short new shoot. Include the old brown vine and soft trellis background, with the COMPLETE little bud centered and crop-safe. No grapes or flowers, no large mature grape leaves replacing the bud. Gentle daylight, true plant texture and connected stem anatomy.\nStyle: genuine photorealistic close-up camera photography, authentic root strands, bark grain, soil and folded-leaf texture. Keep each principal root system, bud or sprout WHOLE inside its own landscape panel, with at least8 percent crop-safe clearance on all sides; no cut tips or object crossing a seam. Distinct independent settings and specified top-to-bottom order. No people, hands, children, animals, tools, printed scales, labels, text, letters, digits, signs, captions, logos, watermark, cartoon, illustration, CGI, x-ray effects or decorative framing. Only the three clean thin white horizontal separators.",
+    "reviewNotes": "Reviewed compact JPEG: full clear nursery cup with brown soil and branching pale roots visible along sidewall below seedling leaves; reddish-green opening leaf bud at rose-stem node; tiny curved sunflower sprout with folded cotyledons beside split striped seed coat on pot soil; fuzzy pale-green unfolding grape bud connected to woody vine with blurred trellis behind. All four targets clear and complete, no people or text. Crop heights422/434/424/432px, width1008; none below400.",
+    "cuts": [
+      442,
+      896,
+      1340
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 422
+    },
+    "contexts": [
+      {
+        "id": "garden-root-03-scene0",
+        "label": "透明育苗杯侧壁可见的细根",
+        "image": "hanzi-images/realistic-v1/garden-root-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "root"
+  },
+  {
+    "id": "garden-sprout-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-07_1795399032230_7e47e7a7.png",
+    "prompt": "Use case: four natural root and new-bud vocabulary photographs. Generate ONE portrait1024x1792 sheet containing exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panel heights about448px, exactly THREE thin straight white horizontal seams4-6px near y448/896/1344. No other borders, vertical splits, inset or writing. Follow these precise scenes:\nPanel1: A living vegetable seedling growing in a CLEAR PLASTIC nursery cup filled with brown soil. Pale fine ROOTS are clearly visible against the soil along the transparent inner side wall, with the seedling's small green leaves above. Show the whole cup from its rim to its bottom and the complete small leaf group, centered with ample margins. Correct connected branching roots, real moist soil crumbs and clear-plastic reflections. No painted root graphics or cutaway diagrams, no printed markings. The root-bearing side wall faces the camera, natural diffuse daylight.\nPanel2: Macro view of a newly opening vegetative BUD on a living rose stem in a garden. Tiny reddish-green folded young leaves emerge at a clear stem node. Show the complete young shoot and some old woody rose stem, garden foliage softly blurred behind. It is a leaf bud, not a pink flower or a large mature leaf. True botanical structure, gentle daylight and comfortable safe margin around the young growth. Do not exaggerate or fill the entire panel with the bud.\nPanel3: A sunflower seed JUST GERMINATING at the soil surface of a nursery pot. A tiny pale-green curved emerging shoot with folded cotyledons rises barely above dark crumbly soil, directly beside a split black-and-pale-striped sunflower seed coat. Very young emerging sprout, not a tall seedling or sunflower blossom. Clearly show the little shoot, its folded cotyledons and opened striped seed shell together, centered with ample space. Real soil scale, seed anatomy and natural light. Pot rim softly in background, no labels or fingers.\nPanel4: Macro view of an opening vegetative BUD at a node on a living woody grapevine in a cultivated garden. Tiny folded pale-green leaves and delicate natural fuzz visible on the short new shoot. Include the old brown vine and soft trellis background, with the COMPLETE little bud centered and crop-safe. No grapes or flowers, no large mature grape leaves replacing the bud. Gentle daylight, true plant texture and connected stem anatomy.\nStyle: genuine photorealistic close-up camera photography, authentic root strands, bark grain, soil and folded-leaf texture. Keep each principal root system, bud or sprout WHOLE inside its own landscape panel, with at least8 percent crop-safe clearance on all sides; no cut tips or object crossing a seam. Distinct independent settings and specified top-to-bottom order. No people, hands, children, animals, tools, printed scales, labels, text, letters, digits, signs, captions, logos, watermark, cartoon, illustration, CGI, x-ray effects or decorative framing. Only the three clean thin white horizontal separators.",
+    "reviewNotes": "Reviewed compact JPEG: full clear nursery cup with brown soil and branching pale roots visible along sidewall below seedling leaves; reddish-green opening leaf bud at rose-stem node; tiny curved sunflower sprout with folded cotyledons beside split striped seed coat on pot soil; fuzzy pale-green unfolding grape bud connected to woody vine with blurred trellis behind. All four targets clear and complete, no people or text. Crop heights422/434/424/432px, width1008; none below400.",
+    "cuts": [
+      442,
+      896,
+      1340
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 452,
+      "width": 1008,
+      "height": 434
+    },
+    "contexts": [
+      {
+        "id": "garden-sprout-01-scene0",
+        "label": "玫瑰枝条上刚展开的嫩芽",
+        "image": "hanzi-images/realistic-v1/garden-sprout-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sprout"
+  },
+  {
+    "id": "garden-sprout-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-07_1795399032230_7e47e7a7.png",
+    "prompt": "Use case: four natural root and new-bud vocabulary photographs. Generate ONE portrait1024x1792 sheet containing exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panel heights about448px, exactly THREE thin straight white horizontal seams4-6px near y448/896/1344. No other borders, vertical splits, inset or writing. Follow these precise scenes:\nPanel1: A living vegetable seedling growing in a CLEAR PLASTIC nursery cup filled with brown soil. Pale fine ROOTS are clearly visible against the soil along the transparent inner side wall, with the seedling's small green leaves above. Show the whole cup from its rim to its bottom and the complete small leaf group, centered with ample margins. Correct connected branching roots, real moist soil crumbs and clear-plastic reflections. No painted root graphics or cutaway diagrams, no printed markings. The root-bearing side wall faces the camera, natural diffuse daylight.\nPanel2: Macro view of a newly opening vegetative BUD on a living rose stem in a garden. Tiny reddish-green folded young leaves emerge at a clear stem node. Show the complete young shoot and some old woody rose stem, garden foliage softly blurred behind. It is a leaf bud, not a pink flower or a large mature leaf. True botanical structure, gentle daylight and comfortable safe margin around the young growth. Do not exaggerate or fill the entire panel with the bud.\nPanel3: A sunflower seed JUST GERMINATING at the soil surface of a nursery pot. A tiny pale-green curved emerging shoot with folded cotyledons rises barely above dark crumbly soil, directly beside a split black-and-pale-striped sunflower seed coat. Very young emerging sprout, not a tall seedling or sunflower blossom. Clearly show the little shoot, its folded cotyledons and opened striped seed shell together, centered with ample space. Real soil scale, seed anatomy and natural light. Pot rim softly in background, no labels or fingers.\nPanel4: Macro view of an opening vegetative BUD at a node on a living woody grapevine in a cultivated garden. Tiny folded pale-green leaves and delicate natural fuzz visible on the short new shoot. Include the old brown vine and soft trellis background, with the COMPLETE little bud centered and crop-safe. No grapes or flowers, no large mature grape leaves replacing the bud. Gentle daylight, true plant texture and connected stem anatomy.\nStyle: genuine photorealistic close-up camera photography, authentic root strands, bark grain, soil and folded-leaf texture. Keep each principal root system, bud or sprout WHOLE inside its own landscape panel, with at least8 percent crop-safe clearance on all sides; no cut tips or object crossing a seam. Distinct independent settings and specified top-to-bottom order. No people, hands, children, animals, tools, printed scales, labels, text, letters, digits, signs, captions, logos, watermark, cartoon, illustration, CGI, x-ray effects or decorative framing. Only the three clean thin white horizontal separators.",
+    "reviewNotes": "Reviewed compact JPEG: full clear nursery cup with brown soil and branching pale roots visible along sidewall below seedling leaves; reddish-green opening leaf bud at rose-stem node; tiny curved sunflower sprout with folded cotyledons beside split striped seed coat on pot soil; fuzzy pale-green unfolding grape bud connected to woody vine with blurred trellis behind. All four targets clear and complete, no people or text. Crop heights422/434/424/432px, width1008; none below400.",
+    "cuts": [
+      442,
+      896,
+      1340
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 906,
+      "width": 1008,
+      "height": 424
+    },
+    "contexts": [
+      {
+        "id": "garden-sprout-02-scene0",
+        "label": "刚顶出土面的向日葵芽",
+        "image": "hanzi-images/realistic-v1/garden-sprout-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sprout"
+  },
+  {
+    "id": "garden-sprout-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-07_1795399032230_7e47e7a7.png",
+    "prompt": "Use case: four natural root and new-bud vocabulary photographs. Generate ONE portrait1024x1792 sheet containing exactly FOUR independent full-width landscape photo panels stacked top to bottom. Equal panel heights about448px, exactly THREE thin straight white horizontal seams4-6px near y448/896/1344. No other borders, vertical splits, inset or writing. Follow these precise scenes:\nPanel1: A living vegetable seedling growing in a CLEAR PLASTIC nursery cup filled with brown soil. Pale fine ROOTS are clearly visible against the soil along the transparent inner side wall, with the seedling's small green leaves above. Show the whole cup from its rim to its bottom and the complete small leaf group, centered with ample margins. Correct connected branching roots, real moist soil crumbs and clear-plastic reflections. No painted root graphics or cutaway diagrams, no printed markings. The root-bearing side wall faces the camera, natural diffuse daylight.\nPanel2: Macro view of a newly opening vegetative BUD on a living rose stem in a garden. Tiny reddish-green folded young leaves emerge at a clear stem node. Show the complete young shoot and some old woody rose stem, garden foliage softly blurred behind. It is a leaf bud, not a pink flower or a large mature leaf. True botanical structure, gentle daylight and comfortable safe margin around the young growth. Do not exaggerate or fill the entire panel with the bud.\nPanel3: A sunflower seed JUST GERMINATING at the soil surface of a nursery pot. A tiny pale-green curved emerging shoot with folded cotyledons rises barely above dark crumbly soil, directly beside a split black-and-pale-striped sunflower seed coat. Very young emerging sprout, not a tall seedling or sunflower blossom. Clearly show the little shoot, its folded cotyledons and opened striped seed shell together, centered with ample space. Real soil scale, seed anatomy and natural light. Pot rim softly in background, no labels or fingers.\nPanel4: Macro view of an opening vegetative BUD at a node on a living woody grapevine in a cultivated garden. Tiny folded pale-green leaves and delicate natural fuzz visible on the short new shoot. Include the old brown vine and soft trellis background, with the COMPLETE little bud centered and crop-safe. No grapes or flowers, no large mature grape leaves replacing the bud. Gentle daylight, true plant texture and connected stem anatomy.\nStyle: genuine photorealistic close-up camera photography, authentic root strands, bark grain, soil and folded-leaf texture. Keep each principal root system, bud or sprout WHOLE inside its own landscape panel, with at least8 percent crop-safe clearance on all sides; no cut tips or object crossing a seam. Distinct independent settings and specified top-to-bottom order. No people, hands, children, animals, tools, printed scales, labels, text, letters, digits, signs, captions, logos, watermark, cartoon, illustration, CGI, x-ray effects or decorative framing. Only the three clean thin white horizontal separators.",
+    "reviewNotes": "Reviewed compact JPEG: full clear nursery cup with brown soil and branching pale roots visible along sidewall below seedling leaves; reddish-green opening leaf bud at rose-stem node; tiny curved sunflower sprout with folded cotyledons beside split striped seed coat on pot soil; fuzzy pale-green unfolding grape bud connected to woody vine with blurred trellis behind. All four targets clear and complete, no people or text. Crop heights422/434/424/432px, width1008; none below400.",
+    "cuts": [
+      442,
+      896,
+      1340
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1350,
+      "width": 1008,
+      "height": 432
+    },
+    "contexts": [
+      {
+        "id": "garden-sprout-03-scene0",
+        "label": "葡萄藤节上刚展开的芽",
+        "image": "hanzi-images/realistic-v1/garden-sprout-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "sprout"
+  },
+  {
+    "id": "garden-seed-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-08_1795399147520_105ba2ea.png",
+    "prompt": "Use case: four photographic seed and seedling covers for a garden learning collection. ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photos stacked vertically. Equal panel height about448px and exactly THREE straight thin white horizontal seams4-6px near y448/896/1344. No vertical division, outside frame, inset, captions or extra panel. Strict top-to-bottom order:\nPanel1: Several DRY WRINKLED PEA SEEDS resting in a shallow plain unmarked nursery tray on a garden potting bench. Roundish pale-green to cream pea seeds, visibly dried and wrinkled, not fresh glossy peas or peas in pods. The complete small seed group is centered and easily readable, with the tray edges around it and soft daylight. Genuine seed wrinkles and natural irregularity, no bags, hands or printed labels.\nPanel2: A MATURE DRIED SUNFLOWER HEAD lying securely in a shallow tray on a garden bench. Its complete round central disk is densely packed with clearly visible dark striped seeds still attached, plus a few dried petal remnants at the rim. The WHOLE head and disk must fit inside this landscape panel with generous margin on every side. Real seed arrangement and dry fibrous texture, not a blooming yellow sunflower or a pile of loose snacks. Slightly elevated close view, soft daylight.\nPanel3: A small SEALED CLEAR STORAGE POUCH containing dry reddish-brown RADISH SEEDS, lying flat in a shallow nursery tray. Pouch is completely UNPRINTED, transparent, securely closed at its top seam. Real small rounded seed shapes visible through clear plastic, the complete pouch lying within ample space and natural garden daylight. No writing, colored label, open bag or human hands. The closed seed pouch is the main subject, not loose seeds scattered on a tabletop.\nPanel4: Several YOUNG TOMATO SEEDLINGS growing in small nursery pots arranged in a tray. Thin little stems and a few characteristic lobed or serrated tomato true leaves above visible dark soil. Clearly small immature plants, not full-grown fruiting vines. Show complete central seedlings and their pot rims and bases, with ample crop-safe space above leaves and below containers. Soft greenhouse daylight, realistic stems, leaves and nursery pot construction. No fruit, flowers, markers, labels or tools.\nStyle: authentic photorealistic camera still-life and garden photography, real seeds, dry plant fibers, soil crumbs, clear plastic and believable botanical anatomy. All primary seeds, sunflower disk, closed pouch and central seedlings must be WHOLE inside their own panels, at least8 percent safe margin from every edge. Nothing crosses a white seam. Four distinct physical scenes in exactly the stated order. No people, hands, children, animals, machinery, signs, text, letters, numbers, printed markings, packaging labels, logos, captions or watermark. No cartoon, illustration, CGI, plastic-looking plants or decorative framing. Keep separators straight, thin and horizontal only.",
+    "reviewNotes": "Reviewed compact JPEG: wrinkled pale-green/cream dry pea seeds in plain tray; whole dried sunflower disk densely packed with attached dark elongated seeds and dry rim; complete sealed unprinted clear pouch of rounded reddish-brown radish seeds in tray; young tomato seedlings in small pots with thin stems and true leaves, no fruit. All targets present, no text or people. Sunflower seed striping is subtle at preview scale. Crop heights408/446/399/459px, width1008; garden-seed-03 cover is399px high, below400 but above required300. Panels slightly unequal.",
+    "cuts": [
+      428,
+      894,
+      1313
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 408
+    },
+    "contexts": [
+      {
+        "id": "garden-seed-01-scene0",
+        "label": "育苗托盘里干燥的豌豆种子",
+        "image": "hanzi-images/realistic-v1/garden-seed-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seed"
+  },
+  {
+    "id": "garden-seed-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-08_1795399147520_105ba2ea.png",
+    "prompt": "Use case: four photographic seed and seedling covers for a garden learning collection. ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photos stacked vertically. Equal panel height about448px and exactly THREE straight thin white horizontal seams4-6px near y448/896/1344. No vertical division, outside frame, inset, captions or extra panel. Strict top-to-bottom order:\nPanel1: Several DRY WRINKLED PEA SEEDS resting in a shallow plain unmarked nursery tray on a garden potting bench. Roundish pale-green to cream pea seeds, visibly dried and wrinkled, not fresh glossy peas or peas in pods. The complete small seed group is centered and easily readable, with the tray edges around it and soft daylight. Genuine seed wrinkles and natural irregularity, no bags, hands or printed labels.\nPanel2: A MATURE DRIED SUNFLOWER HEAD lying securely in a shallow tray on a garden bench. Its complete round central disk is densely packed with clearly visible dark striped seeds still attached, plus a few dried petal remnants at the rim. The WHOLE head and disk must fit inside this landscape panel with generous margin on every side. Real seed arrangement and dry fibrous texture, not a blooming yellow sunflower or a pile of loose snacks. Slightly elevated close view, soft daylight.\nPanel3: A small SEALED CLEAR STORAGE POUCH containing dry reddish-brown RADISH SEEDS, lying flat in a shallow nursery tray. Pouch is completely UNPRINTED, transparent, securely closed at its top seam. Real small rounded seed shapes visible through clear plastic, the complete pouch lying within ample space and natural garden daylight. No writing, colored label, open bag or human hands. The closed seed pouch is the main subject, not loose seeds scattered on a tabletop.\nPanel4: Several YOUNG TOMATO SEEDLINGS growing in small nursery pots arranged in a tray. Thin little stems and a few characteristic lobed or serrated tomato true leaves above visible dark soil. Clearly small immature plants, not full-grown fruiting vines. Show complete central seedlings and their pot rims and bases, with ample crop-safe space above leaves and below containers. Soft greenhouse daylight, realistic stems, leaves and nursery pot construction. No fruit, flowers, markers, labels or tools.\nStyle: authentic photorealistic camera still-life and garden photography, real seeds, dry plant fibers, soil crumbs, clear plastic and believable botanical anatomy. All primary seeds, sunflower disk, closed pouch and central seedlings must be WHOLE inside their own panels, at least8 percent safe margin from every edge. Nothing crosses a white seam. Four distinct physical scenes in exactly the stated order. No people, hands, children, animals, machinery, signs, text, letters, numbers, printed markings, packaging labels, logos, captions or watermark. No cartoon, illustration, CGI, plastic-looking plants or decorative framing. Keep separators straight, thin and horizontal only.",
+    "reviewNotes": "Reviewed compact JPEG: wrinkled pale-green/cream dry pea seeds in plain tray; whole dried sunflower disk densely packed with attached dark elongated seeds and dry rim; complete sealed unprinted clear pouch of rounded reddish-brown radish seeds in tray; young tomato seedlings in small pots with thin stems and true leaves, no fruit. All targets present, no text or people. Sunflower seed striping is subtle at preview scale. Crop heights408/446/399/459px, width1008; garden-seed-03 cover is399px high, below400 but above required300. Panels slightly unequal.",
+    "cuts": [
+      428,
+      894,
+      1313
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 438,
+      "width": 1008,
+      "height": 446
+    },
+    "contexts": [
+      {
+        "id": "garden-seed-02-scene0",
+        "label": "成熟向日葵花盘里密排的种子",
+        "image": "hanzi-images/realistic-v1/garden-seed-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seed"
+  },
+  {
+    "id": "garden-seed-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-08_1795399147520_105ba2ea.png",
+    "prompt": "Use case: four photographic seed and seedling covers for a garden learning collection. ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photos stacked vertically. Equal panel height about448px and exactly THREE straight thin white horizontal seams4-6px near y448/896/1344. No vertical division, outside frame, inset, captions or extra panel. Strict top-to-bottom order:\nPanel1: Several DRY WRINKLED PEA SEEDS resting in a shallow plain unmarked nursery tray on a garden potting bench. Roundish pale-green to cream pea seeds, visibly dried and wrinkled, not fresh glossy peas or peas in pods. The complete small seed group is centered and easily readable, with the tray edges around it and soft daylight. Genuine seed wrinkles and natural irregularity, no bags, hands or printed labels.\nPanel2: A MATURE DRIED SUNFLOWER HEAD lying securely in a shallow tray on a garden bench. Its complete round central disk is densely packed with clearly visible dark striped seeds still attached, plus a few dried petal remnants at the rim. The WHOLE head and disk must fit inside this landscape panel with generous margin on every side. Real seed arrangement and dry fibrous texture, not a blooming yellow sunflower or a pile of loose snacks. Slightly elevated close view, soft daylight.\nPanel3: A small SEALED CLEAR STORAGE POUCH containing dry reddish-brown RADISH SEEDS, lying flat in a shallow nursery tray. Pouch is completely UNPRINTED, transparent, securely closed at its top seam. Real small rounded seed shapes visible through clear plastic, the complete pouch lying within ample space and natural garden daylight. No writing, colored label, open bag or human hands. The closed seed pouch is the main subject, not loose seeds scattered on a tabletop.\nPanel4: Several YOUNG TOMATO SEEDLINGS growing in small nursery pots arranged in a tray. Thin little stems and a few characteristic lobed or serrated tomato true leaves above visible dark soil. Clearly small immature plants, not full-grown fruiting vines. Show complete central seedlings and their pot rims and bases, with ample crop-safe space above leaves and below containers. Soft greenhouse daylight, realistic stems, leaves and nursery pot construction. No fruit, flowers, markers, labels or tools.\nStyle: authentic photorealistic camera still-life and garden photography, real seeds, dry plant fibers, soil crumbs, clear plastic and believable botanical anatomy. All primary seeds, sunflower disk, closed pouch and central seedlings must be WHOLE inside their own panels, at least8 percent safe margin from every edge. Nothing crosses a white seam. Four distinct physical scenes in exactly the stated order. No people, hands, children, animals, machinery, signs, text, letters, numbers, printed markings, packaging labels, logos, captions or watermark. No cartoon, illustration, CGI, plastic-looking plants or decorative framing. Keep separators straight, thin and horizontal only.",
+    "reviewNotes": "Reviewed compact JPEG: wrinkled pale-green/cream dry pea seeds in plain tray; whole dried sunflower disk densely packed with attached dark elongated seeds and dry rim; complete sealed unprinted clear pouch of rounded reddish-brown radish seeds in tray; young tomato seedlings in small pots with thin stems and true leaves, no fruit. All targets present, no text or people. Sunflower seed striping is subtle at preview scale. Crop heights408/446/399/459px, width1008; garden-seed-03 cover is399px high, below400 but above required300. Panels slightly unequal.",
+    "cuts": [
+      428,
+      894,
+      1313
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 399
+    },
+    "contexts": [
+      {
+        "id": "garden-seed-03-scene0",
+        "label": "透明封口资料袋里的萝卜种子",
+        "image": "hanzi-images/realistic-v1/garden-seed-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seed"
+  },
+  {
+    "id": "garden-seedling-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-08_1795399147520_105ba2ea.png",
+    "prompt": "Use case: four photographic seed and seedling covers for a garden learning collection. ONE portrait1024x1792 sheet with exactly FOUR separate full-width landscape photos stacked vertically. Equal panel height about448px and exactly THREE straight thin white horizontal seams4-6px near y448/896/1344. No vertical division, outside frame, inset, captions or extra panel. Strict top-to-bottom order:\nPanel1: Several DRY WRINKLED PEA SEEDS resting in a shallow plain unmarked nursery tray on a garden potting bench. Roundish pale-green to cream pea seeds, visibly dried and wrinkled, not fresh glossy peas or peas in pods. The complete small seed group is centered and easily readable, with the tray edges around it and soft daylight. Genuine seed wrinkles and natural irregularity, no bags, hands or printed labels.\nPanel2: A MATURE DRIED SUNFLOWER HEAD lying securely in a shallow tray on a garden bench. Its complete round central disk is densely packed with clearly visible dark striped seeds still attached, plus a few dried petal remnants at the rim. The WHOLE head and disk must fit inside this landscape panel with generous margin on every side. Real seed arrangement and dry fibrous texture, not a blooming yellow sunflower or a pile of loose snacks. Slightly elevated close view, soft daylight.\nPanel3: A small SEALED CLEAR STORAGE POUCH containing dry reddish-brown RADISH SEEDS, lying flat in a shallow nursery tray. Pouch is completely UNPRINTED, transparent, securely closed at its top seam. Real small rounded seed shapes visible through clear plastic, the complete pouch lying within ample space and natural garden daylight. No writing, colored label, open bag or human hands. The closed seed pouch is the main subject, not loose seeds scattered on a tabletop.\nPanel4: Several YOUNG TOMATO SEEDLINGS growing in small nursery pots arranged in a tray. Thin little stems and a few characteristic lobed or serrated tomato true leaves above visible dark soil. Clearly small immature plants, not full-grown fruiting vines. Show complete central seedlings and their pot rims and bases, with ample crop-safe space above leaves and below containers. Soft greenhouse daylight, realistic stems, leaves and nursery pot construction. No fruit, flowers, markers, labels or tools.\nStyle: authentic photorealistic camera still-life and garden photography, real seeds, dry plant fibers, soil crumbs, clear plastic and believable botanical anatomy. All primary seeds, sunflower disk, closed pouch and central seedlings must be WHOLE inside their own panels, at least8 percent safe margin from every edge. Nothing crosses a white seam. Four distinct physical scenes in exactly the stated order. No people, hands, children, animals, machinery, signs, text, letters, numbers, printed markings, packaging labels, logos, captions or watermark. No cartoon, illustration, CGI, plastic-looking plants or decorative framing. Keep separators straight, thin and horizontal only.",
+    "reviewNotes": "Reviewed compact JPEG: wrinkled pale-green/cream dry pea seeds in plain tray; whole dried sunflower disk densely packed with attached dark elongated seeds and dry rim; complete sealed unprinted clear pouch of rounded reddish-brown radish seeds in tray; young tomato seedlings in small pots with thin stems and true leaves, no fruit. All targets present, no text or people. Sunflower seed striping is subtle at preview scale. Crop heights408/446/399/459px, width1008; garden-seed-03 cover is399px high, below400 but above required300. Panels slightly unequal.",
+    "cuts": [
+      428,
+      894,
+      1313
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1323,
+      "width": 1008,
+      "height": 459
+    },
+    "contexts": [
+      {
+        "id": "garden-seedling-01-scene0",
+        "label": "育苗小盆里长着的番茄苗",
+        "image": "hanzi-images/realistic-v1/garden-seedling-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seedling"
+  },
+  {
+    "id": "garden-seedling-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-09_1795399263085_8f426c9d.png",
+    "prompt": "Use case: four natural garden and seedling photographic covers. Make ONE portrait1024x1792 image containing exactly FOUR independent full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight white horizontal seams4-6px near y448/896/1344. No vertical split, outer border, inset or writing. Precise top-to-bottom scenes:\nPanel1: A nursery tray of YOUNG LETTUCE SEEDLINGS in separate soil-filled cells. Each tiny plant has a short small cluster of soft PALE-GREEN lettuce leaves above visible brown soil. Clearly immature little lettuce plants, not large cabbage heads or mature lettuces. Frame a complete central group of cells and whole little plants with generous margin around leaves and tray edges. Soft greenhouse daylight, true leaf texture and credible nursery-cell construction. No hands, tools or markers.\nPanel2: ONE small young CHRYSANTHEMUM plant in a small nursery flower pot, not yet flowering. A short little stem and several fresh LOBED green chrysanthemum leaves above exposed potting soil. No flowers, no developed flower buds. The whole immature plant, leaf group, pot rim and pot base fit comfortably inside this landscape panel. Center it on a quiet flower-nursery bench with blurred foliage behind, authentic leaf veins, soft natural daylight and ample margins.\nPanel3: A wide photograph of a SMALL CULTIVATED HERB GARDEN, showing the whole place. Several orderly planting beds of rosemary, mint and basil separated by level visitor paths, with low boundaries around beds. A simple open entrance is visible, no sign. Slightly elevated viewpoint shows the coherent garden layout and readable herb foliage; enough foreground and surrounding space to keep the central beds fully framed. Natural daylight and realistic construction, not just one potted herb.\nPanel4: A SMALL COMMUNITY VEGETABLE GARDEN in a quiet courtyard. Several rectangular beds of leafy vegetables, level paths between them, and an open viewing space along one side. Modest courtyard walls provide context. Show the coherent complete planted garden layout, with the central foreground beds entirely within the frame and generous margins. Real soil, plant proportions and ordinary outdoor daylight. Distinct from the herb garden: vegetable beds and courtyard setting, not pots or a park lawn.\nStyle: authentic photorealistic camera photography with realistic leaf veins, soft irregular foliage, soil crumbs and plain nursery materials. Whole principal seedlings and pots stay inside their own panel with at least8 percent crop-safe space from all edges. Wide garden panels should clearly establish a whole planted place, not an isolated close-up. Keep all four scenes independent and in the exact stated order, with nothing crossing the three white horizontal seams. No people, hands, children, animals, tools, machinery, labels, printed markings, signs, letters, numbers, captions, logos or watermarks. No cartoon, illustration, CGI, plastic plant appearance, decorative frame or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: pale-green lettuce seedlings in separate nursery tray cells with visible soil; complete small potted chrysanthemum with lobed leaves and no flowers or developed buds; coherent herb garden with woody rosemary-like herbs, basil/mint beds, level paths, low woven boundaries and open entrance; courtyard vegetable garden with rectangular leafy beds, paths and open viewing space against modest walls. All assigned subjects present, no people or text. Crop heights406/448/429/429px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      426,
+      894,
+      1343
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 406
+    },
+    "contexts": [
+      {
+        "id": "garden-seedling-02-scene0",
+        "label": "育苗盘里浅绿的生菜苗",
+        "image": "hanzi-images/realistic-v1/garden-seedling-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seedling"
+  },
+  {
+    "id": "garden-seedling-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-09_1795399263085_8f426c9d.png",
+    "prompt": "Use case: four natural garden and seedling photographic covers. Make ONE portrait1024x1792 image containing exactly FOUR independent full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight white horizontal seams4-6px near y448/896/1344. No vertical split, outer border, inset or writing. Precise top-to-bottom scenes:\nPanel1: A nursery tray of YOUNG LETTUCE SEEDLINGS in separate soil-filled cells. Each tiny plant has a short small cluster of soft PALE-GREEN lettuce leaves above visible brown soil. Clearly immature little lettuce plants, not large cabbage heads or mature lettuces. Frame a complete central group of cells and whole little plants with generous margin around leaves and tray edges. Soft greenhouse daylight, true leaf texture and credible nursery-cell construction. No hands, tools or markers.\nPanel2: ONE small young CHRYSANTHEMUM plant in a small nursery flower pot, not yet flowering. A short little stem and several fresh LOBED green chrysanthemum leaves above exposed potting soil. No flowers, no developed flower buds. The whole immature plant, leaf group, pot rim and pot base fit comfortably inside this landscape panel. Center it on a quiet flower-nursery bench with blurred foliage behind, authentic leaf veins, soft natural daylight and ample margins.\nPanel3: A wide photograph of a SMALL CULTIVATED HERB GARDEN, showing the whole place. Several orderly planting beds of rosemary, mint and basil separated by level visitor paths, with low boundaries around beds. A simple open entrance is visible, no sign. Slightly elevated viewpoint shows the coherent garden layout and readable herb foliage; enough foreground and surrounding space to keep the central beds fully framed. Natural daylight and realistic construction, not just one potted herb.\nPanel4: A SMALL COMMUNITY VEGETABLE GARDEN in a quiet courtyard. Several rectangular beds of leafy vegetables, level paths between them, and an open viewing space along one side. Modest courtyard walls provide context. Show the coherent complete planted garden layout, with the central foreground beds entirely within the frame and generous margins. Real soil, plant proportions and ordinary outdoor daylight. Distinct from the herb garden: vegetable beds and courtyard setting, not pots or a park lawn.\nStyle: authentic photorealistic camera photography with realistic leaf veins, soft irregular foliage, soil crumbs and plain nursery materials. Whole principal seedlings and pots stay inside their own panel with at least8 percent crop-safe space from all edges. Wide garden panels should clearly establish a whole planted place, not an isolated close-up. Keep all four scenes independent and in the exact stated order, with nothing crossing the three white horizontal seams. No people, hands, children, animals, tools, machinery, labels, printed markings, signs, letters, numbers, captions, logos or watermarks. No cartoon, illustration, CGI, plastic plant appearance, decorative frame or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: pale-green lettuce seedlings in separate nursery tray cells with visible soil; complete small potted chrysanthemum with lobed leaves and no flowers or developed buds; coherent herb garden with woody rosemary-like herbs, basil/mint beds, level paths, low woven boundaries and open entrance; courtyard vegetable garden with rectangular leafy beds, paths and open viewing space against modest walls. All assigned subjects present, no people or text. Crop heights406/448/429/429px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      426,
+      894,
+      1343
+    ],
+    "panelIndex": 1,
+    "crop": {
+      "left": 8,
+      "top": 436,
+      "width": 1008,
+      "height": 448
+    },
+    "contexts": [
+      {
+        "id": "garden-seedling-03-scene0",
+        "label": "小花盆里尚未开花的菊花苗",
+        "image": "hanzi-images/realistic-v1/garden-seedling-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "seedling"
+  },
+  {
+    "id": "garden-garden-01",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-09_1795399263085_8f426c9d.png",
+    "prompt": "Use case: four natural garden and seedling photographic covers. Make ONE portrait1024x1792 image containing exactly FOUR independent full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight white horizontal seams4-6px near y448/896/1344. No vertical split, outer border, inset or writing. Precise top-to-bottom scenes:\nPanel1: A nursery tray of YOUNG LETTUCE SEEDLINGS in separate soil-filled cells. Each tiny plant has a short small cluster of soft PALE-GREEN lettuce leaves above visible brown soil. Clearly immature little lettuce plants, not large cabbage heads or mature lettuces. Frame a complete central group of cells and whole little plants with generous margin around leaves and tray edges. Soft greenhouse daylight, true leaf texture and credible nursery-cell construction. No hands, tools or markers.\nPanel2: ONE small young CHRYSANTHEMUM plant in a small nursery flower pot, not yet flowering. A short little stem and several fresh LOBED green chrysanthemum leaves above exposed potting soil. No flowers, no developed flower buds. The whole immature plant, leaf group, pot rim and pot base fit comfortably inside this landscape panel. Center it on a quiet flower-nursery bench with blurred foliage behind, authentic leaf veins, soft natural daylight and ample margins.\nPanel3: A wide photograph of a SMALL CULTIVATED HERB GARDEN, showing the whole place. Several orderly planting beds of rosemary, mint and basil separated by level visitor paths, with low boundaries around beds. A simple open entrance is visible, no sign. Slightly elevated viewpoint shows the coherent garden layout and readable herb foliage; enough foreground and surrounding space to keep the central beds fully framed. Natural daylight and realistic construction, not just one potted herb.\nPanel4: A SMALL COMMUNITY VEGETABLE GARDEN in a quiet courtyard. Several rectangular beds of leafy vegetables, level paths between them, and an open viewing space along one side. Modest courtyard walls provide context. Show the coherent complete planted garden layout, with the central foreground beds entirely within the frame and generous margins. Real soil, plant proportions and ordinary outdoor daylight. Distinct from the herb garden: vegetable beds and courtyard setting, not pots or a park lawn.\nStyle: authentic photorealistic camera photography with realistic leaf veins, soft irregular foliage, soil crumbs and plain nursery materials. Whole principal seedlings and pots stay inside their own panel with at least8 percent crop-safe space from all edges. Wide garden panels should clearly establish a whole planted place, not an isolated close-up. Keep all four scenes independent and in the exact stated order, with nothing crossing the three white horizontal seams. No people, hands, children, animals, tools, machinery, labels, printed markings, signs, letters, numbers, captions, logos or watermarks. No cartoon, illustration, CGI, plastic plant appearance, decorative frame or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: pale-green lettuce seedlings in separate nursery tray cells with visible soil; complete small potted chrysanthemum with lobed leaves and no flowers or developed buds; coherent herb garden with woody rosemary-like herbs, basil/mint beds, level paths, low woven boundaries and open entrance; courtyard vegetable garden with rectangular leafy beds, paths and open viewing space against modest walls. All assigned subjects present, no people or text. Crop heights406/448/429/429px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      426,
+      894,
+      1343
+    ],
+    "panelIndex": 2,
+    "crop": {
+      "left": 8,
+      "top": 904,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "garden-garden-01-scene0",
+        "label": "分畦种着香草的园子",
+        "image": "hanzi-images/realistic-v1/garden-garden-01-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  },
+  {
+    "id": "garden-garden-02",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-09_1795399263085_8f426c9d.png",
+    "prompt": "Use case: four natural garden and seedling photographic covers. Make ONE portrait1024x1792 image containing exactly FOUR independent full-width landscape photographs stacked vertically, equal-height panels about448px. Exactly THREE straight white horizontal seams4-6px near y448/896/1344. No vertical split, outer border, inset or writing. Precise top-to-bottom scenes:\nPanel1: A nursery tray of YOUNG LETTUCE SEEDLINGS in separate soil-filled cells. Each tiny plant has a short small cluster of soft PALE-GREEN lettuce leaves above visible brown soil. Clearly immature little lettuce plants, not large cabbage heads or mature lettuces. Frame a complete central group of cells and whole little plants with generous margin around leaves and tray edges. Soft greenhouse daylight, true leaf texture and credible nursery-cell construction. No hands, tools or markers.\nPanel2: ONE small young CHRYSANTHEMUM plant in a small nursery flower pot, not yet flowering. A short little stem and several fresh LOBED green chrysanthemum leaves above exposed potting soil. No flowers, no developed flower buds. The whole immature plant, leaf group, pot rim and pot base fit comfortably inside this landscape panel. Center it on a quiet flower-nursery bench with blurred foliage behind, authentic leaf veins, soft natural daylight and ample margins.\nPanel3: A wide photograph of a SMALL CULTIVATED HERB GARDEN, showing the whole place. Several orderly planting beds of rosemary, mint and basil separated by level visitor paths, with low boundaries around beds. A simple open entrance is visible, no sign. Slightly elevated viewpoint shows the coherent garden layout and readable herb foliage; enough foreground and surrounding space to keep the central beds fully framed. Natural daylight and realistic construction, not just one potted herb.\nPanel4: A SMALL COMMUNITY VEGETABLE GARDEN in a quiet courtyard. Several rectangular beds of leafy vegetables, level paths between them, and an open viewing space along one side. Modest courtyard walls provide context. Show the coherent complete planted garden layout, with the central foreground beds entirely within the frame and generous margins. Real soil, plant proportions and ordinary outdoor daylight. Distinct from the herb garden: vegetable beds and courtyard setting, not pots or a park lawn.\nStyle: authentic photorealistic camera photography with realistic leaf veins, soft irregular foliage, soil crumbs and plain nursery materials. Whole principal seedlings and pots stay inside their own panel with at least8 percent crop-safe space from all edges. Wide garden panels should clearly establish a whole planted place, not an isolated close-up. Keep all four scenes independent and in the exact stated order, with nothing crossing the three white horizontal seams. No people, hands, children, animals, tools, machinery, labels, printed markings, signs, letters, numbers, captions, logos or watermarks. No cartoon, illustration, CGI, plastic plant appearance, decorative frame or additional panels.",
+    "reviewNotes": "Reviewed compact JPEG: pale-green lettuce seedlings in separate nursery tray cells with visible soil; complete small potted chrysanthemum with lobed leaves and no flowers or developed buds; coherent herb garden with woody rosemary-like herbs, basil/mint beds, level paths, low woven boundaries and open entrance; courtyard vegetable garden with rectangular leafy beds, paths and open viewing space against modest walls. All assigned subjects present, no people or text. Crop heights406/448/429/429px, width1008; none below400. Panels slightly unequal.",
+    "cuts": [
+      426,
+      894,
+      1343
+    ],
+    "panelIndex": 3,
+    "crop": {
+      "left": 8,
+      "top": 1353,
+      "width": 1008,
+      "height": 429
+    },
+    "contexts": [
+      {
+        "id": "garden-garden-02-scene0",
+        "label": "社区院落里分畦种菜的园子",
+        "image": "hanzi-images/realistic-v1/garden-garden-02-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  },
+  {
+    "id": "garden-garden-03",
+    "sourcePath": "E:/gitlab-ai/cartoon-books/vibe_images/hanzi-expanded-garden-v2-10_1795399391997_e4bae9a6.png",
+    "prompt": "Use case: one final spring bulb garden cover in the top panel, with three unassigned neutral garden photographs below. Create ONE portrait1024x1792 sheet containing exactly FOUR full-width independent landscape photographs stacked top to bottom, all equal height about448px. Exactly THREE thin straight white horizontal seams4-6px at approximately y448/896/1344. No vertical divider, outside border, inset or text. The first scene is essential, all three lower panels remain separate neutral gardens:\nPanel1 TOP: Wide natural photograph of a CULTIVATED SPRING BULB GARDEN containing separate planted beds of blooming TULIPS AND DAFFODILS. Both flower types must be visibly present and botanically clear: upright cup-shaped red/pink tulips in one bed, yellow daffodils with star-shaped petals and central trumpet cups in another bed. A LEVEL CURVING VISITOR PATH connects the beds, with low planted boundaries defining the coherent garden as a whole place. Slightly elevated wide camera angle shows complete central foreground beds, the curved path and surrounding greenery, not a close-up bouquet. Flowers remain growing in soil on their stems with natural green leaves. Keep main beds and readable central blooms comfortably inside the landscape panel with abundant crop-safe margins. Soft realistic spring daylight, true plant scale and petal texture. No signs or people.\nPanel2: Neutral quiet herb garden corner with a rectangular bed of rosemary and small mint plants beside a level gravel path. Simple low planted boundary, coherent real garden setting, no props or specific learning task. Slightly elevated wide view in natural daylight, center the complete main planting bed with space around it. Do not reuse the top tulip/daffodil composition.\nPanel3: Neutral ornamental garden scene with low green shrubs and a small bed of modest white flowers beside a plain level stone path. Wide natural camera photograph, real foliage, believable planting geometry and gentle daylight. The central low planted bed is complete within the panel with generous clearance from edges. No person, bench, tools or marker.\nPanel4: Neutral community garden corner with a simple rectangular raised planter of young leafy greens on level paving, surrounded by low greenery. Show the complete planter and small living plants in soft natural daylight with generous margins. No produce display, labels or gardening tools. This panel is not assigned a story.\nStyle: authentic photorealistic garden documentary photographs with real soil, leaf veins, stone texture and natural light, not cartoons, paintings or CGI. Keep all important objects and central beds wholly within their own panels with at least8 percent safe margin from every edge; nothing crosses a seam. Four clearly separate scenes in the specified order. No people, hands, children, animals, text, signs, labels, lettering, numbers, printed markings, captions, watermarks, logos or machinery. Use only the three straight thin white horizontal separators.",
+    "reviewNotes": "Reviewed compact JPEG: top panel clearly shows cultivated spring garden with separate red tulip and yellow trumpet-centered daffodil beds, low green edging and a curving level path. Both required flower types present. Lower unassigned panels show rosemary/mint-like herb bed beside gravel, rounded shrubs and white flowers beside stone path, and complete rectangular raised planter of leafy greens on paving. No text or people. Top assigned crop419px high; remaining434/424/435px, all1008px wide and none below400. Only top panel assigned to garden-garden-03.",
+    "cuts": [
+      439,
+      893,
+      1337
+    ],
+    "panelIndex": 0,
+    "crop": {
+      "left": 8,
+      "top": 10,
+      "width": 1008,
+      "height": 419
+    },
+    "contexts": [
+      {
+        "id": "garden-garden-03-scene0",
+        "label": "种着郁金香和水仙的花园",
+        "image": "hanzi-images/realistic-v1/garden-garden-03-0.jpg"
+      }
+    ],
+    "reuseBaseId": "garden"
+  }
+]

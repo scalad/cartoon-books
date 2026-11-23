@@ -53,12 +53,13 @@ function record(state, overrides = {}) {
   return value;
 }
 
-test('100 freely selectable stories preserve the original 48 characters and supply three contexts', () => {
-  assert.equal(lessons.length, 100);
+test('500 freely selectable stories preserve the original characters and supply three contexts', () => {
+  assert.equal(lessons.length, 500);
   assert.equal(lessons.slice(0,48).map(lesson => lesson.char).join(''), '水木山火日月云雨石田土米花草叶竹鸟虫鱼兔牛羊马狗口目耳手门窗灯床衣帽包伞瓜果豆面车桥路店贝沙网舟');
-  assert.equal(new Set(lessons.map(lesson => lesson.id)).size, 100);
+  assert.equal(new Set(lessons.map(lesson => lesson.id)).size, 500);
   assert.equal(new Set(lessons.map(lesson => lesson.char)).size, 100);
-  assert.equal(new Set(lessons.flatMap(lesson => lesson.contexts.map(context => context.id))).size, 300);
+  assert.equal(new Set(lessons.map(lesson => lesson.title)).size, 500);
+  assert.equal(new Set(lessons.flatMap(lesson => lesson.contexts.map(context => context.id))).size, 1500);
   for (const lesson of lessons) {
     for (const field of ['pinyin','title','region','partner','item','mission','meaning','actionLabel','actionResult','application','ending','cloze','homeTip']) {
       assert.equal(typeof lesson[field], 'string');
@@ -70,9 +71,46 @@ test('100 freely selectable stories preserve the original 48 characters and supp
     assert.equal(lesson.contexts.length, 3);
     assert.equal(new Set(lesson.contexts.map(context => context.id)).size, 3);
     assert.ok(lesson.contexts.every(context => typeof context.label === 'string' && context.label.length));
-    assert.equal(lesson.contentVersion, lessons.indexOf(lesson) < 48 ? '2026-11-21' : '2026-11-22');
+    const index = lessons.indexOf(lesson);
+    assert.equal(lesson.contentVersion, index < 48 ? '2026-11-21' : index < 100 ? '2026-11-22' : '2026-11-23');
     assert.equal(lesson.reviewStatus, 'draft');
   }
+});
+
+test('original 100 story records remain byte-for-byte equivalent after expansion', () => {
+  const hash = require('node:crypto').createHash('sha256').update(JSON.stringify(lessons.slice(0,100))).digest('hex');
+  assert.equal(hash,'aca6d754d9bf9043a7519900f6b9ea34bbf81b29f0fc8895f41b8a9d87ce9f90');
+});
+
+test('browser and Node load the same 500-story catalog in the declared script order', () => {
+  const html = fs.readFileSync(path.join(__dirname,'hanzi.html'),'utf8');
+  const files = [...html.matchAll(/<script defer src="([^"]+)"/g)].map(match => match[1]);
+  const context = {window:{}};
+  vm.createContext(context);
+  for (const file of files.filter(file => file === 'hanzi-data.js' || file === 'hanzi-more-data.js' || file.startsWith('hanzi-scenes-'))) {
+    vm.runInContext(fs.readFileSync(path.join(__dirname,file),'utf8'),context,{filename:file});
+  }
+  assert.equal(JSON.stringify(context.window.HanziLessons),JSON.stringify(lessons));
+});
+
+test('new scene stories keep matching characters, distinct covers and explicit reused observation scenes', () => {
+  const hashes = new Set();
+  for (const lesson of lessons) {
+    const source = lesson.contexts[0].image || `hanzi-images/realistic-v1/${lesson.id}-0.jpg`;
+    hashes.add(require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(__dirname,source))).digest('hex'));
+    if (!lesson.baseId) continue;
+    const base = lessons.slice(0,100).find(item => item.id === lesson.baseId);
+    assert.ok(base,lesson.id);
+    assert.equal(lesson.char,base.char);
+    assert.equal(lesson.pinyin,base.pinyin);
+    assert.equal(lesson.meaning,base.meaning);
+    assert.equal(lesson.contexts[0].image,`hanzi-images/realistic-v1/${lesson.id}-0.jpg`);
+    for (const index of [1,2]) {
+      assert.equal(lesson.contexts[index].image,`hanzi-images/realistic-v1/${base.id}-${index}.jpg`);
+      assert.equal(lesson.contexts[index].label,base.contexts[index].label);
+    }
+  }
+  assert.equal(hashes.size,500,'every story has its own independently generated cover');
 });
 
 test('12 ordered four-lesson regions cover nature, people and everyday life', () => {
@@ -107,7 +145,7 @@ test('all module scripts parse and every lesson has three distinct local photogr
   for (const file of ['hanzi-data.js','hanzi-core.js','hanzi-art.js','hanzi-play.js','hanzi.js']) {
     assert.doesNotThrow(() => new vm.Script(fs.readFileSync(path.join(__dirname,file),'utf8')));
   }
-  const context = {window:{}};
+  const context = {window:{HanziLessons:lessons}};
   vm.runInNewContext(fs.readFileSync(path.join(__dirname,'hanzi-art.js'),'utf8'),context);
   const assets = new Set();
   const checkPhoto = markup => {
@@ -115,7 +153,7 @@ test('all module scripts parse and every lesson has three distinct local photogr
     assert.match(markup, /alt=""/);
     assert.doesNotMatch(markup, /undefined|NaN|<svg|https?:/);
     const src = markup.match(/src="([^"]+)"/)[1];
-    assert.match(src, /^hanzi-images\/realistic-v1\/[a-z]+(?:-[012])?\.jpg$/);
+    assert.match(src, /^hanzi-images\/realistic-v1\/[a-z0-9-]+-[012]\.jpg$/);
     const bytes = fs.readFileSync(path.join(__dirname,src));
     assert.equal(bytes.readUInt16BE(0),0xffd8,`${src} must be JPEG`);
     assert.equal(bytes.readUInt16BE(bytes.length-2),0xffd9,`${src} must be complete`);
@@ -131,7 +169,8 @@ test('all module scripts parse and every lesson has three distinct local photogr
       offset += 2 + bytes.readUInt16BE(offset+2);
     }
     assert.ok(dimensions,`${src} must contain image dimensions`);
-    assert.ok(dimensions.width >= 1000 && dimensions.height >= 400,`${src} must be high resolution`);
+    const minimumHeight = /\/(?:nature|garden|animals|senses|home|kitchen|travel|seaside|workshop|community)-/.test(src) ? 300 : 400;
+    assert.ok(dimensions.width >= 1000 && dimensions.height >= minimumHeight,`${src} must have adequate scene resolution`);
     assets.add(require('node:crypto').createHash('sha256').update(bytes).digest('hex'));
   };
   for (const lesson of lessons) {
@@ -142,12 +181,12 @@ test('all module scripts parse and every lesson has three distinct local photogr
       assert.match(icon, /loading="lazy"/);
       const scene = context.window.HanziArt.scene(lesson.id,index);
       assert.match(scene, /scene-art/);
-      assert.ok(scene.includes(`/${lesson.id}-${index}.jpg`));
+      assert.ok(scene.includes(lesson.contexts[index].image || `/${lesson.id}-${index}.jpg`));
       assert.doesNotMatch(scene, /loading="lazy"/);
     }
   }
   assert.equal(context.window.HanziArt.island,undefined);
-  assert.equal(assets.size,300,'Every teaching photo must be distinct');
+  assert.equal(assets.size,700,'300 original scenes and 400 unique covers; additional observation pictures intentionally reuse originals');
   const index = fs.readFileSync(path.join(__dirname,'index.html'),'utf8');
   assert.match(index, /data-mode="hanzi" onclick="setHanziView\(true\)"/);
   assert.match(index, /frame.src = 'hanzi.html'/);
@@ -189,7 +228,7 @@ test('scene, gameplay and search filters intersect without moving or hiding avai
   vm.runInContext(source.slice(source.indexOf('function renderTales('),source.indexOf('function openGate(')),context);
   const count = () => (nodes['story-grid'].innerHTML.match(/class="tale-card /g) || []).length;
   context.renderTales();
-  assert.equal(count(),100);
+  assert.equal(count(),500);
   context.sceneFilter = lessons.at(-1).sceneCategory;
   context.renderTales();
   assert.equal(count(),lessons.filter(lesson => lesson.sceneCategory === context.sceneFilter).length);
@@ -202,7 +241,7 @@ test('scene, gameplay and search filters intersect without moving or hiding avai
   context.search = '不存在的故事内容'; context.renderTales();
   assert.equal(count(),0); assert.equal(nodes['filter-empty'].hidden,false);
   context.search = ''; context.renderTales();
-  assert.equal(count(),100); assert.equal(nodes['filter-empty'].hidden,true);
+  assert.equal(count(),500); assert.equal(nodes['filter-empty'].hidden,true);
   assert.doesNotMatch(nodes['story-grid'].innerHTML,/disabled/);
 });
 
@@ -255,6 +294,7 @@ test('all stories have a concrete game and exactly one of ten scene categories',
   const playground = require('./hanzi-play.js');
   const categories = ['自然探索','花园种植','动物朋友','身体感官','温暖的家','美味厨房','出行交通','海边发现','创作工坊','社区游玩'];
   assert.deepEqual([...new Set(lessons.map(lesson => lesson.sceneCategory))].sort(),categories.sort());
+  for (const category of categories) assert.equal(lessons.filter(lesson => lesson.sceneCategory === category).length,50,category);
   assert.deepEqual([...new Set(lessons.map(lesson => lesson.game.type))].sort(),Object.keys(playground.labels).sort());
   for (const lesson of lessons) {
     const game = lesson.game;
@@ -341,7 +381,7 @@ test('reveal games show all three distinct scenes with two freely ordered tiles 
     assert.equal((html.match(/class="play-board play-reveal-board"/g) || []).length,3,lesson.id);
     assert.equal((html.match(/data-action="play-reveal"/g) || []).length,6,lesson.id);
     lesson.contexts.forEach((context,index) => {
-      assert.ok(html.includes(`${lesson.id}-${index}.jpg`),`${lesson.id} scene ${index}`);
+      assert.ok(html.includes(context.image || `${lesson.id}-${index}.jpg`),`${lesson.id} scene ${index}`);
       assert.ok(lesson.game.spots[index * 2].includes(context.label));
     });
   }
@@ -394,9 +434,19 @@ test('photo provenance covers every lesson exactly once', () => {
     assert.ok(typeof entry.sourcePath === 'string' && entry.sourcePath.endsWith('.png'));
     assert.ok(entry.prompt === null || (typeof entry.prompt === 'string' && entry.prompt.length > 100));
     assert.ok(entry.reviewNotes && !/pending|require visual review/i.test(entry.reviewNotes));
-    assert.equal(entry.cuts.length,2);
+    assert.ok(fs.existsSync(entry.sourcePath),`${entry.id} retains its original PNG`);
     assert.ok(entry.cuts.every(Number.isInteger));
-    assert.ok(entry.cuts[0] > 400 && entry.cuts[1] > entry.cuts[0] + 400 && entry.cuts[1] < 1392);
+    if (entry.reuseBaseId) {
+      assert.equal(entry.cuts.length,3);
+      assert.ok(lessons.slice(0,100).some(lesson => lesson.id === entry.reuseBaseId));
+      assert.ok(Number.isInteger(entry.panelIndex) && entry.panelIndex >= 0 && entry.panelIndex < 4);
+      assert.ok(entry.crop.width >= 1000 && entry.crop.height >= 300);
+      assert.ok(typeof entry.prompt === 'string' && entry.prompt.length > 100);
+      assert.equal(entry.contexts[0].image,`hanzi-images/realistic-v1/${entry.id}-0.jpg`);
+    } else {
+      assert.equal(entry.cuts.length,2);
+      assert.ok(entry.cuts[0] > 400 && entry.cuts[1] > entry.cuts[0] + 400 && entry.cuts[1] < 1392);
+    }
   }
 });
 
@@ -875,7 +925,7 @@ test('nextLesson picks the first incomplete real lesson and does not teach distr
 
 test('shuffledChoices produces distinct target plus varying known distractors and both orders', () => {
   const before = JSON.stringify(lessons);
-  const alternatives = lessons.filter(lesson => lesson.id !== target.id);
+  const alternatives = lessons.filter(lesson => lesson.id !== target.id && lesson.char !== target.char);
   const seen = new Set();
   for (let index = 0; index < alternatives.length; index++) {
     const draws = [(index + 0.1) / alternatives.length, 0.9];
@@ -894,6 +944,24 @@ test('shuffledChoices produces distinct target plus varying known distractors an
     assert.ok(choices.includes(target.id));
     assert.ok(choices.every(id => lessons.some(lesson => lesson.id === id)));
   }
+});
+
+test('same-character scene stories cannot appear as incorrect listening choices', () => {
+  for (const lesson of lessons) {
+    for (const draw of [0,0.4,0.9,1]) {
+      const choices = core.shuffledChoices(lesson.id,lessons,() => draw);
+      assert.equal(choices.length,2,lesson.id);
+      assert.ok(choices.includes(lesson.id));
+      const chars = choices.map(id => lessons.find(item => item.id === id).char);
+      assert.equal(new Set(chars).size,2,`${lesson.id} choices need different characters`);
+    }
+  }
+  const sameChar = lessons.slice(100).find(lesson => lesson.char === target.char);
+  assert.ok(sameChar);
+  assert.deepEqual(core.shuffledChoices(target.id,[target,sameChar]),[]);
+  const state = stateWithConsent();
+  core.recordAttempt(state,attempt());
+  assert.equal(core.evidenceFor(state,sameChar.id,'audio_shape').status,'unseen','evidence belongs to the story actually attempted');
 });
 
 test('choices handle missing targets, insufficient lessons and duplicate catalog entries', () => {
